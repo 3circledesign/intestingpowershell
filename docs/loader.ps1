@@ -1,19 +1,17 @@
-# URL to mapping JSON
-$mapUrl = "https://CrabBerjoget.github.io/ps-patches/index.json"
-$map = irm $mapUrl
+# Read patch ID from environment variable
+$patchID = $env:PATCHID
 
-# Get the patch ID from argument
-if ($args.Count -eq 0) {
-    Write-Host "Usage: loader.ps1 <patchID>"
+if (-not $patchID) {
+    Write-Host "Please set environment variable PATCHID"
     exit
 }
 
-$patchID = $args[0]
+$mapUrl = "https://crabberjoget.github.io/intestingpowershell/index.json"
+$map = irm $mapUrl
 
 if (-not $map.$patchID) {
     Write-Host "Patch ID '$patchID' not found."
     exit
 }
 
-# Download and run the patch
 irm $map.$patchID | iex
