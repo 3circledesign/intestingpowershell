@@ -1,0 +1,5 @@
+Golf It
+Method: fuzzy
+Proposed: 571740
+Chosen: 571740
+Score: 100.0
