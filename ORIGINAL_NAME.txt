@@ -1,0 +1,5 @@
+HUMANKIND
+Method: fuzzy
+Proposed: 1124300
+Chosen: 1124300
+Score: 49.5
