@@ -1,0 +1,5 @@
+FATAL FURY City of the Wolves
+Method: fuzzy
+Proposed: 2492040
+Chosen: 2492040
+Score: 100.0
