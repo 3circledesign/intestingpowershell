@@ -1,0 +1,5 @@
+Taora Survival
+Method: fuzzy
+Proposed: 2165470
+Chosen: 2165470
+Score: 66.5
