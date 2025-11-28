@@ -1,0 +1,5 @@
+PAY DAY 3 - Tested OK
+Method: fuzzy
+Proposed: 1272080
+Chosen: 1272080
+Score: 56.82
