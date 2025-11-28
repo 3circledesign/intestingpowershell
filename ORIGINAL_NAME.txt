@@ -1,0 +1,5 @@
+The Mosquito Gang
+Method: fuzzy
+Proposed: 2811100
+Chosen: 2811100
+Score: 55.33
