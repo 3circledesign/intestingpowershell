@@ -1,0 +1,5 @@
+Schedule 1 Online - Tested OK
+Method: fuzzy
+Proposed: 3164500
+Chosen: 3164500
+Score: 72.0
