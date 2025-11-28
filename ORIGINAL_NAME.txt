@@ -1,0 +1,5 @@
+Contain
+Method: fuzzy
+Proposed: 2186700
+Chosen: 2186700
+Score: 100.0
