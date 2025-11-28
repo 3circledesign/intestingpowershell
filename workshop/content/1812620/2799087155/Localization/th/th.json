@@ -1,0 +1,1079 @@
+{
+  "AppCommandArgs_FileLocationNotFound": {
+    "Value": "พบชื่อเกมแต่ไม่พบที่อยู่ไฟล์"
+  },
+  "AppCommandArgs_GameNameNotFound": {
+    "Value": "ไม่พบชื่อเกมแต่พบที่อยู่ไฟล์"
+  },
+  "AppCommandArgs_NoParamersFound": {
+    "Value": "ไม่พบตัวแปร"
+  },
+  "AppCommandArgs_Playing": {
+    "Value": "กำลังเล่น:"
+  },
+  "AppNotificationLabel_AutoConnectedToController": {
+    "Value": "เชื่อมกับคอนโทรลเลอร์อัตโนมัติสำเร็จ!"
+  },
+  "AppNotificationLabel_AutoConnectingToController": {
+    "Value": "กำลังเชื่อมกับคอนโทรลเลอร์อัตโนมัติ"
+  },
+  "AppNotificationLabel_ConnectedToController": {
+    "Value": "เชื่อมกับคอนโทรลเลอร์สำเร็จ!"
+  },
+  "AppNotificationLabel_ConnectionLost": {
+    "Value": "ขาดการเชื่อมต่อ. กำลังค้นหาคอนโทรลเลอร์..."
+  },
+  "AppNotificationLabel_ConnectionLostAttemptingToRconnect": {
+    "Value": "ขาดการเชื่อมต่อ. พยายามเชื่อมต่อใหม่"
+  },
+  "AppNotificationLabel_FailedToAutoConnect": {
+    "Value": "การเชื่อมต่ออัตโนมัติล้มเหลว. กรุณาตรวจสอบการเชื่อมต่อ!"
+  },
+  "AppNotificationLabel_FailedToRconnect": {
+    "Value": "การเชื่อมต่อล้มเหลว. กรุณาตรวจสอบการเชื่อมต่อ!"
+  },
+  "AppNotificationLabel_ReconnectedToController": {
+    "Value": "เชื่อมต่อใหม่กับคอนโทรลเลอร์สำเร็จ!"
+  },
+  "AppNotificationLabel_SearchingForController": {
+    "Value": "กำลังค้นหาคอนโทรลเลอร์..."
+  },
+  "AppNotificationPopUp_AreYouSureYouWantToExit": {
+    "Value": "แน่ใจหรือไม่ว่าคุณต้องการที่จะปิดแอป?"
+  },
+  "AppNotificationPopUp_Cancel": {
+    "Value": "ยกเลิก"
+  },
+  "AppNotificationPopUp_DownloadUpdate": {
+    "Value": "กำลังดาวน์โหลดอัปเดต…"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsDualShock4": {
+    "Value": "คอนโทรลเลอร์ DualSense จะไม่ถูกอ่านเป็นคอนโทรลเลอร์ Dualshock 4 หลังจากคุณออกจากแอป!"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsXbox": {
+    "Value": "คอนโทรลเลอร์ DualSense จะไม่ถูกอ่านเป็นคอนโทรลเลอร์ Xbox หลังจากคุณออกจากแอป!"
+  },
+  "AppNotificationPopUp_Exit": {
+    "Value": "ออก"
+  },
+  "AppNotificationPopUp_Later": {
+    "Value": "ภายหลัง"
+  },
+  "AppNotificationPopUp_MissingDriver_ConnectToController": {
+    "Value": "เชื่อมต่อกับคอนโทรลเลอร์"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadAndInstall": {
+    "Value": "ดาวน์โหลดและติดตั้งไดรเวอร์"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadingAndInstalling": {
+    "Value": "กำลังดาวน์โหลดและติดตั้งไดรเวอร์..."
+  },
+  "AppNotificationPopUp_MissingDriver_FollowViGEmBusInstructions": {
+    "Value": "โปรดทำตามคู่มือการใช้ ViGEmBus"
+  },
+  "AppNotificationPopUp_MissingDriver_OnceFinishedInstalling": {
+    "Value": "เมื่อคุณติดตั้งไดรเวอร์เสร็จแล้ว คุณจะสามารถเชื่อมต่อกับคอนโทรลเลอร์ได้"
+  },
+  "AppNotificationPopUp_MissingDriver_Uh-oh": {
+    "Value": "แย่แล้ว"
+  },
+  "AppNotificationPopUp_MissingDriver_YouDontHaveViGEmBusDriverse": {
+    "Value": "ดูเหมือนว่าคุณไม่ได้ติดตั้งไดรเวอร์ ViGEmBus"
+  },
+  "AppNotificationPopUp_UpdateAvailable": {
+    "Value": "อัปเดตใหม่พร้อมใช้งาน"
+  },
+  "AppNotificationPopUp_UpdateAvailable_InstallIt": {
+    "Value": "คุณต้องการติดตั้งหรือไม่?"
+  },
+  "AppNotificationPopUp_UpdateProccess_CurrentVersion": {
+    "Value": "เวอร์ชันปัจจุบัน:"
+  },
+  "AppNotificationPopUp_UpdateProccess_DownloadingUpdate": {
+    "Value": "กำลังดาวน์โหลดอัพเดท…"
+  },
+  "AppNotificationPopUp_UpdateProccess_ExtractingUpdate": {
+    "Value": "กำลังแตกไฟล์อัปเดต"
+  },
+  "AppNotificationPopUp_UpdateProccess_FetchingUpdate": {
+    "Value": "กำลังดึงข้อมูลอัปเดต..."
+  },
+  "AppNotificationPopUp_UpdateProccess_InstallingUpdate": {
+    "Value": "กำลังติดตั้งอัปเดต…"
+  },
+  "AppNotificationPopUp_UpdateProccess_PleaseRestartToApplyUpdate": {
+    "Value": "โปรดรีสตาร์ทเพื่อใช้อัปเดตนี้"
+  },
+  "AppNotificationPopUp_UpdateProccess_Restart": {
+    "Value": "รีสตาร์ท"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateInstalled": {
+    "Value": "ติดตั้งอัปเดตสำเร็จ"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateVersion": {
+    "Value": "อัปเดตเป็นเวอร์ชัน: "
+  },
+  "AppNotificationPopUp_Yes": {
+    "Value": "ใช่"
+  },
+  "App_DriversNotInstalledPopup_Title": {
+    "Value": "ไม่พบไดร์เวอร์"
+  },
+  "App_ExportTriggersPopUp_BothTriggersBtn": {
+    "Value": "ทริกเกอร์ทั้งสอง"
+  },
+  "App_ExportTriggersPopUp_Description": {
+    "Value": "กรุณาเลือกตัวเลือกด้านล่าง"
+  },
+  "App_ExportTriggersPopUp_Title": {
+    "Value": "นำออกทริกเกอร์"
+  },
+  "App_VigemDriverNotInstalled_TextBox": {
+    "Value": "โปรดติดตั้งไดร์ฟเวอร์ที่หายไป"
+  },
+  "ControllerPage_AdvancedInfoButton": {
+    "Value": "ข้อมูลขั้นสูง"
+  },
+  "ControllerPage_AdvancedInfoConnectToView": {
+    "Value": "กรุณาเชื่อมต่อคอนโทรลเลอร์เพื่อดูข้อมูลขั้นสูง"
+  },
+  "ControllerPage_BatteryLevelLabel": {
+    "Value": "ระดับแบตเตอรี่:"
+  },
+  "ControllerPage_ConnectionTypeLabel": {
+    "Value": "ประเภทการเชื่อมต่อ:"
+  },
+  "ControllerPage_ConnectionType_Connected": {
+    "Value": "เชื่อมต่อแล้ว"
+  },
+  "ControllerPage_ConnectionType_NotConnected": {
+    "Value": "ไม่ได้เชื่อมต่อ"
+  },
+  "ControllerPage_InputButton": {
+    "Value": "ดูปุ่มกด"
+  },
+  "ControllerPage_LeftJoyStickLabel": {
+    "Value": "จอยสติ๊กซ้าย"
+  },
+  "ControllerPage_RemappingButton": {
+    "Value": "กำลังวางปุ่มใหม่"
+  },
+  "ControllerPage_RightJoyStickLabel": {
+    "Value": "จอยสติ๊กขวา"
+  },
+  "ControllerPage_UseXboxLabels": {
+    "Value": "ใช้ปุ่มตาม Xbox"
+  },
+  "DualSense_BatteryState_AbnormalTemperture": {
+    "Value": "อุณหภูมิผิดปกติ"
+  },
+  "DualSense_BatteryState_AbnormalVoltage": {
+    "Value": "แรงดันไฟฟ้าผิดปกติ"
+  },
+  "DualSense_BatteryState_Charging": {
+    "Value": "กำลังชาร์จ"
+  },
+  "DualSense_BatteryState_ChargingError": {
+    "Value": "เกิดปัญหาในการชาร์จ"
+  },
+  "DualSense_BatteryState_Complete": {
+    "Value": "แบตเต็ม"
+  },
+  "DualSense_BatteryState_Discharging": {
+    "Value": "กำลังลด"
+  },
+  "GamesPage_ItemViewScreenshot": {
+    "Value": "ภาพถ่ายหน้าจอ"
+  },
+  "GamesPage_ModInfo": {
+    "Value": "ข้อมูลม็อด"
+  },
+  "GamesPage_ModsButton": {
+    "Value": "ม็อด"
+  },
+  "GamesPage_ModsSearchBoxPlaceholder": {
+    "Value": "กรองตามชื่อม๊อด ชื่อเกม หรือผู้สร้าง"
+  },
+  "GamesPage_Mods_Disclaimer": {
+    "Value": "ข้อสงวนสิทธิ์"
+  },
+  "GamesPage_Mods_DisclaimerDescription": {
+    "Value": "ห้ามใช้ม็อดในเกมออนไลน์เพื่อหลีกเลี่ยงการถูกแบน โปรดใช้วิจารณญาณในการใช้ม็อดต่างๆ ทาง DSX จะไม่รับผิดชอบความเสียหายใดๆจากการใช้ม็อดเหล่านี้"
+  },
+  "GamesPage_Mods_ModAuthor": {
+    "Value": "ผู้สร้าง:"
+  },
+  "GamesPage_Mods_ModGame": {
+    "Value": "เกม:"
+  },
+  "GamesPage_Mods_ModName": {
+    "Value": "ชื่อ:"
+  },
+  "GamesPage_Mods_ViewModButton": {
+    "Value": "ดูม็อด:"
+  },
+  "GamsPage_GameImageLoadingLabel": {
+    "Value": "กำลังโหลดรูปภาพ…"
+  },
+  "GamsPage_GameListStatusOne_FetchingGameList": {
+    "Value": "กำลังเรียกดูรายชื่อเกม..."
+  },
+  "GamsPage_GameListStatusOne_NoGamesAdded": {
+    "Value": "ไม่มีเกมใหม่เพิ่ม"
+  },
+  "GamsPage_GameListStatusTwo_CheckBackLater": {
+    "Value": "โปรดตรวจสอบอีกครั้งภายหลัง"
+  },
+  "GamsPage_GameListStatusTwo_PleaseWait": {
+    "Value": "โปรดรอ..."
+  },
+  "GamsPage_GameTagsLabel": {
+    "Value": "แท็ก"
+  },
+  "GamsPage_GameViewGameBtn": {
+    "Value": "ดูเกม"
+  },
+  "GamsPage_GamesLabel": {
+    "Value": "เกม"
+  },
+  "GamsPage_SearchbarPlaceholder": {
+    "Value": "ค้นหาเกมตามชื่อหรือแท็ก"
+  },
+  "GeneralStuff_Button": {
+    "Value": "ปุ่ม"
+  },
+  "GeneralStuff_CloseButton": {
+    "Value": "ปิด"
+  },
+  "GeneralStuff_ConfirmButton": {
+    "Value": "ยืนยัน"
+  },
+  "GeneralStuff_Sensitivity": {
+    "Value": "ความไว"
+  },
+  "GeneralStuff_UnableToStartDSX": {
+    "Value": "ไม่สามารถเปิด DSX"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionOne": {
+    "Value": "โปรดตรวจสอบให้แน่ใจว่า Steam กำลังทำงานอยู่และแอปก็อยู่ในคลังของ Steam. ถ้ายังมีปัญหาอยู่ลองปิดแล้วเปิด DSX ใหม่ผ่านทาง Steam"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionTwo": {
+    "Value": "ไม่สามารถดึงข้อมูลแปลภาษาออกมาได้ โปรดตรวจสอบว่า Steam กำลังเปิดอยู่, คุณมีสัญญาณอินเตอร์เน็ต และแอปก็อยู่ในคลังของ Steam. ถ้ายังมีปัญหาอยู่ลองปิดแล้วเปิด DSX ใหม่ผ่านทาง Steam"
+  },
+  "HomePage_AdaptiveTriggers": {
+    "Value": "Adaptive Triggers"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger": {
+    "Value": "ทริกเกอร์ซ้าย"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger_ApplyButton": {
+    "Value": "ใช้งานกับทริกเกอร์ซ้าย"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger": {
+    "Value": "ทริกเกอร์ขวา"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger_ApplyButton": {
+    "Value": "ใช้งานกับทริกเกอร์ขวา"
+  },
+  "HomePage_AdaptiveTriggers_TriggerMode": {
+    "Value": "โหมดทริกเกอร์"
+  },
+  "HomePage_ApplyModeLabel": {
+    "Value": "ใช้โหมดนี้"
+  },
+  "HomePage_ApplyMode_ApplyBtn": {
+    "Value": "ใช้"
+  },
+  "HomePage_ApplyMode_BothTriggerMotorLabel": {
+    "Value": "ทริกเกอร์/มอเตอร์ทั้งสองข้าง"
+  },
+  "HomePage_ApplyMode_LeftTriggerMotorLabel": {
+    "Value": "ทริกเกอร์/มอเตอร์ซ้าย"
+  },
+  "HomePage_ApplyMode_RightTriggerMotorLabel": {
+    "Value": "ทริกเกอร์/มอเตอร์ขวา"
+  },
+  "HomePage_BatteryStatus": {
+    "Value": "สถานะแบตเตอรี่"
+  },
+  "HomePage_ConnectionStatusLabel": {
+    "Value": "สถานะการเชื่อมต่อ"
+  },
+  "HomePage_ConnectionStatus_ConnectControllerBtn": {
+    "Value": "เชื่อมต่อกับคอนโทรลเลอร์"
+  },
+  "HomePage_ConnectionStatus_EmulationType_ComboboxLabel": {
+    "Value": "จำลองคอนโทรลเลอร์เป็น:"
+  },
+  "HomePage_ConnectionStatus_EmulationType_Emulating360": {
+    "Value": "จำลองเป็น Xbox"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingDS4": {
+    "Value": "จำลองเป็น DualShock 4"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingNone": {
+    "Value": "ไม่จำลองเลย"
+  },
+  "HomePage_ConnectionStatus_Status_AutoConnectingToController": {
+    "Value": "การเชื่อมต่ออัตโนมัติกับคอนโทรลเลอร์..."
+  },
+  "HomePage_ConnectionStatus_Status_Connecting": {
+    "Value": "กำลังเชื่อมต่อ…"
+  },
+  "HomePage_ConnectionStatus_Status_ConnectionLostAttemptingToReconnect": {
+    "Value": "ขาดการเชื่อมต่อ. พยายามเชื่อมต่อใหม่"
+  },
+  "HomePage_ConnectionStatus_Status_ControllerConnected": {
+    "Value": "เชื่อมต่อกับคอนโทรลเลอร์"
+  },
+  "HomePage_ConnectionStatus_Status_FailedToConnect": {
+    "Value": "การเชื่อมต่อล้มเหลว. กรุณาตรวจสอบการเชื่อมต่อ!"
+  },
+  "HomePage_ConnectionStatus_Status_SearchingForController": {
+    "Value": "กำลังค้นหาคอนโทรลเลอร์..."
+  },
+  "HomePage_ConnectionStatus_Status_ShuttingDownApp": {
+    "Value": "กำลังปิดแอป..."
+  },
+  "HomePage_ControllerLEDLabel": {
+    "Value": "ไฟ LED ของคอนโทรลเลอร์"
+  },
+  "HomePage_ControllerLED_BrightnessLabel": {
+    "Value": "ความสว่าง"
+  },
+  "HomePage_ControllerLED_ColorModeBtn": {
+    "Value": "โหมดสี"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlash": {
+    "Value": "เปิดใช้ไฟกระพริบ"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlashWhenBattery": {
+    "Value": "กระพริบไฟเมื่อแบตเตอรี่น้อยกว่า (%)"
+  },
+  "HomePage_ControllerLED_ColorMode_Breathing_RandomColorCycle": {
+    "Value": "สุ่มสี"
+  },
+  "HomePage_ControllerLED_ColorMode_RainbowLabel": {
+    "Value": "สีรุ้ง"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_AutoReverse": {
+    "Value": "สายรุ้งวิ่งย้อนกลับอัตโนมัติ"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowMultiplier": {
+    "Value": "ความเร็วการเปลี่ยนสี"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowSpeed": {
+    "Value": "ความเร็วการเปลี่ยนสีรุ้ง"
+  },
+  "HomePage_ControllerLED_ColorMode_Speed": {
+    "Value": "ความเร็ว"
+  },
+  "HomePage_ControllerLED_ColorMode_StaticColorLabel": {
+    "Value": "สีเดียว"
+  },
+  "HomePage_ControllerLED_MicLEDLabel": {
+    "Value": "LED ของปุ่มไมค์"
+  },
+  "HomePage_ControllerLED_MicLED_OffBtn": {
+    "Value": "ปิด"
+  },
+  "HomePage_ControllerLED_MicLED_OnBtn": {
+    "Value": "เปิด"
+  },
+  "HomePage_ControllerLED_MicLED_PulseBtn": {
+    "Value": "กระพริบ"
+  },
+  "HomePage_ControllerLED_PlayerLEDLabel": {
+    "Value": "LED บอกตำแหน่งผู้เล่น"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOffBtn": {
+    "Value": "ปิดทั้งหมด"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOnBtn": {
+    "Value": "เปิดทั้งหมด"
+  },
+  "HomePage_ControllerLED_PlayerLED_Battery": {
+    "Value": "แบตเตอรี่"
+  },
+  "HomePage_ControllerLED_PlayerLED_Breathing": {
+    "Value": "จังหวะหายใจ"
+  },
+  "HomePage_ControllerLED_PlayerLED_CustomBtn": {
+    "Value": "กำหนดเอง"
+  },
+  "HomePage_ControllerLED_PlayerLED_DS4Passthrough": {
+    "Value": "DualShock 4 Passthrough"
+  },
+  "HomePage_ControllerLED_PlayerLED_FiveBtn": {
+    "Value": "ห้า"
+  },
+  "HomePage_ControllerLED_PlayerLED_FlashWhileCharging": {
+    "Value": "กระพริบไฟขณะชาร์จ"
+  },
+  "HomePage_ControllerLED_PlayerLED_FourBtn": {
+    "Value": "สี่"
+  },
+  "HomePage_ControllerLED_PlayerLED_HighBrightnessBtn": {
+    "Value": "สูง"
+  },
+  "HomePage_ControllerLED_PlayerLED_LowBrightnessBtn": {
+    "Value": "ต่ำ"
+  },
+  "HomePage_ControllerLED_PlayerLED_MediumBrightnessBtn": {
+    "Value": "กลาง"
+  },
+  "HomePage_ControllerLED_PlayerLED_OneBtn": {
+    "Value": "หนึ่ง"
+  },
+  "HomePage_ControllerLED_PlayerLED_Strobing": {
+    "Value": "ไฟกระพริบถี่"
+  },
+  "HomePage_ControllerLED_PlayerLED_ThreeBtn": {
+    "Value": "สาม"
+  },
+  "HomePage_ControllerLED_PlayerLED_TwoBtn": {
+    "Value": "สอง"
+  },
+  "HomePage_ControllerLED_RainbowSpeedLabel": {
+    "Value": "ความเร็วการเปลี่ยนสีรุ้ง"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Fast": {
+    "Value": "เร็ว"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Hyper": {
+    "Value": "ไฮเปอร์"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Medium": {
+    "Value": "ปานกลาง"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Slow": {
+    "Value": "ช้า"
+  },
+  "HomePage_ControllerLED_TouchPadLEDLabel": {
+    "Value": "LED ของแป้นสัมผัส"
+  },
+  "HomePage_ControllerModeLabel": {
+    "Value": "โหมดของคอนโทรลเลอร์"
+  },
+  "HomePage_ControllerMode_IntensityLabel": {
+    "Value": "ความถี่"
+  },
+  "HomePage_ControllerMode_ModeLabel": {
+    "Value": "โหมด"
+  },
+  "HomePage_ControllerMode_RandomizeModeAndValues": {
+    "Value": "สุ่มโหมดและค่า"
+  },
+  "HomePage_ControllerMode_RandomizeValues": {
+    "Value": "สุ่มค่า"
+  },
+  "HomePage_ControllerMode_VibrationDurationLabel": {
+    "Value": "ระยะเวลาการสั่น (วินาที)"
+  },
+  "HomePage_ControllerVibration": {
+    "Value": "การสั่นของคอลโทรลเลอร์"
+  },
+  "HomePage_ExportTriggers": {
+    "Value": "นำออกทริกเกอร์"
+  },
+  "HomePage_ExportTriggers_CopyToClipboard": {
+    "Value": "คัดลอกไปยังคลิปบอร์ด"
+  },
+  "HomePage_ExportTriggers_ExportForTextfile": {
+    "Value": "ส่งออกแบบไฟล์ข้อความ"
+  },
+  "HomePage_ExportTriggers_ExportForUDP": {
+    "Value": "ส่งออกไฟล์สำหรับ UDP (C#)"
+  },
+  "HomePage_GameLabel": {
+    "Value": "เกม"
+  },
+  "HomePage_TextFileLabel": {
+    "Value": "ไฟล์ข้อความ"
+  },
+  "HomePage_TextFile_FileLocationLabel": {
+    "Value": "ตำแหน่งไฟล์:"
+  },
+  "HomePage_TextFile_SlectFileBtn": {
+    "Value": "เลือกตำแหน่งลงไฟล์ข้อความ"
+  },
+  "HomePage_TextFile_StatusActiveLabel": {
+    "Value": "ใช้งานอยู่"
+  },
+  "HomePage_TextFile_StatusLabel": {
+    "Value": "สถานะ:"
+  },
+  "HomePage_TextFile_StatusNoMatchingTriggerValuesLabel": {
+    "Value": "ใช้งาน - ไม่พบค่าที่ตรงกันระหว่างค่าทริกเกอร์ในไฟล์ข้อความ!"
+  },
+  "HomePage_TextFile_StatusNotActiveDoesNotExistLabel": {
+    "Value": "ไม่ได้ใช้งาน - ไม่มีไฟล์ที่เลือกอยู่!"
+  },
+  "HomePage_TextFile_StatusNotActiveLabel": {
+    "Value": "ไม่ได้ใช้งาน"
+  },
+  "HomePage_TextFile_StatusNotActiveNoFileSelectedLabel": {
+    "Value": "ไม่ได้ใช้งาน - ไม่ได้เลือกไฟล์!"
+  },
+  "HomePage_TextFile_StatusNotActiveNotATextFileLabel": {
+    "Value": "ไม่ได้ใช้งาน - ไม่ใช่ไฟล์ข้อความ. โปรดลองใหม่อีกครั้ง!"
+  },
+  "HomePage_TextFile_StopReadingBtn": {
+    "Value": "หยุดอ่านไฟล์ข้อความ"
+  },
+  "HomePage_TextfileStatus": {
+    "Value": "สถานะไฟล์ข้อความ:"
+  },
+  "HomePage_UdpStatus": {
+    "Value": "สถานะ UDP:"
+  },
+  "InfoPage_CrashesOrBugsLabel": {
+    "Value": "โปรแกรมเด้งหรือพบบั๊ค?"
+  },
+  "InfoPage_Donate": {
+    "Value": "บริจาค"
+  },
+  "InfoPage_JoinDiscordLabel": {
+    "Value": "เข้า Discord ของเรา"
+  },
+  "InfoPage_MoreInfoGitHubLabel": {
+    "Value": "ข้อมูลเพิ่มเติมใน GitHub"
+  },
+  "InfoPage_Social": {
+    "Value": "ช่องทางติดต่อ"
+  },
+  "MenuGames_Label": {
+    "Value": "เกม"
+  },
+  "MenuHome_Label": {
+    "Value": "หน้าแรก"
+  },
+  "MenuInfo_Label": {
+    "Value": "ข้อมูล"
+  },
+  "MenuInput_Label": {
+    "Value": "คอนโทรลเลอร์"
+  },
+  "MenuSense2Key_Label": {
+    "Value": "Sense2Key"
+  },
+  "MenuSettings_JoinBtn": {
+    "Value": "เข้าร่วม"
+  },
+  "MenuSettings_Label": {
+    "Value": "การตั้งค่า"
+  },
+  "MenuSettings_SubmitIssueBtn": {
+    "Value": "แจ้งปัญหา"
+  },
+  "MenuSettings_VisitBtn": {
+    "Value": "เข้าดู"
+  },
+  "MenuWorkshop_Label": {
+    "Value": "เวิร์คช้อป"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartEight": {
+    "Value": "โปรดทำการติดตั้งเครื่องมืออัพเดตเฟิร์มแวร์ของ Sony เพื่อทำการอัพเดตคอนโทรลเลอร์ของคุณ"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFive": {
+    "Value": "แก้ปัญหาในการอ่านแบตเตอรี่ของ DualSense"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFour": {
+    "Value": "คุณควรอัปเดตเป็นเวอร์ชันล่าสุดอย่างสม่ำเสมอเพราะ:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartNine": {
+    "Value": "หมายเหตุ: กรุณาตรวจสอบว่าปิด DSX ในระหว่างที่อัพเดต เพื่อป้องกันไม่ให้เกิดปํญหาในขั้นตอนการอัพเดต"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartOne": {
+    "Value": "มีเฟิร์มแวร์เวอร์ชั่นใหม่สำหรับคอนโทรลเลอร์ DualSense ของคุณ"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSeven": {
+    "Value": "แก้บัคและปรุงฟีเจอร์ต่างๆ"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSix": {
+    "Value": "ทำให้การสั่นแบบปกติดีขึ้น (สำหรับเกมเก่า)"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartThree": {
+    "Value": "เวอร์ชั่นใหม่:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartTwo": {
+    "Value": "เวอร์ชันปัจจุบัน:"
+  },
+  "NewFirmwareVersionAvailablePopup_Title": {
+    "Value": "เฟิร์มแวร์เวอร์ชั่นใหม่ของ DualSense พร้อมใช้งาน"
+  },
+  "NewFirmwareVersionAvailablePopup_ViewToolButton": {
+    "Value": "ดูเครื่องมืออัพเดตเฟิร์มแวร์"
+  },
+  "Sense2Key_Configuration_HelpLabel1": {
+    "Value": "เลือกปุ่มจากเมนู"
+  },
+  "Sense2Key_Configuration_HelpLabel2": {
+    "Value": "หรือกดปุ่มบนคีย์บอร์ดในขณะที่กล่องกำลังถูกเลือก"
+  },
+  "Sense2Key_Configuration_SaveConfigurationBtn": {
+    "Value": "บันทึกค่า"
+  },
+  "Sense2Key_CreateProfileBtn": {
+    "Value": "สร้างโปรไฟล์"
+  },
+  "Sense2Key_DeleteProfileBtn": {
+    "Value": "ลบ"
+  },
+  "Sense2Key_ExportProfileBtn": {
+    "Value": "นำออกโปรไฟล์"
+  },
+  "Sense2Key_GetStartedLabel": {
+    "Value": "สร้างโปรไฟล์ใหม่ก่อน"
+  },
+  "Sense2Key_ImportProfileBtn": {
+    "Value": "เพิ่มโปรไฟล์"
+  },
+  "Sense2Key_NewProfile_CancelBtn": {
+    "Value": "ยกเลิก"
+  },
+  "Sense2Key_NewProfile_SaveNewProfilelBtn": {
+    "Value": "บันทึกโปรไฟล์ใหม่"
+  },
+  "Sense2Key_NoProfilesAdded": {
+    "Value": "ไม่มีโปรไฟล์"
+  },
+  "Sense2Key_ProfileStatus_DelayCannotBeNegative": {
+    "Value": "ค่าดีเลย์ไม่สามารถเป็นค่าลบได้"
+  },
+  "Sense2Key_ProfileStatus_DelayCantBeEmpty": {
+    "Value": "ค่าดีเลย์ไม่สามารถว่างได้"
+  },
+  "Sense2Key_ProfileStatus_DelayUpdated": {
+    "Value": "อัปเดตดีเลย์"
+  },
+  "Sense2Key_ProfileStatus_ProfileCreated": {
+    "Value": "สร้างโปรไฟล์"
+  },
+  "Sense2Key_ProfileStatus_ProfileExists": {
+    "Value": "มีโปรไฟล์นี้อยู่แล้ว"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameCantBeEmpty": {
+    "Value": "ชื่อโปรไฟล์ไม่สามารถว่างได้"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameUpdated": {
+    "Value": "เปลี่ยนชื่อโปรไฟล์"
+  },
+  "Sense2Key_ProfilesLabel": {
+    "Value": "โปรไฟล์"
+  },
+  "Sense2Key_ProfilesWillShowHere": {
+    "Value": "โปรไฟล์ของคุณจะปรากฏที่นี่"
+  },
+  "Sense2Key_SelectedProfile_DelayLabel": {
+    "Value": "ดีเลย์ (มิลลิวินาที)"
+  },
+  "Sense2Key_SelectedProfile_DetailsLabel": {
+    "Value": "รายละเอียด"
+  },
+  "Sense2Key_SelectedProfile_EditConfigurationBtn": {
+    "Value": "แก้ไขการกำหนดค่า"
+  },
+  "Sense2Key_SelectedProfile_EnterProfileNamePlaceholder": {
+    "Value": "ใส่ชื่อโปรไฟล์"
+  },
+  "Sense2Key_SelectedProfile_ProfileNameLabel": {
+    "Value": "ชื่อโปรไฟล์"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_Active": {
+    "Value": "สถานะ: ใช้งานโปรไฟล์"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_NotActive": {
+    "Value": "สถานะ: ไม่ได้ใช้งานโปรไฟล์"
+  },
+  "Sense2Key_SelectedProfile_StartBtn": {
+    "Value": "เริ่ม"
+  },
+  "Sense2Key_SelectedProfile_StopBtn": {
+    "Value": "หยุด"
+  },
+  "Sense2Key_SelectedProfile_UpdateDelayBtn": {
+    "Value": "เปลี่ยนค่าดีเลย์"
+  },
+  "Sense2Key_SelectedProfile_UpdateProfileNameBtn": {
+    "Value": "เปลี่ยนชื่อ"
+  },
+  "SettingsPage_AppLabel": {
+    "Value": "แอป"
+  },
+  "SettingsPage_AppSettings_BorderColorLabel": {
+    "Value": "สีของแผ่นหลัง"
+  },
+  "SettingsPage_AppSettings_Border_AlphaLabel": {
+    "Value": "อัลฟา (ความโปร่งใส)"
+  },
+  "SettingsPage_AppSettings_Border_BlueLabel": {
+    "Value": "น้ำเงิน"
+  },
+  "SettingsPage_AppSettings_Border_GreenLabel": {
+    "Value": "เขียว"
+  },
+  "SettingsPage_AppSettings_Border_RedLabel": {
+    "Value": "แดง"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundBlurLabel": {
+    "Value": "เบลอ"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundLabel": {
+    "Value": "กำหนดภาพพื้นหลังเอง"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundSelectImageBtn": {
+    "Value": "เลือกรูปภาพ"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundStretchComboBoxLabel": {
+    "Value": "ดึงภาพ"
+  },
+  "SettingsPage_AppSettings_DarkModeLabel": {
+    "Value": "โหมดมืด"
+  },
+  "SettingsPage_AppSettings_KeepInTrayLabel": {
+    "Value": "เก็บแอปไว้ที่ System Tray เมื่อย่อแอปลง"
+  },
+  "SettingsPage_AppSettings_Label": {
+    "Value": "การตั้งค่าแอป"
+  },
+  "SettingsPage_AppSettings_LanguageLabel": {
+    "Value": "ภาษา"
+  },
+  "SettingsPage_AppSettings_LaunchMinimizedCheckmark": {
+    "Value": "เปิดแอปแบบย่อ"
+  },
+  "SettingsPage_AppSettings_LaunchWindowsStartupLabel": {
+    "Value": "เปิด DualSenSex ทันทีหลังเปิด Windows"
+  },
+  "SettingsPage_App_EnableDiscordRP": {
+    "Value": "เปิด Discord Rich Presence"
+  },
+  "SettingsPage_App_EnableDiscordRP_MightTakeAMin": {
+    "Value": "อาจใช้เวลานานกว่านาทีถึงจะมีผล"
+  },
+  "SettingsPage_BackgroundLabel": {
+    "Value": "พื้นหลัง"
+  },
+  "SettingsPage_BackgroundSettings_Label": {
+    "Value": "การตั้งค่าพื้นหลัง"
+  },
+  "SettingsPage_BackgroundSettings_SelectedBtn": {
+    "Value": "เลือกแล้ว"
+  },
+  "SettingsPage_ControllerLabel": {
+    "Value": "คอนโทรลเลอร์"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault": {
+    "Value": "เสียงตามค่าพื้นฐาน"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault_RefreshList": {
+    "Value": "รีเฟรชรายการ"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Headset": {
+    "Value": "หูฟัง"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetLeft": {
+    "Value": "ชุดหูฟังด้านซ้าย"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetRight": {
+    "Value": "ชุดหูฟังขวา"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_LeftMotor": {
+    "Value": "มอเตอร์ซ้าย"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_RightMotor": {
+    "Value": "มอเตอร์ขวา"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Speaker": {
+    "Value": "ลำโพง"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem": {
+    "Value": "ปรับเสียงคอนโทรลเลอร์ (เฉพาะโหมด USB)"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_Headset": {
+    "Value": "ชุดหูฟัง"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_HeadsetVolume": {
+    "Value": "ระดับเสียงหูฟัง"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_InternalSpeaker": {
+    "Value": "ลำโพงภายใน"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_MicVolume": {
+    "Value": "ระดับเสียงไมค์"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_OutputMode": {
+    "Value": "รูปแบบการนำออกเสียง"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerAndHeadset": {
+    "Value": "ทั้งหูฟังและลำโพงภายใน"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerVolume": {
+    "Value": "ระดับเสียงลำโพง"
+  },
+  "SettingsPage_ControllerSettings_AutoConnectWhenOpenLabel": {
+    "Value": "เชื่อมต่ออัตโนมัติเมื่อ DualSenSex กำลังเปิด"
+  },
+  "SettingsPage_ControllerSettings_ControllerMotorStrengthLabel": {
+    "Value": "ปรับความแรงของมอเตอร์"
+  },
+  "SettingsPage_ControllerSettings_DisableVibrationControllerLabel": {
+    "Value": "ปิดการใช้งานการสั่นของคอนโทรลเลอร์"
+  },
+  "SettingsPage_ControllerSettings_EnableAudioHaptics": {
+    "Value": "เปิดใช้งานการสั่นของเสียง (USB เท่านั้น)"
+  },
+  "SettingsPage_ControllerSettings_EnableHidHide": {
+    "Value": "เปิดใช้ HidHide"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble": {
+    "Value": "เปิดใช้มอเตอร์สั่นแบบปรับปรุงใหม่"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble2": {
+    "Value": "ต้องใช้ Firmware เวอร์ชั่น 0224 หรือสูงกว่าในการเปิดใช้"
+  },
+  "SettingsPage_ControllerSettings_EnableVibWhileDisabled": {
+    "Value": "ใช้งานการสั่นขาเข้าขณะที่ปิดใช้งาน"
+  },
+  "SettingsPage_ControllerSettings_KillSteamOnConnect": {
+    "Value": "ปิด Steam เมื่อเชื่อมต่อ"
+  },
+  "SettingsPage_ControllerSettings_Label": {
+    "Value": "การตั้งค่าคอนโทรลเลอร์"
+  },
+  "SettingsPage_ControllerSettings_LeftTriggerThreshold": {
+    "Value": "ขีดจำกัดสูงสุดของทริกเกอร์ซ้าย"
+  },
+  "SettingsPage_ControllerSettings_LoadLastActiveTrigger": {
+    "Value": "เมื่อเปิดโปรแกรม ใช้ active trigger โหมดเดิมกับที่ใช้ก่อนที่จะปิดโปรแกรม"
+  },
+  "SettingsPage_ControllerSettings_PlayLightShowOnConnect": {
+    "Value": "เล่นโชว์แสงเมื่อเชื่อมต่อ"
+  },
+  "SettingsPage_ControllerSettings_PressMicAndUpXboxGameBar": {
+    "Value": "กดปุ่มไมค์และปุ่มขึ้นพร้อมกันเพื่อเปิด Xbox Game Bar"
+  },
+  "SettingsPage_ControllerSettings_PreviewLightshowBtn": {
+    "Value": "แสดงตัวอย่างโชว์แสง"
+  },
+  "SettingsPage_ControllerSettings_RightTriggerThreshold": {
+    "Value": "ขีดจำกัดสูงสุดของทริกเกอร์ขวา"
+  },
+  "SettingsPage_ControllerSettings_SearchUntilControllerConnects": {
+    "Value": "ค้นหาจนกว่าคอนโทรลเลอร์จะเชื่อมต่อ"
+  },
+  "SettingsPage_ControllerSettings_TriggerThreshold": {
+    "Value": "เปิด/ปิด ค่าสูงสุด"
+  },
+  "SettingsPage_ControllerSettings_UDPPortListen": {
+    "Value": "เปิดตัวอ่านค่าพอร์ต UDP"
+  },
+  "SettingsPage_ControllerSettings_UDPPortNumber": {
+    "Value": "ใช้พอร์ต UDP หมายเลข"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions": {
+    "Value": "ตัวเลือกการซิงค์ระดับเสียง"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_DontSync": {
+    "Value": "ไม่ต้องซิงค์"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncAll": {
+    "Value": "ซิงค์ทั้งหมด"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftMotorRightMotor": {
+    "Value": "ซิงค์มอเตอร์ซ้ายและมอเตอร์ขวา"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftRightSpeakers": {
+    "Value": "ซิงค์ลำโพงซ้ายและขวา"
+  },
+  "SettingsPage_Controller_ControllerAudioButton": {
+    "Value": "เสียงของคอลโทรลเลอร์"
+  },
+  "SettingsPage_Controller_DriversButton": {
+    "Value": "ไดร์เวอร์"
+  },
+  "SettingsPage_Controller_GyroAccelButton": {
+    "Value": "ไจโรสโคป/ตัววัดความเร่ง"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking": {
+    "Value": "ซ่อนคอนโทรลเลอร์"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking_Description": {
+    "Value": "ซ่อนคอนโทรลเลอร์ตัวจริงจากโปรแกรมอื่น"
+  },
+  "SettingsPage_Controller_MiscellaneousButton": {
+    "Value": "อื่นๆ"
+  },
+  "SettingsPage_Controller_NetworkingButton": {
+    "Value": "ระบบเครือข่าย"
+  },
+  "SettingsPage_Controller_ShortcutsButton": {
+    "Value": "ปุ่มลัด"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput": {
+    "Value": "รอรับ Input"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Description": {
+    "Value": "โปรดกดปุ่มบนคอนโทรลเลอร์เพื่อให้แอปตรวจเจอ"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_NotAllowed": {
+    "Value": "ไม่อนุญาต:"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Title": {
+    "Value": "ตรวจจับการส่งข้อมูลจากปุ่ม"
+  },
+  "SettingsPage_Controller_Shortcuts_OpenXboxGameBar": {
+    "Value": "ปุ่มลัดเปิด Xbox Game Bar"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBT": {
+    "Value": "ปิดคอนโทรลเลอร์ (บลูทูธ)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAuto": {
+    "Value": "ปิดคอนโทรลเลอร์อัตโนมัติ"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAutoHowTo": {
+    "Value": "วิธี: ปิดตัวปิดเครื่องอัตโนมัติของ Steam Controller"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTManual": {
+    "Value": "ปุ่มลัดปิดคอนโทรลเลอร์"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTMinutes": {
+    "Value": "นาที"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTNever": {
+    "Value": "ไม่ปิดเลย"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTTimeElapsedSinceIdle": {
+    "Value": "เวลาที่ผ่านไปนับตั้งแต่ไม่ได้ใช้งาน:"
+  },
+  "SettingsPage_Controller_TouchpadButton": {
+    "Value": "แป้นสัมผัส"
+  },
+  "SettingsPage_Settings_CheckForUpdatesLabel": {
+    "Value": "ตรวจสอบการอัปเดต"
+  },
+  "SettingsPage_Settings_ResetAppDescription": {
+    "Value": "คุณแน่ใจหรือว่าคูรต้องการที่จะรีเซ็ต DualSenSex กลับสู่การตั้งค่าเริ่มต้น?"
+  },
+  "SettingsPage_Settings_ResetAppLabel": {
+    "Value": "ล้างการตั้งค่าของแอป"
+  },
+  "SettingsPage_Settings_ResetAppYesButton": {
+    "Value": "รีเซ็ต DualSenseX"
+  },
+  "SettingsPage_TouchToMouse_EnableTapAsLeftMouse": {
+    "Value": "เปิด แตะแป้นสัมผัสให้เป็นการคลิกเมาส์ซ้าย"
+  },
+  "SettingsPage_TouchToMouse_EnableTouchpadToMouse": {
+    "Value": "เปิดใช้แป้นสัมผัสเป็นเมาส์"
+  },
+  "SettingsPage_TouchToMouse_FastSensiSpeed": {
+    "Value": "ความไวแบบเร็วกว่าปกติ - เมื่อกดปุ่ม"
+  },
+  "SettingsPage_TouchToMouse_InvertScroll": {
+    "Value": "เลื่อนลูกกลิ้งแบบตรงกันข้าม"
+  },
+  "SettingsPage_TouchToMouse_LeftClickHold": {
+    "Value": "คลิกซ้าย - กดปุ่มค้างไว้เพื่อให้อยู่ในสถานะกด"
+  },
+  "SettingsPage_TouchToMouse_NormalSensiSpeed": {
+    "Value": "ความไวปกติ"
+  },
+  "SettingsPage_TouchToMouse_RightClickHold": {
+    "Value": "คลิกขวา - กดปุ่มค้างไว้ แล้วแตะหรือกด"
+  },
+  "SettingsPage_TouchToMouse_ScrollSpeed": {
+    "Value": "ความเร็วในการเลื่อนลูกกลิ้ง - แตะด้วย 2 นิ้วแล้วลาก"
+  },
+  "SettingsPage_TouchToMouse_SlowSensiSpeed": {
+    "Value": "ความไวแบบช้ากว่าปกติ - เมื่อกดปุ่ม"
+  },
+  "SettingsPage_ViewReleaseNotesButton": {
+    "Value": "ดูโน็ตของเวอร์ชั่นนี้"
+  },
+  "SettingsPage_ViewSaveFileFolderButton": {
+    "Value": "ดูโฟลเดอร์เก็บไฟล์บันทึก"
+  },
+  "SetupScreen_AppAcentColor_Color": {
+    "Value": "สี"
+  },
+  "SetupScreen_AppAcentColor_Preview": {
+    "Value": "แสดงตัวอย่าง"
+  },
+  "SetupScreen_AppAcentColor_Reset": {
+    "Value": "ตั้งสีหลักของแอปเป็นค่าเริ่มต้น"
+  },
+  "SetupScreen_AppAcentColor_Title": {
+    "Value": "สีหลักของแอป"
+  },
+  "SetupScreen_EmualtionPicker_DownloadDriver": {
+    "Value": "ดาวน์โหลดไดร์เวอร์"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_BothInstalled": {
+    "Value": "ไดร์เวอร์ทั้งสองถูกติดตั้งแล้ว"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingForInstalledDrivers": {
+    "Value": "กำลังตรวจหาไดร์เวอร์ที่ติดตั้งไว้..."
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingInstalledDrivers": {
+    "Value": "ตรวจสอบไดร์เวอร์ที่ถูกติดตั้งใน"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4": {
+    "Value": "จำลอง DualShock 4"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4_Description": {
+    "Value": "แอปจะจำลองคอลโทรเลอร์เป็น DualShock 4 เพื่อที่จะใช้กับเกมที่รองรับ DualShock 4 คอลโทรลเลอร์"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Checkbox": {
+    "Value": "ไดร์เวอร์ HidHide ถูกติดตั้งแล้ว"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Description": {
+    "Value": "HidHide จะซ่อนคอนโทรลเลอร์ของคุณเมื่อคุณใช้ virtual device เพื่อป้องกันไม่ให้เกมหรือโปรแกรมอ่าน Input ซ้ำสองครั้งและให้เกมหรือโปรแกรมเห็นเฉพาะ"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_SystemRestart": {
+    "Value": "*จำเป็นที่จะต้องรีสตาร์ทระบบ"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation": {
+    "Value": "ไม่มีการจำลอง"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation_Description": {
+    "Value": "แอปจะไม่จำลองคอลโทรเลอร์เลย"
+  },
+  "SetupScreen_EmualtionPicker_Title": {
+    "Value": "ไดร์เวอร์และประเภทของตัวจำลอง"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Checkbox": {
+    "Value": "ไดร์เวอร์ ViGEm ถูกติดตั้งแล้ว"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Description": {
+    "Value": "Vigem Bus Driver ช่วยให้คุณสามารถจำลองคอนโทรลเลอร์ให้เหมือนกับว่าคอนโทรลเลอร์ตัวนั้นเสียบอยู่ที่คอมพิวเตอร์ของคุณจริงๆ ตัวอย่าง:"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360": {
+    "Value": "ตัวจำลอง Xbox 360 (แนะนำ)"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360_Description": {
+    "Value": "แอปจะจำลองคอลโทรเลอร์เป็น Xbox 360 เพื่อที่จะใช้กับเกมที่รองรับ Xbox คอลโทรลเลอร์"
+  },
+  "SetupScreen_SteamSetup_DisableSteamInput": {
+    "Value": "เพื่อที่จะให้เครื่องของคุณจดจำคอนโทรลเลอร์ได้ คุณจะต้องปิดระบบ Steam Input"
+  },
+  "SetupScreen_SteamSetup_DisableSteamInputCheckbox": {
+    "Value": "ฉันปิดระบบ Steam Input แล้ว"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlay": {
+    "Value": "เพื่อที่จะให้แอปต่างๆไม่มีปัญหาด้านกราฟฟิก คุณควรที่จะปิด Overlay"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlayCheckbox": {
+    "Value": "ฉันปิดระบบ Steam Overlay แล้ว"
+  },
+  "SetupScreen_SteamSetup_Title": {
+    "Value": "ตั้งค่า Steam"
+  },
+  "SetupScreen_SteamSetup_Title2": {
+    "Value": "ปิดระบบ Steam input และ Overlay ใน DSX"
+  },
+  "SetupScreen_SteamSetup_Title2_Subtitle": {
+    "Value": "ต้องทำส่วนนี้ให้เสร็จเพราะ Steam API"
+  }
+}

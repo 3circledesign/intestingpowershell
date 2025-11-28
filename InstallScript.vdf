@@ -1,0 +1,27 @@
+"installscript"
+{
+	"Firewall"
+	{
+		"DSX_Launcher"		"%INSTALLDIR%\\DSX.exe"
+	}
+	"Firewall"
+	{
+		"DSX_v2"		"%INSTALLDIR%\\Main\\DSX.exe"
+	}
+	"Firewall"
+	{
+		"DSX_v3"		"%INSTALLDIR%\\Main_v3_Beta\\DSX.exe"
+	}
+	"Run Process On Uninstall"
+	{
+		"Process_name"
+		{
+			"process 1"		"%INSTALLDIR%\\DSX.exe"
+			"command 1"		"--uninstallDSX"
+		}
+	}
+}
+"kvsignatures"
+{
+	"installscript"		"ae82b5bb44d031ed5c2d5fdd73cf75c6dd3780445bd492dda7af4be965edbbcdf91e44344761928675d78bb3fb5630efef6455754fe26cfd57a8dff52ab0655870c314bd8532b9d7219ef1fa354b5bd31a585335a79b40c9d9b764e3fb95c66985dc43fb91c102fcf7d882d8e5f05901aae1afcf190b05017ed72cc9c4b5870a"
+}

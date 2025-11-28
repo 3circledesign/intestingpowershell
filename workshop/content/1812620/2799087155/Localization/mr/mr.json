@@ -1,0 +1,1079 @@
+{
+  "AppCommandArgs_FileLocationNotFound": {
+    "Value": "गेमचे नाव सापडले, पण फाइलचे स्थळ सापडले नाही"
+  },
+  "AppCommandArgs_GameNameNotFound": {
+    "Value": "गेमचे नाव सापडले नाही, पण फाइलचे स्थळ सापडले"
+  },
+  "AppCommandArgs_NoParamersFound": {
+    "Value": "परिमापने सापडली नाहीत"
+  },
+  "AppCommandArgs_Playing": {
+    "Value": "हा खेळत आहे:"
+  },
+  "AppNotificationLabel_AutoConnectedToController": {
+    "Value": "कंट्रोलरशी स्वयं कनेक्ट केले!"
+  },
+  "AppNotificationLabel_AutoConnectingToController": {
+    "Value": "कंट्रोलरशी स्वयं कनेक्ट करत आहे"
+  },
+  "AppNotificationLabel_ConnectedToController": {
+    "Value": "कंट्रोलरशी कनेक्ट केले!"
+  },
+  "AppNotificationLabel_ConnectionLost": {
+    "Value": "कनेक्शन सुटले, कंट्रोलर शोधत आहे..."
+  },
+  "AppNotificationLabel_ConnectionLostAttemptingToRconnect": {
+    "Value": "कनेक्शन सुटले, पन्हा कनेक्ट करायचा प्रयत्न करत आहे"
+  },
+  "AppNotificationLabel_FailedToAutoConnect": {
+    "Value": "स्वयं कनेक्ट करण्यात अपयश, कृपया कनेक्शन तपासा!"
+  },
+  "AppNotificationLabel_FailedToRconnect": {
+    "Value": "पुन्हा कनेक्ट करण्यात अपयश, कृपया कनेक्शन तपासा!"
+  },
+  "AppNotificationLabel_ReconnectedToController": {
+    "Value": "कंट्रोलरशी पुन्हा कनेक्ट केले!"
+  },
+  "AppNotificationLabel_SearchingForController": {
+    "Value": "कंट्रोलर शोधत आहे..."
+  },
+  "AppNotificationPopUp_AreYouSureYouWantToExit": {
+    "Value": "तुम्हाला नक्की निर्गमन करायचे आहे का?"
+  },
+  "AppNotificationPopUp_Cancel": {
+    "Value": "रद्द करा"
+  },
+  "AppNotificationPopUp_DownloadUpdate": {
+    "Value": "अपडेट डाउनलोड करत आहे…"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsDualShock4": {
+    "Value": "ड्युअलसेन्स कंट्रोलर आता ड्युअलशॉक ४ कंट्रोलर असल्याप्रमाणे वाचले जाणार नाही!"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsXbox": {
+    "Value": "ड्युअलसेन्स कंट्रोलर आता एक्सबॉक्स कंट्रोलर असल्याप्रमाणे वाचले जाणार नाही!"
+  },
+  "AppNotificationPopUp_Exit": {
+    "Value": "निर्गमन करा"
+  },
+  "AppNotificationPopUp_Later": {
+    "Value": "नंतर"
+  },
+  "AppNotificationPopUp_MissingDriver_ConnectToController": {
+    "Value": "कंट्रोलरशी कनेक्ट करा"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadAndInstall": {
+    "Value": "ड्रायव्हर डाउनलोड करून संस्थापित करा"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadingAndInstalling": {
+    "Value": "ड्रायव्हर डाउनलोड करून संस्थापित करत आहे..."
+  },
+  "AppNotificationPopUp_MissingDriver_FollowViGEmBusInstructions": {
+    "Value": "ViGEmBus च्या प्रस्तुत केलेल्या निर्देशांचे अनुसरण करा"
+  },
+  "AppNotificationPopUp_MissingDriver_OnceFinishedInstalling": {
+    "Value": "ड्रायव्हर संस्थापित करून झाल्यावर आपण आपल्या कंट्रोलरशी कनेक्ट करू शकता"
+  },
+  "AppNotificationPopUp_MissingDriver_Uh-oh": {
+    "Value": "अरेरे"
+  },
+  "AppNotificationPopUp_MissingDriver_YouDontHaveViGEmBusDriverse": {
+    "Value": "असं दिसून येत आहे की ViGEmBus ड्रायव्हर आपल्याकडे संस्थापित केले नाहीत"
+  },
+  "AppNotificationPopUp_UpdateAvailable": {
+    "Value": "अपडेट उपलब्ध!"
+  },
+  "AppNotificationPopUp_UpdateAvailable_InstallIt": {
+    "Value": "संस्थापित करायचे का?"
+  },
+  "AppNotificationPopUp_UpdateProccess_CurrentVersion": {
+    "Value": "वर्तमान आवृत्ती: "
+  },
+  "AppNotificationPopUp_UpdateProccess_DownloadingUpdate": {
+    "Value": "अपडेट डाउनलोड करत आहे…"
+  },
+  "AppNotificationPopUp_UpdateProccess_ExtractingUpdate": {
+    "Value": "अपडेट बाहेर काढत आहे..."
+  },
+  "AppNotificationPopUp_UpdateProccess_FetchingUpdate": {
+    "Value": "अपडेट आणत आहे..."
+  },
+  "AppNotificationPopUp_UpdateProccess_InstallingUpdate": {
+    "Value": "अपडेट संस्थापित करत आहे..."
+  },
+  "AppNotificationPopUp_UpdateProccess_PleaseRestartToApplyUpdate": {
+    "Value": "हा अपडेट संस्थापित करण्यास प्रोग्राम पुन्हा सुरू करा"
+  },
+  "AppNotificationPopUp_UpdateProccess_Restart": {
+    "Value": "पुन्हा सुरू करा"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateInstalled": {
+    "Value": "अपडेट संस्थापित केले"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateVersion": {
+    "Value": "अपडेट आवृत्ती: "
+  },
+  "AppNotificationPopUp_Yes": {
+    "Value": "होय"
+  },
+  "App_DriversNotInstalledPopup_Title": {
+    "Value": "ड्रायव्हर गायब"
+  },
+  "App_ExportTriggersPopUp_BothTriggersBtn": {
+    "Value": "दोन्ही ट्रिगर"
+  },
+  "App_ExportTriggersPopUp_Description": {
+    "Value": "कृपया खालील एखादा पर्याय निवडा"
+  },
+  "App_ExportTriggersPopUp_Title": {
+    "Value": "ट्रिगर निर्यात करा"
+  },
+  "App_VigemDriverNotInstalled_TextBox": {
+    "Value": "कृपया बेपत्ता असलेले ड्रायव्हर संस्थापित करा"
+  },
+  "ControllerPage_AdvancedInfoButton": {
+    "Value": "प्रगत माहिती"
+  },
+  "ControllerPage_AdvancedInfoConnectToView": {
+    "Value": "प्रगत माहिती पाहण्यास कृपया कंट्रोलर कनेक्ट करा"
+  },
+  "ControllerPage_BatteryLevelLabel": {
+    "Value": "बॅटरी स्तर:"
+  },
+  "ControllerPage_ConnectionTypeLabel": {
+    "Value": "कनेक्शनचा प्रकार:"
+  },
+  "ControllerPage_ConnectionType_Connected": {
+    "Value": "कनेक्ट झाले"
+  },
+  "ControllerPage_ConnectionType_NotConnected": {
+    "Value": "कनेक्ट केले नाही."
+  },
+  "ControllerPage_InputButton": {
+    "Value": "इनपुट"
+  },
+  "ControllerPage_LeftJoyStickLabel": {
+    "Value": "डावी जॉयस्टिक"
+  },
+  "ControllerPage_RemappingButton": {
+    "Value": "रिमॅपिंग"
+  },
+  "ControllerPage_RightJoyStickLabel": {
+    "Value": "उजवी जॉयस्टिक"
+  },
+  "ControllerPage_UseXboxLabels": {
+    "Value": "एक्सबॉक्सचे लेबल वापरा"
+  },
+  "DualSense_BatteryState_AbnormalTemperture": {
+    "Value": "असामान्य तापमान"
+  },
+  "DualSense_BatteryState_AbnormalVoltage": {
+    "Value": "असामान्य विद्युतदाब"
+  },
+  "DualSense_BatteryState_Charging": {
+    "Value": "चार्ज होत आहे"
+  },
+  "DualSense_BatteryState_ChargingError": {
+    "Value": "चार्ज करण्यात त्रुटी"
+  },
+  "DualSense_BatteryState_Complete": {
+    "Value": "पूर्ण झाले"
+  },
+  "DualSense_BatteryState_Discharging": {
+    "Value": "डिस्चार्ज होत आहे"
+  },
+  "GamesPage_ItemViewScreenshot": {
+    "Value": "स्क्रीनशॉट"
+  },
+  "GamesPage_ModInfo": {
+    "Value": "मॉड माहिती"
+  },
+  "GamesPage_ModsButton": {
+    "Value": "मॉड"
+  },
+  "GamesPage_ModsSearchBoxPlaceholder": {
+    "Value": "मॉडचे नाव, गेमचे नाव, किंवा निर्माता यांनुसार गाळणी करा"
+  },
+  "GamesPage_Mods_Disclaimer": {
+    "Value": "अस्वीकरण"
+  },
+  "GamesPage_Mods_DisclaimerDescription": {
+    "Value": "ऑनलाइन गेम्समध्ये हे मॉड वापरू *नका*, नाही तर आपण त्यांत बॅन होऊ शकता. वापरल्यास आपण स्वतःच्या जोखमीवर वापरत असाल. हे मॉड वापरले गेले याची DSX कोणतीही जबाबदारी घेणार नाही."
+  },
+  "GamesPage_Mods_ModAuthor": {
+    "Value": "निर्माता:"
+  },
+  "GamesPage_Mods_ModGame": {
+    "Value": "गेम:"
+  },
+  "GamesPage_Mods_ModName": {
+    "Value": "नाव:"
+  },
+  "GamesPage_Mods_ViewModButton": {
+    "Value": "मॉड पाहा"
+  },
+  "GamsPage_GameImageLoadingLabel": {
+    "Value": "चित्र लोड करत आहे..."
+  },
+  "GamsPage_GameListStatusOne_FetchingGameList": {
+    "Value": "गेम्सची यादी आणत आहे..."
+  },
+  "GamsPage_GameListStatusOne_NoGamesAdded": {
+    "Value": "कोणतेही गेम जोडले नाहीत"
+  },
+  "GamsPage_GameListStatusTwo_CheckBackLater": {
+    "Value": "कृपया नंतर भेट देऊन पाहा!"
+  },
+  "GamsPage_GameListStatusTwo_PleaseWait": {
+    "Value": "कृपया थांबा"
+  },
+  "GamsPage_GameTagsLabel": {
+    "Value": "टॅग"
+  },
+  "GamsPage_GameViewGameBtn": {
+    "Value": "गेम पाहा"
+  },
+  "GamsPage_GamesLabel": {
+    "Value": "गेम"
+  },
+  "GamsPage_SearchbarPlaceholder": {
+    "Value": "नावानुसार किंवा टॅगनुसार केम शोधा"
+  },
+  "GeneralStuff_Button": {
+    "Value": "बटण"
+  },
+  "GeneralStuff_CloseButton": {
+    "Value": "बंद करा"
+  },
+  "GeneralStuff_ConfirmButton": {
+    "Value": "पुष्टी करा"
+  },
+  "GeneralStuff_Sensitivity": {
+    "Value": "संवेदनशीलता"
+  },
+  "GeneralStuff_UnableToStartDSX": {
+    "Value": "DSX सुरू करण्यात अक्षम"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionOne": {
+    "Value": "स्टीम चालू आहे व आपल्या लायब्ररीत हा अ‍ॅप संस्थापित केला आहे, या गोष्टींची कृपया खात्री करा. जर ही समस्या तरीही राहिली तर स्टीमद्वारे DSX पुन्हा संस्थापित करा."
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionTwo": {
+    "Value": "अनुवाद आणता आले नाही. स्टीम चालू आहे, आपल्याकडे सक्रिय इंटरनेट कनेक्शन आहे, व आपल्या लायब्ररीत हा अ‍ॅप संस्थापित केला आहे, या गोष्टींची आत्री करा. तरीही ही समस्या राहिली तर स्टीमद्वारे DSX पुन्हा संस्थापित करा."
+  },
+  "HomePage_AdaptiveTriggers": {
+    "Value": "अडॅप्टिव्ह ट्रिगर"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger": {
+    "Value": "डावे ट्रिगर"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger_ApplyButton": {
+    "Value": "डावे ट्रिगर लागू करा"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger": {
+    "Value": "उजवे ट्रिगर"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger_ApplyButton": {
+    "Value": "उजवे ट्रिगर लागू करा"
+  },
+  "HomePage_AdaptiveTriggers_TriggerMode": {
+    "Value": "ट्रिगर मोड"
+  },
+  "HomePage_ApplyModeLabel": {
+    "Value": "मोड लागू करा"
+  },
+  "HomePage_ApplyMode_ApplyBtn": {
+    "Value": "लागू करा"
+  },
+  "HomePage_ApplyMode_BothTriggerMotorLabel": {
+    "Value": "दोन्ही ट्रिगर/मोटार"
+  },
+  "HomePage_ApplyMode_LeftTriggerMotorLabel": {
+    "Value": "डावे ट्रिगर/मोटार"
+  },
+  "HomePage_ApplyMode_RightTriggerMotorLabel": {
+    "Value": "उजवे ट्रिगर/मोटार"
+  },
+  "HomePage_BatteryStatus": {
+    "Value": "बॅटरी स्थिती:"
+  },
+  "HomePage_ConnectionStatusLabel": {
+    "Value": "कनेक्शन स्थिती"
+  },
+  "HomePage_ConnectionStatus_ConnectControllerBtn": {
+    "Value": "कंट्रोलर कनेक्ट करा"
+  },
+  "HomePage_ConnectionStatus_EmulationType_ComboboxLabel": {
+    "Value": "कंट्रोलर एम्युलेशन:"
+  },
+  "HomePage_ConnectionStatus_EmulationType_Emulating360": {
+    "Value": "एक्सबॉक्स ३६० एम्युलेट करत आहे"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingDS4": {
+    "Value": "ड्युअलशॉक ४ एम्युलेट करत आहे"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingNone": {
+    "Value": "एम्युलेट करत नाही"
+  },
+  "HomePage_ConnectionStatus_Status_AutoConnectingToController": {
+    "Value": "कंट्रोलरशी स्वयं कनेक्ट करत आहे..."
+  },
+  "HomePage_ConnectionStatus_Status_Connecting": {
+    "Value": "कनेक्ट करत आहे…"
+  },
+  "HomePage_ConnectionStatus_Status_ConnectionLostAttemptingToReconnect": {
+    "Value": "कनेक्शन सुटले, पुन्हा कनेक्ट करायचा प्रयत्न करत आहे..."
+  },
+  "HomePage_ConnectionStatus_Status_ControllerConnected": {
+    "Value": "कंट्रोलर कनेक्ट केले"
+  },
+  "HomePage_ConnectionStatus_Status_FailedToConnect": {
+    "Value": "कनेक्ट करण्यात अपयश, कृपया कनेक्शन तपासा!"
+  },
+  "HomePage_ConnectionStatus_Status_SearchingForController": {
+    "Value": "कंट्रोलर शोधत आहे..."
+  },
+  "HomePage_ConnectionStatus_Status_ShuttingDownApp": {
+    "Value": "अ‍ॅप्लिकेशन बंद करत आहे..."
+  },
+  "HomePage_ControllerLEDLabel": {
+    "Value": "कंट्रोलर एल.ई.डी."
+  },
+  "HomePage_ControllerLED_BrightnessLabel": {
+    "Value": "तेजस्वीपणा"
+  },
+  "HomePage_ControllerLED_ColorModeBtn": {
+    "Value": "रंगाचा मोड"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlash": {
+    "Value": "चमकणे सक्रिय करा"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlashWhenBattery": {
+    "Value": "बॅटरी या (%) पेक्षा कमी असताना चमकवा"
+  },
+  "HomePage_ControllerLED_ColorMode_Breathing_RandomColorCycle": {
+    "Value": "यादृच्छिक रंग चक्र"
+  },
+  "HomePage_ControllerLED_ColorMode_RainbowLabel": {
+    "Value": "इंद्रधनुष्य"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_AutoReverse": {
+    "Value": "इंद्रधनुष्य आपोआप उलटवा"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowMultiplier": {
+    "Value": "रंग बदलण्याचा गुणक"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowSpeed": {
+    "Value": "इंद्रधनुष्याची गती"
+  },
+  "HomePage_ControllerLED_ColorMode_Speed": {
+    "Value": "गती"
+  },
+  "HomePage_ControllerLED_ColorMode_StaticColorLabel": {
+    "Value": "अचल रंग"
+  },
+  "HomePage_ControllerLED_MicLEDLabel": {
+    "Value": "माइक एल.ई.डी."
+  },
+  "HomePage_ControllerLED_MicLED_OffBtn": {
+    "Value": "बंद"
+  },
+  "HomePage_ControllerLED_MicLED_OnBtn": {
+    "Value": "चालू"
+  },
+  "HomePage_ControllerLED_MicLED_PulseBtn": {
+    "Value": "स्पंद"
+  },
+  "HomePage_ControllerLED_PlayerLEDLabel": {
+    "Value": "खेळाडू एल.ई.डी."
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOffBtn": {
+    "Value": "सर्व बंद"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOnBtn": {
+    "Value": "सर्व चालू"
+  },
+  "HomePage_ControllerLED_PlayerLED_Battery": {
+    "Value": "बॅटरी"
+  },
+  "HomePage_ControllerLED_PlayerLED_Breathing": {
+    "Value": "श्वास"
+  },
+  "HomePage_ControllerLED_PlayerLED_CustomBtn": {
+    "Value": "सानुकूल"
+  },
+  "HomePage_ControllerLED_PlayerLED_DS4Passthrough": {
+    "Value": "ड्युअलशॉक ४ पासथ्रू"
+  },
+  "HomePage_ControllerLED_PlayerLED_FiveBtn": {
+    "Value": "पाच"
+  },
+  "HomePage_ControllerLED_PlayerLED_FlashWhileCharging": {
+    "Value": "चार्ज करताना चमकवा"
+  },
+  "HomePage_ControllerLED_PlayerLED_FourBtn": {
+    "Value": "चार"
+  },
+  "HomePage_ControllerLED_PlayerLED_HighBrightnessBtn": {
+    "Value": "जास्त"
+  },
+  "HomePage_ControllerLED_PlayerLED_LowBrightnessBtn": {
+    "Value": "कमी"
+  },
+  "HomePage_ControllerLED_PlayerLED_MediumBrightnessBtn": {
+    "Value": "मध्यम"
+  },
+  "HomePage_ControllerLED_PlayerLED_OneBtn": {
+    "Value": "एक"
+  },
+  "HomePage_ControllerLED_PlayerLED_Strobing": {
+    "Value": "स्ट्रोब"
+  },
+  "HomePage_ControllerLED_PlayerLED_ThreeBtn": {
+    "Value": "तीन"
+  },
+  "HomePage_ControllerLED_PlayerLED_TwoBtn": {
+    "Value": "दोन"
+  },
+  "HomePage_ControllerLED_RainbowSpeedLabel": {
+    "Value": "इंद्रधनुष्याची गती"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Fast": {
+    "Value": "वेगवान"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Hyper": {
+    "Value": "हायपर"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Medium": {
+    "Value": "मध्यम"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Slow": {
+    "Value": "हळू"
+  },
+  "HomePage_ControllerLED_TouchPadLEDLabel": {
+    "Value": "टचपॅड एल.ई.डी."
+  },
+  "HomePage_ControllerModeLabel": {
+    "Value": "कंट्रोलर मोड"
+  },
+  "HomePage_ControllerMode_IntensityLabel": {
+    "Value": "तीव्रता"
+  },
+  "HomePage_ControllerMode_ModeLabel": {
+    "Value": "मोड"
+  },
+  "HomePage_ControllerMode_RandomizeModeAndValues": {
+    "Value": "मोड व मूल्य यादृच्छित करा"
+  },
+  "HomePage_ControllerMode_RandomizeValues": {
+    "Value": "मूल्यांचे यादृच्छीकरण करा"
+  },
+  "HomePage_ControllerMode_VibrationDurationLabel": {
+    "Value": "कंपन अवधि (सेकंद)"
+  },
+  "HomePage_ControllerVibration": {
+    "Value": "कंट्रोलर कंपन"
+  },
+  "HomePage_ExportTriggers": {
+    "Value": "ट्रिगर निर्यात करा"
+  },
+  "HomePage_ExportTriggers_CopyToClipboard": {
+    "Value": "क्लिपबोर्डवर कॉपी करा"
+  },
+  "HomePage_ExportTriggers_ExportForTextfile": {
+    "Value": "मजकूर फाईलसाठी निर्यात करा"
+  },
+  "HomePage_ExportTriggers_ExportForUDP": {
+    "Value": "यू.डी.पी.साठी निर्यात करा (C#)"
+  },
+  "HomePage_GameLabel": {
+    "Value": "गेम"
+  },
+  "HomePage_TextFileLabel": {
+    "Value": "मजकूर फाइल"
+  },
+  "HomePage_TextFile_FileLocationLabel": {
+    "Value": "फाईल स्थान:"
+  },
+  "HomePage_TextFile_SlectFileBtn": {
+    "Value": "मजकूर फाइल स्थान निवडा"
+  },
+  "HomePage_TextFile_StatusActiveLabel": {
+    "Value": "सक्रिय"
+  },
+  "HomePage_TextFile_StatusLabel": {
+    "Value": "स्थिती:"
+  },
+  "HomePage_TextFile_StatusNoMatchingTriggerValuesLabel": {
+    "Value": "सक्रिय - मजकूर फायलीत जुळणारे कोणतेही ट्रिगर मूल्य सापडले नाहीत!"
+  },
+  "HomePage_TextFile_StatusNotActiveDoesNotExistLabel": {
+    "Value": "निष्क्रिय - निवडलेली फाईल अस्तित्वात नाही!"
+  },
+  "HomePage_TextFile_StatusNotActiveLabel": {
+    "Value": "निष्क्रिय"
+  },
+  "HomePage_TextFile_StatusNotActiveNoFileSelectedLabel": {
+    "Value": "निष्क्रिय - कोणतीही फाईल निवडलेली नाही!"
+  },
+  "HomePage_TextFile_StatusNotActiveNotATextFileLabel": {
+    "Value": "निष्क्रिय - ही मजकूर फाईल नाही, कृपया पुन्हा प्रयत्न करा!"
+  },
+  "HomePage_TextFile_StopReadingBtn": {
+    "Value": "मजकूर फाईल वाचणे बंद करा"
+  },
+  "HomePage_TextfileStatus": {
+    "Value": "मजकूर फाईल स्थिती:"
+  },
+  "HomePage_UdpStatus": {
+    "Value": "यू.डी.पी. स्थिती:"
+  },
+  "InfoPage_CrashesOrBugsLabel": {
+    "Value": "क्रॅश किंवा बग?"
+  },
+  "InfoPage_Donate": {
+    "Value": "दान करा"
+  },
+  "InfoPage_JoinDiscordLabel": {
+    "Value": "डिस्कॉर्ड समूहात सहभागी व्हा"
+  },
+  "InfoPage_MoreInfoGitHubLabel": {
+    "Value": "गिटहबवर अधिक माहिती पाहा"
+  },
+  "InfoPage_Social": {
+    "Value": "सामाजिक"
+  },
+  "MenuGames_Label": {
+    "Value": "गेम"
+  },
+  "MenuHome_Label": {
+    "Value": "घर"
+  },
+  "MenuInfo_Label": {
+    "Value": "माहिती"
+  },
+  "MenuInput_Label": {
+    "Value": "कंट्रोलर"
+  },
+  "MenuSense2Key_Label": {
+    "Value": "सेन्स-टू-की"
+  },
+  "MenuSettings_JoinBtn": {
+    "Value": "सामील व्हा"
+  },
+  "MenuSettings_Label": {
+    "Value": "सेटिंग"
+  },
+  "MenuSettings_SubmitIssueBtn": {
+    "Value": "समस्या सादर करा"
+  },
+  "MenuSettings_VisitBtn": {
+    "Value": "भेट द्या"
+  },
+  "MenuWorkshop_Label": {
+    "Value": "वर्कशॉप"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartEight": {
+    "Value": "आपला कंट्रोलर अपडेट करण्यासाठी कृपया सोनीचा आधिकारिक फर्मवेअर अपडेटर टूल संस्थापित करा."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFive": {
+    "Value": "ड्युअलसेन्स बॅटरी वाचण्यात येणारा बग दुरुस्त करा"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFour": {
+    "Value": "नेहमीच सर्वात अलीकडच्या आवृत्तीला अपडेट करावे, याची कारणं:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartNine": {
+    "Value": "टिप: समस्या टाळण्यास अपडेट करताना खात्री करून घ्या की DSX बंद केले आहे"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartOne": {
+    "Value": "आपल्या ड्युअलसेन्स कंट्रोलरसाठी एक नवीन फर्मवेअर आवृत्ती उपलब्ध आहे."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSeven": {
+    "Value": "विविध दुरुस्त्या व सुधारणा"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSix": {
+    "Value": "साधारण रम्बल सुधारा (जुन्या गेम्ससाठी)"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartThree": {
+    "Value": "नवीन आवृत्ती:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartTwo": {
+    "Value": "वर्तमान आवृत्ती:"
+  },
+  "NewFirmwareVersionAvailablePopup_Title": {
+    "Value": "नवीन ड्युअलसेन्स फर्मवेअर आवृत्ती उपलब्ध आहे"
+  },
+  "NewFirmwareVersionAvailablePopup_ViewToolButton": {
+    "Value": "फर्मवेअर अपडेटर टूल पाहा"
+  },
+  "Sense2Key_Configuration_HelpLabel1": {
+    "Value": "ड्रॉपडाउनमधून निवडा किंवा कीबोर्डवर एखादी की दाबा"
+  },
+  "Sense2Key_Configuration_HelpLabel2": {
+    "Value": "ड्रॉपडाउन निवडलेले असताना"
+  },
+  "Sense2Key_Configuration_SaveConfigurationBtn": {
+    "Value": "संरूपण सेव्ह करा"
+  },
+  "Sense2Key_CreateProfileBtn": {
+    "Value": "प्रोफाईल बनवा"
+  },
+  "Sense2Key_DeleteProfileBtn": {
+    "Value": "काढून टाका"
+  },
+  "Sense2Key_ExportProfileBtn": {
+    "Value": "प्रोफाईल निर्यात करा"
+  },
+  "Sense2Key_GetStartedLabel": {
+    "Value": "नवीन प्रोफाईल बनवून सुरुवात करा"
+  },
+  "Sense2Key_ImportProfileBtn": {
+    "Value": "प्रोफाईल आयात करा"
+  },
+  "Sense2Key_NewProfile_CancelBtn": {
+    "Value": "रद्द करा"
+  },
+  "Sense2Key_NewProfile_SaveNewProfilelBtn": {
+    "Value": "नवीन प्रोफाईल सेव्ह करा"
+  },
+  "Sense2Key_NoProfilesAdded": {
+    "Value": "कोणतेही प्रोफाईल जोडलेले नाहीत"
+  },
+  "Sense2Key_ProfileStatus_DelayCannotBeNegative": {
+    "Value": "विलंब ऋण असू शकत नाही"
+  },
+  "Sense2Key_ProfileStatus_DelayCantBeEmpty": {
+    "Value": "विलंबाची अवधी रिकामी असू शकत नाही"
+  },
+  "Sense2Key_ProfileStatus_DelayUpdated": {
+    "Value": "विलंब अपडेट केला"
+  },
+  "Sense2Key_ProfileStatus_ProfileCreated": {
+    "Value": "प्रोफाईल बनवली"
+  },
+  "Sense2Key_ProfileStatus_ProfileExists": {
+    "Value": "प्रोफाईल आधीच अस्तित्वात आहे"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameCantBeEmpty": {
+    "Value": "प्रोफाईलचे नाव रिकामे नसू शकते"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameUpdated": {
+    "Value": "प्रोफाईलचे नाव अपडेट केले"
+  },
+  "Sense2Key_ProfilesLabel": {
+    "Value": "प्रोफाईल"
+  },
+  "Sense2Key_ProfilesWillShowHere": {
+    "Value": "आपले प्रोफाईल इथे दिसून येतील"
+  },
+  "Sense2Key_SelectedProfile_DelayLabel": {
+    "Value": "विलंब (मिलिसेकंद)"
+  },
+  "Sense2Key_SelectedProfile_DetailsLabel": {
+    "Value": "तपशील"
+  },
+  "Sense2Key_SelectedProfile_EditConfigurationBtn": {
+    "Value": "संरूपण संपादित करा"
+  },
+  "Sense2Key_SelectedProfile_EnterProfileNamePlaceholder": {
+    "Value": "प्रोफाईलचे नाव प्रविष्ट करा"
+  },
+  "Sense2Key_SelectedProfile_ProfileNameLabel": {
+    "Value": "प्रोफाईलचे नाव"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_Active": {
+    "Value": "स्थिती: प्रोफाईल सक्रिय"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_NotActive": {
+    "Value": "स्थिती: प्रोफाईल निष्क्रिय"
+  },
+  "Sense2Key_SelectedProfile_StartBtn": {
+    "Value": "सुरू करा"
+  },
+  "Sense2Key_SelectedProfile_StopBtn": {
+    "Value": "थांबवा"
+  },
+  "Sense2Key_SelectedProfile_UpdateDelayBtn": {
+    "Value": "अपडेट विलंब"
+  },
+  "Sense2Key_SelectedProfile_UpdateProfileNameBtn": {
+    "Value": "अपडेटचे नाव"
+  },
+  "SettingsPage_AppLabel": {
+    "Value": "अ‌ॅप"
+  },
+  "SettingsPage_AppSettings_BorderColorLabel": {
+    "Value": "सीमा रंग"
+  },
+  "SettingsPage_AppSettings_Border_AlphaLabel": {
+    "Value": "आल्फा (पारदर्शकता)"
+  },
+  "SettingsPage_AppSettings_Border_BlueLabel": {
+    "Value": "निळा"
+  },
+  "SettingsPage_AppSettings_Border_GreenLabel": {
+    "Value": "हिरवा"
+  },
+  "SettingsPage_AppSettings_Border_RedLabel": {
+    "Value": "लाल"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundBlurLabel": {
+    "Value": "अस्पष्ट"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundLabel": {
+    "Value": "स्वतःचे पार्श्वभूमी चित्र"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundSelectImageBtn": {
+    "Value": "चित्र निवडा"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundStretchComboBoxLabel": {
+    "Value": "ओढा"
+  },
+  "SettingsPage_AppSettings_DarkModeLabel": {
+    "Value": "गडद मोड"
+  },
+  "SettingsPage_AppSettings_KeepInTrayLabel": {
+    "Value": "मिनिमाईझ केल्यावर अ‍ॅप ट्रेमध्ये ठेवा"
+  },
+  "SettingsPage_AppSettings_Label": {
+    "Value": "अ‍ॅप सेटिंग्ज"
+  },
+  "SettingsPage_AppSettings_LanguageLabel": {
+    "Value": "भाषा"
+  },
+  "SettingsPage_AppSettings_LaunchMinimizedCheckmark": {
+    "Value": "मिनिमाईझ करून सुरू करा"
+  },
+  "SettingsPage_AppSettings_LaunchWindowsStartupLabel": {
+    "Value": "विंडोझ सुरू केल्याबरोबर DualSenseX सुरू करा"
+  },
+  "SettingsPage_App_EnableDiscordRP": {
+    "Value": "डिस्कॉर्ड रिच प्रेझेंस सक्षम करा"
+  },
+  "SettingsPage_App_EnableDiscordRP_MightTakeAMin": {
+    "Value": "अंमलात येण्यास एक मिनिटापर्यंत वेळ लागू शकेल"
+  },
+  "SettingsPage_BackgroundLabel": {
+    "Value": "पार्श्वभूमी"
+  },
+  "SettingsPage_BackgroundSettings_Label": {
+    "Value": "पार्श्वभूमी सेटिंग"
+  },
+  "SettingsPage_BackgroundSettings_SelectedBtn": {
+    "Value": "निवडलेले"
+  },
+  "SettingsPage_ControllerLabel": {
+    "Value": "कंट्रोलर"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault": {
+    "Value": "डीफॉल्ट ऑडिओ"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault_RefreshList": {
+    "Value": "यादी रिफ्रेश करा"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Headset": {
+    "Value": "हेडसेट"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetLeft": {
+    "Value": "हेडसेटची डावी बाजू"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetRight": {
+    "Value": "हेडसेटची उजवी बाजू"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_LeftMotor": {
+    "Value": "डाविकडचे मोटार"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_RightMotor": {
+    "Value": "उजवीकडचे मोटार"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Speaker": {
+    "Value": "स्पीकर"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem": {
+    "Value": "कंट्रोलर ऑडिओ प्रणाली (केवळ यू.एस.बी.द्वारे!)"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_Headset": {
+    "Value": "हेडसेट"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_HeadsetVolume": {
+    "Value": "हेडसेटचा व्हॉल्यूम"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_InternalSpeaker": {
+    "Value": "अंतर्गत स्पीकर"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_MicVolume": {
+    "Value": "माईकचा व्हॉल्यूम"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_OutputMode": {
+    "Value": "ऑडिओ आउटपुट मोड"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerAndHeadset": {
+    "Value": "हेडसेट आणि अंतर्गत स्पीकर दोन्ही"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerVolume": {
+    "Value": "स्पीकरचा व्हॉल्यूम"
+  },
+  "SettingsPage_ControllerSettings_AutoConnectWhenOpenLabel": {
+    "Value": "DualSenseX उघडल्याबरोबर स्वयं कनेक्ट करा"
+  },
+  "SettingsPage_ControllerSettings_ControllerMotorStrengthLabel": {
+    "Value": "मोटारचा जोर समायोजित करा"
+  },
+  "SettingsPage_ControllerSettings_DisableVibrationControllerLabel": {
+    "Value": "कंट्रोलर कंपन अक्षम करा"
+  },
+  "SettingsPage_ControllerSettings_EnableAudioHaptics": {
+    "Value": "ऑडिओ हॅप्टिक सक्षम करा (केवळ यू.एस.बी.द्वारे!)"
+  },
+  "SettingsPage_ControllerSettings_EnableHidHide": {
+    "Value": "HidHide सक्षम करा"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble": {
+    "Value": "सुधारलेले मोटर रम्बल सक्षम करा"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble2": {
+    "Value": "अंमलात येण्यासाठी फर्मवेअर आवृत्ती ०२२४ किंवा जास्त असल्याची गरज आहे"
+  },
+  "SettingsPage_ControllerSettings_EnableVibWhileDisabled": {
+    "Value": "अक्षम असेपर्यंत येणारी कंपने सक्षम करा"
+  },
+  "SettingsPage_ControllerSettings_KillSteamOnConnect": {
+    "Value": "कनेक्ट झाल्यावर स्टीम बंद करून टाका"
+  },
+  "SettingsPage_ControllerSettings_Label": {
+    "Value": "कंट्रोलर सेटिंग"
+  },
+  "SettingsPage_ControllerSettings_LeftTriggerThreshold": {
+    "Value": "डाव्या ट्रिगरची प्रभावसीमा"
+  },
+  "SettingsPage_ControllerSettings_LoadLastActiveTrigger": {
+    "Value": "सुरू केल्यावर याआधीचे सक्रिय ट्रिगर लोड करा"
+  },
+  "SettingsPage_ControllerSettings_PlayLightShowOnConnect": {
+    "Value": "कनेक्ट केल्यावर लाईटशो दाखवा"
+  },
+  "SettingsPage_ControllerSettings_PressMicAndUpXboxGameBar": {
+    "Value": "माईक + वर ही बटणे दाबून एक्सबॉक्स गेम बार उघडा"
+  },
+  "SettingsPage_ControllerSettings_PreviewLightshowBtn": {
+    "Value": "लाईटशोचे पूर्व दर्शन घ्या"
+  },
+  "SettingsPage_ControllerSettings_RightTriggerThreshold": {
+    "Value": "उजव्या ट्रिगरची प्रभावसीमा"
+  },
+  "SettingsPage_ControllerSettings_SearchUntilControllerConnects": {
+    "Value": "कंट्रोलर कनेक्ट होईपर्यंत शोध घेत राहा"
+  },
+  "SettingsPage_ControllerSettings_TriggerThreshold": {
+    "Value": "ट्रिगरची प्रभावसीमा"
+  },
+  "SettingsPage_ControllerSettings_UDPPortListen": {
+    "Value": "यू.डी.पी. पोर्ट लिसनर सक्षम करा"
+  },
+  "SettingsPage_ControllerSettings_UDPPortNumber": {
+    "Value": "या क्रमांकाचा यू.डी.पी. पोर्ट ऐका"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions": {
+    "Value": "व्हॉल्यूम सिंक पर्याय"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_DontSync": {
+    "Value": "सिंक करू नका"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncAll": {
+    "Value": "सर्व सिंक करा"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftMotorRightMotor": {
+    "Value": "डावे मोटार व उजवे मोटार सिंक करा"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftRightSpeakers": {
+    "Value": "डावा स्पीकर व उजवा स्पीकर सिंक करा"
+  },
+  "SettingsPage_Controller_ControllerAudioButton": {
+    "Value": "कंट्रोलर ऑडिओ"
+  },
+  "SettingsPage_Controller_DriversButton": {
+    "Value": "ड्राइव्हर"
+  },
+  "SettingsPage_Controller_GyroAccelButton": {
+    "Value": "घूर्णी/प्रवेगमापक"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking": {
+    "Value": "कंट्रोलर झाकवणे"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking_Description": {
+    "Value": "भौतिक कंट्रोलर इतर अ‍ॅप्लिकेशनपासून लपवा"
+  },
+  "SettingsPage_Controller_MiscellaneousButton": {
+    "Value": "संकीर्ण"
+  },
+  "SettingsPage_Controller_NetworkingButton": {
+    "Value": "नेटवर्किंग"
+  },
+  "SettingsPage_Controller_ShortcutsButton": {
+    "Value": "शॉर्टकट"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput": {
+    "Value": "इनपुट ऐका"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Description": {
+    "Value": "संसूचन करण्यास कंट्रोलरवरील एखादं बटण दाबा"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_NotAllowed": {
+    "Value": "यांची अनुमती नाही:"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Title": {
+    "Value": "इनपुट बटण संसूचन"
+  },
+  "SettingsPage_Controller_Shortcuts_OpenXboxGameBar": {
+    "Value": "एक्सबॉक्स गेम बार उघडायचा संयोग"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBT": {
+    "Value": "कंट्रोलर बंद करा (ब्ल्यूटूथ)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAuto": {
+    "Value": "कंट्रोलर आपोआप बंद करा"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAutoHowTo": {
+    "Value": "कसे करायचे: स्टीम कंट्रोलर आपोआप बंद करणे अक्षम करा"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTManual": {
+    "Value": "मॅन्युअल संयोजन बटण दाबणे"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTMinutes": {
+    "Value": "मिनिटे"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTNever": {
+    "Value": "कधीच नाही"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTTimeElapsedSinceIdle": {
+    "Value": "निष्क्रिय असल्यापासून लोटलेला अवधि:"
+  },
+  "SettingsPage_Controller_TouchpadButton": {
+    "Value": "टचपॅड"
+  },
+  "SettingsPage_Settings_CheckForUpdatesLabel": {
+    "Value": "अपडेट असल्याचा तपास करा"
+  },
+  "SettingsPage_Settings_ResetAppDescription": {
+    "Value": "आपल्याला नक्की DualSenseX रिसेट करून डीफॉल्ट सेटिंग वापरायचे आहेत का?"
+  },
+  "SettingsPage_Settings_ResetAppLabel": {
+    "Value": "अ‍ॅप सेटिंग रीसेट करा"
+  },
+  "SettingsPage_Settings_ResetAppYesButton": {
+    "Value": "DualSenseX रीसेट करा"
+  },
+  "SettingsPage_TouchToMouse_EnableTapAsLeftMouse": {
+    "Value": "टॅप केल्यास डावे माऊस बटण दाबल्याप्रमाणे सक्षम करा"
+  },
+  "SettingsPage_TouchToMouse_EnableTouchpadToMouse": {
+    "Value": "टचपॅडला माऊस असल्यासारखे सक्षम करा"
+  },
+  "SettingsPage_TouchToMouse_FastSensiSpeed": {
+    "Value": "वेगवान संवेदनशीलता गती - बटण दाबून ठेवा"
+  },
+  "SettingsPage_TouchToMouse_InvertScroll": {
+    "Value": "स्क्रोल उलटे करा"
+  },
+  "SettingsPage_TouchToMouse_LeftClickHold": {
+    "Value": "डावे क्लिक - दाबून ठेवलेल्या स्थितीत कायम ठेवायला बटण दाबून ठेवा"
+  },
+  "SettingsPage_TouchToMouse_NormalSensiSpeed": {
+    "Value": "सामान्य संवेदनशीलता गती"
+  },
+  "SettingsPage_TouchToMouse_RightClickHold": {
+    "Value": "उजवे क्लिक - बटण दाबून ठेवा व मग टॅप करा किंवा दाबा"
+  },
+  "SettingsPage_TouchToMouse_ScrollSpeed": {
+    "Value": "स्क्रोल गती - २ बोटांनी टॅप करून खेचा"
+  },
+  "SettingsPage_TouchToMouse_SlowSensiSpeed": {
+    "Value": "मंद संवेदनशीलता गती - बटण दाबून ठेवा"
+  },
+  "SettingsPage_ViewReleaseNotesButton": {
+    "Value": "रिलीझ नोट पाहा"
+  },
+  "SettingsPage_ViewSaveFileFolderButton": {
+    "Value": "सेव्ह फाईल फोल्डर पाहा"
+  },
+  "SetupScreen_AppAcentColor_Color": {
+    "Value": "रंग"
+  },
+  "SetupScreen_AppAcentColor_Preview": {
+    "Value": "पूर्व दर्शन घ्या"
+  },
+  "SetupScreen_AppAcentColor_Reset": {
+    "Value": "रीसेट करून सिस्टमचा डीफॉल्ट अ‍ॅक्सेंट रंग वापरा"
+  },
+  "SetupScreen_AppAcentColor_Title": {
+    "Value": "अ‍ॅप अ‍ॅक्सेंट रंग"
+  },
+  "SetupScreen_EmualtionPicker_DownloadDriver": {
+    "Value": "ड्रायव्हर डाउनलोड करा"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_BothInstalled": {
+    "Value": "दोन्ही ड्रायव्हर संस्थापित केले आहेत"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingForInstalledDrivers": {
+    "Value": "ड्रायव्हर संस्थापित असल्याचा तपास करत आहे..."
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingInstalledDrivers": {
+    "Value": "संस्थापित ड्रायव्हर असल्याचा येथे तपास करत आहे"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4": {
+    "Value": "आभासी ड्युअलशॉक ४"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4_Description": {
+    "Value": "ज्या गेम्सकडे नेटिव्ह ड्युअलशॉक ४ समर्थन आहे त्या गेम्सबरोबर वापरण्यास हा अ‍ॅप एक आभासी ड्युअलशॉक ४ कंट्रोलर निर्माण करेल."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Checkbox": {
+    "Value": "HidHide ड्रायव्हर संस्थापित केले आहे"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Description": {
+    "Value": "आभासी कंट्रोलर एम्युलेट करताना हा अ‍ॅप HidHide द्वारे भौतिक कंट्रोलर लपवू शकतो. आभासी आणि भौतिक कंट्रोलर दोन्ही असल्यामुळे घडणार्‍या दुप्पट इनपुट टाळण्यात याची मदत होते. याने गेम किंवा प्रोग्रामला केवळ आभासी कंट्रोलर दिसतो."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_SystemRestart": {
+    "Value": "* सिस्टम रिस्टार्ट करावं लागेल"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation": {
+    "Value": "एम्युलेशन नाही"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation_Description": {
+    "Value": "आभासी कंट्रोलर न बनवूता हा अ‍ॅप केवळ कंट्रोलरशी संपर्क साधेल."
+  },
+  "SetupScreen_EmualtionPicker_Title": {
+    "Value": "ड्रायव्हर व एम्युलेशन प्रकार"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Checkbox": {
+    "Value": "ViGEm ड्रायव्हर संस्थापित केला आहे"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Description": {
+    "Value": "ViGEm Bus ड्रायव्हर याचा वापर करून एक आभासी यंत्र निर्माण होते. हे मूळ यंत्र भौतिकरित्या कनेक्टेड असल्याची नकल करते."
+  },
+  "SetupScreen_EmualtionPicker_Xbox360": {
+    "Value": "आभासी एक्सबॉक्स ३६० (शिफारसीकृत)"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360_Description": {
+    "Value": "अ‍ॅप एक आभासी एक्सबॉक्स ३६० कंट्रोलर निर्माण करेल, ज्याचा वापर अशा गेम्सशी केला जाऊ शकतो की ज्यांत नेटिव्ह एक्सबॉक्स कंट्रोलर समर्थन आहे."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInput": {
+    "Value": "कंट्रोलर ओळखता आला पाहिजे या कारणासाठी स्टीम इनपुट अक्षम करणे आवश्यक आहे."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInputCheckbox": {
+    "Value": "मी स्टीम इनपुट अक्षम केले आहे"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlay": {
+    "Value": "अ‍ॅपमध्ये ग्राफिक ग्लिच घडू नये या कारणासाठी ओव्हरले अक्षम करणे आवश्यक आहे."
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlayCheckbox": {
+    "Value": "मी स्टीम ओव्हरले अक्षम केला आहे"
+  },
+  "SetupScreen_SteamSetup_Title": {
+    "Value": "स्टीम सेटअप"
+  },
+  "SetupScreen_SteamSetup_Title2": {
+    "Value": "DSX गुणधर्मांमध्ये स्टीन इनपुट आणि ओव्हरले अक्षम करा"
+  },
+  "SetupScreen_SteamSetup_Title2_Subtitle": {
+    "Value": "स्टीम ए.पी.आय. असल्यामुळे असे करावे लागते"
+  }
+}

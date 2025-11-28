@@ -1,0 +1,9 @@
+(2.4.2)
+Patch notes for v2.4.2:
+-----------------------
+
+● Merged DualSenseEdge Branch 
+● General bug fixes for both DualSense and DualSense Edge Controllers
+● General app bug fixes
+● Improved Startup time
+● Different method for getting DualShock Emulation data, potentially better for getting rumble data

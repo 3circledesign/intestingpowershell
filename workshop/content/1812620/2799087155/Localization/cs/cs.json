@@ -1,0 +1,1079 @@
+{
+  "AppCommandArgs_FileLocationNotFound": {
+    "Value": "Název hry byl nalezen, ale umístění souboru nebylo nalezeno"
+  },
+  "AppCommandArgs_GameNameNotFound": {
+    "Value": "Název hry nebyl nalezen, ale bylo nalezeno umístění souboru"
+  },
+  "AppCommandArgs_NoParamersFound": {
+    "Value": "Nebyly nalezeny žádné parametry"
+  },
+  "AppCommandArgs_Playing": {
+    "Value": "Hraje:"
+  },
+  "AppNotificationLabel_AutoConnectedToController": {
+    "Value": "Automaticky připojeno k ovladači!"
+  },
+  "AppNotificationLabel_AutoConnectingToController": {
+    "Value": "Automatické připojení k ovladači"
+  },
+  "AppNotificationLabel_ConnectedToController": {
+    "Value": "Připojeno k ovladači!"
+  },
+  "AppNotificationLabel_ConnectionLost": {
+    "Value": "Připojení ztraceno, Hledání ovladače..."
+  },
+  "AppNotificationLabel_ConnectionLostAttemptingToRconnect": {
+    "Value": "Připojení ztraceno, pokus o opětovné připojení"
+  },
+  "AppNotificationLabel_FailedToAutoConnect": {
+    "Value": "Automatické připojení se nezdařilo, zkontrolujte připojení!"
+  },
+  "AppNotificationLabel_FailedToRconnect": {
+    "Value": "Nepřipojeno, prosím zkontrolujte připojení!"
+  },
+  "AppNotificationLabel_ReconnectedToController": {
+    "Value": "Znovu připojte ovladač!"
+  },
+  "AppNotificationLabel_SearchingForController": {
+    "Value": "Hledání ovladače..."
+  },
+  "AppNotificationPopUp_AreYouSureYouWantToExit": {
+    "Value": "Jste si jisti, že chcete odejít?"
+  },
+  "AppNotificationPopUp_Cancel": {
+    "Value": "Zrušit"
+  },
+  "AppNotificationPopUp_DownloadUpdate": {
+    "Value": "Stahování aktualizace..."
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsDualShock4": {
+    "Value": "Ovladač DualSense se již nebude číst jako ovladač Dualshock 4!"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsXbox": {
+    "Value": "Ovladač DualSense se již nebude číst jako ovladač Xbox!"
+  },
+  "AppNotificationPopUp_Exit": {
+    "Value": "Ukončit"
+  },
+  "AppNotificationPopUp_Later": {
+    "Value": "Později"
+  },
+  "AppNotificationPopUp_MissingDriver_ConnectToController": {
+    "Value": "Připojit k ovladači"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadAndInstall": {
+    "Value": "Stáhnout a nainstalovat ovladače"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadingAndInstalling": {
+    "Value": "Stahování a instalace ovladače..."
+  },
+  "AppNotificationPopUp_MissingDriver_FollowViGEmBusInstructions": {
+    "Value": "Postupujte podle uvedených pokynů ViGEmBus"
+  },
+  "AppNotificationPopUp_MissingDriver_OnceFinishedInstalling": {
+    "Value": "Po dokončení instalace ovladačů se můžete připojit k controlleru."
+  },
+  "AppNotificationPopUp_MissingDriver_Uh-oh": {
+    "Value": "Jejda!"
+  },
+  "AppNotificationPopUp_MissingDriver_YouDontHaveViGEmBusDriverse": {
+    "Value": "Vypadá to, že nemáte nainstalované ovladače VigemBus Drivers"
+  },
+  "AppNotificationPopUp_UpdateAvailable": {
+    "Value": "Aktualizace k dispozici"
+  },
+  "AppNotificationPopUp_UpdateAvailable_InstallIt": {
+    "Value": "Chcete jej nainstalovat?"
+  },
+  "AppNotificationPopUp_UpdateProccess_CurrentVersion": {
+    "Value": "Aktuální verze: "
+  },
+  "AppNotificationPopUp_UpdateProccess_DownloadingUpdate": {
+    "Value": "Stahování aktualizace…"
+  },
+  "AppNotificationPopUp_UpdateProccess_ExtractingUpdate": {
+    "Value": "Rozbalování aktualizace..."
+  },
+  "AppNotificationPopUp_UpdateProccess_FetchingUpdate": {
+    "Value": "Načítání aktualizace..."
+  },
+  "AppNotificationPopUp_UpdateProccess_InstallingUpdate": {
+    "Value": "Instalování aktualizace…"
+  },
+  "AppNotificationPopUp_UpdateProccess_PleaseRestartToApplyUpdate": {
+    "Value": "Chcete-li použít tuto aktualizaci, restartujte"
+  },
+  "AppNotificationPopUp_UpdateProccess_Restart": {
+    "Value": "Restartovat"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateInstalled": {
+    "Value": "Aktualizace nainstalována"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateVersion": {
+    "Value": "Aktualizovat verzi: "
+  },
+  "AppNotificationPopUp_Yes": {
+    "Value": "Ano"
+  },
+  "App_DriversNotInstalledPopup_Title": {
+    "Value": "Chybí ovladače"
+  },
+  "App_ExportTriggersPopUp_BothTriggersBtn": {
+    "Value": "Oba Triggery"
+  },
+  "App_ExportTriggersPopUp_Description": {
+    "Value": "Vyberte prosím jednu z níže uvedených možností"
+  },
+  "App_ExportTriggersPopUp_Title": {
+    "Value": "Exportuj Triggery"
+  },
+  "App_VigemDriverNotInstalled_TextBox": {
+    "Value": "Nainstalujte prosím chybějící ovladače"
+  },
+  "ControllerPage_AdvancedInfoButton": {
+    "Value": "Pokročilé informace"
+  },
+  "ControllerPage_AdvancedInfoConnectToView": {
+    "Value": "Chcete-li zobrazit pokročilé informace, připojte ovladač"
+  },
+  "ControllerPage_BatteryLevelLabel": {
+    "Value": "Úroveň nabití baterie:"
+  },
+  "ControllerPage_ConnectionTypeLabel": {
+    "Value": "Typ připojení:"
+  },
+  "ControllerPage_ConnectionType_Connected": {
+    "Value": "Připojeno"
+  },
+  "ControllerPage_ConnectionType_NotConnected": {
+    "Value": "Nepřipojeno"
+  },
+  "ControllerPage_InputButton": {
+    "Value": "Vstup"
+  },
+  "ControllerPage_LeftJoyStickLabel": {
+    "Value": "Levý joystick"
+  },
+  "ControllerPage_RemappingButton": {
+    "Value": "Přemapování"
+  },
+  "ControllerPage_RightJoyStickLabel": {
+    "Value": "Pravý joystick"
+  },
+  "ControllerPage_UseXboxLabels": {
+    "Value": "Používání štítků Xbox"
+  },
+  "DualSense_BatteryState_AbnormalTemperture": {
+    "Value": "Abnormální teplota"
+  },
+  "DualSense_BatteryState_AbnormalVoltage": {
+    "Value": "Abnormální napětí"
+  },
+  "DualSense_BatteryState_Charging": {
+    "Value": "Nabíjení"
+  },
+  "DualSense_BatteryState_ChargingError": {
+    "Value": "Chyba nabíjení"
+  },
+  "DualSense_BatteryState_Complete": {
+    "Value": "Kompletní"
+  },
+  "DualSense_BatteryState_Discharging": {
+    "Value": "Vybíjení"
+  },
+  "GamesPage_ItemViewScreenshot": {
+    "Value": "Snímek obrazovky"
+  },
+  "GamesPage_ModInfo": {
+    "Value": "Informace o modu"
+  },
+  "GamesPage_ModsButton": {
+    "Value": "MODY"
+  },
+  "GamesPage_ModsSearchBoxPlaceholder": {
+    "Value": "Filtrujte podle názvu modu, názvu hry nebo autora"
+  },
+  "GamesPage_Mods_Disclaimer": {
+    "Value": "Upozornění"
+  },
+  "GamesPage_Mods_DisclaimerDescription": {
+    "Value": "NEPOUŽÍVEJTE tyto mody v online hrách, abyste se vyhnuli zákazu, bude to na vaše vlastní riziko. Společnost DSX nenese žádnou odpovědnost za používání těchto modů."
+  },
+  "GamesPage_Mods_ModAuthor": {
+    "Value": "Autor:"
+  },
+  "GamesPage_Mods_ModGame": {
+    "Value": "Hra:"
+  },
+  "GamesPage_Mods_ModName": {
+    "Value": "Název:"
+  },
+  "GamesPage_Mods_ViewModButton": {
+    "Value": "Zobrazit Mod"
+  },
+  "GamsPage_GameImageLoadingLabel": {
+    "Value": "Načítání obrázků…"
+  },
+  "GamsPage_GameListStatusOne_FetchingGameList": {
+    "Value": "Načítání seznamu her..."
+  },
+  "GamsPage_GameListStatusOne_NoGamesAdded": {
+    "Value": "Žádné Hry Přidány"
+  },
+  "GamsPage_GameListStatusTwo_CheckBackLater": {
+    "Value": "Zkus to později."
+  },
+  "GamsPage_GameListStatusTwo_PleaseWait": {
+    "Value": "Čekejte prosím"
+  },
+  "GamsPage_GameTagsLabel": {
+    "Value": "Štítky"
+  },
+  "GamsPage_GameViewGameBtn": {
+    "Value": "Zobrazit hru"
+  },
+  "GamsPage_GamesLabel": {
+    "Value": "Hry"
+  },
+  "GamsPage_SearchbarPlaceholder": {
+    "Value": "Hledejte hry podle jména nebo značky"
+  },
+  "GeneralStuff_Button": {
+    "Value": "Tlačítko"
+  },
+  "GeneralStuff_CloseButton": {
+    "Value": "Zavřít"
+  },
+  "GeneralStuff_ConfirmButton": {
+    "Value": "Potvrdit"
+  },
+  "GeneralStuff_Sensitivity": {
+    "Value": "Citlivost"
+  },
+  "GeneralStuff_UnableToStartDSX": {
+    "Value": "Nelze spustit DSX"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionOne": {
+    "Value": "Ujistěte se, že Steam běží, a aplikace je nainstalována ve vaší knihovně. Pokud tento problém přetrvává, přeinstalujte DSX přes Steam."
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionTwo": {
+    "Value": "Nelze načíst překlady. Ujistěte se, že Steam běží, máte aktivní připojení k internetu, a aplikace je nainstalována ve vaší knihovně. Pokud tento problém přetrvává, přeinstalujte DSX přes Steam."
+  },
+  "HomePage_AdaptiveTriggers": {
+    "Value": "Adaptivní Triggery"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger": {
+    "Value": "Levý Trigger"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger_ApplyButton": {
+    "Value": "Použít levý Trigger"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger": {
+    "Value": "Pravý Trigger"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger_ApplyButton": {
+    "Value": "Použít pravý Trigger"
+  },
+  "HomePage_AdaptiveTriggers_TriggerMode": {
+    "Value": "Trigger režim"
+  },
+  "HomePage_ApplyModeLabel": {
+    "Value": "Režim Použít"
+  },
+  "HomePage_ApplyMode_ApplyBtn": {
+    "Value": "Použít"
+  },
+  "HomePage_ApplyMode_BothTriggerMotorLabel": {
+    "Value": "Oba spouštěč/motor"
+  },
+  "HomePage_ApplyMode_LeftTriggerMotorLabel": {
+    "Value": "Levý spouštěč/motor"
+  },
+  "HomePage_ApplyMode_RightTriggerMotorLabel": {
+    "Value": "Pravý spouštěč/motor"
+  },
+  "HomePage_BatteryStatus": {
+    "Value": "Stav baterie"
+  },
+  "HomePage_ConnectionStatusLabel": {
+    "Value": "Stav připojení"
+  },
+  "HomePage_ConnectionStatus_ConnectControllerBtn": {
+    "Value": "Připojte ovladač"
+  },
+  "HomePage_ConnectionStatus_EmulationType_ComboboxLabel": {
+    "Value": "Emulace ovladače:"
+  },
+  "HomePage_ConnectionStatus_EmulationType_Emulating360": {
+    "Value": "Emulování Xbox 360"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingDS4": {
+    "Value": "Emulace DualShock 4"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingNone": {
+    "Value": "Neemuluje"
+  },
+  "HomePage_ConnectionStatus_Status_AutoConnectingToController": {
+    "Value": "Automatické připojení k ovladači..."
+  },
+  "HomePage_ConnectionStatus_Status_Connecting": {
+    "Value": "Připojování…"
+  },
+  "HomePage_ConnectionStatus_Status_ConnectionLostAttemptingToReconnect": {
+    "Value": "Spojení ztraceno, pokus o opětovné připojení..."
+  },
+  "HomePage_ConnectionStatus_Status_ControllerConnected": {
+    "Value": "Ovladač připojen"
+  },
+  "HomePage_ConnectionStatus_Status_FailedToConnect": {
+    "Value": "Nepodařilo se připojit, zkontrolujte připojení!"
+  },
+  "HomePage_ConnectionStatus_Status_SearchingForController": {
+    "Value": "Hledání ovladače..."
+  },
+  "HomePage_ConnectionStatus_Status_ShuttingDownApp": {
+    "Value": "Vypnutí aplikace..."
+  },
+  "HomePage_ControllerLEDLabel": {
+    "Value": "LED ovladače"
+  },
+  "HomePage_ControllerLED_BrightnessLabel": {
+    "Value": "Jas"
+  },
+  "HomePage_ControllerLED_ColorModeBtn": {
+    "Value": "Barevný režim"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlash": {
+    "Value": "Aktivujte Flash"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlashWhenBattery": {
+    "Value": "Blikat, když je baterie menší než (%)"
+  },
+  "HomePage_ControllerLED_ColorMode_Breathing_RandomColorCycle": {
+    "Value": "Náhodný barevný cyklus"
+  },
+  "HomePage_ControllerLED_ColorMode_RainbowLabel": {
+    "Value": "Duha"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_AutoReverse": {
+    "Value": "Auto-reverzní duha"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowMultiplier": {
+    "Value": "Násobitel změny barvy"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowSpeed": {
+    "Value": "Rychlost duhy"
+  },
+  "HomePage_ControllerLED_ColorMode_Speed": {
+    "Value": "Rychlost"
+  },
+  "HomePage_ControllerLED_ColorMode_StaticColorLabel": {
+    "Value": "Statická barva"
+  },
+  "HomePage_ControllerLED_MicLEDLabel": {
+    "Value": "LED mikrofonu"
+  },
+  "HomePage_ControllerLED_MicLED_OffBtn": {
+    "Value": "VYP"
+  },
+  "HomePage_ControllerLED_MicLED_OnBtn": {
+    "Value": "ZAP"
+  },
+  "HomePage_ControllerLED_MicLED_PulseBtn": {
+    "Value": "Pulzovat"
+  },
+  "HomePage_ControllerLED_PlayerLEDLabel": {
+    "Value": "LED přehrávače"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOffBtn": {
+    "Value": "Vše vyp"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOnBtn": {
+    "Value": "Vše zap"
+  },
+  "HomePage_ControllerLED_PlayerLED_Battery": {
+    "Value": "Baterie"
+  },
+  "HomePage_ControllerLED_PlayerLED_Breathing": {
+    "Value": "Dýchání"
+  },
+  "HomePage_ControllerLED_PlayerLED_CustomBtn": {
+    "Value": "Vlastní"
+  },
+  "HomePage_ControllerLED_PlayerLED_DS4Passthrough": {
+    "Value": "DualShock 4 Průchod"
+  },
+  "HomePage_ControllerLED_PlayerLED_FiveBtn": {
+    "Value": "Pět"
+  },
+  "HomePage_ControllerLED_PlayerLED_FlashWhileCharging": {
+    "Value": "Pulsovat při nabíjení"
+  },
+  "HomePage_ControllerLED_PlayerLED_FourBtn": {
+    "Value": "Čtyři"
+  },
+  "HomePage_ControllerLED_PlayerLED_HighBrightnessBtn": {
+    "Value": "Vysoký"
+  },
+  "HomePage_ControllerLED_PlayerLED_LowBrightnessBtn": {
+    "Value": "Nízký"
+  },
+  "HomePage_ControllerLED_PlayerLED_MediumBrightnessBtn": {
+    "Value": "Střední"
+  },
+  "HomePage_ControllerLED_PlayerLED_OneBtn": {
+    "Value": "Jedna"
+  },
+  "HomePage_ControllerLED_PlayerLED_Strobing": {
+    "Value": "Strobování"
+  },
+  "HomePage_ControllerLED_PlayerLED_ThreeBtn": {
+    "Value": "Tři"
+  },
+  "HomePage_ControllerLED_PlayerLED_TwoBtn": {
+    "Value": "Dvě"
+  },
+  "HomePage_ControllerLED_RainbowSpeedLabel": {
+    "Value": "Rychlost duhy"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Fast": {
+    "Value": "Rychle"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Hyper": {
+    "Value": "Hyper"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Medium": {
+    "Value": "Střední"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Slow": {
+    "Value": "Pomalu"
+  },
+  "HomePage_ControllerLED_TouchPadLEDLabel": {
+    "Value": "LED touchpadu"
+  },
+  "HomePage_ControllerModeLabel": {
+    "Value": "Režim ovladače"
+  },
+  "HomePage_ControllerMode_IntensityLabel": {
+    "Value": "Intenzita"
+  },
+  "HomePage_ControllerMode_ModeLabel": {
+    "Value": "Režim"
+  },
+  "HomePage_ControllerMode_RandomizeModeAndValues": {
+    "Value": "Náhodný mód + hodnota"
+  },
+  "HomePage_ControllerMode_RandomizeValues": {
+    "Value": "Náhodné hodnoty"
+  },
+  "HomePage_ControllerMode_VibrationDurationLabel": {
+    "Value": "Doba trvání vibrací (Sec)"
+  },
+  "HomePage_ControllerVibration": {
+    "Value": "Vibrace ovladače"
+  },
+  "HomePage_ExportTriggers": {
+    "Value": "Exportovat Triggery"
+  },
+  "HomePage_ExportTriggers_CopyToClipboard": {
+    "Value": "Kopírovat do schránky"
+  },
+  "HomePage_ExportTriggers_ExportForTextfile": {
+    "Value": "Export pro textový soubor"
+  },
+  "HomePage_ExportTriggers_ExportForUDP": {
+    "Value": "Export pro UDP (C#)"
+  },
+  "HomePage_GameLabel": {
+    "Value": "Hra"
+  },
+  "HomePage_TextFileLabel": {
+    "Value": "Textový soubor"
+  },
+  "HomePage_TextFile_FileLocationLabel": {
+    "Value": "Umístění souboru:"
+  },
+  "HomePage_TextFile_SlectFileBtn": {
+    "Value": "Vybrat umístění textového souboru"
+  },
+  "HomePage_TextFile_StatusActiveLabel": {
+    "Value": "Aktivní"
+  },
+  "HomePage_TextFile_StatusLabel": {
+    "Value": "Stav:"
+  },
+  "HomePage_TextFile_StatusNoMatchingTriggerValuesLabel": {
+    "Value": "Aktivní - Nebyly nalezeny žádné odpovídající hodnoty Trigger v textovém souboru!"
+  },
+  "HomePage_TextFile_StatusNotActiveDoesNotExistLabel": {
+    "Value": "Není aktivní - Vybraný soubor neexistuje!"
+  },
+  "HomePage_TextFile_StatusNotActiveLabel": {
+    "Value": "Není aktivní"
+  },
+  "HomePage_TextFile_StatusNotActiveNoFileSelectedLabel": {
+    "Value": "Není aktivní - Není vybrán žádný soubor!"
+  },
+  "HomePage_TextFile_StatusNotActiveNotATextFileLabel": {
+    "Value": "Není aktivní - Toto není textový soubor, zkuste to znovu!"
+  },
+  "HomePage_TextFile_StopReadingBtn": {
+    "Value": "Zastavit čtení textového souboru"
+  },
+  "HomePage_TextfileStatus": {
+    "Value": "Stav textového souboru:"
+  },
+  "HomePage_UdpStatus": {
+    "Value": "Stav UDP:"
+  },
+  "InfoPage_CrashesOrBugsLabel": {
+    "Value": "Pády nebo chyby?"
+  },
+  "InfoPage_Donate": {
+    "Value": "Přispět"
+  },
+  "InfoPage_JoinDiscordLabel": {
+    "Value": "Připojte se k Discord komunitě"
+  },
+  "InfoPage_MoreInfoGitHubLabel": {
+    "Value": "Více informací o GitHubu"
+  },
+  "InfoPage_Social": {
+    "Value": "Sociální"
+  },
+  "MenuGames_Label": {
+    "Value": "Hry"
+  },
+  "MenuHome_Label": {
+    "Value": "Domov"
+  },
+  "MenuInfo_Label": {
+    "Value": "Informace"
+  },
+  "MenuInput_Label": {
+    "Value": "Ovladač"
+  },
+  "MenuSense2Key_Label": {
+    "Value": "Sense2Key"
+  },
+  "MenuSettings_JoinBtn": {
+    "Value": "Připojit se"
+  },
+  "MenuSettings_Label": {
+    "Value": "Nastavení"
+  },
+  "MenuSettings_SubmitIssueBtn": {
+    "Value": "Odeslat problém"
+  },
+  "MenuSettings_VisitBtn": {
+    "Value": "Navštívit"
+  },
+  "MenuWorkshop_Label": {
+    "Value": "Dílna"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartEight": {
+    "Value": "Chcete-li aktualizovat ovladač, nainstalujte prosím oficiální nástroj pro aktualizaci firmwaru od společnosti Sony."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFive": {
+    "Value": "Oprava chyby čtení baterie DualSense"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFour": {
+    "Value": "Vždy byste měli aktualizovat na nejnovější verzi z těchto důvodů:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartNine": {
+    "Value": "POZNÁMKA: Při aktualizaci, se ujistěte, že DSX je uzavřen, aby se předešlo jakýmkoli problémům během procesu."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartOne": {
+    "Value": "Pro váš ovladač DualSense je k dispozici nová verze firmwaru."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSeven": {
+    "Value": "Různé opravy a vylepšení"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSix": {
+    "Value": "Vylepšete normální dunění (pro staré hry)"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartThree": {
+    "Value": "Nová verze:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartTwo": {
+    "Value": "Aktuální verze:"
+  },
+  "NewFirmwareVersionAvailablePopup_Title": {
+    "Value": "K dispozici je nová verze firmwaru DualSense"
+  },
+  "NewFirmwareVersionAvailablePopup_ViewToolButton": {
+    "Value": "Zobrazit nástroj pro aktualizaci firmwaru"
+  },
+  "Sense2Key_Configuration_HelpLabel1": {
+    "Value": "Vyberte z menu nebo stiskněte klávesu na klávesnici"
+  },
+  "Sense2Key_Configuration_HelpLabel2": {
+    "Value": "zatímco je vybrána rozevírací nabídka"
+  },
+  "Sense2Key_Configuration_SaveConfigurationBtn": {
+    "Value": "Uložit konfiguraci"
+  },
+  "Sense2Key_CreateProfileBtn": {
+    "Value": "Vytvořit profil"
+  },
+  "Sense2Key_DeleteProfileBtn": {
+    "Value": "Odstranit"
+  },
+  "Sense2Key_ExportProfileBtn": {
+    "Value": "Exportovat profil"
+  },
+  "Sense2Key_GetStartedLabel": {
+    "Value": "Začněte vytvořením nového profilu"
+  },
+  "Sense2Key_ImportProfileBtn": {
+    "Value": "Importovat profil"
+  },
+  "Sense2Key_NewProfile_CancelBtn": {
+    "Value": "Zrušit"
+  },
+  "Sense2Key_NewProfile_SaveNewProfilelBtn": {
+    "Value": "Uložit nový profil"
+  },
+  "Sense2Key_NoProfilesAdded": {
+    "Value": "Nebyly přidány žádné profily"
+  },
+  "Sense2Key_ProfileStatus_DelayCannotBeNegative": {
+    "Value": "Zpoždění nemůže být záporné"
+  },
+  "Sense2Key_ProfileStatus_DelayCantBeEmpty": {
+    "Value": "Zpoždění nemůže být prázdné"
+  },
+  "Sense2Key_ProfileStatus_DelayUpdated": {
+    "Value": "Zpoždění Aktualizováno"
+  },
+  "Sense2Key_ProfileStatus_ProfileCreated": {
+    "Value": "Profil Vytvořen"
+  },
+  "Sense2Key_ProfileStatus_ProfileExists": {
+    "Value": "Profil již existuje"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameCantBeEmpty": {
+    "Value": "Název profilu nemůže být prázdný"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameUpdated": {
+    "Value": "Název profilu byl aktualizován"
+  },
+  "Sense2Key_ProfilesLabel": {
+    "Value": "PROFILY"
+  },
+  "Sense2Key_ProfilesWillShowHere": {
+    "Value": "Zde se zobrazí vaše profily"
+  },
+  "Sense2Key_SelectedProfile_DelayLabel": {
+    "Value": "Zpoždění (milisekundy)"
+  },
+  "Sense2Key_SelectedProfile_DetailsLabel": {
+    "Value": "Podrobnosti"
+  },
+  "Sense2Key_SelectedProfile_EditConfigurationBtn": {
+    "Value": "Upravit konfiguraci"
+  },
+  "Sense2Key_SelectedProfile_EnterProfileNamePlaceholder": {
+    "Value": "Zadejte název profilu"
+  },
+  "Sense2Key_SelectedProfile_ProfileNameLabel": {
+    "Value": "Název profilu"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_Active": {
+    "Value": "Stav: Profile Aktivní"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_NotActive": {
+    "Value": "Stav: Profil není aktivní"
+  },
+  "Sense2Key_SelectedProfile_StartBtn": {
+    "Value": "Spustit"
+  },
+  "Sense2Key_SelectedProfile_StopBtn": {
+    "Value": "Zastavit"
+  },
+  "Sense2Key_SelectedProfile_UpdateDelayBtn": {
+    "Value": "Zpoždění aktualizace"
+  },
+  "Sense2Key_SelectedProfile_UpdateProfileNameBtn": {
+    "Value": "Aktualizovat jméno"
+  },
+  "SettingsPage_AppLabel": {
+    "Value": "Aplikace"
+  },
+  "SettingsPage_AppSettings_BorderColorLabel": {
+    "Value": "Barva ohraničení"
+  },
+  "SettingsPage_AppSettings_Border_AlphaLabel": {
+    "Value": "Alfa (Transparentní)"
+  },
+  "SettingsPage_AppSettings_Border_BlueLabel": {
+    "Value": "Modrá"
+  },
+  "SettingsPage_AppSettings_Border_GreenLabel": {
+    "Value": "Zelená"
+  },
+  "SettingsPage_AppSettings_Border_RedLabel": {
+    "Value": "Červená"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundBlurLabel": {
+    "Value": "Rozmazání"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundLabel": {
+    "Value": "Vlastní obrázek na pozadí"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundSelectImageBtn": {
+    "Value": "Vybrat obrázek"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundStretchComboBoxLabel": {
+    "Value": "Roztáhnutý"
+  },
+  "SettingsPage_AppSettings_DarkModeLabel": {
+    "Value": "Tmavý režim"
+  },
+  "SettingsPage_AppSettings_KeepInTrayLabel": {
+    "Value": "Ponechat ve Windows Tray při minimalizování aplikace"
+  },
+  "SettingsPage_AppSettings_Label": {
+    "Value": "Nastavení aplikace"
+  },
+  "SettingsPage_AppSettings_LanguageLabel": {
+    "Value": "Jazyk"
+  },
+  "SettingsPage_AppSettings_LaunchMinimizedCheckmark": {
+    "Value": "Spustit v minimalizovaném režimu"
+  },
+  "SettingsPage_AppSettings_LaunchWindowsStartupLabel": {
+    "Value": "Spouštět DualSenseX při startu systému Windows"
+  },
+  "SettingsPage_App_EnableDiscordRP": {
+    "Value": "Povolit Discord Rich Presence"
+  },
+  "SettingsPage_App_EnableDiscordRP_MightTakeAMin": {
+    "Value": "Může trvat až minutu, než se projeví"
+  },
+  "SettingsPage_BackgroundLabel": {
+    "Value": "Pozadí"
+  },
+  "SettingsPage_BackgroundSettings_Label": {
+    "Value": "Nastavení pozadí"
+  },
+  "SettingsPage_BackgroundSettings_SelectedBtn": {
+    "Value": "Vybrané"
+  },
+  "SettingsPage_ControllerLabel": {
+    "Value": "Ovladač"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault": {
+    "Value": "Výchozí zvuk"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault_RefreshList": {
+    "Value": "Obnovit seznam"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Headset": {
+    "Value": "Sluchátka"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetLeft": {
+    "Value": "Headset vlevo"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetRight": {
+    "Value": "Náhlavní souprava pravá"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_LeftMotor": {
+    "Value": "Levý motor"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_RightMotor": {
+    "Value": "Pravý motor"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Speaker": {
+    "Value": "Reproduktor"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem": {
+    "Value": "Audio systém ovladače (POUZE USB)"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_Headset": {
+    "Value": "Sluchátka"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_HeadsetVolume": {
+    "Value": "Hlasitost sluchátek"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_InternalSpeaker": {
+    "Value": "Interní reproduktor"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_MicVolume": {
+    "Value": "Hlasitost mikrofonu"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_OutputMode": {
+    "Value": "Režim výstupu zvuku"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerAndHeadset": {
+    "Value": "Sluchátka i interní reproduktor"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerVolume": {
+    "Value": "Hlasitost reproduktoru"
+  },
+  "SettingsPage_ControllerSettings_AutoConnectWhenOpenLabel": {
+    "Value": "Automatické připojení při otevření DualSenseX"
+  },
+  "SettingsPage_ControllerSettings_ControllerMotorStrengthLabel": {
+    "Value": "Nastavit sílu motoru"
+  },
+  "SettingsPage_ControllerSettings_DisableVibrationControllerLabel": {
+    "Value": "Zakázat vibrace ovladače"
+  },
+  "SettingsPage_ControllerSettings_EnableAudioHaptics": {
+    "Value": "Povolit zvukové haptiky (POUZE USB)"
+  },
+  "SettingsPage_ControllerSettings_EnableHidHide": {
+    "Value": "Povolit HidHide"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble": {
+    "Value": "Povolit vylepšené Motorové dunění"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble2": {
+    "Value": "Vyžaduje firmware verze 0224 nebo vyšší"
+  },
+  "SettingsPage_ControllerSettings_EnableVibWhileDisabled": {
+    "Value": "Povolení příchozích vibrací při vypnutí"
+  },
+  "SettingsPage_ControllerSettings_KillSteamOnConnect": {
+    "Value": "Zabijte Steam při připojení"
+  },
+  "SettingsPage_ControllerSettings_Label": {
+    "Value": "Nastavení ovladače"
+  },
+  "SettingsPage_ControllerSettings_LeftTriggerThreshold": {
+    "Value": "Levý práh Triggeru"
+  },
+  "SettingsPage_ControllerSettings_LoadLastActiveTrigger": {
+    "Value": "Načíst poslední aktivní Trigger při startu"
+  },
+  "SettingsPage_ControllerSettings_PlayLightShowOnConnect": {
+    "Value": "Přehrát Lightshow na Connect"
+  },
+  "SettingsPage_ControllerSettings_PressMicAndUpXboxGameBar": {
+    "Value": "Stisknutím tlačítek Mic + tlačítko nahoru otevřete Xbox Game Bar"
+  },
+  "SettingsPage_ControllerSettings_PreviewLightshowBtn": {
+    "Value": "Náhled Lightshow"
+  },
+  "SettingsPage_ControllerSettings_RightTriggerThreshold": {
+    "Value": "Pravý práh Triggeru"
+  },
+  "SettingsPage_ControllerSettings_SearchUntilControllerConnects": {
+    "Value": "Vyhledávejte, dokud se Controller nepřipojí"
+  },
+  "SettingsPage_ControllerSettings_TriggerThreshold": {
+    "Value": "Práh Triggeru"
+  },
+  "SettingsPage_ControllerSettings_UDPPortListen": {
+    "Value": "Povolit posluchač portů UDP"
+  },
+  "SettingsPage_ControllerSettings_UDPPortNumber": {
+    "Value": "Číslo portu UDP, které chcete poslouchat"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions": {
+    "Value": "Možnosti synchronizace hlasitosti"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_DontSync": {
+    "Value": "Nesynchronizovat"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncAll": {
+    "Value": "Synchronizovat vše"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftMotorRightMotor": {
+    "Value": "Synchronizace levého motoru a pravého motoru"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftRightSpeakers": {
+    "Value": "Synchronizace levého a pravého reproduktoru"
+  },
+  "SettingsPage_Controller_ControllerAudioButton": {
+    "Value": "Audio ovladač"
+  },
+  "SettingsPage_Controller_DriversButton": {
+    "Value": "Drivers"
+  },
+  "SettingsPage_Controller_GyroAccelButton": {
+    "Value": "Gyroskop/akcelerometr"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking": {
+    "Value": "maskování ovladače"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking_Description": {
+    "Value": "Skrýt fyzický ovladač před jinými aplikacemi"
+  },
+  "SettingsPage_Controller_MiscellaneousButton": {
+    "Value": "Různé"
+  },
+  "SettingsPage_Controller_NetworkingButton": {
+    "Value": "Sítě"
+  },
+  "SettingsPage_Controller_ShortcutsButton": {
+    "Value": "Zkratky"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput": {
+    "Value": "Poslouchejte vstup"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Description": {
+    "Value": "Stisknutím tlačítka na ovladači zjistíte"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_NotAllowed": {
+    "Value": "Není povoleno:"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Title": {
+    "Value": "Detekce vstupního tlačítka"
+  },
+  "SettingsPage_Controller_Shortcuts_OpenXboxGameBar": {
+    "Value": "Otevřete Xbox Game Bar kombinaci"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBT": {
+    "Value": "Vypnout ovladač (Bluetooth)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAuto": {
+    "Value": "Automatické vypnutí ovladače"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAutoHowTo": {
+    "Value": "JAK NA TO: Zakázat automatické vypnutí řadiče Steam"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTManual": {
+    "Value": "Ruční stisknutí tlačítka Combo"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTMinutes": {
+    "Value": "Minuty"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTNever": {
+    "Value": "Nikdy"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTTimeElapsedSinceIdle": {
+    "Value": "Čas uplynulý od nečinnosti:"
+  },
+  "SettingsPage_Controller_TouchpadButton": {
+    "Value": "Dotyková podložka"
+  },
+  "SettingsPage_Settings_CheckForUpdatesLabel": {
+    "Value": "Vyhledat aktualizace"
+  },
+  "SettingsPage_Settings_ResetAppDescription": {
+    "Value": "Opravdu chcete obnovit DualSenSex zpět na výchozí nastavení?"
+  },
+  "SettingsPage_Settings_ResetAppLabel": {
+    "Value": "Obnovit nastavení aplikace"
+  },
+  "SettingsPage_Settings_ResetAppYesButton": {
+    "Value": "Resetovat DualSenseX"
+  },
+  "SettingsPage_TouchToMouse_EnableTapAsLeftMouse": {
+    "Value": "Povolit Klepněte jako levé tlačítko myši"
+  },
+  "SettingsPage_TouchToMouse_EnableTouchpadToMouse": {
+    "Value": "Povolit Touchpad jako Myš ve Windows"
+  },
+  "SettingsPage_TouchToMouse_FastSensiSpeed": {
+    "Value": "Rychlá rychlost citlivosti - podržte tlačítko"
+  },
+  "SettingsPage_TouchToMouse_InvertScroll": {
+    "Value": "Invertovat posouvání"
+  },
+  "SettingsPage_TouchToMouse_LeftClickHold": {
+    "Value": "Klikněte levým tlačítkem - Podržte tlačítko pro udržení stisknutého stavu"
+  },
+  "SettingsPage_TouchToMouse_NormalSensiSpeed": {
+    "Value": "Normální rychlost citlivosti"
+  },
+  "SettingsPage_TouchToMouse_RightClickHold": {
+    "Value": "Klikněte pravým tlačítkem - Podržte tlačítko a poté klepněte nebo stiskněte"
+  },
+  "SettingsPage_TouchToMouse_ScrollSpeed": {
+    "Value": "Rychlost posouvání - Klepněte dvěma prsty a přetáhněte"
+  },
+  "SettingsPage_TouchToMouse_SlowSensiSpeed": {
+    "Value": "Zpomalení rychlosti citlivosti - Drž tlačítko"
+  },
+  "SettingsPage_ViewReleaseNotesButton": {
+    "Value": "Zobrazit poznámky k aktualizaci"
+  },
+  "SettingsPage_ViewSaveFileFolderButton": {
+    "Value": "Zobrazit složku Uložit soubor"
+  },
+  "SetupScreen_AppAcentColor_Color": {
+    "Value": "Barva"
+  },
+  "SetupScreen_AppAcentColor_Preview": {
+    "Value": "Náhled"
+  },
+  "SetupScreen_AppAcentColor_Reset": {
+    "Value": "Obnovit výchozí barvu zvýraznění systému"
+  },
+  "SetupScreen_AppAcentColor_Title": {
+    "Value": "Barva zvýraznění aplikace"
+  },
+  "SetupScreen_EmualtionPicker_DownloadDriver": {
+    "Value": "Stáhnout ovladač"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_BothInstalled": {
+    "Value": "Oba ovladače nainstalovány"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingForInstalledDrivers": {
+    "Value": "Kontrola nainstalovaných ovladačů..."
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingInstalledDrivers": {
+    "Value": "Kontrola nainstalovaných ovladačů v"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4": {
+    "Value": "Virtuální DualShock 4"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4_Description": {
+    "Value": "Aplikace vytvoří virtualní DualShock 4 ovladač pro použití s hrami, které mají nativní DualShock 4 podporu."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Checkbox": {
+    "Value": "Nainstalován ovladač HidHide"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Description": {
+    "Value": "HidHide umožňuje aplikaci skrýt fyzický ovladač při emulaci virtuálního zařízení. Používá se, aby se zabránilo dvojitým vstupům z virtuálního a fyzického ovladače a hra nebo program uvidí pouze virtuální ovladač."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_SystemRestart": {
+    "Value": "* Vyžaduje restart systému"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation": {
+    "Value": "Žádná emulace"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation_Description": {
+    "Value": "Aplikace bude komunikovat pouze s ovladačem bez vytvoření virtuálního ovladače."
+  },
+  "SetupScreen_EmualtionPicker_Title": {
+    "Value": "Ovladače a typ emulace"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Checkbox": {
+    "Value": "Nainstalován ovladač ViGEm"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Description": {
+    "Value": "VigEm Bus Driver umožňuje použití virtuálního zařízení, které napodobuje originál, jako by byl fyzicky připojen. Příklad:"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360": {
+    "Value": "Virtuální Xbox 360 (doporučeno)"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360_Description": {
+    "Value": "Aplikace vytvoří virtuální ovladač Xbox 360, který bude použit s hrami, které mají nativní podporu Xbox ovladač."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInput": {
+    "Value": "Aby byl ovladač rozpoznán, musí být Steam Input deaktivován."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInputCheckbox": {
+    "Value": "Zakázal jsem Steam Input"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlay": {
+    "Value": "Aby aplikace neměla žádné grafické závady, překrytí Steam musí být deaktivováno."
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlayCheckbox": {
+    "Value": "Zakázal jsem překrytí Steamu"
+  },
+  "SetupScreen_SteamSetup_Title": {
+    "Value": "Nastavení Steam"
+  },
+  "SetupScreen_SteamSetup_Title2": {
+    "Value": "Zakázat vstup a překrytí Steamu ve vlastnostech DSX"
+  },
+  "SetupScreen_SteamSetup_Title2_Subtitle": {
+    "Value": "To musí být provedeno kvůli rozhraní Steam API."
+  }
+}

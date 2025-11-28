@@ -1,0 +1,266 @@
+[
+  {
+    "description": "If Controller is 0%-10% battery and you connect it to power.",
+    "displayName": "Close One",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_CLOSE_ONE"
+  },
+  {
+    "description": "Connect a Controller to DSX for the first time.",
+    "displayName": "Pad Pair",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_PAD_PAIR"
+  },
+  {
+    "description": "Connect more than one controller to DSX for the first time.",
+    "displayName": "Multi-Pad Pair",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_MULTI_PAD_PAIR"
+  },
+  {
+    "description": "Apply deadzones to either Triggers or Joysticks.",
+    "displayName": "Dead Begone",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_DEAD_BEGONE"
+  },
+  {
+    "description": "Run DSX on DSX's release date anniversary (June 24th).",
+    "displayName": "DSX Anniversary",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_ANNIVERSARY"
+  },
+  {
+    "description": "Activate Virtual Xbox emulation for the first time.",
+    "displayName": "Virtual Box",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_VIRTUAL_BOX"
+  },
+  {
+    "description": "Activate Virtual DualShock or DualSense for the first time.",
+    "displayName": "Virtual Station",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_VIRTUAL_STATION"
+  },
+  {
+    "description": "Try out all Adaptive Trigger modes.",
+    "displayName": "Trigger Happy",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_TRIGGER_HAPPY"
+  },
+  {
+    "description": "Set the Light Bar brightness to 0%.",
+    "displayName": "Lights Out",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_LIGHTS_OUT"
+  },
+  {
+    "description": "Apply any of the LED modes available.",
+    "displayName": "Light Bar Bright",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_LIGHT_BAR_BRIGHT"
+  },
+  {
+    "description": "Create your first Controller Profile.",
+    "displayName": "My Style",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_MY_STYLE"
+  },
+  {
+    "description": "Create more than three Controller Profiles.",
+    "displayName": "Not Enough Configs",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_NOT_ENOUGH_CONFIGS"
+  },
+  {
+    "description": "Set Multi Color LED mode to max cycle speed.",
+    "displayName": "Disco Time!",
+    "hidden": 0,
+    "icon": "achievement_images/a938e307fd117d353edd70d04fa01247ce4f58e6.jpg",
+    "icongray": "achievement_images/ce0030daa1435568dfdb29aeedf67f41dd6f4b3b.jpg",
+    "name": "ACH_DISCO"
+  },
+  {
+    "description": "Reach a total of 1,000 button presses across all buttons combined. Your fingers are unstoppable!",
+    "displayName": "Button Master",
+    "hidden": 0,
+    "icon": "achievement_images/47516f9a754f1eb559a2646147648d03b6c9ed9b.jpg",
+    "icongray": "achievement_images/2a3c9333018e57c2246c5683203a4e0178528571.jpg",
+    "name": "ACH_STAT_1K_Combined_Presses"
+  },
+  {
+    "description": "Achieve a total of 10,000 button presses. You're getting the hang of this!",
+    "displayName": "Button Virtuoso",
+    "hidden": 0,
+    "icon": "achievement_images/2abd5e0e5e278ea7b6bcae032dadd9cc34f84189.jpg",
+    "icongray": "achievement_images/f9c9e1ecf3ba021ce0fba66584645ffb4e507215.jpg",
+    "name": "ACH_STAT_10K_Combined_Presses"
+  },
+  {
+    "description": "Reach 50,000 button presses. Your skill and dedication are impressive!",
+    "displayName": "Button Maestro",
+    "hidden": 0,
+    "icon": "achievement_images/b02f5c7a03aedfd8b4f5aa4b23c29843ec916be2.jpg",
+    "icongray": "achievement_images/a6c5487053dca7308e42275336b7b0d44bb88816.jpg",
+    "name": "ACH_STAT_50K_Combined_Presses"
+  },
+  {
+    "description": "Hit a total of 100,000 button presses. Your expertise is unmatched!",
+    "displayName": "Button Prodigy",
+    "hidden": 0,
+    "icon": "achievement_images/86768443d79112cb04960a8f4634a163da4cb466.jpg",
+    "icongray": "achievement_images/bf3da0199daa3b179bdfe21437f6aaa7490b10ab.jpg",
+    "name": "ACH_STAT_100K_Combined_Presses"
+  },
+  {
+    "description": "Reach an astounding 500,000 button presses. Your perseverance is legendary!",
+    "displayName": "Button Legend",
+    "hidden": 0,
+    "icon": "achievement_images/fda3e15290d821d87d78b94cdef3cf8a19fee74a.jpg",
+    "icongray": "achievement_images/d534bd609329f3a7023c62d3141789b27c1ef8bf.jpg",
+    "name": "ACH_STAT_500K_Combined_Presses"
+  },
+  {
+    "description": "Achieve a monumental 1,000,000 button presses. You are the ultimate button pressing champion!",
+    "displayName": "Button Titan",
+    "hidden": 0,
+    "icon": "achievement_images/13fa350396af7e67125deb84076e0e9888e9026e.jpg",
+    "icongray": "achievement_images/e081d01a907244d875a07de97266014d6a23d2a2.jpg",
+    "name": "ACH_STAT_1M_Combined_Presses"
+  },
+  {
+    "description": "Remap any controller button.",
+    "displayName": "Button Architect",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_ACTIONS_BUTTON_MAPPING"
+  },
+  {
+    "description": "Map any controller button into a keyboard button.",
+    "displayName": "Keymaster",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_ACTIONS_KEYBOARD_MAPPING"
+  },
+  {
+    "description": "Map any controller button into a mouse button.",
+    "displayName": "Mouse Mapper",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_ACTIONS_MOUSE_MAPPING"
+  },
+  {
+    "description": "Map any controller button into a shortcut action.",
+    "displayName": "Shortcut Master",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_ACTIONS_SHORTCUTS"
+  },
+  {
+    "description": "Launch a game from DSX. Dive into the action directly from your customized setup!",
+    "displayName": "Game On",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_LAUNCH_GAME"
+  },
+  {
+    "description": "Use any of the available Haptic Feedback modes.",
+    "displayName": "Feel the Buzz",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_HAPTIC_FEEDBACK"
+  },
+  {
+    "description": "Duplicate a controller profile for adjustment.",
+    "displayName": "My Style Duplicate",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_MY_STYLE_DUPLICATE"
+  },
+  {
+    "description": "Read all the available logs.",
+    "displayName": "Professional logger",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_LOGGER"
+  },
+  {
+    "description": "View your installed game list.",
+    "displayName": "Double Vision",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_DOUBLE_VISION"
+  },
+  {
+    "description": "Look through all the libs used in DSX.",
+    "displayName": "100% Nerd",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_NERD"
+  },
+  {
+    "description": "Open DSX Steam page through DSX.",
+    "displayName": "Full Cycle",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_FULL_CYCLE"
+  },
+  {
+    "description": "Enter the secret sequence on your controller.",
+    "displayName": "Go back to your roots",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_KONAMI_CODE"
+  },
+  {
+    "description": "Achieve 100 button presses. Every journey begins with a single click!",
+    "displayName": "Button Newbie",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_STAT_100_Combined_Presses"
+  },
+  {
+    "description": "Achieve 500 button presses. You're gaining experience, don’t lose steam!",
+    "displayName": "Button Rookie",
+    "hidden": 0,
+    "icon": "achievement_images/d5d043cad47c6d5e949433a2334f8f8d162be7e5.jpg",
+    "icongray": "achievement_images/38bf9e0ef5717a9c4b543a7a43ec349ee36e0e03.jpg",
+    "name": "ACH_STAT_500_Combined_Presses"
+  }
+]

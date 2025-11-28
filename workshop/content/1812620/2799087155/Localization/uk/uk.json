@@ -1,0 +1,1079 @@
+{
+  "AppCommandArgs_FileLocationNotFound": {
+    "Value": "Назва гри знайдено, але розташування файла не знайдено"
+  },
+  "AppCommandArgs_GameNameNotFound": {
+    "Value": "Назву гри не знайдено, але знайдено розташування файла"
+  },
+  "AppCommandArgs_NoParamersFound": {
+    "Value": "Не знайдено параметрів"
+  },
+  "AppCommandArgs_Playing": {
+    "Value": "Відтворення:"
+  },
+  "AppNotificationLabel_AutoConnectedToController": {
+    "Value": "Автоматично приєднано до контролера!"
+  },
+  "AppNotificationLabel_AutoConnectingToController": {
+    "Value": "Автоматичне підключення до контролера"
+  },
+  "AppNotificationLabel_ConnectedToController": {
+    "Value": "Під'єднано до контролера!"
+  },
+  "AppNotificationLabel_ConnectionLost": {
+    "Value": "З'єднання втрачено, Пошук контролера..."
+  },
+  "AppNotificationLabel_ConnectionLostAttemptingToRconnect": {
+    "Value": "З' єднання було втрачено, спроба повторного під'єднання"
+  },
+  "AppNotificationLabel_FailedToAutoConnect": {
+    "Value": "Не вдалося автоматично з' єднатися, будь ласка, перевірте підключення!"
+  },
+  "AppNotificationLabel_FailedToRconnect": {
+    "Value": "Не вдалося під 'єднатися, будь ласка, перевірте з'єднання!"
+  },
+  "AppNotificationLabel_ReconnectedToController": {
+    "Value": "Повторно підключено до контролера!"
+  },
+  "AppNotificationLabel_SearchingForController": {
+    "Value": "Пошук контролера..."
+  },
+  "AppNotificationPopUp_AreYouSureYouWantToExit": {
+    "Value": "Ви впевнені, що хочете вийти?"
+  },
+  "AppNotificationPopUp_Cancel": {
+    "Value": "Скасувати"
+  },
+  "AppNotificationPopUp_DownloadUpdate": {
+    "Value": "Завантаження оновлення…"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsDualShock4": {
+    "Value": "Контролер DualSense більше не буде як контролер Dualshock4!"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsXbox": {
+    "Value": "Контролер DualSense більше не буде як контролер Xbox!"
+  },
+  "AppNotificationPopUp_Exit": {
+    "Value": "Вихід"
+  },
+  "AppNotificationPopUp_Later": {
+    "Value": "Пізніше"
+  },
+  "AppNotificationPopUp_MissingDriver_ConnectToController": {
+    "Value": "Підключитися до контролера"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadAndInstall": {
+    "Value": "Завантаження та інсталяція драйверів"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadingAndInstalling": {
+    "Value": "Завантаження та встановлення драйвера..."
+  },
+  "AppNotificationPopUp_MissingDriver_FollowViGEmBusInstructions": {
+    "Value": "Будь ласка, дотримуйтеся поданих інструкцій ViGEmBus"
+  },
+  "AppNotificationPopUp_MissingDriver_OnceFinishedInstalling": {
+    "Value": "Після завершення встановлення драйвера, ви зможете підключитися до контролера."
+  },
+  "AppNotificationPopUp_MissingDriver_Uh-oh": {
+    "Value": "Ой-ой"
+  },
+  "AppNotificationPopUp_MissingDriver_YouDontHaveViGEmBusDriverse": {
+    "Value": "Схоже, у вас немає драйверів VigemBus"
+  },
+  "AppNotificationPopUp_UpdateAvailable": {
+    "Value": "Доступне оновлення!"
+  },
+  "AppNotificationPopUp_UpdateAvailable_InstallIt": {
+    "Value": "Бажаєте встановити це?"
+  },
+  "AppNotificationPopUp_UpdateProccess_CurrentVersion": {
+    "Value": "Поточна версія:"
+  },
+  "AppNotificationPopUp_UpdateProccess_DownloadingUpdate": {
+    "Value": "Завантаження оновлення…"
+  },
+  "AppNotificationPopUp_UpdateProccess_ExtractingUpdate": {
+    "Value": "Видобування оновлення..."
+  },
+  "AppNotificationPopUp_UpdateProccess_FetchingUpdate": {
+    "Value": "Отримання оновлення..."
+  },
+  "AppNotificationPopUp_UpdateProccess_InstallingUpdate": {
+    "Value": "Встановлюється оновлення…"
+  },
+  "AppNotificationPopUp_UpdateProccess_PleaseRestartToApplyUpdate": {
+    "Value": "Будь ласка, перезапустіть, щоб застосувати це оновлення"
+  },
+  "AppNotificationPopUp_UpdateProccess_Restart": {
+    "Value": "Перезавантажити"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateInstalled": {
+    "Value": "Оновлення інстальовано"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateVersion": {
+    "Value": "Оновлення версії: "
+  },
+  "AppNotificationPopUp_Yes": {
+    "Value": "Так"
+  },
+  "App_DriversNotInstalledPopup_Title": {
+    "Value": "Драйвери Відсутні"
+  },
+  "App_ExportTriggersPopUp_BothTriggersBtn": {
+    "Value": "Обидва тригери"
+  },
+  "App_ExportTriggersPopUp_Description": {
+    "Value": "Будь ласка, оберіть один з варіантів нижче"
+  },
+  "App_ExportTriggersPopUp_Title": {
+    "Value": "Експорт тригерів "
+  },
+  "App_VigemDriverNotInstalled_TextBox": {
+    "Value": "Будь ласка, встановіть відсутні драйвери"
+  },
+  "ControllerPage_AdvancedInfoButton": {
+    "Value": "Більше інфо"
+  },
+  "ControllerPage_AdvancedInfoConnectToView": {
+    "Value": "Будь ласка, підключіть контролер, щоб переглянути розширену інформацію"
+  },
+  "ControllerPage_BatteryLevelLabel": {
+    "Value": "Рівень заряду акумулятора:"
+  },
+  "ControllerPage_ConnectionTypeLabel": {
+    "Value": "Тип з'єднання:"
+  },
+  "ControllerPage_ConnectionType_Connected": {
+    "Value": "З'єднано"
+  },
+  "ControllerPage_ConnectionType_NotConnected": {
+    "Value": "Немає з’єднання"
+  },
+  "ControllerPage_InputButton": {
+    "Value": "Ввід"
+  },
+  "ControllerPage_LeftJoyStickLabel": {
+    "Value": "Лівий джойстик"
+  },
+  "ControllerPage_RemappingButton": {
+    "Value": "Перепризначення"
+  },
+  "ControllerPage_RightJoyStickLabel": {
+    "Value": "Правий джойстик"
+  },
+  "ControllerPage_UseXboxLabels": {
+    "Value": "Використовувати значки Xbox"
+  },
+  "DualSense_BatteryState_AbnormalTemperture": {
+    "Value": "Аномальна температура"
+  },
+  "DualSense_BatteryState_AbnormalVoltage": {
+    "Value": "Аномальна напруга"
+  },
+  "DualSense_BatteryState_Charging": {
+    "Value": "Заряджається"
+  },
+  "DualSense_BatteryState_ChargingError": {
+    "Value": "Помилка зарядки"
+  },
+  "DualSense_BatteryState_Complete": {
+    "Value": "Завершено"
+  },
+  "DualSense_BatteryState_Discharging": {
+    "Value": "Розрядження"
+  },
+  "GamesPage_ItemViewScreenshot": {
+    "Value": "Знімок екрана"
+  },
+  "GamesPage_ModInfo": {
+    "Value": "Інформація про мод "
+  },
+  "GamesPage_ModsButton": {
+    "Value": "МОДИ"
+  },
+  "GamesPage_ModsSearchBoxPlaceholder": {
+    "Value": "Фільтрувати за назвою моду, назвою гри або автором"
+  },
+  "GamesPage_Mods_Disclaimer": {
+    "Value": "ЗАСТЕРЕЖЕННЯ "
+  },
+  "GamesPage_Mods_DisclaimerDescription": {
+    "Value": "НЕ використовуйте ці моди в онлайн-іграх, щоб уникнути бану. Робіть це на свій страх і ризик. DSX НЕ НЕСЕ відповідальності за використання цих модів."
+  },
+  "GamesPage_Mods_ModAuthor": {
+    "Value": "Автор:"
+  },
+  "GamesPage_Mods_ModGame": {
+    "Value": "Гра:"
+  },
+  "GamesPage_Mods_ModName": {
+    "Value": "Назва:"
+  },
+  "GamesPage_Mods_ViewModButton": {
+    "Value": "Переглянути мод"
+  },
+  "GamsPage_GameImageLoadingLabel": {
+    "Value": "Завантаження зображення..."
+  },
+  "GamsPage_GameListStatusOne_FetchingGameList": {
+    "Value": "Отримання списку ігор..."
+  },
+  "GamsPage_GameListStatusOne_NoGamesAdded": {
+    "Value": "Не додано ігор"
+  },
+  "GamsPage_GameListStatusTwo_CheckBackLater": {
+    "Value": "Будь ласка, перевірте пізніше!"
+  },
+  "GamsPage_GameListStatusTwo_PleaseWait": {
+    "Value": "Будь ласка, зачекайте..."
+  },
+  "GamsPage_GameTagsLabel": {
+    "Value": "ТЕГИ"
+  },
+  "GamsPage_GameViewGameBtn": {
+    "Value": "Переглянути гру"
+  },
+  "GamsPage_GamesLabel": {
+    "Value": "ІГРИ"
+  },
+  "GamsPage_SearchbarPlaceholder": {
+    "Value": "Пошук ігор за назвою або тегом"
+  },
+  "GeneralStuff_Button": {
+    "Value": "Кнопка"
+  },
+  "GeneralStuff_CloseButton": {
+    "Value": "Закрити"
+  },
+  "GeneralStuff_ConfirmButton": {
+    "Value": "Підтвердити"
+  },
+  "GeneralStuff_Sensitivity": {
+    "Value": "Чутливість"
+  },
+  "GeneralStuff_UnableToStartDSX": {
+    "Value": "Неможливо запустити DSX"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionOne": {
+    "Value": "Будь ласка, переконайтеся, що Steam запущено, і застосунок встановлений у вашій бібліотеці. Якщо проблема не зникає, перевстановіть DSX через Steam."
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionTwo": {
+    "Value": "Не вдалося отримати переклад. Будь ласка, переконайтеся, що Steam запущено, і у вас є активне підключення до Інтернету, а застосунок встановлено у вашій бібліотеці. Якщо ця проблема не зникне, перезавантажте DSX через Steam."
+  },
+  "HomePage_AdaptiveTriggers": {
+    "Value": "Адаптивні тригери"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger": {
+    "Value": "Лівий тригер"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger_ApplyButton": {
+    "Value": "Застосувати лівий тригер"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger": {
+    "Value": "Правий тригер"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger_ApplyButton": {
+    "Value": "Застосувати правий тригер"
+  },
+  "HomePage_AdaptiveTriggers_TriggerMode": {
+    "Value": "Режим тригера"
+  },
+  "HomePage_ApplyModeLabel": {
+    "Value": "Застосувати режим"
+  },
+  "HomePage_ApplyMode_ApplyBtn": {
+    "Value": "Застосувати"
+  },
+  "HomePage_ApplyMode_BothTriggerMotorLabel": {
+    "Value": "Обидва тригера/двигуна"
+  },
+  "HomePage_ApplyMode_LeftTriggerMotorLabel": {
+    "Value": "Лівий тригер/Мотор"
+  },
+  "HomePage_ApplyMode_RightTriggerMotorLabel": {
+    "Value": "Правий тригер/Мотор"
+  },
+  "HomePage_BatteryStatus": {
+    "Value": "Стан батареї"
+  },
+  "HomePage_ConnectionStatusLabel": {
+    "Value": "Стан з' єднання"
+  },
+  "HomePage_ConnectionStatus_ConnectControllerBtn": {
+    "Value": "З'єднання з контролером"
+  },
+  "HomePage_ConnectionStatus_EmulationType_ComboboxLabel": {
+    "Value": "Емуляція контролера:"
+  },
+  "HomePage_ConnectionStatus_EmulationType_Emulating360": {
+    "Value": "Емуляція Xbox 360"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingDS4": {
+    "Value": "Емуляція DualShock 4"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingNone": {
+    "Value": "Не емулювати"
+  },
+  "HomePage_ConnectionStatus_Status_AutoConnectingToController": {
+    "Value": "Автоматичне з' єднання до контролера..."
+  },
+  "HomePage_ConnectionStatus_Status_Connecting": {
+    "Value": "Підключення…"
+  },
+  "HomePage_ConnectionStatus_Status_ConnectionLostAttemptingToReconnect": {
+    "Value": "З'єднання втрачено, спроба відновити з'єднання..."
+  },
+  "HomePage_ConnectionStatus_Status_ControllerConnected": {
+    "Value": "Контролер підключено"
+  },
+  "HomePage_ConnectionStatus_Status_FailedToConnect": {
+    "Value": "Не вдалося з'єднатися, будь ласка перевірте з'єднання!"
+  },
+  "HomePage_ConnectionStatus_Status_SearchingForController": {
+    "Value": "Пошук контролера..."
+  },
+  "HomePage_ConnectionStatus_Status_ShuttingDownApp": {
+    "Value": "Вимкнення програми..."
+  },
+  "HomePage_ControllerLEDLabel": {
+    "Value": "LED контролера"
+  },
+  "HomePage_ControllerLED_BrightnessLabel": {
+    "Value": "Яскравість"
+  },
+  "HomePage_ControllerLED_ColorModeBtn": {
+    "Value": "Режим кольору"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlash": {
+    "Value": "Активувати мигання"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlashWhenBattery": {
+    "Value": "Спалахувати, коли батарея менше (%)"
+  },
+  "HomePage_ControllerLED_ColorMode_Breathing_RandomColorCycle": {
+    "Value": "Випадковий колірний цикл"
+  },
+  "HomePage_ControllerLED_ColorMode_RainbowLabel": {
+    "Value": "Веселка"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_AutoReverse": {
+    "Value": "Автоматичний-Реверс Веселки"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowMultiplier": {
+    "Value": "Множник зміни кольору"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowSpeed": {
+    "Value": "Швидкість веселки"
+  },
+  "HomePage_ControllerLED_ColorMode_Speed": {
+    "Value": "Швидкість"
+  },
+  "HomePage_ControllerLED_ColorMode_StaticColorLabel": {
+    "Value": "Статичний колір"
+  },
+  "HomePage_ControllerLED_MicLEDLabel": {
+    "Value": "LED мікрофона"
+  },
+  "HomePage_ControllerLED_MicLED_OffBtn": {
+    "Value": "ВИМК."
+  },
+  "HomePage_ControllerLED_MicLED_OnBtn": {
+    "Value": "УВІМК."
+  },
+  "HomePage_ControllerLED_MicLED_PulseBtn": {
+    "Value": "ПУЛЬСАЦІЯ"
+  },
+  "HomePage_ControllerLED_PlayerLEDLabel": {
+    "Value": "LED гравця "
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOffBtn": {
+    "Value": "Вимкнути всі"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOnBtn": {
+    "Value": "Увімкнути всі"
+  },
+  "HomePage_ControllerLED_PlayerLED_Battery": {
+    "Value": "Батарея"
+  },
+  "HomePage_ControllerLED_PlayerLED_Breathing": {
+    "Value": "Дихання"
+  },
+  "HomePage_ControllerLED_PlayerLED_CustomBtn": {
+    "Value": "Користувацький"
+  },
+  "HomePage_ControllerLED_PlayerLED_DS4Passthrough": {
+    "Value": "DualShock 4 пропуск "
+  },
+  "HomePage_ControllerLED_PlayerLED_FiveBtn": {
+    "Value": "П'ять"
+  },
+  "HomePage_ControllerLED_PlayerLED_FlashWhileCharging": {
+    "Value": "Блимання під час зарядки"
+  },
+  "HomePage_ControllerLED_PlayerLED_FourBtn": {
+    "Value": "Чотири"
+  },
+  "HomePage_ControllerLED_PlayerLED_HighBrightnessBtn": {
+    "Value": "Високий"
+  },
+  "HomePage_ControllerLED_PlayerLED_LowBrightnessBtn": {
+    "Value": "Низький"
+  },
+  "HomePage_ControllerLED_PlayerLED_MediumBrightnessBtn": {
+    "Value": "Середній"
+  },
+  "HomePage_ControllerLED_PlayerLED_OneBtn": {
+    "Value": "Один"
+  },
+  "HomePage_ControllerLED_PlayerLED_Strobing": {
+    "Value": "Стробування"
+  },
+  "HomePage_ControllerLED_PlayerLED_ThreeBtn": {
+    "Value": "Три"
+  },
+  "HomePage_ControllerLED_PlayerLED_TwoBtn": {
+    "Value": "Два"
+  },
+  "HomePage_ControllerLED_RainbowSpeedLabel": {
+    "Value": "Швидкість веселки"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Fast": {
+    "Value": "Швидко"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Hyper": {
+    "Value": "Гіпер"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Medium": {
+    "Value": "Середній"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Slow": {
+    "Value": "Повільно"
+  },
+  "HomePage_ControllerLED_TouchPadLEDLabel": {
+    "Value": "Світлодіод сенсорної панелі"
+  },
+  "HomePage_ControllerModeLabel": {
+    "Value": "Режим контролера"
+  },
+  "HomePage_ControllerMode_IntensityLabel": {
+    "Value": "Інтенсивність"
+  },
+  "HomePage_ControllerMode_ModeLabel": {
+    "Value": "Режим"
+  },
+  "HomePage_ControllerMode_RandomizeModeAndValues": {
+    "Value": "Режим випадкового розташування + значення"
+  },
+  "HomePage_ControllerMode_RandomizeValues": {
+    "Value": "Зробити значення випадковим"
+  },
+  "HomePage_ControllerMode_VibrationDurationLabel": {
+    "Value": "Тривалість вібрації (сек)"
+  },
+  "HomePage_ControllerVibration": {
+    "Value": "Вібрація контролера"
+  },
+  "HomePage_ExportTriggers": {
+    "Value": "Експорт тригерів "
+  },
+  "HomePage_ExportTriggers_CopyToClipboard": {
+    "Value": "Копіювати у буфер обміну"
+  },
+  "HomePage_ExportTriggers_ExportForTextfile": {
+    "Value": "Експортувати до текстового файла"
+  },
+  "HomePage_ExportTriggers_ExportForUDP": {
+    "Value": "Експорт для UDP (C#)"
+  },
+  "HomePage_GameLabel": {
+    "Value": "Гра"
+  },
+  "HomePage_TextFileLabel": {
+    "Value": "Текстовий файл"
+  },
+  "HomePage_TextFile_FileLocationLabel": {
+    "Value": "Розташування файлу:"
+  },
+  "HomePage_TextFile_SlectFileBtn": {
+    "Value": "Вибрати розташування текстового файла"
+  },
+  "HomePage_TextFile_StatusActiveLabel": {
+    "Value": "Активний"
+  },
+  "HomePage_TextFile_StatusLabel": {
+    "Value": "Статус:"
+  },
+  "HomePage_TextFile_StatusNoMatchingTriggerValuesLabel": {
+    "Value": "Активно - у текстовому файлі не знайдено відповідних значень тригера!"
+  },
+  "HomePage_TextFile_StatusNotActiveDoesNotExistLabel": {
+    "Value": "Не активно - вибраного файлу не існує!"
+  },
+  "HomePage_TextFile_StatusNotActiveLabel": {
+    "Value": "Не активно"
+  },
+  "HomePage_TextFile_StatusNotActiveNoFileSelectedLabel": {
+    "Value": "Не активно — жодного файлу не вибрано!"
+  },
+  "HomePage_TextFile_StatusNotActiveNotATextFileLabel": {
+    "Value": "Не активно - це не текстовий файл, спробуйте ще раз!"
+  },
+  "HomePage_TextFile_StopReadingBtn": {
+    "Value": "Припинити читання  файла"
+  },
+  "HomePage_TextfileStatus": {
+    "Value": "Статус текстового файлу:"
+  },
+  "HomePage_UdpStatus": {
+    "Value": "Статус UDP:"
+  },
+  "InfoPage_CrashesOrBugsLabel": {
+    "Value": "Збої або помилки?"
+  },
+  "InfoPage_Donate": {
+    "Value": "Пожертвувати"
+  },
+  "InfoPage_JoinDiscordLabel": {
+    "Value": "Приєднатися до спільноти Discord"
+  },
+  "InfoPage_MoreInfoGitHubLabel": {
+    "Value": "Більше інформації на GitHub"
+  },
+  "InfoPage_Social": {
+    "Value": "Соціальні"
+  },
+  "MenuGames_Label": {
+    "Value": "Ігри"
+  },
+  "MenuHome_Label": {
+    "Value": "Головна"
+  },
+  "MenuInfo_Label": {
+    "Value": "Інфо"
+  },
+  "MenuInput_Label": {
+    "Value": "Контролер"
+  },
+  "MenuSense2Key_Label": {
+    "Value": "Sense2Key"
+  },
+  "MenuSettings_JoinBtn": {
+    "Value": "Приєднатися"
+  },
+  "MenuSettings_Label": {
+    "Value": "Налаштування"
+  },
+  "MenuSettings_SubmitIssueBtn": {
+    "Value": "Відправити відгук"
+  },
+  "MenuSettings_VisitBtn": {
+    "Value": "Відвідати"
+  },
+  "MenuWorkshop_Label": {
+    "Value": "Мастерня"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartEight": {
+    "Value": "Будь ласка, встановіть офіційний Firmware Updater Tool від Sony, щоб оновити контролер."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFive": {
+    "Value": "Виправлена помилка читання рівня акумулятора DualSense"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFour": {
+    "Value": "Ви завжди повинні оновлюватися до останньої версії з цих причин:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartNine": {
+    "Value": "ПРИМІТКА: Під час оновлення переконайтеся, що DSX закритий, щоб уникнути будь-яких проблем під час процесу."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartOne": {
+    "Value": "Для контролера DualSense доступна нова версія прошивки."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSeven": {
+    "Value": "Різні виправлення та вдосконалення"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSix": {
+    "Value": "Поліпшити звичайну вібрацію (для старих ігор)"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartThree": {
+    "Value": "Нова версія:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartTwo": {
+    "Value": "Поточна версія:"
+  },
+  "NewFirmwareVersionAvailablePopup_Title": {
+    "Value": "Доступна нова версія прошивки DualSense"
+  },
+  "NewFirmwareVersionAvailablePopup_ViewToolButton": {
+    "Value": "Переглянути засіб оновлення мікропрограми"
+  },
+  "Sense2Key_Configuration_HelpLabel1": {
+    "Value": "Виберіть зі спадного списку або натисніть клавішу на клавіатурі"
+  },
+  "Sense2Key_Configuration_HelpLabel2": {
+    "Value": "коли вибрано спадний список"
+  },
+  "Sense2Key_Configuration_SaveConfigurationBtn": {
+    "Value": "Зберегти конфіг"
+  },
+  "Sense2Key_CreateProfileBtn": {
+    "Value": "Створити профіль"
+  },
+  "Sense2Key_DeleteProfileBtn": {
+    "Value": "Видалити"
+  },
+  "Sense2Key_ExportProfileBtn": {
+    "Value": "Експортувати профіль"
+  },
+  "Sense2Key_GetStartedLabel": {
+    "Value": "Розпочніть із створення нового профілю"
+  },
+  "Sense2Key_ImportProfileBtn": {
+    "Value": "Імпортувати профіль"
+  },
+  "Sense2Key_NewProfile_CancelBtn": {
+    "Value": "Скасувати"
+  },
+  "Sense2Key_NewProfile_SaveNewProfilelBtn": {
+    "Value": "Зберегти профіль"
+  },
+  "Sense2Key_NoProfilesAdded": {
+    "Value": "Профілі не додано"
+  },
+  "Sense2Key_ProfileStatus_DelayCannotBeNegative": {
+    "Value": "Затримка не може бути негативною"
+  },
+  "Sense2Key_ProfileStatus_DelayCantBeEmpty": {
+    "Value": "Затримка не може бути порожньою"
+  },
+  "Sense2Key_ProfileStatus_DelayUpdated": {
+    "Value": "Затримка оновлена"
+  },
+  "Sense2Key_ProfileStatus_ProfileCreated": {
+    "Value": "Профіль створено"
+  },
+  "Sense2Key_ProfileStatus_ProfileExists": {
+    "Value": "Профіль вже існує"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameCantBeEmpty": {
+    "Value": "Назва профілю не може бути порожньою"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameUpdated": {
+    "Value": "Назва профілю оновлено"
+  },
+  "Sense2Key_ProfilesLabel": {
+    "Value": "ПРОФІЛІ"
+  },
+  "Sense2Key_ProfilesWillShowHere": {
+    "Value": "Ваші профілі будуть відображатися тут"
+  },
+  "Sense2Key_SelectedProfile_DelayLabel": {
+    "Value": "Затримка (мілісекунди)"
+  },
+  "Sense2Key_SelectedProfile_DetailsLabel": {
+    "Value": "Деталі"
+  },
+  "Sense2Key_SelectedProfile_EditConfigurationBtn": {
+    "Value": "Редагувати конфіг"
+  },
+  "Sense2Key_SelectedProfile_EnterProfileNamePlaceholder": {
+    "Value": "Введіть назву профілю"
+  },
+  "Sense2Key_SelectedProfile_ProfileNameLabel": {
+    "Value": "Ім'я профілю"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_Active": {
+    "Value": "Статус: Профіль активний"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_NotActive": {
+    "Value": "Статус: Профіль НЕ активний"
+  },
+  "Sense2Key_SelectedProfile_StartBtn": {
+    "Value": "Почати"
+  },
+  "Sense2Key_SelectedProfile_StopBtn": {
+    "Value": "Стоп"
+  },
+  "Sense2Key_SelectedProfile_UpdateDelayBtn": {
+    "Value": "Затримка оновлення"
+  },
+  "Sense2Key_SelectedProfile_UpdateProfileNameBtn": {
+    "Value": "Зміна імені"
+  },
+  "SettingsPage_AppLabel": {
+    "Value": "ДОДАТОК"
+  },
+  "SettingsPage_AppSettings_BorderColorLabel": {
+    "Value": "Колір рамки"
+  },
+  "SettingsPage_AppSettings_Border_AlphaLabel": {
+    "Value": "Альфа (Прозорість)"
+  },
+  "SettingsPage_AppSettings_Border_BlueLabel": {
+    "Value": "Синій"
+  },
+  "SettingsPage_AppSettings_Border_GreenLabel": {
+    "Value": "Зелений"
+  },
+  "SettingsPage_AppSettings_Border_RedLabel": {
+    "Value": "Червоний"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundBlurLabel": {
+    "Value": "Розмиття"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundLabel": {
+    "Value": "Власне зображення фону"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundSelectImageBtn": {
+    "Value": "Вибрати зображення"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundStretchComboBoxLabel": {
+    "Value": "Розтягнути"
+  },
+  "SettingsPage_AppSettings_DarkModeLabel": {
+    "Value": "Темний режим"
+  },
+  "SettingsPage_AppSettings_KeepInTrayLabel": {
+    "Value": "Зберігати додаток в треї при згортанні"
+  },
+  "SettingsPage_AppSettings_Label": {
+    "Value": "Параметри програми"
+  },
+  "SettingsPage_AppSettings_LanguageLabel": {
+    "Value": "Мова"
+  },
+  "SettingsPage_AppSettings_LaunchMinimizedCheckmark": {
+    "Value": "Запустити згорнуто"
+  },
+  "SettingsPage_AppSettings_LaunchWindowsStartupLabel": {
+    "Value": "Запуск DualSenseX під час запуску Windows"
+  },
+  "SettingsPage_App_EnableDiscordRP": {
+    "Value": "Увімкніти статус у Discord"
+  },
+  "SettingsPage_App_EnableDiscordRP_MightTakeAMin": {
+    "Value": "Може зайняти до хвилини, щоб відбулися зміни "
+  },
+  "SettingsPage_BackgroundLabel": {
+    "Value": "Фон"
+  },
+  "SettingsPage_BackgroundSettings_Label": {
+    "Value": "Налаштування фону"
+  },
+  "SettingsPage_BackgroundSettings_SelectedBtn": {
+    "Value": "Вибрано"
+  },
+  "SettingsPage_ControllerLabel": {
+    "Value": "Контролер"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault": {
+    "Value": "Звук за замовчуванням"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault_RefreshList": {
+    "Value": "Оновити список"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Headset": {
+    "Value": "Гарнітура"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetLeft": {
+    "Value": "Гарнітура ліва"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetRight": {
+    "Value": "Гарнітура права"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_LeftMotor": {
+    "Value": "Лівий двигун"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_RightMotor": {
+    "Value": "Правий двигун"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Speaker": {
+    "Value": "Динамік"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem": {
+    "Value": "Аудіосистема контролера (тільки USB)"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_Headset": {
+    "Value": "Навушники"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_HeadsetVolume": {
+    "Value": "Гучність гарнітури"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_InternalSpeaker": {
+    "Value": "Внутрішній динамік"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_MicVolume": {
+    "Value": "Гучність мікрофона"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_OutputMode": {
+    "Value": "Режим виводу звуку"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerAndHeadset": {
+    "Value": "Гарнітура та внутрішній динамік"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerVolume": {
+    "Value": "Гучність динаміків"
+  },
+  "SettingsPage_ControllerSettings_AutoConnectWhenOpenLabel": {
+    "Value": "Автоматичне підключення під час відкриття DualSenseX"
+  },
+  "SettingsPage_ControllerSettings_ControllerMotorStrengthLabel": {
+    "Value": "Регулювання сили мотора"
+  },
+  "SettingsPage_ControllerSettings_DisableVibrationControllerLabel": {
+    "Value": "Вимкнути вібрації контролера"
+  },
+  "SettingsPage_ControllerSettings_EnableAudioHaptics": {
+    "Value": "Увімкнути тактильний звук (тільки USB)"
+  },
+  "SettingsPage_ControllerSettings_EnableHidHide": {
+    "Value": "Увімкнути HidHide"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble": {
+    "Value": "Увімкнути покращений гул двигуна"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble2": {
+    "Value": "Потрібна версія прошивки 0224 або вище\nДля роботи  "
+  },
+  "SettingsPage_ControllerSettings_EnableVibWhileDisabled": {
+    "Value": "Увімкнути вхідні вібрації під час вимкнення"
+  },
+  "SettingsPage_ControllerSettings_KillSteamOnConnect": {
+    "Value": "Вимкнути Steam під час підключення"
+  },
+  "SettingsPage_ControllerSettings_Label": {
+    "Value": "Параметри контролеру"
+  },
+  "SettingsPage_ControllerSettings_LeftTriggerThreshold": {
+    "Value": "Поріг спрацьовування лівого тригера"
+  },
+  "SettingsPage_ControllerSettings_LoadLastActiveTrigger": {
+    "Value": "Завантажити останній активний тригер під час запуску"
+  },
+  "SettingsPage_ControllerSettings_PlayLightShowOnConnect": {
+    "Value": "Влаштувати шоу при з' єднанні"
+  },
+  "SettingsPage_ControllerSettings_PressMicAndUpXboxGameBar": {
+    "Value": "Натисніть кнопки Mic + UP, щоб відкрити Xbox Game Bar"
+  },
+  "SettingsPage_ControllerSettings_PreviewLightshowBtn": {
+    "Value": "Попередній перегляд Шоу"
+  },
+  "SettingsPage_ControllerSettings_RightTriggerThreshold": {
+    "Value": "Поріг спрацьовування правого триггера"
+  },
+  "SettingsPage_ControllerSettings_SearchUntilControllerConnects": {
+    "Value": "Шукайти, доки контролер не підключиться"
+  },
+  "SettingsPage_ControllerSettings_TriggerThreshold": {
+    "Value": "Поріг спрацьовування"
+  },
+  "SettingsPage_ControllerSettings_UDPPortListen": {
+    "Value": "Увімкнути прослуховування портів UDP"
+  },
+  "SettingsPage_ControllerSettings_UDPPortNumber": {
+    "Value": "Номер порту UDP для прослуховування"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions": {
+    "Value": "Параметри синхронізації гучності"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_DontSync": {
+    "Value": "Не синхронізувати"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncAll": {
+    "Value": "Синхронізувати все"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftMotorRightMotor": {
+    "Value": "Синхронізація лівого двигуна і правого двигуна"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftRightSpeakers": {
+    "Value": "Синхронізація лівого та правого динаміків"
+  },
+  "SettingsPage_Controller_ControllerAudioButton": {
+    "Value": "Аудіо контролера "
+  },
+  "SettingsPage_Controller_DriversButton": {
+    "Value": "Драйвери"
+  },
+  "SettingsPage_Controller_GyroAccelButton": {
+    "Value": "Гіроскоп/акселерометр"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking": {
+    "Value": "Клоакінг контролера"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking_Description": {
+    "Value": "Приховати фізичний контролер від інших програм"
+  },
+  "SettingsPage_Controller_MiscellaneousButton": {
+    "Value": "Різне"
+  },
+  "SettingsPage_Controller_NetworkingButton": {
+    "Value": "Мережі"
+  },
+  "SettingsPage_Controller_ShortcutsButton": {
+    "Value": "Ярлики"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput": {
+    "Value": "Вибрати кнопку "
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Description": {
+    "Value": "Натисніть кнопку на контролері, щоб виявити"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_NotAllowed": {
+    "Value": "Не допускається:"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Title": {
+    "Value": "Виявлення кнопки введення"
+  },
+  "SettingsPage_Controller_Shortcuts_OpenXboxGameBar": {
+    "Value": "Комбінація для відкриття Xbox Game Bar"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBT": {
+    "Value": "Вимкнути контролер (Bluetooth)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAuto": {
+    "Value": "Автоматичне відключення контролера"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAutoHowTo": {
+    "Value": "ЯК: Вимкнення автоматичного відключення Steam контролера"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTManual": {
+    "Value": "Ручне введення комбінацій "
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTMinutes": {
+    "Value": "Хвилини"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTNever": {
+    "Value": "Ніколи"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTTimeElapsedSinceIdle": {
+    "Value": "Час, що минув з часу простою:"
+  },
+  "SettingsPage_Controller_TouchpadButton": {
+    "Value": "Сенсорна панель"
+  },
+  "SettingsPage_Settings_CheckForUpdatesLabel": {
+    "Value": "Перевірити наявність оновлень"
+  },
+  "SettingsPage_Settings_ResetAppDescription": {
+    "Value": "Ви впевнені, що хочете повернути DualSenseX до налаштувань за замовчуванням?"
+  },
+  "SettingsPage_Settings_ResetAppLabel": {
+    "Value": "Скинути налаштування застосунку"
+  },
+  "SettingsPage_Settings_ResetAppYesButton": {
+    "Value": "Скидання DualSenseX"
+  },
+  "SettingsPage_TouchToMouse_EnableTapAsLeftMouse": {
+    "Value": "Увімкнути Торкання як Ліва Кнопка Миші"
+  },
+  "SettingsPage_TouchToMouse_EnableTouchpadToMouse": {
+    "Value": "Увімкнути сенсорну панель для миші"
+  },
+  "SettingsPage_TouchToMouse_FastSensiSpeed": {
+    "Value": "Швидке збільшення чутливості - утримування кнопки"
+  },
+  "SettingsPage_TouchToMouse_InvertScroll": {
+    "Value": "Інвертувати прокрутку"
+  },
+  "SettingsPage_TouchToMouse_LeftClickHold": {
+    "Value": "Клацніть лівою кнопкою миші - утримуйте кнопку, щоб зберегти натиснутою"
+  },
+  "SettingsPage_TouchToMouse_NormalSensiSpeed": {
+    "Value": "Нормальна швидкість чутливості"
+  },
+  "SettingsPage_TouchToMouse_RightClickHold": {
+    "Value": "Клац правої кнопкі миші - утримуйте кнопку, а потім торкніться або натисніть"
+  },
+  "SettingsPage_TouchToMouse_ScrollSpeed": {
+    "Value": "Швидкість прокрутки - торкніться двома пальцями, а потім перетягніть"
+  },
+  "SettingsPage_TouchToMouse_SlowSensiSpeed": {
+    "Value": "Уповільнення швидкості чутливості - утримування кнопки"
+  },
+  "SettingsPage_ViewReleaseNotesButton": {
+    "Value": "Переглянути примітки до випуску"
+  },
+  "SettingsPage_ViewSaveFileFolderButton": {
+    "Value": "Переглянути папку збереження файлів"
+  },
+  "SetupScreen_AppAcentColor_Color": {
+    "Value": "Колір"
+  },
+  "SetupScreen_AppAcentColor_Preview": {
+    "Value": "Попередній перегляд"
+  },
+  "SetupScreen_AppAcentColor_Reset": {
+    "Value": "Скинути налаштування кольору"
+  },
+  "SetupScreen_AppAcentColor_Title": {
+    "Value": "Акцентний колір застосунку"
+  },
+  "SetupScreen_EmualtionPicker_DownloadDriver": {
+    "Value": "Завантажити драйвер"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_BothInstalled": {
+    "Value": "Встановлено обидва драйвери"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingForInstalledDrivers": {
+    "Value": "Перевірка на наявність встановлених драйверів..."
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingInstalledDrivers": {
+    "Value": "Перевірка встановлених драйверів в"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4": {
+    "Value": "Віртуальний DualShock 4"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4_Description": {
+    "Value": "Додаток створить віртуальний контролер DualShock 4, який буде використовуватися з іграми, які мають вбудовану підтримку DualShock 4."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Checkbox": {
+    "Value": "Встановлено драйвер HidHide"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Description": {
+    "Value": "HiDHide дозволяє додатку приховувати фізичний контролер під час емуляції віртуального пристрою. Він використовується, щоб уникнути подвійних входів від віртуального та фізичного контролера, і дає грі або програмі побачить лише віртуальний контролер."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_SystemRestart": {
+    "Value": "* Потребує перезапуск системи "
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation": {
+    "Value": "Немає емуляції"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation_Description": {
+    "Value": "Застосунок буде спілкуватися з контролером. без емуляції віртуального контролера."
+  },
+  "SetupScreen_EmualtionPicker_Title": {
+    "Value": "Драйвери та тип емуляції"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Checkbox": {
+    "Value": "Драйвер ViGEm встановлено"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Description": {
+    "Value": "ViGEm Bus Driver дозволяє використовувати віртуальний пристрій, який імітує оригінал, як якщо б він був фізично підключений. Приклад:"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360": {
+    "Value": "Віртуальний Xbox 360 (рекомендовано)"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360_Description": {
+    "Value": "Додаток створить віртуальний контролер Xbox 360, який буде використовуватися з іграми, які мають вбудовану підтримку Xbox Controller."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInput": {
+    "Value": "Для того, щоб контролер роспізнавався, Steam Input має бути вимкнено."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInputCheckbox": {
+    "Value": "Я вимкнув Steam Input "
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlay": {
+    "Value": "Щоб програма не мала графічних збоїв, Overlay має бути вимкнено."
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlayCheckbox": {
+    "Value": "Я вимкнув Steam Overlay "
+  },
+  "SetupScreen_SteamSetup_Title": {
+    "Value": "Налаштування Steam"
+  },
+  "SetupScreen_SteamSetup_Title2": {
+    "Value": "Вимкніть Steam Input та Overlay в властивостях DSX "
+  },
+  "SetupScreen_SteamSetup_Title2_Subtitle": {
+    "Value": "Це має бути зроблено через Steam API."
+  }
+}

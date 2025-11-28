@@ -1,0 +1,1079 @@
+{
+  "AppCommandArgs_FileLocationNotFound": {
+    "Value": "Oyun adı bulundu ancak dosya konumu bulunamadı"
+  },
+  "AppCommandArgs_GameNameNotFound": {
+    "Value": "Oyun adı bulunamadı, ancak dosya konumu bulundu"
+  },
+  "AppCommandArgs_NoParamersFound": {
+    "Value": "Parametre bulunmadı"
+  },
+  "AppCommandArgs_Playing": {
+    "Value": "Oynuyor:"
+  },
+  "AppNotificationLabel_AutoConnectedToController": {
+    "Value": "Kontrolcüye Otomatik olarak Bağlanıldı!"
+  },
+  "AppNotificationLabel_AutoConnectingToController": {
+    "Value": "Kontrolcüye Otomatik Bağlanılıyor"
+  },
+  "AppNotificationLabel_ConnectedToController": {
+    "Value": "Kontrolcüye Bağlanıldı!"
+  },
+  "AppNotificationLabel_ConnectionLost": {
+    "Value": "Bağlantı kesildi, Kontrolcü Aranıyor..."
+  },
+  "AppNotificationLabel_ConnectionLostAttemptingToRconnect": {
+    "Value": "Bağlantı kesildi, yeniden bağlanılmaya çalışılıyor"
+  },
+  "AppNotificationLabel_FailedToAutoConnect": {
+    "Value": "Otomatik bağlanma başarısız, lütfen bağlantıyı kontrol ediniz!"
+  },
+  "AppNotificationLabel_FailedToRconnect": {
+    "Value": "Yeniden bağlanma başarısız, lütfen bağlantıyı kontrol ediniz!"
+  },
+  "AppNotificationLabel_ReconnectedToController": {
+    "Value": "Kontrolcü'ye Tekrar Bağlanıldı!"
+  },
+  "AppNotificationLabel_SearchingForController": {
+    "Value": "Kontrolcü aranıyor..."
+  },
+  "AppNotificationPopUp_AreYouSureYouWantToExit": {
+    "Value": "Çıkmak istediğinizden emin misiniz?"
+  },
+  "AppNotificationPopUp_Cancel": {
+    "Value": "İptal"
+  },
+  "AppNotificationPopUp_DownloadUpdate": {
+    "Value": "Güncelleme İndirilliyor..."
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsDualShock4": {
+    "Value": "DualSense Oyun Kontrolcüsü artık DualShock 4 Oyun Kontrolcüsü olarak görünmeyecek!"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsXbox": {
+    "Value": "DualSense Oyun Kontrolcüsü artık Xbox Oyun Kontrolcüsü olarak görünmeyecek!"
+  },
+  "AppNotificationPopUp_Exit": {
+    "Value": "Çıkış"
+  },
+  "AppNotificationPopUp_Later": {
+    "Value": "Daha Sonra"
+  },
+  "AppNotificationPopUp_MissingDriver_ConnectToController": {
+    "Value": "Kontrolcü'ye Bağlan"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadAndInstall": {
+    "Value": "Sürücüleri İndir ve Yükle"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadingAndInstalling": {
+    "Value": "Sürücü İndiriliyor ve Yükleniyor..."
+  },
+  "AppNotificationPopUp_MissingDriver_FollowViGEmBusInstructions": {
+    "Value": "Lütfen sunulan ViGEmBus talimatlarını takip edin"
+  },
+  "AppNotificationPopUp_MissingDriver_OnceFinishedInstalling": {
+    "Value": "Sürücüyü yüklemeyi tamamladıktan sonra, Oyun Kumandanızı bağlayabilirsiniz."
+  },
+  "AppNotificationPopUp_MissingDriver_Uh-oh": {
+    "Value": "Eyvah!"
+  },
+  "AppNotificationPopUp_MissingDriver_YouDontHaveViGEmBusDriverse": {
+    "Value": "Görünüşe göre ViGEmBus Sürücüleri yüklü değil"
+  },
+  "AppNotificationPopUp_UpdateAvailable": {
+    "Value": "Güncelleme Mevcut!"
+  },
+  "AppNotificationPopUp_UpdateAvailable_InstallIt": {
+    "Value": "Yüklemek ister misiniz?"
+  },
+  "AppNotificationPopUp_UpdateProccess_CurrentVersion": {
+    "Value": "Mevcut Sürüm:"
+  },
+  "AppNotificationPopUp_UpdateProccess_DownloadingUpdate": {
+    "Value": "Güncelleştirme İndiriliyor.."
+  },
+  "AppNotificationPopUp_UpdateProccess_ExtractingUpdate": {
+    "Value": "Güncelleştirme Ayıklanıyor..."
+  },
+  "AppNotificationPopUp_UpdateProccess_FetchingUpdate": {
+    "Value": "Güncelleştirme Alınıyor..."
+  },
+  "AppNotificationPopUp_UpdateProccess_InstallingUpdate": {
+    "Value": "Güncelleştirme Yükleniyor..."
+  },
+  "AppNotificationPopUp_UpdateProccess_PleaseRestartToApplyUpdate": {
+    "Value": "Lütfen bu güncelleştirmeyi uygulamak için yeniden başlatın"
+  },
+  "AppNotificationPopUp_UpdateProccess_Restart": {
+    "Value": "Yeniden Başlat"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateInstalled": {
+    "Value": "Güncelleştirme Yüklendi"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateVersion": {
+    "Value": "Güncelleştirme Sürümü: "
+  },
+  "AppNotificationPopUp_Yes": {
+    "Value": "Evet"
+  },
+  "App_DriversNotInstalledPopup_Title": {
+    "Value": "Sürücü Eksik"
+  },
+  "App_ExportTriggersPopUp_BothTriggersBtn": {
+    "Value": "İkiside"
+  },
+  "App_ExportTriggersPopUp_Description": {
+    "Value": "Lütfen aşağıdaki seçeneklerden birini seçin"
+  },
+  "App_ExportTriggersPopUp_Title": {
+    "Value": "Tetikleri Dışa Aktar"
+  },
+  "App_VigemDriverNotInstalled_TextBox": {
+    "Value": "Lütfen eksik Sürücüleri yükleyin"
+  },
+  "ControllerPage_AdvancedInfoButton": {
+    "Value": "Gelişmiş Bilgi"
+  },
+  "ControllerPage_AdvancedInfoConnectToView": {
+    "Value": "Gelişmiş Bilgileri görebilmek için lütfen kolu bağlayın"
+  },
+  "ControllerPage_BatteryLevelLabel": {
+    "Value": "Pil Seviyesi:"
+  },
+  "ControllerPage_ConnectionTypeLabel": {
+    "Value": "Bağlantı Türü:"
+  },
+  "ControllerPage_ConnectionType_Connected": {
+    "Value": "Bağlandı"
+  },
+  "ControllerPage_ConnectionType_NotConnected": {
+    "Value": "Bağlı Değil"
+  },
+  "ControllerPage_InputButton": {
+    "Value": "Giriş"
+  },
+  "ControllerPage_LeftJoyStickLabel": {
+    "Value": "Sol Analog"
+  },
+  "ControllerPage_RemappingButton": {
+    "Value": "Yeniden Atama"
+  },
+  "ControllerPage_RightJoyStickLabel": {
+    "Value": "Sağ Analog"
+  },
+  "ControllerPage_UseXboxLabels": {
+    "Value": "Xbox Tuş Düzeni Kullan"
+  },
+  "DualSense_BatteryState_AbnormalTemperture": {
+    "Value": "Anormal Sıcaklık"
+  },
+  "DualSense_BatteryState_AbnormalVoltage": {
+    "Value": "Anormal Voltaj"
+  },
+  "DualSense_BatteryState_Charging": {
+    "Value": "Şarj oluyor"
+  },
+  "DualSense_BatteryState_ChargingError": {
+    "Value": "Şarj hatası"
+  },
+  "DualSense_BatteryState_Complete": {
+    "Value": "Tamamlandı"
+  },
+  "DualSense_BatteryState_Discharging": {
+    "Value": "Şarj Edilmiyor"
+  },
+  "GamesPage_ItemViewScreenshot": {
+    "Value": "Ekran görüntüsü"
+  },
+  "GamesPage_ModInfo": {
+    "Value": "Mod Bilgisi"
+  },
+  "GamesPage_ModsButton": {
+    "Value": "MODLAR"
+  },
+  "GamesPage_ModsSearchBoxPlaceholder": {
+    "Value": "Mod Adı, Oyun Adı veya Yapımcıya Göre Filtrele"
+  },
+  "GamesPage_Mods_Disclaimer": {
+    "Value": "UYARI"
+  },
+  "GamesPage_Mods_DisclaimerDescription": {
+    "Value": "Banlanmamak için bu Modları çevrimiçi oyunlarda KULLANMAYIN, eğer kullanırsanız bu sizin sorumluluğunuzdur. DSX, bu Modları kullandığınız sürece HİÇBİR sorumluluğu üstlenmez"
+  },
+  "GamesPage_Mods_ModAuthor": {
+    "Value": "Yapımcı:"
+  },
+  "GamesPage_Mods_ModGame": {
+    "Value": "Oyun:"
+  },
+  "GamesPage_Mods_ModName": {
+    "Value": "İsim:"
+  },
+  "GamesPage_Mods_ViewModButton": {
+    "Value": "Modu Görüntüle"
+  },
+  "GamsPage_GameImageLoadingLabel": {
+    "Value": "Görüntü Yükleniyor..."
+  },
+  "GamsPage_GameListStatusOne_FetchingGameList": {
+    "Value": "Oyun Listesi Alınıyor..."
+  },
+  "GamsPage_GameListStatusOne_NoGamesAdded": {
+    "Value": "Oyun Eklenmedi"
+  },
+  "GamsPage_GameListStatusTwo_CheckBackLater": {
+    "Value": "Lütfen daha sonra yeniden kontrol edin!"
+  },
+  "GamsPage_GameListStatusTwo_PleaseWait": {
+    "Value": "Lütfen Bekleyin"
+  },
+  "GamsPage_GameTagsLabel": {
+    "Value": "ETİKETLER"
+  },
+  "GamsPage_GameViewGameBtn": {
+    "Value": "Oyunu Görüntüle"
+  },
+  "GamsPage_GamesLabel": {
+    "Value": "OYUNLAR"
+  },
+  "GamsPage_SearchbarPlaceholder": {
+    "Value": "Oyunları İsmine veya Etiketine Göre Ara"
+  },
+  "GeneralStuff_Button": {
+    "Value": "Düğme"
+  },
+  "GeneralStuff_CloseButton": {
+    "Value": "Kapat"
+  },
+  "GeneralStuff_ConfirmButton": {
+    "Value": "Onayla"
+  },
+  "GeneralStuff_Sensitivity": {
+    "Value": "Hassasiyet"
+  },
+  "GeneralStuff_UnableToStartDSX": {
+    "Value": "DSX başlatılamıyor"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionOne": {
+    "Value": "Lütfen Steam'in çalıştığından ve uygulamanın kütüphanenizde yüklü olduğundan emin olun. Bu sorun devam ederse, DSX'i Steam üzerinden yeniden yükleyin."
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionTwo": {
+    "Value": "Çeviriler yüklenemiyor. Lütfen Steam'in çalıştığından, aktif bir internet bağlantınız olduğundan ve uygulamanın kütüphanenizde yüklü olduğundan emin olun. Bu sorun devam ederse, DSX'i Steam üzerinden yeniden yükleyin."
+  },
+  "HomePage_AdaptiveTriggers": {
+    "Value": "Adaptif Tetikler"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger": {
+    "Value": "Sol Tetik"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger_ApplyButton": {
+    "Value": "Uygula Sol Tetik"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger": {
+    "Value": "Sağ Tetik"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger_ApplyButton": {
+    "Value": "Uygula Sağ tetik"
+  },
+  "HomePage_AdaptiveTriggers_TriggerMode": {
+    "Value": "Tetik Modu"
+  },
+  "HomePage_ApplyModeLabel": {
+    "Value": "Modu Uygula"
+  },
+  "HomePage_ApplyMode_ApplyBtn": {
+    "Value": "Uygula"
+  },
+  "HomePage_ApplyMode_BothTriggerMotorLabel": {
+    "Value": "İki Tetik/Motor"
+  },
+  "HomePage_ApplyMode_LeftTriggerMotorLabel": {
+    "Value": "Sol Tetik/Motor"
+  },
+  "HomePage_ApplyMode_RightTriggerMotorLabel": {
+    "Value": "Sağ Tetik/Motor"
+  },
+  "HomePage_BatteryStatus": {
+    "Value": "Pil durumu"
+  },
+  "HomePage_ConnectionStatusLabel": {
+    "Value": "Bağlantı durumu"
+  },
+  "HomePage_ConnectionStatus_ConnectControllerBtn": {
+    "Value": "Kontrolcü'ye Bağlan"
+  },
+  "HomePage_ConnectionStatus_EmulationType_ComboboxLabel": {
+    "Value": "Kontrolcü Emülasyonu:"
+  },
+  "HomePage_ConnectionStatus_EmulationType_Emulating360": {
+    "Value": "Xbox 360 Emüle Ediliyor"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingDS4": {
+    "Value": "DualShock 4 Emüle Ediliyor"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingNone": {
+    "Value": "Emüle Edilmiyor"
+  },
+  "HomePage_ConnectionStatus_Status_AutoConnectingToController": {
+    "Value": "Kontrolcü'ye otomatik olarak bağlanılıyor..."
+  },
+  "HomePage_ConnectionStatus_Status_Connecting": {
+    "Value": "Bağlanılıyor…"
+  },
+  "HomePage_ConnectionStatus_Status_ConnectionLostAttemptingToReconnect": {
+    "Value": "Bağlantı kesildi, yeniden bağlanılmaya çalışılıyor."
+  },
+  "HomePage_ConnectionStatus_Status_ControllerConnected": {
+    "Value": "Kontrolcü Bağlandı"
+  },
+  "HomePage_ConnectionStatus_Status_FailedToConnect": {
+    "Value": "Bağlantı kurulamadı, lütfen bağlantıyı kontrol ediniz!"
+  },
+  "HomePage_ConnectionStatus_Status_SearchingForController": {
+    "Value": "Kontrolcü aranıyor..."
+  },
+  "HomePage_ConnectionStatus_Status_ShuttingDownApp": {
+    "Value": "Uygulama Kapatılıyor..."
+  },
+  "HomePage_ControllerLEDLabel": {
+    "Value": "Kontrolcü LED"
+  },
+  "HomePage_ControllerLED_BrightnessLabel": {
+    "Value": "Parlaklık"
+  },
+  "HomePage_ControllerLED_ColorModeBtn": {
+    "Value": "Renk Modu"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlash": {
+    "Value": "Flash'ı etkinleştir"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlashWhenBattery": {
+    "Value": "Pil (%) 'den az olduğunda yanıp sön"
+  },
+  "HomePage_ControllerLED_ColorMode_Breathing_RandomColorCycle": {
+    "Value": "Rastgele Renk Döngüsü"
+  },
+  "HomePage_ControllerLED_ColorMode_RainbowLabel": {
+    "Value": "Gökkuşağı"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_AutoReverse": {
+    "Value": "Otomatik Ters Gökkuşağı"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowMultiplier": {
+    "Value": "Renk Değişim Çarpanı"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowSpeed": {
+    "Value": "Gökkuşağı Hızı"
+  },
+  "HomePage_ControllerLED_ColorMode_Speed": {
+    "Value": "Hız"
+  },
+  "HomePage_ControllerLED_ColorMode_StaticColorLabel": {
+    "Value": "Statik Renk"
+  },
+  "HomePage_ControllerLED_MicLEDLabel": {
+    "Value": "Mikrofon LED"
+  },
+  "HomePage_ControllerLED_MicLED_OffBtn": {
+    "Value": "KAPALI"
+  },
+  "HomePage_ControllerLED_MicLED_OnBtn": {
+    "Value": "AÇIK"
+  },
+  "HomePage_ControllerLED_MicLED_PulseBtn": {
+    "Value": "RİTİM"
+  },
+  "HomePage_ControllerLED_PlayerLEDLabel": {
+    "Value": "Oyuncu LED"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOffBtn": {
+    "Value": "Tümü KAPALI"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOnBtn": {
+    "Value": "Tümü AÇIK"
+  },
+  "HomePage_ControllerLED_PlayerLED_Battery": {
+    "Value": "Pil"
+  },
+  "HomePage_ControllerLED_PlayerLED_Breathing": {
+    "Value": "Nefes alma"
+  },
+  "HomePage_ControllerLED_PlayerLED_CustomBtn": {
+    "Value": "Özel"
+  },
+  "HomePage_ControllerLED_PlayerLED_DS4Passthrough": {
+    "Value": "DualShock 4 Geçiş"
+  },
+  "HomePage_ControllerLED_PlayerLED_FiveBtn": {
+    "Value": "Beş"
+  },
+  "HomePage_ControllerLED_PlayerLED_FlashWhileCharging": {
+    "Value": "Şarj olurken yanıp sön"
+  },
+  "HomePage_ControllerLED_PlayerLED_FourBtn": {
+    "Value": "Dört"
+  },
+  "HomePage_ControllerLED_PlayerLED_HighBrightnessBtn": {
+    "Value": "Yüksek"
+  },
+  "HomePage_ControllerLED_PlayerLED_LowBrightnessBtn": {
+    "Value": "Düşük"
+  },
+  "HomePage_ControllerLED_PlayerLED_MediumBrightnessBtn": {
+    "Value": "Orta"
+  },
+  "HomePage_ControllerLED_PlayerLED_OneBtn": {
+    "Value": "Bir"
+  },
+  "HomePage_ControllerLED_PlayerLED_Strobing": {
+    "Value": "Yanıp Sönme"
+  },
+  "HomePage_ControllerLED_PlayerLED_ThreeBtn": {
+    "Value": "Üç"
+  },
+  "HomePage_ControllerLED_PlayerLED_TwoBtn": {
+    "Value": "İki"
+  },
+  "HomePage_ControllerLED_RainbowSpeedLabel": {
+    "Value": "Gökkuşağı Hızı"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Fast": {
+    "Value": "Hızlı"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Hyper": {
+    "Value": "Hiper"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Medium": {
+    "Value": "Orta"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Slow": {
+    "Value": "Yavaş"
+  },
+  "HomePage_ControllerLED_TouchPadLEDLabel": {
+    "Value": "Dokunmatik Yüzey LED"
+  },
+  "HomePage_ControllerModeLabel": {
+    "Value": "Kontrolcü Modu"
+  },
+  "HomePage_ControllerMode_IntensityLabel": {
+    "Value": "Yoğunluk"
+  },
+  "HomePage_ControllerMode_ModeLabel": {
+    "Value": "Mod"
+  },
+  "HomePage_ControllerMode_RandomizeModeAndValues": {
+    "Value": "Rastgele Mod + Değerler"
+  },
+  "HomePage_ControllerMode_RandomizeValues": {
+    "Value": "Rastgele Değerler"
+  },
+  "HomePage_ControllerMode_VibrationDurationLabel": {
+    "Value": "Titreşim Süresi (Sn)"
+  },
+  "HomePage_ControllerVibration": {
+    "Value": "Kontrolcü Titreşimi"
+  },
+  "HomePage_ExportTriggers": {
+    "Value": "Tetikleri Dışa Aktar"
+  },
+  "HomePage_ExportTriggers_CopyToClipboard": {
+    "Value": "Panoya kopyala"
+  },
+  "HomePage_ExportTriggers_ExportForTextfile": {
+    "Value": "Metin Dosyası için dışa aktarma"
+  },
+  "HomePage_ExportTriggers_ExportForUDP": {
+    "Value": "UDP için dışa aktarma (C#)"
+  },
+  "HomePage_GameLabel": {
+    "Value": "Oyun"
+  },
+  "HomePage_TextFileLabel": {
+    "Value": "Metin dosyası"
+  },
+  "HomePage_TextFile_FileLocationLabel": {
+    "Value": "Dosya Konumu:"
+  },
+  "HomePage_TextFile_SlectFileBtn": {
+    "Value": "Metin Dosyası Konumu Seçin"
+  },
+  "HomePage_TextFile_StatusActiveLabel": {
+    "Value": "Aktif"
+  },
+  "HomePage_TextFile_StatusLabel": {
+    "Value": "Durum:"
+  },
+  "HomePage_TextFile_StatusNoMatchingTriggerValuesLabel": {
+    "Value": "Aktif - Metin dosyasında Tetik değerleri için eşleşen hiçbir değer bulunamadı!"
+  },
+  "HomePage_TextFile_StatusNotActiveDoesNotExistLabel": {
+    "Value": "Aktif Değil - Seçilen dosya mevcut değil!"
+  },
+  "HomePage_TextFile_StatusNotActiveLabel": {
+    "Value": "Aktif değil"
+  },
+  "HomePage_TextFile_StatusNotActiveNoFileSelectedLabel": {
+    "Value": "Aktif Değil - Dosya Seçilmedi!"
+  },
+  "HomePage_TextFile_StatusNotActiveNotATextFileLabel": {
+    "Value": "Aktif Değil - Bu bir metin dosyası değil, lütfen tekrar deneyiniz!"
+  },
+  "HomePage_TextFile_StopReadingBtn": {
+    "Value": "Metin Dosyasını Okumayı Durdur"
+  },
+  "HomePage_TextfileStatus": {
+    "Value": "Metin Dosyası Durumu:"
+  },
+  "HomePage_UdpStatus": {
+    "Value": "UDP Durumu:"
+  },
+  "InfoPage_CrashesOrBugsLabel": {
+    "Value": "Çökmeler veya Hatalar?"
+  },
+  "InfoPage_Donate": {
+    "Value": "Bağış"
+  },
+  "InfoPage_JoinDiscordLabel": {
+    "Value": "Discord Topluluğuna Katıl"
+  },
+  "InfoPage_MoreInfoGitHubLabel": {
+    "Value": "GitHub'da daha fazla bilgi"
+  },
+  "InfoPage_Social": {
+    "Value": "Sosyal"
+  },
+  "MenuGames_Label": {
+    "Value": "Oyunlar"
+  },
+  "MenuHome_Label": {
+    "Value": "Ana Sayfa"
+  },
+  "MenuInfo_Label": {
+    "Value": "Bilgi"
+  },
+  "MenuInput_Label": {
+    "Value": "Kontrolcü"
+  },
+  "MenuSense2Key_Label": {
+    "Value": "Sense2Key"
+  },
+  "MenuSettings_JoinBtn": {
+    "Value": "Katıl"
+  },
+  "MenuSettings_Label": {
+    "Value": "Ayarlar"
+  },
+  "MenuSettings_SubmitIssueBtn": {
+    "Value": "Sorun Bildir"
+  },
+  "MenuSettings_VisitBtn": {
+    "Value": "Ziyaret et"
+  },
+  "MenuWorkshop_Label": {
+    "Value": "Atölye"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartEight": {
+    "Value": "Kontrolcünüzü güncellemek için lütfen Sony tarafından hazırlanan resmi yazılım güncelleme uygulamasını yükleyin."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFive": {
+    "Value": "DualSense Pil okuma hatasını düzeltin"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFour": {
+    "Value": "Bu nedenlerden dolayı her zaman en son sürüme güncellemelisiniz:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartNine": {
+    "Value": "NOT: Güncelleme yaparken, işlem sırasında herhangi bir sorunu önlemek için DSX'in kapalı olduğundan emin olun."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartOne": {
+    "Value": "DualSense kontrolcünüz için yeni bir yazılım sürümü mevcuttur."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSeven": {
+    "Value": "Çeşitli düzeltmeler ve iyileştirmeler"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSix": {
+    "Value": "Normal Titreşimi'i geliştirin (eski oyunlar için)"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartThree": {
+    "Value": "Yeni Sürüm:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartTwo": {
+    "Value": "Mevcut Sürüm:"
+  },
+  "NewFirmwareVersionAvailablePopup_Title": {
+    "Value": "Yeni DualSense Yazılım Sürümü Mevcut"
+  },
+  "NewFirmwareVersionAvailablePopup_ViewToolButton": {
+    "Value": "Yazılım Güncelleme Aracını Görüntüle"
+  },
+  "Sense2Key_Configuration_HelpLabel1": {
+    "Value": "Açılır menüden seçin veya klavyede bir tuşa basın"
+  },
+  "Sense2Key_Configuration_HelpLabel2": {
+    "Value": "açılır menü seçiliyken"
+  },
+  "Sense2Key_Configuration_SaveConfigurationBtn": {
+    "Value": "Yapılandırmayı Kaydet"
+  },
+  "Sense2Key_CreateProfileBtn": {
+    "Value": "Profil Oluştur"
+  },
+  "Sense2Key_DeleteProfileBtn": {
+    "Value": "Sil"
+  },
+  "Sense2Key_ExportProfileBtn": {
+    "Value": "Profili Dışa Aktar"
+  },
+  "Sense2Key_GetStartedLabel": {
+    "Value": "Yeni Bir profil oluşturun"
+  },
+  "Sense2Key_ImportProfileBtn": {
+    "Value": "Profil İçe Aktar"
+  },
+  "Sense2Key_NewProfile_CancelBtn": {
+    "Value": "İptal et"
+  },
+  "Sense2Key_NewProfile_SaveNewProfilelBtn": {
+    "Value": "Yeni Profili Kaydet"
+  },
+  "Sense2Key_NoProfilesAdded": {
+    "Value": "Profil Eklenmedi"
+  },
+  "Sense2Key_ProfileStatus_DelayCannotBeNegative": {
+    "Value": "Gecikme negatif değerde olamaz"
+  },
+  "Sense2Key_ProfileStatus_DelayCantBeEmpty": {
+    "Value": "Gecikme boş bırakılamaz"
+  },
+  "Sense2Key_ProfileStatus_DelayUpdated": {
+    "Value": "Gecikme Güncellendi"
+  },
+  "Sense2Key_ProfileStatus_ProfileCreated": {
+    "Value": "Profil Oluşturuldu"
+  },
+  "Sense2Key_ProfileStatus_ProfileExists": {
+    "Value": "Profil zaten mevcut"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameCantBeEmpty": {
+    "Value": "Profil Adı boş bırakılamaz"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameUpdated": {
+    "Value": "Profil Adı Güncellendi"
+  },
+  "Sense2Key_ProfilesLabel": {
+    "Value": "PROFİLLER"
+  },
+  "Sense2Key_ProfilesWillShowHere": {
+    "Value": "Profilleriniz burada Görünecek"
+  },
+  "Sense2Key_SelectedProfile_DelayLabel": {
+    "Value": "Gecikme (Milisaniye)"
+  },
+  "Sense2Key_SelectedProfile_DetailsLabel": {
+    "Value": "Ayrıntılar"
+  },
+  "Sense2Key_SelectedProfile_EditConfigurationBtn": {
+    "Value": "Yapılandırmayı Düzenle\n"
+  },
+  "Sense2Key_SelectedProfile_EnterProfileNamePlaceholder": {
+    "Value": "Profil Adı Girin"
+  },
+  "Sense2Key_SelectedProfile_ProfileNameLabel": {
+    "Value": "Profil Adı"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_Active": {
+    "Value": "Durum: Profil Etkin"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_NotActive": {
+    "Value": "Durum: Profil Etkin DEĞİL"
+  },
+  "Sense2Key_SelectedProfile_StartBtn": {
+    "Value": "Başlat"
+  },
+  "Sense2Key_SelectedProfile_StopBtn": {
+    "Value": "Durdur"
+  },
+  "Sense2Key_SelectedProfile_UpdateDelayBtn": {
+    "Value": "Gecikmeyi Güncelle"
+  },
+  "Sense2Key_SelectedProfile_UpdateProfileNameBtn": {
+    "Value": "İsmi Güncelle"
+  },
+  "SettingsPage_AppLabel": {
+    "Value": "Uygulama"
+  },
+  "SettingsPage_AppSettings_BorderColorLabel": {
+    "Value": "Kenarlık Rengi"
+  },
+  "SettingsPage_AppSettings_Border_AlphaLabel": {
+    "Value": "Alfa (Şeffaflık)"
+  },
+  "SettingsPage_AppSettings_Border_BlueLabel": {
+    "Value": "Mavi"
+  },
+  "SettingsPage_AppSettings_Border_GreenLabel": {
+    "Value": "Yeşil"
+  },
+  "SettingsPage_AppSettings_Border_RedLabel": {
+    "Value": "Kırmızı"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundBlurLabel": {
+    "Value": "Bulanıklık"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundLabel": {
+    "Value": "Özel Arka Plan Resmi"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundSelectImageBtn": {
+    "Value": "Görüntü Seçin"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundStretchComboBoxLabel": {
+    "Value": "Genişlet"
+  },
+  "SettingsPage_AppSettings_DarkModeLabel": {
+    "Value": "Karanlık Mod"
+  },
+  "SettingsPage_AppSettings_KeepInTrayLabel": {
+    "Value": "Minimize edildiğinde uygulamayı simge durumuna küçült"
+  },
+  "SettingsPage_AppSettings_Label": {
+    "Value": "Uygulama Ayarları"
+  },
+  "SettingsPage_AppSettings_LanguageLabel": {
+    "Value": "Dil"
+  },
+  "SettingsPage_AppSettings_LaunchMinimizedCheckmark": {
+    "Value": "Küçültülmüş Başlat"
+  },
+  "SettingsPage_AppSettings_LaunchWindowsStartupLabel": {
+    "Value": "Windows Başlatıldığında DualSenseX'i başlat"
+  },
+  "SettingsPage_App_EnableDiscordRP": {
+    "Value": "Discord Rich Presence'ı Etkinleştir"
+  },
+  "SettingsPage_App_EnableDiscordRP_MightTakeAMin": {
+    "Value": "Etkinleştirilmesi birkaç dakika sürebilir"
+  },
+  "SettingsPage_BackgroundLabel": {
+    "Value": "Arka Plan"
+  },
+  "SettingsPage_BackgroundSettings_Label": {
+    "Value": "Arka Plan Ayarları"
+  },
+  "SettingsPage_BackgroundSettings_SelectedBtn": {
+    "Value": "Seçili"
+  },
+  "SettingsPage_ControllerLabel": {
+    "Value": "Kontrolcü"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault": {
+    "Value": "Varsayılan Ses"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault_RefreshList": {
+    "Value": "Listeyi yenile"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Headset": {
+    "Value": "Kulaklık"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetLeft": {
+    "Value": "Sol Kulaklık"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetRight": {
+    "Value": "Sağ Kulaklık"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_LeftMotor": {
+    "Value": "Sol Motor"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_RightMotor": {
+    "Value": "Sağ Motor"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Speaker": {
+    "Value": "Hoparlör"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem": {
+    "Value": "Kontrolcü Ses Sistemi (SADECE USB)"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_Headset": {
+    "Value": "Kulaklık"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_HeadsetVolume": {
+    "Value": "Kulaklık Ses Seviyesi"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_InternalSpeaker": {
+    "Value": "Dahili Hoparlör"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_MicVolume": {
+    "Value": "Mikrofon Ses Seviyesi"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_OutputMode": {
+    "Value": "Ses Çıkış Modu"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerAndHeadset": {
+    "Value": "Kulaklık ve Dahili Hoparlör"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerVolume": {
+    "Value": "Hoparlör Ses Seviyesi"
+  },
+  "SettingsPage_ControllerSettings_AutoConnectWhenOpenLabel": {
+    "Value": "DualSenseX Açıldığında Otomatik Bağlan"
+  },
+  "SettingsPage_ControllerSettings_ControllerMotorStrengthLabel": {
+    "Value": "Motor Gücünü Ayarla"
+  },
+  "SettingsPage_ControllerSettings_DisableVibrationControllerLabel": {
+    "Value": "Kontrolcü Titreşimlerini Devre Dışı Bırak"
+  },
+  "SettingsPage_ControllerSettings_EnableAudioHaptics": {
+    "Value": "Dokunsal Ses Geribildirimi'ni Etkinleştir (SADECE USB)"
+  },
+  "SettingsPage_ControllerSettings_EnableHidHide": {
+    "Value": "HidHide'ı Etkinleştir"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble": {
+    "Value": "Geliştirilmiş Motor Titreşimini Etkinleştir"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble2": {
+    "Value": "Etki göstermesi için 0224 veya üzeri bir yazılım sürümü gerekir."
+  },
+  "SettingsPage_ControllerSettings_EnableVibWhileDisabled": {
+    "Value": "Devre dışıyken gelen Titreşimleri etkinleştir"
+  },
+  "SettingsPage_ControllerSettings_KillSteamOnConnect": {
+    "Value": "Bağlantıda Steam'i Kapat"
+  },
+  "SettingsPage_ControllerSettings_Label": {
+    "Value": "Kontrolcü Ayarları"
+  },
+  "SettingsPage_ControllerSettings_LeftTriggerThreshold": {
+    "Value": "Sol Tetik Eşiği"
+  },
+  "SettingsPage_ControllerSettings_LoadLastActiveTrigger": {
+    "Value": "Başlangıçta son etkin tetiği yükle"
+  },
+  "SettingsPage_ControllerSettings_PlayLightShowOnConnect": {
+    "Value": "Bağlantıda Işık Yansın"
+  },
+  "SettingsPage_ControllerSettings_PressMicAndUpXboxGameBar": {
+    "Value": "Xbox Oyun Çubuğu'nu açmak için Mikrofon + UP düğmelerine basın"
+  },
+  "SettingsPage_ControllerSettings_PreviewLightshowBtn": {
+    "Value": "Işığı Önizle"
+  },
+  "SettingsPage_ControllerSettings_RightTriggerThreshold": {
+    "Value": "Sağ Tetik Eşiği"
+  },
+  "SettingsPage_ControllerSettings_SearchUntilControllerConnects": {
+    "Value": "Kontrolcü bağlanana kadar ara"
+  },
+  "SettingsPage_ControllerSettings_TriggerThreshold": {
+    "Value": "Tetik Eşiği"
+  },
+  "SettingsPage_ControllerSettings_UDPPortListen": {
+    "Value": "UDP Bağlantı Noktası Dinleyiciyi Etkinleştir"
+  },
+  "SettingsPage_ControllerSettings_UDPPortNumber": {
+    "Value": "Dinlenecek UDP Bağlantı Noktası numarası"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions": {
+    "Value": "Ses Eşitleme Seçenekleri"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_DontSync": {
+    "Value": "Eşitleme"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncAll": {
+    "Value": "Tümünü Eşitle"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftMotorRightMotor": {
+    "Value": "Sol Motor ve Sağ Motor Eşitleme"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftRightSpeakers": {
+    "Value": "Sol ve Sağ Hoparlörleri Eşitleme"
+  },
+  "SettingsPage_Controller_ControllerAudioButton": {
+    "Value": "Kontrolcü Sesi"
+  },
+  "SettingsPage_Controller_DriversButton": {
+    "Value": "Sürücüler"
+  },
+  "SettingsPage_Controller_GyroAccelButton": {
+    "Value": "Jiroskop/İvmeölçer"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking": {
+    "Value": "Kontrolcü gizleme"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking_Description": {
+    "Value": "Fiziksel kontrolcüyü diğer uygulamalardan sakla"
+  },
+  "SettingsPage_Controller_MiscellaneousButton": {
+    "Value": "Diğer"
+  },
+  "SettingsPage_Controller_NetworkingButton": {
+    "Value": "Ağ"
+  },
+  "SettingsPage_Controller_ShortcutsButton": {
+    "Value": "Kısayollar"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput": {
+    "Value": "Girdi Dinleme"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Description": {
+    "Value": "Kontrolcünün algılanması için herhangi bir düğmeye basın"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_NotAllowed": {
+    "Value": "İzin Verilmeyen:"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Title": {
+    "Value": "Giriş Düğmesi Algılama"
+  },
+  "SettingsPage_Controller_Shortcuts_OpenXboxGameBar": {
+    "Value": "Xbox Oyun Çubuğu Desteğini Aktifleştir"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBT": {
+    "Value": "Kontrolcüyü KAPAT (Bluetooth)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAuto": {
+    "Value": "Kontrolcüyü Otomatik Olarak Kapat"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAutoHowTo": {
+    "Value": "NASIL YAPILIR: Steam Kontrolcüsü Otomatik Kapanmayı Devre dışı Bırakma (KSL)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTManual": {
+    "Value": "Manuel Düğme Basım Kombinasyonu"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTMinutes": {
+    "Value": "Dakika"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTNever": {
+    "Value": "Asla"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTTimeElapsedSinceIdle": {
+    "Value": "Boşta Geçen Süre:"
+  },
+  "SettingsPage_Controller_TouchpadButton": {
+    "Value": "Dokunmatik Yüzey"
+  },
+  "SettingsPage_Settings_CheckForUpdatesLabel": {
+    "Value": "Güncellemeleri kontrol et"
+  },
+  "SettingsPage_Settings_ResetAppDescription": {
+    "Value": "DualSenseX'i varsayılan ayarlara sıfırlamak istediğinizden emin misiniz?"
+  },
+  "SettingsPage_Settings_ResetAppLabel": {
+    "Value": "Uygulama ayarlarını sıfırla"
+  },
+  "SettingsPage_Settings_ResetAppYesButton": {
+    "Value": "DualSenseX'i Sıfırla"
+  },
+  "SettingsPage_TouchToMouse_EnableTapAsLeftMouse": {
+    "Value": "Sol Fare Düğmesi olarak Tıklamayı Etkinleştir"
+  },
+  "SettingsPage_TouchToMouse_EnableTouchpadToMouse": {
+    "Value": "Dokunmatik Yüzey'i Fare olarak Kullanmayı Etkinleştir"
+  },
+  "SettingsPage_TouchToMouse_FastSensiSpeed": {
+    "Value": "Hızlı Hassasiyet Hızı - Düğmeye Basılı Tut"
+  },
+  "SettingsPage_TouchToMouse_InvertScroll": {
+    "Value": "Kaydırmayı Ters Çevir"
+  },
+  "SettingsPage_TouchToMouse_LeftClickHold": {
+    "Value": "Sol Tıkla - Basılı halde tutmak için düğmeyi basılı tutun"
+  },
+  "SettingsPage_TouchToMouse_NormalSensiSpeed": {
+    "Value": "Normal Hassasiyet Hızı"
+  },
+  "SettingsPage_TouchToMouse_RightClickHold": {
+    "Value": "Sağ Tıkla - Düğmesini basılı tutun, ardından dokunun veya Basın"
+  },
+  "SettingsPage_TouchToMouse_ScrollSpeed": {
+    "Value": "Kaydırma Hızı - 2 parmağınızla dokunun ve ardından sürükleyin"
+  },
+  "SettingsPage_TouchToMouse_SlowSensiSpeed": {
+    "Value": "Yavaşlama Hassasiyet Hızı - Düğmeye Basılı Tutun"
+  },
+  "SettingsPage_ViewReleaseNotesButton": {
+    "Value": "Sürüm notlarını görüntüle"
+  },
+  "SettingsPage_ViewSaveFileFolderButton": {
+    "Value": "Kayıt Dosyası Klasörünü Görüntüle"
+  },
+  "SetupScreen_AppAcentColor_Color": {
+    "Value": "Renk"
+  },
+  "SetupScreen_AppAcentColor_Preview": {
+    "Value": "Önizleme"
+  },
+  "SetupScreen_AppAcentColor_Reset": {
+    "Value": "Sistem Varsayılan Vurgu Rengine Sıfırla"
+  },
+  "SetupScreen_AppAcentColor_Title": {
+    "Value": "Uygulama Vurgusu Rengi"
+  },
+  "SetupScreen_EmualtionPicker_DownloadDriver": {
+    "Value": "Sürücüyü İndir"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_BothInstalled": {
+    "Value": "Her İki Sürücü de Yüklendi"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingForInstalledDrivers": {
+    "Value": "Yüklü Sürücüler Kontrol Ediliyor..."
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingInstalledDrivers": {
+    "Value": "Yüklü Sürücüleri Kontrol ediliyor"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4": {
+    "Value": "Sanal DualShock 4"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4_Description": {
+    "Value": "Uygulama, DualShock 4 Desteğine sahip oyunlarda kullanılmak üzere bir Sanal DualShock 4 Kontrolcüsü oluşturacaktır."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Checkbox": {
+    "Value": "HidHide Sürücüsü Yüklendi"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Description": {
+    "Value": "HidHide, Uygulamanın sanal bir cihazı taklit ederken fiziksel kontrolcüyü gizlemesine izin verir. Sanal ve fiziksel kontrolcüden gelen çifte girişten kaçınmak için kullanılır ve bir oyun veya programın yalnızca sanal kontrolcüyü görmesine izin verin."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_SystemRestart": {
+    "Value": "* Sistemin Yeniden Başlatılması Gerekiyor"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation": {
+    "Value": "Emülasyon Yok"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation_Description": {
+    "Value": "Uygulama, Sanal kontrolcü oluşturmadan yalnızca kontrolcü ile iletişim kuracaktır."
+  },
+  "SetupScreen_EmualtionPicker_Title": {
+    "Value": "Sürücüler ve Emülasyon Tipi"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Checkbox": {
+    "Value": "ViGem Sürücüsü Yüklendi"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Description": {
+    "Value": "ViGem Bus Driver, orijinali fiziksel olarak bağlıymış gibi taklit eden sanal bir aygıtın kullanılmasını sağlar. Örnek:"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360": {
+    "Value": "Sanal Xbox 360 (Önerilen)"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360_Description": {
+    "Value": "Uygulama, Xbox Oyun Kontrolcüsü desteğine sahip oyunlarda kullanabilmesi için sanal bir Xbox 360 Kontrolcüsü oluşturacaktır"
+  },
+  "SetupScreen_SteamSetup_DisableSteamInput": {
+    "Value": "Kontrolcünün tanınması için, Steam Input (Steam Girişi) devre dışı bırakılmalıdır."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInputCheckbox": {
+    "Value": "Steam girişi devre dışı bırakıldı"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlay": {
+    "Value": "Uygulamada herhangi bir grafik hatası olmaması için, Arayüz devre dışı bırakılmalıdır."
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlayCheckbox": {
+    "Value": "Steam arayüzü devre dışı bırakıldı"
+  },
+  "SetupScreen_SteamSetup_Title": {
+    "Value": "Steam Kurulumu"
+  },
+  "SetupScreen_SteamSetup_Title2": {
+    "Value": "DSX Özelliklerinde Steam Girişini ve Arayüzünü Devre Dışı bırak"
+  },
+  "SetupScreen_SteamSetup_Title2_Subtitle": {
+    "Value": "Bu, Steam API'si nedeniyle yapılmalıdır."
+  }
+}

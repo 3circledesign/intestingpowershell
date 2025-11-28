@@ -1,0 +1,1079 @@
+{
+  "AppCommandArgs_FileLocationNotFound": {
+    "Value": "Tìm thấy tên trò chơi, nhưng không tìm thấy vị trí tệp"
+  },
+  "AppCommandArgs_GameNameNotFound": {
+    "Value": "Không tìm thấy tên trò chơi, nhưng tìm thấy vị trí tệp"
+  },
+  "AppCommandArgs_NoParamersFound": {
+    "Value": "Không tìm thấy giá trị "
+  },
+  "AppCommandArgs_Playing": {
+    "Value": "Đang phát"
+  },
+  "AppNotificationLabel_AutoConnectedToController": {
+    "Value": "Tự động kết nối với bộ điều khiển!"
+  },
+  "AppNotificationLabel_AutoConnectingToController": {
+    "Value": "Đang tự động kết nối với bộ điều khiển"
+  },
+  "AppNotificationLabel_ConnectedToController": {
+    "Value": "Đã kết nối với thiết bị tay cầm!\n"
+  },
+  "AppNotificationLabel_ConnectionLost": {
+    "Value": "Mất kết nối, đang tìm kiếm lại..."
+  },
+  "AppNotificationLabel_ConnectionLostAttemptingToRconnect": {
+    "Value": "Mất kết nối , đang cố kết nối lại "
+  },
+  "AppNotificationLabel_FailedToAutoConnect": {
+    "Value": "Không thể kết nối tự động, hãy kiểm tra kết nối!"
+  },
+  "AppNotificationLabel_FailedToRconnect": {
+    "Value": "Không thể kết nối lại, vui lòng kiểm tra kết nối!"
+  },
+  "AppNotificationLabel_ReconnectedToController": {
+    "Value": "Đã kết nối lại với thiết bị!"
+  },
+  "AppNotificationLabel_SearchingForController": {
+    "Value": "Đang tìm kiếm thiết bị..."
+  },
+  "AppNotificationPopUp_AreYouSureYouWantToExit": {
+    "Value": "Bạn có muốn thoát ?"
+  },
+  "AppNotificationPopUp_Cancel": {
+    "Value": "Hủy"
+  },
+  "AppNotificationPopUp_DownloadUpdate": {
+    "Value": "Đang tải xuống bản cập nhật..."
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsDualShock4": {
+    "Value": "Tay cầm DualSense sẽ không kết nối như Dualshock 4 nữa!"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsXbox": {
+    "Value": "Tay cầm DualSense sẽ không kết nối như Xbox nữa!"
+  },
+  "AppNotificationPopUp_Exit": {
+    "Value": "Thoát"
+  },
+  "AppNotificationPopUp_Later": {
+    "Value": "Để sau"
+  },
+  "AppNotificationPopUp_MissingDriver_ConnectToController": {
+    "Value": "Kết nối với thiết bị tay cầm "
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadAndInstall": {
+    "Value": "Tải xuống và cài đặt Drivers"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadingAndInstalling": {
+    "Value": "Đang tải xuống và cài đặt Driver..."
+  },
+  "AppNotificationPopUp_MissingDriver_FollowViGEmBusInstructions": {
+    "Value": "Hãy làm theo hướng dẫn của ViGEmBus được hiển thị "
+  },
+  "AppNotificationPopUp_MissingDriver_OnceFinishedInstalling": {
+    "Value": "Sau khi cài đặt xong Driver, bạn có thể Kết nối với tay cầm của bạn."
+  },
+  "AppNotificationPopUp_MissingDriver_Uh-oh": {
+    "Value": "Ồ,hử"
+  },
+  "AppNotificationPopUp_MissingDriver_YouDontHaveViGEmBusDriverse": {
+    "Value": "Có vẻ như bạn chưa cài đặt Driver ViGEmBus"
+  },
+  "AppNotificationPopUp_UpdateAvailable": {
+    "Value": "Có Bản Cập Nhật!"
+  },
+  "AppNotificationPopUp_UpdateAvailable_InstallIt": {
+    "Value": "Bạn có muốn cài đặt?"
+  },
+  "AppNotificationPopUp_UpdateProccess_CurrentVersion": {
+    "Value": "Phiên bản hiện tại:"
+  },
+  "AppNotificationPopUp_UpdateProccess_DownloadingUpdate": {
+    "Value": "Đang tải xuống bản cập nhật..."
+  },
+  "AppNotificationPopUp_UpdateProccess_ExtractingUpdate": {
+    "Value": "Đang giải nén bản cập nhật..."
+  },
+  "AppNotificationPopUp_UpdateProccess_FetchingUpdate": {
+    "Value": "Đang tìm nạp bản cập nhập..."
+  },
+  "AppNotificationPopUp_UpdateProccess_InstallingUpdate": {
+    "Value": "Đang cài đặt bản Cập Nhật..."
+  },
+  "AppNotificationPopUp_UpdateProccess_PleaseRestartToApplyUpdate": {
+    "Value": "Vui lòng khởi động lại để ứng dụng bản cập nhật "
+  },
+  "AppNotificationPopUp_UpdateProccess_Restart": {
+    "Value": "Khởi động lại"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateInstalled": {
+    "Value": "Đã Cài đặt bản Cập Nhật"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateVersion": {
+    "Value": "Phiên bản cập nhật: "
+  },
+  "AppNotificationPopUp_Yes": {
+    "Value": "Có"
+  },
+  "App_DriversNotInstalledPopup_Title": {
+    "Value": "Thiếu Driver"
+  },
+  "App_ExportTriggersPopUp_BothTriggersBtn": {
+    "Value": "Cả hai Cò"
+  },
+  "App_ExportTriggersPopUp_Description": {
+    "Value": "Vui lòng chọn một trong các tùy chọn bên dưới"
+  },
+  "App_ExportTriggersPopUp_Title": {
+    "Value": "Xuất Triggers"
+  },
+  "App_VigemDriverNotInstalled_TextBox": {
+    "Value": "Vui lòng cài đặt các Driver bị thiếu"
+  },
+  "ControllerPage_AdvancedInfoButton": {
+    "Value": "Thông tin nâng cao"
+  },
+  "ControllerPage_AdvancedInfoConnectToView": {
+    "Value": "Vui lòng kết nối tay cầm để xem Thông tin Nâng cao"
+  },
+  "ControllerPage_BatteryLevelLabel": {
+    "Value": "Lượng Pin:"
+  },
+  "ControllerPage_ConnectionTypeLabel": {
+    "Value": "Kiểu Kết Nối:"
+  },
+  "ControllerPage_ConnectionType_Connected": {
+    "Value": "Đã kết nối"
+  },
+  "ControllerPage_ConnectionType_NotConnected": {
+    "Value": "Chưa Kết Nối"
+  },
+  "ControllerPage_InputButton": {
+    "Value": "Đầu vào"
+  },
+  "ControllerPage_LeftJoyStickLabel": {
+    "Value": "Núm xoay trái"
+  },
+  "ControllerPage_RemappingButton": {
+    "Value": "Ánh xạ lại"
+  },
+  "ControllerPage_RightJoyStickLabel": {
+    "Value": "Núm xoay phải"
+  },
+  "ControllerPage_UseXboxLabels": {
+    "Value": "Sử dụng dạng Xbox"
+  },
+  "DualSense_BatteryState_AbnormalTemperture": {
+    "Value": "Nhiệt độ bất bình thường"
+  },
+  "DualSense_BatteryState_AbnormalVoltage": {
+    "Value": "Điện áp bất bình thường"
+  },
+  "DualSense_BatteryState_Charging": {
+    "Value": "Đang sạc"
+  },
+  "DualSense_BatteryState_ChargingError": {
+    "Value": "Lỗi sạc"
+  },
+  "DualSense_BatteryState_Complete": {
+    "Value": "Hoàn thành"
+  },
+  "DualSense_BatteryState_Discharging": {
+    "Value": "Không sạc"
+  },
+  "GamesPage_ItemViewScreenshot": {
+    "Value": "Ảnh chụp màn hình"
+  },
+  "GamesPage_ModInfo": {
+    "Value": "Thông tin Mod"
+  },
+  "GamesPage_ModsButton": {
+    "Value": "MODS"
+  },
+  "GamesPage_ModsSearchBoxPlaceholder": {
+    "Value": "Lọc theo Tên Mod, Tên Game hoặc Tác giả"
+  },
+  "GamesPage_Mods_Disclaimer": {
+    "Value": "từ chối trách nhiệm"
+  },
+  "GamesPage_Mods_DisclaimerDescription": {
+    "Value": "Không sử dụng các Mods trong các trò chơi trực tuyến để tránh bị Ban, nếu làm sẽ gây thiệt hại cho bạn. DSX sẽ KHÔNG CHỊU TRÁCH NHIỆM về việc sử dụng các Mods này."
+  },
+  "GamesPage_Mods_ModAuthor": {
+    "Value": "Tác giả:"
+  },
+  "GamesPage_Mods_ModGame": {
+    "Value": "Trò chơi"
+  },
+  "GamesPage_Mods_ModName": {
+    "Value": "Tên"
+  },
+  "GamesPage_Mods_ViewModButton": {
+    "Value": "Xem Mod"
+  },
+  "GamsPage_GameImageLoadingLabel": {
+    "Value": "Đang tải ảnh…"
+  },
+  "GamsPage_GameListStatusOne_FetchingGameList": {
+    "Value": "Đang lấy danh sách game..."
+  },
+  "GamsPage_GameListStatusOne_NoGamesAdded": {
+    "Value": "Không có trò chơi được thêm"
+  },
+  "GamsPage_GameListStatusTwo_CheckBackLater": {
+    "Value": "Vui lòng kiểm tra lại sau!"
+  },
+  "GamsPage_GameListStatusTwo_PleaseWait": {
+    "Value": "Vui lòng đợi..."
+  },
+  "GamsPage_GameTagsLabel": {
+    "Value": "Thẻ"
+  },
+  "GamsPage_GameViewGameBtn": {
+    "Value": "Xem Game"
+  },
+  "GamsPage_GamesLabel": {
+    "Value": "Trò chơi"
+  },
+  "GamsPage_SearchbarPlaceholder": {
+    "Value": "Tìm kiếm trò chơi theo tên hoặc tag"
+  },
+  "GeneralStuff_Button": {
+    "Value": "nút."
+  },
+  "GeneralStuff_CloseButton": {
+    "Value": "Đóng"
+  },
+  "GeneralStuff_ConfirmButton": {
+    "Value": "Xác nhận"
+  },
+  "GeneralStuff_Sensitivity": {
+    "Value": "Độ nhạy"
+  },
+  "GeneralStuff_UnableToStartDSX": {
+    "Value": "Không thể khởi động DSX"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionOne": {
+    "Value": "Hãy chắc chắn rằng Steam đang chạy và ứng dụng đã được cài đặt trong thư viện của bạn. Nếu vấn đề này vẫn còn, cài đặt lại DSX thông qua Steam."
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionTwo": {
+    "Value": "Không thể cập nhập bản dịch. Hãy chắc chắn rằng Steam đang chạy, bạn có kết nối internet đang hoạt động và ứng dụng đã được cài đặt trong thư viện của bạn. Nếu vấn đề này vẫn còn, cài đặt lại DSX thông qua Steam."
+  },
+  "HomePage_AdaptiveTriggers": {
+    "Value": "Adaptive Triggers"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger": {
+    "Value": "Cò trái"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger_ApplyButton": {
+    "Value": "Áp dụng cho cò trái"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger": {
+    "Value": "Cò phải"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger_ApplyButton": {
+    "Value": "Áp dụng cho cò phải"
+  },
+  "HomePage_AdaptiveTriggers_TriggerMode": {
+    "Value": "Chế độ cò"
+  },
+  "HomePage_ApplyModeLabel": {
+    "Value": "Ứng dụng Mode"
+  },
+  "HomePage_ApplyMode_ApplyBtn": {
+    "Value": "Ứng dụng"
+  },
+  "HomePage_ApplyMode_BothTriggerMotorLabel": {
+    "Value": "Cả hai Cò "
+  },
+  "HomePage_ApplyMode_LeftTriggerMotorLabel": {
+    "Value": "Cò phải"
+  },
+  "HomePage_ApplyMode_RightTriggerMotorLabel": {
+    "Value": "Cò trái"
+  },
+  "HomePage_BatteryStatus": {
+    "Value": "Trạng thái Pin"
+  },
+  "HomePage_ConnectionStatusLabel": {
+    "Value": "Trạng thái kết nối"
+  },
+  "HomePage_ConnectionStatus_ConnectControllerBtn": {
+    "Value": "Kết nối thiết bị"
+  },
+  "HomePage_ConnectionStatus_EmulationType_ComboboxLabel": {
+    "Value": "Dạng tay cầm:"
+  },
+  "HomePage_ConnectionStatus_EmulationType_Emulating360": {
+    "Value": "Giả lập Xbox 360"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingDS4": {
+    "Value": "Giả lập DualShock 4"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingNone": {
+    "Value": "Không định dạng"
+  },
+  "HomePage_ConnectionStatus_Status_AutoConnectingToController": {
+    "Value": "Tự động kết nối với thiết bị..."
+  },
+  "HomePage_ConnectionStatus_Status_Connecting": {
+    "Value": "Đang kết nối..."
+  },
+  "HomePage_ConnectionStatus_Status_ConnectionLostAttemptingToReconnect": {
+    "Value": "Kết nối bị mất, đang cố kết nối lại..."
+  },
+  "HomePage_ConnectionStatus_Status_ControllerConnected": {
+    "Value": "Tay cầm đã kết nối"
+  },
+  "HomePage_ConnectionStatus_Status_FailedToConnect": {
+    "Value": "Không kết nối được, xin vui lòng kiểm tra kết nối!"
+  },
+  "HomePage_ConnectionStatus_Status_SearchingForController": {
+    "Value": "Đang tìm kiếm tay cầm..."
+  },
+  "HomePage_ConnectionStatus_Status_ShuttingDownApp": {
+    "Value": "Đang Tắt ứng dụng..."
+  },
+  "HomePage_ControllerLEDLabel": {
+    "Value": "Đèn LED tay cầm"
+  },
+  "HomePage_ControllerLED_BrightnessLabel": {
+    "Value": "Độ sáng"
+  },
+  "HomePage_ControllerLED_ColorModeBtn": {
+    "Value": "Chế độ màu"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlash": {
+    "Value": "Kích hoạt Flash"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlashWhenBattery": {
+    "Value": "Kích Hoạt Đèn flash khi pin nhỏ hơn (%)"
+  },
+  "HomePage_ControllerLED_ColorMode_Breathing_RandomColorCycle": {
+    "Value": "Chu kỳ màu ngẫu nhiên"
+  },
+  "HomePage_ControllerLED_ColorMode_RainbowLabel": {
+    "Value": "Rainbow"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_AutoReverse": {
+    "Value": "Rainbow tự động đảo ngược"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowMultiplier": {
+    "Value": "Hệ số đổi màu"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowSpeed": {
+    "Value": "Tốc độ Rainbow"
+  },
+  "HomePage_ControllerLED_ColorMode_Speed": {
+    "Value": "Tốc độ"
+  },
+  "HomePage_ControllerLED_ColorMode_StaticColorLabel": {
+    "Value": "Màu tĩnh"
+  },
+  "HomePage_ControllerLED_MicLEDLabel": {
+    "Value": "Đèn LED micrô"
+  },
+  "HomePage_ControllerLED_MicLED_OffBtn": {
+    "Value": "Tắt"
+  },
+  "HomePage_ControllerLED_MicLED_OnBtn": {
+    "Value": "Bật"
+  },
+  "HomePage_ControllerLED_MicLED_PulseBtn": {
+    "Value": "Sóng"
+  },
+  "HomePage_ControllerLED_PlayerLEDLabel": {
+    "Value": "Đèn Led người chơi"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOffBtn": {
+    "Value": "Tất cả Tắt"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOnBtn": {
+    "Value": "Tất cả Bật"
+  },
+  "HomePage_ControllerLED_PlayerLED_Battery": {
+    "Value": "Pin"
+  },
+  "HomePage_ControllerLED_PlayerLED_Breathing": {
+    "Value": "Thở"
+  },
+  "HomePage_ControllerLED_PlayerLED_CustomBtn": {
+    "Value": "Tùy chỉnh"
+  },
+  "HomePage_ControllerLED_PlayerLED_DS4Passthrough": {
+    "Value": "Thông qua DualShock 4"
+  },
+  "HomePage_ControllerLED_PlayerLED_FiveBtn": {
+    "Value": "Năm"
+  },
+  "HomePage_ControllerLED_PlayerLED_FlashWhileCharging": {
+    "Value": "Đèn flash trong khi sạc"
+  },
+  "HomePage_ControllerLED_PlayerLED_FourBtn": {
+    "Value": "Bốn"
+  },
+  "HomePage_ControllerLED_PlayerLED_HighBrightnessBtn": {
+    "Value": "Cao"
+  },
+  "HomePage_ControllerLED_PlayerLED_LowBrightnessBtn": {
+    "Value": "Thấp"
+  },
+  "HomePage_ControllerLED_PlayerLED_MediumBrightnessBtn": {
+    "Value": "Trung bình"
+  },
+  "HomePage_ControllerLED_PlayerLED_OneBtn": {
+    "Value": "Một"
+  },
+  "HomePage_ControllerLED_PlayerLED_Strobing": {
+    "Value": "Strobing"
+  },
+  "HomePage_ControllerLED_PlayerLED_ThreeBtn": {
+    "Value": "Ba"
+  },
+  "HomePage_ControllerLED_PlayerLED_TwoBtn": {
+    "Value": "Hai"
+  },
+  "HomePage_ControllerLED_RainbowSpeedLabel": {
+    "Value": "Tốc độ Rainbow"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Fast": {
+    "Value": "Nhanh"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Hyper": {
+    "Value": "Mức cao"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Medium": {
+    "Value": "Trung bình"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Slow": {
+    "Value": "Chậm"
+  },
+  "HomePage_ControllerLED_TouchPadLEDLabel": {
+    "Value": "Đèn LED khu cảm ứng"
+  },
+  "HomePage_ControllerModeLabel": {
+    "Value": "Chế độ tay cầm"
+  },
+  "HomePage_ControllerMode_IntensityLabel": {
+    "Value": "Cường độ"
+  },
+  "HomePage_ControllerMode_ModeLabel": {
+    "Value": "Chế độ"
+  },
+  "HomePage_ControllerMode_RandomizeModeAndValues": {
+    "Value": "Chế độ ngẫu nhiên + Giá trị"
+  },
+  "HomePage_ControllerMode_RandomizeValues": {
+    "Value": "Giá trị ngẫu nhiên"
+  },
+  "HomePage_ControllerMode_VibrationDurationLabel": {
+    "Value": "Cường độ rung (giây)"
+  },
+  "HomePage_ControllerVibration": {
+    "Value": "Độ Rung của tay cầm"
+  },
+  "HomePage_ExportTriggers": {
+    "Value": "Xuất Triggers"
+  },
+  "HomePage_ExportTriggers_CopyToClipboard": {
+    "Value": "Sao chép vào bảng ghi nhớ"
+  },
+  "HomePage_ExportTriggers_ExportForTextfile": {
+    "Value": "Xuất cho Textfile"
+  },
+  "HomePage_ExportTriggers_ExportForUDP": {
+    "Value": "Xuất cho UDP (C#)"
+  },
+  "HomePage_GameLabel": {
+    "Value": "Trò chơi"
+  },
+  "HomePage_TextFileLabel": {
+    "Value": "Tệp văn bản"
+  },
+  "HomePage_TextFile_FileLocationLabel": {
+    "Value": "Vị trí tệp:"
+  },
+  "HomePage_TextFile_SlectFileBtn": {
+    "Value": "Chọn vị trí tệp văn bản"
+  },
+  "HomePage_TextFile_StatusActiveLabel": {
+    "Value": "Hoạt động"
+  },
+  "HomePage_TextFile_StatusLabel": {
+    "Value": "Trạng thái"
+  },
+  "HomePage_TextFile_StatusNoMatchingTriggerValuesLabel": {
+    "Value": "Kích Hoạt - Không có giá trị kích hoạt phù hợp được tìm thấy trong tập tin văn bản!"
+  },
+  "HomePage_TextFile_StatusNotActiveDoesNotExistLabel": {
+    "Value": "Không thể kích hoạt - Tệp đã chọn không tồn tại!"
+  },
+  "HomePage_TextFile_StatusNotActiveLabel": {
+    "Value": "Không kích hoạt"
+  },
+  "HomePage_TextFile_StatusNotActiveNoFileSelectedLabel": {
+    "Value": "Không thể kích hoạt - Không có tập tin được chọn!"
+  },
+  "HomePage_TextFile_StatusNotActiveNotATextFileLabel": {
+    "Value": "Không thể kích hoạt - Đây không phải là một tập tin văn bản, vui lòng thử lại!"
+  },
+  "HomePage_TextFile_StopReadingBtn": {
+    "Value": "Ngừng đọc tệp văn bản"
+  },
+  "HomePage_TextfileStatus": {
+    "Value": "Trạng thái Textfile:"
+  },
+  "HomePage_UdpStatus": {
+    "Value": "Trạng thái UDP:"
+  },
+  "InfoPage_CrashesOrBugsLabel": {
+    "Value": "Lỗi hay Bugs?"
+  },
+  "InfoPage_Donate": {
+    "Value": "Ủng hộ nhà phát triển"
+  },
+  "InfoPage_JoinDiscordLabel": {
+    "Value": "Tham gia Cộng đồng Discord"
+  },
+  "InfoPage_MoreInfoGitHubLabel": {
+    "Value": "Thông tin thêm trên GitHub"
+  },
+  "InfoPage_Social": {
+    "Value": "Mạng xã hội"
+  },
+  "MenuGames_Label": {
+    "Value": "Trò chơi"
+  },
+  "MenuHome_Label": {
+    "Value": "Trang chủ"
+  },
+  "MenuInfo_Label": {
+    "Value": "Thông tin"
+  },
+  "MenuInput_Label": {
+    "Value": "Tay cầm"
+  },
+  "MenuSense2Key_Label": {
+    "Value": "Sense2Key"
+  },
+  "MenuSettings_JoinBtn": {
+    "Value": "Tham gia"
+  },
+  "MenuSettings_Label": {
+    "Value": "Cài đặt"
+  },
+  "MenuSettings_SubmitIssueBtn": {
+    "Value": "Gửi vấn đề"
+  },
+  "MenuSettings_VisitBtn": {
+    "Value": "Mở ra"
+  },
+  "MenuWorkshop_Label": {
+    "Value": "Hội thảo"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartEight": {
+    "Value": "Vui lòng cài đặt bản chính thức Firmware Updater Tool của Sony để cập nhật Tay cầm của bạn."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFive": {
+    "Value": "Sửa lỗi đọc pin DualSense"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFour": {
+    "Value": "Bạn nên luôn cập nhật lên phiên bản mới nhất vì những lý do sau:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartNine": {
+    "Value": "LƯU Ý: Khi Cập Nhật, hãy chắc chắn rằng DSX được đóng để tránh bất kỳ vấn đề trong quá trình."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartOne": {
+    "Value": "Có một phiên bản cập nhập mới có sẵn cho tay cầm DualSense của bạn."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSeven": {
+    "Value": "Các bản vá sửa lỗi và cải tiến khác nhau"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSix": {
+    "Value": "Cải thiện ổn định (cho các game cũ)"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartThree": {
+    "Value": "Phiên bản mới"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartTwo": {
+    "Value": "Phiên bản hiện tại:"
+  },
+  "NewFirmwareVersionAvailablePopup_Title": {
+    "Value": "Có Phiên bản cập nhập phần mềm DualSense mới"
+  },
+  "NewFirmwareVersionAvailablePopup_ViewToolButton": {
+    "Value": "Xem Công cụ Cập nhật phần mềm"
+  },
+  "Sense2Key_Configuration_HelpLabel1": {
+    "Value": "Chọn từ danh sách hoặc nhấn một phím trên bàn phím"
+  },
+  "Sense2Key_Configuration_HelpLabel2": {
+    "Value": "trong khi danh sách được chọn"
+  },
+  "Sense2Key_Configuration_SaveConfigurationBtn": {
+    "Value": "Lưu cấu hình"
+  },
+  "Sense2Key_CreateProfileBtn": {
+    "Value": "Tạo hồ sơ"
+  },
+  "Sense2Key_DeleteProfileBtn": {
+    "Value": "Xóa"
+  },
+  "Sense2Key_ExportProfileBtn": {
+    "Value": "Xuất Hồ sơ"
+  },
+  "Sense2Key_GetStartedLabel": {
+    "Value": "Bắt đầu bằng cách tạo Hồ sơ mới"
+  },
+  "Sense2Key_ImportProfileBtn": {
+    "Value": "Nhập hồ sơ"
+  },
+  "Sense2Key_NewProfile_CancelBtn": {
+    "Value": "Hủy"
+  },
+  "Sense2Key_NewProfile_SaveNewProfilelBtn": {
+    "Value": "Lưu hồ sơ mới"
+  },
+  "Sense2Key_NoProfilesAdded": {
+    "Value": "Không có hồ sơ nào được thêm"
+  },
+  "Sense2Key_ProfileStatus_DelayCannotBeNegative": {
+    "Value": "Độ trễ không phải tệ"
+  },
+  "Sense2Key_ProfileStatus_DelayCantBeEmpty": {
+    "Value": "Độ trễ không thể trống"
+  },
+  "Sense2Key_ProfileStatus_DelayUpdated": {
+    "Value": "Cập nhật độ trễ"
+  },
+  "Sense2Key_ProfileStatus_ProfileCreated": {
+    "Value": "Hồ sơ đã tạo"
+  },
+  "Sense2Key_ProfileStatus_ProfileExists": {
+    "Value": "Hồ sơ đã tồn tại"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameCantBeEmpty": {
+    "Value": "Tên hồ sơ không thể trống"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameUpdated": {
+    "Value": "Tên hồ sơ Cập Nhật"
+  },
+  "Sense2Key_ProfilesLabel": {
+    "Value": "Hồ sơ"
+  },
+  "Sense2Key_ProfilesWillShowHere": {
+    "Value": "Hồ sơ của bạn sẽ hiển thị ở đây"
+  },
+  "Sense2Key_SelectedProfile_DelayLabel": {
+    "Value": "Độ trễ (mili giây)"
+  },
+  "Sense2Key_SelectedProfile_DetailsLabel": {
+    "Value": "Chi tiết"
+  },
+  "Sense2Key_SelectedProfile_EditConfigurationBtn": {
+    "Value": "Sửa cấu hình"
+  },
+  "Sense2Key_SelectedProfile_EnterProfileNamePlaceholder": {
+    "Value": "Nhập tên hồ sơ"
+  },
+  "Sense2Key_SelectedProfile_ProfileNameLabel": {
+    "Value": "Tên hồ sơ"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_Active": {
+    "Value": "Trạng thái: Hồ sơ đang hoạt động"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_NotActive": {
+    "Value": "Trạng thái: Hồ sơ chưa được kích hoạt"
+  },
+  "Sense2Key_SelectedProfile_StartBtn": {
+    "Value": "Bắt đầu"
+  },
+  "Sense2Key_SelectedProfile_StopBtn": {
+    "Value": "Dừng"
+  },
+  "Sense2Key_SelectedProfile_UpdateDelayBtn": {
+    "Value": "Cập nhập độ trễ"
+  },
+  "Sense2Key_SelectedProfile_UpdateProfileNameBtn": {
+    "Value": "Cập nhật tên"
+  },
+  "SettingsPage_AppLabel": {
+    "Value": "ỨNG DỤNG:"
+  },
+  "SettingsPage_AppSettings_BorderColorLabel": {
+    "Value": "màu viền"
+  },
+  "SettingsPage_AppSettings_Border_AlphaLabel": {
+    "Value": "Alpha (trong suốt)"
+  },
+  "SettingsPage_AppSettings_Border_BlueLabel": {
+    "Value": "Xanh dương"
+  },
+  "SettingsPage_AppSettings_Border_GreenLabel": {
+    "Value": "Xanh lục"
+  },
+  "SettingsPage_AppSettings_Border_RedLabel": {
+    "Value": "Đỏ"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundBlurLabel": {
+    "Value": "Làm mờ"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundLabel": {
+    "Value": "Ảnh nền tùy chỉnh"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundSelectImageBtn": {
+    "Value": "Chọn hình ảnh"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundStretchComboBoxLabel": {
+    "Value": "Stretch"
+  },
+  "SettingsPage_AppSettings_DarkModeLabel": {
+    "Value": "Chế độ tối"
+  },
+  "SettingsPage_AppSettings_KeepInTrayLabel": {
+    "Value": "Giữ ứng dụng trong khay khi thu nhỏ"
+  },
+  "SettingsPage_AppSettings_Label": {
+    "Value": "Cài đặt APP"
+  },
+  "SettingsPage_AppSettings_LanguageLabel": {
+    "Value": "Ngôn ngữ"
+  },
+  "SettingsPage_AppSettings_LaunchMinimizedCheckmark": {
+    "Value": "Khởi chạy đã thu nhỏ"
+  },
+  "SettingsPage_AppSettings_LaunchWindowsStartupLabel": {
+    "Value": "Khởi chạy DualSenseX cùng Windows"
+  },
+  "SettingsPage_App_EnableDiscordRP": {
+    "Value": "Hiển thị trang thái hoạt động trên Discord"
+  },
+  "SettingsPage_App_EnableDiscordRP_MightTakeAMin": {
+    "Value": "Có thể mất đến một phút để có hiệu lực"
+  },
+  "SettingsPage_BackgroundLabel": {
+    "Value": "Nền"
+  },
+  "SettingsPage_BackgroundSettings_Label": {
+    "Value": "Cài đặt nền"
+  },
+  "SettingsPage_BackgroundSettings_SelectedBtn": {
+    "Value": "Đã chọn"
+  },
+  "SettingsPage_ControllerLabel": {
+    "Value": "Tay cầm"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault": {
+    "Value": "Âm thanh mặc định"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault_RefreshList": {
+    "Value": "Làm mới danh sách"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Headset": {
+    "Value": "Tai nghe"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetLeft": {
+    "Value": "Tai nghe trái"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetRight": {
+    "Value": "Tai nghe bên phải"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_LeftMotor": {
+    "Value": "Động cơ trái"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_RightMotor": {
+    "Value": "Động cơ bên phải"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Speaker": {
+    "Value": "Loa"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem": {
+    "Value": "Hệ thống âm thanh tay cầm (Chỉ chế độ USB)"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_Headset": {
+    "Value": "Tai nghe"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_HeadsetVolume": {
+    "Value": "Âm lượng tai nghe"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_InternalSpeaker": {
+    "Value": "Loa trong"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_MicVolume": {
+    "Value": "Âm lượng micrô"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_OutputMode": {
+    "Value": "Chế độ đầu ra âm thanh"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerAndHeadset": {
+    "Value": "Cả tai nghe và loa bên trong"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerVolume": {
+    "Value": "Âm lượng loa"
+  },
+  "SettingsPage_ControllerSettings_AutoConnectWhenOpenLabel": {
+    "Value": "Tự động kết nối khi DualSenseX Mở"
+  },
+  "SettingsPage_ControllerSettings_ControllerMotorStrengthLabel": {
+    "Value": "Điều chỉnh độ mạnh động cơ"
+  },
+  "SettingsPage_ControllerSettings_DisableVibrationControllerLabel": {
+    "Value": "Vô hiệu hóa rung động của tay cầm"
+  },
+  "SettingsPage_ControllerSettings_EnableAudioHaptics": {
+    "Value": "Bật âm thanh Haptics (CHỈ Chế Độ USB)"
+  },
+  "SettingsPage_ControllerSettings_EnableHidHide": {
+    "Value": "Bật HidHide"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble": {
+    "Value": "Bật cải thiện động cơ ổn định"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble2": {
+    "Value": "Yêu cầu Firmware Phiên bản 0224 trở lên để có hiệu lực"
+  },
+  "SettingsPage_ControllerSettings_EnableVibWhileDisabled": {
+    "Value": "Bật rung đến khi bị tắt"
+  },
+  "SettingsPage_ControllerSettings_KillSteamOnConnect": {
+    "Value": "Ngắt kết nối với Steam"
+  },
+  "SettingsPage_ControllerSettings_Label": {
+    "Value": "Cài đặt bộ tay cầm"
+  },
+  "SettingsPage_ControllerSettings_LeftTriggerThreshold": {
+    "Value": "Ngưỡng cò trái"
+  },
+  "SettingsPage_ControllerSettings_LoadLastActiveTrigger": {
+    "Value": "Tải kích hoạt cuối cùng khi khởi động"
+  },
+  "SettingsPage_ControllerSettings_PlayLightShowOnConnect": {
+    "Value": "Hiển thị đèn trên kết nối"
+  },
+  "SettingsPage_ControllerSettings_PressMicAndUpXboxGameBar": {
+    "Value": "Nhấn nút Mic + nút hướng lên để mở Xbox Game Bar"
+  },
+  "SettingsPage_ControllerSettings_PreviewLightshowBtn": {
+    "Value": "Xem trước Đèn"
+  },
+  "SettingsPage_ControllerSettings_RightTriggerThreshold": {
+    "Value": "Ngưỡng cò phải"
+  },
+  "SettingsPage_ControllerSettings_SearchUntilControllerConnects": {
+    "Value": "Tìm kiếm cho đến khi kết nối tay cầm"
+  },
+  "SettingsPage_ControllerSettings_TriggerThreshold": {
+    "Value": "Ngưỡng cò"
+  },
+  "SettingsPage_ControllerSettings_UDPPortListen": {
+    "Value": "Kích hoạt tính năng nghe cổng UDP"
+  },
+  "SettingsPage_ControllerSettings_UDPPortNumber": {
+    "Value": "Số cổng UDP để nghe"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions": {
+    "Value": "Tùy chọn đồng bộ Âm thanh"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_DontSync": {
+    "Value": "Không đồng bộ hóa"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncAll": {
+    "Value": "Đồng bộ hóa tất cả"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftMotorRightMotor": {
+    "Value": "Đồng bộ động cơ trái và động cơ phải"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftRightSpeakers": {
+    "Value": "Đồng bộ Loa trái và phải"
+  },
+  "SettingsPage_Controller_ControllerAudioButton": {
+    "Value": "Âm thanh tay cầm"
+  },
+  "SettingsPage_Controller_DriversButton": {
+    "Value": "Driver"
+  },
+  "SettingsPage_Controller_GyroAccelButton": {
+    "Value": "Tốc độ quay/Gia tốc"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking": {
+    "Value": "Che đậy Tay cầm"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking_Description": {
+    "Value": "Ẩn Tay cầm vật lý khỏi các ứng dụng khác"
+  },
+  "SettingsPage_Controller_MiscellaneousButton": {
+    "Value": "Linh tinh"
+  },
+  "SettingsPage_Controller_NetworkingButton": {
+    "Value": "Mạng"
+  },
+  "SettingsPage_Controller_ShortcutsButton": {
+    "Value": "Lối tắt"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput": {
+    "Value": "Lắng nghe đầu vào"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Description": {
+    "Value": "Nhấn nút trên Tay cầm để xác định"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_NotAllowed": {
+    "Value": "Không được phép:"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Title": {
+    "Value": "Xác định nút đầu vào"
+  },
+  "SettingsPage_Controller_Shortcuts_OpenXboxGameBar": {
+    "Value": "Mở Xbox Game Bar Combo"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBT": {
+    "Value": "Tắt Tay cầm (Bluetooth)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAuto": {
+    "Value": "Tắt Tay cầm tự động"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAutoHowTo": {
+    "Value": "Cách : Tắt Tay cầm Steam Tự động tắt"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTManual": {
+    "Value": "Nhấn nút Combo bằng tay"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTMinutes": {
+    "Value": "phút"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTNever": {
+    "Value": "Không bao giờ"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTTimeElapsedSinceIdle": {
+    "Value": "Thời gian trôi qua kể từ khi ngừng hoạt động:"
+  },
+  "SettingsPage_Controller_TouchpadButton": {
+    "Value": "Khu cảm ứng"
+  },
+  "SettingsPage_Settings_CheckForUpdatesLabel": {
+    "Value": "Kiểm tra cập nhật"
+  },
+  "SettingsPage_Settings_ResetAppDescription": {
+    "Value": "Bạn có chắc chắn muốn đặt lại DualSenseX về cài đặt mặc định không?"
+  },
+  "SettingsPage_Settings_ResetAppLabel": {
+    "Value": "Đặt lại Cài đặt ứng dụng"
+  },
+  "SettingsPage_Settings_ResetAppYesButton": {
+    "Value": "Đặt lại DualSenseX"
+  },
+  "SettingsPage_TouchToMouse_EnableTapAsLeftMouse": {
+    "Value": "Bật Chạm làm nút chuột trái"
+  },
+  "SettingsPage_TouchToMouse_EnableTouchpadToMouse": {
+    "Value": "Bật cảm ứng Touchpad vào chuột"
+  },
+  "SettingsPage_TouchToMouse_FastSensiSpeed": {
+    "Value": "Tốc độ nhạy nhanh - Giữ Nút"
+  },
+  "SettingsPage_TouchToMouse_InvertScroll": {
+    "Value": "Đảo chiều cuộn"
+  },
+  "SettingsPage_TouchToMouse_LeftClickHold": {
+    "Value": "Nhấp chuột trái - Giữ nút để giữ trạng thái nhấn"
+  },
+  "SettingsPage_TouchToMouse_NormalSensiSpeed": {
+    "Value": "Tốc độ nhạy bình thường"
+  },
+  "SettingsPage_TouchToMouse_RightClickHold": {
+    "Value": "Nhấp chuột phải - Giữ nút sau đó nhấn hoặc nhấn"
+  },
+  "SettingsPage_TouchToMouse_ScrollSpeed": {
+    "Value": "Tốc độ cuộn - Chạm bằng 2 ngón tay sau đó kéo"
+  },
+  "SettingsPage_TouchToMouse_SlowSensiSpeed": {
+    "Value": "Tốc độ nhạy chậm - Giữ nút"
+  },
+  "SettingsPage_ViewReleaseNotesButton": {
+    "Value": "Xem Ghi chú Phát hành"
+  },
+  "SettingsPage_ViewSaveFileFolderButton": {
+    "Value": "Xem thư mục Lưu tệp"
+  },
+  "SetupScreen_AppAcentColor_Color": {
+    "Value": "Màu"
+  },
+  "SetupScreen_AppAcentColor_Preview": {
+    "Value": "Xem trước"
+  },
+  "SetupScreen_AppAcentColor_Reset": {
+    "Value": "Đặt lại về màu mặc định hệ thống"
+  },
+  "SetupScreen_AppAcentColor_Title": {
+    "Value": "Màu đặc trưng App"
+  },
+  "SetupScreen_EmualtionPicker_DownloadDriver": {
+    "Value": "Tải xuống Driver"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_BothInstalled": {
+    "Value": "Cả 2 Driver đã được cài đặt"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingForInstalledDrivers": {
+    "Value": "Đang Kiểm tra các Driver đã cài đặt"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingInstalledDrivers": {
+    "Value": "Đang Kiểm tra các Driver đã cài đặt"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4": {
+    "Value": "Giả lập DualShock 4"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4_Description": {
+    "Value": "Ứng dụng sẽ tạo một giả lập tay cầm DualShock 4 để sử dụng với các trò chơi có hỗ trợ tay cầm DualShock 4 gốc."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Checkbox": {
+    "Value": "Driver HidHide đã cài đặt"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Description": {
+    "Value": "HidHide cho phép App ẩn bộ điều khiển vật lý khi mô phỏng một thiết bị ảo. Nó được sử dụng để tránh đầu vào từ cả 2 bộ điều khiển ảo và vật lý và sẽ làm cho trò chơi hoặc chương trình chỉ nhìn thấy bộ điều khiển ảo."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_SystemRestart": {
+    "Value": "* Yêu cầu khởi động lại hệ thống"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation": {
+    "Value": "Không giả lập"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation_Description": {
+    "Value": "Ứng dụng sẽ chỉ giao tiếp với tay cầm mà không cần tạo tay cầm ảo."
+  },
+  "SetupScreen_EmualtionPicker_Title": {
+    "Value": "Driver và kiểu giả lập"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Checkbox": {
+    "Value": "Driver ViGEm đã cài đặt"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Description": {
+    "Value": "ViGEm Bus Driver cho phép sử dụng một thiết bị ảo bắt chước bản gốc như thể nó đã được kết nối vật lý. Ví dụ:"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360": {
+    "Value": "Bộ Xbox 360 (Khuyến nghị)"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360_Description": {
+    "Value": "Ứng dụng sẽ tạo một trình giả lập Xbox 360 để sử dụng với các trò chơi có hỗ trợ tay cầm Xbox gốc ."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInput": {
+    "Value": "Trong trường hợp tay cầm đã được nhận dạng, Steam Input phải được tắt"
+  },
+  "SetupScreen_SteamSetup_DisableSteamInputCheckbox": {
+    "Value": "Tắt Steam Input"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlay": {
+    "Value": "Để ứng dụng không có bất kỳ trục trặc đồ họa nào, Steam Overplay phải được tắt."
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlayCheckbox": {
+    "Value": "Tắt Steam Overplay"
+  },
+  "SetupScreen_SteamSetup_Title": {
+    "Value": "Thiết lập Steam"
+  },
+  "SetupScreen_SteamSetup_Title2": {
+    "Value": "Tắt Steam Input và Overlay trong thiết lập DSX"
+  },
+  "SetupScreen_SteamSetup_Title2_Subtitle": {
+    "Value": "Điều này phải được thực hiện vì API Steam."
+  }
+}

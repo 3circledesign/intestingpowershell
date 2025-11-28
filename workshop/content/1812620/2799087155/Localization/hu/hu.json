@@ -1,0 +1,1079 @@
+{
+  "AppCommandArgs_FileLocationNotFound": {
+    "Value": "A játék neve megtalálható, de a fájl helye nem."
+  },
+  "AppCommandArgs_GameNameNotFound": {
+    "Value": "A játék neve nem található, de a fájl helye igen."
+  },
+  "AppCommandArgs_NoParamersFound": {
+    "Value": "Nincs megadva paraméter."
+  },
+  "AppCommandArgs_Playing": {
+    "Value": "A(z) %s fut a háttérben"
+  },
+  "AppNotificationLabel_AutoConnectedToController": {
+    "Value": "Automatikusan csatlakozva a játékvezérlőhöz!"
+  },
+  "AppNotificationLabel_AutoConnectingToController": {
+    "Value": "Automatikus csatlakozás a játékvezérlőhöz"
+  },
+  "AppNotificationLabel_ConnectedToController": {
+    "Value": "Csatlakozva a játékvezérlőhöz!"
+  },
+  "AppNotificationLabel_ConnectionLost": {
+    "Value": "A kapcsolat megszakadt, játékvezérlő keresése..."
+  },
+  "AppNotificationLabel_ConnectionLostAttemptingToRconnect": {
+    "Value": "A kapcsolat megszakadt, a csatlakozás újrapróbálása..."
+  },
+  "AppNotificationLabel_FailedToAutoConnect": {
+    "Value": "Nem sikerült automatikusan csatlakozni, kérem ellenőrizze a kapcsolatot!"
+  },
+  "AppNotificationLabel_FailedToRconnect": {
+    "Value": "Nem sikerült újracsatlakoztatni a játékvezérlőt, kérem ellenőrizze a kapcsolatot!"
+  },
+  "AppNotificationLabel_ReconnectedToController": {
+    "Value": "Újracsatlakozva a játékvezérlőhöz!"
+  },
+  "AppNotificationLabel_SearchingForController": {
+    "Value": "Játékvezérlő keresése..."
+  },
+  "AppNotificationPopUp_AreYouSureYouWantToExit": {
+    "Value": "Biztos, hogy kilép?"
+  },
+  "AppNotificationPopUp_Cancel": {
+    "Value": "Mégsem"
+  },
+  "AppNotificationPopUp_DownloadUpdate": {
+    "Value": "Frissítés letöltése…"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsDualShock4": {
+    "Value": "A DualSense vezérlő már nem fog DualShock 4 játékvezérlőként csatlakozni!"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsXbox": {
+    "Value": "A DualSense vezérlő már nem fog Xbox játékvezérlőként csatlakozni!"
+  },
+  "AppNotificationPopUp_Exit": {
+    "Value": "Kilépés"
+  },
+  "AppNotificationPopUp_Later": {
+    "Value": "Később"
+  },
+  "AppNotificationPopUp_MissingDriver_ConnectToController": {
+    "Value": "Csatlakozás a játékvezérlőhöz"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadAndInstall": {
+    "Value": "Illesztőprogramok letöltése és telepítése"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadingAndInstalling": {
+    "Value": "Az illesztőprogram letöltése és telepítése..."
+  },
+  "AppNotificationPopUp_MissingDriver_FollowViGEmBusInstructions": {
+    "Value": "Kérem kövesse a ViGEmBus telepítője által bemutatott utasításokat!"
+  },
+  "AppNotificationPopUp_MissingDriver_OnceFinishedInstalling": {
+    "Value": "Miután befejezte az illesztőprogram telepítését, csatlakoztathatja a játékvezérlőjét."
+  },
+  "AppNotificationPopUp_MissingDriver_Uh-oh": {
+    "Value": "Ó, jaj!"
+  },
+  "AppNotificationPopUp_MissingDriver_YouDontHaveViGEmBusDriverse": {
+    "Value": "Úgy tűnik, hogy nincs telepítve a ViGEmBus illesztőprogram."
+  },
+  "AppNotificationPopUp_UpdateAvailable": {
+    "Value": "Frissítés érhető el!"
+  },
+  "AppNotificationPopUp_UpdateAvailable_InstallIt": {
+    "Value": "Kívánja telepíteni?"
+  },
+  "AppNotificationPopUp_UpdateProccess_CurrentVersion": {
+    "Value": "Jelenlegi verzió:"
+  },
+  "AppNotificationPopUp_UpdateProccess_DownloadingUpdate": {
+    "Value": "Frissítés letöltése…"
+  },
+  "AppNotificationPopUp_UpdateProccess_ExtractingUpdate": {
+    "Value": "Frissítés kibontása..."
+  },
+  "AppNotificationPopUp_UpdateProccess_FetchingUpdate": {
+    "Value": "Frissítés lekérése..."
+  },
+  "AppNotificationPopUp_UpdateProccess_InstallingUpdate": {
+    "Value": "Frissítés telepítése…"
+  },
+  "AppNotificationPopUp_UpdateProccess_PleaseRestartToApplyUpdate": {
+    "Value": "Kérem indítsa újra a programot a frissítés alkalmazásához!"
+  },
+  "AppNotificationPopUp_UpdateProccess_Restart": {
+    "Value": "Újraindítás"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateInstalled": {
+    "Value": "Frissítés telepítve."
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateVersion": {
+    "Value": "Frissítés verziószáma: "
+  },
+  "AppNotificationPopUp_Yes": {
+    "Value": "Igen"
+  },
+  "App_DriversNotInstalledPopup_Title": {
+    "Value": "Hiányzó illesztőprogramok"
+  },
+  "App_ExportTriggersPopUp_BothTriggersBtn": {
+    "Value": "Mindkét kiváltó"
+  },
+  "App_ExportTriggersPopUp_Description": {
+    "Value": "Kérjük, válasszon egyet az alábbi lehetőségek közül:"
+  },
+  "App_ExportTriggersPopUp_Title": {
+    "Value": "Ravaszkonfiguráció exportálása"
+  },
+  "App_VigemDriverNotInstalled_TextBox": {
+    "Value": "Kérem telepítse a hiányzó illesztőprogramokat!"
+  },
+  "ControllerPage_AdvancedInfoButton": {
+    "Value": "Haladó információk"
+  },
+  "ControllerPage_AdvancedInfoConnectToView": {
+    "Value": "Kérem csatlakoztassa a vezérlőt a haladó információk megtekintéséhez!"
+  },
+  "ControllerPage_BatteryLevelLabel": {
+    "Value": "Akkumulátor töltöttségi szintje:"
+  },
+  "ControllerPage_ConnectionTypeLabel": {
+    "Value": "Kapcsolat típusa:"
+  },
+  "ControllerPage_ConnectionType_Connected": {
+    "Value": "Csatlakoztatva"
+  },
+  "ControllerPage_ConnectionType_NotConnected": {
+    "Value": "Nincs csatlakoztatva"
+  },
+  "ControllerPage_InputButton": {
+    "Value": "Bemenet"
+  },
+  "ControllerPage_LeftJoyStickLabel": {
+    "Value": "Bal analóg kar"
+  },
+  "ControllerPage_RemappingButton": {
+    "Value": "Gombok kiosztásának megváltoztatása"
+  },
+  "ControllerPage_RightJoyStickLabel": {
+    "Value": "Jobb analóg kar"
+  },
+  "ControllerPage_UseXboxLabels": {
+    "Value": "Xbox-feliratok használata"
+  },
+  "DualSense_BatteryState_AbnormalTemperture": {
+    "Value": "Rendellenes hőmérséklet"
+  },
+  "DualSense_BatteryState_AbnormalVoltage": {
+    "Value": "Rendellenes feszültség"
+  },
+  "DualSense_BatteryState_Charging": {
+    "Value": "Töltés"
+  },
+  "DualSense_BatteryState_ChargingError": {
+    "Value": "Töltési hiba"
+  },
+  "DualSense_BatteryState_Complete": {
+    "Value": "Kész"
+  },
+  "DualSense_BatteryState_Discharging": {
+    "Value": "Lemerült"
+  },
+  "GamesPage_ItemViewScreenshot": {
+    "Value": "Képernyőkép"
+  },
+  "GamesPage_ModInfo": {
+    "Value": "Mod információ"
+  },
+  "GamesPage_ModsButton": {
+    "Value": "Modok"
+  },
+  "GamesPage_ModsSearchBoxPlaceholder": {
+    "Value": "Szűrés mod neve, játék neve vagy szerző szerint"
+  },
+  "GamesPage_Mods_Disclaimer": {
+    "Value": "Jogi nyilatkozat"
+  },
+  "GamesPage_Mods_DisclaimerDescription": {
+    "Value": "NE használja ezeket a modokat online játékokban, hogy elkerülje a kitiltást, ez a saját felelősségére történik. A DSX NEM vállal felelősséget ezen modok használatáért."
+  },
+  "GamesPage_Mods_ModAuthor": {
+    "Value": "Szerző:"
+  },
+  "GamesPage_Mods_ModGame": {
+    "Value": "Játék:"
+  },
+  "GamesPage_Mods_ModName": {
+    "Value": "Név:"
+  },
+  "GamesPage_Mods_ViewModButton": {
+    "Value": "Mod megtekintése"
+  },
+  "GamsPage_GameImageLoadingLabel": {
+    "Value": "Kép betöltése…"
+  },
+  "GamsPage_GameListStatusOne_FetchingGameList": {
+    "Value": "Játéklista lekérése..."
+  },
+  "GamsPage_GameListStatusOne_NoGamesAdded": {
+    "Value": "Nincsenek hozzáadva játékok."
+  },
+  "GamsPage_GameListStatusTwo_CheckBackLater": {
+    "Value": "Kérem nézzen vissza később!"
+  },
+  "GamsPage_GameListStatusTwo_PleaseWait": {
+    "Value": "Kérem várjon..."
+  },
+  "GamsPage_GameTagsLabel": {
+    "Value": "Címkék"
+  },
+  "GamsPage_GameViewGameBtn": {
+    "Value": "Játék megtekintése"
+  },
+  "GamsPage_GamesLabel": {
+    "Value": "Játékok"
+  },
+  "GamsPage_SearchbarPlaceholder": {
+    "Value": "Játékok keresése név vagy címke szerint"
+  },
+  "GeneralStuff_Button": {
+    "Value": "Gomb"
+  },
+  "GeneralStuff_CloseButton": {
+    "Value": "Bezárás"
+  },
+  "GeneralStuff_ConfirmButton": {
+    "Value": "Megerősít"
+  },
+  "GeneralStuff_Sensitivity": {
+    "Value": "Érzékenység"
+  },
+  "GeneralStuff_UnableToStartDSX": {
+    "Value": "Nem sikerült elindítani a DSX-et."
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionOne": {
+    "Value": "Kérjük, ellenőrizze, hogy a Steam fut-e, és hogy az alkalmazás telepítve van-e a könyvtáradban. Ha a probléma továbbra is fennáll, telepítse újra a DSX-et a Steam-en keresztül."
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionTwo": {
+    "Value": "Nem sikerült letölteni a fordításokat. Kérjük, ellenőrizze, hogy a Steam fut-e, van-e aktív internetkapcsolata és az alkalmazás telepítve van-e a könyvtáradban. Ha a probléma továbbra is fennáll, kérem telepítse újra a DSX-et a Steam-en keresztül."
+  },
+  "HomePage_AdaptiveTriggers": {
+    "Value": "Adaptív ravaszok"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger": {
+    "Value": "Bal ravasz"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger_ApplyButton": {
+    "Value": "Bal oldali ravaszra való alkalmazás"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger": {
+    "Value": "Jobb ravasz"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger_ApplyButton": {
+    "Value": "A jobb oldali ravaszra való alkalmazás"
+  },
+  "HomePage_AdaptiveTriggers_TriggerMode": {
+    "Value": "Ravasz mód"
+  },
+  "HomePage_ApplyModeLabel": {
+    "Value": "Mód alkalmazása"
+  },
+  "HomePage_ApplyMode_ApplyBtn": {
+    "Value": "Alkalmaz"
+  },
+  "HomePage_ApplyMode_BothTriggerMotorLabel": {
+    "Value": "Mindkét ravasz/rezgőmotor"
+  },
+  "HomePage_ApplyMode_LeftTriggerMotorLabel": {
+    "Value": "Bal ravasz/rezgőmotor"
+  },
+  "HomePage_ApplyMode_RightTriggerMotorLabel": {
+    "Value": "Jobb ravasz/rezgőmotor"
+  },
+  "HomePage_BatteryStatus": {
+    "Value": "Akkumulátor állapota"
+  },
+  "HomePage_ConnectionStatusLabel": {
+    "Value": "Kapcsolat állapota"
+  },
+  "HomePage_ConnectionStatus_ConnectControllerBtn": {
+    "Value": "Kérem csatlakoztassa a vezérlőt!"
+  },
+  "HomePage_ConnectionStatus_EmulationType_ComboboxLabel": {
+    "Value": "Vezérlő emuláció:"
+  },
+  "HomePage_ConnectionStatus_EmulationType_Emulating360": {
+    "Value": "Xbox 360-vezérlő emulálása"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingDS4": {
+    "Value": "DualShock 4 emulálása"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingNone": {
+    "Value": "Nem emulál"
+  },
+  "HomePage_ConnectionStatus_Status_AutoConnectingToController": {
+    "Value": "Automatikus csatlakozás a játékvezérlőhöz..."
+  },
+  "HomePage_ConnectionStatus_Status_Connecting": {
+    "Value": "Kapcsolódás…"
+  },
+  "HomePage_ConnectionStatus_Status_ConnectionLostAttemptingToReconnect": {
+    "Value": "A kapcsolat megszakadt, a csatlakozás újrapróbálása..."
+  },
+  "HomePage_ConnectionStatus_Status_ControllerConnected": {
+    "Value": "Játékvezérlő csatlakoztatva"
+  },
+  "HomePage_ConnectionStatus_Status_FailedToConnect": {
+    "Value": "Nem sikerült csatlakozni, kérem ellenőrizze a kapcsolatot!"
+  },
+  "HomePage_ConnectionStatus_Status_SearchingForController": {
+    "Value": "Játékvezérlő keresése..."
+  },
+  "HomePage_ConnectionStatus_Status_ShuttingDownApp": {
+    "Value": "Az alkalmazás leállítása..."
+  },
+  "HomePage_ControllerLEDLabel": {
+    "Value": "Vezérlő LED-fényei"
+  },
+  "HomePage_ControllerLED_BrightnessLabel": {
+    "Value": "Fényerő"
+  },
+  "HomePage_ControllerLED_ColorModeBtn": {
+    "Value": "Színséma"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlash": {
+    "Value": "Villogás aktiválása"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlashWhenBattery": {
+    "Value": "Vaku, ha az akkumulátor kevesebb, mint (%)"
+  },
+  "HomePage_ControllerLED_ColorMode_Breathing_RandomColorCycle": {
+    "Value": "Véletlen színciklus"
+  },
+  "HomePage_ControllerLED_ColorMode_RainbowLabel": {
+    "Value": "Szivárvány"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_AutoReverse": {
+    "Value": "Automatikus fordított szivárvány"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowMultiplier": {
+    "Value": "Színváltozás szorzó"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowSpeed": {
+    "Value": "A szivárvány minta sebessége"
+  },
+  "HomePage_ControllerLED_ColorMode_Speed": {
+    "Value": "Sebesség"
+  },
+  "HomePage_ControllerLED_ColorMode_StaticColorLabel": {
+    "Value": "Egyszínű"
+  },
+  "HomePage_ControllerLED_MicLEDLabel": {
+    "Value": "Mikrofon LED"
+  },
+  "HomePage_ControllerLED_MicLED_OffBtn": {
+    "Value": "KI"
+  },
+  "HomePage_ControllerLED_MicLED_OnBtn": {
+    "Value": "BE"
+  },
+  "HomePage_ControllerLED_MicLED_PulseBtn": {
+    "Value": "Pulzus"
+  },
+  "HomePage_ControllerLED_PlayerLEDLabel": {
+    "Value": "Játékos számát jelölő LED fényei"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOffBtn": {
+    "Value": "Az összes kikapcsolása"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOnBtn": {
+    "Value": "Az összes bekapcsolása"
+  },
+  "HomePage_ControllerLED_PlayerLED_Battery": {
+    "Value": "Akkumulátor"
+  },
+  "HomePage_ControllerLED_PlayerLED_Breathing": {
+    "Value": "Lélegzés"
+  },
+  "HomePage_ControllerLED_PlayerLED_CustomBtn": {
+    "Value": "Egyéni"
+  },
+  "HomePage_ControllerLED_PlayerLED_DS4Passthrough": {
+    "Value": "DualShock 4 átengedése"
+  },
+  "HomePage_ControllerLED_PlayerLED_FiveBtn": {
+    "Value": "Öt"
+  },
+  "HomePage_ControllerLED_PlayerLED_FlashWhileCharging": {
+    "Value": "Töltés közben villogjon"
+  },
+  "HomePage_ControllerLED_PlayerLED_FourBtn": {
+    "Value": "Négy"
+  },
+  "HomePage_ControllerLED_PlayerLED_HighBrightnessBtn": {
+    "Value": "Magas"
+  },
+  "HomePage_ControllerLED_PlayerLED_LowBrightnessBtn": {
+    "Value": "Alacsony"
+  },
+  "HomePage_ControllerLED_PlayerLED_MediumBrightnessBtn": {
+    "Value": "Közepes"
+  },
+  "HomePage_ControllerLED_PlayerLED_OneBtn": {
+    "Value": "Egy"
+  },
+  "HomePage_ControllerLED_PlayerLED_Strobing": {
+    "Value": "Erős villogás"
+  },
+  "HomePage_ControllerLED_PlayerLED_ThreeBtn": {
+    "Value": "Három"
+  },
+  "HomePage_ControllerLED_PlayerLED_TwoBtn": {
+    "Value": "Kettő"
+  },
+  "HomePage_ControllerLED_RainbowSpeedLabel": {
+    "Value": "A szivárvány minta sebessége"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Fast": {
+    "Value": "Gyors"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Hyper": {
+    "Value": "Hiper"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Medium": {
+    "Value": "Közepes"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Slow": {
+    "Value": "Lassú"
+  },
+  "HomePage_ControllerLED_TouchPadLEDLabel": {
+    "Value": "Érintőpad LED-fényei"
+  },
+  "HomePage_ControllerModeLabel": {
+    "Value": "Játékvezérlő üzemmódja"
+  },
+  "HomePage_ControllerMode_IntensityLabel": {
+    "Value": "Erősség"
+  },
+  "HomePage_ControllerMode_ModeLabel": {
+    "Value": "Mód"
+  },
+  "HomePage_ControllerMode_RandomizeModeAndValues": {
+    "Value": "Mód és értékek véletlenszerűsítése"
+  },
+  "HomePage_ControllerMode_RandomizeValues": {
+    "Value": "Értékek véletlenszerűsítése"
+  },
+  "HomePage_ControllerMode_VibrationDurationLabel": {
+    "Value": "Rezgés időtartama (másodperc)"
+  },
+  "HomePage_ControllerVibration": {
+    "Value": "Rezgésszabályozó"
+  },
+  "HomePage_ExportTriggers": {
+    "Value": "Ravaszkonfiguráció exportálása"
+  },
+  "HomePage_ExportTriggers_CopyToClipboard": {
+    "Value": "Másolás a vágólapra"
+  },
+  "HomePage_ExportTriggers_ExportForTextfile": {
+    "Value": "Exportálás szövegfájlba"
+  },
+  "HomePage_ExportTriggers_ExportForUDP": {
+    "Value": "Exportálás UDP-re (C#)"
+  },
+  "HomePage_GameLabel": {
+    "Value": "Játék"
+  },
+  "HomePage_TextFileLabel": {
+    "Value": "Szöveges fájl"
+  },
+  "HomePage_TextFile_FileLocationLabel": {
+    "Value": "Fájl helye:"
+  },
+  "HomePage_TextFile_SlectFileBtn": {
+    "Value": "Szövegfájl helyének kiválasztása"
+  },
+  "HomePage_TextFile_StatusActiveLabel": {
+    "Value": "Aktív"
+  },
+  "HomePage_TextFile_StatusLabel": {
+    "Value": "Állapot:"
+  },
+  "HomePage_TextFile_StatusNoMatchingTriggerValuesLabel": {
+    "Value": "Aktív - Nincs megfelelő ravasz érték megadva a szövegfájlban!"
+  },
+  "HomePage_TextFile_StatusNotActiveDoesNotExistLabel": {
+    "Value": "Inaktív - A kiválasztott fájl nem létezik!"
+  },
+  "HomePage_TextFile_StatusNotActiveLabel": {
+    "Value": "Inaktív"
+  },
+  "HomePage_TextFile_StatusNotActiveNoFileSelectedLabel": {
+    "Value": "Inaktív - Nincs kiválasztva fájl!"
+  },
+  "HomePage_TextFile_StatusNotActiveNotATextFileLabel": {
+    "Value": "Inaktív - Ez nem szöveges fájl, kérem próbálja újra!"
+  },
+  "HomePage_TextFile_StopReadingBtn": {
+    "Value": "Szövegfájl olvasásának leállítása"
+  },
+  "HomePage_TextfileStatus": {
+    "Value": "Szövegfájl állapota:"
+  },
+  "HomePage_UdpStatus": {
+    "Value": "UDP állapota:"
+  },
+  "InfoPage_CrashesOrBugsLabel": {
+    "Value": "Összeomlás vagy hibák?"
+  },
+  "InfoPage_Donate": {
+    "Value": "Támogatás"
+  },
+  "InfoPage_JoinDiscordLabel": {
+    "Value": "Csatlakozzon a Discord közösségünkhöz!"
+  },
+  "InfoPage_MoreInfoGitHubLabel": {
+    "Value": "További információ a GitHub-on található."
+  },
+  "InfoPage_Social": {
+    "Value": "Közösségi"
+  },
+  "MenuGames_Label": {
+    "Value": "Játékok"
+  },
+  "MenuHome_Label": {
+    "Value": "Kezdőlap"
+  },
+  "MenuInfo_Label": {
+    "Value": "Információ"
+  },
+  "MenuInput_Label": {
+    "Value": "Játékvezérlő"
+  },
+  "MenuSense2Key_Label": {
+    "Value": "Sense2Key"
+  },
+  "MenuSettings_JoinBtn": {
+    "Value": "Csatlakozás"
+  },
+  "MenuSettings_Label": {
+    "Value": "Beállítások"
+  },
+  "MenuSettings_SubmitIssueBtn": {
+    "Value": "Probléma bejelentése"
+  },
+  "MenuSettings_VisitBtn": {
+    "Value": "Meglátogat"
+  },
+  "MenuWorkshop_Label": {
+    "Value": "Műhely"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartEight": {
+    "Value": "Kérem telepítse a Sony hivatalos firmware frissítő eszközét a vezérlő frissítéséhez."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFive": {
+    "Value": "DualSense akkumulátor-állapot olvasási hiba javítása"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFour": {
+    "Value": "A következő okok miatt mindig frissítenie kell a legújabb verzióra:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartNine": {
+    "Value": "MEGJEGYZÉS: Frissítéskor győződjön meg arról, hogy a DSX zárva van, hogy elkerülje a folyamat során felmerülő problémákat."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartOne": {
+    "Value": "Egy új firmware verzió elérhető a DualSense vezérlőhöz!"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSeven": {
+    "Value": "Különböző javítások és fejlesztések"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSix": {
+    "Value": "Normál rezgés javítása (régi játékokhoz)"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartThree": {
+    "Value": "Új verzió:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartTwo": {
+    "Value": "Jelenlegi verzió:"
+  },
+  "NewFirmwareVersionAvailablePopup_Title": {
+    "Value": "Új DualSense firmware verzió érhető el!"
+  },
+  "NewFirmwareVersionAvailablePopup_ViewToolButton": {
+    "Value": "Firmware frissítő eszköz megtekintése"
+  },
+  "Sense2Key_Configuration_HelpLabel1": {
+    "Value": "Válasszon a legördülő menüből, vagy nyomjon meg egy tetszőleges gombot a billentyűzeten!"
+  },
+  "Sense2Key_Configuration_HelpLabel2": {
+    "Value": "Amíg a legördülő menü van kiválasztva"
+  },
+  "Sense2Key_Configuration_SaveConfigurationBtn": {
+    "Value": "Konfiguráció mentése"
+  },
+  "Sense2Key_CreateProfileBtn": {
+    "Value": "Profil létrehozása"
+  },
+  "Sense2Key_DeleteProfileBtn": {
+    "Value": "Törlés"
+  },
+  "Sense2Key_ExportProfileBtn": {
+    "Value": "Profil exportálása"
+  },
+  "Sense2Key_GetStartedLabel": {
+    "Value": "Kezdje el egy új profil létrehozásával!"
+  },
+  "Sense2Key_ImportProfileBtn": {
+    "Value": "Profil importálása"
+  },
+  "Sense2Key_NewProfile_CancelBtn": {
+    "Value": "Mégsem"
+  },
+  "Sense2Key_NewProfile_SaveNewProfilelBtn": {
+    "Value": "Új profil mentése"
+  },
+  "Sense2Key_NoProfilesAdded": {
+    "Value": "Nincsenek hozzáadva profilok."
+  },
+  "Sense2Key_ProfileStatus_DelayCannotBeNegative": {
+    "Value": "A késleltetés nem lehet negatív!"
+  },
+  "Sense2Key_ProfileStatus_DelayCantBeEmpty": {
+    "Value": "A késleltetés nem lehet üres!"
+  },
+  "Sense2Key_ProfileStatus_DelayUpdated": {
+    "Value": "Késleltetés frissítve"
+  },
+  "Sense2Key_ProfileStatus_ProfileCreated": {
+    "Value": "Profil létrehozva."
+  },
+  "Sense2Key_ProfileStatus_ProfileExists": {
+    "Value": "A profil már létezik!"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameCantBeEmpty": {
+    "Value": "A profil neve nem lehet üres!"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameUpdated": {
+    "Value": "Profil neve frissítve"
+  },
+  "Sense2Key_ProfilesLabel": {
+    "Value": "Profilok"
+  },
+  "Sense2Key_ProfilesWillShowHere": {
+    "Value": "Profiljaid itt jelennek meg."
+  },
+  "Sense2Key_SelectedProfile_DelayLabel": {
+    "Value": "Késleltetés (ezredmásodperc)"
+  },
+  "Sense2Key_SelectedProfile_DetailsLabel": {
+    "Value": "Részletek"
+  },
+  "Sense2Key_SelectedProfile_EditConfigurationBtn": {
+    "Value": "Konfiguráció szerkesztése"
+  },
+  "Sense2Key_SelectedProfile_EnterProfileNamePlaceholder": {
+    "Value": "Kérem adja meg a profil nevét!"
+  },
+  "Sense2Key_SelectedProfile_ProfileNameLabel": {
+    "Value": "Profilnév"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_Active": {
+    "Value": "Állapot: Aktív profil"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_NotActive": {
+    "Value": "Állapot: Profil NEM aktív"
+  },
+  "Sense2Key_SelectedProfile_StartBtn": {
+    "Value": "Indítás"
+  },
+  "Sense2Key_SelectedProfile_StopBtn": {
+    "Value": "Leállítás"
+  },
+  "Sense2Key_SelectedProfile_UpdateDelayBtn": {
+    "Value": "Késleltetés frissítése"
+  },
+  "Sense2Key_SelectedProfile_UpdateProfileNameBtn": {
+    "Value": "Név frissítése"
+  },
+  "SettingsPage_AppLabel": {
+    "Value": "Alkalmazás"
+  },
+  "SettingsPage_AppSettings_BorderColorLabel": {
+    "Value": "Szegély színe"
+  },
+  "SettingsPage_AppSettings_Border_AlphaLabel": {
+    "Value": "Alfa (átlátszóság)"
+  },
+  "SettingsPage_AppSettings_Border_BlueLabel": {
+    "Value": "Kék"
+  },
+  "SettingsPage_AppSettings_Border_GreenLabel": {
+    "Value": "Zöld"
+  },
+  "SettingsPage_AppSettings_Border_RedLabel": {
+    "Value": "Piros"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundBlurLabel": {
+    "Value": "Homályosítás"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundLabel": {
+    "Value": "Egyéni háttérkép"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundSelectImageBtn": {
+    "Value": "Válasszon egy képet:"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundStretchComboBoxLabel": {
+    "Value": "Nyújtás"
+  },
+  "SettingsPage_AppSettings_DarkModeLabel": {
+    "Value": "Sötét mód"
+  },
+  "SettingsPage_AppSettings_KeepInTrayLabel": {
+    "Value": "Tartsa az alkalmazást a tálcán, ha le van kicsinyítve"
+  },
+  "SettingsPage_AppSettings_Label": {
+    "Value": "Alkalmazás beállításai"
+  },
+  "SettingsPage_AppSettings_LanguageLabel": {
+    "Value": "Nyelv"
+  },
+  "SettingsPage_AppSettings_LaunchMinimizedCheckmark": {
+    "Value": "Program indítása lekicsinyítve"
+  },
+  "SettingsPage_AppSettings_LaunchWindowsStartupLabel": {
+    "Value": "A DualSenseX indítása a Windows indításakor"
+  },
+  "SettingsPage_App_EnableDiscordRP": {
+    "Value": "Discord Rich Presence engedélyezése"
+  },
+  "SettingsPage_App_EnableDiscordRP_MightTakeAMin": {
+    "Value": "Akár egy percig is eltarthat, amíg a változások életbe lépnek."
+  },
+  "SettingsPage_BackgroundLabel": {
+    "Value": "Háttér"
+  },
+  "SettingsPage_BackgroundSettings_Label": {
+    "Value": "Háttérbeállítások"
+  },
+  "SettingsPage_BackgroundSettings_SelectedBtn": {
+    "Value": "Kiválasztva"
+  },
+  "SettingsPage_ControllerLabel": {
+    "Value": "Játékvezérlő"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault": {
+    "Value": "Alapértelmezett hang"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault_RefreshList": {
+    "Value": "Lista frissítése"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Headset": {
+    "Value": "Fül/fejhallgató"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetLeft": {
+    "Value": "Bal fül/fejhallgató"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetRight": {
+    "Value": "Jobb fül/fejhallgató"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_LeftMotor": {
+    "Value": "Bal rezgőmotor"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_RightMotor": {
+    "Value": "Jobb rezgőmotor"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Speaker": {
+    "Value": "Hangszóró"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem": {
+    "Value": "Vezérlő hangrendszere (CSAK USB-N KERESZTÜL!)"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_Headset": {
+    "Value": "Fül/fejhallgató"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_HeadsetVolume": {
+    "Value": "Fül/fejhallgató hangereje"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_InternalSpeaker": {
+    "Value": "Belső hangszóró"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_MicVolume": {
+    "Value": "Mikrofon hangereje"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_OutputMode": {
+    "Value": "Hang kimeneti módja"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerAndHeadset": {
+    "Value": "A fejhallgató és a belső hangszóró is"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerVolume": {
+    "Value": "Hangszóró hangereje"
+  },
+  "SettingsPage_ControllerSettings_AutoConnectWhenOpenLabel": {
+    "Value": "Automatikus csatlakozás a játékvezérlőhöz a DualSenseX megnyitásakor"
+  },
+  "SettingsPage_ControllerSettings_ControllerMotorStrengthLabel": {
+    "Value": "Rezgőmotor erejének beállítása"
+  },
+  "SettingsPage_ControllerSettings_DisableVibrationControllerLabel": {
+    "Value": "Vezérlő rezgéseinek letiltása"
+  },
+  "SettingsPage_ControllerSettings_EnableAudioHaptics": {
+    "Value": "Hangrezgések engedélyezése (CSAK USB-N KERESZTÜL!)"
+  },
+  "SettingsPage_ControllerSettings_EnableHidHide": {
+    "Value": "A HidHide engedélyezése"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble": {
+    "Value": "Továbbfejlesztett rezgés engedélyezése"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble2": {
+    "Value": "A 0224-es vagy újabb firmware-verzióra van szükség"
+  },
+  "SettingsPage_ControllerSettings_EnableVibWhileDisabled": {
+    "Value": "A bejövő rezgések engedélyezése, amíg le van tiltva"
+  },
+  "SettingsPage_ControllerSettings_KillSteamOnConnect": {
+    "Value": "A Steam bezárása csatlakozáskor"
+  },
+  "SettingsPage_ControllerSettings_Label": {
+    "Value": "Játékvezérlő beállításai"
+  },
+  "SettingsPage_ControllerSettings_LeftTriggerThreshold": {
+    "Value": "Bal ravasz küszöbértéke"
+  },
+  "SettingsPage_ControllerSettings_LoadLastActiveTrigger": {
+    "Value": "Töltse be az utolsó aktív ravasz értékeit indításkor"
+  },
+  "SettingsPage_ControllerSettings_PlayLightShowOnConnect": {
+    "Value": "Fényjáték lejátszása csatlakozáskor"
+  },
+  "SettingsPage_ControllerSettings_PressMicAndUpXboxGameBar": {
+    "Value": "Nyomja meg a Mikrofon + FEL gombokat az Xbox Játéksáv megnyitásához"
+  },
+  "SettingsPage_ControllerSettings_PreviewLightshowBtn": {
+    "Value": "Fényjáték előnézete"
+  },
+  "SettingsPage_ControllerSettings_RightTriggerThreshold": {
+    "Value": "Jobb ravasz küszöbértéke"
+  },
+  "SettingsPage_ControllerSettings_SearchUntilControllerConnects": {
+    "Value": "A játékvezérlő keresése, amíg nem csatlakozik"
+  },
+  "SettingsPage_ControllerSettings_TriggerThreshold": {
+    "Value": "Trigger küszöb"
+  },
+  "SettingsPage_ControllerSettings_UDPPortListen": {
+    "Value": "UDP portfigyelő engedélyezése"
+  },
+  "SettingsPage_ControllerSettings_UDPPortNumber": {
+    "Value": "Az UDP port száma, amelyre figyelni kell"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions": {
+    "Value": "Hangerő-szinkronizálási beállítások"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_DontSync": {
+    "Value": "Ne szinkronizáljon"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncAll": {
+    "Value": "Összes szinkronizálása"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftMotorRightMotor": {
+    "Value": "Bal és jobb rezgőmotor szinkronizálása"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftRightSpeakers": {
+    "Value": "Bal és jobb hangszórók összehangolása"
+  },
+  "SettingsPage_Controller_ControllerAudioButton": {
+    "Value": "Vezérlőhang"
+  },
+  "SettingsPage_Controller_DriversButton": {
+    "Value": "Illesztőprogramok"
+  },
+  "SettingsPage_Controller_GyroAccelButton": {
+    "Value": "Giroszkóp/gyorsulásmérő"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking": {
+    "Value": "Vezérlő álcázása"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking_Description": {
+    "Value": "A fizikai vezérlő elrejtése más alkalmazásoktól"
+  },
+  "SettingsPage_Controller_MiscellaneousButton": {
+    "Value": "Egyéb"
+  },
+  "SettingsPage_Controller_NetworkingButton": {
+    "Value": "Hálózat"
+  },
+  "SettingsPage_Controller_ShortcutsButton": {
+    "Value": "Parancsikonok"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput": {
+    "Value": "Bemenet figyelése"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Description": {
+    "Value": "Kérem nyomjon meg egy gombot a vezérlőn az észleléshez!"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_NotAllowed": {
+    "Value": "Nem engedélyezett:"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Title": {
+    "Value": "Beviteli gomb észlelése"
+  },
+  "SettingsPage_Controller_Shortcuts_OpenXboxGameBar": {
+    "Value": "Gombkombináció az Xbox Játéksáv megnyitásához"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBT": {
+    "Value": "Kapcsolja ki a vezérlőt (Bluetooth)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAuto": {
+    "Value": "Vezérlő automatikus kikapcsolása"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAutoHowTo": {
+    "Value": "ÚTMUTATÓ: A Steam Controller automatikus kikapcsolásának letiltása"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTManual": {
+    "Value": "Kézi Combo gomblenyomás"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTMinutes": {
+    "Value": "percek"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTNever": {
+    "Value": "Soha"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTTimeElapsedSinceIdle": {
+    "Value": "Az üresjárat óta eltelt idő:"
+  },
+  "SettingsPage_Controller_TouchpadButton": {
+    "Value": "Érintőpad"
+  },
+  "SettingsPage_Settings_CheckForUpdatesLabel": {
+    "Value": "Frissítések keresése"
+  },
+  "SettingsPage_Settings_ResetAppDescription": {
+    "Value": "Biztosan vissza szeretné állítani a DualSenseX alapértelmezett beállításait?"
+  },
+  "SettingsPage_Settings_ResetAppLabel": {
+    "Value": "Alkalmazásbeállítások visszaállítása"
+  },
+  "SettingsPage_Settings_ResetAppYesButton": {
+    "Value": "A DualSenseX alaphelyzetbe állítása"
+  },
+  "SettingsPage_TouchToMouse_EnableTapAsLeftMouse": {
+    "Value": "Érintés engedélyezése bal egérgombként"
+  },
+  "SettingsPage_TouchToMouse_EnableTouchpadToMouse": {
+    "Value": "Érintőpad-egér konverzió engedélyezése"
+  },
+  "SettingsPage_TouchToMouse_FastSensiSpeed": {
+    "Value": "Gyors érzékenység - Tartsa lenyomva"
+  },
+  "SettingsPage_TouchToMouse_InvertScroll": {
+    "Value": "Görgetés megfordítása"
+  },
+  "SettingsPage_TouchToMouse_LeftClickHold": {
+    "Value": "Bal egérgomb - Tartsa lenyomva a gombot a lenyomott állapotban tartáshoz"
+  },
+  "SettingsPage_TouchToMouse_NormalSensiSpeed": {
+    "Value": "Normál érzékenységi sebesség"
+  },
+  "SettingsPage_TouchToMouse_RightClickHold": {
+    "Value": "Jobb klikk - Tartsa lenyomva a gombot, majd nyomja meg még egyszer"
+  },
+  "SettingsPage_TouchToMouse_ScrollSpeed": {
+    "Value": "Görgetési sebesség - Érintse meg 2 ujjal, majd húzza el valamilyen irányba"
+  },
+  "SettingsPage_TouchToMouse_SlowSensiSpeed": {
+    "Value": "Lassulási érzékenység - Tartsa lenyomva a gombot"
+  },
+  "SettingsPage_ViewReleaseNotesButton": {
+    "Value": "Kiadási megjegyzések megtekintése"
+  },
+  "SettingsPage_ViewSaveFileFolderButton": {
+    "Value": "Mentési fájl mappájának megtekintése"
+  },
+  "SetupScreen_AppAcentColor_Color": {
+    "Value": "Szín"
+  },
+  "SetupScreen_AppAcentColor_Preview": {
+    "Value": "Előnézet"
+  },
+  "SetupScreen_AppAcentColor_Reset": {
+    "Value": "Visszaállítás a rendszer alapértelmezett színére"
+  },
+  "SetupScreen_AppAcentColor_Title": {
+    "Value": "Alkalmazás színe"
+  },
+  "SetupScreen_EmualtionPicker_DownloadDriver": {
+    "Value": "Illesztőprogram letötése"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_BothInstalled": {
+    "Value": "Mindkét illesztőprogram telepítve"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingForInstalledDrivers": {
+    "Value": "Telepített illesztőprogramok ellenőrzése..."
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingInstalledDrivers": {
+    "Value": "A telepített illesztőprogramok ellenőrzése a %s-ban/ben"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4": {
+    "Value": "Virtuális DualShock 4"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4_Description": {
+    "Value": "Az alkalmazás létrehoz egy virtuális DualShock 4 vezérlőt, hogy a DualSense használható legyen olyan játékokkal, amelyek natív DualShock 4 támogatással rendelkeznek."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Checkbox": {
+    "Value": "HidHide illesztőprogram telepítve"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Description": {
+    "Value": "A HidHide lehetővé teszi az alkalmazás számára, hogy elrejtse a fizikai vezérlőt, amikor virtuális eszközt emulál. Arra használják, hogy elkerüljék a virtuális és fizikai vezérlő kettős bemeneteit és egy játék vagy program csak a virtuális vezérlőt láthassa."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_SystemRestart": {
+    "Value": "* Rendszer újraindítást igényel"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation": {
+    "Value": "Nincs emuláció"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation_Description": {
+    "Value": "Az alkalmazás csak virtuális vezérlő létrehozása nélkül kommunikál a vezérlővel."
+  },
+  "SetupScreen_EmualtionPicker_Title": {
+    "Value": "Illesztőprogramok és emuláció típusa"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Checkbox": {
+    "Value": "ViGEm illesztőprogram telepítve"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Description": {
+    "Value": "A ViGEm vezérlőbusz illesztőprogram lehetővé teszi a használatát egy olyan virtuális eszköznek, amely utánozza az eredetit, mintha fizikailag csatlakozna. Példa:"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360": {
+    "Value": "Virtuális Xbox 360 játékvezérlő (ajánlott)"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360_Description": {
+    "Value": "Az alkalmazás létrehoz egy virtuális Xbox 360 vezérlőt, amelyet natív Xbox vezérlő támogatással rendelkező játékokkal használhat."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInput": {
+    "Value": "Annak érdekében, hogy a vezérlő felismerhető legyen, a Steam Bemenetet le kell tiltani."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInputCheckbox": {
+    "Value": "Letiltottam a Steam Bemenetet"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlay": {
+    "Value": "Ahhoz, hogy az alkalmazásban ne legyenek grafikus hibák, az átfedést le kell tiltani."
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlayCheckbox": {
+    "Value": "Letiltottam a Steam Átfedést"
+  },
+  "SetupScreen_SteamSetup_Title": {
+    "Value": "Steam beállítás"
+  },
+  "SetupScreen_SteamSetup_Title2": {
+    "Value": "A Steam bemenet és az átfedés letiltása a DSX tulajdonságokban"
+  },
+  "SetupScreen_SteamSetup_Title2_Subtitle": {
+    "Value": "Ezt a Steam API miatt kell megtenni."
+  }
+}

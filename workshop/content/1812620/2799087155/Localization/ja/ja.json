@@ -1,0 +1,1079 @@
+{
+  "AppCommandArgs_FileLocationNotFound": {
+    "Value": "ゲーム名は見つかりましたが、ファイルの場所が見つかりません"
+  },
+  "AppCommandArgs_GameNameNotFound": {
+    "Value": "ゲーム名は見つかりませんでしたが、ファイルの場所が見つかりました"
+  },
+  "AppCommandArgs_NoParamersFound": {
+    "Value": "パラメータが見つかりません"
+  },
+  "AppCommandArgs_Playing": {
+    "Value": "をプレイ中:"
+  },
+  "AppNotificationLabel_AutoConnectedToController": {
+    "Value": "コントローラーに自動接続"
+  },
+  "AppNotificationLabel_AutoConnectingToController": {
+    "Value": "コントローラーへの自動接続"
+  },
+  "AppNotificationLabel_ConnectedToController": {
+    "Value": "コントローラに接続しました！"
+  },
+  "AppNotificationLabel_ConnectionLost": {
+    "Value": "接続が失われました。コントローラーを検索しています..."
+  },
+  "AppNotificationLabel_ConnectionLostAttemptingToRconnect": {
+    "Value": "接続が失われました。再接続しようとしています"
+  },
+  "AppNotificationLabel_FailedToAutoConnect": {
+    "Value": "自動接続に失敗しました。接続を確認してください。"
+  },
+  "AppNotificationLabel_FailedToRconnect": {
+    "Value": "再接続に失敗しました。接続を確認してください。"
+  },
+  "AppNotificationLabel_ReconnectedToController": {
+    "Value": "コントローラに再接続！"
+  },
+  "AppNotificationLabel_SearchingForController": {
+    "Value": "コントローラーを検索中..."
+  },
+  "AppNotificationPopUp_AreYouSureYouWantToExit": {
+    "Value": "本当に終了してもよろしいですか？"
+  },
+  "AppNotificationPopUp_Cancel": {
+    "Value": "キャンセル"
+  },
+  "AppNotificationPopUp_DownloadUpdate": {
+    "Value": "アップデートファイルをダウンロード中です..."
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsDualShock4": {
+    "Value": "DualSense コントローラーが Dualshock 4 コントローラーとして認識されなくなりました。"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsXbox": {
+    "Value": "DualSense コントローラーが Xbox コントローラーとして認識されなくなりました。"
+  },
+  "AppNotificationPopUp_Exit": {
+    "Value": "終了"
+  },
+  "AppNotificationPopUp_Later": {
+    "Value": "後で"
+  },
+  "AppNotificationPopUp_MissingDriver_ConnectToController": {
+    "Value": "コントローラに接続"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadAndInstall": {
+    "Value": "ドライバーのダウンロードとインストール"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadingAndInstalling": {
+    "Value": "ドライバをダウンロードおよびインストールしています..."
+  },
+  "AppNotificationPopUp_MissingDriver_FollowViGEmBusInstructions": {
+    "Value": "ViGEmBus の指示に従ってください。"
+  },
+  "AppNotificationPopUp_MissingDriver_OnceFinishedInstalling": {
+    "Value": "ドライバーのインストールが完了したら、コントローラーに接続できます。"
+  },
+  "AppNotificationPopUp_MissingDriver_Uh-oh": {
+    "Value": "おっと"
+  },
+  "AppNotificationPopUp_MissingDriver_YouDontHaveViGEmBusDriverse": {
+    "Value": "VigEmbus ドライバーがインストールされていないようです"
+  },
+  "AppNotificationPopUp_UpdateAvailable": {
+    "Value": "アップデートが利用できます"
+  },
+  "AppNotificationPopUp_UpdateAvailable_InstallIt": {
+    "Value": "インストールしますか？"
+  },
+  "AppNotificationPopUp_UpdateProccess_CurrentVersion": {
+    "Value": "現在のバージョン:"
+  },
+  "AppNotificationPopUp_UpdateProccess_DownloadingUpdate": {
+    "Value": "アップデートファイルをダウンロード中..."
+  },
+  "AppNotificationPopUp_UpdateProccess_ExtractingUpdate": {
+    "Value": "アップデートファイルを抽出中..."
+  },
+  "AppNotificationPopUp_UpdateProccess_FetchingUpdate": {
+    "Value": "アップデートファイルを取得中..."
+  },
+  "AppNotificationPopUp_UpdateProccess_InstallingUpdate": {
+    "Value": "アップデートファイルをインストール中..."
+  },
+  "AppNotificationPopUp_UpdateProccess_PleaseRestartToApplyUpdate": {
+    "Value": "このアップデートを適用するには、再起動してください。"
+  },
+  "AppNotificationPopUp_UpdateProccess_Restart": {
+    "Value": "再起動"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateInstalled": {
+    "Value": "アップデートファイルがインストールされました"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateVersion": {
+    "Value": "アップデート バージョン: "
+  },
+  "AppNotificationPopUp_Yes": {
+    "Value": "はい"
+  },
+  "App_DriversNotInstalledPopup_Title": {
+    "Value": "ドライバーが見つかりません"
+  },
+  "App_ExportTriggersPopUp_BothTriggersBtn": {
+    "Value": "両方のトリガー"
+  },
+  "App_ExportTriggersPopUp_Description": {
+    "Value": "次のオプションを1つ選択してください。"
+  },
+  "App_ExportTriggersPopUp_Title": {
+    "Value": "トリガーをエクスポート"
+  },
+  "App_VigemDriverNotInstalled_TextBox": {
+    "Value": "不足しているドライバーをインストールしてください"
+  },
+  "ControllerPage_AdvancedInfoButton": {
+    "Value": "詳細情報"
+  },
+  "ControllerPage_AdvancedInfoConnectToView": {
+    "Value": "詳細情報を閲覧するにはコントローラーを接続してください"
+  },
+  "ControllerPage_BatteryLevelLabel": {
+    "Value": "バッテリー残量"
+  },
+  "ControllerPage_ConnectionTypeLabel": {
+    "Value": "接続タイプ"
+  },
+  "ControllerPage_ConnectionType_Connected": {
+    "Value": "接続中"
+  },
+  "ControllerPage_ConnectionType_NotConnected": {
+    "Value": "未接続"
+  },
+  "ControllerPage_InputButton": {
+    "Value": "入力"
+  },
+  "ControllerPage_LeftJoyStickLabel": {
+    "Value": "左 ジョイスティック"
+  },
+  "ControllerPage_RemappingButton": {
+    "Value": "再マッピング"
+  },
+  "ControllerPage_RightJoyStickLabel": {
+    "Value": "右 ジョイスティック"
+  },
+  "ControllerPage_UseXboxLabels": {
+    "Value": "Xbox ラベルを使用する"
+  },
+  "DualSense_BatteryState_AbnormalTemperture": {
+    "Value": "異常な温度"
+  },
+  "DualSense_BatteryState_AbnormalVoltage": {
+    "Value": "異常電圧"
+  },
+  "DualSense_BatteryState_Charging": {
+    "Value": "充電中"
+  },
+  "DualSense_BatteryState_ChargingError": {
+    "Value": "充電中のエラー"
+  },
+  "DualSense_BatteryState_Complete": {
+    "Value": "完了"
+  },
+  "DualSense_BatteryState_Discharging": {
+    "Value": "放電中"
+  },
+  "GamesPage_ItemViewScreenshot": {
+    "Value": "スクリーンショット"
+  },
+  "GamesPage_ModInfo": {
+    "Value": "MOD 情報"
+  },
+  "GamesPage_ModsButton": {
+    "Value": "MODS"
+  },
+  "GamesPage_ModsSearchBoxPlaceholder": {
+    "Value": "Mod名、ゲーム名、または作成者で絞り込む"
+  },
+  "GamesPage_Mods_Disclaimer": {
+    "Value": "免責事項"
+  },
+  "GamesPage_Mods_DisclaimerDescription": {
+    "Value": "オンラインゲームでこれらのMODを使用し、BANされるのを防ぐことはできませんので、自己責任で使用してください。\nDSXはこれらのMODを使用したことによるいかなる責任も負いません。"
+  },
+  "GamesPage_Mods_ModAuthor": {
+    "Value": "作成者:"
+  },
+  "GamesPage_Mods_ModGame": {
+    "Value": "ゲーム:"
+  },
+  "GamesPage_Mods_ModName": {
+    "Value": "名前:"
+  },
+  "GamesPage_Mods_ViewModButton": {
+    "Value": "Modを見る"
+  },
+  "GamsPage_GameImageLoadingLabel": {
+    "Value": "画像を読み込んでいます..."
+  },
+  "GamsPage_GameListStatusOne_FetchingGameList": {
+    "Value": "ゲームリストを取得中..."
+  },
+  "GamsPage_GameListStatusOne_NoGamesAdded": {
+    "Value": "ゲームは追加されませんでした"
+  },
+  "GamsPage_GameListStatusTwo_CheckBackLater": {
+    "Value": "しばらくしてから再度ご確認ください。"
+  },
+  "GamsPage_GameListStatusTwo_PleaseWait": {
+    "Value": "しばらくお待ちください..."
+  },
+  "GamsPage_GameTagsLabel": {
+    "Value": "タグ"
+  },
+  "GamsPage_GameViewGameBtn": {
+    "Value": "ゲームを見る"
+  },
+  "GamsPage_GamesLabel": {
+    "Value": "ゲーム"
+  },
+  "GamsPage_SearchbarPlaceholder": {
+    "Value": "名前またはタグでゲームを検索"
+  },
+  "GeneralStuff_Button": {
+    "Value": "ボタン"
+  },
+  "GeneralStuff_CloseButton": {
+    "Value": "閉じる"
+  },
+  "GeneralStuff_ConfirmButton": {
+    "Value": "確認"
+  },
+  "GeneralStuff_Sensitivity": {
+    "Value": "感度"
+  },
+  "GeneralStuff_UnableToStartDSX": {
+    "Value": "DSX を起動できません"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionOne": {
+    "Value": "Steam が起動していて、アプリがライブラリにインストールされていることを確認してください。この問題が解決しない場合は、Steam 経由で DSX を再インストールしてください。"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionTwo": {
+    "Value": "翻訳を取得できません。Steam が起動していること、インターネットに接続していること、アプリがライブラリにインストールされていることを確認してください。この問題が解決しない場合は、Steam 経由で DSX を再インストールしてください。"
+  },
+  "HomePage_AdaptiveTriggers": {
+    "Value": "アダプティブトリガー"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger": {
+    "Value": "左トリガー"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger_ApplyButton": {
+    "Value": "左トリガーを適用"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger": {
+    "Value": "右トリガー"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger_ApplyButton": {
+    "Value": "右トリガーを適用"
+  },
+  "HomePage_AdaptiveTriggers_TriggerMode": {
+    "Value": "トリガーモード"
+  },
+  "HomePage_ApplyModeLabel": {
+    "Value": "適用モード"
+  },
+  "HomePage_ApplyMode_ApplyBtn": {
+    "Value": "適用"
+  },
+  "HomePage_ApplyMode_BothTriggerMotorLabel": {
+    "Value": "トリガー/モーターの両方"
+  },
+  "HomePage_ApplyMode_LeftTriggerMotorLabel": {
+    "Value": "左トリガー/モーター"
+  },
+  "HomePage_ApplyMode_RightTriggerMotorLabel": {
+    "Value": "右トリガー/モータ"
+  },
+  "HomePage_BatteryStatus": {
+    "Value": "バッテリーの状態"
+  },
+  "HomePage_ConnectionStatusLabel": {
+    "Value": "接続状況"
+  },
+  "HomePage_ConnectionStatus_ConnectControllerBtn": {
+    "Value": "コントローラを接続"
+  },
+  "HomePage_ConnectionStatus_EmulationType_ComboboxLabel": {
+    "Value": "コントローラ エミュレーション:"
+  },
+  "HomePage_ConnectionStatus_EmulationType_Emulating360": {
+    "Value": "Xbox 360 をエミュレートする"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingDS4": {
+    "Value": "DualShock 4 をエミュレートする"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingNone": {
+    "Value": "エミュレートしない"
+  },
+  "HomePage_ConnectionStatus_Status_AutoConnectingToController": {
+    "Value": "コントローラに自動接続中..."
+  },
+  "HomePage_ConnectionStatus_Status_Connecting": {
+    "Value": "接続中…"
+  },
+  "HomePage_ConnectionStatus_Status_ConnectionLostAttemptingToReconnect": {
+    "Value": "接続が失われました。再接続しようとしています..."
+  },
+  "HomePage_ConnectionStatus_Status_ControllerConnected": {
+    "Value": "コントローラーが接続されました"
+  },
+  "HomePage_ConnectionStatus_Status_FailedToConnect": {
+    "Value": "接続できませんでした。接続を確認してください。"
+  },
+  "HomePage_ConnectionStatus_Status_SearchingForController": {
+    "Value": "コントローラを検索中..."
+  },
+  "HomePage_ConnectionStatus_Status_ShuttingDownApp": {
+    "Value": "アプリケーションをシャットダウン中..."
+  },
+  "HomePage_ControllerLEDLabel": {
+    "Value": "コントローラ LED"
+  },
+  "HomePage_ControllerLED_BrightnessLabel": {
+    "Value": "明るさ"
+  },
+  "HomePage_ControllerLED_ColorModeBtn": {
+    "Value": "カラーモード"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlash": {
+    "Value": "フラッシュを有効にする"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlashWhenBattery": {
+    "Value": "バッテリー残量が (%) 以下になると点滅"
+  },
+  "HomePage_ControllerLED_ColorMode_Breathing_RandomColorCycle": {
+    "Value": "ランダムな色サイクル"
+  },
+  "HomePage_ControllerLED_ColorMode_RainbowLabel": {
+    "Value": "レインボー"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_AutoReverse": {
+    "Value": "レインボー 自動反転"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowMultiplier": {
+    "Value": "色変更倍率"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowSpeed": {
+    "Value": "レインボースピード"
+  },
+  "HomePage_ControllerLED_ColorMode_Speed": {
+    "Value": "速度"
+  },
+  "HomePage_ControllerLED_ColorMode_StaticColorLabel": {
+    "Value": "静的な色"
+  },
+  "HomePage_ControllerLED_MicLEDLabel": {
+    "Value": "マイク LED"
+  },
+  "HomePage_ControllerLED_MicLED_OffBtn": {
+    "Value": "オフ"
+  },
+  "HomePage_ControllerLED_MicLED_OnBtn": {
+    "Value": "オン"
+  },
+  "HomePage_ControllerLED_MicLED_PulseBtn": {
+    "Value": "波動"
+  },
+  "HomePage_ControllerLED_PlayerLEDLabel": {
+    "Value": "プレイヤー LED"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOffBtn": {
+    "Value": "全てオフ"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOnBtn": {
+    "Value": "全てオン"
+  },
+  "HomePage_ControllerLED_PlayerLED_Battery": {
+    "Value": "バッテリー"
+  },
+  "HomePage_ControllerLED_PlayerLED_Breathing": {
+    "Value": "呼吸"
+  },
+  "HomePage_ControllerLED_PlayerLED_CustomBtn": {
+    "Value": "カスタム"
+  },
+  "HomePage_ControllerLED_PlayerLED_DS4Passthrough": {
+    "Value": "DualShock 4 パススルー"
+  },
+  "HomePage_ControllerLED_PlayerLED_FiveBtn": {
+    "Value": "5"
+  },
+  "HomePage_ControllerLED_PlayerLED_FlashWhileCharging": {
+    "Value": "充電中に点滅する"
+  },
+  "HomePage_ControllerLED_PlayerLED_FourBtn": {
+    "Value": "4"
+  },
+  "HomePage_ControllerLED_PlayerLED_HighBrightnessBtn": {
+    "Value": "高"
+  },
+  "HomePage_ControllerLED_PlayerLED_LowBrightnessBtn": {
+    "Value": "低"
+  },
+  "HomePage_ControllerLED_PlayerLED_MediumBrightnessBtn": {
+    "Value": "中"
+  },
+  "HomePage_ControllerLED_PlayerLED_OneBtn": {
+    "Value": "1"
+  },
+  "HomePage_ControllerLED_PlayerLED_Strobing": {
+    "Value": "ストロボ"
+  },
+  "HomePage_ControllerLED_PlayerLED_ThreeBtn": {
+    "Value": "3"
+  },
+  "HomePage_ControllerLED_PlayerLED_TwoBtn": {
+    "Value": "2"
+  },
+  "HomePage_ControllerLED_RainbowSpeedLabel": {
+    "Value": "レインボー速度"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Fast": {
+    "Value": "速い"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Hyper": {
+    "Value": "ハイパー"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Medium": {
+    "Value": "通常"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Slow": {
+    "Value": "遅い"
+  },
+  "HomePage_ControllerLED_TouchPadLEDLabel": {
+    "Value": "タッチパッドLED"
+  },
+  "HomePage_ControllerModeLabel": {
+    "Value": "コントローラモード"
+  },
+  "HomePage_ControllerMode_IntensityLabel": {
+    "Value": "強度"
+  },
+  "HomePage_ControllerMode_ModeLabel": {
+    "Value": "モード"
+  },
+  "HomePage_ControllerMode_RandomizeModeAndValues": {
+    "Value": "ランダム化モード + 値"
+  },
+  "HomePage_ControllerMode_RandomizeValues": {
+    "Value": "値をランダム化"
+  },
+  "HomePage_ControllerMode_VibrationDurationLabel": {
+    "Value": "振動持続時間 (秒)"
+  },
+  "HomePage_ControllerVibration": {
+    "Value": "コントローラーの振動"
+  },
+  "HomePage_ExportTriggers": {
+    "Value": "トリガーをエクスポート"
+  },
+  "HomePage_ExportTriggers_CopyToClipboard": {
+    "Value": "クリップボードにコピー"
+  },
+  "HomePage_ExportTriggers_ExportForTextfile": {
+    "Value": "テキストファイルのエクスポート"
+  },
+  "HomePage_ExportTriggers_ExportForUDP": {
+    "Value": "UDP (C#) 用にエクスポート"
+  },
+  "HomePage_GameLabel": {
+    "Value": "ゲーム"
+  },
+  "HomePage_TextFileLabel": {
+    "Value": "テキストファイル"
+  },
+  "HomePage_TextFile_FileLocationLabel": {
+    "Value": "ファイルの場所:"
+  },
+  "HomePage_TextFile_SlectFileBtn": {
+    "Value": "テキストファイルの場所を選択"
+  },
+  "HomePage_TextFile_StatusActiveLabel": {
+    "Value": "有効"
+  },
+  "HomePage_TextFile_StatusLabel": {
+    "Value": "状態:"
+  },
+  "HomePage_TextFile_StatusNoMatchingTriggerValuesLabel": {
+    "Value": "有効-一致するトリガー値がテキストファイルに見つかりませんでした！"
+  },
+  "HomePage_TextFile_StatusNotActiveDoesNotExistLabel": {
+    "Value": "無効-選択したファイルは存在しません。"
+  },
+  "HomePage_TextFile_StatusNotActiveLabel": {
+    "Value": "無効"
+  },
+  "HomePage_TextFile_StatusNotActiveNoFileSelectedLabel": {
+    "Value": "無効-ファイルが選択されていません！"
+  },
+  "HomePage_TextFile_StatusNotActiveNotATextFileLabel": {
+    "Value": "無効-これはテキストファイルではありません。もう一度試してください。"
+  },
+  "HomePage_TextFile_StopReadingBtn": {
+    "Value": "テキストファイルの読み込みを中止"
+  },
+  "HomePage_TextfileStatus": {
+    "Value": "テキストファイルの状態:"
+  },
+  "HomePage_UdpStatus": {
+    "Value": "UDP ステータス:"
+  },
+  "InfoPage_CrashesOrBugsLabel": {
+    "Value": "クラッシュまたはバグ？"
+  },
+  "InfoPage_Donate": {
+    "Value": "寄付する"
+  },
+  "InfoPage_JoinDiscordLabel": {
+    "Value": "Discordコミュニティに参加"
+  },
+  "InfoPage_MoreInfoGitHubLabel": {
+    "Value": "GitHub に関する詳細情報"
+  },
+  "InfoPage_Social": {
+    "Value": "ソーシャル"
+  },
+  "MenuGames_Label": {
+    "Value": "ゲーム"
+  },
+  "MenuHome_Label": {
+    "Value": "ホーム"
+  },
+  "MenuInfo_Label": {
+    "Value": "情報"
+  },
+  "MenuInput_Label": {
+    "Value": "コントローラー"
+  },
+  "MenuSense2Key_Label": {
+    "Value": "Sense2Key"
+  },
+  "MenuSettings_JoinBtn": {
+    "Value": "参加"
+  },
+  "MenuSettings_Label": {
+    "Value": "設定"
+  },
+  "MenuSettings_SubmitIssueBtn": {
+    "Value": "問題を送信"
+  },
+  "MenuSettings_VisitBtn": {
+    "Value": "訪問"
+  },
+  "MenuWorkshop_Label": {
+    "Value": "ワークショップ"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartEight": {
+    "Value": "コントローラーをアップデートするには、ソニーの公式ファームウェアアップデータツールをインストールしてください。"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFive": {
+    "Value": "DualSenseバッテリー読み取りバグを修正"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFour": {
+    "Value": "次の理由から、常に最新バージョンに更新する必要があります:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartNine": {
+    "Value": "注:更新時には、処理中の問題を避けるため、DSX が閉じていることを確認してください。"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartOne": {
+    "Value": "お使いの DualSense コントローラー用の新しいファームウェアバージョンがあります。"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSeven": {
+    "Value": "さまざまな修正と改善"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSix": {
+    "Value": "ノーマルランブルを改善する（古いゲーム用）"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartThree": {
+    "Value": "新しいバージョン:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartTwo": {
+    "Value": "現在のバージョン:"
+  },
+  "NewFirmwareVersionAvailablePopup_Title": {
+    "Value": "新しいDualSenseファームウェアバージョンが利用可能"
+  },
+  "NewFirmwareVersionAvailablePopup_ViewToolButton": {
+    "Value": "ファームウェア アップデーター ツールを表示"
+  },
+  "Sense2Key_Configuration_HelpLabel1": {
+    "Value": "ドロップダウンから選択するか、キーボードのキーを押します。"
+  },
+  "Sense2Key_Configuration_HelpLabel2": {
+    "Value": "ドロップダウンが選択されている間"
+  },
+  "Sense2Key_Configuration_SaveConfigurationBtn": {
+    "Value": "設定を保存"
+  },
+  "Sense2Key_CreateProfileBtn": {
+    "Value": "プロフィールを作成する"
+  },
+  "Sense2Key_DeleteProfileBtn": {
+    "Value": "削除"
+  },
+  "Sense2Key_ExportProfileBtn": {
+    "Value": "プロファイルのエクスポート"
+  },
+  "Sense2Key_GetStartedLabel": {
+    "Value": "新しいプロフィールを作成して始めましょう"
+  },
+  "Sense2Key_ImportProfileBtn": {
+    "Value": "プロファイルをインポート"
+  },
+  "Sense2Key_NewProfile_CancelBtn": {
+    "Value": "キャンセル"
+  },
+  "Sense2Key_NewProfile_SaveNewProfilelBtn": {
+    "Value": "新規プロフィールを保存"
+  },
+  "Sense2Key_NoProfilesAdded": {
+    "Value": "プロファイルは追加されていません"
+  },
+  "Sense2Key_ProfileStatus_DelayCannotBeNegative": {
+    "Value": "遅延は負の値にはできません"
+  },
+  "Sense2Key_ProfileStatus_DelayCantBeEmpty": {
+    "Value": "遅延は空にはできません"
+  },
+  "Sense2Key_ProfileStatus_DelayUpdated": {
+    "Value": "遅延が更新されました"
+  },
+  "Sense2Key_ProfileStatus_ProfileCreated": {
+    "Value": "プロファイルが作成されました"
+  },
+  "Sense2Key_ProfileStatus_ProfileExists": {
+    "Value": "プロファイルは既に存在しています"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameCantBeEmpty": {
+    "Value": "プロファイル名は空にできません"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameUpdated": {
+    "Value": "プロファイル名が更新されました"
+  },
+  "Sense2Key_ProfilesLabel": {
+    "Value": "プロファイル"
+  },
+  "Sense2Key_ProfilesWillShowHere": {
+    "Value": "プロファイルがここに表示されます"
+  },
+  "Sense2Key_SelectedProfile_DelayLabel": {
+    "Value": "遅延 (ミリ秒)"
+  },
+  "Sense2Key_SelectedProfile_DetailsLabel": {
+    "Value": "詳細"
+  },
+  "Sense2Key_SelectedProfile_EditConfigurationBtn": {
+    "Value": "設定を編集"
+  },
+  "Sense2Key_SelectedProfile_EnterProfileNamePlaceholder": {
+    "Value": "プロファイル名を入力"
+  },
+  "Sense2Key_SelectedProfile_ProfileNameLabel": {
+    "Value": "プロファイル名"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_Active": {
+    "Value": "状態:プロファイル有効"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_NotActive": {
+    "Value": "状態:プロファイル無効"
+  },
+  "Sense2Key_SelectedProfile_StartBtn": {
+    "Value": "開始"
+  },
+  "Sense2Key_SelectedProfile_StopBtn": {
+    "Value": "停止"
+  },
+  "Sense2Key_SelectedProfile_UpdateDelayBtn": {
+    "Value": "更新の遅延"
+  },
+  "Sense2Key_SelectedProfile_UpdateProfileNameBtn": {
+    "Value": "名前を更新"
+  },
+  "SettingsPage_AppLabel": {
+    "Value": "アプリ"
+  },
+  "SettingsPage_AppSettings_BorderColorLabel": {
+    "Value": "線の色"
+  },
+  "SettingsPage_AppSettings_Border_AlphaLabel": {
+    "Value": "アルファ (透明度)"
+  },
+  "SettingsPage_AppSettings_Border_BlueLabel": {
+    "Value": "青"
+  },
+  "SettingsPage_AppSettings_Border_GreenLabel": {
+    "Value": "緑"
+  },
+  "SettingsPage_AppSettings_Border_RedLabel": {
+    "Value": "赤"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundBlurLabel": {
+    "Value": "ぼかし"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundLabel": {
+    "Value": "カスタム背景画像"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundSelectImageBtn": {
+    "Value": "画像を選択"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundStretchComboBoxLabel": {
+    "Value": "引き伸ばす"
+  },
+  "SettingsPage_AppSettings_DarkModeLabel": {
+    "Value": "ダークモード"
+  },
+  "SettingsPage_AppSettings_KeepInTrayLabel": {
+    "Value": "最小化時にアプリをトレイに保持する"
+  },
+  "SettingsPage_AppSettings_Label": {
+    "Value": "アプリの設定"
+  },
+  "SettingsPage_AppSettings_LanguageLabel": {
+    "Value": "言語"
+  },
+  "SettingsPage_AppSettings_LaunchMinimizedCheckmark": {
+    "Value": "最小化して起動"
+  },
+  "SettingsPage_AppSettings_LaunchWindowsStartupLabel": {
+    "Value": "Windows起動時にDualSenseXを起動する"
+  },
+  "SettingsPage_App_EnableDiscordRP": {
+    "Value": "Discord Rich Presenceを有効にする"
+  },
+  "SettingsPage_App_EnableDiscordRP_MightTakeAMin": {
+    "Value": "有効になるまで 1 分ほどかかる場合があります"
+  },
+  "SettingsPage_BackgroundLabel": {
+    "Value": "背景"
+  },
+  "SettingsPage_BackgroundSettings_Label": {
+    "Value": "背景設定"
+  },
+  "SettingsPage_BackgroundSettings_SelectedBtn": {
+    "Value": "選択済み"
+  },
+  "SettingsPage_ControllerLabel": {
+    "Value": "コントローラー"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault": {
+    "Value": "デフォルトオーディオ"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault_RefreshList": {
+    "Value": "リストを更新"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Headset": {
+    "Value": "ヘッドセット"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetLeft": {
+    "Value": "ヘッドセット左"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetRight": {
+    "Value": "ヘッドセット右"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_LeftMotor": {
+    "Value": "左モーター"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_RightMotor": {
+    "Value": "右モーター"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Speaker": {
+    "Value": "スピーカー"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem": {
+    "Value": "コントローラー オーディオ システム (USB のみ)"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_Headset": {
+    "Value": "ヘッドセット"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_HeadsetVolume": {
+    "Value": "ヘッドセットの音量"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_InternalSpeaker": {
+    "Value": "内蔵スピーカー"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_MicVolume": {
+    "Value": "マイクの音量"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_OutputMode": {
+    "Value": "音声出力モード"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerAndHeadset": {
+    "Value": "ヘッドセットと内蔵スピーカーの両方"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerVolume": {
+    "Value": "スピーカー音量"
+  },
+  "SettingsPage_ControllerSettings_AutoConnectWhenOpenLabel": {
+    "Value": "DualSenseXを開いたら自動接続"
+  },
+  "SettingsPage_ControllerSettings_ControllerMotorStrengthLabel": {
+    "Value": "モーター強度の調整"
+  },
+  "SettingsPage_ControllerSettings_DisableVibrationControllerLabel": {
+    "Value": "コントローラーの振動を無効にする"
+  },
+  "SettingsPage_ControllerSettings_EnableAudioHaptics": {
+    "Value": "オーディオハプティクスを有効にする (USB のみ)"
+  },
+  "SettingsPage_ControllerSettings_EnableHidHide": {
+    "Value": "HidHideを有効にする"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble": {
+    "Value": "改善されたモーターランブルを有効にする"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble2": {
+    "Value": "ファームウェアバージョン0224以上を有効にする必要があります"
+  },
+  "SettingsPage_ControllerSettings_EnableVibWhileDisabled": {
+    "Value": "無効時に振動を有効にする"
+  },
+  "SettingsPage_ControllerSettings_KillSteamOnConnect": {
+    "Value": "接続時にSteamを終了させる"
+  },
+  "SettingsPage_ControllerSettings_Label": {
+    "Value": "コントローラ設定"
+  },
+  "SettingsPage_ControllerSettings_LeftTriggerThreshold": {
+    "Value": "左トリガーのしきい値"
+  },
+  "SettingsPage_ControllerSettings_LoadLastActiveTrigger": {
+    "Value": "開始時に最後に有効になったトリガーを読み込む"
+  },
+  "SettingsPage_ControllerSettings_PlayLightShowOnConnect": {
+    "Value": "接続時にライトショーを再生する"
+  },
+  "SettingsPage_ControllerSettings_PressMicAndUpXboxGameBar": {
+    "Value": "マイク + アップ ボタンを押して Xbox ゲームバーを開きます"
+  },
+  "SettingsPage_ControllerSettings_PreviewLightshowBtn": {
+    "Value": "ライトショーをプレビューする"
+  },
+  "SettingsPage_ControllerSettings_RightTriggerThreshold": {
+    "Value": "右トリガーのしきい値"
+  },
+  "SettingsPage_ControllerSettings_SearchUntilControllerConnects": {
+    "Value": "コントローラーが接続されるまで検索する"
+  },
+  "SettingsPage_ControllerSettings_TriggerThreshold": {
+    "Value": "トリガーのしきい値"
+  },
+  "SettingsPage_ControllerSettings_UDPPortListen": {
+    "Value": "UDP ポートリスナーを有効にする"
+  },
+  "SettingsPage_ControllerSettings_UDPPortNumber": {
+    "Value": "待ち受けるUDPポート番号"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions": {
+    "Value": "ボリューム同期オプション"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_DontSync": {
+    "Value": "同期しない"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncAll": {
+    "Value": "すべて同期"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftMotorRightMotor": {
+    "Value": "左右のモーターを同期"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftRightSpeakers": {
+    "Value": "左右のスピーカーを同期する"
+  },
+  "SettingsPage_Controller_ControllerAudioButton": {
+    "Value": "コントローラーオーディオ"
+  },
+  "SettingsPage_Controller_DriversButton": {
+    "Value": "ドライバー"
+  },
+  "SettingsPage_Controller_GyroAccelButton": {
+    "Value": "ジャイロスコープ/加速度計"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking": {
+    "Value": "コントローラーを隠す"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking_Description": {
+    "Value": "物理コントローラーを他のアプリケーションから隠す"
+  },
+  "SettingsPage_Controller_MiscellaneousButton": {
+    "Value": "その他"
+  },
+  "SettingsPage_Controller_NetworkingButton": {
+    "Value": "ネットワーク"
+  },
+  "SettingsPage_Controller_ShortcutsButton": {
+    "Value": "ショートカット"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput": {
+    "Value": "入力を聞く"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Description": {
+    "Value": "コントローラーのボタンを押して検出します"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_NotAllowed": {
+    "Value": "許可されていません"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Title": {
+    "Value": "入力ボタン検出"
+  },
+  "SettingsPage_Controller_Shortcuts_OpenXboxGameBar": {
+    "Value": "Xbox ゲームバーを開く"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBT": {
+    "Value": "コントローラーの電源を切る (Bluetooth)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAuto": {
+    "Value": "自動でコントローラーの電源を切る"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAutoHowTo": {
+    "Value": "使い方: Steamコントローラーの自動電源オフを無効にする"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTManual": {
+    "Value": "手動コンボボタンを押す"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTMinutes": {
+    "Value": "分"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTNever": {
+    "Value": "二度としない"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTTimeElapsedSinceIdle": {
+    "Value": "アイドル状態からの経過時間:"
+  },
+  "SettingsPage_Controller_TouchpadButton": {
+    "Value": "タッチパッド"
+  },
+  "SettingsPage_Settings_CheckForUpdatesLabel": {
+    "Value": "更新を確認"
+  },
+  "SettingsPage_Settings_ResetAppDescription": {
+    "Value": "DualSenseXをデフォルト設定にリセットしてよろしいですか?"
+  },
+  "SettingsPage_Settings_ResetAppLabel": {
+    "Value": "アプリの設定をリセット"
+  },
+  "SettingsPage_Settings_ResetAppYesButton": {
+    "Value": "DualSenseXのリセット"
+  },
+  "SettingsPage_TouchToMouse_EnableTapAsLeftMouse": {
+    "Value": "マウスの左ボタンでタップを有効にする"
+  },
+  "SettingsPage_TouchToMouse_EnableTouchpadToMouse": {
+    "Value": "タッチパッドからマウスへの切り替えを有効にする"
+  },
+  "SettingsPage_TouchToMouse_FastSensiSpeed": {
+    "Value": "感度速度を増速 - ボタンを長押し"
+  },
+  "SettingsPage_TouchToMouse_InvertScroll": {
+    "Value": "スクロールを反転"
+  },
+  "SettingsPage_TouchToMouse_LeftClickHold": {
+    "Value": "左クリック - ボタンを押したままにするホールド機能"
+  },
+  "SettingsPage_TouchToMouse_NormalSensiSpeed": {
+    "Value": "通常の感度速度"
+  },
+  "SettingsPage_TouchToMouse_RightClickHold": {
+    "Value": "右クリック - ボタンを押したまま、タップまたは押す"
+  },
+  "SettingsPage_TouchToMouse_ScrollSpeed": {
+    "Value": "スクロール速度-2 本の指でタップしてからドラッグ"
+  },
+  "SettingsPage_TouchToMouse_SlowSensiSpeed": {
+    "Value": "感度速度を減速 - ボタンを長押し"
+  },
+  "SettingsPage_ViewReleaseNotesButton": {
+    "Value": "リリース ノートの表示"
+  },
+  "SettingsPage_ViewSaveFileFolderButton": {
+    "Value": "保存ファイルフォルダを表示"
+  },
+  "SetupScreen_AppAcentColor_Color": {
+    "Value": "色"
+  },
+  "SetupScreen_AppAcentColor_Preview": {
+    "Value": "プレビュー"
+  },
+  "SetupScreen_AppAcentColor_Reset": {
+    "Value": "システムデフォルトのアクセントカラーにリセット"
+  },
+  "SetupScreen_AppAcentColor_Title": {
+    "Value": "アプリのアクセント色"
+  },
+  "SetupScreen_EmualtionPicker_DownloadDriver": {
+    "Value": "ドライバーのダウンロード"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_BothInstalled": {
+    "Value": "両方のドライバがインストールされています"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingForInstalledDrivers": {
+    "Value": "インストールされているドライバーを確認中..."
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingInstalledDrivers": {
+    "Value": "にインストールされているドライバを確認する"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4": {
+    "Value": "仮想 DualShock 4"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4_Description": {
+    "Value": "このアプリは、バーチャルDualShock 4コントローラーを作成し、DualShock 4をサポートするゲームに使用します。"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Checkbox": {
+    "Value": "HidHide ドライバーがインストールされました"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Description": {
+    "Value": "HidHide を使用すると、仮想デバイスをエミュレートするときに、アプリが物理コントローラーを非表示にできます。これは、仮想コントローラーと物理コントローラーからの二重入力を避け、ゲームやプログラムに仮想コントローラーのみを表示するために使用されます。"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_SystemRestart": {
+    "Value": "* システムの再起動が必要です"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation": {
+    "Value": "エミュレーションなし"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation_Description": {
+    "Value": "アプリは仮想コントローラーを作成せずにコントローラーとのみ通信します。"
+  },
+  "SetupScreen_EmualtionPicker_Title": {
+    "Value": "ドライバーとエミュレーションタイプ"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Checkbox": {
+    "Value": "ViGEmドライバがインストールされました"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Description": {
+    "Value": "ViGEm Bus Driverを使用すると、物理的に接続されているかのようにオリジナルを模倣した仮想デバイスを使用できます。例:"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360": {
+    "Value": "仮想 Xbox 360 (推奨)"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360_Description": {
+    "Value": "このアプリは、Xbox 360コントローラーを仮想的に作成し、Xboxコントローラーにネイティブ対応しているゲームで使用することができます。"
+  },
+  "SetupScreen_SteamSetup_DisableSteamInput": {
+    "Value": "コントローラーが認識されるためには、Steam Inputを無効にする必要があります。"
+  },
+  "SetupScreen_SteamSetup_DisableSteamInputCheckbox": {
+    "Value": "Steam入力を無効化"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlay": {
+    "Value": "アプリにグラフィックの不具合が発生しないようにするには、オーバーレイ を無効にする必要があります。"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlayCheckbox": {
+    "Value": "Steamオーバーレイを無効化"
+  },
+  "SetupScreen_SteamSetup_Title": {
+    "Value": "Steam セットアップ"
+  },
+  "SetupScreen_SteamSetup_Title2": {
+    "Value": "DSX プロパティで Steam 入力とオーバーレイを無効にする"
+  },
+  "SetupScreen_SteamSetup_Title2_Subtitle": {
+    "Value": "これは、Steam APIのために実行する必要があります。"
+  }
+}

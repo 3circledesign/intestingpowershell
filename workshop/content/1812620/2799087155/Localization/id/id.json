@@ -1,0 +1,1079 @@
+{
+  "AppCommandArgs_FileLocationNotFound": {
+    "Value": "Nama permainan ditemukan, tetapi Lokasi File tidak ditemukan"
+  },
+  "AppCommandArgs_GameNameNotFound": {
+    "Value": "Nama permainan tidak ditemukan, tetapi Lokasi File ditemukan"
+  },
+  "AppCommandArgs_NoParamersFound": {
+    "Value": "Tidak Ditemukan Parameter"
+  },
+  "AppCommandArgs_Playing": {
+    "Value": "Bermain:"
+  },
+  "AppNotificationLabel_AutoConnectedToController": {
+    "Value": "Terhubung Otomatis ke Kontroler!"
+  },
+  "AppNotificationLabel_AutoConnectingToController": {
+    "Value": "Menghubungkan Otomatis ke Kontroler"
+  },
+  "AppNotificationLabel_ConnectedToController": {
+    "Value": "Terhubung ke Kontroler!"
+  },
+  "AppNotificationLabel_ConnectionLost": {
+    "Value": "Koneksi hilang, Mencari Kontroler..."
+  },
+  "AppNotificationLabel_ConnectionLostAttemptingToRconnect": {
+    "Value": "Koneksi hilang, mencoba menyambung kembali"
+  },
+  "AppNotificationLabel_FailedToAutoConnect": {
+    "Value": "Gagal terhubung secara otomatis, silahkan periksa koneksi!"
+  },
+  "AppNotificationLabel_FailedToRconnect": {
+    "Value": "Gagal menyambung kembali, silahkan periksa koneksi!"
+  },
+  "AppNotificationLabel_ReconnectedToController": {
+    "Value": "Terhubung kembali ke Kontroler!"
+  },
+  "AppNotificationLabel_SearchingForController": {
+    "Value": "Mencari Kontroler..."
+  },
+  "AppNotificationPopUp_AreYouSureYouWantToExit": {
+    "Value": "Apakah Anda yakin ingin keluar?"
+  },
+  "AppNotificationPopUp_Cancel": {
+    "Value": "Batalkan"
+  },
+  "AppNotificationPopUp_DownloadUpdate": {
+    "Value": "Mengunduh Pembaruan..."
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsDualShock4": {
+    "Value": "DualSense Controller tidak akan lagi dibaca sebagai Dualshock 4 Controller!"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsXbox": {
+    "Value": "DualSense Controller tidak lagi dibaca sebagai Xbox Controller!"
+  },
+  "AppNotificationPopUp_Exit": {
+    "Value": "Keluar"
+  },
+  "AppNotificationPopUp_Later": {
+    "Value": "Lain kali"
+  },
+  "AppNotificationPopUp_MissingDriver_ConnectToController": {
+    "Value": "Sambungkan ke Kontroler"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadAndInstall": {
+    "Value": "Unduh dan Pasang Driver"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadingAndInstalling": {
+    "Value": "Mengunduh dan Memasang Driver..."
+  },
+  "AppNotificationPopUp_MissingDriver_FollowViGEmBusInstructions": {
+    "Value": "Silahkan Ikuti petunjuk VigemBus yang ditampilkan"
+  },
+  "AppNotificationPopUp_MissingDriver_OnceFinishedInstalling": {
+    "Value": "Setelah selesai menginstal driver, Anda dapat Terhubung ke Kontroler."
+  },
+  "AppNotificationPopUp_MissingDriver_Uh-oh": {
+    "Value": "Aduh!"
+  },
+  "AppNotificationPopUp_MissingDriver_YouDontHaveViGEmBusDriverse": {
+    "Value": "Sepertinya Anda tidak memiliki Driver VigemBus terpasang"
+  },
+  "AppNotificationPopUp_UpdateAvailable": {
+    "Value": "Pembaruan Tersedia!"
+  },
+  "AppNotificationPopUp_UpdateAvailable_InstallIt": {
+    "Value": "Apakah Anda ingin menginstalnya?"
+  },
+  "AppNotificationPopUp_UpdateProccess_CurrentVersion": {
+    "Value": "Versi Saat Ini: "
+  },
+  "AppNotificationPopUp_UpdateProccess_DownloadingUpdate": {
+    "Value": "Mengunduh Pembaruan..."
+  },
+  "AppNotificationPopUp_UpdateProccess_ExtractingUpdate": {
+    "Value": "Mengekstrak Pembaruan..."
+  },
+  "AppNotificationPopUp_UpdateProccess_FetchingUpdate": {
+    "Value": "Mengambil Pembaruan..."
+  },
+  "AppNotificationPopUp_UpdateProccess_InstallingUpdate": {
+    "Value": "Memasang Pembaruan..."
+  },
+  "AppNotificationPopUp_UpdateProccess_PleaseRestartToApplyUpdate": {
+    "Value": "Silakan mulai ulang untuk menerapkan pembaruan ini"
+  },
+  "AppNotificationPopUp_UpdateProccess_Restart": {
+    "Value": "Mulai ulang"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateInstalled": {
+    "Value": "Pembaruan Terpasang"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateVersion": {
+    "Value": "Versi Terbaru: "
+  },
+  "AppNotificationPopUp_Yes": {
+    "Value": "Ya"
+  },
+  "App_DriversNotInstalledPopup_Title": {
+    "Value": "Driver Tidak Ada"
+  },
+  "App_ExportTriggersPopUp_BothTriggersBtn": {
+    "Value": "Kedua Pemicu"
+  },
+  "App_ExportTriggersPopUp_Description": {
+    "Value": "Silahkan pilih salah satu opsi berikut"
+  },
+  "App_ExportTriggersPopUp_Title": {
+    "Value": "Ekspor Pemicu"
+  },
+  "App_VigemDriverNotInstalled_TextBox": {
+    "Value": "Silahkan instal Driver yang tidak ditemukan"
+  },
+  "ControllerPage_AdvancedInfoButton": {
+    "Value": "Info Lanjutan"
+  },
+  "ControllerPage_AdvancedInfoConnectToView": {
+    "Value": "Silahkan hubungkan controller untuk melihat Info Lanjutan"
+  },
+  "ControllerPage_BatteryLevelLabel": {
+    "Value": "Level Baterai:"
+  },
+  "ControllerPage_ConnectionTypeLabel": {
+    "Value": "Tipe Koneksi:"
+  },
+  "ControllerPage_ConnectionType_Connected": {
+    "Value": "Terhubung"
+  },
+  "ControllerPage_ConnectionType_NotConnected": {
+    "Value": "Tidak Terhubung"
+  },
+  "ControllerPage_InputButton": {
+    "Value": "Masukan"
+  },
+  "ControllerPage_LeftJoyStickLabel": {
+    "Value": "Joystik Kiri"
+  },
+  "ControllerPage_RemappingButton": {
+    "Value": "Pemetaan Ulang"
+  },
+  "ControllerPage_RightJoyStickLabel": {
+    "Value": "Joystik Kanan"
+  },
+  "ControllerPage_UseXboxLabels": {
+    "Value": "Gunakan Label Xbox"
+  },
+  "DualSense_BatteryState_AbnormalTemperture": {
+    "Value": "Suhu Tidak Normal"
+  },
+  "DualSense_BatteryState_AbnormalVoltage": {
+    "Value": "Tegangan Tidak Normal"
+  },
+  "DualSense_BatteryState_Charging": {
+    "Value": "Mengisi daya"
+  },
+  "DualSense_BatteryState_ChargingError": {
+    "Value": "Kesalahan Pengisian Daya"
+  },
+  "DualSense_BatteryState_Complete": {
+    "Value": "Selesai"
+  },
+  "DualSense_BatteryState_Discharging": {
+    "Value": "Berhenti mengisi daya"
+  },
+  "GamesPage_ItemViewScreenshot": {
+    "Value": "Tangkapan Layar"
+  },
+  "GamesPage_ModInfo": {
+    "Value": "Info Mod"
+  },
+  "GamesPage_ModsButton": {
+    "Value": "MODS"
+  },
+  "GamesPage_ModsSearchBoxPlaceholder": {
+    "Value": "Filter berdasarkan Nama Mod, Nama Game, atau Pembuat"
+  },
+  "GamesPage_Mods_Disclaimer": {
+    "Value": "PENYANGKALAN"
+  },
+  "GamesPage_Mods_DisclaimerDescription": {
+    "Value": "JANGAN gunakan Mods ini di game online untuk menghindari di banned, melakukannya akan menjadi risiko Anda sendiri. DSX tidak akan bertanggung jawab jika menggunakan Mod ini."
+  },
+  "GamesPage_Mods_ModAuthor": {
+    "Value": "Pembuat:"
+  },
+  "GamesPage_Mods_ModGame": {
+    "Value": "Game:"
+  },
+  "GamesPage_Mods_ModName": {
+    "Value": "Nama:"
+  },
+  "GamesPage_Mods_ViewModButton": {
+    "Value": "Lihat Mod:"
+  },
+  "GamsPage_GameImageLoadingLabel": {
+    "Value": "Memuat gambar…"
+  },
+  "GamsPage_GameListStatusOne_FetchingGameList": {
+    "Value": "Mengambil Daftar Permainan..."
+  },
+  "GamsPage_GameListStatusOne_NoGamesAdded": {
+    "Value": "Tidak Ada Permainan Ditambahkan"
+  },
+  "GamsPage_GameListStatusTwo_CheckBackLater": {
+    "Value": "Silakan periksa kembali nanti!"
+  },
+  "GamsPage_GameListStatusTwo_PleaseWait": {
+    "Value": "Mohon tunggu"
+  },
+  "GamsPage_GameTagsLabel": {
+    "Value": "LABEL"
+  },
+  "GamsPage_GameViewGameBtn": {
+    "Value": "Lihat Permainan"
+  },
+  "GamsPage_GamesLabel": {
+    "Value": "PERMAINAN"
+  },
+  "GamsPage_SearchbarPlaceholder": {
+    "Value": "Cari Permainan berdasarkan Nama atau Label"
+  },
+  "GeneralStuff_Button": {
+    "Value": "Tombol"
+  },
+  "GeneralStuff_CloseButton": {
+    "Value": "Sensitivitas"
+  },
+  "GeneralStuff_ConfirmButton": {
+    "Value": "Konfirmasi"
+  },
+  "GeneralStuff_Sensitivity": {
+    "Value": "Sensitivitas"
+  },
+  "GeneralStuff_UnableToStartDSX": {
+    "Value": "Tidak dapat memulai DSX"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionOne": {
+    "Value": "Pastikan Steam berjalan, dan aplikasi diinstal di perpustakaan Anda. Jika masalah ini berlanjut, instal ulang DSX melalui Steam."
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionTwo": {
+    "Value": "Tidak dapat mengambil terjemahan. Pastikan Steam berjalan, Anda memiliki koneksi internet aktif, dan aplikasi diinstal di perpustakaan Anda. Jika masalah ini berlanjut, instal ulang DSX melalui Steam."
+  },
+  "HomePage_AdaptiveTriggers": {
+    "Value": "Pemicu Adaptif"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger": {
+    "Value": "Pemicu Kiri"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger_ApplyButton": {
+    "Value": "Terapkan Pemicu Kiri"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger": {
+    "Value": "Pemicu Kanan"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger_ApplyButton": {
+    "Value": "Terapkan Pemicu Kanan"
+  },
+  "HomePage_AdaptiveTriggers_TriggerMode": {
+    "Value": "Mode Pemicu"
+  },
+  "HomePage_ApplyModeLabel": {
+    "Value": "Terapkan Mode"
+  },
+  "HomePage_ApplyMode_ApplyBtn": {
+    "Value": "Terapkan"
+  },
+  "HomePage_ApplyMode_BothTriggerMotorLabel": {
+    "Value": "Kedua Pemicu/Motor"
+  },
+  "HomePage_ApplyMode_LeftTriggerMotorLabel": {
+    "Value": "Pemicu Kiri/Motor"
+  },
+  "HomePage_ApplyMode_RightTriggerMotorLabel": {
+    "Value": "Pemicu Kanan/Motor"
+  },
+  "HomePage_BatteryStatus": {
+    "Value": "Status Baterai"
+  },
+  "HomePage_ConnectionStatusLabel": {
+    "Value": "Status koneksi"
+  },
+  "HomePage_ConnectionStatus_ConnectControllerBtn": {
+    "Value": "Hubungkan Kontroler"
+  },
+  "HomePage_ConnectionStatus_EmulationType_ComboboxLabel": {
+    "Value": "Emulasi Kontroler:"
+  },
+  "HomePage_ConnectionStatus_EmulationType_Emulating360": {
+    "Value": "Emulasi Xbox 360"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingDS4": {
+    "Value": "Emulasi Sebagai DualShock 4"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingNone": {
+    "Value": "Tidak Dapat Mengemulasi"
+  },
+  "HomePage_ConnectionStatus_Status_AutoConnectingToController": {
+    "Value": "Otomatis Menghubungkan ke Kontroler..."
+  },
+  "HomePage_ConnectionStatus_Status_Connecting": {
+    "Value": "Menghubungkan..."
+  },
+  "HomePage_ConnectionStatus_Status_ConnectionLostAttemptingToReconnect": {
+    "Value": "Koneksi hilang, mencoba untuk menyambung kembali..."
+  },
+  "HomePage_ConnectionStatus_Status_ControllerConnected": {
+    "Value": "Kontroler Terhubung"
+  },
+  "HomePage_ConnectionStatus_Status_FailedToConnect": {
+    "Value": "Gagal terhubung, silakan periksa koneksi!"
+  },
+  "HomePage_ConnectionStatus_Status_SearchingForController": {
+    "Value": "Mencari Kontroler..."
+  },
+  "HomePage_ConnectionStatus_Status_ShuttingDownApp": {
+    "Value": "Mematikan Aplikasi..."
+  },
+  "HomePage_ControllerLEDLabel": {
+    "Value": "LED Kontroler"
+  },
+  "HomePage_ControllerLED_BrightnessLabel": {
+    "Value": "Kecerahan"
+  },
+  "HomePage_ControllerLED_ColorModeBtn": {
+    "Value": "Mode Warna"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlash": {
+    "Value": "Aktifkan Flash"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlashWhenBattery": {
+    "Value": "Kedip saat baterai kurang dari (%)"
+  },
+  "HomePage_ControllerLED_ColorMode_Breathing_RandomColorCycle": {
+    "Value": "Siklus Warna Acak"
+  },
+  "HomePage_ControllerLED_ColorMode_RainbowLabel": {
+    "Value": "Pelangi"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_AutoReverse": {
+    "Value": "Pelangi Mundur Otomatis"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowMultiplier": {
+    "Value": "Pengganda Perubahan Warna"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowSpeed": {
+    "Value": "Kecepatan Pelangi"
+  },
+  "HomePage_ControllerLED_ColorMode_Speed": {
+    "Value": "Kecepatan"
+  },
+  "HomePage_ControllerLED_ColorMode_StaticColorLabel": {
+    "Value": "Warna Statis"
+  },
+  "HomePage_ControllerLED_MicLEDLabel": {
+    "Value": "LED Mic"
+  },
+  "HomePage_ControllerLED_MicLED_OffBtn": {
+    "Value": "Mati"
+  },
+  "HomePage_ControllerLED_MicLED_OnBtn": {
+    "Value": "Nyala"
+  },
+  "HomePage_ControllerLED_MicLED_PulseBtn": {
+    "Value": "Ritmik"
+  },
+  "HomePage_ControllerLED_PlayerLEDLabel": {
+    "Value": "LED Pemain"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOffBtn": {
+    "Value": "Non-aktifkan Semua"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOnBtn": {
+    "Value": "Aktifkan semua"
+  },
+  "HomePage_ControllerLED_PlayerLED_Battery": {
+    "Value": "Baterai"
+  },
+  "HomePage_ControllerLED_PlayerLED_Breathing": {
+    "Value": "Breathing"
+  },
+  "HomePage_ControllerLED_PlayerLED_CustomBtn": {
+    "Value": "Kustom"
+  },
+  "HomePage_ControllerLED_PlayerLED_DS4Passthrough": {
+    "Value": "DualShock 4 Passthrough"
+  },
+  "HomePage_ControllerLED_PlayerLED_FiveBtn": {
+    "Value": "Lima"
+  },
+  "HomePage_ControllerLED_PlayerLED_FlashWhileCharging": {
+    "Value": "Berkedip saat mengisi daya"
+  },
+  "HomePage_ControllerLED_PlayerLED_FourBtn": {
+    "Value": "Empat"
+  },
+  "HomePage_ControllerLED_PlayerLED_HighBrightnessBtn": {
+    "Value": "Tinggi"
+  },
+  "HomePage_ControllerLED_PlayerLED_LowBrightnessBtn": {
+    "Value": "Rendah"
+  },
+  "HomePage_ControllerLED_PlayerLED_MediumBrightnessBtn": {
+    "Value": "Sedang"
+  },
+  "HomePage_ControllerLED_PlayerLED_OneBtn": {
+    "Value": "Satu"
+  },
+  "HomePage_ControllerLED_PlayerLED_Strobing": {
+    "Value": "Strobing"
+  },
+  "HomePage_ControllerLED_PlayerLED_ThreeBtn": {
+    "Value": "Tiga"
+  },
+  "HomePage_ControllerLED_PlayerLED_TwoBtn": {
+    "Value": "Dua"
+  },
+  "HomePage_ControllerLED_RainbowSpeedLabel": {
+    "Value": "Kecepatan Pelangi"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Fast": {
+    "Value": "Cepat"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Hyper": {
+    "Value": "Sangat Cepat"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Medium": {
+    "Value": "Sedang"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Slow": {
+    "Value": "Lambat"
+  },
+  "HomePage_ControllerLED_TouchPadLEDLabel": {
+    "Value": "LED Touchpad"
+  },
+  "HomePage_ControllerModeLabel": {
+    "Value": "Mode Kontroler"
+  },
+  "HomePage_ControllerMode_IntensityLabel": {
+    "Value": "Intensitas"
+  },
+  "HomePage_ControllerMode_ModeLabel": {
+    "Value": "Mode"
+  },
+  "HomePage_ControllerMode_RandomizeModeAndValues": {
+    "Value": "Acak Mode + Nilai"
+  },
+  "HomePage_ControllerMode_RandomizeValues": {
+    "Value": "Acak Nilai"
+  },
+  "HomePage_ControllerMode_VibrationDurationLabel": {
+    "Value": "Durasi Getaran (Detik)"
+  },
+  "HomePage_ControllerVibration": {
+    "Value": "Pengontrol Getaran"
+  },
+  "HomePage_ExportTriggers": {
+    "Value": "Ekspor Pemicu"
+  },
+  "HomePage_ExportTriggers_CopyToClipboard": {
+    "Value": "Salin ke papan klip"
+  },
+  "HomePage_ExportTriggers_ExportForTextfile": {
+    "Value": "Ekspor untuk Textfile"
+  },
+  "HomePage_ExportTriggers_ExportForUDP": {
+    "Value": "Ekspor untuk UDP (C#)"
+  },
+  "HomePage_GameLabel": {
+    "Value": "Permainan"
+  },
+  "HomePage_TextFileLabel": {
+    "Value": "File teks"
+  },
+  "HomePage_TextFile_FileLocationLabel": {
+    "Value": "Lokasi File:"
+  },
+  "HomePage_TextFile_SlectFileBtn": {
+    "Value": "Pilih Lokasi Berkas Teks"
+  },
+  "HomePage_TextFile_StatusActiveLabel": {
+    "Value": "Aktif"
+  },
+  "HomePage_TextFile_StatusLabel": {
+    "Value": "Status:"
+  },
+  "HomePage_TextFile_StatusNoMatchingTriggerValuesLabel": {
+    "Value": "Aktif - Tidak ada nilai Trigger yang cocok ditemukan dalam file teks!"
+  },
+  "HomePage_TextFile_StatusNotActiveDoesNotExistLabel": {
+    "Value": "Tidak Aktif - File yang dipilih tidak ada!"
+  },
+  "HomePage_TextFile_StatusNotActiveLabel": {
+    "Value": "Tidak aktif"
+  },
+  "HomePage_TextFile_StatusNotActiveNoFileSelectedLabel": {
+    "Value": "Tidak Aktif - Tidak ada berkas yang Dipilih!"
+  },
+  "HomePage_TextFile_StatusNotActiveNotATextFileLabel": {
+    "Value": "Tidak Aktif - Ini bukan file teks, silakan coba lagi!"
+  },
+  "HomePage_TextFile_StopReadingBtn": {
+    "Value": "Hentikan Membaca Berkas Teks"
+  },
+  "HomePage_TextfileStatus": {
+    "Value": "Status Textfile:"
+  },
+  "HomePage_UdpStatus": {
+    "Value": "Status UDP:"
+  },
+  "InfoPage_CrashesOrBugsLabel": {
+    "Value": "Crash atau Bug?"
+  },
+  "InfoPage_Donate": {
+    "Value": "Donasi"
+  },
+  "InfoPage_JoinDiscordLabel": {
+    "Value": "Bergabung dengan Komunitas Discord"
+  },
+  "InfoPage_MoreInfoGitHubLabel": {
+    "Value": "Info lebih lanjut di GitHub"
+  },
+  "InfoPage_Social": {
+    "Value": "Sosial"
+  },
+  "MenuGames_Label": {
+    "Value": "Permainan"
+  },
+  "MenuHome_Label": {
+    "Value": "Layar Utama"
+  },
+  "MenuInfo_Label": {
+    "Value": "Informasi"
+  },
+  "MenuInput_Label": {
+    "Value": "Kontroler"
+  },
+  "MenuSense2Key_Label": {
+    "Value": "Sense2Key"
+  },
+  "MenuSettings_JoinBtn": {
+    "Value": "Gabung"
+  },
+  "MenuSettings_Label": {
+    "Value": "Pengaturan"
+  },
+  "MenuSettings_SubmitIssueBtn": {
+    "Value": "Laporkan"
+  },
+  "MenuSettings_VisitBtn": {
+    "Value": "Kunjungi"
+  },
+  "MenuWorkshop_Label": {
+    "Value": "Lokakarya"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartEight": {
+    "Value": "Silakan instal Firmware Updater Tool resmi oleh Sony untuk memperbarui controller Anda."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFive": {
+    "Value": "Memperbaiki bug pembacaan Baterai DualSense"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFour": {
+    "Value": "Anda harus selalu memperbarui ke versi terbaru karena alasan berikut:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartNine": {
+    "Value": "CATATAN: Saat memperbarui, pastikan DSX ditutup untuk menghindari masalah apa pun selama proses berlangsung."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartOne": {
+    "Value": "Ada versi Firmware baru yang tersedia untuk kontroler DualSense Anda."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSeven": {
+    "Value": "Berbagai perbaikan dan peningkatan"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSix": {
+    "Value": "Tingkatkan Rumble Normal (untuk game lama)"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartThree": {
+    "Value": "Versi Baru:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartTwo": {
+    "Value": "Versi Sekarang:"
+  },
+  "NewFirmwareVersionAvailablePopup_Title": {
+    "Value": "Versi Firmware DualSense Baru Tersedia"
+  },
+  "NewFirmwareVersionAvailablePopup_ViewToolButton": {
+    "Value": "Lihat Firmware Updater Tool"
+  },
+  "Sense2Key_Configuration_HelpLabel1": {
+    "Value": "Pilih dari menu atau tekan tombol pada keyboard"
+  },
+  "Sense2Key_Configuration_HelpLabel2": {
+    "Value": "ketika menu dipilih"
+  },
+  "Sense2Key_Configuration_SaveConfigurationBtn": {
+    "Value": "Simpan Konfigurasi"
+  },
+  "Sense2Key_CreateProfileBtn": {
+    "Value": "Buat Profil"
+  },
+  "Sense2Key_DeleteProfileBtn": {
+    "Value": "Hapus"
+  },
+  "Sense2Key_ExportProfileBtn": {
+    "Value": "Ekspor Profil"
+  },
+  "Sense2Key_GetStartedLabel": {
+    "Value": "Memulai dengan membuat Profil baru"
+  },
+  "Sense2Key_ImportProfileBtn": {
+    "Value": "Impor Profil"
+  },
+  "Sense2Key_NewProfile_CancelBtn": {
+    "Value": "Batalkan"
+  },
+  "Sense2Key_NewProfile_SaveNewProfilelBtn": {
+    "Value": "Simpan Profil Baru"
+  },
+  "Sense2Key_NoProfilesAdded": {
+    "Value": "Tidak Ada Profil Ditambahkan"
+  },
+  "Sense2Key_ProfileStatus_DelayCannotBeNegative": {
+    "Value": "Latensi tidak boleh negatif"
+  },
+  "Sense2Key_ProfileStatus_DelayCantBeEmpty": {
+    "Value": "Latensi tidak boleh kosong"
+  },
+  "Sense2Key_ProfileStatus_DelayUpdated": {
+    "Value": "Latensi Diperbarui"
+  },
+  "Sense2Key_ProfileStatus_ProfileCreated": {
+    "Value": "Profil Dibuat"
+  },
+  "Sense2Key_ProfileStatus_ProfileExists": {
+    "Value": "Profil sudah ada"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameCantBeEmpty": {
+    "Value": "Nama Profil tak boleh kosong"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameUpdated": {
+    "Value": "Nama Profil Diperbarui"
+  },
+  "Sense2Key_ProfilesLabel": {
+    "Value": "PROFIL"
+  },
+  "Sense2Key_ProfilesWillShowHere": {
+    "Value": "Profil Anda akan muncul di sini"
+  },
+  "Sense2Key_SelectedProfile_DelayLabel": {
+    "Value": "Latensi (Milidetik)"
+  },
+  "Sense2Key_SelectedProfile_DetailsLabel": {
+    "Value": "Rincian"
+  },
+  "Sense2Key_SelectedProfile_EditConfigurationBtn": {
+    "Value": "Edit Konfigurasi"
+  },
+  "Sense2Key_SelectedProfile_EnterProfileNamePlaceholder": {
+    "Value": "Masukkan Nama Profil"
+  },
+  "Sense2Key_SelectedProfile_ProfileNameLabel": {
+    "Value": "Nama Profil"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_Active": {
+    "Value": "Status: Profil Aktif"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_NotActive": {
+    "Value": "Status: Profil TIDAK Aktif"
+  },
+  "Sense2Key_SelectedProfile_StartBtn": {
+    "Value": "Mulai"
+  },
+  "Sense2Key_SelectedProfile_StopBtn": {
+    "Value": "Hentikan"
+  },
+  "Sense2Key_SelectedProfile_UpdateDelayBtn": {
+    "Value": "Perbarui Latensi"
+  },
+  "Sense2Key_SelectedProfile_UpdateProfileNameBtn": {
+    "Value": "Ganti Nama"
+  },
+  "SettingsPage_AppLabel": {
+    "Value": "Aplikasi"
+  },
+  "SettingsPage_AppSettings_BorderColorLabel": {
+    "Value": "Warna Border"
+  },
+  "SettingsPage_AppSettings_Border_AlphaLabel": {
+    "Value": "Alfa (Transparansi)"
+  },
+  "SettingsPage_AppSettings_Border_BlueLabel": {
+    "Value": "Biru"
+  },
+  "SettingsPage_AppSettings_Border_GreenLabel": {
+    "Value": "Hijau"
+  },
+  "SettingsPage_AppSettings_Border_RedLabel": {
+    "Value": "Merah"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundBlurLabel": {
+    "Value": "Buram"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundLabel": {
+    "Value": "Gambar Latar Belakang Sendiri"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundSelectImageBtn": {
+    "Value": "Pilih Gambar"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundStretchComboBoxLabel": {
+    "Value": "Rentangkan"
+  },
+  "SettingsPage_AppSettings_DarkModeLabel": {
+    "Value": "Mode Gelap"
+  },
+  "SettingsPage_AppSettings_KeepInTrayLabel": {
+    "Value": "Simpan Aplikasi di baki saat diminimalkan"
+  },
+  "SettingsPage_AppSettings_Label": {
+    "Value": "Pengaturan Aplikasi"
+  },
+  "SettingsPage_AppSettings_LanguageLabel": {
+    "Value": "Bahasa"
+  },
+  "SettingsPage_AppSettings_LaunchMinimizedCheckmark": {
+    "Value": "Jalan Diminimalkan"
+  },
+  "SettingsPage_AppSettings_LaunchWindowsStartupLabel": {
+    "Value": "Jalankan DualSenseX saat memulai Windows"
+  },
+  "SettingsPage_App_EnableDiscordRP": {
+    "Value": "Aktifkan Discord Rich Presence"
+  },
+  "SettingsPage_App_EnableDiscordRP_MightTakeAMin": {
+    "Value": "Mungkin butuh waktu hingga satu menit untuk berlaku"
+  },
+  "SettingsPage_BackgroundLabel": {
+    "Value": "Latar Belakang"
+  },
+  "SettingsPage_BackgroundSettings_Label": {
+    "Value": "Pengaturan Latar Belakang"
+  },
+  "SettingsPage_BackgroundSettings_SelectedBtn": {
+    "Value": "Dipilih"
+  },
+  "SettingsPage_ControllerLabel": {
+    "Value": "Kontroler"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault": {
+    "Value": "Audio Default"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault_RefreshList": {
+    "Value": "Muat ulang daftar"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Headset": {
+    "Value": "Headset"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetLeft": {
+    "Value": "Headset Kiri"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetRight": {
+    "Value": "Headset Kanan"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_LeftMotor": {
+    "Value": "Motor Kiri"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_RightMotor": {
+    "Value": "Motor Kanan"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Speaker": {
+    "Value": "Pengeras suara"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem": {
+    "Value": "Sistem Audio Kontroler (HANYA USB)"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_Headset": {
+    "Value": "Headset"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_HeadsetVolume": {
+    "Value": "Volume Headset"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_InternalSpeaker": {
+    "Value": "Speaker Internal"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_MicVolume": {
+    "Value": "Volume Mic"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_OutputMode": {
+    "Value": "Mode Output Suara"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerAndHeadset": {
+    "Value": "Headset dan Speaker Internal"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerVolume": {
+    "Value": "Volume Speaker"
+  },
+  "SettingsPage_ControllerSettings_AutoConnectWhenOpenLabel": {
+    "Value": "Hubungkan Otomatis saat DualSenseX Dibuka"
+  },
+  "SettingsPage_ControllerSettings_ControllerMotorStrengthLabel": {
+    "Value": "Sesuaikan Kekuatan Motor"
+  },
+  "SettingsPage_ControllerSettings_DisableVibrationControllerLabel": {
+    "Value": "Nonaktifkan Getaran Kontroler"
+  },
+  "SettingsPage_ControllerSettings_EnableAudioHaptics": {
+    "Value": "Aktifkan Haptics Audio (HANYA USB)"
+  },
+  "SettingsPage_ControllerSettings_EnableHidHide": {
+    "Value": "Aktifkan HidHide"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble": {
+    "Value": "Aktifkan Peningkatan Motor Rumble"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble2": {
+    "Value": "Memerlukan Firmware Versi 0224 atau lebih tinggi agar bekerja"
+  },
+  "SettingsPage_ControllerSettings_EnableVibWhileDisabled": {
+    "Value": "Aktifkan Getaran masuk saat dinonaktifkan"
+  },
+  "SettingsPage_ControllerSettings_KillSteamOnConnect": {
+    "Value": "Tutup Steam saat terhubung"
+  },
+  "SettingsPage_ControllerSettings_Label": {
+    "Value": "Pengaturan Kontroler"
+  },
+  "SettingsPage_ControllerSettings_LeftTriggerThreshold": {
+    "Value": "Ambang Pemicu Kiri"
+  },
+  "SettingsPage_ControllerSettings_LoadLastActiveTrigger": {
+    "Value": "Muat pemicu aktif terakhir saat memulai"
+  },
+  "SettingsPage_ControllerSettings_PlayLightShowOnConnect": {
+    "Value": "Mainkan Lightshow saat terhubung"
+  },
+  "SettingsPage_ControllerSettings_PressMicAndUpXboxGameBar": {
+    "Value": "Tekan tombol Mic + Atas untuk membuka Xbox Game Bar"
+  },
+  "SettingsPage_ControllerSettings_PreviewLightshowBtn": {
+    "Value": "Pratinjau Lightshow"
+  },
+  "SettingsPage_ControllerSettings_RightTriggerThreshold": {
+    "Value": "Ambang Pemicu Kanan"
+  },
+  "SettingsPage_ControllerSettings_SearchUntilControllerConnects": {
+    "Value": "Cari sampai Kontroler tersambung"
+  },
+  "SettingsPage_ControllerSettings_TriggerThreshold": {
+    "Value": "Ambang Pemicu"
+  },
+  "SettingsPage_ControllerSettings_UDPPortListen": {
+    "Value": "Aktifkan Pendengar Port UDP"
+  },
+  "SettingsPage_ControllerSettings_UDPPortNumber": {
+    "Value": "Nomor Port UDP untuk didengarkan"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions": {
+    "Value": "Opsi Sinkronisasi Volume"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_DontSync": {
+    "Value": "Jangan Sinkronkan"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncAll": {
+    "Value": "Sinkronkan semua"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftMotorRightMotor": {
+    "Value": "Sinkronkan Motor Kiri dan Motor Kanan"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftRightSpeakers": {
+    "Value": "Sinkronisasi Speaker Kiri dan Kanan"
+  },
+  "SettingsPage_Controller_ControllerAudioButton": {
+    "Value": "Pengontrol Audio"
+  },
+  "SettingsPage_Controller_DriversButton": {
+    "Value": "Drivers"
+  },
+  "SettingsPage_Controller_GyroAccelButton": {
+    "Value": "Giroskop/Akselerometer"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking": {
+    "Value": "Penyembunyian Kontroler"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking_Description": {
+    "Value": "Sembunyikan kontroler fisik dari aplikasi lain"
+  },
+  "SettingsPage_Controller_MiscellaneousButton": {
+    "Value": "Lain-Lain"
+  },
+  "SettingsPage_Controller_NetworkingButton": {
+    "Value": "Jaringan"
+  },
+  "SettingsPage_Controller_ShortcutsButton": {
+    "Value": "Pintasan"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput": {
+    "Value": "Dengarkan Input"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Description": {
+    "Value": "Tekan tombol pada controller untuk mendeteksi"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_NotAllowed": {
+    "Value": "Tidak Diizinkan:"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Title": {
+    "Value": "Tombol Input Deteksi"
+  },
+  "SettingsPage_Controller_Shortcuts_OpenXboxGameBar": {
+    "Value": "Buka Kombo Xbox Game Bar"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBT": {
+    "Value": "Matikan kontroler (Bluetooth)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAuto": {
+    "Value": "Otomatis Matikan Kontroler"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAutoHowTo": {
+    "Value": "CARA: Nonaktifkan Steam Controller Auto Shut-Off"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTManual": {
+    "Value": "Tombol Kombo Tekan Manual"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTMinutes": {
+    "Value": "Menit"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTNever": {
+    "Value": "Jangan pernah"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTTimeElapsedSinceIdle": {
+    "Value": "Waktu Berlalu Sejak Diam:"
+  },
+  "SettingsPage_Controller_TouchpadButton": {
+    "Value": "Touchpad"
+  },
+  "SettingsPage_Settings_CheckForUpdatesLabel": {
+    "Value": "Periksa pembaruan"
+  },
+  "SettingsPage_Settings_ResetAppDescription": {
+    "Value": "Anda yakin ingin mengatur ulang DualSenseX kembali ke pengaturan bawaan?"
+  },
+  "SettingsPage_Settings_ResetAppLabel": {
+    "Value": "Kembalikan setelan apl"
+  },
+  "SettingsPage_Settings_ResetAppYesButton": {
+    "Value": "Atur ulang DualSenseX"
+  },
+  "SettingsPage_TouchToMouse_EnableTapAsLeftMouse": {
+    "Value": "Aktifkan Ketuk sebagai Tombol Kiri Mouse"
+  },
+  "SettingsPage_TouchToMouse_EnableTouchpadToMouse": {
+    "Value": "Mengaktifkan Touchpad ke Mouse"
+  },
+  "SettingsPage_TouchToMouse_FastSensiSpeed": {
+    "Value": "Kecepatan Sensitivitas Cepat - Tahan Tombol"
+  },
+  "SettingsPage_TouchToMouse_InvertScroll": {
+    "Value": "Balikkan Gulir"
+  },
+  "SettingsPage_TouchToMouse_LeftClickHold": {
+    "Value": "Klik Kiri - Tahan tombol untuk tetap dalam keadaan ditekan"
+  },
+  "SettingsPage_TouchToMouse_NormalSensiSpeed": {
+    "Value": "Kecepatan Sensitivitas normal"
+  },
+  "SettingsPage_TouchToMouse_RightClickHold": {
+    "Value": "Klik Kanan - Tahan Tombol lalu Ketuk atau Tekan"
+  },
+  "SettingsPage_TouchToMouse_ScrollSpeed": {
+    "Value": "Kecepatan Gulir - Ketuk dengan 2 jari lalu seret"
+  },
+  "SettingsPage_TouchToMouse_SlowSensiSpeed": {
+    "Value": "Kecepatan Sensitivitas Perlambatan - Tahan Tombol"
+  },
+  "SettingsPage_ViewReleaseNotesButton": {
+    "Value": "Lihat Catatan Rilis"
+  },
+  "SettingsPage_ViewSaveFileFolderButton": {
+    "Value": "Lihat Folder Simpan File"
+  },
+  "SetupScreen_AppAcentColor_Color": {
+    "Value": "Warna"
+  },
+  "SetupScreen_AppAcentColor_Preview": {
+    "Value": "Pratinjau"
+  },
+  "SetupScreen_AppAcentColor_Reset": {
+    "Value": "Atur Ulang ke Warna Aksen Default Sistem"
+  },
+  "SetupScreen_AppAcentColor_Title": {
+    "Value": "Warna Aksen Aplikasi"
+  },
+  "SetupScreen_EmualtionPicker_DownloadDriver": {
+    "Value": "Unduh Driver"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_BothInstalled": {
+    "Value": "Kedua Driver Diinstal"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingForInstalledDrivers": {
+    "Value": "Memeriksa Driver yang Diinstal..."
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingInstalledDrivers": {
+    "Value": "Memeriksa Driver yang Diinstal"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4": {
+    "Value": "Virtual DualShock 4"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4_Description": {
+    "Value": "Aplikasi ini akan emulasi kontroler DualShock 4 untuk digunakan dengan game yang memiliki Dukungan DualShock 4 bawaan."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Checkbox": {
+    "Value": "Driver HidHide Diinstal"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Description": {
+    "Value": "HidHide memungkinkan aplikasi untuk menyembunyikan kontroler fisik saat emulasi perangkat virtual. Ini digunakan untuk menghindari input ganda dari kontroler virtual dan fisik dan membuat permainan atau program hanya melihat kontroler virtual."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_SystemRestart": {
+    "Value": "*Membutuhkan Restart Sistem"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation": {
+    "Value": "Tidak Ada Emulasi"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation_Description": {
+    "Value": "Aplikasi hanya akan berkomunikasi dengan controller tanpa melakukan emulasi kontroler."
+  },
+  "SetupScreen_EmualtionPicker_Title": {
+    "Value": "Driver dan Jenis Emulasi"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Checkbox": {
+    "Value": "Driver VigEM Diinstal"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Description": {
+    "Value": "Driver Bus ViGem memungkinkan penggunaan perangkat virtual yang meniru aslinya seolah-olah terhubung secara fisik. Contoh:"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360": {
+    "Value": "Emulasi Xbox 360 (Direkomendasikan)"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360_Description": {
+    "Value": "Aplikasi ini akan mengemulasi kontroler Xbox 360 untuk digunakan dengan game yang memiliki dukungan  kontroler Xbox bawaan."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInput": {
+    "Value": "Agar Kontroler dikenali, Steam Input harus dinonaktifkan."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInputCheckbox": {
+    "Value": "Saya Sudah Nonaktifkan Steam Input"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlay": {
+    "Value": "Agar aplikasi tidak memiliki gangguan grafis, Overlay harus dinonaktifkan."
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlayCheckbox": {
+    "Value": "Saya Sudah Menonaktifkan Steam Overlay"
+  },
+  "SetupScreen_SteamSetup_Title": {
+    "Value": "Pengaturan Steam"
+  },
+  "SetupScreen_SteamSetup_Title2": {
+    "Value": "Nonaktifkan Steam Input dan Overlay di Properties DSX"
+  },
+  "SetupScreen_SteamSetup_Title2_Subtitle": {
+    "Value": "Ini harus dilakukan karena Steam API."
+  }
+}

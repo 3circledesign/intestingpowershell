@@ -1,0 +1,8 @@
+ACH_STAT_1K_Combined_Presses_Stat=int=0
+ACH_STAT_10K_Combined_Presses_Stat=int=0
+ACH_STAT_50K_Combined_Presses_Stat=int=0
+ACH_STAT_100K_Combined_Presses_Stat=int=0
+ACH_STAT_500K_Combined_Presses_Stat=int=0
+ACH_STAT_1M_Combined_Presses_Stat=int=0
+ACH_STAT_100_Combined_Presses_Stat=int=0
+ACH_STAT_500_Combined_Presses_Stat=int=0

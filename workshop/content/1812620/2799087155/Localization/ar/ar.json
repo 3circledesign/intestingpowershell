@@ -1,0 +1,1079 @@
+{
+  "AppCommandArgs_FileLocationNotFound": {
+    "Value": "تم العثور على اسم اللعبة، ولكن لم يتم العثور على موقع الملف"
+  },
+  "AppCommandArgs_GameNameNotFound": {
+    "Value": "لم يتم العثور على اللعبة، ولكن تم العثور على موقع الملف"
+  },
+  "AppCommandArgs_NoParamersFound": {
+    "Value": "لم يتم العثور على معلمات"
+  },
+  "AppCommandArgs_Playing": {
+    "Value": "جار اللعب"
+  },
+  "AppNotificationLabel_AutoConnectedToController": {
+    "Value": "تم الاتصال تلقائياً بوحدة التحكم!"
+  },
+  "AppNotificationLabel_AutoConnectingToController": {
+    "Value": "الاتصال بوحدة التحكم تلقائياً"
+  },
+  "AppNotificationLabel_ConnectedToController": {
+    "Value": "وحدة التحكم متصلة"
+  },
+  "AppNotificationLabel_ConnectionLost": {
+    "Value": "تم فقدان الاتصال، البحث عن وحدة تحكم..."
+  },
+  "AppNotificationLabel_ConnectionLostAttemptingToRconnect": {
+    "Value": "فُقد الاتصال، يتم محاولة إعادة الاتصال"
+  },
+  "AppNotificationLabel_FailedToAutoConnect": {
+    "Value": "فشلَ الاتصال التلقائي، يرجى التحقق من الاتصال"
+  },
+  "AppNotificationLabel_FailedToRconnect": {
+    "Value": "فشل إعادة الاتصال، يرجى التحقق من الاتصال!"
+  },
+  "AppNotificationLabel_ReconnectedToController": {
+    "Value": "تم إعادة الاتصال بوحدة التحكم!"
+  },
+  "AppNotificationLabel_SearchingForController": {
+    "Value": "جاري البحث عن وحدة تحكم..."
+  },
+  "AppNotificationPopUp_AreYouSureYouWantToExit": {
+    "Value": "هل أنت متأكد أنك تريد الخروج؟"
+  },
+  "AppNotificationPopUp_Cancel": {
+    "Value": "إلغاء"
+  },
+  "AppNotificationPopUp_DownloadUpdate": {
+    "Value": "جارٍ تنزيل التحديث…"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsDualShock4": {
+    "Value": "لن يتم قراءة وحدة تحكم DualSense كوحدة تحكم Dualshock 4 بعد الآن!"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsXbox": {
+    "Value": "لن يتم قراءة وحدة تحكم DualSense كوحدة تحكم Xbox بعد الآن!"
+  },
+  "AppNotificationPopUp_Exit": {
+    "Value": "خروج"
+  },
+  "AppNotificationPopUp_Later": {
+    "Value": "لاحقًا"
+  },
+  "AppNotificationPopUp_MissingDriver_ConnectToController": {
+    "Value": "الاتصال بوحدة التحكم"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadAndInstall": {
+    "Value": "تنزيل برامج التشغيل وتثبيتها"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadingAndInstalling": {
+    "Value": "جاري تنزيل وتثبيت برنامج التشغيل..."
+  },
+  "AppNotificationPopUp_MissingDriver_FollowViGEmBusInstructions": {
+    "Value": "يرجى اتباع التعليمات المقدمة من VigemBus "
+  },
+  "AppNotificationPopUp_MissingDriver_OnceFinishedInstalling": {
+    "Value": "بمجرد الانتهاء من تثبيت برنامج التشغيل، يمكنك الاتصال بوحدة التحكم الخاصة بك."
+  },
+  "AppNotificationPopUp_MissingDriver_Uh-oh": {
+    "Value": "أوه!"
+  },
+  "AppNotificationPopUp_MissingDriver_YouDontHaveViGEmBusDriverse": {
+    "Value": "يبدو أنه ليس لديك برامج تشغيل VigemBus مثبتة"
+  },
+  "AppNotificationPopUp_UpdateAvailable": {
+    "Value": " تحديث متاح                                                                                                                                                                                                                                    "
+  },
+  "AppNotificationPopUp_UpdateAvailable_InstallIt": {
+    "Value": "هل ترغب في تثبيته؟"
+  },
+  "AppNotificationPopUp_UpdateProccess_CurrentVersion": {
+    "Value": "الإصدار الحالي"
+  },
+  "AppNotificationPopUp_UpdateProccess_DownloadingUpdate": {
+    "Value": "جارٍ تنزيل التحديث…"
+  },
+  "AppNotificationPopUp_UpdateProccess_ExtractingUpdate": {
+    "Value": "جاري استخراج التحديث..."
+  },
+  "AppNotificationPopUp_UpdateProccess_FetchingUpdate": {
+    "Value": "جاري جلب التحديث..."
+  },
+  "AppNotificationPopUp_UpdateProccess_InstallingUpdate": {
+    "Value": "جارٍ تثبيت التحديث..."
+  },
+  "AppNotificationPopUp_UpdateProccess_PleaseRestartToApplyUpdate": {
+    "Value": "الرجاء إعادة التشغيل لتطبيق هذا التحديث"
+  },
+  "AppNotificationPopUp_UpdateProccess_Restart": {
+    "Value": "إعادة تشغيل"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateInstalled": {
+    "Value": "تم تثبيت التحديث"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateVersion": {
+    "Value": "إصدار التحديث: "
+  },
+  "AppNotificationPopUp_Yes": {
+    "Value": "نعم"
+  },
+  "App_DriversNotInstalledPopup_Title": {
+    "Value": "برامج التشغيل مفقودة"
+  },
+  "App_ExportTriggersPopUp_BothTriggersBtn": {
+    "Value": "كلا المشغلات"
+  },
+  "App_ExportTriggersPopUp_Description": {
+    "Value": "من فضلك اختر أحد الخيارات التالية"
+  },
+  "App_ExportTriggersPopUp_Title": {
+    "Value": "تصدير مشغلات"
+  },
+  "App_VigemDriverNotInstalled_TextBox": {
+    "Value": "الرجاء تثبيت برامج التشغيل المفقودة"
+  },
+  "ControllerPage_AdvancedInfoButton": {
+    "Value": "معلومات متقدمة"
+  },
+  "ControllerPage_AdvancedInfoConnectToView": {
+    "Value": "يرجى توصيل وحدة التحكم لعرض المعلومات المتقدمة"
+  },
+  "ControllerPage_BatteryLevelLabel": {
+    "Value": "مستوى البطارية"
+  },
+  "ControllerPage_ConnectionTypeLabel": {
+    "Value": "نوع الاتصال"
+  },
+  "ControllerPage_ConnectionType_Connected": {
+    "Value": "متصل"
+  },
+  "ControllerPage_ConnectionType_NotConnected": {
+    "Value": "غير متصل"
+  },
+  "ControllerPage_InputButton": {
+    "Value": "إدخال"
+  },
+  "ControllerPage_LeftJoyStickLabel": {
+    "Value": "عصا التحكم اليسرى"
+  },
+  "ControllerPage_RemappingButton": {
+    "Value": "إعادة تعيين الازرار"
+  },
+  "ControllerPage_RightJoyStickLabel": {
+    "Value": "عصا التحكم اليمنى"
+  },
+  "ControllerPage_UseXboxLabels": {
+    "Value": "استحدم ازرار Xbox"
+  },
+  "DualSense_BatteryState_AbnormalTemperture": {
+    "Value": "درجة حرارة غير طبيعية"
+  },
+  "DualSense_BatteryState_AbnormalVoltage": {
+    "Value": "جهد كهربائي غير طبيعي"
+  },
+  "DualSense_BatteryState_Charging": {
+    "Value": "جارٍ الشحن"
+  },
+  "DualSense_BatteryState_ChargingError": {
+    "Value": "خطأ في عملية الشحن"
+  },
+  "DualSense_BatteryState_Complete": {
+    "Value": "مكتمل"
+  },
+  "DualSense_BatteryState_Discharging": {
+    "Value": "لا يتم الشحن"
+  },
+  "GamesPage_ItemViewScreenshot": {
+    "Value": "لقطة شاشة"
+  },
+  "GamesPage_ModInfo": {
+    "Value": "معلومات النمط"
+  },
+  "GamesPage_ModsButton": {
+    "Value": "الانماط"
+  },
+  "GamesPage_ModsSearchBoxPlaceholder": {
+    "Value": "تصفية حسب اسم Mod أو اسم اللعبة أو المؤلف"
+  },
+  "GamesPage_Mods_Disclaimer": {
+    "Value": "إخلاء المسؤولية"
+  },
+  "GamesPage_Mods_DisclaimerDescription": {
+    "Value": "لا تستخدم هذه Mods في الألعاب عبر الإنترنت لتجنب الباند، فإن القيام بذلك سيكون على مسؤوليتك الخاصة. لن تتحمل DSX أي مسؤولية عن استخدام هذه التعديلات."
+  },
+  "GamesPage_Mods_ModAuthor": {
+    "Value": "المؤلف"
+  },
+  "GamesPage_Mods_ModGame": {
+    "Value": "لعبة"
+  },
+  "GamesPage_Mods_ModName": {
+    "Value": "الاسم"
+  },
+  "GamesPage_Mods_ViewModButton": {
+    "Value": "عرض النمط"
+  },
+  "GamsPage_GameImageLoadingLabel": {
+    "Value": "تحميل الصور…"
+  },
+  "GamsPage_GameListStatusOne_FetchingGameList": {
+    "Value": "جاري جلب قائمة الألعاب..."
+  },
+  "GamsPage_GameListStatusOne_NoGamesAdded": {
+    "Value": "لا توجد ألعاب مضافة"
+  },
+  "GamsPage_GameListStatusTwo_CheckBackLater": {
+    "Value": "يُرجى إعادة التحقق لاحقًا."
+  },
+  "GamsPage_GameListStatusTwo_PleaseWait": {
+    "Value": "يرجى الإنتظار..."
+  },
+  "GamsPage_GameTagsLabel": {
+    "Value": "العلامات"
+  },
+  "GamsPage_GameViewGameBtn": {
+    "Value": "عرض اللعبة"
+  },
+  "GamsPage_GamesLabel": {
+    "Value": "الألعاب"
+  },
+  "GamsPage_SearchbarPlaceholder": {
+    "Value": "ابحث عن الألعاب بالاسم أو بالعلامات"
+  },
+  "GeneralStuff_Button": {
+    "Value": "زر"
+  },
+  "GeneralStuff_CloseButton": {
+    "Value": "إغلاق"
+  },
+  "GeneralStuff_ConfirmButton": {
+    "Value": "تأكيد"
+  },
+  "GeneralStuff_Sensitivity": {
+    "Value": "الحساسية"
+  },
+  "GeneralStuff_UnableToStartDSX": {
+    "Value": "تعذر بدء تشغيل DSX"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionOne": {
+    "Value": "يرجى التأكد من تشغيل Steam، وتثبيت التطبيق في مكتبتك. إذا استمرت هذه المشكلة، فأعد تثبيت DSX من خلال Steam."
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionTwo": {
+    "Value": "غير قادر على جلب الترجمات. يرجى التأكد من تشغيل Steam، وأن لديك اتصال إنترنت نشط، وأن التطبيق مثبت في مكتبتك. إذا استمرت هذه المشكلة، فأعد تثبيت DSX من خلال Steam."
+  },
+  "HomePage_AdaptiveTriggers": {
+    "Value": "مشغلات تكيفية"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger": {
+    "Value": "الزناد الأيسر"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger_ApplyButton": {
+    "Value": "تطبيق الزناد الأيسر"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger": {
+    "Value": "الزناد الأيمن"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger_ApplyButton": {
+    "Value": "تطبيق الزناد الأيمن"
+  },
+  "HomePage_AdaptiveTriggers_TriggerMode": {
+    "Value": "وضع التشغيل"
+  },
+  "HomePage_ApplyModeLabel": {
+    "Value": "تطبيق النمط"
+  },
+  "HomePage_ApplyMode_ApplyBtn": {
+    "Value": "تطبيق"
+  },
+  "HomePage_ApplyMode_BothTriggerMotorLabel": {
+    "Value": "محرك الزنادين"
+  },
+  "HomePage_ApplyMode_LeftTriggerMotorLabel": {
+    "Value": "محرك الزناد الأيسر"
+  },
+  "HomePage_ApplyMode_RightTriggerMotorLabel": {
+    "Value": "محرك الزناد الأيمن"
+  },
+  "HomePage_BatteryStatus": {
+    "Value": "حالة البطارية"
+  },
+  "HomePage_ConnectionStatusLabel": {
+    "Value": "حالة الاتصال"
+  },
+  "HomePage_ConnectionStatus_ConnectControllerBtn": {
+    "Value": "الاتصال بوحدة التحكم"
+  },
+  "HomePage_ConnectionStatus_EmulationType_ComboboxLabel": {
+    "Value": "محاكاة وحدة التحكم:"
+  },
+  "HomePage_ConnectionStatus_EmulationType_Emulating360": {
+    "Value": "محاكاة XBOX 360"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingDS4": {
+    "Value": "محاكاة يد سوني 4"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingNone": {
+    "Value": "لا يحاكي"
+  },
+  "HomePage_ConnectionStatus_Status_AutoConnectingToController": {
+    "Value": "يتم إعادة الاتصال إلى وحدة التحكم..."
+  },
+  "HomePage_ConnectionStatus_Status_Connecting": {
+    "Value": "جارٍ الاتصال…"
+  },
+  "HomePage_ConnectionStatus_Status_ConnectionLostAttemptingToReconnect": {
+    "Value": "فُقد الاتصال، يتم محاولة إعادة الاتصال"
+  },
+  "HomePage_ConnectionStatus_Status_ControllerConnected": {
+    "Value": "وحدة التحكم متصلة"
+  },
+  "HomePage_ConnectionStatus_Status_FailedToConnect": {
+    "Value": "فشل الاتصال، يرجى التحقق من الاتصال!"
+  },
+  "HomePage_ConnectionStatus_Status_SearchingForController": {
+    "Value": "جاري البحث عن وحدة تحكم..."
+  },
+  "HomePage_ConnectionStatus_Status_ShuttingDownApp": {
+    "Value": "يتم إغلاق التطبيق..."
+  },
+  "HomePage_ControllerLEDLabel": {
+    "Value": "ضوء وحدة التحكم LED"
+  },
+  "HomePage_ControllerLED_BrightnessLabel": {
+    "Value": "السطوع"
+  },
+  "HomePage_ControllerLED_ColorModeBtn": {
+    "Value": "وضع اللون"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlash": {
+    "Value": "تمكين الفلاش"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlashWhenBattery": {
+    "Value": "الوميض عندما تكون البطارية أقل من (٪)"
+  },
+  "HomePage_ControllerLED_ColorMode_Breathing_RandomColorCycle": {
+    "Value": "دورة ألوان عشوائية"
+  },
+  "HomePage_ControllerLED_ColorMode_RainbowLabel": {
+    "Value": "قوس قزح"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_AutoReverse": {
+    "Value": "قوس قزح عكسي تلقائي"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowMultiplier": {
+    "Value": "مضاعف تغيير اللون"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowSpeed": {
+    "Value": "سرعة قوس قزح"
+  },
+  "HomePage_ControllerLED_ColorMode_Speed": {
+    "Value": "السرعة"
+  },
+  "HomePage_ControllerLED_ColorMode_StaticColorLabel": {
+    "Value": "لون ثابت"
+  },
+  "HomePage_ControllerLED_MicLEDLabel": {
+    "Value": "ضوء المايكروفون"
+  },
+  "HomePage_ControllerLED_MicLED_OffBtn": {
+    "Value": "إيقاف"
+  },
+  "HomePage_ControllerLED_MicLED_OnBtn": {
+    "Value": "تشغيل"
+  },
+  "HomePage_ControllerLED_MicLED_PulseBtn": {
+    "Value": "ذبذبة"
+  },
+  "HomePage_ControllerLED_PlayerLEDLabel": {
+    "Value": "ضوء اللاعب LED"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOffBtn": {
+    "Value": "كلها معطلة"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOnBtn": {
+    "Value": "كلها مفعلة"
+  },
+  "HomePage_ControllerLED_PlayerLED_Battery": {
+    "Value": "البطارية"
+  },
+  "HomePage_ControllerLED_PlayerLED_Breathing": {
+    "Value": "تنفس"
+  },
+  "HomePage_ControllerLED_PlayerLED_CustomBtn": {
+    "Value": "مخصص"
+  },
+  "HomePage_ControllerLED_PlayerLED_DS4Passthrough": {
+    "Value": "دخول يد سوني 4"
+  },
+  "HomePage_ControllerLED_PlayerLED_FiveBtn": {
+    "Value": "خمسة"
+  },
+  "HomePage_ControllerLED_PlayerLED_FlashWhileCharging": {
+    "Value": "فلاش أثناء الشحن"
+  },
+  "HomePage_ControllerLED_PlayerLED_FourBtn": {
+    "Value": "اربعة"
+  },
+  "HomePage_ControllerLED_PlayerLED_HighBrightnessBtn": {
+    "Value": "مرتفع"
+  },
+  "HomePage_ControllerLED_PlayerLED_LowBrightnessBtn": {
+    "Value": "منخفض"
+  },
+  "HomePage_ControllerLED_PlayerLED_MediumBrightnessBtn": {
+    "Value": "وسط"
+  },
+  "HomePage_ControllerLED_PlayerLED_OneBtn": {
+    "Value": "واحد"
+  },
+  "HomePage_ControllerLED_PlayerLED_Strobing": {
+    "Value": "فليشر"
+  },
+  "HomePage_ControllerLED_PlayerLED_ThreeBtn": {
+    "Value": "ثلاثة"
+  },
+  "HomePage_ControllerLED_PlayerLED_TwoBtn": {
+    "Value": "اثنين"
+  },
+  "HomePage_ControllerLED_RainbowSpeedLabel": {
+    "Value": "سرعة قوس قزح"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Fast": {
+    "Value": "سريع"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Hyper": {
+    "Value": "فرط"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Medium": {
+    "Value": "وسط"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Slow": {
+    "Value": "بطيئة"
+  },
+  "HomePage_ControllerLED_TouchPadLEDLabel": {
+    "Value": "ضوء لوحة اللمس LED"
+  },
+  "HomePage_ControllerModeLabel": {
+    "Value": "أسلوب وحدة التحكم"
+  },
+  "HomePage_ControllerMode_IntensityLabel": {
+    "Value": "الكثافة"
+  },
+  "HomePage_ControllerMode_ModeLabel": {
+    "Value": "الوضع"
+  },
+  "HomePage_ControllerMode_RandomizeModeAndValues": {
+    "Value": "وضع عشوائي+قيم"
+  },
+  "HomePage_ControllerMode_RandomizeValues": {
+    "Value": "قيم عشوائية"
+  },
+  "HomePage_ControllerMode_VibrationDurationLabel": {
+    "Value": "مدة الاهتزاز (ثانية)"
+  },
+  "HomePage_ControllerVibration": {
+    "Value": "اهتزاز وحدة التحكم"
+  },
+  "HomePage_ExportTriggers": {
+    "Value": "تصدير المشغلات"
+  },
+  "HomePage_ExportTriggers_CopyToClipboard": {
+    "Value": "نسخ إلى الحافظة"
+  },
+  "HomePage_ExportTriggers_ExportForTextfile": {
+    "Value": "تصدير ملف نصي"
+  },
+  "HomePage_ExportTriggers_ExportForUDP": {
+    "Value": "تصدير لـ UDP (C #)"
+  },
+  "HomePage_GameLabel": {
+    "Value": "لعبة"
+  },
+  "HomePage_TextFileLabel": {
+    "Value": "ملف نصي"
+  },
+  "HomePage_TextFile_FileLocationLabel": {
+    "Value": "مكان الملف:"
+  },
+  "HomePage_TextFile_SlectFileBtn": {
+    "Value": "تحديد موقع الملف النصي"
+  },
+  "HomePage_TextFile_StatusActiveLabel": {
+    "Value": "نشط"
+  },
+  "HomePage_TextFile_StatusLabel": {
+    "Value": "الحالة"
+  },
+  "HomePage_TextFile_StatusNoMatchingTriggerValuesLabel": {
+    "Value": "نشط - لا توجد قيم متطابقة للزناد في الملف النصي"
+  },
+  "HomePage_TextFile_StatusNotActiveDoesNotExistLabel": {
+    "Value": "غير نشط - الملف المحدد غير موجود!"
+  },
+  "HomePage_TextFile_StatusNotActiveLabel": {
+    "Value": "غير نشط"
+  },
+  "HomePage_TextFile_StatusNotActiveNoFileSelectedLabel": {
+    "Value": "غير نشط - لا يوجد ملف محدد"
+  },
+  "HomePage_TextFile_StatusNotActiveNotATextFileLabel": {
+    "Value": "غير نشط - هذا ليس ملف نصي، يرجى المحاولة مرة أخرى!"
+  },
+  "HomePage_TextFile_StopReadingBtn": {
+    "Value": "إيقاف قراءة الملف النصي"
+  },
+  "HomePage_TextfileStatus": {
+    "Value": "حالة الملف النصي:"
+  },
+  "HomePage_UdpStatus": {
+    "Value": "حالة UDP:"
+  },
+  "InfoPage_CrashesOrBugsLabel": {
+    "Value": "أعطال أو أخطاء؟"
+  },
+  "InfoPage_Donate": {
+    "Value": "تبرع"
+  },
+  "InfoPage_JoinDiscordLabel": {
+    "Value": "الانضمام إلى مجتمع ديسكورد"
+  },
+  "InfoPage_MoreInfoGitHubLabel": {
+    "Value": "المزيد من المعلومات على GitHub"
+  },
+  "InfoPage_Social": {
+    "Value": "وسائل التواصل الاجتماعية"
+  },
+  "MenuGames_Label": {
+    "Value": "الألعاب"
+  },
+  "MenuHome_Label": {
+    "Value": "الصفحة الرئيسية"
+  },
+  "MenuInfo_Label": {
+    "Value": "معلومات"
+  },
+  "MenuInput_Label": {
+    "Value": "وحدة التحكم"
+  },
+  "MenuSense2Key_Label": {
+    "Value": "Sense2Key"
+  },
+  "MenuSettings_JoinBtn": {
+    "Value": "انضمام"
+  },
+  "MenuSettings_Label": {
+    "Value": "الإعدادات"
+  },
+  "MenuSettings_SubmitIssueBtn": {
+    "Value": "إرسال المشكلة"
+  },
+  "MenuSettings_VisitBtn": {
+    "Value": "زيارة"
+  },
+  "MenuWorkshop_Label": {
+    "Value": "ورشة عمل"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartEight": {
+    "Value": "يرجى تثبيت أداة تحديث البرامج الثابتة الرسمية من Sony لتحديث وحدة التحكم الخاصة بك."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFive": {
+    "Value": "إصلاح خطأ قراءة بطارية DualSense"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFour": {
+    "Value": "يجب عليك دائمًا التحديث إلى أحدث إصدار لهذه الأسباب:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartNine": {
+    "Value": "ملاحظة: عند التحديث، تأكد من إغلاق DSX لتجنب أي مشاكل أثناء العملية."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartOne": {
+    "Value": "هناك إصدار جديد من البرامج الثابتة متاح لوحدة تحكم DualSense الخاصة بك."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSeven": {
+    "Value": "إصلاحات وتحسينات مختلفة"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSix": {
+    "Value": "تحسين الدمدمة العادية (للألعاب القديمة)"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartThree": {
+    "Value": "إصدار جديد"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartTwo": {
+    "Value": "الإصدار الحالي"
+  },
+  "NewFirmwareVersionAvailablePopup_Title": {
+    "Value": "يتوفر إصدار برنامج DualSense الجديد الثابت"
+  },
+  "NewFirmwareVersionAvailablePopup_ViewToolButton": {
+    "Value": "عرض أداة تحديث البرامج الثابتة"
+  },
+  "Sense2Key_Configuration_HelpLabel1": {
+    "Value": "حدد من القائمة أو اضغط على مفتاح على لوحة المفاتيح"
+  },
+  "Sense2Key_Configuration_HelpLabel2": {
+    "Value": "أثناء تحديد القائمة "
+  },
+  "Sense2Key_Configuration_SaveConfigurationBtn": {
+    "Value": "حفظ الإعدادات"
+  },
+  "Sense2Key_CreateProfileBtn": {
+    "Value": "إنشاء ملف شخصي"
+  },
+  "Sense2Key_DeleteProfileBtn": {
+    "Value": "حذف"
+  },
+  "Sense2Key_ExportProfileBtn": {
+    "Value": "تصدير ملف تعريف"
+  },
+  "Sense2Key_GetStartedLabel": {
+    "Value": "ابدأ بإنشاء ملف شخصي جديد"
+  },
+  "Sense2Key_ImportProfileBtn": {
+    "Value": "استيراد ملف تعريف"
+  },
+  "Sense2Key_NewProfile_CancelBtn": {
+    "Value": "إلغاء"
+  },
+  "Sense2Key_NewProfile_SaveNewProfilelBtn": {
+    "Value": "حفظ ملف شخصي جديد"
+  },
+  "Sense2Key_NoProfilesAdded": {
+    "Value": "لم يتم إضافة ملفات تعريف"
+  },
+  "Sense2Key_ProfileStatus_DelayCannotBeNegative": {
+    "Value": "لا يمكن أن يكون زمن تأخير الاستجابة سالب"
+  },
+  "Sense2Key_ProfileStatus_DelayCantBeEmpty": {
+    "Value": "زمن تأخير الاستجابة لا يمكن أن يكون فارغاً"
+  },
+  "Sense2Key_ProfileStatus_DelayUpdated": {
+    "Value": "تم تحديث تأخير الاستجابة"
+  },
+  "Sense2Key_ProfileStatus_ProfileCreated": {
+    "Value": "تم إنشاء الملف الشخصي"
+  },
+  "Sense2Key_ProfileStatus_ProfileExists": {
+    "Value": "الملف الشخصي موجود بالفعل"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameCantBeEmpty": {
+    "Value": "اسم الملف الشخصي لا يمكن أن يكون فارغاً"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameUpdated": {
+    "Value": "تم تحديث اسم الملف الشخصي"
+  },
+  "Sense2Key_ProfilesLabel": {
+    "Value": "ملفات التعريف"
+  },
+  "Sense2Key_ProfilesWillShowHere": {
+    "Value": "ملفات التعريف الخاصة بك ستظهر هنا"
+  },
+  "Sense2Key_SelectedProfile_DelayLabel": {
+    "Value": "تأخير الاستجابة (اجزاء من الثانية)"
+  },
+  "Sense2Key_SelectedProfile_DetailsLabel": {
+    "Value": "التفاصيل"
+  },
+  "Sense2Key_SelectedProfile_EditConfigurationBtn": {
+    "Value": "تحرير الإعدادات"
+  },
+  "Sense2Key_SelectedProfile_EnterProfileNamePlaceholder": {
+    "Value": "أدخل اسم الملف التعريفي"
+  },
+  "Sense2Key_SelectedProfile_ProfileNameLabel": {
+    "Value": "اسم الملف التعريفي"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_Active": {
+    "Value": "الحالة: الملف الشخصي نشط"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_NotActive": {
+    "Value": "الحالة: الملف الشخصي غير نشط"
+  },
+  "Sense2Key_SelectedProfile_StartBtn": {
+    "Value": "بدء"
+  },
+  "Sense2Key_SelectedProfile_StopBtn": {
+    "Value": "إيقاف"
+  },
+  "Sense2Key_SelectedProfile_UpdateDelayBtn": {
+    "Value": "تحديث تأخير الاستجابة"
+  },
+  "Sense2Key_SelectedProfile_UpdateProfileNameBtn": {
+    "Value": "تحديث الاسم"
+  },
+  "SettingsPage_AppLabel": {
+    "Value": "تطبيق"
+  },
+  "SettingsPage_AppSettings_BorderColorLabel": {
+    "Value": "لون الحدود"
+  },
+  "SettingsPage_AppSettings_Border_AlphaLabel": {
+    "Value": "ألفا (الشفافية)"
+  },
+  "SettingsPage_AppSettings_Border_BlueLabel": {
+    "Value": "أزرق"
+  },
+  "SettingsPage_AppSettings_Border_GreenLabel": {
+    "Value": "أخضر"
+  },
+  "SettingsPage_AppSettings_Border_RedLabel": {
+    "Value": "أحمر"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundBlurLabel": {
+    "Value": "ضبابي"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundLabel": {
+    "Value": "صورة خلفية مخصصة"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundSelectImageBtn": {
+    "Value": "اختر صورة"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundStretchComboBoxLabel": {
+    "Value": "تمدّد"
+  },
+  "SettingsPage_AppSettings_DarkModeLabel": {
+    "Value": "الوضع الداكن"
+  },
+  "SettingsPage_AppSettings_KeepInTrayLabel": {
+    "Value": "احفظ التطبيق في الدرج عند تصغيره"
+  },
+  "SettingsPage_AppSettings_Label": {
+    "Value": "إعدادات التطبيق"
+  },
+  "SettingsPage_AppSettings_LanguageLabel": {
+    "Value": "اللغة"
+  },
+  "SettingsPage_AppSettings_LaunchMinimizedCheckmark": {
+    "Value": "التشغيل مصغرًا"
+  },
+  "SettingsPage_AppSettings_LaunchWindowsStartupLabel": {
+    "Value": "تشغيل DualSenseX عند بدء تشغيل النظام"
+  },
+  "SettingsPage_App_EnableDiscordRP": {
+    "Value": "تمكين التواجد الغني للديسكورد"
+  },
+  "SettingsPage_App_EnableDiscordRP_MightTakeAMin": {
+    "Value": "قد يستغرق الأمر ما يصل إلى دقيقة حتى يصبح ساري المفعول"
+  },
+  "SettingsPage_BackgroundLabel": {
+    "Value": "الخلفية"
+  },
+  "SettingsPage_BackgroundSettings_Label": {
+    "Value": "ضبط الخلفية"
+  },
+  "SettingsPage_BackgroundSettings_SelectedBtn": {
+    "Value": "تم الاختيار"
+  },
+  "SettingsPage_ControllerLabel": {
+    "Value": "وحدة التحكم"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault": {
+    "Value": "الصوت الافتراضي"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault_RefreshList": {
+    "Value": "إعادة تحميل القائمة"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Headset": {
+    "Value": "سماعة الرأس"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetLeft": {
+    "Value": "سماعة رأس اليسار"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetRight": {
+    "Value": "سماعة الرأس اليمنى"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_LeftMotor": {
+    "Value": "محرك الاهتزاز الأيسر"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_RightMotor": {
+    "Value": "المحرك الاهتزاز الأيمن"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Speaker": {
+    "Value": "مكبر الصوت"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem": {
+    "Value": "نظام صوت وحدة التحكم (USB فقط)"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_Headset": {
+    "Value": "سماعة الرأس"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_HeadsetVolume": {
+    "Value": "حجم سماعة الرأس"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_InternalSpeaker": {
+    "Value": "مكبر صوت داخلي"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_MicVolume": {
+    "Value": "صوت الميكروفون"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_OutputMode": {
+    "Value": "وضع إخراج الصوت"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerAndHeadset": {
+    "Value": "سماعة الرأس ومكبر الصوت الداخلي"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerVolume": {
+    "Value": "حجم مكبر الصوت"
+  },
+  "SettingsPage_ControllerSettings_AutoConnectWhenOpenLabel": {
+    "Value": "الاتصال التلقائي عند فتح DualSenseX"
+  },
+  "SettingsPage_ControllerSettings_ControllerMotorStrengthLabel": {
+    "Value": "ضبط قوة محرك الاهتزاز"
+  },
+  "SettingsPage_ControllerSettings_DisableVibrationControllerLabel": {
+    "Value": "تعطيل اهتزاز وحدة التحكم"
+  },
+  "SettingsPage_ControllerSettings_EnableAudioHaptics": {
+    "Value": "تمكين سماعات الصوت (USB فقط)"
+  },
+  "SettingsPage_ControllerSettings_EnableHidHide": {
+    "Value": "تمكين درايفر ( HidHide)"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble": {
+    "Value": "تمكين دمدمة المحرك المحسنة"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble2": {
+    "Value": "يتطلب إصدار البرنامج الثابت 0224 أو أعلى ليكون ساري المفعول"
+  },
+  "SettingsPage_ControllerSettings_EnableVibWhileDisabled": {
+    "Value": "تمكين الاهتزازات الواردة أثناء التعطيل"
+  },
+  "SettingsPage_ControllerSettings_KillSteamOnConnect": {
+    "Value": "وقف Steam عند الاتصال"
+  },
+  "SettingsPage_ControllerSettings_Label": {
+    "Value": "إعدادات وحدة التحكم"
+  },
+  "SettingsPage_ControllerSettings_LeftTriggerThreshold": {
+    "Value": "عتبة الزناد الأيسر"
+  },
+  "SettingsPage_ControllerSettings_LoadLastActiveTrigger": {
+    "Value": "تحميل آخر مشغل نشط عند البدء"
+  },
+  "SettingsPage_ControllerSettings_PlayLightShowOnConnect": {
+    "Value": "تشغيل عرض ضوئي عن الاتصال"
+  },
+  "SettingsPage_ControllerSettings_PressMicAndUpXboxGameBar": {
+    "Value": "اضغط على زر الميكروفون وسهم لأعلى لفتح شريط ألعاب Xbox"
+  },
+  "SettingsPage_ControllerSettings_PreviewLightshowBtn": {
+    "Value": "معاينة العرض الضوئي"
+  },
+  "SettingsPage_ControllerSettings_RightTriggerThreshold": {
+    "Value": "عتبة الزناد الأيمن"
+  },
+  "SettingsPage_ControllerSettings_SearchUntilControllerConnects": {
+    "Value": "البحث حتى اتصال وحدة التحكم"
+  },
+  "SettingsPage_ControllerSettings_TriggerThreshold": {
+    "Value": "عتبة الزناد"
+  },
+  "SettingsPage_ControllerSettings_UDPPortListen": {
+    "Value": "تمكين مستمع منفذ UDP"
+  },
+  "SettingsPage_ControllerSettings_UDPPortNumber": {
+    "Value": "رقم منفذ UDP للاستماع إليه"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions": {
+    "Value": "خيارات مزامنة وحدة التخزين"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_DontSync": {
+    "Value": "لا تقم بالمزامنة"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncAll": {
+    "Value": "مزامنة الكل"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftMotorRightMotor": {
+    "Value": "مزامنة المحرك الأيسر والمحرك الأيمن"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftRightSpeakers": {
+    "Value": "مزامنة مكبرات الصوت اليسرى واليمنى"
+  },
+  "SettingsPage_Controller_ControllerAudioButton": {
+    "Value": "صوت وحدة التحكم"
+  },
+  "SettingsPage_Controller_DriversButton": {
+    "Value": "الدرايفرز"
+  },
+  "SettingsPage_Controller_GyroAccelButton": {
+    "Value": "جيروسكوب/مقياس التسارع"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking": {
+    "Value": "إخفاء وحدة التحكم"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking_Description": {
+    "Value": "إخفاء وحدة التحكم المادية من التطبيقات الأخرى"
+  },
+  "SettingsPage_Controller_MiscellaneousButton": {
+    "Value": "متنوعة"
+  },
+  "SettingsPage_Controller_NetworkingButton": {
+    "Value": "الشبكات"
+  },
+  "SettingsPage_Controller_ShortcutsButton": {
+    "Value": "الاختصارات"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput": {
+    "Value": "استمع للإدخال"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Description": {
+    "Value": "اضغط على زر في وحدة التحكم للكشف"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_NotAllowed": {
+    "Value": "غير مسموح به"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Title": {
+    "Value": "كشف زر الإدخال"
+  },
+  "SettingsPage_Controller_Shortcuts_OpenXboxGameBar": {
+    "Value": "افتح إكس بوكس جيم بار كومبو"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBT": {
+    "Value": "إيقاف تشغيل وحدة التحكم (بلوتوث)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAuto": {
+    "Value": "إيقاف تشغيل وحدة التحكم التلقائي"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAutoHowTo": {
+    "Value": "كيف: تعطيل إيقاف التشغيل التلقائي لوحدة التحكم بالبخار"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTManual": {
+    "Value": "ضغط زر التحرير والسرد اليدوي"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTMinutes": {
+    "Value": "دقائق"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTNever": {
+    "Value": "أبداً"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTTimeElapsedSinceIdle": {
+    "Value": "الوقت المنقضي منذ الخمول:"
+  },
+  "SettingsPage_Controller_TouchpadButton": {
+    "Value": "لوحة اللمس"
+  },
+  "SettingsPage_Settings_CheckForUpdatesLabel": {
+    "Value": "التحقق من وجود تحديثات"
+  },
+  "SettingsPage_Settings_ResetAppDescription": {
+    "Value": "هل تريد بالتأكيد إعادة تعيين DualSenseX مرة أخرى إلى الإعدادات الافتراضية؟"
+  },
+  "SettingsPage_Settings_ResetAppLabel": {
+    "Value": "إعادة تعيين إعدادات التطبيق"
+  },
+  "SettingsPage_Settings_ResetAppYesButton": {
+    "Value": "إعادة تشغيل DualSenseX"
+  },
+  "SettingsPage_TouchToMouse_EnableTapAsLeftMouse": {
+    "Value": "تمكين النقر كزر الماوس الأيسر"
+  },
+  "SettingsPage_TouchToMouse_EnableTouchpadToMouse": {
+    "Value": "تحويل لوحة اللمس إلى الماوس"
+  },
+  "SettingsPage_TouchToMouse_FastSensiSpeed": {
+    "Value": "سرعة حساسية سريعة - زر الانتظار"
+  },
+  "SettingsPage_TouchToMouse_InvertScroll": {
+    "Value": "التمرير العكسي"
+  },
+  "SettingsPage_TouchToMouse_LeftClickHold": {
+    "Value": "انقر بزر الماوس الأيسر - اضغط على زر الاحتفاظ به في حالة الضغط"
+  },
+  "SettingsPage_TouchToMouse_NormalSensiSpeed": {
+    "Value": "سرعة الحساسية العادية"
+  },
+  "SettingsPage_TouchToMouse_RightClickHold": {
+    "Value": "انقر بزر الماوس الأيمن - اضغط مع الاستمرار ثم اضغط أو اضغط"
+  },
+  "SettingsPage_TouchToMouse_ScrollSpeed": {
+    "Value": "سرعة التمرير - اضغط بإصبعين ثم اسحب"
+  },
+  "SettingsPage_TouchToMouse_SlowSensiSpeed": {
+    "Value": "سرعة حساسية التباطؤ - زر الانتظار"
+  },
+  "SettingsPage_ViewReleaseNotesButton": {
+    "Value": "عرض ملاحظات الإصدار"
+  },
+  "SettingsPage_ViewSaveFileFolderButton": {
+    "Value": "عرض مجلد حفظ الملف"
+  },
+  "SetupScreen_AppAcentColor_Color": {
+    "Value": "اللون"
+  },
+  "SetupScreen_AppAcentColor_Preview": {
+    "Value": "معاينة"
+  },
+  "SetupScreen_AppAcentColor_Reset": {
+    "Value": "إعادة التعيين إلى لون تمييز النظام الافتراضي"
+  },
+  "SetupScreen_AppAcentColor_Title": {
+    "Value": "لون نقشة التطبيق"
+  },
+  "SetupScreen_EmualtionPicker_DownloadDriver": {
+    "Value": "تنزيل برنامج التشغيل"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_BothInstalled": {
+    "Value": "تم تثبيت كلا برامج التشغيل"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingForInstalledDrivers": {
+    "Value": "جاري التحقق من برامج التشغيل المثبتة..."
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingInstalledDrivers": {
+    "Value": "التحقق من برامج التشغيل المثبتة في"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4": {
+    "Value": "دول شوك 4 افتراضية"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4_Description": {
+    "Value": "سيقوم التطبيق بإنشاء وحدة تحكم DualShock 4 افتراضية لاستخدامها مع الألعاب التي تحتوي على دعم DualShock 4 الأصلي."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Checkbox": {
+    "Value": "برنامج تشغيل HidHide مثبت"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Description": {
+    "Value": "يسمح HidHide للتطبيق بإخفاء وحدة التحكم الفعلية عند محاكاة جهاز ظاهري. يتم استخدامه لتجنب المدخلات المزدوجة من وحدة التحكم الافتراضية والمادية ودعونا لعبة أو برنامج نرى وحدة التحكم الافتراضية فقط."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_SystemRestart": {
+    "Value": "* يتطلب إعادة تشغيل النظام"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation": {
+    "Value": "بدون مضاهاة"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation_Description": {
+    "Value": "سيتواصل التطبيق فقط مع وحدة التحكم دون إنشاء وحدة تحكم افتراضية."
+  },
+  "SetupScreen_EmualtionPicker_Title": {
+    "Value": "برامج التشغيل ونوع المحاكاة"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Checkbox": {
+    "Value": "برنامج تشغيل Vigem مثبت"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Description": {
+    "Value": "يتيح برنامج Vigem Bus Driver استخدام جهاز ظاهري يحاكي الأصل كما لو كان متصلاً فعليًا. مثال:"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360": {
+    "Value": "إكس بوكس 360 الافتراضية (موصى به)"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360_Description": {
+    "Value": "سيقوم التطبيق بإنشاء وحدة تحكم Xbox 360 افتراضية لاستخدامها مع الألعاب التي تحتوي على دعم Xbox Controller الأصلي."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInput": {
+    "Value": "من أجل التعرف على وحدة التحكم، يجب تعطيل Steam Input."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInputCheckbox": {
+    "Value": "لقد قمت بتعطيل إدخاليات Steam"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlay": {
+    "Value": "لكي لا يحتوي التطبيق على أي خلل في الرسوم، يجب تعطيل التراكب."
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlayCheckbox": {
+    "Value": "لقد قمت بتعطيل تراكب البخار"
+  },
+  "SetupScreen_SteamSetup_Title": {
+    "Value": "إعداد ستيم"
+  },
+  "SetupScreen_SteamSetup_Title2": {
+    "Value": "تعطيل إدخاليات ستيم في خصائص DSX"
+  },
+  "SetupScreen_SteamSetup_Title2_Subtitle": {
+    "Value": "يجب أن يتم ذلك بسبب Steam API."
+  }
+}

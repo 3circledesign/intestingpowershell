@@ -1,0 +1,1079 @@
+{
+  "AppCommandArgs_FileLocationNotFound": {
+    "Value": "שם המשחק נמצא, אבל מיקום המשחק לא נמצא"
+  },
+  "AppCommandArgs_GameNameNotFound": {
+    "Value": "שם המשחק לא נמצא, אבל מיקום המשחק נמצא"
+  },
+  "AppCommandArgs_NoParamersFound": {
+    "Value": "לא נמצאו פרמטרים"
+  },
+  "AppCommandArgs_Playing": {
+    "Value": "משחק כרגע:"
+  },
+  "AppNotificationLabel_AutoConnectedToController": {
+    "Value": "מחובר אוטומטית לבקר!"
+  },
+  "AppNotificationLabel_AutoConnectingToController": {
+    "Value": "מתחבר אוטומטית לבקר"
+  },
+  "AppNotificationLabel_ConnectedToController": {
+    "Value": "מחובר לבקר!"
+  },
+  "AppNotificationLabel_ConnectionLost": {
+    "Value": "החיבור אבד, מחפש בקר..."
+  },
+  "AppNotificationLabel_ConnectionLostAttemptingToRconnect": {
+    "Value": "החיבור אבד, מנסה להתחבר מחדש"
+  },
+  "AppNotificationLabel_FailedToAutoConnect": {
+    "Value": "נכשל להתחבר אוטומטית, אנא בדוק את החיבור!"
+  },
+  "AppNotificationLabel_FailedToRconnect": {
+    "Value": "החיבור מחדש נכשל, אנא בדוק את החיבור!"
+  },
+  "AppNotificationLabel_ReconnectedToController": {
+    "Value": "התחבר מחדש לבקר!"
+  },
+  "AppNotificationLabel_SearchingForController": {
+    "Value": "מחפש בקר..."
+  },
+  "AppNotificationPopUp_AreYouSureYouWantToExit": {
+    "Value": "האם אתה בטוח שברצונך לצאת?"
+  },
+  "AppNotificationPopUp_Cancel": {
+    "Value": "ביטול"
+  },
+  "AppNotificationPopUp_DownloadUpdate": {
+    "Value": "מוריד עדכון…"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsDualShock4": {
+    "Value": "בשלט ה-DualSense לא יזוהה כשלט DualShock 4!"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsXbox": {
+    "Value": "שלט ה-DualSense לא יזוהה כשלט Xbox!"
+  },
+  "AppNotificationPopUp_Exit": {
+    "Value": "יציאה"
+  },
+  "AppNotificationPopUp_Later": {
+    "Value": "מאוחר יותר"
+  },
+  "AppNotificationPopUp_MissingDriver_ConnectToController": {
+    "Value": "התחבר לבקר"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadAndInstall": {
+    "Value": "הורדה והתקנה של מנהלי התקנים"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadingAndInstalling": {
+    "Value": "הורדה והתקנה של מנהל התקן..."
+  },
+  "AppNotificationPopUp_MissingDriver_FollowViGEmBusInstructions": {
+    "Value": "אנא עקבו אחר ההוראות המוצגות של ViGEmBus"
+  },
+  "AppNotificationPopUp_MissingDriver_OnceFinishedInstalling": {
+    "Value": "לאחר סיום התקנת מנהל ההתקן, ניתן להתחבר לבקר שלך."
+  },
+  "AppNotificationPopUp_MissingDriver_Uh-oh": {
+    "Value": "אוי ואבוי!"
+  },
+  "AppNotificationPopUp_MissingDriver_YouDontHaveViGEmBusDriverse": {
+    "Value": "נראה כאילו אין לך מנהלי התקנים ViGEmBus מותקנים"
+  },
+  "AppNotificationPopUp_UpdateAvailable": {
+    "Value": "קיים עדכון!"
+  },
+  "AppNotificationPopUp_UpdateAvailable_InstallIt": {
+    "Value": "האם ברצונך להתקין?"
+  },
+  "AppNotificationPopUp_UpdateProccess_CurrentVersion": {
+    "Value": "גרסה נוכחית:"
+  },
+  "AppNotificationPopUp_UpdateProccess_DownloadingUpdate": {
+    "Value": "מוריד עדכון…"
+  },
+  "AppNotificationPopUp_UpdateProccess_ExtractingUpdate": {
+    "Value": "מחלץ עדכון..."
+  },
+  "AppNotificationPopUp_UpdateProccess_FetchingUpdate": {
+    "Value": "מייבא עדכון..."
+  },
+  "AppNotificationPopUp_UpdateProccess_InstallingUpdate": {
+    "Value": "מתקין עדכון…"
+  },
+  "AppNotificationPopUp_UpdateProccess_PleaseRestartToApplyUpdate": {
+    "Value": "אנא בצע הפעלה מחדש כדי להחיל עדכון זה"
+  },
+  "AppNotificationPopUp_UpdateProccess_Restart": {
+    "Value": "הפעלה מחדש"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateInstalled": {
+    "Value": "עדכון הותקן"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateVersion": {
+    "Value": "גרסת עדכון:"
+  },
+  "AppNotificationPopUp_Yes": {
+    "Value": "כן"
+  },
+  "App_DriversNotInstalledPopup_Title": {
+    "Value": "מנהלי התקנים חסרים"
+  },
+  "App_ExportTriggersPopUp_BothTriggersBtn": {
+    "Value": "שני טריגרים"
+  },
+  "App_ExportTriggersPopUp_Description": {
+    "Value": "אנא בחרו אחת מהאפשרויות למטה"
+  },
+  "App_ExportTriggersPopUp_Title": {
+    "Value": "ייצוא טריגרים"
+  },
+  "App_VigemDriverNotInstalled_TextBox": {
+    "Value": "אנא התקן את מנהלי ההתקנים החסרים"
+  },
+  "ControllerPage_AdvancedInfoButton": {
+    "Value": "מידע מתקדם"
+  },
+  "ControllerPage_AdvancedInfoConnectToView": {
+    "Value": "אנא חבר את הבקר כדי להציג מידע מתקדם"
+  },
+  "ControllerPage_BatteryLevelLabel": {
+    "Value": "רמת מתח בסוללה:"
+  },
+  "ControllerPage_ConnectionTypeLabel": {
+    "Value": "סוג חיבור:"
+  },
+  "ControllerPage_ConnectionType_Connected": {
+    "Value": "מחובר"
+  },
+  "ControllerPage_ConnectionType_NotConnected": {
+    "Value": "לא מחובר"
+  },
+  "ControllerPage_InputButton": {
+    "Value": "קלט"
+  },
+  "ControllerPage_LeftJoyStickLabel": {
+    "Value": "ג'ויסטיק שמאלי"
+  },
+  "ControllerPage_RemappingButton": {
+    "Value": "מיפוי מחדש"
+  },
+  "ControllerPage_RightJoyStickLabel": {
+    "Value": "ג'ויסטיק ימני"
+  },
+  "ControllerPage_UseXboxLabels": {
+    "Value": "השתמש בתוויות של Xbox"
+  },
+  "DualSense_BatteryState_AbnormalTemperture": {
+    "Value": "טמפרטורה חריגה"
+  },
+  "DualSense_BatteryState_AbnormalVoltage": {
+    "Value": "מתח לא תקין"
+  },
+  "DualSense_BatteryState_Charging": {
+    "Value": "טעינה"
+  },
+  "DualSense_BatteryState_ChargingError": {
+    "Value": "שגיאת טעינה"
+  },
+  "DualSense_BatteryState_Complete": {
+    "Value": "הושלם"
+  },
+  "DualSense_BatteryState_Discharging": {
+    "Value": "פריקת מתח"
+  },
+  "GamesPage_ItemViewScreenshot": {
+    "Value": "צילום מסך"
+  },
+  "GamesPage_ModInfo": {
+    "Value": "מידע מוד"
+  },
+  "GamesPage_ModsButton": {
+    "Value": "תוספים (Mods)"
+  },
+  "GamesPage_ModsSearchBoxPlaceholder": {
+    "Value": "סנן לפי שם מוד, שם משחק או מחבר"
+  },
+  "GamesPage_Mods_Disclaimer": {
+    "Value": "כתב הגבלת אחריות"
+  },
+  "GamesPage_Mods_DisclaimerDescription": {
+    "Value": "אל תשתמש במודים אלו במשחקים מקוונים כדי להימנע מחסימת פרופיל, פעולה זו תהיה על אחריותך בלבד. DSX לא תחזיק באחריות לשימוש במודים אלו."
+  },
+  "GamesPage_Mods_ModAuthor": {
+    "Value": "יוצר:"
+  },
+  "GamesPage_Mods_ModGame": {
+    "Value": "משחק:"
+  },
+  "GamesPage_Mods_ModName": {
+    "Value": "שם:"
+  },
+  "GamesPage_Mods_ViewModButton": {
+    "Value": "צפה במוד"
+  },
+  "GamsPage_GameImageLoadingLabel": {
+    "Value": "טוען תמונה..."
+  },
+  "GamsPage_GameListStatusOne_FetchingGameList": {
+    "Value": "מביא רשימת משחקים..."
+  },
+  "GamsPage_GameListStatusOne_NoGamesAdded": {
+    "Value": "לא נוספו משחקים"
+  },
+  "GamsPage_GameListStatusTwo_CheckBackLater": {
+    "Value": "אנא בדוק שוב מאוחר יותר!"
+  },
+  "GamsPage_GameListStatusTwo_PleaseWait": {
+    "Value": "אנא המתן…"
+  },
+  "GamsPage_GameTagsLabel": {
+    "Value": "תגיות"
+  },
+  "GamsPage_GameViewGameBtn": {
+    "Value": "צפה במשחק"
+  },
+  "GamsPage_GamesLabel": {
+    "Value": "משחקים"
+  },
+  "GamsPage_SearchbarPlaceholder": {
+    "Value": "חיפוש משחקים לפי שם או תגית"
+  },
+  "GeneralStuff_Button": {
+    "Value": "כפתור"
+  },
+  "GeneralStuff_CloseButton": {
+    "Value": "סגירה"
+  },
+  "GeneralStuff_ConfirmButton": {
+    "Value": "אישור"
+  },
+  "GeneralStuff_Sensitivity": {
+    "Value": "רגישות"
+  },
+  "GeneralStuff_UnableToStartDSX": {
+    "Value": "לא ניתן להפעיל את DSX"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionOne": {
+    "Value": "אנא ודא ש- Steam פועל והאפליקציה מותקנת בספריה שלך. אם בעיה זו נמשכת, התקן מחדש את DSX באמצעות Steam."
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionTwo": {
+    "Value": "לא ניתן לאחזר תרגומים. אנא ודא ש- Steam פועל, יש לך חיבור אינטרנט פעיל והאפליקציה מותקנת בספריה שלך. אם בעיה זו נמשכת, התקן מחדש את DSX באמצעות Steam."
+  },
+  "HomePage_AdaptiveTriggers": {
+    "Value": "טריגרים אדפטיביים (Adaptive Triggers)"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger": {
+    "Value": "טריגר שמאלי"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger_ApplyButton": {
+    "Value": "החל טריגר שמאלי"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger": {
+    "Value": "טריגר ימני"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger_ApplyButton": {
+    "Value": "החל טריגר ימני"
+  },
+  "HomePage_AdaptiveTriggers_TriggerMode": {
+    "Value": "מצב טריגר"
+  },
+  "HomePage_ApplyModeLabel": {
+    "Value": "החל מצב"
+  },
+  "HomePage_ApplyMode_ApplyBtn": {
+    "Value": "החל"
+  },
+  "HomePage_ApplyMode_BothTriggerMotorLabel": {
+    "Value": "טריגר/מנוע ביחד"
+  },
+  "HomePage_ApplyMode_LeftTriggerMotorLabel": {
+    "Value": "טריגר/מנוע שמאל"
+  },
+  "HomePage_ApplyMode_RightTriggerMotorLabel": {
+    "Value": "טריגר/מנוע ימין"
+  },
+  "HomePage_BatteryStatus": {
+    "Value": "מצב סוללה"
+  },
+  "HomePage_ConnectionStatusLabel": {
+    "Value": "מצב חיבור"
+  },
+  "HomePage_ConnectionStatus_ConnectControllerBtn": {
+    "Value": "חבר בקר"
+  },
+  "HomePage_ConnectionStatus_EmulationType_ComboboxLabel": {
+    "Value": "אמולציית בקר:"
+  },
+  "HomePage_ConnectionStatus_EmulationType_Emulating360": {
+    "Value": "מבצע אמולציה של Xbox 360"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingDS4": {
+    "Value": "מבצע אמולציה של DualShock 4"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingNone": {
+    "Value": "לא מבצע אמולציה"
+  },
+  "HomePage_ConnectionStatus_Status_AutoConnectingToController": {
+    "Value": "מתחבר אוטומטית לבקר..."
+  },
+  "HomePage_ConnectionStatus_Status_Connecting": {
+    "Value": "מתחבר…"
+  },
+  "HomePage_ConnectionStatus_Status_ConnectionLostAttemptingToReconnect": {
+    "Value": "החיבור אבד, מנסה להתחבר מחדש..."
+  },
+  "HomePage_ConnectionStatus_Status_ControllerConnected": {
+    "Value": "בקר מחובר"
+  },
+  "HomePage_ConnectionStatus_Status_FailedToConnect": {
+    "Value": "נכשל להתחבר, אנא בדוק את החיבור!"
+  },
+  "HomePage_ConnectionStatus_Status_SearchingForController": {
+    "Value": "מחפש בקר..."
+  },
+  "HomePage_ConnectionStatus_Status_ShuttingDownApp": {
+    "Value": "כיבוי יישום..."
+  },
+  "HomePage_ControllerLEDLabel": {
+    "Value": "נורת לד של הבקר"
+  },
+  "HomePage_ControllerLED_BrightnessLabel": {
+    "Value": "בהירות"
+  },
+  "HomePage_ControllerLED_ColorModeBtn": {
+    "Value": "מצב צבע"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlash": {
+    "Value": "הפעל פלאש"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlashWhenBattery": {
+    "Value": "הפעל פלאש כאשר הסוללה נמוכה מ (%)"
+  },
+  "HomePage_ControllerLED_ColorMode_Breathing_RandomColorCycle": {
+    "Value": "מחזור צבע אקראי"
+  },
+  "HomePage_ControllerLED_ColorMode_RainbowLabel": {
+    "Value": "קשת בענן"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_AutoReverse": {
+    "Value": "קשת הפוכה (צבעים מתחלפים)"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowMultiplier": {
+    "Value": "מהירות הכפלת הצבעים"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowSpeed": {
+    "Value": "מהירות קשת בענן"
+  },
+  "HomePage_ControllerLED_ColorMode_Speed": {
+    "Value": "מהירות"
+  },
+  "HomePage_ControllerLED_ColorMode_StaticColorLabel": {
+    "Value": "צבע סטטי"
+  },
+  "HomePage_ControllerLED_MicLEDLabel": {
+    "Value": "נורת לד של מיקרופון"
+  },
+  "HomePage_ControllerLED_MicLED_OffBtn": {
+    "Value": "כבוי"
+  },
+  "HomePage_ControllerLED_MicLED_OnBtn": {
+    "Value": "פועל"
+  },
+  "HomePage_ControllerLED_MicLED_PulseBtn": {
+    "Value": "פעימות"
+  },
+  "HomePage_ControllerLED_PlayerLEDLabel": {
+    "Value": "נורות הלד התחתונות"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOffBtn": {
+    "Value": "הכל מכובה"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOnBtn": {
+    "Value": "הכל מופעל"
+  },
+  "HomePage_ControllerLED_PlayerLED_Battery": {
+    "Value": "סוללה"
+  },
+  "HomePage_ControllerLED_PlayerLED_Breathing": {
+    "Value": "נשימה"
+  },
+  "HomePage_ControllerLED_PlayerLED_CustomBtn": {
+    "Value": "התאמה אישית"
+  },
+  "HomePage_ControllerLED_PlayerLED_DS4Passthrough": {
+    "Value": "נורת duelshock 4"
+  },
+  "HomePage_ControllerLED_PlayerLED_FiveBtn": {
+    "Value": "חמש"
+  },
+  "HomePage_ControllerLED_PlayerLED_FlashWhileCharging": {
+    "Value": "הבהב בזמן טעינה"
+  },
+  "HomePage_ControllerLED_PlayerLED_FourBtn": {
+    "Value": "ארבע"
+  },
+  "HomePage_ControllerLED_PlayerLED_HighBrightnessBtn": {
+    "Value": "גבוה"
+  },
+  "HomePage_ControllerLED_PlayerLED_LowBrightnessBtn": {
+    "Value": "נמוכה"
+  },
+  "HomePage_ControllerLED_PlayerLED_MediumBrightnessBtn": {
+    "Value": "בינונית"
+  },
+  "HomePage_ControllerLED_PlayerLED_OneBtn": {
+    "Value": "אחד"
+  },
+  "HomePage_ControllerLED_PlayerLED_Strobing": {
+    "Value": "הבהוב"
+  },
+  "HomePage_ControllerLED_PlayerLED_ThreeBtn": {
+    "Value": "שלוש"
+  },
+  "HomePage_ControllerLED_PlayerLED_TwoBtn": {
+    "Value": "שתיים"
+  },
+  "HomePage_ControllerLED_RainbowSpeedLabel": {
+    "Value": "מהירות קשת בענן"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Fast": {
+    "Value": "מהירה"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Hyper": {
+    "Value": "נמרצת/הייפר"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Medium": {
+    "Value": "בינונית"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Slow": {
+    "Value": "איטית"
+  },
+  "HomePage_ControllerLED_TouchPadLEDLabel": {
+    "Value": "לד של לוח מגע"
+  },
+  "HomePage_ControllerModeLabel": {
+    "Value": "מצב בקר"
+  },
+  "HomePage_ControllerMode_IntensityLabel": {
+    "Value": "עוצמה"
+  },
+  "HomePage_ControllerMode_ModeLabel": {
+    "Value": "מצב"
+  },
+  "HomePage_ControllerMode_RandomizeModeAndValues": {
+    "Value": "מצב אקראי + ערכים"
+  },
+  "HomePage_ControllerMode_RandomizeValues": {
+    "Value": "ערכים אקראיים"
+  },
+  "HomePage_ControllerMode_VibrationDurationLabel": {
+    "Value": "משך רטט (שניות)"
+  },
+  "HomePage_ControllerVibration": {
+    "Value": "רטט בקר"
+  },
+  "HomePage_ExportTriggers": {
+    "Value": "ייצוא הטריגרים"
+  },
+  "HomePage_ExportTriggers_CopyToClipboard": {
+    "Value": "העתקה ללוח"
+  },
+  "HomePage_ExportTriggers_ExportForTextfile": {
+    "Value": "ייצוא לקובץ טקסט"
+  },
+  "HomePage_ExportTriggers_ExportForUDP": {
+    "Value": "ייצוא אל UDP"
+  },
+  "HomePage_GameLabel": {
+    "Value": "משחק"
+  },
+  "HomePage_TextFileLabel": {
+    "Value": "קובץ טקסט"
+  },
+  "HomePage_TextFile_FileLocationLabel": {
+    "Value": "מיקום קובץ:"
+  },
+  "HomePage_TextFile_SlectFileBtn": {
+    "Value": "בחר מיקום קובץ טקסט"
+  },
+  "HomePage_TextFile_StatusActiveLabel": {
+    "Value": "פעיל"
+  },
+  "HomePage_TextFile_StatusLabel": {
+    "Value": "מצב:"
+  },
+  "HomePage_TextFile_StatusNoMatchingTriggerValuesLabel": {
+    "Value": "פעיל - לא נמצאו ערכי טריגר תואמים בקובץ הטקסט!"
+  },
+  "HomePage_TextFile_StatusNotActiveDoesNotExistLabel": {
+    "Value": "לא פעיל - הקובץ שנבחר אינו קיים!"
+  },
+  "HomePage_TextFile_StatusNotActiveLabel": {
+    "Value": "לא פעיל"
+  },
+  "HomePage_TextFile_StatusNotActiveNoFileSelectedLabel": {
+    "Value": "לא פעיל - לא נבחר קובץ!"
+  },
+  "HomePage_TextFile_StatusNotActiveNotATextFileLabel": {
+    "Value": "לא פעיל - זה אינו קובץ טקסט, אנא לנסות שוב!"
+  },
+  "HomePage_TextFile_StopReadingBtn": {
+    "Value": "הפסיק לקרוא קובץ טקסט"
+  },
+  "HomePage_TextfileStatus": {
+    "Value": "סטטוס קובץ טקסט:"
+  },
+  "HomePage_UdpStatus": {
+    "Value": "מצב UDP:"
+  },
+  "InfoPage_CrashesOrBugsLabel": {
+    "Value": "קריסות או באגים?"
+  },
+  "InfoPage_Donate": {
+    "Value": "לתרום"
+  },
+  "InfoPage_JoinDiscordLabel": {
+    "Value": "הצטרפות לקהילת דיסקורד"
+  },
+  "InfoPage_MoreInfoGitHubLabel": {
+    "Value": "מידע נוסף ב-GitHub"
+  },
+  "InfoPage_Social": {
+    "Value": "רשתות חברתיות"
+  },
+  "MenuGames_Label": {
+    "Value": "משחקים"
+  },
+  "MenuHome_Label": {
+    "Value": "ראשי"
+  },
+  "MenuInfo_Label": {
+    "Value": "מידע"
+  },
+  "MenuInput_Label": {
+    "Value": "בקר"
+  },
+  "MenuSense2Key_Label": {
+    "Value": "Sense2Key"
+  },
+  "MenuSettings_JoinBtn": {
+    "Value": "הצטרפות"
+  },
+  "MenuSettings_Label": {
+    "Value": "הגדרות"
+  },
+  "MenuSettings_SubmitIssueBtn": {
+    "Value": "דיווח על בעיה"
+  },
+  "MenuSettings_VisitBtn": {
+    "Value": "ביקור"
+  },
+  "MenuWorkshop_Label": {
+    "Value": "סדנה"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartEight": {
+    "Value": "אנא התקן את כלי עדכון הקושחה הרשמי של Sony כדי לעדכן את הבקר שלך."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFive": {
+    "Value": "תקן באג קריאת הסוללה של DualSense"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFour": {
+    "Value": "כדאי תמיד לעדכן לגרסה העדכנית ביותר מסיבות אלה:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartNine": {
+    "Value": "הערה: בעת העדכון, לוודא ש- DSX סגור כדי למנוע בעיות במשך התהליך."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartOne": {
+    "Value": "קיימת גרסת קושחה חדשה זמינה עבור בקר ה-DualSense שלך."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSeven": {
+    "Value": "תיקונים ושיפורים שונים"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSix": {
+    "Value": "שיפור רטט רגיל (למשחקים ישנים)"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartThree": {
+    "Value": "‏גרסה חדשה:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartTwo": {
+    "Value": "גרסה נוכחית:"
+  },
+  "NewFirmwareVersionAvailablePopup_Title": {
+    "Value": "גרסת קושחה חדשה של DualSense זמינה"
+  },
+  "NewFirmwareVersionAvailablePopup_ViewToolButton": {
+    "Value": "צפייה בכלי עדכון הקושחה"
+  },
+  "Sense2Key_Configuration_HelpLabel1": {
+    "Value": "בחר מהתפריט הנפתח או הקש על מקש במקלדת"
+  },
+  "Sense2Key_Configuration_HelpLabel2": {
+    "Value": "כאשר התפריט הנפתח נבחר"
+  },
+  "Sense2Key_Configuration_SaveConfigurationBtn": {
+    "Value": "שמירת הגדרות"
+  },
+  "Sense2Key_CreateProfileBtn": {
+    "Value": "יצירת פרופיל"
+  },
+  "Sense2Key_DeleteProfileBtn": {
+    "Value": "מחיקה"
+  },
+  "Sense2Key_ExportProfileBtn": {
+    "Value": "ייצוא פרופיל"
+  },
+  "Sense2Key_GetStartedLabel": {
+    "Value": "התחל על ידי יצירת פרופיל חדש"
+  },
+  "Sense2Key_ImportProfileBtn": {
+    "Value": "ייבוא פרופיל"
+  },
+  "Sense2Key_NewProfile_CancelBtn": {
+    "Value": "ביטול"
+  },
+  "Sense2Key_NewProfile_SaveNewProfilelBtn": {
+    "Value": "שמירת פרופיל חדש"
+  },
+  "Sense2Key_NoProfilesAdded": {
+    "Value": "לא נוספו פרופילים"
+  },
+  "Sense2Key_ProfileStatus_DelayCannotBeNegative": {
+    "Value": "ערך עיכוב לא יכול להיות שלילי"
+  },
+  "Sense2Key_ProfileStatus_DelayCantBeEmpty": {
+    "Value": "ערך עיכוב לא יכול להיות ריק"
+  },
+  "Sense2Key_ProfileStatus_DelayUpdated": {
+    "Value": "ערך עיכוב עודכן"
+  },
+  "Sense2Key_ProfileStatus_ProfileCreated": {
+    "Value": "נוצר פרופיל"
+  },
+  "Sense2Key_ProfileStatus_ProfileExists": {
+    "Value": "הפרופיל כבר קיים"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameCantBeEmpty": {
+    "Value": "שם הפרופיל לא יכול להיות ריק"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameUpdated": {
+    "Value": "שם הפרופיל עודכן"
+  },
+  "Sense2Key_ProfilesLabel": {
+    "Value": "פרופילים"
+  },
+  "Sense2Key_ProfilesWillShowHere": {
+    "Value": "הפרופילים שלך יופיעו כאן"
+  },
+  "Sense2Key_SelectedProfile_DelayLabel": {
+    "Value": "עיכוב (אלפיות השנייה)"
+  },
+  "Sense2Key_SelectedProfile_DetailsLabel": {
+    "Value": "פרטים"
+  },
+  "Sense2Key_SelectedProfile_EditConfigurationBtn": {
+    "Value": "עריכת הגדרות"
+  },
+  "Sense2Key_SelectedProfile_EnterProfileNamePlaceholder": {
+    "Value": "הכנס שם פרופיל"
+  },
+  "Sense2Key_SelectedProfile_ProfileNameLabel": {
+    "Value": "שם פרופיל"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_Active": {
+    "Value": "מצב: פרופיל פעיל"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_NotActive": {
+    "Value": "מצב: פרופיל לא פעיל"
+  },
+  "Sense2Key_SelectedProfile_StartBtn": {
+    "Value": "התחל"
+  },
+  "Sense2Key_SelectedProfile_StopBtn": {
+    "Value": "עצור"
+  },
+  "Sense2Key_SelectedProfile_UpdateDelayBtn": {
+    "Value": "עדכון ערך עיכוב"
+  },
+  "Sense2Key_SelectedProfile_UpdateProfileNameBtn": {
+    "Value": "עדכון שם"
+  },
+  "SettingsPage_AppLabel": {
+    "Value": "אפליקציה"
+  },
+  "SettingsPage_AppSettings_BorderColorLabel": {
+    "Value": "צבע גבול"
+  },
+  "SettingsPage_AppSettings_Border_AlphaLabel": {
+    "Value": "אלפא (שקיפות)"
+  },
+  "SettingsPage_AppSettings_Border_BlueLabel": {
+    "Value": "כחול"
+  },
+  "SettingsPage_AppSettings_Border_GreenLabel": {
+    "Value": "ירוק"
+  },
+  "SettingsPage_AppSettings_Border_RedLabel": {
+    "Value": "אדום"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundBlurLabel": {
+    "Value": "טשטוש"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundLabel": {
+    "Value": "תמונת רקע מותאמת אישית"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundSelectImageBtn": {
+    "Value": "בחירת תמונה"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundStretchComboBoxLabel": {
+    "Value": "למתוח"
+  },
+  "SettingsPage_AppSettings_DarkModeLabel": {
+    "Value": "מצב כהה"
+  },
+  "SettingsPage_AppSettings_KeepInTrayLabel": {
+    "Value": "שמור את האפליקציה בשורת המשימות כשממוזער"
+  },
+  "SettingsPage_AppSettings_Label": {
+    "Value": "הגדרות אפליקציה"
+  },
+  "SettingsPage_AppSettings_LanguageLabel": {
+    "Value": "שפה"
+  },
+  "SettingsPage_AppSettings_LaunchMinimizedCheckmark": {
+    "Value": "התחל ממוזער"
+  },
+  "SettingsPage_AppSettings_LaunchWindowsStartupLabel": {
+    "Value": "התחל עם הפעלת וינדוס"
+  },
+  "SettingsPage_App_EnableDiscordRP": {
+    "Value": "אפשר נוכחות עשירה של דיסקורד"
+  },
+  "SettingsPage_App_EnableDiscordRP_MightTakeAMin": {
+    "Value": "עלול לקחת עד דקה כדי שייכנס לתוקף"
+  },
+  "SettingsPage_BackgroundLabel": {
+    "Value": "רקע"
+  },
+  "SettingsPage_BackgroundSettings_Label": {
+    "Value": "הגדרות רקע"
+  },
+  "SettingsPage_BackgroundSettings_SelectedBtn": {
+    "Value": "נבחר"
+  },
+  "SettingsPage_ControllerLabel": {
+    "Value": "בקר"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault": {
+    "Value": "שמע ברירת מחדל"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault_RefreshList": {
+    "Value": "רענון רשימה"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Headset": {
+    "Value": "אוזניות"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetLeft": {
+    "Value": "אוזניות שמאליות"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetRight": {
+    "Value": "אוזניות ימניות"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_LeftMotor": {
+    "Value": "מנוע שמאלי"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_RightMotor": {
+    "Value": "מנוע ימני"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Speaker": {
+    "Value": "רמקול"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem": {
+    "Value": "מערכת שמע של הבקר (USB בלבד)"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_Headset": {
+    "Value": "אוזניות"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_HeadsetVolume": {
+    "Value": "עוצמת שמע של האוזניות"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_InternalSpeaker": {
+    "Value": "רמקול פנימי"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_MicVolume": {
+    "Value": "עוצמת מיקרופון"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_OutputMode": {
+    "Value": "מצב פלט שמע"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerAndHeadset": {
+    "Value": "אוזניות ורמקול פנימי"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerVolume": {
+    "Value": "עוצמת שמע של הרמקול"
+  },
+  "SettingsPage_ControllerSettings_AutoConnectWhenOpenLabel": {
+    "Value": "התחבר אוטומטית עם פתיחת האפליקציה"
+  },
+  "SettingsPage_ControllerSettings_ControllerMotorStrengthLabel": {
+    "Value": "כיוונן חוזק המנוע"
+  },
+  "SettingsPage_ControllerSettings_DisableVibrationControllerLabel": {
+    "Value": "השבתת רטט בקר"
+  },
+  "SettingsPage_ControllerSettings_EnableAudioHaptics": {
+    "Value": "הפעל את חיווי של שמע (USB בלבד)"
+  },
+  "SettingsPage_ControllerSettings_EnableHidHide": {
+    "Value": "אפשר HidHide"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble": {
+    "Value": "אפשר רטט מנוע משופר"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble2": {
+    "Value": "דורש גרסת קושחה 0224 ומעלה כדי להיות בתוקף"
+  },
+  "SettingsPage_ControllerSettings_EnableVibWhileDisabled": {
+    "Value": "אפשר רטט נכנס כאשר מושבת"
+  },
+  "SettingsPage_ControllerSettings_KillSteamOnConnect": {
+    "Value": "הרוג את Steam כשמתחבר"
+  },
+  "SettingsPage_ControllerSettings_Label": {
+    "Value": "הגדרות בקר"
+  },
+  "SettingsPage_ControllerSettings_LeftTriggerThreshold": {
+    "Value": "סף טריגר שמאלי"
+  },
+  "SettingsPage_ControllerSettings_LoadLastActiveTrigger": {
+    "Value": "טען את הטריגר הפעיל האחרון בהפעלה"
+  },
+  "SettingsPage_ControllerSettings_PlayLightShowOnConnect": {
+    "Value": "הצג מופע אור כשמתחבר"
+  },
+  "SettingsPage_ControllerSettings_PressMicAndUpXboxGameBar": {
+    "Value": "לחיצה על כפתורי מיקרופון+למעלה כדי לפתוח את סרגל המשחקים של Xbox"
+  },
+  "SettingsPage_ControllerSettings_PreviewLightshowBtn": {
+    "Value": "תצוגה מקדימה של מופע אור"
+  },
+  "SettingsPage_ControllerSettings_RightTriggerThreshold": {
+    "Value": "סף טריגר ימני"
+  },
+  "SettingsPage_ControllerSettings_SearchUntilControllerConnects": {
+    "Value": "חפש עד שהבקר מתחבר"
+  },
+  "SettingsPage_ControllerSettings_TriggerThreshold": {
+    "Value": "סף טריגר"
+  },
+  "SettingsPage_ControllerSettings_UDPPortListen": {
+    "Value": "אפשר האזנה לפורט UDP"
+  },
+  "SettingsPage_ControllerSettings_UDPPortNumber": {
+    "Value": "יציאת UDP להאזנה"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions": {
+    "Value": "אפשרויות סנכרון עוצמת קול"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_DontSync": {
+    "Value": "אל תסנכרן"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncAll": {
+    "Value": "סנכרן הכל"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftMotorRightMotor": {
+    "Value": "סנכרון מנוע שמאלי וימיני"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftRightSpeakers": {
+    "Value": "סנכרן רמקולים שמאליים וימניים"
+  },
+  "SettingsPage_Controller_ControllerAudioButton": {
+    "Value": "אודיו בקר"
+  },
+  "SettingsPage_Controller_DriversButton": {
+    "Value": "מנהלי התקנים"
+  },
+  "SettingsPage_Controller_GyroAccelButton": {
+    "Value": "ג'ירוסקופ/תאוצה"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking": {
+    "Value": "הסוואת בקר"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking_Description": {
+    "Value": "הסתר את הבקר הפיזי מיישומים אחרים"
+  },
+  "SettingsPage_Controller_MiscellaneousButton": {
+    "Value": "שונות"
+  },
+  "SettingsPage_Controller_NetworkingButton": {
+    "Value": "רשתות"
+  },
+  "SettingsPage_Controller_ShortcutsButton": {
+    "Value": "קיצורי דרך"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput": {
+    "Value": "האזן לקלט"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Description": {
+    "Value": "לחץ על כפתור בבקר כדי לזהות"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_NotAllowed": {
+    "Value": "לא מורשה"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Title": {
+    "Value": "זיהוי הקלט בלחיצת כפתור"
+  },
+  "SettingsPage_Controller_Shortcuts_OpenXboxGameBar": {
+    "Value": "קומבו לפתיחת Xbox Game Bar"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBT": {
+    "Value": "כבה את הבקר (בלוטות)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAuto": {
+    "Value": "כיבוי בקר אוטומטי"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAutoHowTo": {
+    "Value": "איך לבטל את כיבוי בקר Steam Controller באופן אוטומטי"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTManual": {
+    "Value": "קומבינציית לחיצת כפתורים באופן ידני"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTMinutes": {
+    "Value": "דקות"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTNever": {
+    "Value": "אף פעם"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTTimeElapsedSinceIdle": {
+    "Value": "הזמן שחלף מאז השתהות:"
+  },
+  "SettingsPage_Controller_TouchpadButton": {
+    "Value": "משטח מגע"
+  },
+  "SettingsPage_Settings_CheckForUpdatesLabel": {
+    "Value": "בדוק אם קיימים עדכונים"
+  },
+  "SettingsPage_Settings_ResetAppDescription": {
+    "Value": "האם אתה בטוח שברצונך לאפס את האפליקציה להגדרות ברירת המחדל?"
+  },
+  "SettingsPage_Settings_ResetAppLabel": {
+    "Value": "אפס את הגדרות האפליקציה"
+  },
+  "SettingsPage_Settings_ResetAppYesButton": {
+    "Value": "איפוס אפליקציה"
+  },
+  "SettingsPage_TouchToMouse_EnableTapAsLeftMouse": {
+    "Value": "הפעלת \"מגע כמקש עכבר שמאלי\""
+  },
+  "SettingsPage_TouchToMouse_EnableTouchpadToMouse": {
+    "Value": "אפשר משטח מגע לעכבר"
+  },
+  "SettingsPage_TouchToMouse_FastSensiSpeed": {
+    "Value": "מהירות רגישות מהירה - החזקת כפתור"
+  },
+  "SettingsPage_TouchToMouse_InvertScroll": {
+    "Value": "גלילה הפוכה"
+  },
+  "SettingsPage_TouchToMouse_LeftClickHold": {
+    "Value": "לחיצה שמאלית - החזק כפתור כדי לשמור במצב לחוץ"
+  },
+  "SettingsPage_TouchToMouse_NormalSensiSpeed": {
+    "Value": "מהירות רגישות רגילה"
+  },
+  "SettingsPage_TouchToMouse_RightClickHold": {
+    "Value": "לחיצה ימנית - החזק כפתור ואז הקש או לחץ"
+  },
+  "SettingsPage_TouchToMouse_ScrollSpeed": {
+    "Value": "מהירות גלילה - הקש בשתי אצבעות ולאחר מכן גרור"
+  },
+  "SettingsPage_TouchToMouse_SlowSensiSpeed": {
+    "Value": "האטת מהירות רגישות - החזקת כפתור"
+  },
+  "SettingsPage_ViewReleaseNotesButton": {
+    "Value": "צפה בהערות שחרור"
+  },
+  "SettingsPage_ViewSaveFileFolderButton": {
+    "Value": "הצג שמור תיקיית קבצים"
+  },
+  "SetupScreen_AppAcentColor_Color": {
+    "Value": "צבע"
+  },
+  "SetupScreen_AppAcentColor_Preview": {
+    "Value": "תצוגה מקדימה"
+  },
+  "SetupScreen_AppAcentColor_Reset": {
+    "Value": "איפוס לצבע המבטא של ברירת המחדל של המערכת"
+  },
+  "SetupScreen_AppAcentColor_Title": {
+    "Value": "צבע הדגשה של אפליקציה"
+  },
+  "SetupScreen_EmualtionPicker_DownloadDriver": {
+    "Value": "הורדת מנהל התקן"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_BothInstalled": {
+    "Value": "מנהלי ההתקנים מותקנים"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingForInstalledDrivers": {
+    "Value": "בודק אם מנהלי התקנים מותקנים..."
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingInstalledDrivers": {
+    "Value": "בדיקת דרייברים מותקנים"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4": {
+    "Value": "DualShock 4 וירטואלי"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4_Description": {
+    "Value": "האפליקציה תיצור שלט DualShock 4 וירטואלי לשימוש עם משחקים שיש להם תמיכה טבעית ב DualShock 4."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Checkbox": {
+    "Value": "דרייברן HidHide מותקן"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Description": {
+    "Value": "HidHide מאפשר לאפליקציה להסתיר את הבקר הפיזי בעת חיקוי מכשיר וירטואלי. הוא משמש כדי להימנע מכניסות כפולות מהבקר הווירטואלי והפיזי ובואו משחק או תוכנית לראות רק את הבקר הווירטואלי."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_SystemRestart": {
+    "Value": "* דורש הפעלת המערכת מחדש"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation": {
+    "Value": "ללא אמולציה"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation_Description": {
+    "Value": "האפליקציה תתקשר רק עם השלט מבלי ליצור שלט וירטואלי."
+  },
+  "SetupScreen_EmualtionPicker_Title": {
+    "Value": "מנהלי התקנים וסוג אמולציה"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Checkbox": {
+    "Value": "דרייבר VIGem מותקן"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Description": {
+    "Value": "ViGem Bus Driver מאפשר שימוש במכשיר וירטואלי המחקה את המקור כאילו היה מחובר פיזית. דוגמה:"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360": {
+    "Value": "Xbox 360 וירטואלי (מומלץ)"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360_Description": {
+    "Value": "האפליקציה תיצור שלט Xbox 360 וירטואלי לשימוש עם משחקים שיש להם תמיכה טבעית ב- Xbox Controller."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInput": {
+    "Value": "על מנת שהבקר יזוהה, יש להשבית את קלט Steam."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInputCheckbox": {
+    "Value": "ביטלתי קלט של Steam"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlay": {
+    "Value": "כדי שהאפליקציה תהייה ללא תקלות גרפיות, Overlay חייב להיות מושבת."
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlayCheckbox": {
+    "Value": "אני ביטלתי קלט של Steam"
+  },
+  "SetupScreen_SteamSetup_Title": {
+    "Value": "הגדרת Steam"
+  },
+  "SetupScreen_SteamSetup_Title2": {
+    "Value": "כיבוי הקלט והשכבה הנוספת (Overlay) בתוכנת Steam דרך הגדרות תוכנת DSX"
+  },
+  "SetupScreen_SteamSetup_Title2_Subtitle": {
+    "Value": "חייב להיעשות בגלל ה-API של Steam."
+  }
+}

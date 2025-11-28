@@ -1,0 +1,1079 @@
+{
+  "AppCommandArgs_FileLocationNotFound": {
+    "Value": "Nome do jogo encontrado, mas a localização do arquivo não foi encontrada"
+  },
+  "AppCommandArgs_GameNameNotFound": {
+    "Value": "Nome do jogo não encontrado, mas a localização do arquivo foi encontrada"
+  },
+  "AppCommandArgs_NoParamersFound": {
+    "Value": "Nenhum parâmetro encontrado"
+  },
+  "AppCommandArgs_Playing": {
+    "Value": "Jogando:"
+  },
+  "AppNotificationLabel_AutoConnectedToController": {
+    "Value": "Conectado automaticamente ao Controle!"
+  },
+  "AppNotificationLabel_AutoConnectingToController": {
+    "Value": "Conectando automaticamente ao Controle"
+  },
+  "AppNotificationLabel_ConnectedToController": {
+    "Value": "Conectado ao Controle! "
+  },
+  "AppNotificationLabel_ConnectionLost": {
+    "Value": "Conexão perdida, procurando pelo Controle..."
+  },
+  "AppNotificationLabel_ConnectionLostAttemptingToRconnect": {
+    "Value": "Conexão perdida, tentando reconectar "
+  },
+  "AppNotificationLabel_FailedToAutoConnect": {
+    "Value": "Erro ao conectar o Controle automaticamente, por favor verifique a conexão!"
+  },
+  "AppNotificationLabel_FailedToRconnect": {
+    "Value": "Falha ao reconectar, por favor verifique a conexão!"
+  },
+  "AppNotificationLabel_ReconnectedToController": {
+    "Value": "Reconectado ao Controle!"
+  },
+  "AppNotificationLabel_SearchingForController": {
+    "Value": "Procurando pelo controle..."
+  },
+  "AppNotificationPopUp_AreYouSureYouWantToExit": {
+    "Value": "Você tem certeza que quer sair?"
+  },
+  "AppNotificationPopUp_Cancel": {
+    "Value": "Cancelar"
+  },
+  "AppNotificationPopUp_DownloadUpdate": {
+    "Value": "Baixando a atualização…"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsDualShock4": {
+    "Value": "O DualSense não será mais reconhecido como um Controle Dualshock 4!"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsXbox": {
+    "Value": "O DualSense não será mais reconhecido como um controle de Xbox!"
+  },
+  "AppNotificationPopUp_Exit": {
+    "Value": "Sair"
+  },
+  "AppNotificationPopUp_Later": {
+    "Value": "Mais tarde"
+  },
+  "AppNotificationPopUp_MissingDriver_ConnectToController": {
+    "Value": "Conectar ao controle"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadAndInstall": {
+    "Value": "Baixar e instalar drivers"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadingAndInstalling": {
+    "Value": "Baixando e instalando o driver..."
+  },
+  "AppNotificationPopUp_MissingDriver_FollowViGEmBusInstructions": {
+    "Value": "Siga as instruções do ViGEmBus apresentadas"
+  },
+  "AppNotificationPopUp_MissingDriver_OnceFinishedInstalling": {
+    "Value": "Depois de terminar de instalar o driver, você poderá conectar o seu controle."
+  },
+  "AppNotificationPopUp_MissingDriver_Uh-oh": {
+    "Value": "Uh-oh"
+  },
+  "AppNotificationPopUp_MissingDriver_YouDontHaveViGEmBusDriverse": {
+    "Value": "Parece que você não possui o ViGEmBus Driver instalado"
+  },
+  "AppNotificationPopUp_UpdateAvailable": {
+    "Value": "Atualização disponível!"
+  },
+  "AppNotificationPopUp_UpdateAvailable_InstallIt": {
+    "Value": "Você gostaria de instalá-lo?"
+  },
+  "AppNotificationPopUp_UpdateProccess_CurrentVersion": {
+    "Value": "Versão atual:"
+  },
+  "AppNotificationPopUp_UpdateProccess_DownloadingUpdate": {
+    "Value": "Baixando a atualização…"
+  },
+  "AppNotificationPopUp_UpdateProccess_ExtractingUpdate": {
+    "Value": "Extraindo atualização..."
+  },
+  "AppNotificationPopUp_UpdateProccess_FetchingUpdate": {
+    "Value": "Buscando atualização..."
+  },
+  "AppNotificationPopUp_UpdateProccess_InstallingUpdate": {
+    "Value": "Instalando a atualização…"
+  },
+  "AppNotificationPopUp_UpdateProccess_PleaseRestartToApplyUpdate": {
+    "Value": "Por favor, reinicie para aplicar essa atualização"
+  },
+  "AppNotificationPopUp_UpdateProccess_Restart": {
+    "Value": "Reiniciar"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateInstalled": {
+    "Value": "Atualização instalada"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateVersion": {
+    "Value": "Versão da atualização: "
+  },
+  "AppNotificationPopUp_Yes": {
+    "Value": "Sim"
+  },
+  "App_DriversNotInstalledPopup_Title": {
+    "Value": "Drivers ausentes"
+  },
+  "App_ExportTriggersPopUp_BothTriggersBtn": {
+    "Value": "Ambos os gatilhos"
+  },
+  "App_ExportTriggersPopUp_Description": {
+    "Value": "Selecione uma das opções abaixo"
+  },
+  "App_ExportTriggersPopUp_Title": {
+    "Value": "Exportar gatilhos"
+  },
+  "App_VigemDriverNotInstalled_TextBox": {
+    "Value": "Instale os drivers ausentes"
+  },
+  "ControllerPage_AdvancedInfoButton": {
+    "Value": "Informações avançadas"
+  },
+  "ControllerPage_AdvancedInfoConnectToView": {
+    "Value": "Conecte o controlador para ver as informações avançadas"
+  },
+  "ControllerPage_BatteryLevelLabel": {
+    "Value": "Nível da bateria:"
+  },
+  "ControllerPage_ConnectionTypeLabel": {
+    "Value": "Tipo de conexão:"
+  },
+  "ControllerPage_ConnectionType_Connected": {
+    "Value": "Conectado"
+  },
+  "ControllerPage_ConnectionType_NotConnected": {
+    "Value": "Não conectado"
+  },
+  "ControllerPage_InputButton": {
+    "Value": "Entrada"
+  },
+  "ControllerPage_LeftJoyStickLabel": {
+    "Value": "Analógico esquerdo"
+  },
+  "ControllerPage_RemappingButton": {
+    "Value": "Remapeamento"
+  },
+  "ControllerPage_RightJoyStickLabel": {
+    "Value": "Analógico direito"
+  },
+  "ControllerPage_UseXboxLabels": {
+    "Value": "Usar ícones do Xbox "
+  },
+  "DualSense_BatteryState_AbnormalTemperture": {
+    "Value": "Temperatura anormal"
+  },
+  "DualSense_BatteryState_AbnormalVoltage": {
+    "Value": "Tensão anormal"
+  },
+  "DualSense_BatteryState_Charging": {
+    "Value": "Carregando"
+  },
+  "DualSense_BatteryState_ChargingError": {
+    "Value": "Erro de carregamento"
+  },
+  "DualSense_BatteryState_Complete": {
+    "Value": "Completo"
+  },
+  "DualSense_BatteryState_Discharging": {
+    "Value": "Descarregando"
+  },
+  "GamesPage_ItemViewScreenshot": {
+    "Value": "Captura de tela"
+  },
+  "GamesPage_ModInfo": {
+    "Value": "Informações do Mod"
+  },
+  "GamesPage_ModsButton": {
+    "Value": "MODS"
+  },
+  "GamesPage_ModsSearchBoxPlaceholder": {
+    "Value": "Filtrar por nome do mod, nome do jogo ou autor"
+  },
+  "GamesPage_Mods_Disclaimer": {
+    "Value": "Isenção de responsabilidade"
+  },
+  "GamesPage_Mods_DisclaimerDescription": {
+    "Value": "NÃO use esses Mods em jogos online para evitar ser banido, isso será por sua conta e risco. A DSX NÃO se responsabiliza pelo uso desses Mods."
+  },
+  "GamesPage_Mods_ModAuthor": {
+    "Value": "Autor:"
+  },
+  "GamesPage_Mods_ModGame": {
+    "Value": "Jogo:"
+  },
+  "GamesPage_Mods_ModName": {
+    "Value": "Nome:"
+  },
+  "GamesPage_Mods_ViewModButton": {
+    "Value": "Exibir Mod"
+  },
+  "GamsPage_GameImageLoadingLabel": {
+    "Value": "Carregando imagem…"
+  },
+  "GamsPage_GameListStatusOne_FetchingGameList": {
+    "Value": "Atualizando lista de jogos..."
+  },
+  "GamsPage_GameListStatusOne_NoGamesAdded": {
+    "Value": "Nenhum jogo adicionado"
+  },
+  "GamsPage_GameListStatusTwo_CheckBackLater": {
+    "Value": "Por favor, verifique mais tarde!"
+  },
+  "GamsPage_GameListStatusTwo_PleaseWait": {
+    "Value": "Por favor, aguarde"
+  },
+  "GamsPage_GameTagsLabel": {
+    "Value": "TAGS"
+  },
+  "GamsPage_GameViewGameBtn": {
+    "Value": "Ver jogo"
+  },
+  "GamsPage_GamesLabel": {
+    "Value": "JOGOS"
+  },
+  "GamsPage_SearchbarPlaceholder": {
+    "Value": "Procure jogos pelo nome ou tag"
+  },
+  "GeneralStuff_Button": {
+    "Value": "Botão"
+  },
+  "GeneralStuff_CloseButton": {
+    "Value": "Sensibilidade"
+  },
+  "GeneralStuff_ConfirmButton": {
+    "Value": "Confirmar"
+  },
+  "GeneralStuff_Sensitivity": {
+    "Value": "Sensibilidade"
+  },
+  "GeneralStuff_UnableToStartDSX": {
+    "Value": "Não foi possível iniciar o DSX"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionOne": {
+    "Value": "Verifique se o Steam está em execução e se o aplicativo está instalado em sua biblioteca. Se esse problema persistir, reinstale o DSX através do Steam."
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionTwo": {
+    "Value": "Não é possível buscar traduções. Verifique se o Steam está funcionando, se você tem uma conexão ativa com a Internet e se o aplicativo está instalado em sua biblioteca. Se esse problema persistir, reinstale o DSX através do Steam."
+  },
+  "HomePage_AdaptiveTriggers": {
+    "Value": "Adaptive Triggers"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger": {
+    "Value": "Gatilho esquerdo"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger_ApplyButton": {
+    "Value": "Aplicar gatilho esquerdo"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger": {
+    "Value": "Gatilho direito"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger_ApplyButton": {
+    "Value": "Aplicar gatilho direito"
+  },
+  "HomePage_AdaptiveTriggers_TriggerMode": {
+    "Value": "Modo do gatilho"
+  },
+  "HomePage_ApplyModeLabel": {
+    "Value": "Modo de aplicação"
+  },
+  "HomePage_ApplyMode_ApplyBtn": {
+    "Value": "Aplicar"
+  },
+  "HomePage_ApplyMode_BothTriggerMotorLabel": {
+    "Value": "Ambos os gatilhos/Motores"
+  },
+  "HomePage_ApplyMode_LeftTriggerMotorLabel": {
+    "Value": "Gatilho/Motor esquerdo"
+  },
+  "HomePage_ApplyMode_RightTriggerMotorLabel": {
+    "Value": "Gatilho/Motor direito "
+  },
+  "HomePage_BatteryStatus": {
+    "Value": "Estado da bateria"
+  },
+  "HomePage_ConnectionStatusLabel": {
+    "Value": "Status da conexão"
+  },
+  "HomePage_ConnectionStatus_ConnectControllerBtn": {
+    "Value": "Conectar controle"
+  },
+  "HomePage_ConnectionStatus_EmulationType_ComboboxLabel": {
+    "Value": "Controle Emulado:"
+  },
+  "HomePage_ConnectionStatus_EmulationType_Emulating360": {
+    "Value": "Emulando controle de Xbox 360"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingDS4": {
+    "Value": "Emulando DualShock 4"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingNone": {
+    "Value": "Sem emulação"
+  },
+  "HomePage_ConnectionStatus_Status_AutoConnectingToController": {
+    "Value": "Conectando automaticamente ao controle"
+  },
+  "HomePage_ConnectionStatus_Status_Connecting": {
+    "Value": "Conectando..."
+  },
+  "HomePage_ConnectionStatus_Status_ConnectionLostAttemptingToReconnect": {
+    "Value": "Conexão perdida, tentando conectar novamente..."
+  },
+  "HomePage_ConnectionStatus_Status_ControllerConnected": {
+    "Value": "Controle conectado"
+  },
+  "HomePage_ConnectionStatus_Status_FailedToConnect": {
+    "Value": "Falha ao conectar, por favor verifique a conexão!"
+  },
+  "HomePage_ConnectionStatus_Status_SearchingForController": {
+    "Value": "Procurando pelo Controle..."
+  },
+  "HomePage_ConnectionStatus_Status_ShuttingDownApp": {
+    "Value": "Fechando a aplicação..."
+  },
+  "HomePage_ControllerLEDLabel": {
+    "Value": "Led do Controle"
+  },
+  "HomePage_ControllerLED_BrightnessLabel": {
+    "Value": "Brilho"
+  },
+  "HomePage_ControllerLED_ColorModeBtn": {
+    "Value": "Modo de cor"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlash": {
+    "Value": "Ativar o Flash"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlashWhenBattery": {
+    "Value": "Flash quando a bateria for menor que (%)"
+  },
+  "HomePage_ControllerLED_ColorMode_Breathing_RandomColorCycle": {
+    "Value": "Ciclo de cores aleatório"
+  },
+  "HomePage_ControllerLED_ColorMode_RainbowLabel": {
+    "Value": "Rainbow"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_AutoReverse": {
+    "Value": "Arco-íris Reverso Automático"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowMultiplier": {
+    "Value": "Multiplicador de mudança de cor"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowSpeed": {
+    "Value": "Velocidade Rainbow"
+  },
+  "HomePage_ControllerLED_ColorMode_Speed": {
+    "Value": "Velocidade"
+  },
+  "HomePage_ControllerLED_ColorMode_StaticColorLabel": {
+    "Value": "Cor estática"
+  },
+  "HomePage_ControllerLED_MicLEDLabel": {
+    "Value": "Led do microfone"
+  },
+  "HomePage_ControllerLED_MicLED_OffBtn": {
+    "Value": "Desligado"
+  },
+  "HomePage_ControllerLED_MicLED_OnBtn": {
+    "Value": "Ligado"
+  },
+  "HomePage_ControllerLED_MicLED_PulseBtn": {
+    "Value": "Pulsação"
+  },
+  "HomePage_ControllerLED_PlayerLEDLabel": {
+    "Value": "Led do Jogador"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOffBtn": {
+    "Value": "Tudo desligado"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOnBtn": {
+    "Value": "Tudo ligado"
+  },
+  "HomePage_ControllerLED_PlayerLED_Battery": {
+    "Value": "Bateria"
+  },
+  "HomePage_ControllerLED_PlayerLED_Breathing": {
+    "Value": "Respiração"
+  },
+  "HomePage_ControllerLED_PlayerLED_CustomBtn": {
+    "Value": "Personalizado"
+  },
+  "HomePage_ControllerLED_PlayerLED_DS4Passthrough": {
+    "Value": "Dualshock 4 Touchpad Passthrough"
+  },
+  "HomePage_ControllerLED_PlayerLED_FiveBtn": {
+    "Value": "Cinco"
+  },
+  "HomePage_ControllerLED_PlayerLED_FlashWhileCharging": {
+    "Value": "Flash durante o carregamento"
+  },
+  "HomePage_ControllerLED_PlayerLED_FourBtn": {
+    "Value": "Quatro"
+  },
+  "HomePage_ControllerLED_PlayerLED_HighBrightnessBtn": {
+    "Value": "Alto"
+  },
+  "HomePage_ControllerLED_PlayerLED_LowBrightnessBtn": {
+    "Value": "Baixo"
+  },
+  "HomePage_ControllerLED_PlayerLED_MediumBrightnessBtn": {
+    "Value": "Médio"
+  },
+  "HomePage_ControllerLED_PlayerLED_OneBtn": {
+    "Value": "Um"
+  },
+  "HomePage_ControllerLED_PlayerLED_Strobing": {
+    "Value": "Estroboscópico"
+  },
+  "HomePage_ControllerLED_PlayerLED_ThreeBtn": {
+    "Value": "Três"
+  },
+  "HomePage_ControllerLED_PlayerLED_TwoBtn": {
+    "Value": "Dois"
+  },
+  "HomePage_ControllerLED_RainbowSpeedLabel": {
+    "Value": "Velocidade Arco-íris"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Fast": {
+    "Value": "Rápido"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Hyper": {
+    "Value": "Hiper"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Medium": {
+    "Value": "Médio"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Slow": {
+    "Value": "Lento"
+  },
+  "HomePage_ControllerLED_TouchPadLEDLabel": {
+    "Value": "LED do touchpad"
+  },
+  "HomePage_ControllerModeLabel": {
+    "Value": "Modo do Controle "
+  },
+  "HomePage_ControllerMode_IntensityLabel": {
+    "Value": "Intensidade"
+  },
+  "HomePage_ControllerMode_ModeLabel": {
+    "Value": "Modo"
+  },
+  "HomePage_ControllerMode_RandomizeModeAndValues": {
+    "Value": "Modo aleatório + Valores"
+  },
+  "HomePage_ControllerMode_RandomizeValues": {
+    "Value": "Valores aleatórios"
+  },
+  "HomePage_ControllerMode_VibrationDurationLabel": {
+    "Value": "Duração da vibração"
+  },
+  "HomePage_ControllerVibration": {
+    "Value": "Vibração do controlador"
+  },
+  "HomePage_ExportTriggers": {
+    "Value": "Exportar gatilhos"
+  },
+  "HomePage_ExportTriggers_CopyToClipboard": {
+    "Value": "Copiar para a área de transferência"
+  },
+  "HomePage_ExportTriggers_ExportForTextfile": {
+    "Value": "Exportar para arquivo de texto"
+  },
+  "HomePage_ExportTriggers_ExportForUDP": {
+    "Value": "Exportar para UDP (C#)"
+  },
+  "HomePage_GameLabel": {
+    "Value": "Jogo"
+  },
+  "HomePage_TextFileLabel": {
+    "Value": "Arquivo de texto"
+  },
+  "HomePage_TextFile_FileLocationLabel": {
+    "Value": "Localização do arquivo"
+  },
+  "HomePage_TextFile_SlectFileBtn": {
+    "Value": "Selecionar o arquivo de texto"
+  },
+  "HomePage_TextFile_StatusActiveLabel": {
+    "Value": "Ativo"
+  },
+  "HomePage_TextFile_StatusLabel": {
+    "Value": "Status:"
+  },
+  "HomePage_TextFile_StatusNoMatchingTriggerValuesLabel": {
+    "Value": "Ativo - Nenhum valor equivalente de gatilho encontrado no arquivo de texto!"
+  },
+  "HomePage_TextFile_StatusNotActiveDoesNotExistLabel": {
+    "Value": "Inativo - O arquivo selecionado não existe!"
+  },
+  "HomePage_TextFile_StatusNotActiveLabel": {
+    "Value": "Inativo "
+  },
+  "HomePage_TextFile_StatusNotActiveNoFileSelectedLabel": {
+    "Value": "Inativo - Nenhum arquivo selecionado!"
+  },
+  "HomePage_TextFile_StatusNotActiveNotATextFileLabel": {
+    "Value": "Inativo - Isso não é um arquivo de texto, por favor tente novamente!"
+  },
+  "HomePage_TextFile_StopReadingBtn": {
+    "Value": "Parar de ler o arquivo de texto"
+  },
+  "HomePage_TextfileStatus": {
+    "Value": "Status do arquivo de texto:"
+  },
+  "HomePage_UdpStatus": {
+    "Value": "Status UDP:"
+  },
+  "InfoPage_CrashesOrBugsLabel": {
+    "Value": "Falhas ou Bugs?"
+  },
+  "InfoPage_Donate": {
+    "Value": "Doar"
+  },
+  "InfoPage_JoinDiscordLabel": {
+    "Value": "Junte-se à comunidade do Discord"
+  },
+  "InfoPage_MoreInfoGitHubLabel": {
+    "Value": "Mais informações no GitHub"
+  },
+  "InfoPage_Social": {
+    "Value": "Redes Sociais"
+  },
+  "MenuGames_Label": {
+    "Value": "Jogos"
+  },
+  "MenuHome_Label": {
+    "Value": "Início"
+  },
+  "MenuInfo_Label": {
+    "Value": "Info"
+  },
+  "MenuInput_Label": {
+    "Value": "Controle"
+  },
+  "MenuSense2Key_Label": {
+    "Value": "Sense2Key"
+  },
+  "MenuSettings_JoinBtn": {
+    "Value": "Participar"
+  },
+  "MenuSettings_Label": {
+    "Value": "Configurações"
+  },
+  "MenuSettings_SubmitIssueBtn": {
+    "Value": "Enviar Problema"
+  },
+  "MenuSettings_VisitBtn": {
+    "Value": "Visitar"
+  },
+  "MenuWorkshop_Label": {
+    "Value": "Oficina"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartEight": {
+    "Value": "Instale a ferramenta oficial de atualização de Firmware da Sony para atualizar seu controle."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFive": {
+    "Value": "Corrigir erro de leitura da bateria DualSense"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFour": {
+    "Value": "Você deve sempre atualizar para a versão mais recente pelos seguintes motivos:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartNine": {
+    "Value": "NOTA: Ao atualizar, verifique se o DSX está fechado para evitar problemas durante o processo."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartOne": {
+    "Value": "Há uma nova versão de firmware disponível para o seu controlador DualSense."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSeven": {
+    "Value": "Várias correções e melhorias"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSix": {
+    "Value": "Melhore a vibração normal (para jogos antigos)"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartThree": {
+    "Value": "Nova versão"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartTwo": {
+    "Value": "Versão atual"
+  },
+  "NewFirmwareVersionAvailablePopup_Title": {
+    "Value": "Nova versão do firmware DualSense disponível"
+  },
+  "NewFirmwareVersionAvailablePopup_ViewToolButton": {
+    "Value": "Veja a ferramenta de atualização de Firmware"
+  },
+  "Sense2Key_Configuration_HelpLabel1": {
+    "Value": "Selecione no menu suspenso ou pressione uma tecla no teclado"
+  },
+  "Sense2Key_Configuration_HelpLabel2": {
+    "Value": "Enquanto o menu suspenso estiver selecionado"
+  },
+  "Sense2Key_Configuration_SaveConfigurationBtn": {
+    "Value": "Salvar configuração"
+  },
+  "Sense2Key_CreateProfileBtn": {
+    "Value": "Criar perfil"
+  },
+  "Sense2Key_DeleteProfileBtn": {
+    "Value": "Excluir"
+  },
+  "Sense2Key_ExportProfileBtn": {
+    "Value": "Exportar perfil"
+  },
+  "Sense2Key_GetStartedLabel": {
+    "Value": "Comece criando um novo perfil"
+  },
+  "Sense2Key_ImportProfileBtn": {
+    "Value": "Importar Perfil"
+  },
+  "Sense2Key_NewProfile_CancelBtn": {
+    "Value": "Cancelar"
+  },
+  "Sense2Key_NewProfile_SaveNewProfilelBtn": {
+    "Value": "Salvar novo perfil"
+  },
+  "Sense2Key_NoProfilesAdded": {
+    "Value": "Nenhum perfil adicionado"
+  },
+  "Sense2Key_ProfileStatus_DelayCannotBeNegative": {
+    "Value": "O atraso não pode ser negativo"
+  },
+  "Sense2Key_ProfileStatus_DelayCantBeEmpty": {
+    "Value": "O atraso não pode estar vazio"
+  },
+  "Sense2Key_ProfileStatus_DelayUpdated": {
+    "Value": "Atraso atualizado"
+  },
+  "Sense2Key_ProfileStatus_ProfileCreated": {
+    "Value": "Perfil criado"
+  },
+  "Sense2Key_ProfileStatus_ProfileExists": {
+    "Value": "Perfil já existente"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameCantBeEmpty": {
+    "Value": "O nome do perfil não pode estar vazio"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameUpdated": {
+    "Value": "Nome do perfil atualizado"
+  },
+  "Sense2Key_ProfilesLabel": {
+    "Value": "PERFIS"
+  },
+  "Sense2Key_ProfilesWillShowHere": {
+    "Value": "Seus perfis aparecerão aqui"
+  },
+  "Sense2Key_SelectedProfile_DelayLabel": {
+    "Value": "Atraso (milissegundos)"
+  },
+  "Sense2Key_SelectedProfile_DetailsLabel": {
+    "Value": "Detalhes"
+  },
+  "Sense2Key_SelectedProfile_EditConfigurationBtn": {
+    "Value": "Editar configuração"
+  },
+  "Sense2Key_SelectedProfile_EnterProfileNamePlaceholder": {
+    "Value": "Digite o nome do perfil"
+  },
+  "Sense2Key_SelectedProfile_ProfileNameLabel": {
+    "Value": "Nome do perfil"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_Active": {
+    "Value": "Status: Perfil Ativo"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_NotActive": {
+    "Value": "Status: Perfil inativo"
+  },
+  "Sense2Key_SelectedProfile_StartBtn": {
+    "Value": "Iniciar"
+  },
+  "Sense2Key_SelectedProfile_StopBtn": {
+    "Value": "Parar"
+  },
+  "Sense2Key_SelectedProfile_UpdateDelayBtn": {
+    "Value": "Atualizar atraso"
+  },
+  "Sense2Key_SelectedProfile_UpdateProfileNameBtn": {
+    "Value": "Atualizar nome"
+  },
+  "SettingsPage_AppLabel": {
+    "Value": "Aplicativo"
+  },
+  "SettingsPage_AppSettings_BorderColorLabel": {
+    "Value": "Cor das bordas"
+  },
+  "SettingsPage_AppSettings_Border_AlphaLabel": {
+    "Value": "Alfa (Transparência)"
+  },
+  "SettingsPage_AppSettings_Border_BlueLabel": {
+    "Value": "Azul"
+  },
+  "SettingsPage_AppSettings_Border_GreenLabel": {
+    "Value": "Verde"
+  },
+  "SettingsPage_AppSettings_Border_RedLabel": {
+    "Value": "Vermelho"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundBlurLabel": {
+    "Value": "Borrão"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundLabel": {
+    "Value": "Imagem de fundo personalizada"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundSelectImageBtn": {
+    "Value": "Selecione uma imagem"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundStretchComboBoxLabel": {
+    "Value": "Esticar"
+  },
+  "SettingsPage_AppSettings_DarkModeLabel": {
+    "Value": "Modo escuro"
+  },
+  "SettingsPage_AppSettings_KeepInTrayLabel": {
+    "Value": "Ícone na área de notificação quando minimizado"
+  },
+  "SettingsPage_AppSettings_Label": {
+    "Value": "Configurações do Aplicativo"
+  },
+  "SettingsPage_AppSettings_LanguageLabel": {
+    "Value": "Idioma"
+  },
+  "SettingsPage_AppSettings_LaunchMinimizedCheckmark": {
+    "Value": "Iniciar minimizado "
+  },
+  "SettingsPage_AppSettings_LaunchWindowsStartupLabel": {
+    "Value": "Iniciar o DualSenseX na inicialização do Windows"
+  },
+  "SettingsPage_App_EnableDiscordRP": {
+    "Value": "Habilitar presença avançada do Discord"
+  },
+  "SettingsPage_App_EnableDiscordRP_MightTakeAMin": {
+    "Value": "Pode levar até um minuto para entrar em vigor"
+  },
+  "SettingsPage_BackgroundLabel": {
+    "Value": "Plano de fundo"
+  },
+  "SettingsPage_BackgroundSettings_Label": {
+    "Value": "Configurações do plano de fundo"
+  },
+  "SettingsPage_BackgroundSettings_SelectedBtn": {
+    "Value": "Selecionado"
+  },
+  "SettingsPage_ControllerLabel": {
+    "Value": "Controle"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault": {
+    "Value": "Áudio padrão"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault_RefreshList": {
+    "Value": "Atualizar lista"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Headset": {
+    "Value": "Fones de ouvido"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetLeft": {
+    "Value": "Fone de ouvido esquerdo"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetRight": {
+    "Value": "Fone de ouvido direito"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_LeftMotor": {
+    "Value": "Motor esquerdo"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_RightMotor": {
+    "Value": "Motor direito"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Speaker": {
+    "Value": "Alto-falante"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem": {
+    "Value": "Sistema de áudio do controle (SOMENTE USB)"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_Headset": {
+    "Value": "Fones de ouvido"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_HeadsetVolume": {
+    "Value": "Volume do fone"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_InternalSpeaker": {
+    "Value": "Alto-falante interno"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_MicVolume": {
+    "Value": "Volume do microfone"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_OutputMode": {
+    "Value": "Modo de saída de áudio"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerAndHeadset": {
+    "Value": "Fone de ouvido e alto-falante interno"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerVolume": {
+    "Value": "Volume do alto-falante"
+  },
+  "SettingsPage_ControllerSettings_AutoConnectWhenOpenLabel": {
+    "Value": "Conectar automaticamente quando o DualSenseX for iniciado "
+  },
+  "SettingsPage_ControllerSettings_ControllerMotorStrengthLabel": {
+    "Value": "Ajustar força do motor"
+  },
+  "SettingsPage_ControllerSettings_DisableVibrationControllerLabel": {
+    "Value": "Desabilitar vibração do controle"
+  },
+  "SettingsPage_ControllerSettings_EnableAudioHaptics": {
+    "Value": "Ativar áudio tátil (SOMENTE USB)"
+  },
+  "SettingsPage_ControllerSettings_EnableHidHide": {
+    "Value": "Ativar HidHide"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble": {
+    "Value": "Habilitar vibração do motor aprimorado"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble2": {
+    "Value": "Precisa da Versão de Firmware 0224 ou superior para fazer efeito"
+  },
+  "SettingsPage_ControllerSettings_EnableVibWhileDisabled": {
+    "Value": "Ativar vibrações enviadas pelo jogo enquanto estiver desativado"
+  },
+  "SettingsPage_ControllerSettings_KillSteamOnConnect": {
+    "Value": "Fechar a steam ao conectar"
+  },
+  "SettingsPage_ControllerSettings_Label": {
+    "Value": "Configurações do controle"
+  },
+  "SettingsPage_ControllerSettings_LeftTriggerThreshold": {
+    "Value": "Limite do gatilho esquerdo (LT)"
+  },
+  "SettingsPage_ControllerSettings_LoadLastActiveTrigger": {
+    "Value": "Carregar o último gatilho ativo no início"
+  },
+  "SettingsPage_ControllerSettings_PlayLightShowOnConnect": {
+    "Value": "Executar um show de luzes ao conectar"
+  },
+  "SettingsPage_ControllerSettings_PressMicAndUpXboxGameBar": {
+    "Value": "Pressione os botões Mic + Cima para abrir a barra de jogos Xbox"
+  },
+  "SettingsPage_ControllerSettings_PreviewLightshowBtn": {
+    "Value": "Prévia do show de luzes"
+  },
+  "SettingsPage_ControllerSettings_RightTriggerThreshold": {
+    "Value": "Limite do gatilho direito (RT)"
+  },
+  "SettingsPage_ControllerSettings_SearchUntilControllerConnects": {
+    "Value": "Procurar até um controle for conectado"
+  },
+  "SettingsPage_ControllerSettings_TriggerThreshold": {
+    "Value": "Limite de gatilho"
+  },
+  "SettingsPage_ControllerSettings_UDPPortListen": {
+    "Value": "Habilitar escuta da Porta UDP"
+  },
+  "SettingsPage_ControllerSettings_UDPPortNumber": {
+    "Value": "Número da porta UDP a ser escutada"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions": {
+    "Value": "Opções de sincronização de volume"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_DontSync": {
+    "Value": "Não sincronize"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncAll": {
+    "Value": "Sincronizar tudo"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftMotorRightMotor": {
+    "Value": "Sincronizar motor esquerdo e motor direito"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftRightSpeakers": {
+    "Value": "Sincronizar alto-falantes esquerdo e direito"
+  },
+  "SettingsPage_Controller_ControllerAudioButton": {
+    "Value": "Áudio do controle"
+  },
+  "SettingsPage_Controller_DriversButton": {
+    "Value": "Drivers"
+  },
+  "SettingsPage_Controller_GyroAccelButton": {
+    "Value": "Giroscópio/acelerômetro"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking": {
+    "Value": "Ocultação de controle"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking_Description": {
+    "Value": "Ocultar o controle físico de outros aplicativos"
+  },
+  "SettingsPage_Controller_MiscellaneousButton": {
+    "Value": "Diversos"
+  },
+  "SettingsPage_Controller_NetworkingButton": {
+    "Value": "Redes"
+  },
+  "SettingsPage_Controller_ShortcutsButton": {
+    "Value": "Atalhos"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput": {
+    "Value": "Ouça a entrada"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Description": {
+    "Value": "Pressione um botão no controle para detectar"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_NotAllowed": {
+    "Value": "Não permitido"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Title": {
+    "Value": "Detecção de botão de entrada"
+  },
+  "SettingsPage_Controller_Shortcuts_OpenXboxGameBar": {
+    "Value": "Abra o combo da barra de jogos Xbox"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBT": {
+    "Value": "Desligar o controle (Bluetooth)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAuto": {
+    "Value": "Desligamento automático do controle"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAutoHowTo": {
+    "Value": "COMO FAZER: Desativar o desligamento automático do controle Steam"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTManual": {
+    "Value": "Pressione o botão de combinação manual"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTMinutes": {
+    "Value": "Minutos"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTNever": {
+    "Value": "Nunca"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTTimeElapsedSinceIdle": {
+    "Value": "Tempo decorrido desde a inatividade:"
+  },
+  "SettingsPage_Controller_TouchpadButton": {
+    "Value": "Touchpad"
+  },
+  "SettingsPage_Settings_CheckForUpdatesLabel": {
+    "Value": "Verificar atualizações"
+  },
+  "SettingsPage_Settings_ResetAppDescription": {
+    "Value": "Tem certeza de que deseja redefinir o DualSenseX de volta às configurações padrão?"
+  },
+  "SettingsPage_Settings_ResetAppLabel": {
+    "Value": "Redefinir configurações do aplicativo"
+  },
+  "SettingsPage_Settings_ResetAppYesButton": {
+    "Value": "Redefinir DualSenseX"
+  },
+  "SettingsPage_TouchToMouse_EnableTapAsLeftMouse": {
+    "Value": "Ativar Toque como botão esquerdo do mouse"
+  },
+  "SettingsPage_TouchToMouse_EnableTouchpadToMouse": {
+    "Value": "Habilitar o touchpad para mouse"
+  },
+  "SettingsPage_TouchToMouse_FastSensiSpeed": {
+    "Value": "Velocidade de sensibilidade rápida - Manter botão pressionado"
+  },
+  "SettingsPage_TouchToMouse_InvertScroll": {
+    "Value": "Inverter rolagem"
+  },
+  "SettingsPage_TouchToMouse_LeftClickHold": {
+    "Value": "Clique com o botão esquerdo - Segure o botão para o manter pressionado"
+  },
+  "SettingsPage_TouchToMouse_NormalSensiSpeed": {
+    "Value": "Velocidade de sensibilidade normal"
+  },
+  "SettingsPage_TouchToMouse_RightClickHold": {
+    "Value": "Clique com o botão direito - Segure o botão e então toque ou pressione"
+  },
+  "SettingsPage_TouchToMouse_ScrollSpeed": {
+    "Value": "Velocidade de rolagem - toque com 2 dedos e arraste"
+  },
+  "SettingsPage_TouchToMouse_SlowSensiSpeed": {
+    "Value": "Velocidade de sensibilidade de desaceleração - Manter botão pressionado"
+  },
+  "SettingsPage_ViewReleaseNotesButton": {
+    "Value": "Exibir notas de lançamento"
+  },
+  "SettingsPage_ViewSaveFileFolderButton": {
+    "Value": "Exibir pasta de arquivo de salvamento"
+  },
+  "SetupScreen_AppAcentColor_Color": {
+    "Value": "Cor"
+  },
+  "SetupScreen_AppAcentColor_Preview": {
+    "Value": "Prévia"
+  },
+  "SetupScreen_AppAcentColor_Reset": {
+    "Value": "Refinir a cor de destaque para padrão do sistema "
+  },
+  "SetupScreen_AppAcentColor_Title": {
+    "Value": "Cor de destaque do aplicativo"
+  },
+  "SetupScreen_EmualtionPicker_DownloadDriver": {
+    "Value": "Baixar driver"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_BothInstalled": {
+    "Value": "Ambos os drivers instalados"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingForInstalledDrivers": {
+    "Value": "Verificando se há drivers instalados..."
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingInstalledDrivers": {
+    "Value": "Verificando os drivers instalados em"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4": {
+    "Value": "DualShock 4 virtual"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4_Description": {
+    "Value": "O aplicativo criará um controle virtual do DualShock 4 para ser usado com jogos que tenham suporte nativo ao DualShock 4"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Checkbox": {
+    "Value": "Driver HidHide instalado"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Description": {
+    "Value": "O HidHide permite que o aplicativo oculte o controle físico ao emular um dispositivo virtual. É usado para evitar entradas duplas do controle virtual e físico e permite que um jogo ou programa veja apenas o controle virtual."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_SystemRestart": {
+    "Value": "* Requer reinicialização do sistema"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation": {
+    "Value": "Sem emulação"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation_Description": {
+    "Value": "O aplicativo só irá se comunicar com o controle sem criar um controlador virtual."
+  },
+  "SetupScreen_EmualtionPicker_Title": {
+    "Value": "Drivers e tipos de emulação\n"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Checkbox": {
+    "Value": "Driver ViGEM instalado"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Description": {
+    "Value": "O ViGEM Bus Driver permite o uso de um dispositivo virtual que imita o original como se estivesse fisicamente conectado. Exemplo:"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360": {
+    "Value": "Xbox 360 virtual (recomendado)"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360_Description": {
+    "Value": "O aplicativo criará um controle virtual do Xbox 360 para ser usado com jogos que tenham suporte nativo ao controle de Xbox. "
+  },
+  "SetupScreen_SteamSetup_DisableSteamInput": {
+    "Value": "Para que o controle seja reconhecido, o Steam input deve estar desativado."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInputCheckbox": {
+    "Value": "Desabilitei o Steam Input"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlay": {
+    "Value": "Para que o aplicativo não tenha falhas gráficas, o Overlay deve estar desativado."
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlayCheckbox": {
+    "Value": "Desativei a sobreposição da Steam"
+  },
+  "SetupScreen_SteamSetup_Title": {
+    "Value": "Configuração da Steam"
+  },
+  "SetupScreen_SteamSetup_Title2": {
+    "Value": "Desative o Steam Input e Overlay nas configurações do DSX"
+  },
+  "SetupScreen_SteamSetup_Title2_Subtitle": {
+    "Value": "Isso pode ter sido causado pela Steam API"
+  }
+}

@@ -1,0 +1,1079 @@
+{
+  "AppCommandArgs_FileLocationNotFound": {
+    "Value": "Ime igre pronađeno, ali lokacija datoteke nije pronađena"
+  },
+  "AppCommandArgs_GameNameNotFound": {
+    "Value": "Ime igre nije pronađeno, ali lokacija datoteke je pronađena"
+  },
+  "AppCommandArgs_NoParamersFound": {
+    "Value": "Nema pronađenih parametara"
+  },
+  "AppCommandArgs_Playing": {
+    "Value": "Igranje:"
+  },
+  "AppNotificationLabel_AutoConnectedToController": {
+    "Value": "Automatski spojeno na kontroler!"
+  },
+  "AppNotificationLabel_AutoConnectingToController": {
+    "Value": "Automatsko povezivanje s kontrolerom"
+  },
+  "AppNotificationLabel_ConnectedToController": {
+    "Value": "Kontroler spojen!"
+  },
+  "AppNotificationLabel_ConnectionLost": {
+    "Value": "Veza izgubljena, traženje kontrolera..."
+  },
+  "AppNotificationLabel_ConnectionLostAttemptingToRconnect": {
+    "Value": "Veza je izgubljena, pokušaj ponovnog povezivanja je u tijeku"
+  },
+  "AppNotificationLabel_FailedToAutoConnect": {
+    "Value": "Automatsko povezivanje nije uspjelo, provjerite vezu!"
+  },
+  "AppNotificationLabel_FailedToRconnect": {
+    "Value": "Ponovo povezivanje nije uspjelo, provjerite vezu!"
+  },
+  "AppNotificationLabel_ReconnectedToController": {
+    "Value": "Ponovo spojen na kontroler!"
+  },
+  "AppNotificationLabel_SearchingForController": {
+    "Value": "Traženje kontrolera..."
+  },
+  "AppNotificationPopUp_AreYouSureYouWantToExit": {
+    "Value": "Želite li zaista izaći?"
+  },
+  "AppNotificationPopUp_Cancel": {
+    "Value": "Odustani"
+  },
+  "AppNotificationPopUp_DownloadUpdate": {
+    "Value": "Preuzimanje aktualizacije…"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsDualShock4": {
+    "Value": "DualSense Kontroler više se neće čitati kao Dualshock 4 Kontroler!"
+  },
+  "AppNotificationPopUp_DualsenseWillNotReadAsXbox": {
+    "Value": "DualSense kontroler više neće čitati kao Xbox kontroler!"
+  },
+  "AppNotificationPopUp_Exit": {
+    "Value": "Izlaz"
+  },
+  "AppNotificationPopUp_Later": {
+    "Value": "Kasnije"
+  },
+  "AppNotificationPopUp_MissingDriver_ConnectToController": {
+    "Value": "Povezivanje s kontrolerom"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadAndInstall": {
+    "Value": "Preuzmi i instaliraj upravljačke programe"
+  },
+  "AppNotificationPopUp_MissingDriver_DownloadingAndInstalling": {
+    "Value": "Preuzimanje i instaliranje upravljačkog programa..."
+  },
+  "AppNotificationPopUp_MissingDriver_FollowViGEmBusInstructions": {
+    "Value": "Slijedite ponuđene upute VigemBus"
+  },
+  "AppNotificationPopUp_MissingDriver_OnceFinishedInstalling": {
+    "Value": "Kada završite s instaliranjem upravljačkog programa, možete se povezati s kontrolerom."
+  },
+  "AppNotificationPopUp_MissingDriver_Uh-oh": {
+    "Value": "Uh oh"
+  },
+  "AppNotificationPopUp_MissingDriver_YouDontHaveViGEmBusDriverse": {
+    "Value": "Izgleda da nemate instalirane VigemBus upravljačke programe"
+  },
+  "AppNotificationPopUp_UpdateAvailable": {
+    "Value": "Ažuriranje dostupno"
+  },
+  "AppNotificationPopUp_UpdateAvailable_InstallIt": {
+    "Value": "Želite li instalirati?"
+  },
+  "AppNotificationPopUp_UpdateProccess_CurrentVersion": {
+    "Value": "Trenutna verzija:"
+  },
+  "AppNotificationPopUp_UpdateProccess_DownloadingUpdate": {
+    "Value": "Preuzimanje aktualizacije…"
+  },
+  "AppNotificationPopUp_UpdateProccess_ExtractingUpdate": {
+    "Value": "Izdvajanje ažuriranja..."
+  },
+  "AppNotificationPopUp_UpdateProccess_FetchingUpdate": {
+    "Value": "Dohvaćanje ažuriranja..."
+  },
+  "AppNotificationPopUp_UpdateProccess_InstallingUpdate": {
+    "Value": "Instaliranje ažuriranja…"
+  },
+  "AppNotificationPopUp_UpdateProccess_PleaseRestartToApplyUpdate": {
+    "Value": "Molimo ponovno pokrenite da biste primijenili ovo ažuriranje"
+  },
+  "AppNotificationPopUp_UpdateProccess_Restart": {
+    "Value": "Ponovno pokreni"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateInstalled": {
+    "Value": "Ažuriranje instalirano"
+  },
+  "AppNotificationPopUp_UpdateProccess_UpdateVersion": {
+    "Value": "Verzija ažuriranja: "
+  },
+  "AppNotificationPopUp_Yes": {
+    "Value": "Da"
+  },
+  "App_DriversNotInstalledPopup_Title": {
+    "Value": "Nedostaju vozači"
+  },
+  "App_ExportTriggersPopUp_BothTriggersBtn": {
+    "Value": "Oba okidača"
+  },
+  "App_ExportTriggersPopUp_Description": {
+    "Value": "Molimo odaberite jednu od opcija ispod"
+  },
+  "App_ExportTriggersPopUp_Title": {
+    "Value": "Izvoz okidača"
+  },
+  "App_VigemDriverNotInstalled_TextBox": {
+    "Value": "Molimo instalirajte nedostajuće upravljačke programe"
+  },
+  "ControllerPage_AdvancedInfoButton": {
+    "Value": "Napredne informacije"
+  },
+  "ControllerPage_AdvancedInfoConnectToView": {
+    "Value": "Spojite kontroler da biste vidjeli Napredne informacije"
+  },
+  "ControllerPage_BatteryLevelLabel": {
+    "Value": "Postotak baterije:"
+  },
+  "ControllerPage_ConnectionTypeLabel": {
+    "Value": "Vrsta veze:"
+  },
+  "ControllerPage_ConnectionType_Connected": {
+    "Value": "Povezano"
+  },
+  "ControllerPage_ConnectionType_NotConnected": {
+    "Value": "Nije povezano"
+  },
+  "ControllerPage_InputButton": {
+    "Value": "Ulazni"
+  },
+  "ControllerPage_LeftJoyStickLabel": {
+    "Value": "Lijevi joystick"
+  },
+  "ControllerPage_RemappingButton": {
+    "Value": "Premapiranje"
+  },
+  "ControllerPage_RightJoyStickLabel": {
+    "Value": "Desni joystick"
+  },
+  "ControllerPage_UseXboxLabels": {
+    "Value": "Koristi oznake Xbox-a"
+  },
+  "DualSense_BatteryState_AbnormalTemperture": {
+    "Value": "Abnormalna temperatura"
+  },
+  "DualSense_BatteryState_AbnormalVoltage": {
+    "Value": "Nenormalan napon"
+  },
+  "DualSense_BatteryState_Charging": {
+    "Value": "Punjenje"
+  },
+  "DualSense_BatteryState_ChargingError": {
+    "Value": "Pogreška prilikom punjenja"
+  },
+  "DualSense_BatteryState_Complete": {
+    "Value": "Potpun"
+  },
+  "DualSense_BatteryState_Discharging": {
+    "Value": "Pražnjenje"
+  },
+  "GamesPage_ItemViewScreenshot": {
+    "Value": "Snimka zaslona"
+  },
+  "GamesPage_ModInfo": {
+    "Value": "Mod Info"
+  },
+  "GamesPage_ModsButton": {
+    "Value": "MODOVI"
+  },
+  "GamesPage_ModsSearchBoxPlaceholder": {
+    "Value": "Filtriraj prema nazivu moda, nazivu igre ili autoru"
+  },
+  "GamesPage_Mods_Disclaimer": {
+    "Value": "Odricanje od odgovornosti"
+  },
+  "GamesPage_Mods_DisclaimerDescription": {
+    "Value": "Nemojte koristiti ove modove u mrežnim igrama kako biste izbjegli zabranu, to će biti na vlastiti rizik. DSX neće imati nikakvu odgovornost za korištenje ovih Modova."
+  },
+  "GamesPage_Mods_ModAuthor": {
+    "Value": "Autor"
+  },
+  "GamesPage_Mods_ModGame": {
+    "Value": "Igra"
+  },
+  "GamesPage_Mods_ModName": {
+    "Value": "Ime"
+  },
+  "GamesPage_Mods_ViewModButton": {
+    "Value": "Pogledaj Mod"
+  },
+  "GamsPage_GameImageLoadingLabel": {
+    "Value": "Učitavanje slika…"
+  },
+  "GamsPage_GameListStatusOne_FetchingGameList": {
+    "Value": "Dohvaćanje popisa igara..."
+  },
+  "GamsPage_GameListStatusOne_NoGamesAdded": {
+    "Value": "Nema dodanih igara"
+  },
+  "GamsPage_GameListStatusTwo_CheckBackLater": {
+    "Value": "Vratite se kasnije!"
+  },
+  "GamsPage_GameListStatusTwo_PleaseWait": {
+    "Value": "Molimo pričekajte"
+  },
+  "GamsPage_GameTagsLabel": {
+    "Value": "OZNAKE"
+  },
+  "GamsPage_GameViewGameBtn": {
+    "Value": "Pogledaj igru"
+  },
+  "GamsPage_GamesLabel": {
+    "Value": "IGRE"
+  },
+  "GamsPage_SearchbarPlaceholder": {
+    "Value": "Pretraži igre po imenu ili oznaci"
+  },
+  "GeneralStuff_Button": {
+    "Value": "Tipka"
+  },
+  "GeneralStuff_CloseButton": {
+    "Value": "Osjetljivost"
+  },
+  "GeneralStuff_ConfirmButton": {
+    "Value": "Potvrdi"
+  },
+  "GeneralStuff_Sensitivity": {
+    "Value": "Osjetljivost"
+  },
+  "GeneralStuff_UnableToStartDSX": {
+    "Value": "Nije moguće pokrenuti DSX"
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionOne": {
+    "Value": "Provjerite je li Steam pokrenut, a aplikacija je instalirana u vašoj knjižnici. Ako se taj problem nastavi, ponovo instalirajte DSX putem Steam-a."
+  },
+  "GeneralStuff_UnableToStartDSX_DescriptionTwo": {
+    "Value": "Ne mogu dohvatiti prijevode. Provjerite je li Steam pokrenut, imate aktivnu internetsku vezu i aplikacija je instalirana u vašoj knjižnici. Ako se taj problem nastavi, ponovo instalirajte DSX putem Steam-a."
+  },
+  "HomePage_AdaptiveTriggers": {
+    "Value": "Adaptivni okidači"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger": {
+    "Value": "Lijevi okidač"
+  },
+  "HomePage_AdaptiveTriggers_LeftTrigger_ApplyButton": {
+    "Value": "Nanesite lijevi okidač"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger": {
+    "Value": "Desni okidač"
+  },
+  "HomePage_AdaptiveTriggers_RightTrigger_ApplyButton": {
+    "Value": "Primjeni desni okidač"
+  },
+  "HomePage_AdaptiveTriggers_TriggerMode": {
+    "Value": "Način okidača"
+  },
+  "HomePage_ApplyModeLabel": {
+    "Value": "Primijeni način rada"
+  },
+  "HomePage_ApplyMode_ApplyBtn": {
+    "Value": "Primijeni"
+  },
+  "HomePage_ApplyMode_BothTriggerMotorLabel": {
+    "Value": "Oba Triggera/Motora"
+  },
+  "HomePage_ApplyMode_LeftTriggerMotorLabel": {
+    "Value": "Lijevi Trigger/Motor"
+  },
+  "HomePage_ApplyMode_RightTriggerMotorLabel": {
+    "Value": "Desni Trigger/Motor"
+  },
+  "HomePage_BatteryStatus": {
+    "Value": "Status baterije"
+  },
+  "HomePage_ConnectionStatusLabel": {
+    "Value": "Status veze"
+  },
+  "HomePage_ConnectionStatus_ConnectControllerBtn": {
+    "Value": "Poveži kontroler"
+  },
+  "HomePage_ConnectionStatus_EmulationType_ComboboxLabel": {
+    "Value": "Emulacija kontrolera:"
+  },
+  "HomePage_ConnectionStatus_EmulationType_Emulating360": {
+    "Value": "Emulacija Xbox 360"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingDS4": {
+    "Value": "Emulacija DualShock 4"
+  },
+  "HomePage_ConnectionStatus_EmulationType_EmulatingNone": {
+    "Value": "Nema emulacija"
+  },
+  "HomePage_ConnectionStatus_Status_AutoConnectingToController": {
+    "Value": "Automatsko povezivanje s kontrolerom..."
+  },
+  "HomePage_ConnectionStatus_Status_Connecting": {
+    "Value": "Povezivanje…"
+  },
+  "HomePage_ConnectionStatus_Status_ConnectionLostAttemptingToReconnect": {
+    "Value": "Veza izgubljena, pokušaj ponovnog povezivanja..."
+  },
+  "HomePage_ConnectionStatus_Status_ControllerConnected": {
+    "Value": "Kontroler spojen"
+  },
+  "HomePage_ConnectionStatus_Status_FailedToConnect": {
+    "Value": "Povezivanje nije uspjelo, provjerite vezu!"
+  },
+  "HomePage_ConnectionStatus_Status_SearchingForController": {
+    "Value": "Traženje kontrolera..."
+  },
+  "HomePage_ConnectionStatus_Status_ShuttingDownApp": {
+    "Value": "Isključivanje aplikacije..."
+  },
+  "HomePage_ControllerLEDLabel": {
+    "Value": "Kontroler LED"
+  },
+  "HomePage_ControllerLED_BrightnessLabel": {
+    "Value": "Svjetlina"
+  },
+  "HomePage_ControllerLED_ColorModeBtn": {
+    "Value": "Način boje"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlash": {
+    "Value": "Aktiviraj Flash"
+  },
+  "HomePage_ControllerLED_ColorMode_Battery_ActivateFlashWhenBattery": {
+    "Value": "Bljeskalica kada je baterija manja od (%)"
+  },
+  "HomePage_ControllerLED_ColorMode_Breathing_RandomColorCycle": {
+    "Value": "Slučajni ciklus boja"
+  },
+  "HomePage_ControllerLED_ColorMode_RainbowLabel": {
+    "Value": "Duga"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_AutoReverse": {
+    "Value": "Auto-Reverse Rainbow"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowMultiplier": {
+    "Value": "Multiplikator promjene boje"
+  },
+  "HomePage_ControllerLED_ColorMode_Rainbow_RainbowSpeed": {
+    "Value": "Brzina duginih boja"
+  },
+  "HomePage_ControllerLED_ColorMode_Speed": {
+    "Value": "Brzina"
+  },
+  "HomePage_ControllerLED_ColorMode_StaticColorLabel": {
+    "Value": "Statička boja"
+  },
+  "HomePage_ControllerLED_MicLEDLabel": {
+    "Value": "LED mikrofona"
+  },
+  "HomePage_ControllerLED_MicLED_OffBtn": {
+    "Value": "ISKLJUČENO"
+  },
+  "HomePage_ControllerLED_MicLED_OnBtn": {
+    "Value": "UKLJUČENO"
+  },
+  "HomePage_ControllerLED_MicLED_PulseBtn": {
+    "Value": "Nijansa"
+  },
+  "HomePage_ControllerLED_PlayerLEDLabel": {
+    "Value": "LED za igrača"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOffBtn": {
+    "Value": "Sve Off"
+  },
+  "HomePage_ControllerLED_PlayerLED_AllOnBtn": {
+    "Value": "Sve ON"
+  },
+  "HomePage_ControllerLED_PlayerLED_Battery": {
+    "Value": "Baterija"
+  },
+  "HomePage_ControllerLED_PlayerLED_Breathing": {
+    "Value": "Disanje"
+  },
+  "HomePage_ControllerLED_PlayerLED_CustomBtn": {
+    "Value": "Prilagođeno"
+  },
+  "HomePage_ControllerLED_PlayerLED_DS4Passthrough": {
+    "Value": "DualShock 4 Prolaz"
+  },
+  "HomePage_ControllerLED_PlayerLED_FiveBtn": {
+    "Value": "Pet"
+  },
+  "HomePage_ControllerLED_PlayerLED_FlashWhileCharging": {
+    "Value": "Bljeskalica tijekom punjenja"
+  },
+  "HomePage_ControllerLED_PlayerLED_FourBtn": {
+    "Value": "Četiri"
+  },
+  "HomePage_ControllerLED_PlayerLED_HighBrightnessBtn": {
+    "Value": "Visoka"
+  },
+  "HomePage_ControllerLED_PlayerLED_LowBrightnessBtn": {
+    "Value": "Nizak"
+  },
+  "HomePage_ControllerLED_PlayerLED_MediumBrightnessBtn": {
+    "Value": "Srednji"
+  },
+  "HomePage_ControllerLED_PlayerLED_OneBtn": {
+    "Value": "Jedan"
+  },
+  "HomePage_ControllerLED_PlayerLED_Strobing": {
+    "Value": "Strobing"
+  },
+  "HomePage_ControllerLED_PlayerLED_ThreeBtn": {
+    "Value": "Tri"
+  },
+  "HomePage_ControllerLED_PlayerLED_TwoBtn": {
+    "Value": "Dva"
+  },
+  "HomePage_ControllerLED_RainbowSpeedLabel": {
+    "Value": "Brzina duginih boja"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Fast": {
+    "Value": "Brzo"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Hyper": {
+    "Value": "Hyper"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Medium": {
+    "Value": "Srednji"
+  },
+  "HomePage_ControllerLED_RainbowSpeed_Slow": {
+    "Value": "Sporo"
+  },
+  "HomePage_ControllerLED_TouchPadLEDLabel": {
+    "Value": "LED tipke na dodir"
+  },
+  "HomePage_ControllerModeLabel": {
+    "Value": "Način rada kontrolera"
+  },
+  "HomePage_ControllerMode_IntensityLabel": {
+    "Value": "Intenzitet"
+  },
+  "HomePage_ControllerMode_ModeLabel": {
+    "Value": "Način"
+  },
+  "HomePage_ControllerMode_RandomizeModeAndValues": {
+    "Value": "Nasumični način rada + vrijednosti"
+  },
+  "HomePage_ControllerMode_RandomizeValues": {
+    "Value": "Randomizirajte vrijednosti"
+  },
+  "HomePage_ControllerMode_VibrationDurationLabel": {
+    "Value": "Trajanje vibracije (sek)"
+  },
+  "HomePage_ControllerVibration": {
+    "Value": "Regulator vibracija"
+  },
+  "HomePage_ExportTriggers": {
+    "Value": "Izvoz okidača"
+  },
+  "HomePage_ExportTriggers_CopyToClipboard": {
+    "Value": "Kopiraj u međuspremnik"
+  },
+  "HomePage_ExportTriggers_ExportForTextfile": {
+    "Value": "Izvoz za Textfile"
+  },
+  "HomePage_ExportTriggers_ExportForUDP": {
+    "Value": "Izvoz za UDP (C #)"
+  },
+  "HomePage_GameLabel": {
+    "Value": "Igra"
+  },
+  "HomePage_TextFileLabel": {
+    "Value": "Tekstna datoteka"
+  },
+  "HomePage_TextFile_FileLocationLabel": {
+    "Value": "Mjesto datoteke"
+  },
+  "HomePage_TextFile_SlectFileBtn": {
+    "Value": "Odaberite lokaciju tekstualne datoteke"
+  },
+  "HomePage_TextFile_StatusActiveLabel": {
+    "Value": "Aktivno"
+  },
+  "HomePage_TextFile_StatusLabel": {
+    "Value": "Stanje"
+  },
+  "HomePage_TextFile_StatusNoMatchingTriggerValuesLabel": {
+    "Value": "Aktivno - Nema odgovarajuće vrijednosti triggera u tekstualnoj datoteci!"
+  },
+  "HomePage_TextFile_StatusNotActiveDoesNotExistLabel": {
+    "Value": "Nije aktivno - Odabrana datoteka ne postoji!"
+  },
+  "HomePage_TextFile_StatusNotActiveLabel": {
+    "Value": "Nije aktivno"
+  },
+  "HomePage_TextFile_StatusNotActiveNoFileSelectedLabel": {
+    "Value": "Nije aktivno - Nije odabrana datoteka!"
+  },
+  "HomePage_TextFile_StatusNotActiveNotATextFileLabel": {
+    "Value": "Nije aktivno - Ovo nije tekstualna datoteka, pokušajte ponovo!"
+  },
+  "HomePage_TextFile_StopReadingBtn": {
+    "Value": "Zaustavite čitanje tekstualne datoteke"
+  },
+  "HomePage_TextfileStatus": {
+    "Value": "Status tekstualne datoteke:"
+  },
+  "HomePage_UdpStatus": {
+    "Value": "UDP status:"
+  },
+  "InfoPage_CrashesOrBugsLabel": {
+    "Value": "Problemi ili bugovi?"
+  },
+  "InfoPage_Donate": {
+    "Value": "Doniraj"
+  },
+  "InfoPage_JoinDiscordLabel": {
+    "Value": "Pridružite se na Discord"
+  },
+  "InfoPage_MoreInfoGitHubLabel": {
+    "Value": "Više informacija na GitHub-u"
+  },
+  "InfoPage_Social": {
+    "Value": "Socijalna"
+  },
+  "MenuGames_Label": {
+    "Value": "Igre"
+  },
+  "MenuHome_Label": {
+    "Value": "Početna"
+  },
+  "MenuInfo_Label": {
+    "Value": "Informacije"
+  },
+  "MenuInput_Label": {
+    "Value": "kontrolor"
+  },
+  "MenuSense2Key_Label": {
+    "Value": "Sense2Key"
+  },
+  "MenuSettings_JoinBtn": {
+    "Value": "Pridruži se"
+  },
+  "MenuSettings_Label": {
+    "Value": "Postavke"
+  },
+  "MenuSettings_SubmitIssueBtn": {
+    "Value": "Pošalji problem"
+  },
+  "MenuSettings_VisitBtn": {
+    "Value": "Posjetiti"
+  },
+  "MenuWorkshop_Label": {
+    "Value": "Radionica"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartEight": {
+    "Value": "Instalirajte službeni Sonyjev alat za ažuriranje firmvera da biste ažurirali kontroler."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFive": {
+    "Value": "Škripac DualSense baterije čitanja bug"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartFour": {
+    "Value": "Uvijek biste trebali ažurirati na najnoviju verziju iz ovih razloga:"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartNine": {
+    "Value": "NAPOMENA: Prilikom ažuriranja provjerite je li DSX zatvoren kako biste izbjegli bilo kakve probleme tijekom postupka."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartOne": {
+    "Value": "Dostupna je nova verzija firmvera za vaš DualSense kontroler."
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSeven": {
+    "Value": "Razni popravci i poboljšanja"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartSix": {
+    "Value": "Poboljšajte normalnu tutnjavu (za stare igre)"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartThree": {
+    "Value": "Nova verzija"
+  },
+  "NewFirmwareVersionAvailablePopup_DescriptionPartTwo": {
+    "Value": "Trenutna verzija"
+  },
+  "NewFirmwareVersionAvailablePopup_Title": {
+    "Value": "Dostupna nova verzija firmvera DualSense"
+  },
+  "NewFirmwareVersionAvailablePopup_ViewToolButton": {
+    "Value": "Pogledajte alat za ažuriranje firmvera"
+  },
+  "Sense2Key_Configuration_HelpLabel1": {
+    "Value": "Odaberite s padajućeg izbornika ili pritisnite tipku na tipkovnici"
+  },
+  "Sense2Key_Configuration_HelpLabel2": {
+    "Value": "dok je odabran padajući izbornik"
+  },
+  "Sense2Key_Configuration_SaveConfigurationBtn": {
+    "Value": "Spremi konfiguraciju"
+  },
+  "Sense2Key_CreateProfileBtn": {
+    "Value": "Stvori profil"
+  },
+  "Sense2Key_DeleteProfileBtn": {
+    "Value": "Izbriši"
+  },
+  "Sense2Key_ExportProfileBtn": {
+    "Value": "Izvezi profil"
+  },
+  "Sense2Key_GetStartedLabel": {
+    "Value": "Početak rada stvaranjem novog profila"
+  },
+  "Sense2Key_ImportProfileBtn": {
+    "Value": "Uvoz profila"
+  },
+  "Sense2Key_NewProfile_CancelBtn": {
+    "Value": "Odustani"
+  },
+  "Sense2Key_NewProfile_SaveNewProfilelBtn": {
+    "Value": "Spremi novi profil"
+  },
+  "Sense2Key_NoProfilesAdded": {
+    "Value": "Nema dodanih profila"
+  },
+  "Sense2Key_ProfileStatus_DelayCannotBeNegative": {
+    "Value": "Kašnjenje ne može biti negativno"
+  },
+  "Sense2Key_ProfileStatus_DelayCantBeEmpty": {
+    "Value": "Kašnjenje ne može biti prazno"
+  },
+  "Sense2Key_ProfileStatus_DelayUpdated": {
+    "Value": "Kašnjenje ažurirano"
+  },
+  "Sense2Key_ProfileStatus_ProfileCreated": {
+    "Value": "Profil izrađen"
+  },
+  "Sense2Key_ProfileStatus_ProfileExists": {
+    "Value": "Profil već postoji"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameCantBeEmpty": {
+    "Value": "Naziv profila ne može biti prazno"
+  },
+  "Sense2Key_ProfileStatus_ProfileNameUpdated": {
+    "Value": "Naziv profila ažuriran"
+  },
+  "Sense2Key_ProfilesLabel": {
+    "Value": "PROFILI"
+  },
+  "Sense2Key_ProfilesWillShowHere": {
+    "Value": "Vaši Profili će se pojaviti ovdje"
+  },
+  "Sense2Key_SelectedProfile_DelayLabel": {
+    "Value": "Kašnjenje (milisekunde)"
+  },
+  "Sense2Key_SelectedProfile_DetailsLabel": {
+    "Value": "Detalji"
+  },
+  "Sense2Key_SelectedProfile_EditConfigurationBtn": {
+    "Value": "Uredi konfiguraciju"
+  },
+  "Sense2Key_SelectedProfile_EnterProfileNamePlaceholder": {
+    "Value": "Unesite naziv profila"
+  },
+  "Sense2Key_SelectedProfile_ProfileNameLabel": {
+    "Value": "Naziv profila"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_Active": {
+    "Value": "Status: Profil Aktivan"
+  },
+  "Sense2Key_SelectedProfile_ProfileStatus_NotActive": {
+    "Value": "Status: Profil NIJE aktivan"
+  },
+  "Sense2Key_SelectedProfile_StartBtn": {
+    "Value": "Početak"
+  },
+  "Sense2Key_SelectedProfile_StopBtn": {
+    "Value": "Zaustavi"
+  },
+  "Sense2Key_SelectedProfile_UpdateDelayBtn": {
+    "Value": "Ažuriraj kašnjenje"
+  },
+  "Sense2Key_SelectedProfile_UpdateProfileNameBtn": {
+    "Value": "Ažuriraj naziv"
+  },
+  "SettingsPage_AppLabel": {
+    "Value": "Aplikacija"
+  },
+  "SettingsPage_AppSettings_BorderColorLabel": {
+    "Value": "Boja obruba"
+  },
+  "SettingsPage_AppSettings_Border_AlphaLabel": {
+    "Value": "Alfa (prozirnost)"
+  },
+  "SettingsPage_AppSettings_Border_BlueLabel": {
+    "Value": "Plava"
+  },
+  "SettingsPage_AppSettings_Border_GreenLabel": {
+    "Value": "Zelena"
+  },
+  "SettingsPage_AppSettings_Border_RedLabel": {
+    "Value": "Crvena"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundBlurLabel": {
+    "Value": "Zamagliti"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundLabel": {
+    "Value": "Prilagođena Pozadinska Slika"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundSelectImageBtn": {
+    "Value": "Odaberite sliku"
+  },
+  "SettingsPage_AppSettings_CustomBackgroundStretchComboBoxLabel": {
+    "Value": "Rastegni"
+  },
+  "SettingsPage_AppSettings_DarkModeLabel": {
+    "Value": "Tamni način rada"
+  },
+  "SettingsPage_AppSettings_KeepInTrayLabel": {
+    "Value": "Zadrži aplikaciju u \"ladici\" kada je minimizirana"
+  },
+  "SettingsPage_AppSettings_Label": {
+    "Value": "Postavke aplikacije"
+  },
+  "SettingsPage_AppSettings_LanguageLabel": {
+    "Value": "Jezik"
+  },
+  "SettingsPage_AppSettings_LaunchMinimizedCheckmark": {
+    "Value": "Pokreni minimizirano"
+  },
+  "SettingsPage_AppSettings_LaunchWindowsStartupLabel": {
+    "Value": "Pokrenite DualSenseX pri pokretanju sustava Windows"
+  },
+  "SettingsPage_App_EnableDiscordRP": {
+    "Value": "Omogući prisutnost bogatih razdora"
+  },
+  "SettingsPage_App_EnableDiscordRP_MightTakeAMin": {
+    "Value": "Može potrajati i do minute da stupi na snagu"
+  },
+  "SettingsPage_BackgroundLabel": {
+    "Value": "Pozadina"
+  },
+  "SettingsPage_BackgroundSettings_Label": {
+    "Value": "Postavke pozadine"
+  },
+  "SettingsPage_BackgroundSettings_SelectedBtn": {
+    "Value": "Odabrano"
+  },
+  "SettingsPage_ControllerLabel": {
+    "Value": "kontrolor"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault": {
+    "Value": "Zadani zvuk"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsDefault_RefreshList": {
+    "Value": "Osvježite popis"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Headset": {
+    "Value": "Slušalice"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetLeft": {
+    "Value": "Slušalice lijevo"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_HeadsetRight": {
+    "Value": "Slušalice Desno"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_LeftMotor": {
+    "Value": "Lijevi motor"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_RightMotor": {
+    "Value": "Desni motor"
+  },
+  "SettingsPage_ControllerSettings_AudioHapticsVolume_Speaker": {
+    "Value": "Zvučnik"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem": {
+    "Value": "Audio sustav kontrolera (samo USB)"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_Headset": {
+    "Value": "Slušalice"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_HeadsetVolume": {
+    "Value": "Glasnoća slušalica"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_InternalSpeaker": {
+    "Value": "Unutarnji zvučnik"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_MicVolume": {
+    "Value": "Glasnoća mikrofona"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_OutputMode": {
+    "Value": "Način rada audioizlaza"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerAndHeadset": {
+    "Value": "Obje slušalice i unutarnji zvučnik"
+  },
+  "SettingsPage_ControllerSettings_AudioSystem_SpeakerVolume": {
+    "Value": "Glasnoća zvučnika: %d%%"
+  },
+  "SettingsPage_ControllerSettings_AutoConnectWhenOpenLabel": {
+    "Value": "Automatsko povezivanje kada se DualsenseX otvori"
+  },
+  "SettingsPage_ControllerSettings_ControllerMotorStrengthLabel": {
+    "Value": "Podesite Snagu Motora"
+  },
+  "SettingsPage_ControllerSettings_DisableVibrationControllerLabel": {
+    "Value": "Onemogući Vibracije Kontrolera"
+  },
+  "SettingsPage_ControllerSettings_EnableAudioHaptics": {
+    "Value": "Omogući audio haptics (samo USB)"
+  },
+  "SettingsPage_ControllerSettings_EnableHidHide": {
+    "Value": "Omogući HidHide"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble": {
+    "Value": "Omogući poboljšanu tutnjavu motora"
+  },
+  "SettingsPage_ControllerSettings_EnableImprovedRumble2": {
+    "Value": "Zahtijeva da bi bila na snazi verzija firmvera 0224 ili novija"
+  },
+  "SettingsPage_ControllerSettings_EnableVibWhileDisabled": {
+    "Value": "Omogući dolazne vibracije dok je onemogućeno"
+  },
+  "SettingsPage_ControllerSettings_KillSteamOnConnect": {
+    "Value": "Ugasi Steam pri povezivanju"
+  },
+  "SettingsPage_ControllerSettings_Label": {
+    "Value": "Postavke kontrolera"
+  },
+  "SettingsPage_ControllerSettings_LeftTriggerThreshold": {
+    "Value": "prag lijevog okidača"
+  },
+  "SettingsPage_ControllerSettings_LoadLastActiveTrigger": {
+    "Value": "Učitaj zadnji aktivni okidač na početku"
+  },
+  "SettingsPage_ControllerSettings_PlayLightShowOnConnect": {
+    "Value": "Reproduciraj Lightshow u trenutku povezivanja"
+  },
+  "SettingsPage_ControllerSettings_PressMicAndUpXboxGameBar": {
+    "Value": "Pritisnite tipke Mic + UP da biste otvorili traku za igru Xbox"
+  },
+  "SettingsPage_ControllerSettings_PreviewLightshowBtn": {
+    "Value": "Pokreni Lightshow"
+  },
+  "SettingsPage_ControllerSettings_RightTriggerThreshold": {
+    "Value": "Prag praga praga"
+  },
+  "SettingsPage_ControllerSettings_SearchUntilControllerConnects": {
+    "Value": "Traži dok se kontroler ne poveže"
+  },
+  "SettingsPage_ControllerSettings_TriggerThreshold": {
+    "Value": "Prag okidača"
+  },
+  "SettingsPage_ControllerSettings_UDPPortListen": {
+    "Value": "Omogući slušatelja UDP porta"
+  },
+  "SettingsPage_ControllerSettings_UDPPortNumber": {
+    "Value": "Broj UDP porta za slušanje"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions": {
+    "Value": "Mogućnosti sinkronizacije volumena"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_DontSync": {
+    "Value": "Ne sinkroniziraj"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncAll": {
+    "Value": "Sinkroniziraj sve"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftMotorRightMotor": {
+    "Value": "Sinkronizacija lijevog motora i desnog motora"
+  },
+  "SettingsPage_ControllerSettings_VolumeSyncOptions_SyncLeftRightSpeakers": {
+    "Value": "Sinkroniziraj zvučnike lijevog"
+  },
+  "SettingsPage_Controller_ControllerAudioButton": {
+    "Value": "Audio kontroler"
+  },
+  "SettingsPage_Controller_DriversButton": {
+    "Value": "Vozači"
+  },
+  "SettingsPage_Controller_GyroAccelButton": {
+    "Value": "Žiroskop/akcelerometar"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking": {
+    "Value": "Skrivanje kontrolera"
+  },
+  "SettingsPage_Controller_Misc_ControllerCloaking_Description": {
+    "Value": "Sakrij fizički kontroler iz drugih aplikacija"
+  },
+  "SettingsPage_Controller_MiscellaneousButton": {
+    "Value": "Razno"
+  },
+  "SettingsPage_Controller_NetworkingButton": {
+    "Value": "Umrežavanje"
+  },
+  "SettingsPage_Controller_ShortcutsButton": {
+    "Value": "Prečaci"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput": {
+    "Value": "Slušajte za Input"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Description": {
+    "Value": "Pritisnite gumb na kontroleru za otkrivanje"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_NotAllowed": {
+    "Value": "Nije dopušteno"
+  },
+  "SettingsPage_Controller_Shortcuts_ListenForInput_Title": {
+    "Value": "Otkrivanje gumba za unos"
+  },
+  "SettingsPage_Controller_Shortcuts_OpenXboxGameBar": {
+    "Value": "Otvorite kombinaciju trake za Xbox igre"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBT": {
+    "Value": "Isključite kontroler (Bluetooth)"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAuto": {
+    "Value": "Automatsko isključivanje kontrolera"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTAutoHowTo": {
+    "Value": "Kako da: Onemogućite automatsko isključivanje regulatora pare"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTManual": {
+    "Value": "Ručni kombinirani gumb Pritisnite"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTMinutes": {
+    "Value": "minuta"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTNever": {
+    "Value": "Nikad"
+  },
+  "SettingsPage_Controller_Shortcuts_TurnOffControllerBTTimeElapsedSinceIdle": {
+    "Value": "Vrijeme proteklo od mirovanja:"
+  },
+  "SettingsPage_Controller_TouchpadButton": {
+    "Value": "PODLOGA OSJETLJIVA NA DODIR"
+  },
+  "SettingsPage_Settings_CheckForUpdatesLabel": {
+    "Value": "Provjeri ažuriranja"
+  },
+  "SettingsPage_Settings_ResetAppDescription": {
+    "Value": "Jeste li sigurni da želite vratiti DualsenSex na zadane postavke?"
+  },
+  "SettingsPage_Settings_ResetAppLabel": {
+    "Value": "Resetiraj postavke aplikacije"
+  },
+  "SettingsPage_Settings_ResetAppYesButton": {
+    "Value": "Resetiraj DualSenSex"
+  },
+  "SettingsPage_TouchToMouse_EnableTapAsLeftMouse": {
+    "Value": "Omogući Dodirnite kao lijevu tipku miša"
+  },
+  "SettingsPage_TouchToMouse_EnableTouchpadToMouse": {
+    "Value": "Omogući dodirnu plohu mišu"
+  },
+  "SettingsPage_TouchToMouse_FastSensiSpeed": {
+    "Value": "Brza brzina osjetljivosti - gumb za držanje"
+  },
+  "SettingsPage_TouchToMouse_InvertScroll": {
+    "Value": "Preokreni pomicanje"
+  },
+  "SettingsPage_TouchToMouse_LeftClickHold": {
+    "Value": "Lijevi klik - Držite gumb za držanje pritisnutog stanja"
+  },
+  "SettingsPage_TouchToMouse_NormalSensiSpeed": {
+    "Value": "Normalna brzina osjetljivosti"
+  },
+  "SettingsPage_TouchToMouse_RightClickHold": {
+    "Value": "Desnom tipkom miša - Držite gumb zatim Dodirnite ili Pritisnite"
+  },
+  "SettingsPage_TouchToMouse_ScrollSpeed": {
+    "Value": "Brzina pomicanja - Dodirnite s 2 prsta i povucite"
+  },
+  "SettingsPage_TouchToMouse_SlowSensiSpeed": {
+    "Value": "Brzina usporavanja osjetljivosti - gumb za držanje"
+  },
+  "SettingsPage_ViewReleaseNotesButton": {
+    "Value": "Pogledajte napomene o izdanju"
+  },
+  "SettingsPage_ViewSaveFileFolderButton": {
+    "Value": "Prikaz mape Spremi datoteku"
+  },
+  "SetupScreen_AppAcentColor_Color": {
+    "Value": "Boja"
+  },
+  "SetupScreen_AppAcentColor_Preview": {
+    "Value": "Pregled"
+  },
+  "SetupScreen_AppAcentColor_Reset": {
+    "Value": "Vrati na zadanu boju naglaska sustava"
+  },
+  "SetupScreen_AppAcentColor_Title": {
+    "Value": "Boja akcenta aplikacije"
+  },
+  "SetupScreen_EmualtionPicker_DownloadDriver": {
+    "Value": "Preuzimanje upravljačkog programa"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_BothInstalled": {
+    "Value": "Oba upravljačkog programa instalirana"
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingForInstalledDrivers": {
+    "Value": "Provjera instaliranih upravljačkih programa..."
+  },
+  "SetupScreen_EmualtionPicker_Drivers_CheckingInstalledDrivers": {
+    "Value": "Provjera instaliranih upravljačkih programa"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4": {
+    "Value": "Virtualni DualShock 4"
+  },
+  "SetupScreen_EmualtionPicker_DualShock4_Description": {
+    "Value": "Aplikacija će stvoriti Virtual DualShock 4 kontroler koji će se koristiti s igrama koje imaju izvornu DualShock 4 podršku."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Checkbox": {
+    "Value": "HidHide upravljački program instaliran"
+  },
+  "SetupScreen_EmualtionPicker_HidHide_Description": {
+    "Value": "HidHide omogućuje aplikaciji da sakrije fizički kontroler prilikom oponašanja virtualnog uređaja. Koristi se za izbjegavanje dvostrukih ulaza iz virtualnog i fizičkog kontrolera i neka igra ili program vidi samo virtualni kontroler."
+  },
+  "SetupScreen_EmualtionPicker_HidHide_SystemRestart": {
+    "Value": "* Zahtijeva ponovno pokretanje sustava"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation": {
+    "Value": "Nema emulacija"
+  },
+  "SetupScreen_EmualtionPicker_NoEmulation_Description": {
+    "Value": "Aplikacija će komunicirati samo s kontrolerom bez stvaranja virtualnog kontrolera."
+  },
+  "SetupScreen_EmualtionPicker_Title": {
+    "Value": "Vozači i tip emulacije"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Checkbox": {
+    "Value": "Instaliran upravljački program VigEM"
+  },
+  "SetupScreen_EmualtionPicker_Vigem_Description": {
+    "Value": "VigEM Bus Driver omogućuje korištenje virtualnog uređaja koji oponaša original kao da je fizički povezan. Primjer:"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360": {
+    "Value": "Virtualni Xbox 360 (preporučeno)"
+  },
+  "SetupScreen_EmualtionPicker_Xbox360_Description": {
+    "Value": "Aplikacija će stvoriti virtualni Xbox 360 kontroler koji će se koristiti s igrama koje imaju izvornu podršku za Xbox Controller."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInput": {
+    "Value": "Kako bi se kontroler prepoznao, Steam Input mora biti onemogućen."
+  },
+  "SetupScreen_SteamSetup_DisableSteamInputCheckbox": {
+    "Value": "I Onemogućen ulaz pare"
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlay": {
+    "Value": "Da aplikacija ne bi imala grafičke propuste, Overlay mora biti onemogućen."
+  },
+  "SetupScreen_SteamSetup_DisableSteamOverlayCheckbox": {
+    "Value": "Onemogućeno parno prekrivanje"
+  },
+  "SetupScreen_SteamSetup_Title": {
+    "Value": "Steam Postavke"
+  },
+  "SetupScreen_SteamSetup_Title2": {
+    "Value": "Onemogući Steam unos i Steam Overlay u DSX-u"
+  },
+  "SetupScreen_SteamSetup_Title2_Subtitle": {
+    "Value": "Ovo je potrebno zbog Steam API"
+  }
+}
