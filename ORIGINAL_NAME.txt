@@ -1,0 +1,5 @@
+Store Wars Multiplayer Shop Simulator
+Method: fuzzy
+Proposed: 3213600
+Chosen: 3213600
+Score: 70.18
