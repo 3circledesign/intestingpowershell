@@ -1,0 +1,5 @@
+NASCAR Heat 4
+Method: fuzzy
+Proposed: 1127980
+Chosen: 1127980
+Score: 100.0
