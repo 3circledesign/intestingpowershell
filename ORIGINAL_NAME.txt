@@ -1,0 +1,5 @@
+Virtua Fighter 5 REVO Online - Tested OK
+Method: fuzzy
+Proposed: 3112260
+Chosen: 3112260
+Score: 73.05
