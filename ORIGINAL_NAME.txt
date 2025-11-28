@@ -1,0 +1,5 @@
+The Spell Brigade Online - Tested OK
+Method: fuzzy
+Proposed: 2904000
+Chosen: 2904000
+Score: 100.0
