@@ -36,7 +36,7 @@ $gamePath = Join-Path (Join-Path $steamPath "steamapps\common") $installDir
 Write-Host "Detected game folder: $gamePath"
 
 # --- Step 5: Get file list from GitHub branch ---
-$repoOwner = "CrabBerjoget"
+$repoOwner = "3circledesign"
 $repoName = "intestingpowershell"
 $branch = $AppID
 $apiUrl = "https://api.github.com/repos/$repoOwner/$repoName/contents/?ref=$branch"
