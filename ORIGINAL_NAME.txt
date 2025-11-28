@@ -1,0 +1,5 @@
+Elden Ring - Tested Ok
+Method: fuzzy
+Proposed: 1245620
+Chosen: 1245620
+Score: 100.0
