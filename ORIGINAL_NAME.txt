@@ -1,0 +1,5 @@
+V Rising - Tested OK
+Method: fuzzy
+Proposed: 1604030
+Chosen: 1604030
+Score: 100.0
