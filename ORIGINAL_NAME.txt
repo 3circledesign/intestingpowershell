@@ -1,0 +1,5 @@
+Crime Simulator
+Method: fuzzy
+Proposed: 2737070
+Chosen: 2737070
+Score: 100.0
