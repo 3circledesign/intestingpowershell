@@ -1,0 +1,5 @@
+Dragon Ball Sparking Zero - Tested OK
+Method: fuzzy
+Proposed: 1790600
+Chosen: 1790600
+Score: 100.0
