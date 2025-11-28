@@ -1,0 +1,5 @@
+The Forever Winter
+Method: fuzzy
+Proposed: 2828860
+Chosen: 2828860
+Score: 100.0
