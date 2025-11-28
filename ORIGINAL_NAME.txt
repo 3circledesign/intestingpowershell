@@ -1,0 +1,5 @@
+Granny Escape Together - Tested OK
+Method: fuzzy
+Proposed: 3070520
+Chosen: 3070520
+Score: 100.0
