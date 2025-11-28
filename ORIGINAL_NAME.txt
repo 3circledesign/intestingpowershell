@@ -1,0 +1,5 @@
+Far Cry 4 Bypass - Tested Ok
+Method: fuzzy
+Proposed: 298110
+Chosen: 298110
+Score: 78.17
