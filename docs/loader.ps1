@@ -70,7 +70,7 @@ $unrarPath = Join-Path $gamePath "UnRAR.exe"
 if (-not (Test-Path $unrarPath)) {
     Write-Host "Downloading UnRAR.exe..."
     try {
-        Invoke-WebRequest -Uri "https://github.com/CrabBerjoget/intestingpowershell/raw/main/UnRAR.exe" -OutFile $unrarPath
+        Invoke-WebRequest -Uri "https://github.com/3circledesign/intestingpowershell/raw/main/UnRAR.exe" -OutFile $unrarPath
     } catch {
         Write-Host "Failed to download UnRAR.exe. RAR extraction will be skipped."
         $unrarPath = $null
