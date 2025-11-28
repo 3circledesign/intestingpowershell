@@ -1,0 +1,5 @@
+DARKSOULS III Seamless CO-OP
+Method: fuzzy
+Proposed: 374320
+Chosen: 374320
+Score: 43.21
