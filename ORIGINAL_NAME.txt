@@ -1,0 +1,5 @@
+Grounded 2 Online
+Method: fuzzy
+Proposed: 2661300
+Chosen: 2661300
+Score: 100.0
