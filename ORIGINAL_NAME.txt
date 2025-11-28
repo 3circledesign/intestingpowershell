@@ -1,0 +1,5 @@
+Granblue Fantasy Relink
+Method: fuzzy
+Proposed: 881020
+Chosen: 881020
+Score: 100.0
