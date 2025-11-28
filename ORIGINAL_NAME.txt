@@ -1,0 +1,5 @@
+Nioh 2 The Complete Edition
+Method: fuzzy
+Proposed: 1325200
+Chosen: 1325200
+Score: 100.0
