@@ -1,0 +1,1056 @@
+/*
+Modifier options:
+  Range,
+  MinRange,
+  Precision
+*/
+
+[TYPE] "ShortWave"
+  PreciseTargeting Yes       // Means the conventional missile can be used to follow the detected target
+  CanDetect Ground
+  CanDetect Naval
+  CanDetect Airborne     
+  CanDetect Missile
+  CanDetect HighMissile
+  RadarColor 0.0 0.0 0.16 0.15
+  GlobalShowType SW_RANGES
+  GlobalShowType OVERHORIZONT_RANGES
+
+[TYPE] "LongWave"
+  PreciseTargeting No
+  CanDetect Ground
+  CanDetect Naval
+  CanDetect Airborne
+  CanDetect Missile
+  CanDetect HighMissile
+  RadarColor 0.02 0.05 0.16 0.15  
+  GlobalShowType LW_RANGES
+
+[TYPE] "AirDetectionSW"
+  PreciseTargeting Yes
+  CanDetect Naval //Testing
+  CanDetect Airborne     
+  CanDetect Missile
+  RadarColor 0.0 0.0 0.16 0.15
+  GlobalShowType SW_RANGES
+
+////Basic air detection, for transports, also AWACS
+[TYPE] "AirDetectionLW"
+  PreciseTargeting No
+  CanDetect Naval //Testing
+  CanDetect Airborne     
+  CanDetect Missile
+  RadarColor 0.02 0.05 0.16 0.15
+  GlobalShowType LW_RANGES    
+
+[TYPE] "OverHorizon"
+  PreciseTargeting Yes
+  CanCalculateLaunchPosition Yes
+  CanDetect HighMissile // This is for the high-flying missiles only (on the low orbit)
+  RadarColor 0.12 0.10 0.05 0.01
+  GlobalShowType OVERHORIZONT_RANGES
+
+[TYPE] "OverHorizon Naval"
+  PreciseTargeting No
+  CanDetect Naval
+  GlobalShowType OVERHORIZONT_RANGES
+
+[TYPE] "SpaceObserver"
+  PreciseTargeting No
+  CanDetect Satellite
+  CanDetect HighMissile
+  RadarColor 0.12 0.0 0.20 0.01
+  GlobalShowType SPACE_RANGES
+
+[TYPE] "Sonar"
+  PreciseTargeting Yes
+  CanSeeUnderIce Yes
+  CanDetect Naval
+  CanDetect Subwater
+  CanDetect SubwaterMissile
+//  RadarColor 0.0 0.0 0.17 0.15
+  RadarColor 0.15 0.17 0.0 0.30
+  GlobalShowType SONAR_RANGES
+
+[TYPE] "Optical"
+  PreciseTargeting Yes
+  CanDetect Ground
+  CanDetect Naval
+  CanDetect Airborne
+  CanDetect Missile
+  CanDetect HighMissile
+  ////May change the color back to default, will test
+  RadarColor 0.06 0.18 0.10 0.35
+  GlobalShowType OPTICAL_RANGES
+
+  
+[TYPE] "DummySat"
+  GlobalShowType SATELLITE_RANGES  
+  
+[TYPE] "FilmSat"
+  CanDetect Ground
+  RadarColor 0.06 0.18 0.10 0.35
+  GlobalShowType SATELLITE_RANGES
+
+[TYPE] "DataSat"  
+  CanDetect Ground
+  CanDetect Naval
+  CanDetect Airborne  
+  RadarColor 0.06 0.18 0.10 0.35
+  GlobalShowType SATELLITE_RANGES 
+
+[TYPE] "DataSat2"
+  PreciseTargeting Yes  
+  CanDetect Ground
+  CanDetect Naval
+  CanDetect Airborne
+  CanDetect HighMissile
+  RadarColor 0.06 0.18 0.10 0.35  
+  GlobalShowType SATELLITE_RANGES 
+
+[TYPE] "DataSat3"
+  PreciseTargeting Yes    
+  CanDetect Ground
+  CanDetect Naval
+  CanDetect Airborne
+  CanDetect Missile
+  CanDetect HighMissile  
+  RadarColor 0.06 0.18 0.10 0.35
+  GlobalShowType SATELLITE_RANGES      
+  
+[TYPE] "Resupply"
+  RadarColor 0.0 0.20 0.15 0.25
+
+/////// Now, actual radars
+
+[RADAR] "STD Vision"
+  Tech "R_Visor"
+  Type "Optical" // copy the settings of this type. however these setting strings can be used here as well
+  Range 50
+  Sector 360
+  Precision 0.25
+  DoNotShow
+  AffectedBy Unit "Covert_Unit" Range 0.75
+  AffectedBy Unit "Spy_Plane_Modifier" Range 0.0
+ 
+ ///Replaces STD vision on fixed-wing aircraft, stops them from seeing covert units
+[RADAR] "STD Vision Air"
+  Tech "R_Visor_Air"
+  Type "Optical" // copy the settings of this type. however these setting strings can be used here as well
+  Range 100
+  Sector 360
+  Precision 0.25
+  DoNotShow
+  AffectedBy Unit "Covert_Unit" Range 0.0
+  AffectedBy Unit "Spy_Plane_Modifier" Range 0.0
+ 
+[RADAR] "Air Vision"
+  Tech "R_Air_Default"
+  Type "AirDetectionSW"
+  Range 100
+  Sector 360
+  Precision 0.00
+  DoNotShow
+  AffectedBy Unit "Covert_Unit" Range 0.75
+  AffectedBy Unit "Spy_Plane_Modifier" Range 0.0  
+
+[RADAR] "Spy Plane Camera"
+  Tech "R_Spy_Plane_Camera"
+  Type "Optical"
+  Range 135
+  Sector 360
+  Icon "Units/Images/Radar/Optics_Camera.png"  
+  ImprovedBy "Generation_3_Aircraft" Set Range 150
+  ImprovedBy "Generation_6_Aircraft" Set Range 165
+  AffectedBy Unit "Covert_Unit" Range 0.0
+  
+  AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+  
+  
+[RADAR] "Counter-spy"
+  Tech "R_Counterspy"
+  Type "Optical"
+  Range 200
+  Sector 360
+  Precision 0.0
+  Icon "Units/Images/Radar/Optics.png"    
+ ImprovedBy "Portable_Electronic_Optics" Set Range 225
+ ImprovedBy "Tactical_Optics" Set Range 250
+ ImprovedBy "Advanced_Tactical_Optics" Set Range 300
+ ImprovedBy "Light_Unmanned_Vehicles" Set Range 350
+ ImprovedBy "Robotic_Infantry" Set Range 400
+
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_1" Range 0.60
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_2" Range 0.75
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_1" Range 0.55
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_2" Range 0.65
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_1" Range 0.7
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_2" Range 0.75
+  
+    AffectedBy Unit "Spy_Plane_Modifier" Range 0.0
+ 
+  AffectedBy Unit "Covert_Unit" Range 1.0
+  
+[RADAR] "Reconnaissance"
+  Tech "R_Reconnaissance"
+  Type "ShortWave"
+  Range 125
+  Sector 360
+  Precision 0
+  Icon "Units/Images/Radar/Optics.png"    
+ ImprovedBy "Portable_Electronic_Optics" Set Range 150
+ ImprovedBy "Tactical_Optics" Set Range 175
+ ImprovedBy "Advanced_Tactical_Optics" Set Range 200
+ ImprovedBy "Light_Unmanned_Vehicles" Set Range 225
+ ImprovedBy "Robotic_Infantry" Set Range 250
+
+
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_1" Range 0.60
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_2" Range 0.75
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_1" Range 0.55
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_2" Range 0.65
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_1" Range 0.7
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_2" Range 0.75
+  
+    AffectedBy Unit "Spy_Plane_Modifier" Range 0.0
+
+  //AffectedBy Unit "Novel_Stealth_Applications" Range 0.75
+  AffectedBy Unit "Underground" Range 0.75
+  AffectedBy Unit "Covert_Unit" Range 0.40
+
+[RADAR] "STD Short Wave"
+  Tech "R_Short_wave_radar"
+  Type "ShortWave"
+  Range 200
+  Sector 360
+  Precision 0
+  Icon "Units/Images/Radar/Air_Targeting.png"    
+  ImprovedBy "SW_Mk2" Set Range 225
+  ImprovedBy "SW_Mk2" Set MaxHeight 250
+  ImprovedBy "SW_Mk3" Set Range 250
+  ImprovedBy "SW_Mk3" Set MaxHeight 300
+  ImprovedBy "SW_Mk4" Set Range 300
+  ImprovedBy "SW_Mk4" Set MaxHeight 400
+  ImprovedBy "SW_Mk5" Set Range 350
+  ImprovedBy "SW_Mk5" Set MaxHeight 500
+  
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_1" Range 0.60
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_2" Range 0.75
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_1" Range 0.55
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_2" Range 0.65
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_1" Range 0.7
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_2" Range 0.75
+  
+    AffectedBy Unit "Spy_Plane_Modifier" Complex Range
+		case self "SW_Mk4" Multiply 1.00
+		case self "SW_Mk3" Multiply 0.85
+		case self "SW_Mk2" Multiply 0.70
+		default Multiply 0.1
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+  //AffectedBy Unit "Novel_Stealth_Applications" Range 0.70
+  AffectedBy Unit "Underground" Range 0.5
+  AffectedBy Unit "Covert_Unit" Range 0.0
+
+[RADAR] "Fixed Short Wave"
+  Tech "R_Short_wave_radar"
+  Type "ShortWave"
+  Range 300
+  Sector 360
+  Precision 0
+  Icon "Units/Images/Radar/Air_Targeting.png"    
+  ImprovedBy "SW_Mk2" Set Range 375
+  ImprovedBy "SW_Mk2" Set MaxHeight 250
+  ImprovedBy "SW_Mk3" Set Range 450
+  ImprovedBy "SW_Mk3" Set MaxHeight 300
+  ImprovedBy "SW_Mk4" Set Range 550
+  ImprovedBy "SW_Mk4" Set MaxHeight 400
+  ImprovedBy "SW_Mk5" Set Range 650
+  ImprovedBy "SW_Mk5" Set MaxHeight 500  
+  
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+	
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_1" Range 0.60
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_2" Range 0.75
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_1" Range 0.55
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_2" Range 0.65
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_1" Range 0.7
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_2" Range 0.75
+  
+    AffectedBy Unit "Spy_Plane_Modifier" Complex Range
+		case self "SW_Mk4" Multiply 1.00
+		case self "SW_Mk3" Multiply 0.85
+		case self "SW_Mk2" Multiply 0.70
+		default Multiply 0.1
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+  //AffectedBy Unit "Novel_Stealth_Applications" Range 0.70
+  AffectedBy Unit "Underground" Range 0.5
+  AffectedBy Unit "Covert_Unit" Range 0.0
+
+////AWACS Targeting radar
+[RADAR] "AWACS Short Wave"
+  Tech "R_AWACS_Ground_Targeting"
+  Type "ShortWave"
+  Range 300
+  Sector 360
+  MaxHeight 1500 // the default value is 100
+  Precision 0
+  Icon "Units/Images/Radar/Ground_Targeting.png"    
+  ImprovedBy "SW_Mk2" Set Range 350
+  ImprovedBy "SW_Mk3" Set Range 400
+  ImprovedBy "SW_Mk4" Set Range 500
+  ImprovedBy "SW_Mk5" Set Range 600
+
+
+  AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_1" Range 0.60
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_2" Range 0.75
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_1" Range 0.55
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_2" Range 0.65
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_1" Range 0.7
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_2" Range 0.75
+  
+    AffectedBy Unit "Spy_Plane_Modifier" Complex Range
+		case self "SW_Mk4" Multiply 1.00
+		case self "SW_Mk3" Multiply 0.85
+		case self "SW_Mk2" Multiply 0.70
+		default Multiply 0.1
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+  AffectedBy Unit "Underground" Range 0.5
+  AffectedBy Unit "Covert_Unit" Range 0.0
+  GlobalShowType OVERHORIZONT_RANGES
+
+
+[RADAR] "Interceptor Short Wave"
+  Tech "R_Interceptor_Short_Wave"
+  Type "ShortWave"
+  Range 250
+  Sector 360
+  Precision 0
+  Icon "Units/Images/Radar/Air_Targeting.png"
+  ImprovedBy "SW_Mk2" Set Range 325
+  ImprovedBy "SW_Mk2" Set MaxHeight 250
+  ImprovedBy "SW_Mk3" Set Range 400
+  ImprovedBy "SW_Mk3" Set MaxHeight 300
+  ImprovedBy "SW_Mk4" Set Range 500
+  ImprovedBy "SW_Mk4" Set MaxHeight 400
+  ImprovedBy "SW_Mk5" Set Range 600
+  ImprovedBy "SW_Mk5" Set MaxHeight 500  
+  
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+  
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_1" Range 0.60
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_2" Range 0.75
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_1" Range 0.55
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_2" Range 0.65
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_1" Range 0.7
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_2" Range 0.75
+  
+  ////Interceptors can see you!
+    //AffectedBy Unit "Spy_Plane_Modifier" Range 0.8
+  
+    AffectedBy InRange "EW Jammer" Range 0.65  
+  
+    //AffectedBy Unit "Novel_Stealth_Applications" Range 0.70
+  AffectedBy Unit "Underground" Range 0.5
+    AffectedBy Unit "Covert_Unit" Range 0.0
+
+[RADAR] "STD Long Wave"
+  Tech "R_Long_wave_radar"
+  Type "LongWave"
+  Range 400
+  Sector 360
+  Precision 0
+  Icon "Units/Images/Radar/Air_Detection.png"    
+  ImprovedBy "LW_Mk2" Set Range 450
+  ImprovedBy "LW_Mk2" Set MaxHeight 250
+  ImprovedBy "LW_Mk3" Set Range 500
+  ImprovedBy "LW_Mk3" Set MaxHeight 300
+  ImprovedBy "LW_Mk4" Set Range 600
+  ImprovedBy "LW_Mk4" Set MaxHeight 400
+  ImprovedBy "LW_Mk5" Set Range 700
+  ImprovedBy "LW_Mk5" Set MaxHeight 500
+  
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+ 
+  
+    AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_1" Range 0.60
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_2" Range 0.75
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_1" Range 0.55
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_2" Range 0.65
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_1" Range 0.7
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_2" Range 0.75
+  
+    AffectedBy Unit "Spy_Plane_Modifier" Complex Range
+		case self "LW_Mk4" Multiply 1.00
+		case self "LW_Mk3" Multiply 0.85
+		case self "LW_Mk2" Multiply 0.70
+		default Multiply 0.1
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+  
+    //AffectedBy Unit "Novel_Stealth_Applications" Range 0.75
+  AffectedBy Unit "Underground" Range 0.5
+    AffectedBy Unit "Covert_Unit" Range 0.0
+
+[RADAR] "Fixed Long Wave"
+  Tech "R_Long_wave_radar"
+  Type "LongWave"
+  Range 550
+  Sector 360
+  Precision 0
+  Icon "Units/Images/Radar/Air_Detection.png"      
+  ImprovedBy "LW_Mk2" Set Range 725
+  ImprovedBy "LW_Mk2" Set MaxHeight 250
+  ImprovedBy "LW_Mk3" Set Range 850
+  ImprovedBy "LW_Mk3" Set MaxHeight 300
+  ImprovedBy "LW_Mk4" Set Range 1000
+  ImprovedBy "LW_Mk4" Set MaxHeight 400  
+  ImprovedBy "LW_Mk5" Set Range 1250
+  ImprovedBy "LW_Mk5" Set MaxHeight 500
+  
+   AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0 
+  
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_1" Range 0.60
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_2" Range 0.75
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_1" Range 0.55
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_2" Range 0.65
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_1" Range 0.7
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_2" Range 0.75
+  
+    AffectedBy Unit "Spy_Plane_Modifier" Complex Range
+		case self "LW_Mk4" Multiply 1.00
+		case self "LW_Mk3" Multiply 0.85
+		case self "LW_Mk2" Multiply 0.70
+		default Multiply 0.1
+
+ 
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+    //AffectedBy Unit "Novel_Stealth_Applications" Range 0.75
+  AffectedBy Unit "Underground" Range 0.5
+    AffectedBy Unit "Covert_Unit" Range 0.0
+//  AffectedBy InRange "EW" Range 0.1
+
+///AWACS Ground detection
+[RADAR] "AWACS Long Wave"
+  Tech "R_AWACS_Ground_Detection"
+  Type "LongWave"
+  Range 400
+  Sector 360
+  MaxHeight 1500 // the default value is 100
+  Precision 0
+  Icon "Units/Images/Radar/Ground_Detection.png"    
+  ImprovedBy "LW_Mk2" Set Range 450
+  ImprovedBy "LW_Mk3" Set Range 500
+  ImprovedBy "LW_Mk4" Set Range 600
+  ImprovedBy "LW_Mk5" Set Range 700
+	  	  	 
+  AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_1" Range 0.60
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_2" Range 0.75
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_1" Range 0.55
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_2" Range 0.65
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_1" Range 0.7
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_2" Range 0.75
+  
+    AffectedBy Unit "Spy_Plane_Modifier" Complex Range
+		case self "LW_Mk4" Multiply 1.00
+		case self "LW_Mk3" Multiply 0.85
+		case self "LW_Mk2" Multiply 0.70
+		default Multiply 0.1
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+    //AffectedBy Unit "Novel_Stealth_Applications" Range 0.75
+  AffectedBy Unit "Underground" Range 0.5
+    AffectedBy Unit "Covert_Unit" Range 0.0
+
+[RADAR] "AWACS Air Detection"
+  Tech "R_AWACS_Air_Detection"
+  Type "AirDetectionLW"
+  Range 800
+  Sector 360
+  MaxHeight 1500 // the default value is 100
+  Precision 0
+  Icon "UNITS/Images/Radar/Air_Detection.png"    
+  ImprovedBy "LW_Mk2" Set Range 950
+  ImprovedBy "LW_Mk3" Set Range 1100
+  ImprovedBy "LW_Mk4" Set Range 1300
+  ImprovedBy "LW_Mk5" Set Range 1600
+  
+  ImprovedBy Unit "Naval_AWACS_Mod" Range 0.75
+	  	  	 
+	  AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0		 
+
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_1" Range 0.60
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_2" Range 0.75
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_1" Range 0.55
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_2" Range 0.65
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_1" Range 0.7
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_2" Range 0.75
+  
+    AffectedBy Unit "Spy_Plane_Modifier" Complex Range
+		case self "LW_Mk4" Multiply 1.00
+		case self "LW_Mk3" Multiply 0.85
+		case self "LW_Mk2" Multiply 0.70
+		default Multiply 0.1
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+    //AffectedBy Unit "Novel_Stealth_Applications" Range 0.75
+    AffectedBy Unit "Underground" Range 0.5
+    AffectedBy Unit "Covert_Unit" Range 0.0
+
+[RADAR] "AWACS Air Targeting"
+  Tech "R_AWACS_Air_Targeting"
+  Type "AirDetectionSW"
+  Range 600
+  Sector 360
+  MaxHeight 1500 // the default value is 100
+  Precision 0
+  Icon "UNITS/Images/Radar/Air_Targeting.png"  
+  ImprovedBy "SW_Mk2" Set Range 700
+  ImprovedBy "SW_Mk3" Set Range 825
+  ImprovedBy "SW_Mk4" Set Range 975
+  ImprovedBy "SW_Mk5" Set Range 1200
+  
+  ImprovedBy Unit "Naval_AWACS_Mod" Range 0.75
+	  	
+	  AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0	
+
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_1" Range 0.60
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_2" Range 0.75
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_1" Range 0.55
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_2" Range 0.65
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_1" Range 0.7
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_2" Range 0.75
+  
+    AffectedBy Unit "Spy_Plane_Modifier" Complex Range
+		case self "SW_Mk4" Multiply 1.00
+		case self "SW_Mk3" Multiply 0.85
+		case self "SW_Mk2" Multiply 0.70
+		default Multiply 0.1
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+    //AffectedBy Unit "Novel_Stealth_Applications" Range 0.75
+    AffectedBy Unit "Underground" Range 0.5
+    AffectedBy Unit "Covert_Unit" Range 0.0
+
+
+
+/////Warship Sonar  
+[RADAR] "Sonar"
+  Tech "R_Sonar"
+  Type "Sonar"
+  Range 200
+  Sector 360
+  Precision 0.75
+  Icon "UNITS/Images/Radar/Sonar.png"   
+  ImprovedBy "Sonar_Mk2" Range 1.20
+  ImprovedBy "Sonar_Mk3" Range 1.20
+  ImprovedBy "Sonar_Mk4" Range 1.20
+  ImprovedBy "Sonar_Mk5" Range 1.20
+
+  ImprovedBy Unit "Debuffed_Sonar" Range 0.8
+  ImprovedBy Unit "Advanced_Sonar" Range 1.35
+  ImprovedBy Unit "Mega_Sonar" Range 1.45  
+
+  AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+
+
+  AffectedBy Unit "Submarine_Stealth" Range 0.80
+  AffectedBy Unit "Submarine_Stealth_Weak" Range 0.90
+
+///Attack Subs
+  AffectedBy Unit "Sonar_Quieting_SSN_1" Range 0.95
+  AffectedBy Unit "Sonar_Quieting_SSN_2" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSN_3" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSN_4" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSN_5" Range 0.875
+////For SSGNs
+  AffectedBy Unit "Sonar_Quieting_SSGN_1" Range 0.95
+  AffectedBy Unit "Sonar_Quieting_SSGN_2" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSGN_3" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSGN_4" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSGN_5" Range 0.875
+////For SSBNs
+////SSBN 1 is by default, due to needing Nuclear Sub tech to start
+////Jump from 2 to 3 is bigger to account for Mid-Life bonus
+  AffectedBy Unit "Sonar_Quieting_SSBN_1" Range 0.95
+  AffectedBy Unit "Sonar_Quieting_SSBN_2" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSBN_3" Range 0.765625
+  AffectedBy Unit "Sonar_Quieting_SSBN_4" Range 0.875
+
+
+
+//  AffectedBy InRange "EW" Range 0.1
+
+
+/////For Naval Helis
+[RADAR] "AWACS Sonar"
+  Tech "R_Sonar"
+  Type "Sonar"
+  CanSeeUnderIce No
+  Range 150
+  Sector 360
+  Precision 0.75
+  Icon "UNITS/Images/Radar/Sonar.png"  
+  ImprovedBy "Sonar_Mk2" Range 1.20
+  ImprovedBy "Sonar_Mk3" Range 1.20
+  ImprovedBy "Sonar_Mk4" Range 1.20
+  ImprovedBy "Sonar_Mk5" Range 1.20 
+  
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+  
+  //ImprovedBy Unit "Advanced_Sonar" Range 1.35
+  //ImprovedBy Unit "Mega_Sonar" Range 1.45  
+
+  AffectedBy Unit "Submarine_Stealth" Range 0.80
+  AffectedBy Unit "Submarine_Stealth_Weak" Range 0.90
+
+///Attack Subs
+  AffectedBy Unit "Sonar_Quieting_SSN_1" Range 0.95
+  AffectedBy Unit "Sonar_Quieting_SSN_2" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSN_3" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSN_4" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSN_5" Range 0.875
+////For SSGNs
+  AffectedBy Unit "Sonar_Quieting_SSGN_1" Range 0.95
+  AffectedBy Unit "Sonar_Quieting_SSGN_2" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSGN_3" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSGN_4" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSGN_5" Range 0.875
+////For SSBNs
+////SSBN 1 is by default, due to needing Nuclear Sub tech to start
+////Jump from 2 to 3 is bigger to account for Mid-Life bonus
+  AffectedBy Unit "Sonar_Quieting_SSBN_1" Range 0.95
+  AffectedBy Unit "Sonar_Quieting_SSBN_2" Range 0.875
+  AffectedBy Unit "Sonar_Quieting_SSBN_3" Range 0.765625
+  AffectedBy Unit "Sonar_Quieting_SSBN_4" Range 0.875
+
+
+
+[RADAR] "Over_Horizon"
+  Tech "R_Over_horizon_radar"
+  Type "OverHorizon"
+  Range 4000
+  Sector 360
+  Icon "UNITS/Images/Radar/Missile_Targeting.png"    
+  MaxHeight 3000 // the default value is 100
+  ImprovedBy "Over_horizon_radar_Mk2" Set Range 6000
+
+  AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+///Unlocks with EWS
+[RADAR] "AWACS_Over_Horizon"
+  Tech "R_AWACS_Over_Horizon_Radar"
+  Type "OverHorizon"
+  Range 2000
+  Sector 360
+  Icon "UNITS/Images/Radar/Missile_Targeting.png"      
+  MaxHeight 3000 // the default value is 100
+  ///Just to have it register in upgrades
+  ImprovedBy "Over_horizon_radar_Mk2" Set Range 2000
+  ImprovedBy Unit "Naval_AWACS_Mod" Range 0.75
+  AffectedBy InRange "EW Jammer" Range 0.65
+
+  AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+
+[RADAR] "Naval_Over_Horizon"
+  Tech "R_Over_horizon_radar"
+  Type "OverHorizon"
+  Range 1000
+  Sector 360
+  Icon "UNITS/Images/Radar/Missile_Targeting.png"      
+  MaxHeight 3000 // the default value is 100
+  ImprovedBy "Over_horizon_radar_Mk2" Set Range 1500
+
+  AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+[RADAR] "Small_Over_Horizon"
+  Tech "R_Space_radar_OTH"
+  Type "OverHorizon"
+  Range 850
+  Sector 360
+  Icon "UNITS/Images/Radar/Missile_Targeting.png"      
+  MaxHeight 3000 // the default value is 100
+
+  AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+[RADAR] "Naval_Small_Over_Horizon"
+  Tech "R_Over_horizon_radar"
+  Type "OverHorizon"
+  Range 750
+  Sector 360
+  Icon "UNITS/Images/Radar/Missile_Targeting.png"      
+  MaxHeight 3000 // the default value is 100
+
+  AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+[RADAR] "Space_Radar"
+  Tech "R_Space_radar"
+  Type "SpaceObserver"
+  Range 2000
+  Sector 360
+  Icon "UNITS/Images/Radar/Space_Targeting.png"
+  MaxHeight 50000 // the default value is 100
+  
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+  
+  ImprovedBy "Space_radar_Mk2" Set Range 2500
+  ImprovedBy "Space_radar_Mk3" Set Range 3000
+  ImprovedBy "Space_radar_Mk4" Set Range 3250
+  
+  AffectedBy "Satellite_Stealth_Bonus_Modifier_1" Range 0.7 Unless "Space_radar_Mk4" //SR4 is counter-stealth
+  AffectedBy "Satellite_Stealth_Bonus_Modifier_2" Range 0.8
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+[RADAR] "Naval Space_Radar"
+  Tech "R_Space_radar"
+  Type "SpaceObserver"
+  Range 500
+  Sector 360
+  Icon "UNITS/Images/Radar/Space_Targeting.png"  
+  MaxHeight 50000 // the default value is 100
+  
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+  
+  ImprovedBy "Space_radar_Mk2" Set Range 625
+  ImprovedBy "Space_radar_Mk3" Set Range 750
+  ImprovedBy "Space_radar_Mk4" Set Range 800
+  
+  AffectedBy "Satellite_Stealth_Bonus_Modifier_1" Range 0.7 Unless "Space_radar_Mk4" //SR4 is counter-stealth
+  AffectedBy "Satellite_Stealth_Bonus_Modifier_2" Range 0.8
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+[RADAR] "Satellite_Mini_Space_Radar"
+  Tech "R_Space_radar_sat"
+  Type "SpaceObserver"
+  Range 1000
+  Sector 360
+  Icon "UNITS/Images/Radar/Space_Targeting.png"  
+  MaxHeight 50000 // the default value is 100
+  
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+  
+  ImprovedBy "Space_radar_Mk2" Set Range 1250
+  ImprovedBy "Space_radar_Mk3" Set Range 1500
+  ImprovedBy "Space_radar_Mk4" Set Range 1625
+  
+  AffectedBy "Satellite_Stealth_Bonus_Modifier_1" Range 0.7 Unless "Space_radar_Mk4" //SR4 is counter-stealth
+  AffectedBy "Satellite_Stealth_Bonus_Modifier_2" Range 0.8
+
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+//////Used to show satellite visibility when the real radars default to 0
+[RADAR] "Satellite Optics Display"
+  Tech "R_Dummy_Sat_Camera"
+  Type "DummySat" // copy the settings of this type. however these setting strings can be used here as well
+  Range 300
+  Icon "Units/Images/Radar/Satellite_Uplink.png"     
+  ImprovedBy "Improved_optics" Set Range 600
+  ImprovedBy "Advanced_Sat_Optics" Set Range 1200
+  ImprovedBy "Experimental_Sat_Optics" Set Range 1750  
+  Sector 360
+  
+
+
+[RADAR] "Satellite Film Camera"
+  Tech "R_Basic_Sat_Camera"
+  Type "FilmSat" // copy the settings of this type. however these setting strings can be used here as well
+  Range 0
+  Icon "Units/Images/Radar/Optics_Camera.png"   
+  ImprovedBy InRange "Satellite Relay" Set Range 300
+  
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+	
+  Sector 360
+  MaxHeight 3000
+  AffectedBy Unit "Underground" Range 0.25
+  AffectedBy Unit "Covert_Unit" Range 0.0
+	
+[RADAR] "Datalink Satellite Camera"
+  Tech "R_Data_Sat_Camera"
+  Type "DataSat"
+  Range 0
+  Icon "Units/Images/Radar/Optics_Camera.png"   
+  ImprovedBy InRange "Satellite Relay" Set Range 600  
+  
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+  
+  Sector 360
+  MaxHeight 3000
+  AffectedBy Unit "Underground" Range 0.25
+  AffectedBy Unit "Covert_Unit" Range 0.0	
+
+[RADAR] "High-Resolution Satellite Camera"
+  Tech "R_HD_Sat_Camera"
+  Type "DataSat2"
+  CanCalculateLaunchPosition Yes
+  Range 0
+  Icon "Units/Images/Radar/Optics_Camera.png"   
+  ImprovedBy InRange "Satellite Relay" Set Range 1200
+  
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+  
+  Sector 360
+  MaxHeight 3000
+  AffectedBy Unit "Underground" Range 0.25
+  AffectedBy Unit "Covert_Unit" Range 0.0		
+
+[RADAR] "Ultra-Resolution Satellite Camera"
+  Tech "R_Ultra_Sat_Camera"
+  Type "DataSat3"
+  CanCalculateLaunchPosition Yes
+  Range 0
+  Icon "Units/Images/Radar/Optics_Camera.png"   
+  ImprovedBy InRange "Satellite Relay" Set Range 1750  
+  
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+	
+  Sector 360
+  MaxHeight 3000
+  AffectedBy Unit "Underground" Range 0.25
+  AffectedBy Unit "Covert_Unit" Range 0.0
+
+
+//////Used to show satellite visibility when the real radars default to 0
+[RADAR] "Satellite EWS Display"
+  Tech "R_Dummy_EWS_Camera"
+  Type "DummySat" // copy the settings of this type. however these setting strings can be used here as well
+  Range 1500
+  Icon "Units/Images/Radar/Satellite_Uplink.png"  
+  ImprovedBy "Improved_Launch_Warning_Satellite" Set Range 4000
+  ImprovedBy "Advanced_Launch_Warning_Satellite" Set Range 7250
+  Sector 360  
+
+////Launch Warning Satellite, AKA Early Warning Satellite
+[RADAR] "Satellite EWS"
+  Tech "R_Satellite_EWS"
+  Type "OverHorizon"
+  Range 0
+  Icon "UNITS/Images/Radar/Missile_Targeting.png"  
+  ImprovedBy InRange "Satellite Relay" Complex Range
+	case self "Advanced_Launch_Warning_Satellite" Set 7250
+	case self "Improved_Launch_Warning_Satellite" Set 4000
+	default Set 1500  
+
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+	
+  Sector 360
+  MaxHeight 3000
+
+
+[RADAR] "Kinetic Strike Range"
+  Tech "R_Kinetic_Range"
+  Type "DummySat"
+  Range 1000
+  Sector 360
+  Icon "Units/Images/Radar/Ground_Targeting.png"    
+  MaxHeight 3000
+  AffectedBy Unit "Underground" Range 0.25
+  AffectedBy Unit "Covert_Unit" Range 0.0
+
+[RADAR] "DEW Range"
+  Tech "R_DEW_Range"
+  Type "DummySat"
+  Range 1250
+  Sector 360
+  Icon "Units/Images/Radar/Ground_Targeting.png"      
+  MaxHeight 3000
+  AffectedBy Unit "Underground" Range 0.25
+  AffectedBy Unit "Covert_Unit" Range 0.0
+  
+/////////Attack satellites are blind - Optics are heavy and target via coordinates//////////
+/*[RADAR] "Satellite Camera Small"
+  Tech "R_Camera_Small"
+  Type "DataSat2" // copy the settings of this type. however these setting strings can be used here as well
+  //CanCalculateLaunchPosition Yes
+  Range 0
+  ImprovedBy InRange "Satellite Relay" Set Range 350
+  Sector 360
+  MaxHeight 3000
+  AffectedBy Unit "Underground" Range 0.25
+  AffectedBy Unit "Covert_Unit" Range 0.0
+
+
+[RADAR] "Satellite Camera Small Display"
+  Tech "R_Camera_Small"
+  Type "DummySat"
+  Range 350
+  Sector 360
+  MaxHeight 3000
+  AffectedBy Unit "Underground" Range 0.25
+  AffectedBy Unit "Covert_Unit" Range 0.0 */
+
+  
+[RADAR] "Periscope"
+  Tech "R_Periscope"
+  Type "Optical"
+  Range 100
+  Icon "UNITS/Images/Radar/Optics.png"  
+  Sector 360
+  Precision 0
+  AffectedBy Unit "Underground" Range 0.5
+    AffectedBy Unit "Covert_Unit" Range 0.5
+	
+[RADAR] "Submarine Radar Mast"
+  Tech "R_Submarine_Radar_Mast"
+  Type "LongWave"
+  Range 200
+  Icon "UNITS/Images/Radar/Ground_Detection.png"  
+  Sector 360
+  Precision 0
+  
+    ImprovedBy "LW_Mk2" Set Range 225
+  ImprovedBy "LW_Mk2" Set MaxHeight 250
+  ImprovedBy "LW_Mk3" Set Range 250
+  ImprovedBy "LW_Mk3" Set MaxHeight 300
+  ImprovedBy "LW_Mk4" Set Range 300
+  ImprovedBy "LW_Mk4" Set MaxHeight 400
+  ImprovedBy "LW_Mk5" Set Range 350
+  ImprovedBy "LW_Mk5" Set MaxHeight 500
+  
+    AffectedBy Explosion "EMP_Blast" Complex Range
+	case self "EMP_Defence_Mk2" Multiply 0.40
+	case self "EMP_Defence" Multiply 0.25
+	default Multiply 0.0
+
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_1" Range 0.60
+  AffectedBy Unit "Aircraft_Stealth_Bonus_Modifier_2" Range 0.75
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_1" Range 0.55
+  AffectedBy Unit "Bomber_Stealth_Bonus_Modifier_2" Range 0.65
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_1" Range 0.7
+  AffectedBy Unit "Warship_Stealth_Bonus_Modifier_2" Range 0.75
+  
+    AffectedBy Unit "Spy_Plane_Modifier" Range 0.0
+    AffectedBy InRange "EW Jammer" Range 0.65
+
+  //AffectedBy Unit "Novel_Stealth_Applications" Range 0.70
+  AffectedBy Unit "Underground" Range 0.5
+  AffectedBy Unit "Covert_Unit" Range 0.0
+	
+[RADAR] "Resupply Range"
+  Tech "R_Resupply"
+  Type "Resupply"
+  Range 225
+  Sector 360
+  Precision 0
+  Icon "UNITS/Images/Radar/Repair_Range.png"      
+ 
+
+///////For showing "Relay missing" messages, not implemented yet. Icons don't work on sats 
+[RADAR] "Satellite Relay Range"
+  Tech "R_Satellite_Relay"
+  Type "Resupply"
+  Range 20500
+  Sector 360
+  Precision 0  
+  Icon "Units/Images/Radar/Satellite_Uplink.png"    
+
+[RADAR] "Resupply Range FOB"
+  Tech "R_Resupply_FOB"
+  Type "Resupply"
+  Range 150
+  Sector 360
+  Precision 0
+  Icon "UNITS/Images/Radar/Repair_Range.png"    
+
+[END]
+

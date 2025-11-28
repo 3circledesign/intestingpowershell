@@ -1,0 +1,6154 @@
+
+
+// ADD EXISTING UNIT , OR CREATE A NEW ONE. ANY NEW TECH/RADAR/MISSILE/ICON/ETC WILL NEED TO BE ADDED TO OTHER .TXT FILES IN THEIR CORRECT FOLDERS AND TO NAME A NEW UNIT PROPERLY A NEW TECH ENTRY AND LANG FILE ENTRY WILL NE NEEDED // 
+
+  MinTimeToOccupyCity 150
+  MinTimeToOccupyUnit 30  
+
+[UNIT] "VirtualCity" MODIFY
+
+///////Lessens damage from nuclear ABMs, also makes armies cause collateral damage
+Modifier "Resist_Nuke_ABM"
+Modifier "Collateral_Damage_Modifier"
+
+  
+  //////////////EMP///////////////
+
+  Modifier "EMP_Defence_Mod_3"
+  Modifier "EMP_Defence_Mod_4"
+  
+  AffectedBy Explosion "EMP_Blast" Complex Production
+  case "EMP_Defence_Mk4" Multiply 0.75
+  default Multiply 0.25
+  
+  AffectedBy Explosion "EMP_Blast" Complex Science
+  case "EMP_Defence_Mk4" Multiply 0.75
+  default Multiply 0.25
+  
+  AffectedBy Explosion "EMP_Blast" Complex Espionage
+  case "EMP_Defence_Mk4" Multiply 0.75
+  default Multiply 0.25
+
+///////Lengthens time stunned by EMPs to be 10x that of units
+Modifier "EMP_Long_Stun_Modifier"
+
+////////////Production Stuff/////////////////
+
+  ImprovedBy "Defence_Planning" Production 1.05
+  ImprovedBy "Production_Booster_1" Production 1.065
+  ImprovedBy "Production_Booster_2" Production 1.065
+  ImprovedBy "Production_Booster_3" Production 1.065
+  ImprovedBy "Production_Booster_4" Production 1.065 
+
+
+///////////Science Stuff/////////////
+  
+  ImprovedBy "Defence_Planning" Science 1.05
+  ImprovedBy "Science_Booster_1" Science 1.065
+  ImprovedBy "Science_Booster_2" Science 1.065
+  ImprovedBy "Science_Booster_3" Science 1.065
+  ImprovedBy "Science_Booster_4" Science 1.065 
+  ImprovedBy InRange "Research_Buff" Science 1.075
+  
+  
+////////////Spy Stuff/////////////  
+
+  ImprovedBy "Espionage_1" Espionage 1.10
+  ImprovedBy "Espionage_2" Espionage 1.10
+  ImprovedBy "Espionage_3" Espionage 1.10  
+  ImprovedBy "Espionage_4" Espionage 1.10
+  ImprovedBy "Espionage_5" Espionage 1.10  
+  ImprovedBy InRange "Espionage_Buff" Espionage 1.10
+  ///AffectedBy InRange "Counter_Espionage_Debuff" Espionage 0.90
+  AffectedBy InRange "Cyber_Warfare_Debuff" Espionage 0.95
+ 
+//////////////////////Survival Bonuses/////////////////////////
+
+Modifier "Survival_Boost_1"
+Modifier "Survival_Boost_2"
+Modifier "Survival_Boost_3"
+Modifier "Survival_Boost_4"
+Modifier "Survival_Boost_5"
+Modifier "Survival_Boost_6"
+
+/////////////////////////DEFCON Levels////////////////////////////////
+
+Modifier "DEFCON_4"
+Modifier "DEFCON_3"
+Modifier "DEFCON_2"
+Modifier "DEFCON_1"
+ 
+/* 
+ ImprovedBy "DEFCON_5" Set Modifier "DEFCON_5" 1.0
+ ImprovedBy "DEFCON_5" Production 1.0
+ ImprovedBy "DEFCON_5" Science 1.0
+ ImprovedBy "DEFCON_5" Espionage 1.0
+*/ 
+ 
+// ImprovedBy "DEFCON_4" Set Modifier "DEFCON_4" 1.0
+ ImprovedBy "DEFCON_4" Production 1.0
+ ImprovedBy "DEFCON_4" Science 0.85
+ ImprovedBy "DEFCON_4" Espionage 0.85
+ 
+
+// ImprovedBy "DEFCON_3" Set Modifier "DEFCON_3" 1.0
+ ImprovedBy "DEFCON_3" Production 0.90
+ ImprovedBy "DEFCON_3" Science 0.60
+ ImprovedBy "DEFCON_3" Espionage 0.60
+ 
+
+// ImprovedBy "DEFCON_2" Set Modifier "DEFCON_2" 1.0
+ ImprovedBy "DEFCON_2" Production 0.75
+ ImprovedBy "DEFCON_2" Science 0.35
+ ImprovedBy "DEFCON_2" Espionage 0.35
+  
+ 
+// ImprovedBy "DEFCON_1" Set Modifier "DEFCON_1" 1.0
+ ImprovedBy "DEFCON_1" Production 0.50
+ ImprovedBy "DEFCON_1" Science 0.10
+ ImprovedBy "DEFCON_1" Espionage 0.10
+ 
+ 
+///////////////////////////////////Okay actual units now/////////////////////////////// 
+ [UNIT] "Central_Command_Bunker"
+  Tech "U_DEFCON_Bunker"
+  Movie "Units/Images/Icons/Ground/Command_Bunker.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Command_Bunker.midx"
+  Model "Units/Images/Ground/Central Command Bunker.fbx"
+  Icon "Units/Images/Icons/Ground/Command_Bunker.png"
+  RoundIcon "Units/Images/Icons/Ground/Command_Bunker_Round.png"  
+  DrawSize 26
+  AbstractDrawSize 32
+  FixedRotationAngle true
+  Size 0.25
+  Type Ground
+  Class "UC_Building"
+  CanSetDEFCON Yes
+
+  Power 5000
+  SelfDestructTime 90
+  HiddenFromAllies
+  AttackIfDestroyed
+  
+    Radar "STD Vision"
+  ProductionCost 36
+  AutoRepair 0.001
+  MaxNumberOnMap 1
+  MaxNumberToOrder 1
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+ 
+ [UNIT] "Intelligence_Center"
+  Tech "U_Intel_Center"
+  Movie "Units/Images/Icons/Ground/Intel_Center.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Espionage.midx"
+  Model "Units/Images/Ground/Intelligence Agency.fbx"    
+  DrawSize 24
+  AbstractDrawSize 30
+  FixedRotationAngle true
+  Size 0.1
+  Type Ground
+  Class "UC_Building"
+
+  Power 2
+  SelfDestructTime 30
+  Config "Intel Center" Default
+  Weapon "Espionage_Buff" 20000 DefaultOff
+ // Weapon "Counter_Espionage_Debuff" 20000 DefaultOff
+  Weapon "Cyber_Warfare_Debuff" 20000 DefaultOff
+  Weapon "Small Arms" 20000 Launch 1 Time 10 AutoEngage DefaultOff
+    Radar "STD Vision"
+    Radar "Counter-spy"
+  ProductionCost 24
+  MaxNumberOnMap 1
+  MaxNumberToOrder 1
+ 
+ [UNIT] "Research_Center"
+  Tech "U_Research_Center"
+  Movie "Units/Images/Icons/Ground/Research_Center.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Science.midx"
+  Model "Units/Images/Ground/Research Agency.fbx"
+  DrawSize 22
+  AbstractDrawSize 30
+  FixedRotationAngle true
+  Size 0.1
+  Type Ground
+  Class "UC_Building"
+
+  Power 2
+  SelfDestructTime 30
+  Weapon "Research_Buff" 20000 DefaultOff
+    Radar "STD Vision"
+  ProductionCost 24
+    MaxNumberOnMap 1
+	  MaxNumberToOrder 1
+ 
+ /////////F-86/MiG-15 Equivalent///////////
+[UNIT] "Fighter"
+  Tech "U_Fighter"
+  Movie "Units/Images/Airborne/Topdown/Fighter_1.midx"
+  AbstractMovie "Units/Images/Airborne/Abstract/Fighter.midx"
+  MaxElevation 20
+  Model "Units/Images/AIRBORNE/1st Gen Fighter.MIDX"
+  Icon "Units/Images/Icons/Airborne/Fighter_1.png"  
+  LaunchMePathIcon element "path/launch fighter"
+  IconIDX 52
+  DrawSize 14
+  AbstractDrawSize 18
+  LaunchMeSound 83
+  Size 0.05
+  Sound 134 Volume 0.3
+  Type Airborne
+  NoAutoDeploy
+  Slave
+  AutoReturn Yes
+  Speed 700 // in km per h
+  TurnSpeed 9 // in angles per second
+  ////////Range inflated, but absolutely awful if it's not//////////////////////////
+  Range 2400 // in km. Higher than multirole to simulate lighter takeoff weight, also emphasises defence
+  MaxAutoEngageRange 1200
+  Power 0.65
+  Config "Air-To-Air" Default
+  	Weapon "AAM" 2 Launch 1 Time 120 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  Radar "STD Vision Air"
+  Radar "Air Vision"
+  //Didn't have radar this early on
+  ProductionCost 1.0
+  DoesNotTriggerWarWhenAttacked Yes
+  Crash "std_bomb"
+  
+  Modifier "EMP_Killable"
+  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"		
+  
+  Modifier "Aircraft_Stealth_Bonus_Modifier_1"  ///F-22A
+  Modifier "Aircraft_Stealth_Bonus_Modifier_2"  ////NGAD\
+  
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+  
+  ///F-100 Super Sabre
+  ImprovedBy "Generation_2_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Fighter_2.midx"  Icon "Units/Images/Icons/Airborne/Fighter_2.png"  
+	  Movie Model "Units/Images/AIRBORNE/2nd Gen Fighter.midx"
+    Set Speed 800
+    Set TurnSpeed 10
+    Set Range 2800
+	Set Power 0.75
+	Radar "STD Vision Air"
+    Radar "STD Short Wave"
+
+    Config "Air-To-Air"
+      Weapon "AAM" 4 Launch 1 Time 100 AutoEngage Principal	 
+	  Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  }  
+  
+  ///F-4 Phantom
+  ImprovedBy "Generation_3_Aircraft" 
+  { 
+    Movie "Units/Images/Airborne/Topdown/Fighter_3.midx"  Icon "Units/Images/Icons/Airborne/Fighter_3.png"  
+    Movie Model "Units/Images/AIRBORNE/3rd Gen Fighter.midx"
+    Set Size 0.04
+	Set Speed 950
+    Set TurnSpeed 12
+    Set Range 3250
+	Set Power 1.0
+
+    Config "Air-To-Air"
+      Weapon "AAM" 6 Launch 2 Time 80 AutoEngage Principal	
+	  Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  }
+
+  ///F-15A Eagle
+  ImprovedBy "Generation_4_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Fighter_4.midx"  Icon "Units/Images/Icons/Airborne/Fighter_4.png"  
+    Movie Model "Units/Images/AIRBORNE/4th Gen Fighter.midx"
+    Set Size 0.03
+	Set Speed 1000
+    Set TurnSpeed 15
+    Set Range 3750
+	Set Power 1.2
+	Radar "STD Vision Air"
+    Radar "STD Short Wave"
+
+    Config "Air-To-Air"
+      Weapon "AAM" 8 Launch 2 Time 60 AutoEngage Principal	
+	  Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  }  
+
+  ///F-15C Eagle
+  ImprovedBy "Generation_4.5_Aircraft" 
+  {
+    //Movie "Units/Images/Airborne/aircraft_advanced.vidx"
+    //Movie Model "Units/Images/AIRBORNE/4th Gen Fighter.midx"
+    Set Size 0.025
+	Set Speed 1000
+    Set TurnSpeed 15
+    Set Range 4000
+	Set Power 1.4
+	Radar "STD Vision Air"
+    Radar "STD Short Wave"
+
+    Config "Air-To-Air"
+      Weapon "AAM" 8 Launch 2 Time 50 AutoEngage Principal
+	  Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  }        
+  
+  
+    ///F-22A Raptor
+  ImprovedBy "Generation_5_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Fighter_5.midx"  Icon "Units/Images/Icons/Airborne/Fighter_5.png"  
+    Movie Model "Units/Images/AIRBORNE/5th Gen Fighter.midx"
+    Set Size 0.02
+	Set Speed 1150
+    Set TurnSpeed 18
+    Set Range 4250
+	Set Power 1.6
+	Radar "STD Vision Air"
+    Radar "STD Short Wave"
+
+    Config "Air-To-Air"
+      Weapon "AAM" 8 Launch 2 Time 50 AutoEngage Principal	
+	  Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+	  
+	  //Modifier "Stealth_Bonus" 
+  }    
+    
+     ///USAF NGAD
+  ImprovedBy "Generation_6_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Fighter_6.midx"  Icon "Units/Images/Icons/Airborne/Fighter_6.png"  
+    Movie Model "Units/Images/AIRBORNE/6th Gen Fighter.midx"
+    Set Size 0.015
+	Set Speed 1250
+    Set TurnSpeed 20
+    Set Range 5250
+	Set Power 1.8
+	Radar "STD Vision Air"
+    Radar "STD Short Wave"
+
+    Config "Air-To-Air"
+      Weapon "AAM" 12 Launch 2 Time 50 AutoEngage Principal	
+	  Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  }    
+ 
+  ImprovedBy "Plane_Laser_Upgrade"
+  ///Requires Gen 6 + laser unlocked
+  {
+		 Config "Air-To-Air"
+		  Weapon "AAM" 12 Launch 2 Time 50 AutoEngage Principal	
+		  Weapon "Plane Laser" 20000 Launch 1 Time 6 AutoEngage
+  }
+ 
+   CheckTargeting BY "AAM" OR "SAM" Message Lock 2841 NoLock 2842
+ 
+
+ /////////F9F Equivalent///////////
+[UNIT] "Attack"
+  Tech "U_Attack"
+  Movie "Units/Images/Airborne/Topdown/Multirole_1.midx"
+  AbstractMovie "Units/Images/Airborne/Abstract/Multirole.midx"
+  MaxElevation 20
+  Model "Units/Images/AIRBORNE/1st Gen Multirole.midx"
+  Icon "Units/Images/Icons/Airborne/Multirole_1.png"  
+  LaunchMePathIcon element "path/launch attack bomber"
+  IconIDX 52
+  DrawSize 14.5
+  AbstractDrawSize 18  
+  LaunchMeSound 83
+  Size 0.05
+  Sound 134 Volume 0.3
+  Type Airborne
+  NoAutoDeploy
+  Slave
+  AutoReturn Yes
+  Speed 650 // in km per h
+  TurnSpeed 7.5 // in angles per second
+  ////////Range inflated, but absolutely awful if it's not//////////////////////////
+  Range 2200 // in km
+  MaxAutoEngageRange 1200
+  Power 0.65
+  Config "Bombs"
+  	Weapon "Free fall bomb" 4 Launch 1 Time 3 AutoEngage Principal
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage
+  Config "Rockets" Default
+    Weapon "Rocket Pod" 8 Launch 8 Time 4 AutoEngage Principal
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage	
+  Radar "STD Vision Air"
+  Radar "Air Vision"
+  //Didn't have radar this early on
+  ProductionCost 1.0
+  DoesNotTriggerWarWhenAttacked Yes
+  Crash "std_bomb"
+
+  Modifier "EMP_Killable"
+    ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+  Modifier "Aircraft_Stealth_Bonus_Modifier_1"  ///F-35
+  Modifier "Aircraft_Stealth_Bonus_Modifier_2"  ///F/A-XX
+  
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+  
+  ///F-105 Thunderchief
+  ImprovedBy "Generation_2_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Multirole_2.midx" Icon "Units/Images/Icons/Airborne/Multirole_2.png"  
+	Movie Model "Units/Images/AIRBORNE/2nd Gen Multirole.midx"
+    Set Speed 750
+    Set TurnSpeed 9
+    Set Range 2600
+	Set Power 0.75
+	Radar "STD Vision Air"
+    Radar "STD Short Wave"
+
+  Config "Air-to-Air"
+	Weapon "AAM" 4 Launch 1 Time 120 AutoEngage Principal
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage
+  Config "Bombs"
+    Weapon "Free fall bomb" 4 Launch 1 Time 2 AutoEngage Principal
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage	
+  Config "Rockets"
+    Weapon "Rocket Pod" 8 Launch 8 Time 4 AutoEngage Principal
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage
+	Weapon "AAM" 2 Launch 1 Time 120 AutoEngage
+  Config "AGM" Default OnlyFull
+  	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage
+    Weapon "AGM" 1 Launch 1 Time 90 AutoEngage Principal
+    Weapon "AAM" 2 Launch 1 Time 120 AutoEngage
+  Config "100kt Bomb"
+    Weapon "100kt_nuke_light" 1
+  Config "250kt Bomb"
+    Weapon "250kt_nuke_light" 1
+  Config "500kt Bomb"
+    Weapon "500kt nuke_light" 1
+  Config "500kt Cobalt Bomb"
+    Weapon "500kt Light Cobalt Bomb" 1
+  Config "500kt Enhanced Salted Bomb"
+    Weapon "500kt Light Salt Bomb" 1	
+  Config "Megaton Bomb"
+    Weapon "1M nuke_light" 1	
+  Config "5 Megaton Bomb"
+    Weapon "5M nuke_light" 1	
+
+  }  
+  
+  ///AV-8 Harrier
+  ImprovedBy "Generation_3_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Multirole_3.midx" Icon "Units/Images/Icons/Airborne/Multirole_3.png"  
+    Movie Model "Units/Images/AIRBORNE/3rd Gen Multirole.midx"
+    Set Size 0.04
+	Set Speed 850
+    Set TurnSpeed 10
+    Set Range 3000
+	Set Power 1.0
+    Radar "STD Vision Air"
+    Radar "STD Short Wave"
+
+   Config "Air-to-Air"
+	Weapon "AAM" 4 Launch 2 Time 100 AutoEngage Principal
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage
+  Config "Bombs"
+    Weapon "Free fall bomb" 6 Launch 1 Time 2 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 100 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage
+  Config "Rockets"
+    Weapon "Rocket Pod" 16 Launch 8 Time 4 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 100 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage  	  
+  Config "AGM"
+  	Weapon "AGM" 2 Launch 1 Time 60 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 100 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage
+  }
+
+  ///F/A-18B Hornet
+  ImprovedBy "Generation_4_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Multirole_4.midx" Icon "Units/Images/Icons/Airborne/Multirole_4.png"  
+    Movie Model "Units/Images/AIRBORNE/4th Gen Multirole.midx"
+    Set Size 0.03
+	Set Speed 1000
+    Set TurnSpeed 12
+    Set Range 3500
+	Set Power 1.2
+	Radar "STD Vision Air"
+    Radar "STD Short Wave"
+	
+
+  Config "Air-to-Air"
+	Weapon "AAM" 8 Launch 2 Time 80 AutoEngage Principal
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage
+  Config "Bombs"
+    Weapon "Free fall bomb" 8 Launch 1 Time 2 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 80 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage
+  Config "Rockets"
+    Weapon "Rocket Pod" 16 Launch 8 Time 4 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 80 AutoEngage 
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage  	  
+  Config "AGM"
+    Weapon "AGM" 4 Launch 2 Time 60 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 80 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage
+  Config "ALCM" OnlyFull
+    Weapon "ALCM" 1 Launch 1 Time 150 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 80 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage
+  Config "Nuclear ALCM" OnlyFull
+    Weapon "ALCM-N" 1 Launch 1 Time 150 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 80 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage
+  Config "Pure Fusion ALCM" OnlyFull
+    Weapon "Fusion ALCM" 1 Launch 1 Time 150 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 80 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 7 AutoEngage		
+  }  
+
+  ///F/A-18D Hornet
+  ImprovedBy "Generation_4.5_Aircraft" 
+  {
+    //Movie "Units/Images/Airborne/aircraft_advanced.vidx" 
+    //Movie Model "Units/Images/AIRBORNE/4th Gen Multirole.midx"
+    Set Size 0.025
+	Set Speed 1000
+    Set TurnSpeed 14
+    Set Range 3750
+	Set Power 1.4
+	
+  Config "Air-to-Air"
+	Weapon "AAM" 8 Launch 2 Time 70 AutoEngage Principal
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  Config "Bombs"
+    Weapon "Free fall bomb" 10 Launch 1 Time 2 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 80 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  Config "Rockets"
+    Weapon "Rocket Pod" 16 Launch 8 Time 4 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 70 AutoEngage 
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage  	  
+  Config "AGM"
+    Weapon "AGM" 6 Launch 2 Time 50 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 70 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  Config "ALCM"
+    Weapon "ALCM" 1 Launch 1 Time 120 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 70 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  Config "Nuclear ALCM"
+    Weapon "ALCM-N" 1 Launch 1 Time 120 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 70 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  Config "Pure Fusion ALCM"
+    Weapon "Fusion ALCM" 1 Launch 1 Time 120 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 70 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage	
+  }        
+  
+  
+    ///F-35 Lightning II
+  ImprovedBy "Generation_5_Aircraft" 
+  {
+    Movie Movie "Units/Images/Airborne/Topdown/Multirole_5.midx"  Icon "Units/Images/Icons/Airborne/Multirole_5.png"  
+    Movie Model "Units/Images/AIRBORNE/5th Gen Multirole.midx"
+    Set Size 0.02
+	Set Speed 1150
+    Set TurnSpeed 16
+    Set Range 4000
+	Set Power 1.6
+	
+	  Config "Air-to-Air"
+	Weapon "AAM" 8 Launch 2 Time 60 AutoEngage Principal
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  Config "Bombs"
+    Weapon "Free fall bomb" 8 Launch 1 Time 2 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 60 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  Config "Rockets"
+    Weapon "Rocket Pod" 16 Launch 8 Time 4 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 60 AutoEngage 
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage  	  
+  Config "AGM"
+    Weapon "AGM" 6 Launch 2 Time 45 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 60 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  Config "ALCM"
+    Weapon "ALCM" 1 Launch 1 Time 100 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 60 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  Config "ALCM"
+    Weapon "ALCM" 1 Launch 1 Time 100 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 60 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  Config "Nuclear ALCM"
+    Weapon "ALCM-N" 1 Launch 1 Time 100 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 60 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  Config "Pure Fusion ALCM"
+    Weapon "Fusion ALCM" 1 Launch 1 Time 100 AutoEngage Principal
+	Weapon "AAM" 2 Launch 1 Time 60 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage  	
+
+	  //Modifier "Stealth_Bonus" 
+  }    
+    
+     ///USN F/A-XX
+  ImprovedBy "Generation_6_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Multirole_6.midx"  Icon "Units/Images/Icons/Airborne/Multirole_6.png"  
+    Movie Model "Units/Images/AIRBORNE/6th Gen Multirole.midx"
+    Set Size 0.015
+	Set Speed 1250
+    Set TurnSpeed 18
+    Set Range 5000
+	Set Power 1.8
+	Radar "STD Vision Air"
+    Radar "STD Short Wave"
+
+    Config "Air-to-Air"
+      Weapon "AAM" 12 Launch 1 Time 50 AutoEngage Principal
+	  Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+	  
+  Config "Bombs"
+    Weapon "Free fall bomb" 8 Launch 1 Time 2 AutoEngage Principal
+	Weapon "AAM" 4 Launch 2 Time 50 AutoEngage
+    Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+		
+  Config "Rockets"
+    Weapon "Rocket Pod" 16 Launch 8 Time 4 AutoEngage Principal
+	Weapon "AAM" 4 Launch 2 Time 50 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage	
+		
+  Config "AGM"
+    Weapon "AGM" 8 Launch 4 Time 45 AutoEngage Principal
+	Weapon "AAM" 4 Launch 2 Time 50 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+		
+  Config "ALCM"
+    Weapon "ALCM" 2 Launch 2 Time 90 AutoEngage Principal
+	Weapon "AAM" 4 Launch 2 Time 50 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+  
+  Config "Nuclear ALCM"
+    Weapon "ALCM-N" 1 Launch 1 Time 90 AutoEngage Principal
+	Weapon "AAM" 4 Launch 2 Time 50 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage
+	
+  Config "Pure Fusion ALCM"
+    Weapon "Fusion ALCM" 1 Launch 1 Time 90 AutoEngage Principal
+	Weapon "AAM" 4 Launch 2 Time 50 AutoEngage
+	Weapon "Plane Gun" 20000 Launch 1 Time 6 AutoEngage	
+	  //Modifier "Stealth_Bonus" 
+  }    
+  
+  ImprovedBy "Plane_Laser_Upgrade"
+  ///Requires Gen 6 + laser unlocked  
+  {
+  Config "Air-to-Air"
+      Weapon "AAM" 12 Launch 1 Time 50 AutoEngage Principal
+	  Weapon "Plane Laser" 20000 Launch 1 Time 6 AutoEngage
+	  
+  Config "Bombs"
+    Weapon "Free fall bomb" 8 Launch 1 Time 2 AutoEngage Principal
+	Weapon "AAM" 4 Launch 2 Time 50 AutoEngage
+    Weapon "Plane Laser" 20000 Launch 1 Time 6 AutoEngage
+		
+  Config "Rockets"
+    Weapon "Rocket Pod" 16 Launch 8 Time 4 AutoEngage Principal
+	Weapon "AAM" 4 Launch 2 Time 50 AutoEngage
+	Weapon "Plane Laser" 20000 Launch 1 Time 6 AutoEngage	
+		
+  Config "AGM"
+    Weapon "AGM" 8 Launch 4 Time 50 AutoEngage Principal
+	Weapon "AAM" 4 Launch 2 Time 50 AutoEngage
+	Weapon "Plane Laser" 20000 Launch 1 Time 6 AutoEngage
+		
+  Config "ALCM"
+    Weapon "ALCM" 2 Launch 2 Time 90 AutoEngage Principal
+	Weapon "AAM" 4 Launch 2 Time 50 AutoEngage
+	Weapon "Plane Laser" 20000 Launch 1 Time 6 AutoEngage
+  
+  Config "Nuclear ALCM"
+    Weapon "ALCM-N" 1 Launch 1 Time 90 AutoEngage Principal
+	Weapon "AAM" 4 Launch 2 Time 50 AutoEngage
+	Weapon "Plane Laser" 20000 Launch 1 Time 6 AutoEngage
+	
+  Config "Pure Fusion ALCM"
+    Weapon "Fusion ALCM" 1 Launch 1 Time 90 AutoEngage Principal
+	Weapon "AAM" 4 Launch 2 Time 50 AutoEngage
+	Weapon "Plane Laser" 20000 Launch 1 Time 6 AutoEngage	
+  }
+ 
+   CheckTargeting BY "AAM" OR "SAM" Message Lock 2841 NoLock 2842
+
+
+ [UNIT] "Interceptor"
+  Tech "U_Interceptor"
+  Movie "Units/Images/Airborne/Topdown/Interceptor_1.midx"
+  AbstractMovie "Units/Images/Airborne/Abstract/Interceptor.midx"
+  MaxElevation 45
+  Model "Units/Images/AIRBORNE/Interceptor 1.midx"
+  LaunchMePathIcon element "path/launch fighter"
+  Icon "Units/Images/Icons/Airborne/Interceptor_1.png"  
+  IconIDX 52
+  DrawSize 16.5
+  AbstractDrawSize 18  
+  LaunchMeSound 83
+  Size 0.06
+  Sound 134 Volume 0.3
+  Type Airborne
+  NoAutoDeploy
+  Slave
+  AutoReturn Yes
+  Speed 1200 // in km per h
+  ///Keep turns wide, part of balance, differentiates from regular fighters and keeps strengths focused on bombers/AWACS
+  TurnSpeed 7.5 // in angles per second
+  Range 3000 // in km
+  MaxAutoEngageRange 3000
+  Power 0.5 
+  DoesNotTriggerWarWhenAttacked Yes
+  Config "Air to Air" Default
+    Weapon "LAAM" 2 Launch 1 Time 150 AutoEngage // in seconds in 1x time
+      ImprovedBy "Generation_3_Aircraft"
+      Weapon "LAAM" 4 Launch 2 Time 120 AutoEngage
+	  ImprovedBy "Generation_4_Aircraft"
+      Weapon "LAAM" 4 Launch 2 Time 90 AutoEngage
+	  ImprovedBy "Generation_5_Aircraft"
+      Weapon "LAAM" 6 Launch 2 Time 90 AutoEngage
+	  
+   Config "ASAT"
+    ImprovedBy "Generation_4_Aircraft"
+		Weapon "Aircraft ASAT" 1
+	Config "Nuclear AAM"
+		Weapon "Nuclear AAM" 1
+	Config "Pure Fusion AAM"
+		Weapon "Fusion AAM" 1
+  Radar "STD Vision Air"
+  Radar "Interceptor Short Wave"
+ 
+  
+  ProductionCost 1.5
+  Crash "std_bomb"
+
+  Modifier "EMP_Killable"
+    ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+  Modifier "Aircraft_Stealth_Bonus_Modifier_1"  ///MiG-41
+  
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+
+     ///MiG-25
+  ImprovedBy "Generation_3_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Interceptor_2.midx" Icon "Units/Images/Icons/Airborne/Interceptor_2.png"  
+    Movie Model "Units/Images/AIRBORNE/Interceptor 2.midx"
+    Set Size 0.05
+	Set Speed 1800
+    Set TurnSpeed 10
+    Set Range 5000
+	Set Power 0.75
+  }    
+  
+  
+       ///MiG-31
+  ImprovedBy "Generation_4_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Interceptor_3.midx"  Icon "Units/Images/Icons/Airborne/Interceptor_3.png"  
+    Movie Model "Units/Images/AIRBORNE/Interceptor 3.midx"
+    Set Size 0.045
+	Set Speed 2250
+    Set TurnSpeed 12
+    Set Range 7000
+	Set Power 0.9
+  } 
+
+       ///MiG-31BM
+  ImprovedBy "Generation_4.5_Aircraft" 
+  {
+   //Movie "Units/Images/Airborne/INTERCEPTOR_MIG31.vidx"
+   //Movie Model "Units/Images/AIRBORNE/Interceptor 3.midx"
+    Set Size 0.040
+	Set Speed 2500
+    Set TurnSpeed 15
+    Set Range 9000
+	Set Power 1.05
+  }      
+  
+       ///MiG-41
+  ImprovedBy "Generation_5_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Interceptor_4.midx"  Icon "Units/Images/Icons/Airborne/Interceptor_4.png"  
+    Movie Model "Units/Images/AIRBORNE/Interceptor 4.midx"
+    Set Size 0.035
+	Set Speed 3000
+    Set TurnSpeed 18
+    Set Range 12000
+	Set Power 1.2
+  }    
+
+  CheckTargeting BY "AAM" OR "SAM" Message Lock 2841 NoLock 2842
+
+  ////ImprovedBy "Air_refuel" Range 1.5
+  CanPatrolPoint
+
+
+
+/////B-47 and IL-28 Equivalent///////////
+[UNIT] "Bomber"
+  Tech "U_Bomber"
+  MaxElevation 30
+  Model "Units/Images/AIRBORNE/Basic Bomber.fbx"
+  Movie "Units/Images/Airborne/Topdown/Bomber.midx"
+  AbstractMovie "Units/Images/Airborne/Abstract/Bomber.midx"
+  LaunchMePathIcon element "path/launch bomber"
+  Icon "Units/Images/Icons/Airborne/Bomber_Basic.png" 
+  IconIDX 52
+  ModelDrawSize 24
+  DrawSize 24
+  AbstractDrawSize 20
+  LaunchMeSound 84
+  Size 0.10
+  Sound 135 Volume 0.3
+  Type Airborne
+  NoAutoDeploy
+  Slave
+  AutoReturn Yes
+  Speed 400
+  TurnSpeed 3
+  Range 6000
+  Power 2
+
+  Modifier "EMP_Killable"
+    ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+  
+  Modifier "Bomber_Stealth_Bonus_Modifier_1"  ///B-2 Spirit
+  Modifier "Bomber_Stealth_Bonus_Modifier_2"  ///B-21 Raider
+  
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+  
+  Config "Bombs" Default
+    Weapon "Free fall bomb" 20 Launch 4 Time 1 AutoEngage
+  Config "100 Kiloton"
+    Weapon "100kt_nuke_light" 1
+  Config "500 Kiloton"
+    Weapon "500kt nuke_heavy" 1
+  Config "10 Megaton"
+    Weapon "10M nuke_heavy" 1
+  Config "25 Megaton"
+    Weapon "25M nuke_heavy" 1		
+  Config "50 Megaton"
+    Weapon "50M nuke_heavy" 1
+  Config "100 Megaton"
+    Weapon "100M nuke_heavy" 1
+  Config "Chemical Bomb"
+    Weapon "Chemical_bomb" 6 Launch 2 Time 1
+    ImprovedBy "Improved_Chemical_bomb"
+    Weapon "Improved_Chemical_bomb" 6 Launch 2 Time 1
+    ImprovedBy "Advanced_Chemical_Bomb"
+    Weapon "Advanced_Chemical_bomb" 6 Launch 2 Time 1
+    ImprovedBy "Experimental_Chemical_Bomb"
+    Weapon "Experimental_Chemical_bomb" 6 Launch 2 Time 1
+	
+  Config "Bioweapon"
+    Weapon "Bioweapon_bomb" 1
+  Config "Improved Bioweapon"
+    Weapon "Improved_Bioweapon_bomb" 1
+  Config "Advanced Bioweapon"
+    Weapon "Advanced_Bioweapon_bomb" 1
+  Config "Engineered Bioweapon"
+    Weapon "Engineered_Bioweapon_bomb" 1
+	
+  Config "Cobalt Bomb"
+    Weapon "Cobalt_Bomb" 1
+  Config "Enhanced Salted Bomb"
+    Weapon "Salted_Bomb" 1
+
+////////AL-ICBM capability is locked into "CanFireAL-ICBM" which has LR Bombers as a prereq!
+////////TL;DR DON'T MOVE THESE!
+	 	
+	Config "250kt ICBM"
+	  ImprovedBy "CanFireAL-ICBM"
+		Weapon "ICBM (250kt Light)" 1  Time 900  
+	Config "500kt ICBM"
+	  ImprovedBy "CanFireAL-ICBM"
+		Weapon "ICBM (500kt Light)" 1  Time 900
+	  Config "Megaton ICBM"
+		ImprovedBy "CanFireAL-ICBM"
+		Weapon "ICBM (1M Light)" 1  Time 900
+	  Config "1MT Cobalt ICBM"
+		ImprovedBy "CanFireAL-ICBM"
+		Weapon "ICBM (1M Cobalt)" 1  Time 900
+	  Config "1MT Enhanced Salted ICBM"
+		ImprovedBy "CanFireAL-ICBM"
+		Weapon "ICBM (1M Salt)" 1  Time 900	
+	  Config "5 Megaton ICBM"
+		ImprovedBy "CanFireAL-ICBM"
+		Weapon "ICBM (5M Light)" 1  Time 900		
+	  Config "10 Megaton Fusion ICBM"
+		ImprovedBy "CanFireAL-ICBM"
+		Weapon "ICBM (10M Fusion Light)" 1  Time 900
+		
+	  Config "3x250kt Light MIRV"
+		ImprovedBy "CanFireAL-ICBM"
+		Weapon "3x250kt Light ICBM" 1  Time 900
+	  Config "3x500kt Light MIRV"
+		ImprovedBy "CanFireAL-ICBM"
+		Weapon "3x500kt Light ICBM" 1  Time 900				
+	  Config "8x500kt Light MIRV"
+		ImprovedBy "CanFireAL-ICBM"
+		Weapon "8x500kt Light ICBM" 1  Time 900
+	  Config "8x1M Light MIRV"
+		ImprovedBy "CanFireAL-ICBM"
+		Weapon "8x1M Light ICBM" 1  Time 900			
+		
+	Config "1M EMP ICBM"
+		ImprovedBy "CanFireAL-ICBM"
+		Weapon "ICBM (1M EMP)" 1  Time 900
+	Config "1M Super EMP ICBM"
+		ImprovedBy "CanFireAL-ICBM"
+		Weapon "ICBM (1M Super EMP)" 1  Time 900			
+		
+	Config "Bioweapon ICBM"
+		  ImprovedBy "CanFireAL-ICBM"
+			Weapon "Bioweapon_ICBM" 1  Time 900	
+	Config "Improved Bioweapon ICBM"
+		  ImprovedBy "CanFireAL-ICBM"
+			Weapon "Improved_Bioweapon_ICBM" 1  Time 900
+	Config "Advanced Bioweapon ICBM"		
+		  ImprovedBy "CanFireAL-ICBM"
+			Weapon "Advanced_Bioweapon_ICBM" 1  Time 900
+	Config "Engineered Bioweapon ICBM"			
+		  ImprovedBy "CanFireAL-ICBM"
+			Weapon "Engineered_Bioweapon_ICBM" 1  Time 900	  
+
+
+  Config "3x Biological MIRV"
+  	ImprovedBy "CanFireAL-ICBM"  
+    Weapon "Bioweapon_MIRV" 1  Time 900
+  Config "8x Biological MIRV"
+  	ImprovedBy "CanFireAL-ICBM"  
+    Weapon "8x Bioweapon_MIRV" 1  Time 900		
+
+  
+   Radar "STD Vision Air"
+   Radar "Air Vision"
+  ProductionCost 4.2
+  Crash "big_bomb" 
+  
+  ///B-52 Equivalent, Long Range Bomber
+  ImprovedBy "Generation_2_Bomber" 
+  {
+    Movie "Units/Images/Airborne/Topdown/LR_Bomber_1.midx"  Icon "Units/Images/Icons/Airborne/LR_Bomber_1.png" 
+	Movie Model "Units/Images/AIRBORNE/LR Bomber 1.fbx"
+    Set Speed 500
+    Set TurnSpeed 4
+    Set Range 16000
+	Set Power 2.2
+	Radar "STD Vision Air"
+    Radar "STD Short Wave"
+	
+	Config "GBU Strike" Default 
+		Weapon "GBU" 10 Launch 4 Time 1 AutoEngage
+	
+	Config "Cruise Missiles"
+		Weapon "ALCM" 4 Launch 2 Time 60 AutoEngage 
+	Config "Nuclear Cruise Missiles" OnlyFull
+		Weapon "ALCM-N" 1 Launch 1 Time 60 AutoEngage
+		Weapon "ALCM" 1 Launch 1 Time 60 AutoEngage
+	Config "Fusion Cruise Missiles" OnlyFull
+		Weapon "Fusion ALCM" 1 Launch 1 Time 60 AutoEngage
+		Weapon "ALCM" 1 Launch 1 Time 60 AutoEngage 		
+	
+	Config "Conventional ALBM"
+		Weapon "ALBM" 1 Time 240
+	Config "100kt ALBM"
+		Weapon "100kt ALBM" 1 Time 240
+	Config "250kt ALBM"
+		Weapon "250kt ALBM" 1 Time 240
+	Config "500kt ALBM"
+		Weapon "500kt ALBM" 1 Time 240
+	Config "Megaton ALBM"
+		Weapon "1M ALBM" 1 Time 240		
+	Config "5 Megaton ALBM"
+		Weapon "5M ALBM" 1 Time 240
+	Config "500kt Cobalt ALBM"
+		Weapon "500kt Cobalt ALBM" 1 Time 240
+	Config "500kt Salt ALBM"
+		Weapon "500kt Salt ALBM" 1 Time 240			
+	}		
+    
+   ///B-1 Equivalent, Long Range Bomber
+  ImprovedBy "Generation_4_Bomber" 
+  {
+    Movie "Units/Images/Airborne/Topdown/LR_Bomber_2.midx"  Icon "Units/Images/Icons/Airborne/LR_Bomber_2.png" 
+	Movie Model "Units/Images/AIRBORNE/LR Bomber 2.midx"
+    Set Speed 900
+	Set Size 0.08
+    Set TurnSpeed 7
+    Set Range 16000
+	Set Power 2.4
+  }
+	///B-2 Equivalent, LRB
+  ImprovedBy "Generation_5_Bomber" 
+  {
+    Movie "Units/Images/Airborne/Topdown/LR_Bomber_3.midx"  Icon "Units/Images/Icons/Airborne/LR_Bomber_3.png" 
+	Movie Model "Units/Images/AIRBORNE/LR Bomber 3.fbx"
+    //Set Speed 900
+	Set Size 0.07
+    Set TurnSpeed 7
+    Set Range 16000
+	Set Power 2.8
+	//Modifier "Stealth_Bonus" 
+  }
+	///B-21 Equivalent, LRB
+  ImprovedBy "Generation_6_Bomber" 
+  {
+    Movie "Units/Images/Airborne/Topdown/LR_Bomber_4.midx"  Icon "Units/Images/Icons/Airborne/LR_Bomber_4.png" 
+	Movie Model "Units/Images/AIRBORNE/LR Bomber 4.fbx"
+    //Set Speed 1000
+	Set Size 0.06
+    Set TurnSpeed 8
+    Set Range 24000
+	Set Power 3.0
+	//Modifier "Advanced_Stealth_Bonus" 
+  }
+  Modifier "AL-ICBM_Range_Adjust"
+  ImprovedBy "Aircraft-launched_ICBM" Speed 1  
+  CheckTargeting BY "AAM" OR "SAM" Message Lock 2841 NoLock 2842
+
+/////B-58 Equivalent///////////
+[UNIT] "High_Speed_Bomber"
+  Tech "U_High_Speed_Bomber"
+  MaxElevation 45
+  Model "Units/Images/AIRBORNE/High Speed Bomber 1.midx"
+  Movie "Units/Images/Airborne/Topdown/High_Speed_Bomber_1.midx"
+  AbstractMovie "Units/Images/Airborne/Abstract/High_Speed_Bomber.midx"
+  Icon "Units/Images/Icons/Airborne/HS_Bomber_1.png" 
+  IconIDX 52
+  ModelDrawSize 24
+  DrawSize 26
+  AbstractDrawSize 20
+  LaunchMeSound 84
+  Size 0.10
+  Sound 135 Volume 0.3
+  Type Airborne
+  NoAutoDeploy
+  Slave
+  AutoReturn Yes
+  Speed 1000
+  TurnSpeed 3.5
+  Range 9000
+  Power 0.8 //Easier to kill because they're complicated/finicky, but mostly balance
+  	Radar "STD Vision Air"
+    Radar "STD Short Wave"
+	
+  Modifier "EMP_Killable"
+  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"  
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"		
+	
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+	
+	
+	/*Config "Unarmed" Default
+    Weapon "No Weapon" 1 Principal */
+	
+
+  Config "Heavy Bomb" Default
+    Weapon "Heavy Iron Bomb" 1 AutoEngage
+	
+////RANGED WEAPONS REMOVED FOR BALANCE
+	
+  Config "100 Kiloton"
+    Weapon "100kt_nuke_light" 1
+  Config "500 Kiloton"
+    Weapon "500kt nuke_heavy" 1
+  Config "10 Megaton"
+    Weapon "10M nuke_heavy" 1
+  Config "25 Megaton"
+    Weapon "25M nuke_heavy" 1		
+  Config "50 Megaton"
+    Weapon "50M nuke_heavy" 1
+  Config "100 Megaton"
+    Weapon "100M nuke_heavy" 1
+  Config "Chemical Bomb"
+    Weapon "Chemical_bomb" 6 Launch 6 Time 1
+    ImprovedBy "Improved_Chemical_bomb"
+    Weapon "Improved_Chemical_bomb" 6 Launch 6 Time 1
+    ImprovedBy "Advanced_Chemical_Bomb"
+    Weapon "Advanced_Chemical_bomb" 6 Launch 6 Time 1
+    ImprovedBy "Experimental_Chemical_Bomb"
+    Weapon "Experimental_Chemical_bomb" 6 Launch 6 Time 1
+  Config "Biological Bomb"
+    Weapon "Bioweapon_bomb" 1
+  Config "Improved Biological Bomb"
+    Weapon "Improved_Bioweapon_bomb" 1
+  Config "Advanced Biological Bomb"
+    Weapon "Advanced_Bioweapon_bomb" 1
+  Config "Engineered Biological Bomb"
+    Weapon "Engineered_Bioweapon_bomb" 1
+  Config "Cobalt Bomb"
+    Weapon "Cobalt_Bomb" 1
+  Config "Enhanced Salted Bomb"
+    Weapon "Salted_Bomb" 1	
+
+////FOR BALANCE - NO STANDOFF WEAPONS FOR HIGH-SPEEDS BOMBERS.
+
+   Radar "STD Vision Air"
+   Radar "Air Vision"
+  ProductionCost 5
+  Crash "big_bomb" 
+  
+  ///XB-70 Equivalent
+  ImprovedBy "Generation_4_Bomber" 
+  {
+    Movie "Units/Images/Airborne/Topdown/High_Speed_Bomber_2.midx"  Icon "Units/Images/Icons/Airborne/HS_Bomber_2.png" 
+	Movie Model "Units/Images/AIRBORNE/High Speed Bomber 2.midx"
+    Set Speed 1800
+    Set TurnSpeed 5
+    Set Range 16000
+	Set Power 1.0
+	}		
+	
+ ///Tongue-in-cheek super bomber, X-30 except a bomber. XB-30
+  ImprovedBy "Generation_7_Bomber" 
+  {
+    Movie "Units/Images/Airborne/Topdown/High_Speed_Bomber_3.midx"	Icon "Units/Images/Icons/Airborne/HS_Bomber_3.png"
+	Movie Model "Units/Images/AIRBORNE/High Speed Bomber 3.midx"
+    Set Speed 3000
+	Set Size 0.08
+    Set TurnSpeed 9
+    Set Range 24000
+	Set Power 1.2
+	Set MaxElevation 60	
+  }
+  
+  Modifier "AL-ICBM_Range_Adjust"
+  CheckTargeting BY "AAM" OR "SAM" Message Lock 2841 NoLock 2842
+
+[UNIT] "AWACS"
+  Tech "U_AWACS"
+  IconIDX 2
+    MaxElevation 30
+    Movie "Units/Images/Airborne/Topdown/AWACS_1.midx"
+    AbstractMovie "Units/Images/Airborne/Abstract/AWACS.midx"
+	Model "Units/Images/AIRBORNE/AWACS_1.midx"
+    Icon "Units/Images/Icons/Airborne/AWACS_1.png"
+  IconIDX 52
+  LaunchMePathIcon element "path/launch AWACS"
+  ModelDrawSize 24
+  DrawSize 24
+  AbstractDrawSize 20
+  LaunchMeSound 84
+  Size 0.075
+  Sound 136 Volume 0.4
+  Type Airborne
+  NoAutoDeploy
+  Slave
+  AutoReturn Yes
+  DoesNotTriggerWarWhenAttacked Yes
+  Speed 400
+  TurnSpeed 3
+  Range 8000
+  CanPatrolPoint
+  Power 1.5 
+  Radar "AWACS Short Wave"
+  Radar "AWACS Long Wave"
+  Radar "AWACS_Over_Horizon"
+  Radar "AWACS Air Detection"
+  Radar "AWACS Air Targeting"  
+  ProductionCost 4.0
+  Crash "big_bomb"
+  
+    Modifier "EMP_Killable"
+	  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"		  
+  
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+
+  ////E-3 Sentry
+  ImprovedBy "Heavy_Airframe_1" 
+  {
+    Movie "Units/Images/Airborne/Topdown/AWACS_2.midx"   Icon "Units/Images/Icons/Airborne/AWACS_2.png"
+	Movie Model "Units/Images/AIRBORNE/AWACS 2.fbx"
+    Set Speed 500
+	//Set Size 0.075
+    Set TurnSpeed 4.5
+    Set Range 12000
+	Set Power 1.75
+  }
+  ///E-7 Wedgetail
+    ImprovedBy "Heavy_Airframe_2" 
+  {
+    Movie "Units/Images/Airborne/Topdown/AWACS_3.midx"    Icon "Units/Images/Icons/Airborne/AWACS_3.png"
+	Movie Model "Units/Images/AIRBORNE/AWACS_3.fbx"
+    Set Speed 700
+	Set Size 0.05
+    Set TurnSpeed 6
+    Set Range 16000
+	Set Power 2.0
+  }
+     ///Hybrid Wing Body
+    ImprovedBy "Heavy_Airframe_3" 
+  {
+    Movie "Units/Images/Airborne/Topdown/AWACS_4.midx"    Icon "Units/Images/Icons/Airborne/AWACS_4.png"
+	Movie Model "Units/Images/AIRBORNE/AWACS 4.fbx"
+    Set Speed 900
+	Set Size 0.06
+    Set TurnSpeed 7.8
+    Set Range 20000
+	Set Power 2.2
+  }
+
+
+  CheckTargeting BY "AAM" OR "SAM" Message Lock 2841 NoLock 2842
+
+///E-2 Hawkeye
+[UNIT] "Naval AWACS"
+  Tech "U_Naval_AWACS"
+  IconIDX 2
+    MaxElevation 25
+    Movie "Units/Images/Airborne/Topdown/AWACS_Naval_1.midx"
+    AbstractMovie "Units/Images/Airborne/Abstract/Naval_AWACS.midx"
+    Model "Units/Images/AIRBORNE/AWACS Naval 1.midx"
+    Icon "Units/Images/Icons/Airborne/AWACS_Naval_1.png"
+  IconIDX 52
+  LaunchMePathIcon element "path/launch AWACS"
+  ModelDrawSize 21
+  DrawSize 21
+  AbstractDrawSize 20
+  LaunchMeSound 84
+  Size 0.060
+  Sound 136 Volume 0.4
+  Type Airborne
+  NoAutoDeploy
+  Slave
+  AutoReturn Yes
+  DoesNotTriggerWarWhenAttacked Yes
+  Speed 400
+  TurnSpeed 3
+  Range 3000
+  CanPatrolPoint
+  Power 1.0 
+  Radar "AWACS Short Wave"
+  Radar "AWACS Long Wave"
+  Radar "AWACS_Over_Horizon"
+  Radar "AWACS Air Detection"
+  Radar "AWACS Air Targeting"  
+  ProductionCost 3.6
+  Crash "big_bomb"
+  
+    Modifier "EMP_Killable"
+	  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"		  
+  
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+
+  ////E-2C, improved model
+  ImprovedBy "Heavy_Airframe_1" 
+  {
+    Set Range 3500
+	Set Power 1.25
+	Set Speed 450
+	Set TurnSpeed 3.5
+  }
+  ///E-2D, improved model
+    ImprovedBy "Heavy_Airframe_2" 
+  {
+    Set Range 4500
+	Set Power 1.5
+  }
+     ///X-47B with radar dome
+    ImprovedBy "Heavy_Airframe_3" 
+  {
+    Movie "Units/Images/Airborne/Topdown/AWACS_Naval_2.midx"    Icon "Units/Images/Icons/Airborne/AWACS_Naval_2.png"
+	Movie Model "Units/Images/AIRBORNE/AWACS Naval 2.midx"
+    Set Speed 600
+    Set TurnSpeed 4.8
+    Set Range 6000
+	Set Power 2.0
+  }
+	Modifier "Naval_AWACS_Mod"
+
+  CheckTargeting BY "AAM" OR "SAM" Message Lock 2841 NoLock 2842
+
+////U2 U-2 Dragon Lady
+[UNIT] "Spy_Plane"
+  Tech "U_Spy_Plane"
+  IconIDX 2
+    MaxElevation 60
+    Movie "Units/Images/Airborne/Topdown/Recce_Air_1.midx"
+    AbstractMovie "Units/Images/Airborne/Abstract/Spy_Plane.midx"
+	Model "Units/Images/AIRBORNE/Recce Air 1.fbx"
+	Icon "Units/Images/Icons/Airborne/Recce_Air_1.png"
+  IconIDX 52
+  /////////LaunchMePathIcon element "path/launch AWACS"
+  ModelDrawSize 24
+  DrawSize 24
+  AbstractDrawSize 20
+  LaunchMeSound 84
+  Size 0.02 ///Extra small to avoid damage
+  Sound 136 Volume 0.4
+  Type Airborne
+  NoAutoDeploy
+  Slave
+  AutoReturn Yes
+  Speed 700
+  TurnSpeed 3.5
+  Range 15000
+  Power 1.5 
+  Radar "Spy Plane Camera"
+  ProductionCost 4.5
+  DoesNotTriggerWarWhenAttacked Yes
+  Crash "big_bomb"
+  
+    Modifier "EMP_Killable"
+	  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+  
+  Modifier "Spy_Plane_Modifier"
+  
+  ///No ECM bonus - No room or need for chaff or flares because spy planes are pure insanity
+
+  ////SR-71
+  ImprovedBy "Generation_3_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Recce_Air_2.midx"	Icon "Units/Images/Icons/Airborne/Recce_Air_2.png"
+	Movie Model "Units/Images/AIRBORNE/Recce Air 2.midx"
+    Set Speed 3000
+	//Size 0.90
+    Set TurnSpeed 5
+    Set Range 15000
+	Set Power 1.75
+  }
+  ///SR-72
+    ImprovedBy "Generation_6_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Recce_Air_3.midx"	Icon "Units/Images/Icons/Airborne/Recce_Air_3.png"
+	Movie Model "Units/Images/AIRBORNE/Recce Air 3.midx"
+    Set Speed 4000
+	//Size 0.90
+    Set TurnSpeed 7
+    Set Range 21000
+	///Set Power 1.75
+  }
+   
+  CheckTargeting BY "AAM" OR "SAM" Message Lock 2841 NoLock 2842
+
+///SH-2 Seasprite
+[UNIT] "Navy_Helicopter"
+  Tech "U_Navy_Helicopter"
+  Movie "Units/Images/Airborne/Topdown/Naval_Heli_1.midx"
+  AbstractMovie "Units/Images/Airborne/Abstract/Naval_Heli.midx"
+  Model "Units/Images/AIRBORNE/Naval Heli 1.midx"
+  Icon "Units/Images/Icons/Airborne/Naval_Heli_1.png"
+  IconIDX 9
+  LaunchMePathIcon element "path/launch HELI"
+  MaxElevation 5
+  DrawSize 15
+  AbstractDrawSize 18  
+  LaunchMeSound 85
+  Size 0.080
+  Sound 143 Volume 0.4
+  Type Airborne
+  NoAutoDeploy
+  Slave
+  AutoReturn Yes
+  DoesNotTriggerWarWhenAttacked Yes
+  Speed 200
+  ////Turn speed is low in order to have wider turns during patrols, better ASW coverage
+  TurnSpeed 3
+  Range 1200
+  CanPatrolPoint
+//  CanHangInTheAir
+  Power 0.8
+  Config "ASW" Default
+	Weapon "DepthCharge" 6 Launch 2 Time 45 AutoEngage
+	Weapon "Air-Dropped Torpedo" 6 Launch 2 Time 45 AutoEngage
+  Config "Anti-Ship"
+  ImprovedBy "M_Light_AShM"
+	Weapon "Light_AShM" 2 Launch 1 Time 5 AutoEngage Principal ///Ripple fire
+	Weapon "DepthCharge" 2 Launch 2 Time 45 AutoEngage
+    Weapon "Air-Dropped Torpedo" 2 Launch 2 Time 45 AutoEngage
+//  Weapon "EW" 1 DefaultOff
+  
+    Modifier "EMP_Killable"
+	  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+  
+  Modifier "Helicopter_Modifier"
+
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+  
+  
+    ////SH-3 Sea King
+  ImprovedBy "Helicopter_2" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Naval_Heli_2.midx"  Icon "Units/Images/Icons/Airborne/Naval_Heli_2.png"
+	Movie Model "Units/Images/AIRBORNE/Naval Heli 2.midx"
+    Set Speed 250
+	Set Size 0.075
+    Set TurnSpeed 3.75
+    Set Range 1400
+	Set Power 1
+  }
+  ///SH-60 Seahawk
+    ImprovedBy "Helicopter_3" 
+	{
+	Movie "Units/Images/Airborne/Topdown/Naval_Heli_3.midx"  Icon "Units/Images/Icons/Airborne/Naval_Heli_3.png"
+	Movie Model "Units/Images/AIRBORNE/Naval Heli 3.midx"
+	    Set Speed 300
+	Set Size 0.075
+    Set TurnSpeed 4.5
+    Set Range 1850
+	Set Power 1.3
+	}
+  ///CH-148 Cyclone
+    ImprovedBy "Helicopter_4"
+
+	{
+	Movie "Units/Images/Airborne/Topdown/Naval_Heli_4.midx"  Icon "Units/Images/Icons/Airborne/Naval_Heli_4.png"
+	Movie Model "Units/Images/AIRBORNE/Naval Heli 4.midx"
+	    Set Speed 350
+	Set Size 0.075
+    Set TurnSpeed 5.25
+    Set Range 2450
+	Set Power 1.5
+	}	
+	
+  ///V-280 Valor
+    ImprovedBy "Helicopter_5" 	
+
+	{
+	Movie "Units/Images/Airborne/Topdown/Naval_Heli_5.midx"  Icon "Units/Images/Icons/Airborne/Naval_Heli_5.png"
+	Movie Model "Units/Images/AIRBORNE/Naval Heli 5.midx"
+	Set Speed 500
+	Set Size 0.075
+    Set TurnSpeed 7.5
+    Set Range 4500
+	Set Power 1.6
+	}
+ 
+  Radar "STD Vision"
+  Radar "Air Vision" 
+  Radar "AWACS Short Wave"
+  Radar "AWACS Long Wave"
+  //Radar "Naval AWACS Short Wave"
+  //Radar "Naval AWACS Long Wave"
+  Radar "AWACS Sonar"
+  ProductionCost 1.5
+  Crash "big_bomb"
+
+  CheckTargeting BY "AAM" OR "SAM" Message Lock 2841 NoLock 2842
+
+  ImprovedBy "AWACS" Size 1.00
+
+/////////////SPEC OPS ARE HERE (For carrier)////////////////////////////////////////////////
+[UNIT] "Spec_Ops_Team"
+  Tech "U_Spec_Ops"
+  Movie "Units/Images/Ground/Mid-Level/Spec_Ops_1.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Spec_Ops.midx"
+  Model "Units/Images/Ground/M151.fbx"
+  Icon "Units/Images/Icons/Ground/Spec_Ops_1.png"
+  DrawSize 12.5
+  AbstractDrawSize 30
+  FollowRadius 10
+  Size 0.01
+  Type Ground
+  Class "UC_Ground_Mobile"
+ // Slave
+  AttackerInPlanner
+  //OccupationRadius 0.01
+  CanCrossBorderDuringPeaceTime No
+  Speed 60
+  TurnSpeed 8 // in angles per second
+  Power 1
+  SelfDestructTime 5
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+  Modifier "Covert_Unit"
+  HiddenFromAllies
+  DoesNotTriggerWarWhenAttacked Yes
+  DoesNotTriggerWarOnAttack Yes
+  
+  ImprovedBy "Army_Mech_Mk2" Set Speed 70
+
+  
+  ImprovedBy "Army_Mech_Mk3" Set Speed 85
+  ImprovedBy "Army_Mech_Mk3" Power 1.05
+    ImprovedBy "Army_Mech_Mk3" 
+	{
+	Movie "Units/Images/Ground/Mid-Level/Spec_Ops_2.midx"  Icon "Units/Images/Icons/Ground/Spec_Ops_2.png"
+	Model "Units/Images/Ground/Spec-Ops Team.fbx"
+	}  
+  
+  ImprovedBy "Army_Mech_Mk4" Set Speed 100
+
+  
+  ImprovedBy "Army_Mech_Mk5" Set Speed 110
+  ImprovedBy "Army_Mech_Mk5" Power 1.05
+  ImprovedBy "Army_Mech_Mk5"
+	{
+	Movie "Units/Images/Ground/Mid-Level/Spec_Ops_3.midx"  Icon "Units/Images/Icons/Ground/Spec_Ops_3.png"
+	Model "Units/Images/Ground/Oshkosh L-ATV JLTV.fbx"
+	}    
+  
+  ImprovedBy "Improved_Basic_Protection" Power 1.15
+  ImprovedBy "Basic_Body_Armor" Power 1.15
+  ImprovedBy "Improved_Body_Armor" Power 1.15
+  ImprovedBy "Advanced_Body_Armor" Power 1.15
+  ImprovedBy "Experimental_Body_Armor" Power 1.15 
+
+  
+  Weapon "Small Arms" 20000 Launch 1 Time 5 AutoEngage
+  	Weapon "Body Armor" 1
+  	Weapon "Optics" 1
+  Weapon "MANPAD" 20000 Launch 1 Time 75 AutoEngage DefaultOff
+  Weapon "Demolition Charge" 20000 DefaultOff
+  Radar "STD Vision"
+  Radar "Counter-spy"
+  ProductionCost 10
+  
+  MoveToTarget ANY
+  MoveToTarget Avoid "Security_Checkpoint"
+  MoveToTarget Avoid "Army_Base"
+  MoveToTarget Avoid "Army_Division"
+  MoveToTarget Avoid "Airport" //Has security
+  MoveToTarget Avoid "Specialized_Airport" //Has security
+  MoveToTarget Avoid "Tactical_Airbase" //Has security
+  MoveToTarget Avoid "Missile_Silo" //Not powerful enough to destroy them
+  MoveToTarget Avoid "Central_Command_Bunker" //Not powerful enough to destroy them
+  MoveToTarget Avoid "VirtualCity"
+
+
+[UNIT] "Spec_Ops_Helicopter"
+  Tech "U_Spec-Ops_Helicopter"
+  Movie "Units/Images/Airborne/Topdown/Spec_Ops_Heli_1.midx"
+  AbstractMovie "Units/Images/Airborne/Abstract/Spec_Ops_Heli.midx"
+  Model "Units/Images/AIRBORNE/SpecOps Heli 1.midx"
+  Icon "Units/Images/Icons/Airborne/Spec_Ops_Heli_1.png"
+  IconIDX 9
+  LaunchMePathIcon element "path/launch HELI"
+  MaxElevation 5
+  DrawSize 16.5
+  AbstractDrawSize 18
+  LaunchMeSound 85
+  Size 0.08
+  Sound 143 Volume 0.4
+  Type Airborne
+  NoAutoDeploy
+  Slave
+  CanCarryUnit "Spec_Ops_Team"
+  HangarMaxLoad 1
+  AutoReturn Yes
+  Speed 200
+  TurnSpeed 10
+  Range 1750
+  MaxAutoEngageRange 250
+  Weapon "Small Arms" 20000 Launch 1 Time 5 AutoEngage
+  Modifier "Covert_Unit"
+  HiddenFromAllies
+  DoesNotTriggerWarWhenAttacked Yes
+  CanPatrolPoint
+  CanHangInTheAir
+  //ImprovedBy "Air_refuel" Range 1.5
+  Power 0.8
+  Radar "STD Vision"
+  Radar "Counter-spy"
+  ProductionCost 1.8
+  Crash "big_bomb"
+  
+    Modifier "EMP_Killable"
+	  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+  
+  Modifier "Helicopter_Modifier" 
+
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+
+   ////UH-1H Huey
+  ImprovedBy "Helicopter_2" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Spec_Ops_Heli_2.midx"  Icon "Units/Images/Icons/Airborne/Spec_Ops_Heli_2.png"
+	Movie Model "Units/Images/AIRBORNE/SpecOps Heli 2.midx"
+    Set Speed 250
+	Set Size 0.075
+    Set TurnSpeed 12.5
+    Set Range 2250
+	Set Power 1
+  }
+  
+  ///MH-53J Pave Low
+    ImprovedBy "Helicopter_3" 
+	{
+	Movie "Units/Images/Airborne/Topdown/Spec_Ops_Heli_3.midx"  Icon "Units/Images/Icons/Airborne/Spec_Ops_Heli_3.png"
+	Movie Model "Units/Images/AIRBORNE/SpecOps Heli 3.midx"
+	Set Speed 300
+	Set Size 0.07
+    Set TurnSpeed 15
+    Set Range 2750
+	Set Power 1.3
+	
+	}
+  ///MH-47G Chinook
+    ImprovedBy "Helicopter_4"
+	{
+	Movie "Units/Images/Airborne/Topdown/Spec_Ops_Heli_4.midx"  Icon "Units/Images/Icons/Airborne/Spec_Ops_Heli_4.png"
+	Movie Model "Units/Images/AIRBORNE/SpecOps Heli 4.midx"
+	Set Speed 350
+	Set Size 0.065
+    Set TurnSpeed 17.5
+    Set Range 3500
+	Set Power 1.5
+	}	
+	
+  ///MV-22 Osprey
+    ImprovedBy "Helicopter_5" 	
+	{
+	Movie "Units/Images/Airborne/Topdown/Spec_Ops_Heli_5.midx"  Icon "Units/Images/Icons/Airborne/Spec_Ops_Heli_5.png"
+	Movie Model "Units/Images/AIRBORNE/SpecOps Heli 5.midx"
+	Set Speed 500
+	Set Size 0.060
+    Set TurnSpeed 25
+    Set Range 6500
+	Set Power 1.6
+	}
+
+///AH-1E Cobra, unlocked with Turboshaft Helis
+[UNIT] "Attack_Helicopter"
+  Tech "U_Attack_Helicopter"
+  Movie "Units/Images/Airborne/Topdown/Attack_Heli_2.midx"
+  AbstractMovie "Units/Images/Airborne/Abstract/Attack_Heli.midx"
+  Model "Units/Images/AIRBORNE/Attack Heli 2.midx"
+  Icon "Units/Images/Icons/Airborne/Attack_Heli_2.png"
+  IconIDX 9
+  LaunchMePathIcon element "path/launch HELI"
+  MaxElevation 5
+  DrawSize 13
+  AbstractDrawSize 18  
+  LaunchMeSound 85
+  Size 0.070
+  Sound 143 Volume 0.4
+  Type Airborne
+  NoAutoDeploy
+  Slave
+  AutoReturn Yes
+  Speed 260
+  TurnSpeed 18
+  Range 1350
+  MaxAutoEngageRange 300
+
+Config "Attack Helicopter" 
+///AH-1E Cobra
+  Weapon "Chaingun" 20 Launch 4 Time 3 AutoEngage Principal
+  Weapon "Rocket Pod" 16 Launch 8 Time 4 AutoEngage
+  Weapon "Helicopter ATGM" 4 Launch 1 Time 75 AutoEngage
+	////AH-64A Apache  
+ImprovedBy "Helicopter_3"
+	Weapon "Chaingun" 25 Launch 5 Time 3 AutoEngage Principal
+	Weapon "Rocket Pod" 16 Launch 8 Time 4 AutoEngage
+	Weapon "Helicopter ATGM" 8 Launch 2 Time 60 AutoEngage
+///AH-64E Guardian
+ImprovedBy "Helicopter_4"
+	Weapon "Chaingun" 25 Launch 5 Time 3 AutoEngage Principal
+	Weapon "Rocket Pod" 16 Launch 8 Time 4 AutoEngage
+	Weapon "Helicopter ATGM" 8 Launch 2 Time 45 AutoEngage
+	Weapon "MANPAD" 4 Launch 1 Time 75 AutoEngage DefaultOff
+///RaiderX
+ImprovedBy "Helicopter_5"
+	Weapon "Chaingun" 25 Launch 5 Time 3 AutoEngage Principal
+	Weapon "Rocket Pod" 16 Launch 8 Time 4 AutoEngage
+	Weapon "Helicopter ATGM" 8 Launch 2 Time 35 AutoEngage
+	Weapon "MANPAD" 4 Launch 1 Time 60 AutoEngage DefaultOff
+
+  
+  CanPatrolPoint
+  CanHangInTheAir
+  //ImprovedBy "Air_refuel" Range 1.5
+  Power 1.20
+  Radar "STD Vision"
+  Radar "Counter-spy"
+  ProductionCost 1.8
+  Crash "big_bomb"
+  
+    Modifier "EMP_Killable"
+	  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+  
+  Modifier "Helicopter_Modifier" 
+
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+  
+  ///AH-64A Apache
+    ImprovedBy "Helicopter_3" 
+	{
+	Movie "Units/Images/Airborne/Topdown/Attack_Heli_3.midx"  Icon "Units/Images/Icons/Airborne/Attack_Heli_3.png"
+	Movie Model "Units/Images/AIRBORNE/Attack Heli 3.midx"
+	Set Speed 325
+	Set Size 0.065
+    Set TurnSpeed 24
+    Set Range 1850
+	Set Power 1.50
+	
+	}
+  ///AH-64E Guardian
+    ImprovedBy "Helicopter_4"
+	{
+	Movie "Units/Images/Airborne/Topdown/Attack_Heli_4.midx"  Icon "Units/Images/Icons/Airborne/Attack_Heli_4.png"
+	Movie Model "Units/Images/AIRBORNE/Attack Heli 4.midx"
+	Set Speed 375
+	Set Size 0.060
+    Set TurnSpeed 27
+    Set Range 2500
+	Set Power 1.75
+	}	
+	
+  ///Raider X
+    ImprovedBy "Helicopter_5" 	
+	{
+	Movie "Units/Images/Airborne/Topdown/Attack_Heli_5.midx"  Icon "Units/Images/Icons/Airborne/Attack_Heli_5.png"
+	Movie Model "Units/Images/AIRBORNE/Attack Heli 5.midx"
+	Set Speed 550
+	Set Size 0.055
+    Set TurnSpeed 30
+    Set Range 4500
+	Set Power 2.00
+	}
+
+
+///////////Essex Class////
+[UNIT] "Carrier"
+  Tech "U_Carrier"
+  Movie "Units/Images/Naval/Topdown/Carrier_1.midx"
+  AbstractMovie "Units/Images/Naval/Abstract/Carrier.midx"
+  Model "Units/Images/Naval/Carrier Basic.fbx"
+  Icon "Units/Images/Icons/Naval/Carrier_1.png"
+  RoundIcon "Units/Images/Icons/Naval/Carrier_1_round.png"
+//  IconIDX 54
+  IconIDX 10
+  DrawSize 44
+  AbstractDrawSize 40  
+  FollowRadius 39//34
+  Size 0.4
+  Sound 132 Volume 0.9
+  Type Naval
+  AttackerInPlanner
+  Speed 35
+  TurnSpeed 5 // in angles per second
+  Power 40
+  SelfDestructTime 30
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+
+  //Double CIWS + SAMs for survivability
+  Weapon "Light SAM" 20000 Launch 2 Time 60 AutoEngage DefaultOff
+  Weapon "Light SAM MD" 20000 Launch 2 Time 60 AutoEngage DefaultOff
+  Weapon "CIWS" 25000 Launch 2 Time 5 AutoEngage DefaultOff
+  Weapon "Laser CIWS" 25000 Launch 2 Time 20 AutoEngage DefaultOff
+  
+  Airway Launch 1 Time 60 // in seconds in 1x time
+  Airway Launch 1 Time 180 // in seconds in 1x time
+  Airway Launch 1 Time 210 // in seconds in 1x time
+  CanHostAircrafts "Attack" 30 Patrol 6
+  CanHostAircrafts "EW_Aircraft" 6 Patrol 2 AIAutoPatrol
+  CanHostAircrafts airway 2 "Naval AWACS" 2 Patrol 1 AIAutoPatrol
+  CanHostAircrafts airway 1 "Navy_Helicopter" 4 Patrol 1 AIAutoPatrol
+  CanHostAircrafts airway 1 "Spec_Ops_Helicopter" 2 Patrol 1
+  
+/*  
+  CanStoreMissiles "100kt_nuke_light" 30
+  CanStoreMissiles "250kt_nuke_light" 30
+  CanStoreMissiles "500kt nuke_light" 30
+  CanStoreMissiles "1M nuke_light" 30
+  CanStoreMissiles "5M nuke_light" 30
+  CanStoreMissiles "500kt Light Cobalt Bomb" 30
+  CanStoreMissiles "500kt Light Salt Bomb" 30
+  CanStoreMissiles "ALCM-N" 60
+  CanStoreMissiles "Fusion ALCM" 60
+   
+  CanStoreMissiles "AAM" 50000
+  CanStoreMissiles "AGM" 50000
+  CanStoreMissiles "ALCM" 50000
+  CanStoreMissiles "Free fall bomb" 50000
+  CanStoreMissiles "DepthCharge" 20000
+  CanStoreMissiles "Air-Dropped Torpedo" 20000
+*/
+  
+  CanAccessWeaponStockpile true
+  
+  Radar "STD Vision"
+  Radar "STD Long Wave"
+  Radar "STD Short Wave"
+
+  Modifier "Warship_Stealth_Bonus_Modifier_1"
+  Modifier "Warship_Stealth_Bonus_Modifier_2"
+  
+  Modifier "BM_Accuracy_Damage_Penalty" 
+  
+  ProductionCost 12
+  
+////Kittyhawk////   
+  ImprovedBy "Missile_Warships"
+  {
+    Movie "Units/Images/Naval/Topdown/Carrier_2.midx"  Icon "Units/Images/Icons/Naval/Carrier_2.png"  RoundIcon "Units/Images/Icons/Naval/Carrier_2_round.png"
+  	Movie Model "Units/Images/Naval/Carrier 2.fbx"
+  Set Size 0.38
+  Set Speed 40
+  Set TurnSpeed 5.5
+  Set Power 45
+  }
+  
+////Nimitz//// 
+  ImprovedBy "Improved_Warships"
+  {
+    Movie "Units/Images/Naval/Topdown/Carrier_3.midx"  Icon "Units/Images/Icons/Naval/Carrier_3.png"  RoundIcon "Units/Images/Icons/Naval/Carrier_3_round.png"
+  	Movie Model "Units/Images/Naval/Carrier 3.fbx"
+  Set Size 0.36
+  Set Speed 45
+  Set TurnSpeed 6.0
+  Set Power 50
+  }
+ 
+  ImprovedBy "Enhanced_Warships"
+  {
+  Set Size 0.34
+  Set Speed 50
+  Set TurnSpeed 6.5
+  Set Power 55
+  }
+  
+  ///////Gerald R Ford
+  ImprovedBy "Advanced_Warships"
+  {
+    Movie "Units/Images/Naval/Topdown/Carrier_4.midx"  Icon "Units/Images/Icons/Naval/Carrier_4.png"  RoundIcon "Units/Images/Icons/Naval/Carrier_4_round.png"
+  	Movie Model "Units/Images/Naval/Carrier 4.fbx"
+	
+  Set Size 0.32
+  Set Speed 60
+  Set TurnSpeed 7.0
+  Set Power 60	
+  }
+  
+////////USS Space Magic/////  
+  ImprovedBy "Experimental_Warships"
+  {
+    Movie "Units/Images/Naval/Topdown/Carrier_5.midx"  Icon "Units/Images/Icons/Naval/Carrier_5.png"  RoundIcon "Units/Images/Icons/Naval/Carrier_5_round.png"
+  	Movie Model "Units/Images/Naval/Carrier 5.fbx"
+  Set Size 0.30
+  Set Speed 65
+  Set TurnSpeed 7.5
+  Set Power 65
+  }
+  
+  
+  /* ImprovedBy "Powerful_Engine" Set Speed 45
+  ImprovedBy "Powerful_Engine_Mk2" Set Speed 55
+  ImprovedBy "Powerful_Engine_Mk3" Set Speed 65 */
+
+
+/////////////Balao Class, WWII//////
+/////////////SSN aka Attack Submarines////////////
+[UNIT] "Submarine"
+  Tech "U_Submarine"
+  Movie "Units/Images/Naval/Topdown/Attack_Submarine_1.midx"
+  AbstractMovie "Units/Images/Naval/Abstract/Sub_Attack.midx"
+  Icon "Units/Images/Icons/Naval/Submarine_1.png"
+  Model "Units/Images/Naval/Basic Submarine.fbx"  
+  RoundIcon "Units/Images/Icons/Naval/Submarine_1_round.png"
+  IconIDX 9
+  DrawSize 25
+  AbstractDrawSize 32.5
+  FollowRadius 28//24
+  Size 0.2
+  Sound 133  Volume 0.75
+  Type Subwater
+  AttackerInPlanner  
+  Class "UC_Naval"
+  Speed 40
+  TurnSpeed 5 // in angles per second
+  Power 5
+  SelfDestructTime 10
+  HangarMaxLoad 1
+  CanCarryUnit "Spec_Ops_Team"
+  //CanStoreMissiles "Nuclear Torpedo" 4  
+
+
+Config "Conventional" Default
+////Balao
+  Weapon "Torpedo" 20000 Launch 2 Time 150 AutoEngage	
+////Skipjack
+	ImprovedBy "Nuclear_Submarine"
+  Weapon "Torpedo" 20000 Launch 2 Time 150 AutoEngage	
+  Weapon "SSM" 20000 Launch 1 Time 210 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 1 Time 210 AutoEngage
+////Los Angeles Flt 1
+	ImprovedBy "Improved_Submarines"
+  Weapon "Torpedo" 20000 Launch 2 Time 135 AutoEngage	
+  Weapon "SSM" 20000 Launch 1 Time 180 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 1 Time 180 AutoEngage
+////LA 688i
+	ImprovedBy "Enhanced_Submarines"
+  Weapon "Torpedo" 20000 Launch 2 Time 120 AutoEngage	
+  Weapon "SSM" 20000 Launch 2 Time 180 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 2 Time 180 AutoEngage
+/////Virginia Class
+	ImprovedBy "Advanced_Submarines"  
+  Weapon "Torpedo" 20000 Launch 4 Time 120 AutoEngage	
+  Weapon "SSM" 20000 Launch 2 Time 150 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 2 Time 150 AutoEngage
+////Jimmy Carter Seawolf
+////HERE'S JIMMY
+	ImprovedBy "Experimental_Submarines"
+  Weapon "Torpedo" 20000 Launch 4 Time 100 AutoEngage	
+  Weapon "SSM" 20000 Launch 2 Time 120 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 2 Time 120 AutoEngage
+  
+Config "Nuclear Armed" Default
+////Balao
+ ImprovedBy "M_Nuclear_Torpedo_Tac"
+  Weapon "Torpedo" 20000 Launch 2 Time 150 AutoEngage
+  Weapon "Nuclear Torpedo" 4 DefaultOff Time 400 AutoEngage Principal	
+////Skipjack
+	ImprovedBy "Attack_Sub_Nuke_2"
+  Weapon "Torpedo" 20000 Launch 2 Time 150 AutoEngage
+  Weapon "SSM" 20000 Launch 1 Time 210 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 1 Time 210 AutoEngage
+  Weapon "Nuclear Torpedo" 4 DefaultOff Time 400 AutoEngage  Principal	
+////Los Angeles Flt 1
+	ImprovedBy "Attack_Sub_Nuke_3"
+  Weapon "Torpedo" 20000 Launch 2 Time 135 AutoEngage
+  Weapon "SSM" 20000 Launch 1 Time 180 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 1 Time 180 AutoEngage
+  Weapon "Nuclear Torpedo" 4 DefaultOff Time 400 AutoEngage  Principal	
+////LA 688i
+	ImprovedBy "Attack_Sub_Nuke_4"
+  Weapon "Torpedo" 20000 Launch 2 Time 120 AutoEngage
+  Weapon "SSM" 20000 Launch 2 Time 180 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 2 Time 180 AutoEngage
+  Weapon "Nuclear Torpedo" 4 DefaultOff Time 400 AutoEngage  Principal	
+/////Virginia Class
+	ImprovedBy "Attack_Sub_Nuke_5"
+  Weapon "Torpedo" 20000 Launch 4 Time 120 AutoEngage
+  Weapon "SSM" 20000 Launch 2 Time 150 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 2 Time 150 AutoEngage
+  Weapon "Nuclear Torpedo" 4 DefaultOff Time 400 AutoEngage  Principal	
+////Jimmy Carter Seawolf
+////HERE'S JIMMY
+	ImprovedBy "Attack_Sub_Nuke_6"
+  Weapon "Torpedo" 20000 Launch 4 Time 100 AutoEngage
+  Weapon "SSM" 20000 Launch 2 Time 120 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 2 Time 120 AutoEngage
+  Weapon "Nuclear Torpedo" 4 DefaultOff Time 400 AutoEngage  Principal	
+
+Config "Fusion Torpedo" Default
+////Balao
+ ImprovedBy "M_Fusion_Torpedo_Tac"
+  Weapon "Torpedo" 20000 Launch 2 Time 150 AutoEngage
+  Weapon "Fusion Torpedo" 4 DefaultOff Time 400 AutoEngage Principal	
+////Skipjack
+	ImprovedBy "Attack_Sub_Nuke_2"
+  Weapon "Torpedo" 20000 Launch 2 Time 150 AutoEngage
+  Weapon "SSM" 20000 Launch 1 Time 210 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 1 Time 210 AutoEngage
+  Weapon "Fusion Torpedo" 4 DefaultOff Time 400 AutoEngage  Principal	
+////Los Angeles Flt 1
+	ImprovedBy "Attack_Sub_Nuke_3"
+  Weapon "Torpedo" 20000 Launch 2 Time 135 AutoEngage
+  Weapon "SSM" 20000 Launch 1 Time 180 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 1 Time 180 AutoEngage
+  Weapon "Fusion Torpedo" 4 DefaultOff Time 400 AutoEngage  Principal	
+////LA 688i
+	ImprovedBy "Attack_Sub_Nuke_4"
+  Weapon "Torpedo" 20000 Launch 2 Time 120 AutoEngage
+  Weapon "SSM" 20000 Launch 2 Time 180 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 2 Time 180 AutoEngage
+  Weapon "Fusion Torpedo" 4 DefaultOff Time 400 AutoEngage  Principal	
+/////Virginia Class
+	ImprovedBy "Attack_Sub_Nuke_5"
+  Weapon "Torpedo" 20000 Launch 4 Time 120 AutoEngage
+  Weapon "SSM" 20000 Launch 2 Time 150 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 2 Time 150 AutoEngage
+  Weapon "Fusion Torpedo" 4 DefaultOff Time 400 AutoEngage  Principal	
+////Jimmy Carter Seawolf
+////HERE'S JIMMY
+	ImprovedBy "Attack_Sub_Nuke_6"
+  Weapon "Torpedo" 20000 Launch 4 Time 100 AutoEngage
+  Weapon "SSM" 20000 Launch 2 Time 120 AutoEngage
+  Weapon "Anti Ship Missile" 20000 Launch 2 Time 120 AutoEngage
+  Weapon "Fusion Torpedo" 4 DefaultOff Time 400 AutoEngage  Principal	  
+  
+  Radar "Sonar"
+  //Radar "Periscope"
+  ProductionCost 15
+  //NoAutoAttack
+  NoAutoAttackSub No
+  Modifier "Mega_Sonar"
+  Modifier "Submarine_Stealth"    
+  
+  Modifier "Sonar_Quieting_SSN_1"
+  Modifier "Sonar_Quieting_SSN_2"
+  Modifier "Sonar_Quieting_SSN_3"
+  Modifier "Sonar_Quieting_SSN_4"
+  Modifier "Sonar_Quieting_SSN_5"  
+  
+  /////Skipjack
+	ImprovedBy "Nuclear_Submarine"
+	{
+	Movie "Units/Images/Naval/Topdown/Attack_Submarine_2.midx"  Icon "Units/Images/Icons/Naval/Submarine_2.png"  RoundIcon "Units/Images/Icons/Naval/Submarine_2_round.png"
+  	Movie Model "Units/Images/Naval/SSN 1.fbx" 
+	
+	 Set Size 0.19
+	 Set Speed 45
+	 Set Power 5.5
+
+	}
+  
+  
+/////Los Angeles 688  
+	ImprovedBy "Improved_Submarines"
+	{
+	Movie "Units/Images/Naval/Topdown/Attack_Submarine_3.midx"   Icon "Units/Images/Icons/Naval/Submarine_3.png"  RoundIcon "Units/Images/Icons/Naval/Submarine_3_round.png"
+  	Movie Model "Units/Images/Naval/SSN 2.fbx"
+	
+	  Set Size 0.18
+	  Set Speed 50
+	  Set Power 6	
+	}
+	
+/////Los Angeles Flight III 688i
+	ImprovedBy "Enhanced_Submarines"
+	{
+	//Movie "Units/Images/Naval/ssn.vidx"
+  	//Movie Model "Units/Images/Naval/SSN 2.fbx" 
+	
+	  Set Size 0.17
+	  Set Speed 55
+	  //Set Power 6	
+	}	
+
+/////////Virginia Class	
+	ImprovedBy "Advanced_Submarines"
+	{
+	Movie "Units/Images/Naval/Topdown/Attack_Submarine_4.midx"  Icon "Units/Images/Icons/Naval/Submarine_4.png"  RoundIcon "Units/Images/Icons/Naval/Submarine_4_round.png"
+  	Movie Model "Units/Images/Naval/SSN 3.fbx" 
+	
+	  Set Size 0.16
+	  Set Speed 60
+	  Set Power 6.5	
+	}
+	
+/////////Jimmy Carter Steroid Seawolf
+	ImprovedBy "Experimental_Submarines"
+	{
+	Movie "Units/Images/Naval/Topdown/Attack_Submarine_5.midx"  Icon "Units/Images/Icons/Naval/Submarine_5.png"  RoundIcon "Units/Images/Icons/Naval/Submarine_5_round.png"
+  	Movie Model "Units/Images/Naval/SSN 4.fbx" 
+	
+	  Set Size 0.15
+	  Set Speed 70
+	  Set Power 7	
+	}	
+  
+  HighState "Submarine_Surfaced"
+  TimeToHighState 3.0 // 3 seconds to surface
+  HighStateStringIDX 2008
+  LowStateStringIDX 2447
+  ToHighStateIcon "Units/images/go_up.png"
+
+  AttackShift High
+
+[UNIT] "Submarine_Surfaced" COPY "Submarine"
+  Type Naval
+  
+  delete AttackerInPlanner
+  
+  Radar "Periscope"
+  Radar "Submarine Radar Mast"
+
+  HighState NULL
+  HighStateStringIDX 2009
+  LowState "Submarine"
+  LowStateStringIDX 2040
+  TimeToLowState 3.0 // 3 seconds to submerge
+
+  SpecialState Yes
+  StateStringIDX 2010
+  StateIcon "Units/images/exclamation.png"
+  
+  AttackShift None
+  RetreatShift Low
+//  DefenceShift Low
+  UnderIceShift Low
+  AutoOnRest Low
+  AutoOnRestDelay 30.0 // auto-submerging after 30 seconds  
+  ToLowStateIcon "Units/images/go_down.png"
+ 
+///Juliette///
+[UNIT] "SSGN"
+  Tech "U_SSGN_Submarine"
+  Movie "Units/Images/Naval/Topdown/SSGN_1.midx"
+  AbstractMovie "Units/Images/Naval/Abstract/Sub_SSGN.midx"  
+  Icon "Units/Images/Icons/Naval/SSGN_1.png"
+  Model "Units/Images/Naval/SSGN 1.fbx"  
+  RoundIcon "Units/Images/Icons/Naval/SSGN_1_Round.png"
+  IconIDX 9
+  DrawSize 27.5
+  AbstractDrawSize 35  
+  FollowRadius 28//24
+  Size 0.22
+  Sound 133  Volume 0.75
+  Type Subwater
+  Class "UC_Naval"
+  AttackerInPlanner
+  Speed 35
+  TurnSpeed 5 // in angles per second
+  Power 6
+  SelfDestructTime 30
+  
+  Config "SSGN"
+ ///Juliette/// 
+  Weapon "SSM" 20000 Launch 1 Time 150 AutoEngage	  
+  Weapon "Anti Ship Missile" 25000 Launch 1 Time 180 AutoEngage
+  Weapon "Nuclear Cruise Missile" 10000 Time 400 DefaultOff
+  Weapon "Fusion Cruise Missile" 10000 Time 400 DefaultOff
+  Weapon "Torpedo" 20000 AutoEngage
+////Charlie
+	ImprovedBy "Nuclear_Submarine"
+  Weapon "SSM" 20000 Launch 1 Time 150 AutoEngage	  
+  Weapon "Anti Ship Missile" 25000 Launch 1 Time 150 AutoEngage
+  Weapon "Nuclear Cruise Missile" 1000 Time 360 DefaultOff
+  Weapon "Fusion Cruise Missile" 1000 Time 360 DefaultOff
+  Weapon "Torpedo" 20000 AutoEngage
+////Oscar  
+	ImprovedBy "Improved_Submarines"
+  Weapon "SSM" 20000 Launch 2 Time 150 AutoEngage	  
+  Weapon "Anti Ship Missile" 25000 Launch 2 Time 150 AutoEngage
+  Weapon "Nuclear Cruise Missile" 1000 Time 360 DefaultOff
+  Weapon "Fusion Cruise Missile" 1000 Time 360 DefaultOff
+  Weapon "Torpedo" 20000 AutoEngage
+////Oscar II  
+	ImprovedBy "Enhanced_Submarines"
+  Weapon "SSM" 20000 Launch 2 Time 135 AutoEngage	  
+  Weapon "Anti Ship Missile" 25000 Launch 2 Time 135 AutoEngage
+  Weapon "Nuclear Cruise Missile" 1000 Time 360 DefaultOff
+  Weapon "Fusion Cruise Missile" 1000 Time 360 DefaultOff
+  Weapon "Torpedo" 20000 AutoEngage  
+/////Yasen  
+	ImprovedBy "Advanced_Submarines"  
+  Weapon "SSM" 20000 Launch 2 Time 120 AutoEngage	  
+  Weapon "Anti Ship Missile" 25000 Launch 2 Time 120 AutoEngage
+  Weapon "Nuclear Cruise Missile" 1000 Time 330 DefaultOff
+  Weapon "Fusion Cruise Missile" 1000 Time 330 DefaultOff
+  Weapon "Torpedo" 20000 Launch 2 AutoEngage  
+////Laika  
+	ImprovedBy "Experimental_Submarines"
+  Weapon "SSM" 20000 Launch 4 Time 120 AutoEngage	  
+  Weapon "Anti Ship Missile" 25000 Launch 4 Time 120 AutoEngage
+  Weapon "Nuclear Cruise Missile" 1000 Time 300 DefaultOff
+  Weapon "Fusion Cruise Missile" 1000 Time 300 DefaultOff
+  Weapon "Torpedo" 20000 Launch 2 AutoEngage  
+  
+  Radar "Sonar"
+  //Radar "Periscope"
+  ProductionCost 16.5
+  NoAutoAttack No
+  NoAutoAttackSub No
+  HiddenFromAllies
+  Modifier "Advanced_Sonar"
+  Modifier "Submarine_Stealth_Weak"  
+  
+  Modifier "Sonar_Quieting_SSGN_1"
+  Modifier "Sonar_Quieting_SSGN_2"
+  Modifier "Sonar_Quieting_SSGN_3"
+  Modifier "Sonar_Quieting_SSGN_4"
+  Modifier "Sonar_Quieting_SSGN_5"  
+
+/////Charlie Class
+	ImprovedBy "Nuclear_Submarine"
+	{
+	Movie "Units/Images/Naval/Topdown/SSGN_1.5.midx"  Icon "Units/Images/Icons/Naval/SSGN_1.5.png"  RoundIcon "Units/Images/Icons/Naval/SSGN_1.5_Round.png"
+  	Movie Model "Units/Images/Naval/SSGN 1.5.fbx" 
+	
+	  Set Size 0.21
+	  Set Speed 40
+	  Set Power 6.25
+	}
+  
+  
+/////Oscar Class
+	ImprovedBy "Improved_Submarines"
+	{
+	Movie "Units/Images/Naval/Topdown/SSGN_2.midx"  Icon "Units/Images/Icons/Naval/SSGN_2.png"	  RoundIcon "Units/Images/Icons/Naval/SSGN_2_Round.png"
+  	Movie Model "Units/Images/Naval/SSGN 2.fbx" 
+	
+	  Set Size 0.20
+	  Set Speed 45
+	  Set Power 6.5
+	}
+	
+/////Oscar II
+	ImprovedBy "Enhanced_Submarines"
+	{
+	//Movie "Units/Images/Naval/Topdown/SSGN_2.midx"  Icon "Units/Images/Icons/Naval/SSGN_2.png"  RoundIcon "Units/Images/Icons/Naval/SSGN_2_Round.png"
+  	//Movie Model "Units/Images/Naval/SSGN 2.fbx" 
+	
+	  Set Size 0.19
+	  //Set Speed 45
+	  //Set Power 6	
+	}	
+
+/////////Yasen Class
+	ImprovedBy "Advanced_Submarines"
+	{
+	Movie "Units/Images/Naval/Topdown/SSGN_3.midx"  Icon "Units/Images/Icons/Naval/SSGN_3.png"  RoundIcon "Units/Images/Icons/Naval/SSGN_3_Round.png"
+  	Movie Model "Units/Images/Naval/SSGN 3.fbx" 
+	
+	  Set Size 0.18
+	  Set Speed 55
+	  Set Power 7
+	}
+	
+/////////Laika Class
+	ImprovedBy "Experimental_Submarines"
+	{
+	Movie "Units/Images/Naval/Topdown/SSGN_4.midx"  Icon "Units/Images/Icons/Naval/SSGN_4.png"  RoundIcon "Units/Images/Icons/Naval/SSGN_4_Round.png"
+  	Movie Model "Units/Images/Naval/SSGN 4.fbx" 
+	
+	  Set Size 0.17
+	  Set Speed 65
+	  Set Power 7.5	
+	}
+  
+HighState "SSGN_Surfaced"
+  TimeToHighState 3.0 // 3 seconds to surface
+  HighStateStringIDX 2008
+  LowStateStringIDX 2447
+
+  AttackShift High
+  ToHighStateIcon "Units/images/go_up.png"
+
+[UNIT] "SSGN_Surfaced" COPY "SSGN"
+  Type Naval
+  
+  delete AttackerInPlanner
+  delete NoAutoAttack
+  delete NoAutoAttackSub
+
+  Radar "Periscope"
+  Radar "Submarine Radar Mast"
+
+  HighState NULL
+  HighStateStringIDX 2009
+  LowState "SSGN"
+  LowStateStringIDX 2040
+  TimeToLowState 3.0 // 3 seconds to submerge
+
+  SpecialState Yes
+  StateStringIDX 2010
+  StateIcon "Units/images/exclamation.png"
+  ToLowStateIcon "Units/images/go_down.png"
+
+  AttackShift None
+  RetreatShift Low
+//  DefenceShift Low
+  UnderIceShift Low
+  AutoOnRest Low
+  AutoOnRestDelay 30.0 // auto-submerging after 30 seconds
+
+
+//////George Washington Class////////
+///////////////This one's a doozy, get ready for some scrolling///////////
+[UNIT] "SSBN"
+  Tech "U_SSBN"
+  Movie "Units/Images/Naval/Topdown/SSBN_1.midx"
+  AbstractMovie "Units/Images/Naval/Abstract/Sub_SSBN.midx"  
+  Icon "Units/Images/Icons/Naval/SSBN_1.png"
+  Model "Units/Images/Naval/SSBN 1.fbx"  
+  RoundIcon "Units/Images/Icons/Naval/SSBN_1_round.png"
+  IconIDX 9
+//  IconIDX 54
+  DrawSize 35
+  AbstractDrawSize 35
+  FollowRadius 32//28
+  Size 0.25
+  Sound 133 Volume 0.75
+  Type Subwater
+  Class "UC_Naval"
+  AttackerInPlanner
+  Speed 40
+  TurnSpeed 5 // in angles per second
+  Power 8
+  SelfDestructTime 30
+ 
+ /////////////////WEAPON LOADOUTS - SLBMs//////////////////
+  Config "Disarmed" OnlyFull Default
+    Weapon "Torpedo" 20000 AutoEngage
+	
+  Config "100kt SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "100kt_SLBM" 12 Launch 1  Time 540 Principal
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "100kt_SLBM" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "100kt_SLBM" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "100kt_SLBM" 20 Launch 4  Time 300 Principal	
+	
+  Config "250kt SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "250kt_SLBM" 12 Launch 1  Time 540 Principal	
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "250kt_SLBM" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "250kt_SLBM" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "250kt_SLBM" 20 Launch 4  Time 300 Principal		
+	
+	
+  Config "500kt SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_SLBM" 12 Launch 1  Time 540 Principal	
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_SLBM" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_SLBM" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_SLBM" 20 Launch 4  Time 300 Principal		
+		
+		
+  Config "1M SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "1M_SLBM" 12 Launch 1  Time 540 Principal
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "1M_SLBM" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "1M_SLBM" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "1M_SLBM" 20 Launch 4  Time 300 Principal		
+				
+  Config "5M SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "5M_Fusion_SLBM" 12 Launch 1  Time 540 Principal
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "5M_Fusion_SLBM" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "5M_Fusion_SLBM" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "5M_Fusion_SLBM" 20 Launch 4  Time 300 Principal		
+				
+  Config "500kt Cobalt SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_Cobalt_SLBM" 12 Launch 1  Time 540 Principal
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_Cobalt_SLBM" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_Cobalt_SLBM" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_Cobalt_SLBM" 20 Launch 4  Time 300 Principal		
+				
+  Config "500kt Enhanced Salted SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_Salt_SLBM" 12 Launch 1  Time 540 Principal
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_Salt_SLBM" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_Salt_SLBM" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_Salt_SLBM" 20 Launch 4  Time 300 Principal		
+
+  Config "500kt EMP SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_SLBM_EMP" 12 Launch 1  Time 540 Principal
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_SLBM_EMP" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_SLBM_EMP" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_SLBM_EMP" 20 Launch 4  Time 300 Principal		
+				
+  Config "500kt Super EMP SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_SLBM_EMP_Super" 12 Launch 1  Time 540 Principal
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_SLBM_EMP_Super" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_SLBM_EMP_Super" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "500kt_SLBM_EMP_Super" 20 Launch 4  Time 300 Principal	
+
+				
+  Config "3x100kt SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "3x100kt_SLBM" 12 Launch 1  Time 540 Principal
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "3x100kt_SLBM" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "3x100kt_SLBM" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "3x100kt_SLBM" 20 Launch 4  Time 300 Principal		
+				
+  Config "3x250kt SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "3x250kt_SLBM" 12 Launch 1  Time 540 Principal
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "3x250kt_SLBM" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "3x250kt_SLBM" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "3x250kt_SLBM" 20 Launch 4  Time 300 Principal		
+				
+  Config "6x250kt SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "6x250kt_SLBM" 12 Launch 1  Time 540 Principal	
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "6x250kt_SLBM" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "6x250kt_SLBM" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "6x250kt_SLBM" 20 Launch 4  Time 300 Principal		
+				
+  Config "6x500kt SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "6x500kt_SLBM" 12 Launch 1  Time 540 Principal
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "6x500kt_SLBM" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "6x500kt_SLBM" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "6x500kt_SLBM" 20 Launch 4  Time 300 Principal		
+				
+  Config "8x500kt SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "8x500kt_SLBM" 12 Launch 1  Time 540 Principal	
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "8x500kt_SLBM" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "8x500kt_SLBM" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "8x500kt_SLBM" 20 Launch 4  Time 300 Principal		
+				
+  Config "8x1M SLBM" OnlyFull Default
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "8x1M_Fusion_SLBM" 12 Launch 1  Time 540 Principal		
+	ImprovedBy "Improved_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "8x1M_Fusion_SLBM" 16 Launch 2  Time 480 Principal
+	ImprovedBy "Advanced_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "8x1M_Fusion_SLBM" 16 Launch 4  Time 480 Principal
+	ImprovedBy "Experimental_SSBN"
+		Weapon "Torpedo" 20000 AutoEngage
+		Weapon "8x1M_Fusion_SLBM" 20 Launch 4  Time 300 Principal		
+		
+/////////////////NUCLEAR TORPEDOS//////////////////	
+/*Config "Counter-Value Torpedo" OnlyFull
+    Weapon "Torpedo" 20000 AutoEngage
+    Weapon "Heavy Nuclear Torpedo" 6 DefaultOff Time 640 Principal
+Config "Fusion Torpedo" OnlyFull
+    Weapon "Torpedo" 20000 AutoEngage
+    Weapon "Fusion Torpedo" 6 DefaultOff Time 640 Principal
+*/  
+/////////////////Sonar, etc///////////////  
+  
+  Radar "Sonar"
+  //Radar "Periscope"
+  ProductionCost 20
+  NoAutoAttack
+  NoAutoAttackSub
+  HiddenFromAllies
+  Modifier "Advanced_Sonar"
+  Modifier "Submarine_Stealth_Weak"    
+
+  Modifier "Sonar_Quieting_SSBN_1"
+  Modifier "Sonar_Quieting_SSBN_2"
+  Modifier "Sonar_Quieting_SSBN_3"
+  Modifier "Sonar_Quieting_SSBN_4"
+  ///5 doesn't exist, there's no MLU for boomers
+  
+//////////ACTUAL SUBMARINE UPGRADES (i.e. not weapons)////////
+
+	ImprovedBy "Improved_SSBN"
+	{
+	Movie "Units/Images/Naval/Topdown/SSBN_2.midx"  Icon "Units/Images/Icons/Naval/SSBN_2.png"  RoundIcon "Units/Images/Icons/Naval/SSBN_2_round.png"
+  	Movie Model "Units/Images/Naval/SSBN 2.fbx" 
+	
+	  Set Size 0.225
+	  Set Speed 45
+	  Set Power 8.5
+
+	}
+  
+	ImprovedBy "Advanced_SSBN"
+	{
+	Movie "Units/Images/Naval/Topdown/SSBN_3.midx"  Icon "Units/Images/Icons/Naval/SSBN_3.png"  RoundIcon "Units/Images/Icons/Naval/SSBN_3_round.png"
+  	Movie Model "Units/Images/Naval/SSBN 3.fbx"
+	
+	  Set Size 0.20
+	  Set Speed 55
+	  Set Power 9	
+	}
+	
+	ImprovedBy "Experimental_SSBN"
+	{
+	Movie "Units/Images/Naval/Topdown/SSBN_4.midx"  Icon "Units/Images/Icons/Naval/SSBN_4.png"
+	  RoundIcon "Units/Images/Icons/Naval/SSBN_4_round.png"
+  	Movie Model "Units/Images/Naval/SSBN 4.fbx"
+	
+	  Set Size 0.175
+	  Set Speed 65
+	  Set Power 10	
+	}	
+
+
+  //MaxNumberToOrder 0
+
+  HighState "SSBN_Surfaced"
+  TimeToHighState 3.0 // 3 seconds to surface
+  HighStateStringIDX 2008
+  LowStateStringIDX 2447
+  ToLowStateIcon "Units/images/go_down.png"
+
+  AttackShift High
+
+[UNIT] "SSBN_Surfaced" COPY "SSBN"
+  Type Naval
+  
+  delete AttackerInPlanner
+  delete NoAutoAttack
+  delete NoAutoAttackSub
+   
+  Radar "Periscope" 
+  Radar "Submarine Radar Mast"
+
+  HighState NULL
+  HighStateStringIDX 2009
+  LowState "SSBN"
+  LowStateStringIDX 2040
+  TimeToLowState 3.0 // 3 seconds to submerge
+
+  SpecialState Yes
+  StateStringIDX 2010
+  StateIcon "Units/images/exclamation.png"
+  ToLowStateIcon "Units/images/go_down.png"
+  
+  AttackShift None
+  RetreatShift Low
+//  DefenceShift Low
+  UnderIceShift Low
+  AutoOnRest Low
+  AutoOnRestDelay 30.0 // auto-submerging after 30 seconds
+
+//////Gearing Class///
+[UNIT] "Destroyer"
+  Tech "U_Destroyer"
+  Movie "Units/Images/Naval/Topdown/Destroyer_1.midx"
+  AbstractMovie "Units/Images/Naval/Abstract/Destroyer.midx"
+  Icon "Units/Images/Icons/Naval/Destroyer_1.png"
+  Model "Units/Images/Naval/Destroyer Basic.fbx"  
+  RoundIcon "Units/Images/Icons/Naval/Destroyer_1_Round.png"
+  IconIDX 9
+  DrawSize 24
+  AbstractDrawSize 30  
+  FollowRadius 28//24
+  Size 0.25
+  Sound 131 Volume 0.75
+  Type Naval
+  AttackerInPlanner
+  Speed 45
+  TurnSpeed 4.5 // in angles per second
+  Power 12
+  SelfDestructTime 15
+
+  Modifier "Warship_Stealth_Bonus_Modifier_1"
+  Modifier "Warship_Stealth_Bonus_Modifier_2"
+  
+  	Modifier "BM_Accuracy_Damage_Penalty" 
+  
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	  
+  
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4" 
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+
+////Gearing Class////////
+    Weapon "Ship Gun" 25000 Launch 1 Time 60 AutoEngage
+	Weapon "AA Gun Old" 20000 Launch 1 Time 6 AutoEngage DefaultOff
+    //Weapon "AA Laser" 20000 Launch 1 Time 6 AutoEngage
+    //Weapon "SAM" 20000 Launch 1 Time 70 AutoEngage
+    Weapon "Torpedo" 25000 Launch 1 AutoEngage
+	//Weapon "ASROC" 20000 Launch 1 Time 120 AutoEngage
+	//Weapon "CIWS" 25000 Launch 1 Time 5 AutoEngage
+	//Weapon "Laser CIWS" 25000 Launch 1 Time 20 AutoEngage	
+	//Weapon "Terminal ABM" Launch 2 Time 120
+
+///////Forrest Sherman///////
+  ImprovedBy "Missile_Warships"
+    Weapon "Ship Gun" 25000 Launch 1 Time 60 AutoEngage
+    //Weapon "Railgun" 25000 Launch 1 Time 60 AutoEngage
+    Weapon "SSM" 20000 Launch 1 Time 180 AutoEngage
+    Weapon "Anti Ship Missile" 25000 Launch 1 Time 180 AutoEngage
+	Weapon "AA Gun Old" 20000 Launch 1 Time 6 AutoEngage DefaultOff
+    //Weapon "AA Laser" 20000 Launch 1 Time 6 AutoEngage
+    Weapon "SAM" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+    Weapon "SAM MD" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+    Weapon "Torpedo" 25000 Launch 1 AutoEngage
+	Weapon "ASROC" 20000 Launch 1 Time 150 AutoEngage
+	Weapon "CIWS" 25000 Launch 1 Time 6 AutoEngage DefaultOff
+	//Weapon "Laser CIWS" 25000 Launch 1 Time 20 AutoEngage	
+	//Weapon "Terminal ABM" Launch 2 Time 120
+
+///////Charles F Adams///////
+  ImprovedBy "Improved_Warships"
+    Weapon "Ship Gun" 25000 Launch 1 Time 60 AutoEngage
+    //Weapon "Railgun" 25000 Launch 1 Time 60 AutoEngage
+    Weapon "SSM" 20000 Launch 1 Time 120 AutoEngage
+    Weapon "Anti Ship Missile" 25000 Launch 1 Time 120 AutoEngage
+	Weapon "AA Gun Old" 20000 Launch 1 Time 6 AutoEngage DefaultOff
+    //Weapon "AA Laser" 20000 Launch 1 Time 6 AutoEngage
+    Weapon "SAM" 20000 Launch 1 Time 90 AutoEngage DefaultOff
+    Weapon "SAM MD" 20000 Launch 1 Time 90 AutoEngage DefaultOff
+    Weapon "Torpedo" 25000 Launch 1 AutoEngage
+	Weapon "ASROC" 20000 Launch 1 Time 120 AutoEngage
+	Weapon "CIWS" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+	//Weapon "Laser CIWS" 25000 Launch 1 Time 20 AutoEngage	
+	//Weapon "Terminal ABM" Launch 2 Time 120
+
+////////Arleigh Burke//////////// 
+  ImprovedBy "Enhanced_Warships"
+    Weapon "Ship Gun" 25000 Launch 1 Time 60 AutoEngage
+    //Weapon "Railgun" 25000 Launch 1 Time 60 AutoEngage
+    Weapon "SSM" 20000 Launch 2 Time 120 AutoEngage
+    Weapon "Anti Ship Missile" 25000 Launch 2 Time 180 AutoEngage
+	Weapon "AA Gun Old" 20000 Launch 1 Time 6 AutoEngage DefaultOff
+    //Weapon "AA Laser" 20000 Launch 1 Time 6 AutoEngage DefaultOff
+    Weapon "SAM" 20000 Launch 2 Time 90 AutoEngage DefaultOff
+    Weapon "SAM MD" 20000 Launch 2 Time 90 AutoEngage DefaultOff
+    Weapon "Torpedo" 25000 Launch 1 AutoEngage
+	Weapon "ASROC" 20000 Launch 2 Time 120 AutoEngage
+	Weapon "CIWS" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+	//Weapon "Laser CIWS" 25000 Launch 1 Time 20 AutoEngage DefaultOff
+	//Weapon "Terminal ABM" 20000 Launch 2 Time 150 DefaultOff
+
+////////Arleigh Burke Modernized//////////// 
+  ImprovedBy "Advanced_Warships"
+    Weapon "Ship Gun" 25000 Launch 1 Time 60 AutoEngage
+    Weapon "Railgun" 25000 Launch 1 Time 60 AutoEngage
+    Weapon "SSM" 20000 Launch 2 Time 120 AutoEngage
+    Weapon "Anti Ship Missile" 25000 Launch 2 Time 180 AutoEngage
+	Weapon "AA Gun Old" 20000 Launch 1 Time 6 AutoEngage DefaultOff
+    Weapon "AA Laser" 20000 Launch 1 Time 6 AutoEngage DefaultOff
+    Weapon "SAM" 20000 Launch 2 Time 90 AutoEngage DefaultOff
+    Weapon "SAM MD" 20000 Launch 2 Time 90 AutoEngage DefaultOff
+    Weapon "Torpedo" 25000 Launch 1 AutoEngage
+	Weapon "ASROC" 20000 Launch 2 Time 120 AutoEngage
+	Weapon "CIWS" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+	Weapon "Laser CIWS" 25000 Launch 1 Time 20 AutoEngage DefaultOff
+	Weapon "Terminal ABM" 20000 Launch 2 Time 150 DefaultOff
+
+//////Zumwalt///////////  
+  ImprovedBy "Experimental_Warships"
+    Weapon "Ship Gun" 25000 Launch 1 Time 50 AutoEngage
+    Weapon "Railgun" 25000 Launch 1 Time 50 AutoEngage
+    Weapon "SSM" 20000 Launch 2 Time 90 AutoEngage
+    Weapon "Anti Ship Missile" 25000 Launch 2 Time 150 AutoEngage
+	Weapon "AA Gun Old" 20000 Launch 1 Time 6 AutoEngage DefaultOff
+    Weapon "AA Laser" 20000 Launch 1 Time 6 AutoEngage DefaultOff
+    Weapon "SAM" 20000 Launch 2 Time 70 AutoEngage DefaultOff
+    Weapon "SAM MD" 20000 Launch 2 Time 70 AutoEngage DefaultOff
+    Weapon "Torpedo" 25000 Launch 2 AutoEngage
+	Weapon "ASROC" 20000 Launch 2 Time 90 AutoEngage
+	Weapon "CIWS" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+	Weapon "Laser CIWS" 25000 Launch 1 Time 20 AutoEngage DefaultOff
+	Weapon "Terminal ABM" 20000 Launch 2 Time 120 DefaultOff
+  
+  Radar "STD Vision"
+  Radar "Sonar"
+  Radar "STD Short Wave"
+  Radar "STD Long Wave"
+  Modifier "Antitorpedo"
+
+    Modifier "Terminal_ABM_No_Target_Decoy_Modifier"  
+    Modifier "Terminal_BM_Defence_Mk2_Modifier"
+    Modifier "Terminal_BM_Defence_Mk3_Modifier"  
+	
+    //  Modifier "Novel_Stealth_Applications"
+
+  ProductionCost 15
+ /*   ImprovedBy "Powerful_Engine" Set Speed 65
+  ImprovedBy "Powerful_Engine_Mk2" Set Speed 75
+  ImprovedBy "Powerful_Engine_Mk3" Set Speed 85 */
+/*  ImprovedBy "Mobile_SAM" Modify Weapon "SAM" Set Launch 2
+  ImprovedBy "SAM_Mk2" Modify Weapon "SAM" Set Launch 3
+  ImprovedBy "SAM_Mk2" Modify Weapon "SAM" Set Time 50 */
+
+///////Forrest Sherman///////
+  ImprovedBy "Missile_Warships"
+  {
+    Movie "Units/Images/Naval/Topdown/Destroyer_2.midx"  Icon "Units/Images/Icons/Naval/Destroyer_2.png"  RoundIcon "Units/Images/Icons/Naval/Destroyer_2_Round.png"
+  	Movie Model "Units/Images/Naval/Destroyer 2.fbx"
+
+  Set Size 0.225	
+  Set Speed 50
+  Set TurnSpeed 5.5
+  Set Power 13.5
+  
+  }
+  
+ /////////Charles F Adams////////// 
+  ImprovedBy "Improved_Warships"
+  {
+    Movie "Units/Images/Naval/Topdown/Destroyer_3.midx"    Icon "Units/Images/Icons/Naval/Destroyer_3.png"  RoundIcon "Units/Images/Icons/Naval/Destroyer_3_Round.png"
+  	Movie Model "Units/Images/Naval/Destroyer 3.fbx"
+  
+  Set Size 0.2	
+  Set Speed 55
+  Set TurnSpeed 6
+  Set Power 15	
+  }
+  
+////////Arleigh Burke////////////   
+   ImprovedBy "Enhanced_Warships"
+  {
+    Movie "Units/Images/Naval/Topdown/Destroyer_4.midx"    Icon "Units/Images/Icons/Naval/Destroyer_4.png"  RoundIcon "Units/Images/Icons/Naval/Destroyer_4_Round.png"
+  	Movie Model "Units/Images/Naval/Destroyer 4.fbx"
+  
+  Set Size 0.18	
+  Set Speed 60
+  Set TurnSpeed 6.5
+  Set Power 16.5
+  } 
+ 
+
+////////Arleigh Burke FROM THE FUTURE//////////// 
+  ImprovedBy "Advanced_Warships"
+  {
+  Set Size 0.16	
+  Set Speed 70
+  Set TurnSpeed 7
+  Set Power 17	
+  }
+  
+//////Zumwalt///////////  
+  ImprovedBy "Experimental_Warships"
+  {
+    Movie "Units/Images/Naval/Topdown/Destroyer_5.midx"    Icon "Units/Images/Icons/Naval/Destroyer_5.png"  RoundIcon "Units/Images/Icons/Naval/Destroyer_5_Round.png"
+  	Movie Model "Units/Images/Naval/Destroyer 5.fbx"
+  Set Size 0.14	
+  Set Speed 75
+  Set TurnSpeed 7.5
+  Set Power 18
+  }
+
+
+//////////////Sverdlov///////////////
+[UNIT] "Cruiser"
+  Tech "U_Cruiser"
+  Movie "Units/Images/Naval/Topdown/Cruiser_1.midx"
+  AbstractMovie "Units/Images/Naval/Abstract/Cruiser.midx"
+  Icon "Units/Images/Icons/Naval/Cruiser_1.png"
+  Model "Units/Images/Naval/Cruiser Basic.fbx"    
+  RoundIcon "Units/Images/Icons/Naval/Cruiser_1_Round.png"
+  IconIDX 10
+//  IconIDX 45
+  DrawSize 38
+  AbstractDrawSize 38
+  FollowRadius 38//33
+  Size 0.3
+  Sound 130 Volume 0.75
+  Type Naval
+  AttackerInPlanner
+  Speed 40
+  TurnSpeed 5 // in angles per second
+  Power 25
+  SelfDestructTime 20
+  
+  Modifier "Warship_Stealth_Bonus_Modifier_1"
+  Modifier "Warship_Stealth_Bonus_Modifier_2"
+  
+  	Modifier "BM_Accuracy_Damage_Penalty" 
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+
+  
+  //////Sverdlov Class///////////////
+  Weapon "Ship Gun" 25000 Launch 2 Time 60 AutoEngage
+  Weapon "SSM" 20000 Launch 1 Time 150 AutoEngage
+  Weapon "AA Gun Old" 20000 Launch 1 Time 12 AutoEngage DefaultOff
+  
+    /////Kynda Class//////////
+  ImprovedBy "Missile_Warships"
+  	Weapon "Ship Gun" 25000 Launch 2 Time 60 AutoEngage
+    Weapon "Anti Ship Missile" 25000 Launch 2 Time 180 AutoEngage
+	Weapon "SSM" 20000 Launch 1 Time 150 AutoEngage	
+    Weapon "AA Gun Old" 20000 Launch 1 Time 12 AutoEngage DefaultOff
+	Weapon "CIWS" 25000 Launch 1 Time 6 AutoEngage DefaultOff
+	Weapon "SAM" 20000 Launch 1 Time 150 AutoEngage DefaultOff
+	Weapon "SAM MD" 20000 Launch 1 Time 150 AutoEngage DefaultOff
+	Weapon "ASROC" 20000 Launch 1 Time 200 AutoEngage
+	Weapon "Nuclear Cruise Missile" 10000 Launch 1 Time 400 DefaultOff
+	Weapon "Fusion Cruise Missile" 10000 Launch 1 Time 400 DefaultOff
+	//Weapon "ASAT" 3 DefaultOff
+	//Weapon "Point Defence SAM" 20000 Launch 1 Time 40 AutoEngage
+	//Weapon "Terminal ABM Laser" 20000 Launch 1 Time 30 AutoEngage
+  
+    /////Kresta I//////////
+  ImprovedBy "Improved_Warships"
+  	Weapon "Ship Gun" 25000 Launch 2 Time 60 AutoEngage
+    Weapon "Anti Ship Missile" 25000 Launch 2 Time 150 AutoEngage
+	Weapon "SSM" 20000 Launch 2 Time 150 AutoEngage	
+    Weapon "AA Gun Old" 20000 Launch 1 Time 8 AutoEngage	
+	Weapon "CIWS" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+	Weapon "SAM" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+	Weapon "SAM MD" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+	Weapon "ASROC" 20000 Launch 1 Time 180 AutoEngage
+	Weapon "Nuclear Cruise Missile" 10000 Launch 1 Time 360 DefaultOff
+	Weapon "Fusion Cruise Missile" 10000 Launch 1 Time 360 DefaultOff
+	//Weapon "ASAT" 3 DefaultOff
+	//Weapon "Point Defence SAM" 20000 Launch 1 Time 60 AutoEngage
+	//Weapon "ABM" 20000 Launch 1 Time 250 AutoEngage
+	//Weapon "Terminal ABM Laser" 20000 Launch 1 Time 30 AutoEngage
+
+
+    /////Kirov//////////
+  ImprovedBy "Enhanced_Warships"
+  	Weapon "Ship Gun" 25000 Launch 2 Time 60 AutoEngage
+	//Weapon "Railgun" 25000 Launch 2 Time 60 AutoEngage
+    Weapon "Anti Ship Missile" 25000 Launch 4 Time 120 AutoEngage
+	Weapon "SSM" 20000 Launch 4 Time 120 AutoEngage	
+    Weapon "AA Gun Old" 20000 Launch 1 Time 8 AutoEngage DefaultOff
+	Weapon "CIWS" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+	//Weapon "Laser CIWS" 25000 Launch 1 Time 20 AutoEngage DefaultOff
+	Weapon "SAM" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+	Weapon "SAM MD" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+	Weapon "ASROC" 20000 Launch 1 Time 180 AutoEngage
+	Weapon "Nuclear Cruise Missile" 10000 Launch 2 Time 330 DefaultOff
+	Weapon "Fusion Cruise Missile" 10000 Launch 2 Time 330 DefaultOff
+	//Weapon "ASAT" 3 DefaultOff
+	//Weapon "Point Defence SAM" 20000 Launch 1 Time 50 AutoEngage
+	//Weapon "ABM" 20000 Launch 1 Time 225 AutoEngage
+	//Weapon "Terminal ABM" 20000 Launch 2 Time 120 DefaultOff
+	//Weapon "Terminal ABM Laser" 20000 Launch 1 Time 30 AutoEngage
+  
+  
+    /////Kirov Modernized//////////
+  ImprovedBy "Advanced_Warships"
+  	Weapon "Ship Gun" 25000 Launch 2 Time 60 AutoEngage
+	Weapon "Railgun" 25000 Launch 2 Time 60 AutoEngage
+    Weapon "Anti Ship Missile" 25000 Launch 4 Time 120 AutoEngage
+	Weapon "SSM" 20000 Launch 4 Time 120 AutoEngage	
+    Weapon "AA Gun Old" 20000 Launch 1 Time 8 AutoEngage DefaultOff
+	Weapon "CIWS" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+	Weapon "Laser CIWS" 25000 Launch 1 Time 20 AutoEngage DefaultOff
+	Weapon "SAM" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+	Weapon "SAM MD" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+	Weapon "ASROC" 20000 Launch 1 Time 180 AutoEngage
+	Weapon "Nuclear Cruise Missile" 10000 Launch 2 Time 330 DefaultOff
+	Weapon "Fusion Cruise Missile" 10000 Launch 2 Time 330 DefaultOff
+	Weapon "ASAT" 3 DefaultOff
+	//Weapon "Point Defence SAM" 20000 Launch 1 Time 50 AutoEngage
+	//Weapon "ABM" 20000 Launch 1 Time 225 AutoEngage
+	Weapon "Terminal ABM" 20000 Launch 2 Time 120 DefaultOff
+	//Weapon "Terminal ABM Laser" 20000 Launch 1 Time 30 AutoEngage
+  
+  
+  /////DDG(X)//////////
+  ImprovedBy "Experimental_Warships"
+  	Weapon "Ship Gun" 25000 Launch 2 Time 50 AutoEngage
+	Weapon "Railgun" 25000 Launch 2 Time 50 AutoEngage
+	Weapon "Anti Ship Missile" 25000 Launch 4 Time 100 AutoEngage
+	Weapon "SSM" 20000 Launch 4 Time 100 AutoEngage	
+    Weapon "AA Gun Old" 20000 Launch 1 Time 8 AutoEngage DefaultOff
+	Weapon "AA Laser" 20000 Launch 1 Time 8 AutoEngage DefaultOff
+	Weapon "CIWS" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+	Weapon "Laser CIWS" 25000 Launch 1 Time 20 AutoEngage DefaultOff
+	Weapon "SAM" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+	Weapon "SAM MD" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+	Weapon "ASROC" 20000 Launch 1 Time 160 AutoEngage 
+	Weapon "Nuclear Cruise Missile" 10000 Launch 2 Time 300 DefaultOff
+	Weapon "Fusion Cruise Missile" 10000 Launch 2 Time 300 DefaultOff
+	Weapon "ASAT" 3 DefaultOff
+	//Weapon "Point Defence SAM" 20000 Launch 1 Time 40 AutoEngage
+	//Weapon "ABM" 20000 Launch 1 Time 250 AutoEngage
+	Weapon "Terminal ABM" 20000 Launch 2 Time 100 DefaultOff
+	Weapon "Terminal ABM Laser" 20000 Launch 1 Time 30 AutoEngage DefaultOff
+  
+  
+  Radar "STD Vision"
+  Radar "Sonar"
+  Radar "STD Short Wave"
+  Radar "STD Long Wave"
+  Radar "Naval Space_Radar" DefaultOff
+  Radar "Naval_Small_Over_Horizon" DefaultOff
+
+    //  Modifier "Novel_Stealth_Applications"
+  ProductionCost 26
+    Modifier "Debuffed_Sonar"
+  
+    Modifier "Terminal_ABM_No_Target_Decoy_Modifier"	
+    Modifier "Terminal_BM_Defence_Mk2_Modifier"
+    Modifier "Terminal_BM_Defence_Mk3_Modifier"  
+
+//////Kynda/////
+   ImprovedBy "Missile_Warships"
+  {
+	Movie "Units/Images/Naval/Topdown/Cruiser_2.midx"    Icon "Units/Images/Icons/Naval/Cruiser_2.png"  RoundIcon "Units/Images/Icons/Naval/Cruiser_2_Round.png"
+	Movie Model "Units/Images/Naval/Cruiser 2.fbx"
+  Set Size 0.275
+  Set Speed 45
+  Set TurnSpeed 5.5
+  Set Power 28
+  }
+  
+///////////Kresta////////////  
+  ImprovedBy "Improved_Warships"
+  {
+    Movie "Units/Images/Naval/Topdown/Cruiser_3.midx"      Icon "Units/Images/Icons/Naval/Cruiser_3.png"
+	  RoundIcon "Units/Images/Icons/Naval/Cruiser_3_Round.png"
+  	Movie Model "Units/Images/Naval/Cruiser 3.fbx"
+  Set Size 0.25
+  Set Speed 50
+  Set TurnSpeed 6.0
+  Set Power 32
+  }
+
+
+////////////Kirov/////////////////////    
+  ImprovedBy "Enhanced_Warships"
+  {
+    Movie "Units/Images/Naval/Topdown/Cruiser_4.midx"      Icon "Units/Images/Icons/Naval/Cruiser_4.png"  RoundIcon "Units/Images/Icons/Naval/Cruiser_4_Round.png"
+  	Movie Model "Units/Images/Naval/Cruiser 4.fbx"
+  Set Size 0.225
+  Set Speed 55
+  Set TurnSpeed 6.5
+  Set Power 36
+  }
+    
+////////////Kirov Modernized/////////////////////  
+  ImprovedBy "Advanced_Warships"
+  {
+	  Set Size 0.20
+  Set Speed 65
+  Set TurnSpeed 7.0
+  Set Power 38
+  }
+  
+  
+  ImprovedBy "Experimental_Warships" 
+  
+  {
+    Movie "Units/Images/Naval/Topdown/Cruiser_5.midx"    Icon "Units/Images/Icons/Naval/Cruiser_5.png"  RoundIcon "Units/Images/Icons/Naval/Cruiser_5_Round.png"
+  	Movie Model "Units/Images/Naval/Cruiser 5.fbx"
+	
+	
+  Set Size 0.18
+  Set Speed 70
+  Set TurnSpeed 7.5
+  Set Power 40
+  }
+
+////AKA Airbase
+[UNIT] "Airport"
+  Tech "U_Airport"
+  Movie "Units/Images/Ground/Mid-Level/Airbase.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Airbase.midx"
+  Icon "Units/Images/Icons/Ground/Airbase.png"
+  Model "Units/Images/Ground/Air Base.fbx"  
+  ModelDrawSize 35
+  DrawSize 35
+  AbstractDrawSize 35
+  DrawOrder 1
+  FixedRotationAngle true
+  Size 1.5
+  Sound 138 Volume 0.5
+  Type Ground
+  Class "UC_Building"
+
+  AttackerInPlanner
+  AlwaysVisibleOnEnemyTerritory Yes
+  Power 30
+  SelfDestructTime 45
+  Weapon "Small Arms" 20000 Launch 1 Time 10 AutoEngage Principal DefaultOff
+  Weapon "C-RAM" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+  Airway Launch 2 Time 180 // in seconds in 1x time
+  Airway Launch 1 Time 300 // in seconds in 1x time
+  CanHostAircrafts "Fighter" 10 Patrol 4
+  //CanHostAircrafts "Attack" 10
+  CanHostAircrafts airway 1 "Bomber" 5 Patrol 2
+  CanHostAircrafts airway 1 "Interceptor" 4 Patrol 2
+  CanHostAircrafts airway 1 "AWACS" 2 Patrol 1 AIAutoPatrol
+  CanAccessGlobalStorage
+  Radar "STD Vision"
+  Radar "STD Long Wave"
+  ProductionCost 9.0
+  NoAutoAttack
+  
+  	Modifier "BM_Accuracy_Damage_Penalty" 
+  
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"		
+
+
+////AKA Airbase
+[UNIT] "Tactical_Airbase"
+  Tech "U_Tactical_Airbase"
+  Movie "Units/Images/Ground/Mid-Level/Airbase_Tac.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Tactical_Airbase.midx"
+  Icon "Units/Images/Icons/Ground/Airbase_Tac.png"
+  Model "Units/Images/Ground/Airbase Tac.fbx"
+  ModelDrawSize 32
+  DrawSize 32
+  AbstractDrawSize 35
+  DrawOrder 1
+  FixedRotationAngle true
+  Size 1.25
+  Sound 138 Volume 0.5
+  Type Ground
+  Class "UC_Building"
+
+  AttackerInPlanner
+  AlwaysVisibleOnEnemyTerritory Yes
+  Power 25
+  SelfDestructTime 30
+  Weapon "Small Arms" 20000 Launch 1 Time 10 AutoEngage Principal DefaultOff
+  Weapon "C-RAM" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+  Airway Launch 2 Time 180 // in seconds in 1x time
+  Airway Launch 1 Time 300 // in seconds in 1x time
+  CanHostAircrafts "Fighter" 10 Patrol 4
+  CanHostAircrafts "Attack" 10 Patrol 4
+  CanHostAircrafts "EW_Aircraft" 4 Patrol 2 AIAutoPatrol
+  CanHostAircrafts airway 1 "AWACS" 1 Patrol 1 AIAutoPatrol
+  CanAccessGlobalStorage
+  Radar "STD Vision"
+  Radar "STD Long Wave"
+  ProductionCost 7.0
+  NoAutoAttack
+  
+  	Modifier "BM_Accuracy_Damage_Penalty" 
+  
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"
+
+  
+[UNIT] "Improvised_Airbase"
+  Tech "U_Improvised_Airbase"
+  Movie "Units/Images/Ground/Mid-Level/Airbase_Makeshift.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Makeshift_Airbase.midx"
+  Icon "Units/Images/Icons/Ground/Airbase_Makeshift.png"
+  Model "Units/Images/Ground/Makeshift Airbase.fbx"  
+  DrawSize 24
+  AbstractDrawSize 30
+  DrawOrder 1
+  FixedRotationAngle true
+  Size 0.75
+  Sound 138 Volume 0.25
+  Type Ground
+  Class "UC_Building"
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+
+  AttackerInPlanner
+  TargetInPlanner Yes
+  Power 15
+  SelfDestructTime 15
+  Airway Launch 1 Time 180 // in seconds in 1x time
+  Airway Launch 1 Time 220 // in seconds in 1x time
+  CanHostAircrafts "Attack" 6 Patrol 2
+  CanHostAircrafts "Attack_Helicopter" 2 Patrol 1 AIAutoPatrol
+  CanAccessGlobalStorage
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+
+  Radar "STD Vision"
+  ProductionCost 6.0
+  NoAutoAttack  
+
+
+[UNIT] "Specialized_Airport"
+  Tech "U_Specialized_Airport"
+  Movie "Units/Images/Ground/Mid-Level/Airbase_Special.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Specialized_Airbase.midx"
+  Icon "Units/Images/Icons/Ground/Airbase_Special.png"
+  Model "Units/Images/Ground/Airbase Special.fbx"  
+  DrawSize 40
+  AbstractDrawSize 35
+  DrawOrder 1
+  FixedRotationAngle true
+  Size 2.5
+  Sound 138 Volume 0.5
+  Type Ground
+  Class "UC_Building"
+
+  AttackerInPlanner
+  AlwaysVisibleOnEnemyTerritory Yes
+  Power 40
+  SelfDestructTime 60
+  Weapon "Small Arms" 20000 Launch 1 Time 10 AutoEngage Principal DefaultOff
+  Weapon "C-RAM" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+  Airway Launch 2 Time 180 // in seconds in 1x time 
+  Airway Launch 1 Time 220 // in seconds in 1x time
+  Airway Launch 1 Time 300 // in seconds in 1x time
+  CanHostAircrafts "Fighter" 5 Patrol 4
+  CanHostAircrafts airway 1 "Interceptor" 5 Patrol 2
+  CanHostAircrafts airway 1 "EW_Aircraft" 5 Patrol 2 AIAutoPatrol
+  CanHostAircrafts airway 2 "High_Speed_Bomber" 5 Patrol 2
+  CanHostAircrafts airway 2 "Spy_Plane" 2 Patrol 1 AIAutoPatrol
+  CanAccessGlobalStorage
+  Radar "STD Vision"
+  Radar "STD Long Wave"
+  ProductionCost 10
+  NoAutoAttack
+  
+  	Modifier "BM_Accuracy_Damage_Penalty" 
+  
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	  
+  
+//////////////////////COASTAL DEFENCE//////
+[UNIT] "Coastal"
+  Tech "U_COASTAL"
+  Movie "Units/Images/Ground/Mid-Level/Coastal_Missile_1.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Coastal_Battery.midx"
+  Model "Units/Images/ground/Basic Coastal Battery.midx"
+  Icon "Units/Images/Icons/Ground/Coastal_Missile_1.png"
+  IconIDX 17
+  DrawSize 20
+  AbstractDrawSize 30
+  Size 0.08
+  Sound 141 Volume 0.6
+  Type Ground
+  Class "UC_Ground_Mobile"
+  Speed 40
+  TurnSpeed 8
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+  CanCrossBorderDuringPeaceTime No
+  ImprovedBy "Army_Mech_Mk2" Set Speed 45
+  ImprovedBy "Army_Mech_Mk3" Set Speed 55
+  
+      Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+		
+		Modifier "BM_Accuracy_Damage_Penalty" 
+  
+  ImprovedBy "Improved_Cruise_Missiles"
+  {  
+    Movie "Units/Images/Ground/Mid-Level/Coastal_Missile_2.midx"  Icon "Units/Images/Icons/Ground/Coastal_Missile_2.png"
+  	Movie Model "Units/Images/Ground/Adv Coastal Battery.midx" 
+  }
+  
+  ImprovedBy "Army_Mech_Mk4" Set Speed 65
+  ImprovedBy "Army_Mech_Mk5" Set Speed 75
+
+  Power 3.5
+  SelfDestructTime 5
+  AttackDelay 1.0
+  ModelLaunchTime 0.5
+  Config "Anti-Shipping"
+	Weapon "Anti Ship Missile" 30000 Launch 1 Time 200 AutoEngage
+  ImprovedBy "Improved_Cruise_Missiles"
+	Weapon "Anti Ship Missile" 30000 Launch 2 Time 160 AutoEngage
+  ImprovedBy "Enhanced_Cruise_Missiles"
+	Weapon "Anti Ship Missile" 30000 Launch 2 Time 120 AutoEngage
+  ImprovedBy "Advanced_Cruise_Missiles"
+	Weapon "Anti Ship Missile" 30000 Launch 3 Time 120 AutoEngage
+	
+  Radar "STD Vision"
+  Radar "STD Long Wave"
+  ProductionCost 5.5
+
+[UNIT] "Fixed_Coastal_Gun"
+  Tech "U_Coastal_Gun_Old"
+  Movie "Units/Images/Ground/Mid-Level/Coastal_Gun.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Coastal_Gun.midx"
+  Model "Units/Images/Ground/Coastal Gun.midx"
+  Icon "Units/Images/Icons/Ground/Coastal_Gun.png"  
+  IconIDX 17
+  DrawSize 16
+  AbstractDrawSize 30
+  FixedRotationAngle true
+  Size 0.1
+  Sound 140 Volume 0.3
+  Type Ground
+  AlwaysVisibleOnEnemyTerritory Yes
+  Power 3
+  SelfDestructTime 5
+  Weapon "Coastal Gun Old" 30000 Launch 1 Time 300 AutoEngage
+    Radar "STD Vision"
+  Radar "STD Long Wave"
+  ProductionCost 4.5
+  ImprovedBy "U_COASTAL" Set CanBeBuilt 0
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"
+	Modifier "BM_Accuracy_Damage_Penalty" 	
+
+///////////TEL//////////////////
+ [UNIT] "Mobile_MRBM"
+  Tech "U_Mobile_MRBM"
+  Movie "Units/Images/Ground/Mid-Level/MRBM_TEL.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/MRBM_TEL.midx"
+  Model "Units/Images/Ground/MRBM Vehicle.midx"
+  Icon "Units/Images/Icons/Ground/MRBM_TEL.png"
+  IconIDX 49
+  DrawSize 29
+  AbstractDrawSize 35
+  Size 0.08
+  Sound 140 Volume 0.75
+  Type Ground
+  Class "UC_Ground_Mobile"
+  AttackerInPlanner
+  HiddenFromAllies 
+  ReportAsHosted Yes
+
+	Modifier "BM_Accuracy_Damage_Penalty"   
+  
+  //Disassemble 0.45
+  //VirtualSpeed 400
+    AttackDelay 5
+	ImprovedBy "Solid_Fuel_Rockets" AttackDelay 0.35
+	
+  AttackOnMove false
+  Speed 50
+  TurnSpeed 8
+  CanCrossBorderDuringPeaceTime No
+
+	ImprovedBy "Improved_TEL" Set Speed 65
+    ImprovedBy "Advanced_TEL" Set Speed 75
+
+  Power 2.0
+  SelfDestructTime 10
+  
+  ///Default fire time is 960
+   Config "Unarmed" NULL
+//  Weapon "No Weapon" 1 Principal
+//  Weapon "No Weapon Buffer" 0
+  
+   Config "Chemical MRBM" Default
+    Weapon "Chemical_MRBM" 20000 Launch 1 Time 640
+    Weapon "Improved_Chemical_MRBM" 20000 Launch 1 Time 640
+    Weapon "Advanced_Chemical_MRBM" 20000 Launch 1 Time 640
+    Weapon "Experimental_Chemical_MRBM" 20000 Launch 1 Time 640
+		ImprovedBy "Improved_TEL"
+    Weapon "Chemical_MRBM" 1  Time 540
+	Weapon "Improved_Chemical_MRBM" 20000 Launch 1 Time 540
+    Weapon "Advanced_Chemical_MRBM" 20000 Launch 1 Time 540
+    Weapon "Experimental_Chemical_MRBM" 20000 Launch 1 Time 540
+	    ImprovedBy "Advanced_TEL"
+    Weapon "Chemical_MRBM" 1  Time 450
+	Weapon "Improved_Chemical_MRBM" 20000 Launch 1 Time 450
+    Weapon "Advanced_Chemical_MRBM" 20000 Launch 1 Time 450
+    Weapon "Experimental_Chemical_MRBM" 20000 Launch 1 Time 450	
+	
+  Config "Bioweapon MRBM" Default
+    Weapon "Bioweapon_MRBM" 1  Time 640
+		ImprovedBy "Improved_TEL"
+    Weapon "Bioweapon_MRBM" 1  Time 540
+		ImprovedBy "Advanced_TEL"
+    Weapon "Bioweapon_MRBM" 1  Time 450
+
+  Config "Improved Bioweapon MRBM" Default
+    Weapon "Improved_Bioweapon_MRBM" 1  Time 640
+		ImprovedBy "Improved_TEL"
+    Weapon "Improved_Bioweapon_MRBM" 1  Time 540
+		ImprovedBy "Advanced_TEL"
+    Weapon "Improved_Bioweapon_MRBM" 1  Time 450
+	
+  Config "Advanced Bioweapon MRBM" Default
+    Weapon "Advanced_Bioweapon_MRBM" 1  Time 640
+		ImprovedBy "Improved_TEL"
+    Weapon "Advanced_Bioweapon_MRBM" 1  Time 540
+		ImprovedBy "Advanced_TEL"
+    Weapon "Advanced_Bioweapon_MRBM" 1  Time 450	
+
+  Config "Engineered Bioweapon MRBM" Default
+    Weapon "Engineered_Bioweapon_MRBM" 1  Time 640
+		ImprovedBy "Improved_TEL"
+    Weapon "Engineered_Bioweapon_MRBM" 1  Time 540
+		ImprovedBy "Advanced_TEL"
+    Weapon "Engineered_Bioweapon_MRBM" 1  Time 450	
+  
+   Config "Conventional MRBM" Default
+  Weapon "Conventional MRBM" 20000  Time 640
+	ImprovedBy "Improved_TEL"
+  Weapon "Conventional MRBM" 20000  Time 540
+	ImprovedBy "Advanced_TEL"
+  Weapon "Conventional MRBM" 20000  Time 450
+  
+    Config "100kt MRBM" Default
+  Weapon "100kt_MRBM" 1  Time 640
+  	ImprovedBy "Improved_TEL"
+  Weapon "100kt_MRBM" 1  Time 540
+	ImprovedBy "Advanced_TEL"
+  Weapon "100kt_MRBM" 1  Time 450
+  
+    Config "250kt MRBM" Default
+  Weapon "250kt_MRBM" 1  Time 640
+  	ImprovedBy "Improved_TEL"
+  Weapon "250kt_MRBM" 1  Time 540
+	ImprovedBy "Advanced_TEL"
+  Weapon "250kt_MRBM" 1  Time 450
+  
+    Config "500kt MRBM" Default
+  Weapon "500kt_MRBM" 1  Time 640
+  	ImprovedBy "Improved_TEL"
+  Weapon "500kt_MRBM" 1  Time 540
+	ImprovedBy "Advanced_TEL"
+  Weapon "500kt_MRBM" 1  Time 450
+  
+    Config "Megaton MRBM" Default
+  Weapon "1M_MRBM" 1  Time 640
+  	ImprovedBy "Improved_TEL"
+  Weapon "1M_MRBM" 1  Time 540
+	ImprovedBy "Advanced_TEL"
+  Weapon "1M_MRBM" 1  Time 450
+  
+    Config "5M MRBM" Default
+  Weapon "5M_MRBM" 1  Time 640
+  	ImprovedBy "Improved_TEL"
+  Weapon "5M_MRBM" 1  Time 540
+	ImprovedBy "Advanced_TEL"
+  Weapon "5M_MRBM" 1  Time 450	
+
+      Config "500kt Cobalt MRBM" Default
+  Weapon "500kt_Cobalt_MRBM" 1  Time 640
+  	ImprovedBy "Improved_TEL"
+  Weapon "500kt_Cobalt_MRBM" 1  Time 540
+	ImprovedBy "Advanced_TEL"
+  Weapon "500kt_Cobalt_MRBM" 1  Time 450
+  
+      Config "500kt Enhanced Salted MRBM" Default
+  Weapon "500kt_Salt_MRBM" 1  Time 640
+	ImprovedBy "Improved_TEL"
+  Weapon "500kt_Salt_MRBM" 1  Time 540
+	ImprovedBy "Advanced_TEL"
+  Weapon "500kt_Salt_MRBM" 1  Time 450
+
+      Config "500kt EMP MRBM"
+  Weapon "500kt_MRBM_EMP" 1  Time 640
+	ImprovedBy "Improved_TEL"
+  Weapon "500kt_MRBM_EMP" 1  Time 540
+	ImprovedBy "Advanced_TEL"
+  Weapon "500kt_MRBM_EMP" 1  Time 450	  
+
+      Config "500kt Super EMP MRBM"
+  Weapon "500kt_MRBM_EMP_Super" 1  Time 640
+	ImprovedBy "Improved_TEL"
+  Weapon "500kt_MRBM_EMP_Super" 1  Time 540
+	ImprovedBy "Advanced_TEL"
+  Weapon "500kt_MRBM_EMP_Super" 1  Time 450	    
+
+    Config "3x100kt MIRV MRBM" Default
+  Weapon "3x100kt_MRBM" 1  Time 640  
+  	ImprovedBy "Improved_TEL"
+  Weapon "3x100kt_MRBM" 1  Time 540
+	ImprovedBy "Advanced_TEL"
+  Weapon "3x100kt_MRBM" 1  Time 450
+  
+    Config "3x250kt MIRV MRBM" Default
+  Weapon "3x250kt_MRBM" 1  Time 640
+  	ImprovedBy "Improved_TEL"
+  Weapon "3x250kt_MRBM" 1  Time 540
+	ImprovedBy "Advanced_TEL"
+  Weapon "3x250kt_MRBM" 1  Time 450	
+	
+    Config "6x250kt MIRV MRBM" Default
+  Weapon "6x250kt_MRBM" 1  Time 640
+  	ImprovedBy "Improved_TEL"
+  Weapon "6x250kt_MRBM" 1  Time 540
+	ImprovedBy "Advanced_TEL"
+  Weapon "6x250kt_MRBM" 1  Time 450
+  
+    Config "6x500kt MIRV MRBM" Default
+  Weapon "6x500kt_MRBM" 1  Time 640  
+  	ImprovedBy "Improved_TEL"
+  Weapon "6x500kt_MRBM" 1  Time 540  
+	ImprovedBy "Advanced_TEL"
+  Weapon "6x500kt_MRBM" 1  Time 450  
+  
+    Config "8x500 MIRV MRBM" Default
+  Weapon "8x500kt_MRBM" 1  Time 640 
+	ImprovedBy "Improved_TEL"
+  Weapon "8x500kt_MRBM" 1  Time 540 
+	ImprovedBy "Advanced_TEL"
+  Weapon "8x500kt_MRBM" 1  Time 450 
+  
+    Config "8x1MT MRBM" Default
+  Weapon "8x1MT_MRBM" 1  Time 640  
+	ImprovedBy "Improved_TEL"
+  Weapon "8x1MT_MRBM" 1  Time 540  
+	ImprovedBy "Advanced_TEL"
+  Weapon "8x1MT_MRBM" 1  Time 450  	  
+  
+	
+  Radar "STD Vision"
+//  Radar "STD Long Wave"
+    CanAccessGlobalStorage No
+
+  ProductionCost 10.5
+
+/////TEL/////
+[UNIT] "Mobile_ICBM"
+  Tech "U_Mobile_ICBM"
+  Movie "Units/Images/Ground/Mid-Level/ICBM_TEL.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/ICBM_TEL.midx"
+  Model "Units/Images/Ground/ICBM Vehicle.midx"
+  Icon "Units/Images/Icons/Ground/ICBM_TEL.png"
+  IconIDX 17
+  DrawSize 36
+  AbstractDrawSize 35
+  Size 0.1
+  Sound 140 Volume 0.75
+  Type Ground
+  Class "UC_Ground_Mobile"
+  AttackerInPlanner
+  AttackIfDestroyed
+  HiddenFromAllies
+  ReportAsHosted Yes
+  
+  	Modifier "BM_Accuracy_Damage_Penalty" 
+  
+  //Disassemble 0.6
+  //VirtualSpeed 250
+    AttackDelay 9
+	ImprovedBy "Solid_Fuel_Rockets" AttackDelay 0.35
+  AttackOnMove false
+  Speed 40
+  TurnSpeed 8
+  CanCrossBorderDuringPeaceTime No
+  
+	ImprovedBy "Improved_TEL" Set Speed 50
+    ImprovedBy "Advanced_TEL" Set Speed 60
+
+  Power 2.5
+  SelfDestructTime 15
+  
+   Config "Unarmed" NULL
+//  Weapon "No Weapon" 1 Principal
+//  Weapon "No Weapon Buffer" 0  
+
+Config "Bioweapon ICBM" Default
+    Weapon "Bioweapon_ICBM" 1  Time 1480
+Config "Improved Bioweapon ICBM" Default
+    Weapon "Improved_Bioweapon_ICBM" 1  Time 1480	
+Config "Advanced Bioweapon ICBM" Default
+    Weapon "Advanced_Bioweapon_ICBM" 1  Time 1480
+Config "Experimental Bioweapon ICBM" Default
+    Weapon "Engineered_Bioweapon_ICBM" 1  Time 1480	
+
+  Config "3x Biological MIRV" Default
+    Weapon "Bioweapon_MIRV" 1  Time 1480
+  Config "8x Biological MIRV" Default
+    Weapon "8x Bioweapon_MIRV" 1  Time 1480		
+
+  Config "250kt" Default
+    Weapon "ICBM (250kt Light)" 1  Time 1480  
+  Config "500kt" Default
+    Weapon "ICBM (500kt Light)" 1  Time 1480
+  Config "Megaton" Default
+    Weapon "ICBM (1M Light)" 1  Time 1480
+  Config "5 Megaton" Default
+    Weapon "ICBM (5M Light)" 1  Time 1480	
+  Config "10 Megaton Fusion" Default
+    Weapon "ICBM (10M Fusion Light)" 1  Time 1480
+	
+  Config "1MT Cobalt" Default
+	Weapon "ICBM (1M Cobalt)" 1  Time 1480
+  Config "1MT Enhanced Salted" Default
+	Weapon "ICBM (1M Salt)" 1  Time 1480
+   Config "1M EMP ICBM"
+	Weapon "ICBM (1M EMP)" 1  Time 1480
+   Config "1M Super EMP ICBM"
+	Weapon "ICBM (1M Super EMP)" 1  Time 1480
+	
+  Config "3x250kt Light MIRV" Default
+    Weapon "3x250kt Light ICBM" 1  Time 1480
+  Config "3x500kt Light MIRV" Default
+    Weapon "3x500kt Light ICBM" 1  Time 1480		
+  Config "8x500kt Light MIRV" Default
+    Weapon "8x500kt Light ICBM" 1  Time 1480
+  Config "8x1M Light MIRV" Default
+    Weapon "8x1M Light ICBM" 1  Time 1480		
+	
+	
+  Config "ASAT"
+    Weapon "ASAT" 1
+  Radar "STD Vision"
+//  Radar "STD Long Wave"
+  CanAccessGlobalStorage No
+  ProductionCost 21
+
+[UNIT] "SRBM_Site"
+  Tech "U_SRBM_Site"
+  Movie "Units/Images/Ground/Mid-Level/SRBM_Site.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/SRBM_Site.midx"
+  Model "Units/Images/Ground/SRBMMRBM Site.MIDX"
+  Icon "Units/Images/Icons/Ground/SRBM_Site.png"  
+  DrawSize 26
+  AbstractDrawSize 35
+  Size 0.2
+  Sound 137
+  Type Ground
+  AttackerInPlanner
+  HiddenFromAllies
+  CanAccessGlobalStorage No
+  Power 4
+  ReportAsHosted Yes
+  SelfDestructTime 5
+    AttackDelay 5
+  TurnSpeed 10
+  	Modifier "BM_Accuracy_Damage_Penalty" 
+  
+	ImprovedBy "Solid_Fuel_Rockets" AttackDelay 0.35
+   Config "Conventional SRBM"
+    Weapon "SRBM" 20000 Time 385
+   Config "Chemical SRBM"
+    Weapon "Chemical_SRBM" 20000 Time 385
+    Weapon "Improved_Chemical_SRBM" 20000 Time 385
+    Weapon "Advanced_Chemical_SRBM" 20000 Time 385
+    Weapon "Experimental_Chemical_SRBM" 20000 Time 385
+   Config "Nuclear SRBM"
+    Weapon "SRBM-N" 1 Time 385
+   Config "Fusion SRBM"
+    Weapon "Fusion SRBM" 1 Time 385
+
+//////////MRBMS////////////	
+  Config "Conventional MRBM" Default
+	Weapon "Conventional MRBM" 20000  Time 450
+
+  Config "Chemical MRBM" Default
+    Weapon "Chemical_MRBM" 20000 Launch 1 Time 450	
+	Weapon "Improved_Chemical_MRBM" 20000 Launch 1 Time 450
+    Weapon "Advanced_Chemical_MRBM" 20000 Launch 1 Time 450
+    Weapon "Experimental_Chemical_MRBM" 20000 Launch 1 Time 450	
+
+  Config "Bioweapon MRBM" Default
+    Weapon "Bioweapon_MRBM" 1 Time 450
+  Config "Improved Bioweapon MRBM" Default	
+	Weapon "Improved_Bioweapon_MRBM" 1 Time 450
+  Config "Advanced Bioweapon MRBM" Default  
+	Weapon "Advanced_Bioweapon_MRBM" 1 Time 450
+  Config "Experimental Bioweapon MRBM" Default  
+	Weapon "Engineered_Bioweapon_MRBM" 1 Time 450	
+	
+  Config "100kt MRBM" Default
+	Weapon "100kt_MRBM" 1  Time 450
+  Config "250kt MRBM" Default
+	Weapon "250kt_MRBM" 1  Time 450
+  Config "500kt MRBM" Default
+	Weapon "500kt_MRBM" 1  Time 450  
+   Config "Megaton MRBM" Default
+	Weapon "1M_MRBM" 1  Time 450
+   Config "5M MRBM" Default
+	Weapon "5M_MRBM" 1  Time 450	
+   Config "500kt Cobalt MRBM" Default
+	Weapon "500kt_Cobalt_MRBM" 1  Time 450
+   Config "500kt Enhanced Salted MRBM" Default
+	Weapon "500kt_Salt_MRBM" 1  Time 450
+   Config "500kt EMP MRBM"
+	Weapon "500kt_MRBM_EMP" 1  Time 450	  
+   Config "500kt Super EMP MRBM"
+    Weapon "500kt_MRBM_EMP_Super" 1  Time 450	    
+   Config "3x100kt MIRV MRBM" Default
+	Weapon "3x100kt_MRBM" 1  Time 450
+   Config "3x250kt MIRV MRBM" Default
+    Weapon "3x250kt_MRBM" 1  Time 450	
+   Config "6x250kt MIRV MRBM" Default
+	Weapon "6x250kt_MRBM" 1  Time 450
+   Config "6x500kt MIRV MRBM" Default
+	Weapon "6x500kt_MRBM" 1  Time 450  
+   Config "8x500 MIRV MRBM" Default
+	Weapon "8x500kt_MRBM" 1  Time 450 
+   Config "8x1MT MRBM" Default
+	Weapon "8x1MT_MRBM" 1  Time 450  	  
+	
+
+  CanAccessGlobalStorage No	
+  ProductionCost 6.0
+  
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+
+//////////////////TEL/////////////////////
+ [UNIT] "Mobile_SRBM"
+  Tech "U_Mobile_SRBM"
+  Movie "Units/Images/Ground/Mid-Level/SRBM_TEL.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/SRBM_TEL.midx"
+  Model "Units/Images/Ground/SRBM Vehicle.midx"
+  Icon "Units/Images/Icons/Ground/SRBM_TEL.png"  
+  IconIDX 49
+  DrawSize 27
+  AbstractDrawSize 35
+  Size 0.08
+  Sound 140 Volume 0.75
+  Type Ground
+  Class "UC_Ground_Mobile"
+  AttackerInPlanner
+  HiddenFromAllies
+  ReportAsHosted Yes
+  
+  	Modifier "BM_Accuracy_Damage_Penalty" 
+  
+  //Disassemble 0.45
+  //VirtualSpeed 400
+    AttackDelay 5
+	ImprovedBy "Solid_Fuel_Rockets" AttackDelay 0.35
+  AttackOnMove false
+  Speed 60
+  TurnSpeed 8
+  CanCrossBorderDuringPeaceTime No
+  
+	ImprovedBy "Improved_TEL" Set Speed 75
+    ImprovedBy "Advanced_TEL" Set Speed 90
+
+
+   Config "Conventional"
+		Weapon "SRBM" 20000 Time 550
+	ImprovedBy "Improved_TEL"
+		Weapon "SRBM" 20000 Time 480
+	ImprovedBy "Advanced_TEL"
+		Weapon "SRBM" 20000 Time 385
+   
+   Config "Chemical"
+		Weapon "Chemical_SRBM" 20000 Time 550
+		Weapon "Improved_Chemical_SRBM" 20000 Time 550
+		Weapon "Advanced_Chemical_SRBM" 20000 Time 550
+		Weapon "Experimental_Chemical_SRBM" 20000 Time 550
+	ImprovedBy "Improved_TEL"
+		Weapon "Chemical_SRBM" 20000 Time 480
+		Weapon "Improved_Chemical_SRBM" 20000 Time 480
+		Weapon "Advanced_Chemical_SRBM" 20000 Time 480
+		Weapon "Experimental_Chemical_SRBM" 20000 Time 480	
+	ImprovedBy "Advanced_TEL"
+		Weapon "Chemical_SRBM" 20000 Time 385
+		Weapon "Improved_Chemical_SRBM" 20000 Time 385
+		Weapon "Advanced_Chemical_SRBM" 20000 Time 385
+		Weapon "Experimental_Chemical_SRBM" 20000 Time 385	
+	
+   Config "Nuclear"
+    Weapon "SRBM-N" 1 Time 550
+		ImprovedBy "Improved_TEL"
+	Weapon "SRBM-N" 1 Time 480
+		ImprovedBy "Advanced_TEL"
+	Weapon "SRBM-N" 1 Time 385
+	
+   Config "Pure Fusion"
+    Weapon "Fusion SRBM" 1 Time 550
+		ImprovedBy "Improved_TEL"
+	Weapon "Fusion SRBM" 1 Time 480
+		ImprovedBy "Advanced_TEL"
+	Weapon "Fusion SRBM" 1 Time 385	
+  
+  Power 2.0
+  SelfDestructTime 5
+  Radar "STD Vision"
+  CanAccessGlobalStorage No  
+  ProductionCost 7.5
+
+
+[UNIT] "ICBM_Launchpad"
+  Tech "U_Launchpad_ICBM"
+  Movie "Units/Images/Ground/Mid-Level/ICBM_Pad.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/ICBM_Launchpad.midx"
+  Model "Units/Images/Ground/ICBM Launchpad.midx"  
+    Icon "Units/Images/Icons/Ground/ICBM_Pad.png"
+	RoundIcon "Units/Images/Icons/Ground/ICBM_Pad_Round.png"
+  DrawSize 26
+  AbstractDrawSize 35
+  FixedRotationAngle true
+  Size 0.3
+  Sound 137
+  Type Ground
+  AttackerInPlanner
+  HiddenFromAllies
+  AttackIfDestroyed
+  CanAccessGlobalStorage No
+  AlwaysVisibleOnEnemyTerritory true
+  Power 10
+  SelfDestructTime 30
+    AttackDelay 14
+	ImprovedBy "Solid_Fuel_Rockets" AttackDelay 0.35
+	
+		Modifier "BM_Accuracy_Damage_Penalty" 
+	
+	///Light fires in 1480, heavy takes 1800
+Config "Unarmed" NULL
+//    Weapon "No Weapon" 1 Principal
+//    Weapon "No Weapon Buffer" 0	
+
+Config "Bioweapon ICBM" Default
+    Weapon "Bioweapon_ICBM" 1  Time 1480
+Config "Improved Bioweapon ICBM" Default
+    Weapon "Improved_Bioweapon_ICBM" 1  Time 1480	
+Config "Advanced Bioweapon ICBM" Default
+    Weapon "Advanced_Bioweapon_ICBM" 1  Time 1480
+Config "Engineered Bioweapon ICBM" Default
+    Weapon "Engineered_Bioweapon_ICBM" 1  Time 1480	
+
+  Config "3x Biological MIRV" Default
+    Weapon "Bioweapon_MIRV" 1  Time 1480		
+  Config "8x Biological MIRV" Default
+    Weapon "8x Bioweapon_MIRV" 1  Time 1480
+	
+////////LIGHT UNITARY///////////	
+  Config "Lightweight 250kt" Default
+    Weapon "ICBM (250kt Light)" 1  Time 1480	
+  Config "Lightweight 500kt" Default
+    Weapon "ICBM (500kt Light)" 1  Time 1480
+  Config "Lightweight Megaton" Default
+    Weapon "ICBM (1M Light)" 1  Time 1480
+  Config "Lightweight 5Mt" Default
+    Weapon "ICBM (5M Light)" 1  Time 1480	
+  Config "Lightweight 10Mt Fusion" Default
+    Weapon "ICBM (10M Fusion Light)" 1  Time 1480	
+	
+/////////HEAVY UNITARY////////
+  Config "Heavy 500kt" Default
+    Weapon "ICBM (500kt Heavy)" 1  Time 1800
+  Config "Heavy 5 Megaton" Default
+    Weapon "ICBM (5M Heavy)" 1  Time 1800  
+  Config "Heavy 10 Megaton" Default
+    Weapon "ICBM (10M)" 1  Time 1800
+  Config "Heavy 25 Megaton" Default
+    Weapon "ICBM (25M)" 1  Time 1800
+  Config "Heavy 50 Megaton Fusion" Default
+    Weapon "ICBM (50M Fusion)" 1  Time 1800
+		
+  
+////////LIGHT MIRV//////////
+  Config "3x250kt Light MIRV"
+    Weapon "3x250kt Light ICBM" 1  Time 1480
+  Config "3x500kt Light MIRV"
+    Weapon "3x500kt Light ICBM" 1  Time 1480 		
+  Config "8x500kt Light MIRV"
+    Weapon "8x500kt Light ICBM" 1  Time 1480
+  Config "8x1M Light MIRV"
+    Weapon "8x1M Light ICBM" 1  Time 1480	
+
+////////HEAVY MIRV//////////	
+   Config "3x250kt MIRV" Default
+     Weapon "3x250kt ICBM" 1 Time 1800
+   Config "3x500kt MIRV" Default
+     Weapon "3x500kt ICBM" 1 Time 1800	 
+   Config "6x500kt MIRV" Default
+     Weapon "6x500kt ICBM" 1 Time 1800
+   Config "6x1Mt MIRV" Default
+     Weapon "6x1M ICBM" 1 Time 1800
+   Config "12x500kt MIRV" Default
+     Weapon "12x500kt ICBM" 1 Time 1800	 
+   Config "12x1Mt Fusion MIRV" Default
+     Weapon "12x1M ICBM" 1 Time 1800	 
+
+////////SPECIALTY//////
+  Config "1MT Cobalt" Default
+	  Weapon "ICBM (1M Cobalt)" 1  Time 1480	
+  Config "10MT Cobalt" Default
+    Weapon "ICBM (10M Cobalt)" 1  Time 1800
+  Config "1MT Salted" Default
+	  Weapon "ICBM (1M Salt)" 1  Time 1480	
+  Config "10MT Enhanced Salted" Default
+    Weapon "ICBM (10M Salt)" 1  Time 1800
+	
+	Config "1M EMP ICBM"
+		Weapon "ICBM (1M EMP)" 1  Time 1480
+	Config "1M Super EMP ICBM"
+		Weapon "ICBM (1M Super EMP)" 1  Time 1480
+	Config "10M Super EMP ICBM"
+		Weapon "ICBM (10M Super EMP)" 1  Time 1800	
+
+  Config "Nuclear ASAT"
+    Weapon "Nuclear ASAT" 1
+   Config "ASAT"
+    Weapon "ASAT" 1
+   Config "Co-Orbital ASAT"
+    Weapon "Co-Orbital ASAT" 1  Time 1480
+  Radar "STD Vision"	
+  ProductionCost 30
+
+
+[UNIT] "Missile_Silo"
+  Tech "U_Missile_Silo"
+  Movie "Units/Images/Ground/Mid-Level/ICBM_Silo.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/ICBM_Silo.midx"
+  Model "Units/Images/ground/ICBM Silo.midx"
+   Icon "Units/Images/Icons/Ground/ICBM_Silo.png"  
+  DrawSize 20
+  AbstractDrawSize 35
+  FixedRotationAngle true
+  Size 0.2
+  Sound 137
+  Type Ground
+  AttackerInPlanner
+  HiddenFromAllies
+  AttackIfDestroyed
+  CanAccessGlobalStorage No
+  AlwaysVisibleOnEnemyTerritory false
+  Power 225
+  SelfDestructTime 20
+      AttackDelay 9
+	ImprovedBy "Solid_Fuel_Rockets" AttackDelay 0.35
+	
+		Modifier "BM_Accuracy_Damage_Penalty" 
+	
+Config "Unarmed" NULL
+//    Weapon "No Weapon" 1 Principal
+//    Weapon "No Weapon Buffer" 0	
+
+Config "Bioweapon ICBM" Default
+    Weapon "Bioweapon_ICBM" 1  Time 1480
+Config "Improved_Bioweapon ICBM" Default
+    Weapon "Improved_Bioweapon_ICBM" 1  Time 1480		
+Config "Advanced Bioweapon ICBM" Default
+    Weapon "Advanced_Bioweapon_ICBM" 1  Time 1480
+Config "Engineered Bioweapon ICBM" Default
+    Weapon "Engineered_Bioweapon_ICBM" 1  Time 1480	
+
+  Config "3x Biological MIRV" Default
+    Weapon "Bioweapon_MIRV" 1  Time 1480
+  Config "8x Biological MIRV" Default
+    Weapon "8x Bioweapon_MIRV" 1  Time 1480		
+	
+////////LIGHT UNITARY///////////	
+  Config "Lightweight 250kt" Default
+    Weapon "ICBM (250kt Light)" 1  Time 1480	
+  Config "Lightweight 500kt" Default
+    Weapon "ICBM (500kt Light)" 1  Time 1480
+  Config "Lightweight Megaton" Default
+    Weapon "ICBM (1M Light)" 1  Time 1480
+  Config "Lightweight 5Mt" Default
+    Weapon "ICBM (5M Light)" 1  Time 1480	
+  Config "Lightweight 10Mt Fusion" Default
+    Weapon "ICBM (10M Fusion Light)" 1  Time 1480	
+	
+/////////HEAVY UNITARY////////
+  Config "Heavy 500kt" Default
+  ImprovedBy "Heavy_Missiles"
+    Weapon "ICBM (500kt Heavy)" 1  Time 1800
+  Config "Heavy 5 Megaton" Default
+  ImprovedBy "Heavy_Missiles"
+    Weapon "ICBM (5M Heavy)" 1  Time 1800  
+  Config "Heavy 10 Megaton" Default
+  ImprovedBy "Heavy_Missiles"
+    Weapon "ICBM (10M)" 1  Time 1800
+  Config "Heavy 25 Megaton" Default
+  ImprovedBy "Heavy_Missiles"  
+    Weapon "ICBM (25M)" 1  Time 1800
+  Config "Heavy 50 Megaton Fusion" Default
+  ImprovedBy "Heavy_Missiles"  
+    Weapon "ICBM (50M Fusion)" 1  Time 1800
+		
+  
+////////LIGHT MIRV//////////
+  Config "3x250kt Light MIRV"
+    Weapon "3x250kt Light ICBM" 1  Time 1480
+  Config "3x500kt Light MIRV"
+    Weapon "3x500kt Light ICBM" 1  Time 1480 		
+  Config "8x500kt Light MIRV"
+    Weapon "8x500kt Light ICBM" 1  Time 1480
+  Config "8x1M Light MIRV"
+    Weapon "8x1M Light ICBM" 1  Time 1480	
+
+////////HEAVY MIRV//////////	
+   Config "3x250kt MIRV" Default
+  ImprovedBy "Heavy_Missiles"   
+     Weapon "3x250kt ICBM" 1 Time 1800
+   Config "3x500kt MIRV" Default
+  ImprovedBy "Heavy_Missiles"
+     Weapon "3x500kt ICBM" 1 Time 1800	 
+   Config "6x500kt MIRV" Default
+  ImprovedBy "Heavy_Missiles"
+     Weapon "6x500kt ICBM" 1 Time 1800
+   Config "6x1Mt MIRV" Default
+  ImprovedBy "Heavy_Missiles"
+     Weapon "6x1M ICBM" 1 Time 1800
+   Config "12x500kt MIRV" Default
+  ImprovedBy "Heavy_Missiles"
+     Weapon "12x500kt ICBM" 1 Time 1800	 
+   Config "12x1Mt Fusion MIRV" Default
+  ImprovedBy "Heavy_Missiles"
+     Weapon "12x1M ICBM" 1 Time 1800	 
+
+////////SPECIALTY//////
+  Config "1MT Cobalt" Default
+	  Weapon "ICBM (1M Cobalt)" 1  Time 1480	
+  Config "10MT Cobalt" Default
+  ImprovedBy "Heavy_Missiles"  
+    Weapon "ICBM (10M Cobalt)" 1  Time 1800
+  Config "1MT Salted" Default
+	  Weapon "ICBM (1M Salt)" 1  Time 1480	
+  Config "10MT Enhanced Salted" Default
+  ImprovedBy "Heavy_Missiles"  
+    Weapon "ICBM (10M Salt)" 1  Time 1800
+	
+	Config "1M EMP ICBM"
+		Weapon "ICBM (1M EMP)" 1  Time 1480
+	Config "1M Super EMP ICBM"
+		Weapon "ICBM (1M Super EMP)" 1  Time 1480
+	Config "10M Super EMP ICBM"
+    ImprovedBy "Heavy_Missiles"	
+		Weapon "ICBM (10M Super EMP)" 1  Time 1800	
+
+  Config "Nuclear ASAT"
+    Weapon "Nuclear ASAT" 1
+   Config "ASAT"
+    Weapon "ASAT" 1
+   Config "Co-Orbital ASAT"
+    Weapon "Co-Orbital ASAT" 1  Time 1480
+	
+  Radar "STD Vision"	
+  ProductionCost 30
+  Modifier "Underground"
+  
+[UNIT] "Fixed_LW_radar"
+  Tech "U_Long_wave_radar"
+  Movie "Units/Images/Ground/Mid-Level/Radar_Site_1.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Radar_Site.midx"
+  Model "Units/Images/ground/Basic Radar Site.midx"
+  Icon "Units/Images/Icons/Ground/Radar_Site_1.png"
+  HideAbstract Yes
+  DrawSize 16
+  AbstractDrawSize 30
+  FixedRotationAngle true
+  Size 0.6
+  Sound 139 Volume 0.25
+  Type Ground
+  AlwaysVisibleOnEnemyTerritory Yes
+  Power 3
+  SelfDestructTime 5
+  Radar "STD Vision"
+  Radar "Fixed Long Wave"
+  Radar "Fixed Short Wave"
+    CheckTargeting BY "EW Jammer" Message Lock 2841 NoLock 2841
+	
+		Modifier "BM_Accuracy_Damage_Penalty" 
+	
+	    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+	
+	  ImprovedBy "Radar_Mk2"
+    {
+    Movie "Units/Images/Ground/Mid-Level/Radar_Site_2.midx"  Icon "Units/Images/Icons/Ground/Radar_Site_2.png"
+  	Movie Model "Units/Images/Ground/Radar Site 2.fbx"
+	}
+	
+	  ImprovedBy "Radar_Mk4"
+    {
+    Movie "Units/Images/Ground/Mid-Level/Radar_Site_3.midx"  Icon "Units/Images/Icons/Ground/Radar_Site_3.png"
+  	Movie Model "Units/Images/Ground/Radar Site 3.fbx"
+	}	
+  
+  ProductionCost 3.5
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+
+[UNIT] "Mobile_SW_Radar"
+  Tech "U_Mobile_SW_Radar"
+  Movie "Units/Images/Ground/Mid-Level/Mobile_Radar.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Radar_Vehicle.midx"
+  Model "Units/Images/ground/Radar Vehicle.midx"
+  Icon "Units/Images/Icons/Ground/Mobile_Radar.png"
+  HideAbstract Yes
+  DrawSize 18
+  AbstractDrawSize 30
+  Size 0.1
+  Sound 139 Volume 0.25
+  Type Ground
+  Class "UC_Ground_Mobile"
+  Speed 50
+  TurnSpeed 8
+  CanCrossBorderDuringPeaceTime No
+  ImprovedBy "Army_Mech_Mk2" Set Speed 55
+  ImprovedBy "Army_Mech_Mk3" Set Speed 65
+  ImprovedBy "Army_Mech_Mk4" Set Speed 75
+  ImprovedBy "Army_Mech_Mk5" Set Speed 85
+  Power 2.0
+  SelfDestructTime 5
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+  Radar "STD Vision"
+  Radar "Fixed Short Wave"
+  ProductionCost 3.0
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+[UNIT] "Naval_Monitoring_Station"
+  Tech "U_Naval_Radar_Station"
+  Movie "Units/Images/Naval/Mid-Level/Sea_Radar.midx"
+  AbstractMovie "Units/Images/Naval/Abstract/Naval_Station.midx"
+  Model "Units/Images/ground/Sea Radar.fbx"
+  Icon "Units/Images/Icons/Naval/Sea_Radar.png"
+  DrawSize 21
+  AbstractDrawSize 30
+  FixedRotationAngle true
+  Size 0.6
+  Sound 139 Volume 0.25
+  Type Naval
+  AlwaysVisibleOnEnemyTerritory Yes
+  Power 10
+  SelfDestructTime 5
+  Airway Launch 1 Time 180 // in seconds in 1x time
+  CanHostAircrafts "Navy_Helicopter" 2 Patrol 2 AIAutoPatrol
+  
+  Weapon "Light_AShM" 2 Launch 1 Time 90 AutoEngage Principal
+  Weapon "ASROC" 20000 Launch 1 Time 150 AutoEngage
+  Weapon "MANPAD" 20000 Launch 1 Time 75 AutoEngage DefaultOff
+  Weapon "CIWS" 25000 Launch 2 Time 5 AutoEngage DefaultOff
+  Weapon "Laser CIWS" 25000 Launch 2 Time 20 AutoEngage DefaultOff
+	
+  Radar "STD Vision"
+  Radar "Fixed Long Wave"
+  Radar "Fixed Short Wave"
+  Radar "Sonar"
+  ProductionCost 4.5
+  Class "UC_Ground"
+  Modifier "Mega_Sonar"
+  
+  
+  Modifier "Torpedo_Net_Mod"
+  Modifier "BM_Accuracy_Damage_Penalty" 
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+[UNIT] "Over_Horizon_radar"
+  Tech "U_Over_horizon_radar"
+  Movie "Units/Images/Ground/Mid-Level/Over_Horizon_Radar.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/OHR.midx"
+  Model "Units/Images/Ground/Over-Horizon Radar.fbx"
+  Icon "Units/Images/Icons/Ground/Over_Horizon_Radar.png"  
+  DrawSize 20
+  AbstractDrawSize 35
+  FixedRotationAngle true
+  Size 0.8
+  Sound 139 Volume 0.25
+  Type Ground
+  AlwaysVisibleOnEnemyTerritory Yes
+  AttackIfDestroyed
+  Power 7.5
+  SelfDestructTime 10
+  Radar "STD Vision"
+  Radar "Over_Horizon"
+  ProductionCost 30
+//  ImprovedBy "Over_horizon_radar_Mk2" Movie "Units/Images/Ground/over_horizon Mk2.midx"
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Invulnerable"	
+
+[UNIT] "Space_radar"
+  Tech "U_Space_radar"
+  Movie "Units/Images/Ground/Mid-Level/Space_Radar.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Space_Radar.midx"
+  Model "Units/Images/Ground/Space Surveillance Radar.fbx"
+  Icon "Units/Images/Icons/Ground/Space_Radar.png"  
+  DrawSize 22
+  AbstractDrawSize 35
+  FixedRotationAngle true
+  Size 0.5
+  Sound 139 Volume 0.25
+  Type Ground
+  AlwaysVisibleOnEnemyTerritory Yes
+  Power 5
+  SelfDestructTime 10
+  Radar "STD Vision"
+  Radar "Space_Radar"
+  Radar "Small_Over_Horizon"
+  ProductionCost 12
+  Class "UC_Space"
+  
+  	Modifier "BM_Accuracy_Damage_Penalty" 
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+//////////AA Gun Site, AKA SPAAG///
+[UNIT] "AA_Site_Old"
+  Tech "U_AA_Site_Old"
+  Movie "Units/Images/Ground/Mid-Level/AA_Gun_Site.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/AA_Gun.midx"
+  Model "Units/Images/Ground/AA Gun Site.midx"
+  Icon "Units/Images/Icons/Ground/AA_Gun_Site.png"  
+  DrawSize 22
+  AbstractDrawSize 30
+  Size 0.1
+  Sound 141 Volume 0.4
+  Type Ground
+  Class "UC_Ground_Mobile"
+  AlwaysVisibleOnEnemyTerritory Yes
+  Speed 40
+  TurnSpeed 7.5
+  CanCrossBorderDuringPeaceTime No
+  ImprovedBy "Army_Mech_Mk2" Set Speed 45
+  ImprovedBy "Army_Mech_Mk3" Set Speed 55
+  ImprovedBy "Army_Mech_Mk4" Set Speed 65
+  ImprovedBy "Army_Mech_Mk5" Set Speed 75
+  Power 2.5
+  SelfDestructTime 5
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+
+  Weapon "AA Gun Old" 20000 Launch 2 Time 1 AutoEngage
+	Weapon "Light SAM" 20000 Launch 2 Time 35 AutoEngage LaunchPoint -1
+	Weapon "Light SAM MD" 20000 Launch 2 Time 35 AutoEngage LaunchPoint -1
+  
+  ImprovedBy "AA_Laser" Weapon "AA Laser" 20000 Launch 1 Time 1 AutoEngage    
+	Weapon "Light SAM" 20000 Launch 2 Time 35 AutoEngage LaunchPoint -1
+	Weapon "Light SAM MD" 20000 Launch 2 Time 35 AutoEngage LaunchPoint -1
+  
+  Radar "STD Vision"
+  Radar "STD Short Wave"
+  ProductionCost 3.0
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+////Fixed site
+[UNIT] "SAM_site"
+  Tech "U_SAM_site"
+  Movie "Units/Images/Ground/Mid-Level/Fixed_SAM_Site.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/SAM_Site.midx"
+  Model "Units/Images/Ground/Fixed SAM Site.midx"
+  Icon "Units/Images/Icons/Ground/Fixed_SAM_Site.png"    
+  DrawSize 21
+  AbstractDrawSize 30
+  Size 0.1
+  Sound 141 Volume 0.4
+  Type Ground
+  //AlwaysVisibleOnEnemyTerritory true
+  Power 3.0
+  SelfDestructTime 5
+  AttackDelay 0.5
+  ModelLaunchTime 0.5
+  Config "Default" Default
+  Weapon "SAM" 20000 Launch 1 Time 70 AutoEngage
+  Weapon "SAM MD" 20000 Launch 1 Time 70 AutoEngage
+  //Weapon "ABM" 20000 Launch 1 Time 250 AutoEngage
+  //Weapon "AA Laser" 20000 Launch 1 Time 5 AutoEngage
+  Config "Nuclear SAM"
+  Weapon "Nuclear SAM" 1 Launch 1 Time 100 AutoEngage
+  Config "Pure Fusion SAM"
+  Weapon "Fusion SAM" 1 Launch 1 Time 100 AutoEngage  
+  //Weapon "AA Laser" 20000 Launch 1 Time 5 AutoEngage
+    Radar "STD Vision"
+  Radar "STD Short Wave"
+  ProductionCost 5.0
+  ImprovedBy "SAM_Mk2" Modify Weapon "SAM" Set Launch 2
+  ImprovedBy "SAM_Mk2" Modify Weapon "SAM MD" Set Launch 2  
+  ImprovedBy "SAM_Mk2" Modify Weapon "SAM" Set Time 35
+  ImprovedBy "SAM_Mk2" Modify Weapon "SAM MD" Set Time 35
+  
+  ImprovedBy "SAM_Mk2"
+  { Movie "Units/Images/Ground/Mid-Level/Fixed_SAM_Site_2.midx" Icon "Units/Images/Icons/Ground/Fixed_SAM_Site_2.png"
+	Movie Model "Units/Images/Ground/Fixed SAM Site 2.midx"}
+  
+  ImprovedBy "SAM_Mk3" Set Size 0.05
+  ImprovedBy "SAM_Mk3" Modify Weapon "SAM" Set Launch 3
+  ImprovedBy "SAM_Mk3" Modify Weapon "SAM MD" Set Launch 3
+  ImprovedBy "SAM_Mk3" Modify Weapon "SAM" Set Time 20
+  ImprovedBy "SAM_Mk3" Modify Weapon "SAM MD" Set Time 20
+ 
+	Modifier "BM_Accuracy_Damage_Penalty" 
+ 
+     Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+ 
+////Fixed Site, Midcourse ABM
+[UNIT] "ABM_Site"
+  Tech "U_ABM_site"
+  Movie "Units/Images/Ground/Mid-Level/ABM_Site.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Midcourse_ABM.midx"
+  Model "Units/Images/Ground/ABM Site.midx"
+  Icon "Units/Images/Icons/Ground/ABM_Site.png"    
+  DrawSize 23
+  AbstractDrawSize 30
+  Size 0.1
+  Sound 141 Volume 0.4
+  Type Ground
+  //AlwaysVisibleOnEnemyTerritory true
+  Power 2.5
+  SelfDestructTime 5
+   AttackDelay 0.01
+   ModelLaunchTime 0.1
+
+  Config "Unarmed" /*Default*/  NULL
+//    Weapon "No Weapon" 1  Principal
+//    Weapon "No Weapon Buffer" 0  	
+
+  Config "Conventional ABM" Default
+    Weapon "Light Nuclear ABM" 20000 Launch 1 Time 180 AutoEngage
+    ImprovedBy "anti_ballistic_missile"
+      Weapon "ABM" 20000 Launch 1 Time 150 AutoEngage
+    ImprovedBy "ABM_Mk2"
+      Weapon "ABM" 20000 Launch 2 Time 150 AutoEngage
+    ImprovedBy "ABM_Mk3"
+      Weapon "ABM" 20000 Launch 2 Time 90 AutoEngage
+    ImprovedBy "ABM_Mk4"
+      Weapon "ABM" 20000 Launch 2 Time 80 AutoEngage	
+
+Config "Heavy ABM"
+  ImprovedBy "M_Nuke_ABM"
+    Weapon "Nuclear ABM" 1 Launch 1 Time 180 AutoEngage
+  ImprovedBy "anti_ballistic_missile"
+    Weapon "Nuclear ABM" 1 Launch 1 Time 150 AutoEngage
+  ImprovedBy "ABM_Mk3"
+    Weapon "Nuclear ABM" 1 Launch 1 Time 90 AutoEngage
+  ImprovedBy "ABM_Mk4"
+    Weapon "Nuclear ABM" 1 Launch 1 Time 80 AutoEngage
+	
+Config "Fusion ABM"
+  ImprovedBy "M_Fusion_ABM"
+    Weapon "Fusion ABM" 1 Launch 1 Time 180 AutoEngage
+  ImprovedBy "anti_ballistic_missile"
+    Weapon "Fusion ABM" 1 Launch 1 Time 150 AutoEngage
+  ImprovedBy "ABM_Mk3"
+    Weapon "Fusion ABM" 1 Launch 1 Time 90 AutoEngage
+  ImprovedBy "ABM_Mk4"
+    Weapon "Fusion ABM" 1 Launch 1 Time 80 AutoEngage	
+ 
+ 
+  Radar "STD Vision"
+  Radar "STD Short Wave"
+  CheckCoverage "ABM" BY "Over_Horizon" OR "Naval_Over_Horizon" OR "Small_Over_Horizon" OR "Naval_Small_Over_Horizon" OR "AWACS Short Wave" OR "Satellite EWS" Message 2818
+  CheckCoverage "Nuclear ABM" BY "Over_Horizon" OR "Naval_Over_Horizon" OR "Small_Over_Horizon" OR "Naval_Small_Over_Horizon" OR "AWACS Short Wave" OR "Satellite EWS" Message 2818
+  ProductionCost 9.0
+
+	Modifier "ABM_Mk2_Modifier"
+    
+	ImprovedBy "ABM_Mk2"
+  {
+    Movie "Units/Images/Ground/Mid-Level/ABM_Site_Adv.midx"  Icon "Units/Images/Icons/Ground/ABM_Site_Adv.png"
+  	Movie Model "Units/Images/Ground/ABM Site Adv.midx"
+  }	
+ 
+	Modifier "BM_Accuracy_Damage_Penalty" 
+ 
+	Modifier "ABM_Mk3_Modifier"		
+	Modifier "ABM_Mk4_Modifier"
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Invulnerable"	
+
+[UNIT] "MOBILE_SAM"
+  Tech "U_Mobile_SAM"
+  Movie "Units/Images/Ground/Mid-Level/Mobile_SAM_1.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Mobile_SAM.midx"
+  Model "Units/Images/Ground/Mobile SAM.midx"    
+  Icon "Units/Images/Icons/Ground/Mobile_SAM_1.png"  
+  IconIDX 17
+  DrawSize 23
+  AbstractDrawSize 30
+  Size 0.05
+  Sound 141 Volume 0.6
+  Type Ground
+  Class "UC_Ground_Mobile"
+  Speed 40
+  TurnSpeed 7.5  
+  AlwaysVisibleOnEnemyTerritory Yes
+  CanCrossBorderDuringPeaceTime No
+  ImprovedBy "Army_Mech_Mk2" Set Speed 45
+  ImprovedBy "Army_Mech_Mk3" Set Speed 55
+  ImprovedBy "Army_Mech_Mk4" Set Speed 65
+  ImprovedBy "Army_Mech_Mk5" Set Speed 75
+  Power 2.5
+  SelfDestructTime 5
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+  AttackDelay 0.25
+  ModelLaunchTime 0.25
+  AttackOnMove false   
+  Weapon "SAM" 20000 Launch 2 Time 50 AutoEngage
+  Weapon "SAM MD" 20000 Launch 2 Time 50 AutoEngage
+    Radar "STD Vision"
+  Radar "STD Short Wave"
+
+  ProductionCost 6.0
+  
+    ImprovedBy "SAM_Mk2"
+  {
+    Movie "Units/Images/Ground/Mid-Level/Mobile_SAM_2.midx"  Icon "Units/Images/Icons/Ground/Mobile_SAM_2.png"
+  	Movie Model "Units/Images/Ground/Adv Mobile SAM.midx"
+  }
+    
+  ImprovedBy "SAM_Mk2" Modify Weapon "SAM" Set Time 35
+  ImprovedBy "SAM_Mk2" Modify Weapon "SAM MD" Set Time 35	
+  ImprovedBy "SAM_Mk2" Modify Weapon "SAM" Set Launch 2
+  ImprovedBy "SAM_Mk2" Modify Weapon "SAM MD" Set Launch 2
+
+  ImprovedBy "SAM_Mk3" Modify Weapon "SAM" Set Time 20
+  ImprovedBy "SAM_Mk3" Modify Weapon "SAM MD" Set Time 20
+
+  ImprovedBy "SAM_Mk4" Modify Weapon "SAM" Set Time 15
+  ImprovedBy "SAM_Mk4" Modify Weapon "SAM MD" Set Time 15
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+[UNIT] "Terminal_ABM"
+  Tech "U_Terminal_ABM"
+  Movie "Units/Images/Ground/Mid-Level/Mobile_ABM.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Terminal_ABM.midx"
+  Model "Units/Images/Ground/Early Mobile ABM.midx"  
+  Icon "Units/Images/Icons/Ground/Mobile_ABM.png"  
+  IconIDX 17
+  DrawSize 20
+  AbstractDrawSize 30
+  Size 0.07
+  Sound 141 Volume 0.6
+  Type Ground
+  Class "UC_Ground_Mobile"
+  Speed 40
+  TurnSpeed 7.5
+  AlwaysVisibleOnEnemyTerritory Yes
+  CanCrossBorderDuringPeaceTime No
+  ImprovedBy "Army_Mech_Mk2" Set Speed 45
+  ImprovedBy "Army_Mech_Mk3" Set Speed 55
+  ImprovedBy "Army_Mech_Mk4" Set Speed 65
+  ImprovedBy "Army_Mech_Mk5" Set Speed 75
+  Power 2.5
+  SelfDestructTime 5
+  AttackDelay 0.01
+  ModelLaunchTime 0.1
+  AttackOnMove false
+  ReportAsHosted Yes
+  
+  Weapon "Terminal ABM" 20000 Launch 2 Time 65 AutoEngage
+    ImprovedBy "Terminal_BM_Defence_Mk2"
+  Weapon "Terminal ABM" 20000 Launch 2 Time 65 AutoEngage
+    ImprovedBy "Terminal_BM_Defence_Mk3"
+  Weapon "Terminal ABM" 20000 Launch 2 Time 45 AutoEngage
+  
+
+  Radar "STD Vision"
+  Radar "STD Short Wave"
+  CheckCoverage "Terminal ABM" BY "Over_Horizon" OR "Naval_Over_Horizon" OR "Small_Over_Horizon" OR "Naval_Small_Over_Horizon" OR "AWACS Short Wave" OR "Satellite EWS" Message 2818
+
+    Modifier "Terminal_ABM_No_Target_Decoy_Modifier"
+    Modifier "Terminal_BM_Defence_Mk2_Modifier"
+    Modifier "Terminal_BM_Defence_Mk3_Modifier"  
+  
+  ImprovedBy "Terminal_BM_Defence_Mk2"
+  {
+    Movie "Units/Images/Ground/Mid-Level/Mobile_ABM_2.midx"   Icon "Units/Images/Icons/Ground/Mobile_ABM_2.png"
+  	Movie Model "Units/Images/Ground/Mobile ABM Site.midx"
+  }
+  
+  ProductionCost 8.0
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Invulnerable"	
+
+[UNIT] "Mobile_ABM_Laser"
+  Tech "U_Laser_Truck"
+  Movie "Units/Images/Ground/Mid-Level/ABM_Laser_Truck.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Laser_Truck.midx"
+  Model "Units/Images/Ground/Laser Truck.midx"
+  Icon "Units/Images/Icons/Ground/ABM_Laser_Truck.png"
+  IconIDX 17
+  DrawSize 18
+  AbstractDrawSize 30
+  Size 0.07
+  Sound 141 Volume 0.6
+  Type Ground
+  Class "UC_Ground_Mobile"
+  Speed 40
+  TurnSpeed 7.5  
+  CanCrossBorderDuringPeaceTime No
+  ImprovedBy "Army_Mech_Mk2" Set Speed 45
+  ImprovedBy "Army_Mech_Mk3" Set Speed 55
+  ImprovedBy "Army_Mech_Mk4" Set Speed 65
+  ImprovedBy "Army_Mech_Mk5" Set Speed 75
+  Power 2.5
+  SelfDestructTime 5
+  AttackDelay 0.01
+  ModelLaunchTime 0.0
+  AttackOnMove false   
+  Weapon "Terminal ABM Laser" 20000 Launch 1 Time 20 AutoEngage
+    Radar "STD Vision"
+  Radar "STD Short Wave"
+  CheckCoverage "Terminal ABM Laser" BY "Over_Horizon" OR "Naval_Over_Horizon" OR "Small_Over_Horizon" OR "Naval_Small_Over_Horizon" OR "AWACS Short Wave" OR "Satellite EWS" Message 2818
+  
+  Modifier "Terminal_ABM_No_Target_Decoy_Modifier"
+  
+  ProductionCost 8.0
+  ReportAsHosted Yes
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Invulnerable"	  
+
+////Fixed laser site, kills planes + any missiles
+[UNIT] "Laser_Defence_Complex"
+  Tech "U_Laser_Site"
+  Movie "Units/Images/Ground/Mid-Level/ABM_Laser_Site.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Laser_Site.midx"
+  Model "Units/Images/Ground/Laser ABM Site.midx"
+  Icon "Units/Images/Icons/Ground/ABM_Laser_Site.png"  
+  IconIDX 17
+  DrawSize 22
+  AbstractDrawSize 35
+  Size 0.2
+  Sound 141 Volume 0.6
+  Type Ground
+  AlwaysVisibleOnEnemyTerritory Yes
+  Power 8
+  SelfDestructTime 15
+  Weapon "Terminal ABM Laser" 20000 Launch 1 Time 12 AutoEngage
+  Weapon "Ground ASAT Laser" 20000 Launch 1 Time 60 AutoEngage DefaultOff
+  Radar "STD Vision"
+  Radar "STD Short Wave"
+  CheckCoverage "Terminal ABM Laser" BY "Over_Horizon" OR "Naval_Over_Horizon" OR "Small_Over_Horizon" OR "Naval_Small_Over_Horizon" OR "AWACS Short Wave" OR "Satellite EWS" Message 2818
+
+  ProductionCost 12
+
+  Modifier "Terminal_ABM_No_Target_Decoy_Modifier"
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Invulnerable"	
+
+[UNIT] "EW_MOBILE"
+  Tech "U_EW_MOBILE"
+  Movie "Units/Images/Ground/Mid-Level/Jamming_Vehicle.MIDX"
+  AbstractMovie "Units/Images/Ground/Abstract/Jamming_Vehicle.MIDX"
+  Model "Units/Images/Ground/Jamming Vehicle.midx"
+  Icon "Units/Images/Icons/Ground/Jamming_Vehicle.png"   
+ 
+  IconIDX 17
+  DrawSize 18
+  AbstractDrawSize 30
+  Size 0.075
+  Sound 141 Volume 0.6
+  Type Ground
+  Class "UC_Ground_Mobile"
+  Speed 40
+  TurnSpeed 7.5  
+  CanCrossBorderDuringPeaceTime No
+  Power 2.0
+  SelfDestructTime 5
+  Weapon "EW Jammer" 1
+  ProductionCost 4.0
+  ReportAsHosted Yes
+
+  ImprovedBy "Army_Mech_Mk2" Set Speed 45
+  ImprovedBy "Army_Mech_Mk3" Set Speed 55
+  ImprovedBy "Army_Mech_Mk4" Set Speed 65
+  ImprovedBy "Army_Mech_Mk5" Set Speed 75
+  
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+///////Sew the SEAD of destuction
+//////Start as EB-57
+[UNIT] "EW_Aircraft"
+  Tech "U_EW_Aircraft"
+  Movie "Units/Images/Airborne/Topdown/EW_Plane_1.midx"
+  AbstractMovie "Units/Images/Airborne/Abstract/EW_Plane.midx"
+  Model "Units/Images/Airborne/1st Gen SEAD.fbx"     
+  MaxElevation 20
+  Icon "Units/Images/Icons/Airborne/EW_Aircraft_1.png"
+  IconIDX 9
+  DrawSize 14.5
+  AbstractDrawSize 18
+  LaunchMeSound 85
+  Size 0.10
+  Sound 143 Volume 0.4
+  Type Airborne
+  NoAutoDeploy
+  Slave
+  AutoReturn Yes
+  Speed 600
+  TurnSpeed 5
+  Range 2200
+  CanPatrolPoint
+  Power 0.75
+  Config "Electronic Attack"  
+	Weapon "EW Jammer" 1 Principal
+  //Weapon "Anti-Radiation Missile" 2 Launch 1 Time 120 AutoEngage
+  Radar "STD Vision Air"
+  Radar "STD Long Wave"
+  ProductionCost 4.2
+  DoesNotTriggerWarWhenAttacked Yes
+  Crash "big_bomb"
+  
+    Modifier "EMP_Killable"
+	  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+  Modifier "Aircraft_Stealth_Bonus_Modifier_1"  ///F-35
+  Modifier "Aircraft_Stealth_Bonus_Modifier_2"  ///F/A-XX
+
+  Modifier "Mod_EW_Aircraft"
+
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+  
+  ///EF-10B Skyknight
+  ImprovedBy "Generation_2_Aircraft" 
+  {
+    Movie "Units/Images/Airborne/Topdown/EW_Plane_2.midx"  Icon "Units/Images/Icons/Airborne/EW_Aircraft_2.png"
+    Model "Units/Images/Airborne/2nd Gen SEAD.fbx"   
+	Set Size 0.08
+    Set Speed 700
+    Set TurnSpeed 7
+    Set Range 2600
+	Set Power 0.85
+	Radar "STD Vision Air"
+    Radar "STD Long Wave"
+
+	Config "Electronic Attack"
+		Weapon "EW Jammer" 1 Principal
+		Weapon "Anti-Radiation Missile" 2 Launch 1 Time 120 AutoEngage
+  }  
+  
+  ///EA-6B Prowler
+  ImprovedBy "Generation_3_Aircraft" 
+  {
+    Movie Movie "Units/Images/Airborne/Topdown/EW_Plane_3.midx"  Icon "Units/Images/Icons/Airborne/EW_Aircraft_3.png"
+    Model "Units/Images/Airborne/3rd Gen SEAD.midx"   
+    Set Size 0.05
+	Set Speed 800
+    Set TurnSpeed 8
+    Set Range 3000
+	Set Power 0.95
+    Radar "STD Vision Air"
+    Radar "STD Long Wave"
+
+	Config "Electronic Attack"
+		Weapon "EW Jammer" 1 Principal
+		Weapon "Anti-Radiation Missile" 2 Launch 1 Time 120 AutoEngage
+  }
+
+  ///EF-111 Raven
+  ////AKA The Sparkvark
+  /// VARK VARK VARK VARK 
+  ImprovedBy "Generation_4_Aircraft" 
+  {
+    //Movie "Units/Images/Airborne/aircraft_advanced.vidx"
+   //Model "Units/Images/Airborne/3rd Gen SEAD.fbx"   
+    Set Size 0.03
+	Set Speed 1000
+    Set TurnSpeed 12
+    Set Range 3500
+	Set Power 1.4
+	Radar "STD Vision Air"
+    Radar "STD Long Wave"
+	
+	////Didn't actually carry HARMs IRL, will have to think about
+	Config "Electronic Attack"
+		Weapon "EW Jammer" 1 Principal
+		Weapon "Anti-Radiation Missile" 2 Launch 1 Time 120 AutoEngage
+  }  
+
+  ///EA-18G Growler
+  ImprovedBy "Generation_4.5_Aircraft" 
+  {
+    Movie Movie "Units/Images/Airborne/Topdown/EW_Plane_4.5.midx"  Icon "Units/Images/Icons/Airborne/EW_Aircraft_4.png"
+    Model "Units/Images/Airborne/4.5 Gen SEAD.midx"   
+    Set Size 0.025
+	Set Speed 1000
+    Set TurnSpeed 14
+    Set Range 3750
+	Set Power 1.6
+	
+	Config "Electronic Attack"
+		Weapon "EW Jammer" 1 Principal
+		Weapon "Anti-Radiation Missile" 4 Launch 2 Time 120 AutoEngage
+  }        
+  
+  
+    ///F-35C Lightning II with Jamming Pods duct taped to it or something
+	///5th Gen is barely a thing and F-35 is like 90% of it gimme a break
+	///Make it distinct by going with the C model, with the giant wingspan?
+  ImprovedBy "Generation_5_Aircraft" 
+  {
+    Movie Movie "Units/Images/Airborne/Topdown/EW_Plane_5.midx"  Icon "Units/Images/Icons/Airborne/EW_Aircraft_5.png"
+    Movie Model "Units/Images/AIRBORNE/5th Gen SEAD.midx"
+    Set Size 0.02
+	Set Speed 1150
+    Set TurnSpeed 16
+    Set Range 4000
+	Set Power 1.85
+	
+	Config "Electronic Attack"
+		Weapon "EW Jammer" 1 DefaultOff Principal
+		Weapon "Anti-Radiation Missile" 6 Launch 2 Time 60 AutoEngage
+  }    
+    
+     ///This doesn't even remotely exist so I dunno
+  ImprovedBy "Generation_6_Aircraft" 
+  {
+    //Movie "Units/Images/Airborne/aircraft_stealth.vidx"
+    //Movie Model "Units/Images/AIRBORNE/6th Gen Fighter.midx"
+    Set Size 0.015
+	Set Speed 1250
+    Set TurnSpeed 18
+    Set Range 5000
+	Set Power 2.05
+	Radar "STD Vision Air"
+    Radar "STD Long Wave"
+
+	Config "Electronic Attack"
+		Weapon "EW Jammer" 1 DefaultOff Principal
+		Weapon "Anti-Radiation Missile" 8 Launch 4 Time 60 AutoEngage
+	  
+	  //Modifier "Stealth_Bonus" 
+  }    
+
+
+  CheckTargeting BY "AAM" OR "SAM" Message Lock 2841 NoLock 2842
+
+
+//////////////////////////////////////ARMIES//////////////////////////////////
+ [UNIT] "Security_Checkpoint"
+  Tech "U_Security_Checkpoint"
+  Movie "Units/Images/Ground/Mid-Level/Security_Checkpoint.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Security_Checkpoint.midx"
+  Model "Units/Images/Ground/Security Checkpoint.fbx"
+  Icon "Units/Images/Icons/Ground/Security_Checkpoint.png"	
+  HideAbstract Yes
+  DrawSize 17
+  AbstractDrawSize 30
+  DrawOrder 1
+  FixedRotationAngle true
+  Size 0.25
+  Type Ground
+  Class "UC_Ground"
+  
+  AutoRepair 0.5
+  Power 2
+  SelfDestructTime 5
+    Weapon "Small Arms" 20000 Launch 1 Time 10 AutoEngage Principal
+	Weapon "Body Armor" 1
+	Weapon "Optics" 1
+    Weapon "MANPAD" 20000 Launch 1 Time 75 AutoEngage DefaultOff
+  Radar "STD Vision"
+  Radar "Counter-spy"
+  Modifier "Static_Defender_Bonus"
+  ProductionCost 3.0
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+  
+  ImprovedBy "Improved_Basic_Protection" Power 1.15
+  ImprovedBy "Basic_Body_Armor" Power 1.15
+  ImprovedBy "Improved_Body_Armor" Power 1.15
+  ImprovedBy "Advanced_Body_Armor" Power 1.15
+  ImprovedBy "Experimental_Body_Armor" Power 1.15 
+
+[UNIT] "Army_Division"
+  Tech "U_Army"
+  Movie "Units/Images/Ground/Topdown/Army_Division_1.midx"  
+  AbstractMovie "Units/Images/Ground/Abstract/Army_Division.midx"
+  Model "Units/Images/Ground/Army Division 1.midx"
+  Icon "Units/Images/Icons/Ground/Army_Division_1.png"  
+  //IconIDX 54
+  IconIDX 10
+  
+  DrawSize 28
+  AbstractDrawSize 35
+  
+  FollowRadius 28
+  Size 1.0
+  Sound 138 Volume 0.2
+  Type Ground
+  Class "UC_Ground_Mobile"
+ // Slave
+  AutoRepair 0.35
+  OccupationRadius 75
+    AlwaysVisibleOnEnemyTerritory Yes
+  Speed 30
+  TurnSpeed 4 // in angles per second
+  Power 150
+  SelfDestructTime 60
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+
+////Gets bonus from adv. decoys and laser blinding
+  //Modifier "ECM_Bonus_1"
+  //Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  //ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  //ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99 
+
+  Modifier "BM_Accuracy_Damage_Penalty"
+  
+    ProducedByAnotherUnit true
+	TargetInPlanner Yes
+	AttackerInPlanner
+  
+  ImprovedBy "Army_Mech_Mk2" Speed 1.3333
+  ImprovedBy "Army_Mech_Mk3" Speed 1.125
+  ImprovedBy "Army_Mech_Mk4" Speed 1.222
+  ImprovedBy "Army_Mech_Mk5" Speed 1.09
+  ImprovedBy "Army_Mech_Mk2" Power 1.05
+  ImprovedBy "Army_Mech_Mk3" Power 1.05
+  ImprovedBy "Army_Mech_Mk4" Power 1.05
+  ImprovedBy "Army_Mech_Mk5" Power 1.05
+ 
+  ImprovedBy "Improved_Basic_Protection" Power 1.15
+  ImprovedBy "Basic_Body_Armor" Power 1.15
+  ImprovedBy "Improved_Body_Armor" Power 1.15
+  ImprovedBy "Advanced_Body_Armor" Power 1.15
+  ImprovedBy "Experimental_Body_Armor" Power 1.15
+ 
+	///Leopard 1
+	ImprovedBy "Army_Mech_Mk2"
+	{
+	Movie "Units/Images/Ground/Topdown/Army_Division_2.midx"  Icon "Units/Images/Icons/Ground/Army_Division_2.png"  
+  	Movie Model "Units/Images/Ground/Army Division 2.midx" 
+	}
+	
+	////Leopard 2
+	ImprovedBy "Army_Mech_Mk3"
+	{
+	Movie "Units/Images/Ground/Topdown/Army_Division_3.midx"  Icon "Units/Images/Icons/Ground/Army_Division_3.png"  
+  	Movie Model "Units/Images/Ground/Army Division 3.midx" 
+	}
+	
+	/////Leopard 2A7
+	ImprovedBy "Army_Mech_Mk4"
+	{
+	Movie "Units/Images/Ground/Topdown/Army_Division_4.midx"  Icon "Units/Images/Icons/Ground/Army_Division_4.png"  
+  	Movie Model "Units/Images/Ground/Army Division 4.midx" 
+	}	
+
+	////KF-51
+	ImprovedBy "Army_Mech_Mk5"
+	{
+	Movie "Units/Images/Ground/Topdown/Army_Division_5.midx"  Icon "Units/Images/Icons/Ground/Army_Division_5.png"  
+  	Movie Model "Units/Images/Ground/Army Division 5.midx" 
+	} 
+ 
+ 
+ Config "Army Weapons"
+  Weapon "Land Forces" 20000 Launch 1 Time 10 AutoEngage Principal
+  //Small arms is basically pointless but it lets you see their weapon tech level
+  Weapon "Small Arms" 20000 Launch 1 Time 10 AutoEngage LaunchPoint -1 DefaultOff
+  	Weapon "Body Armor" 1 LaunchPoint -1
+  	Weapon "Optics" 1 LaunchPoint -1
+  Weapon "MANPAD" 20000 Launch 1 Time 75 AutoEngage  LaunchPoint -1 DefaultOff //Mostly for show
+  Weapon "Nuclear Artillery" 20000 Launch 1 Time 150 AutoEngage WhenAttacked ByNuke
+  Weapon "Fusion Artillery" 20000 Launch 1 Time 150 AutoEngage WhenAttacked ByNuke
+  Weapon "Chemical Artillery" 20000 Launch 1 Time 100 AutoEngage
+  Weapon "Improved Chemical Artillery" 20000 Launch 1 Time 100 AutoEngage
+  Weapon "Advanced Chemical Artillery" 20000 Launch 1 Time 100 AutoEngage
+  Weapon "Experimental Chemical Artillery" 20000 Launch 1 Time 100 AutoEngage
+  //Weapon "AA Gun Old" 20000 Launch 1 Time 12 AutoEngage LaunchPoint -1 DefaultOff
+  //Weapon "AA Laser" 20000 Launch 1 Time 12 AutoEngage  LaunchPoint -1 DefaultOff
+  Weapon "Massacre Civilians" 20000 Launch 1 Time 100 LaunchPoint -1
+  //Weapon "Light SAM" 20000 Launch 1 Time 120 AutoEngage LaunchPoint -1 DefaultOff
+  //Weapon "Light SAM MD" 20000 Launch 1 Time 120 AutoEngage LaunchPoint -1 DefaultOff
+  Weapon "C-RAM" 25000 Launch 1 Time 5 AutoEngage LaunchPoint -1 DefaultOff
+
+
+/////CBRN stuff/////
+ Modifier "CBRN_Defence_0"
+ Modifier "CBRN_Defence_1"
+ Modifier "CBRN_Defence_2"
+ Modifier "CBRN_Defence_3"
+ Modifier "CBRN_Defence_4"
+ 
+
+///   Army DEFCON Boosts - Cost
+ ImprovedBy "DEFCON_4" ProductionCost 0.90 //Army DEFCON Cost Boost
+ ImprovedBy "DEFCON_3" ProductionCost 0.85 //Army DEFCON Cost Boost
+ ImprovedBy "DEFCON_2" ProductionCost 0.825 //Army DEFCON Cost Boost
+ ImprovedBy "DEFCON_1" ProductionCost 0.80 //Army DEFCON Cost Boost
+
+
+
+ Modifier "Unit_BioChem_Modifier"
+	AffectedBy Explosion "Chemical_1" Speed 0.75
+	AffectedBy Explosion "Chemical_2" Speed 0.75
+	AffectedBy Explosion "Chemical_3" Speed 0.75
+	AffectedBy Explosion "Chemical_4" Speed 0.75
+	AffectedBy Explosion "Biological" Speed 0.75
+	AffectedBy Explosion "Biological2" Speed 0.75
+	AffectedBy Explosion "Biological3" Speed 0.75
+	AffectedBy Explosion "BiologicalX" Speed 0.75
+
+  Radar "STD Vision"
+  Radar "Reconnaissance"
+  //Radar "STD Short Wave"
+  ProductionCost 18
+  
+  HighState "Army_Mobile_Mode"
+  TimeToHighState 5 // 5 seconds to mobilize
+  LowState "Army_Entrenched"
+  TimeToLowState 60.0 // 60 seconds to entrench
+  
+  DefenceShift Low
+  FastMoveShift High
+  AutoOnRest Low
+  AutoOnRestDelay 30.0 // auto-entrenching after 30 seconds
+
+  HighStateStringIDX 2942
+  LowStateStringIDX 2943
+  ToLowStateProcessStringIDX 2944  
+  ToLowStateIcon "Units/images/go_down.png"
+  ToHighStateIcon "Units/images/go_up.png"
+
+/////Can't find Army_Entrenched, need to remove EMP effects
+   // Modifier "EMP_Defence_Mod_1"
+   // Modifier "EMP_Defence_Mod_2"	
+
+	//MoveToTarget "VirtualCity"
+
+[UNIT] "Army_Mobile_Mode" COPY "Army_Division"
+  SpecialState Yes
+  Icon "Units/Images/Icons/Ground/Army_Division_1.png"  
+  Movie "Units/Images/Ground/Topdown/Army_Division_On_March_1.midx"
+  Model "Units/Images/Ground/Army Division 1 On March.fbx"
+
+  CanCrossBorderDuringPeaceTime false
+  AlwaysVisibleOnEnemyTerritory true  
+  
+  delete ImprovedBy ALL Movie // - deletes all Movie modifiers, so we can assign the new ones
+
+	ImprovedBy "Army_Mech_Mk2"
+	{
+    Movie "Units/Images/Ground/Topdown/Army_Division_On_March_2.midx" Icon "Units/Images/Icons/Ground/Army_Division_2.png"  
+  	Movie Model "Units/Images/Ground/Army Division 2 On March.fbx" 
+	}
+	
+	////Leopard 2
+	ImprovedBy "Army_Mech_Mk3"
+	{
+    Movie "Units/Images/Ground/Topdown/Army_Division_On_March_3.midx" Icon "Units/Images/Icons/Ground/Army_Division_3.png"  
+  	Movie Model "Units/Images/Ground/Army Division 3 On March.fbx" 
+	}
+	
+	/////Leopard 2A7
+	ImprovedBy "Army_Mech_Mk4"
+	{
+    Movie "Units/Images/Ground/Topdown/Army_Division_On_March_4.midx" Icon "Units/Images/Icons/Ground/Army_Division_4.png"  
+  	Movie Model "Units/Images/Ground/Army Division 4 On March.fbx" 
+	}	
+
+	////KF-51
+	ImprovedBy "Army_Mech_Mk5"
+	{
+    Movie "Units/Images/Ground/Topdown/Army_Division_On_March_5.midx" Icon "Units/Images/Icons/Ground/Army_Division_5.png"  
+  	Movie Model "Units/Images/Ground/Army Division 5 On March.fbx" 
+	} 
+  
+  ModelDrawSize 46
+
+  HighState NULL
+  LowState "Army_Division"
+  TimeToLowState 10  
+  StateStringIDX 2946
+  LowStateStringIDX 2947
+  ToLowStateProcessStringIDX -1
+  ToLowStateIcon "Units/images/go_down.png"
+
+  DefenceShift Low
+  FastMoveShift None
+  AttackShift Low
+
+  AutoOnRest Low
+  AutoOnRestDelay 30.0 // auto-entrenching after 30 seconds
+
+  Speed 50 // in km per h
+  Power 100
+  
+  delete config "Army Weapons"
+
+  Config "Army Weapons" Default
+  //Weapon "Land Forces" 20000 Launch 1 Time 10 AutoEngage Principal
+  Weapon "Land Forces Mobile" 20000 Launch 1 Time 100 AutoEngage Principal // need this for the AI
+  //Small arms is basically pointless but it lets you see their weapon tech level
+  Weapon "Small Arms" 20000 Launch 1 Time 10 AutoEngage DefaultOff
+  	Weapon "Body Armor" 1
+  	Weapon "Optics" 1
+	Weapon "MANPAD" 20000 Launch 1 Time 75 AutoEngage DefaultOff //Mostly for show
+  //Weapon "Nuclear Artillery" 20000 Launch 1 Time 150 
+  //Weapon "AA Gun Old" 20000 Launch 1 Time 12 AutoEngage DefaultOff
+  //Weapon "Massacre Civilians" 20000 Launch 1 Time 100
+  //Weapon "Light SAM" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+  //Weapon "Light SAM MD" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+  Weapon "C-RAM" 25000 Launch 1 Time 5 AutoEngage LaunchPoint -1 DefaultOff
+  
+  AutoRepair 0.0
+
+[UNIT] "Army_Entrenched" COPY "Army_Division"
+  
+  SpecialState Yes
+  Icon "Units/Images/Icons/Ground/Army_Division_1.png"  
+  Movie "Units/Images/Ground/Topdown/Army_Division_Entrenched_1.midx"
+  Model "Units/Images/Ground/Army Division 1 Entrenched.midx"    
+  FixedRotationAngle true
+  
+  delete ImprovedBy ALL Movie // - deletes all Movie modifiers, so we can assign the new ones
+
+	ImprovedBy "Army_Mech_Mk2"
+	{
+    Movie "Units/Images/Ground/Topdown/Army_Division_Entrenched_2.midx" Icon "Units/Images/Icons/Ground/Army_Division_2.png"  
+  	Movie Model "Units/Images/Ground/Army Division 2 Entrenched.fbx" 
+	}
+	
+	////Leopard 2
+	ImprovedBy "Army_Mech_Mk3"
+	{
+    Movie "Units/Images/Ground/Topdown/Army_Division_Entrenched_3.midx" Icon "Units/Images/Icons/Ground/Army_Division_3.png"  
+  	Movie Model "Units/Images/Ground/Army Division 3 Entrenched.fbx" 
+	}
+	
+	/////Leopard 2A7
+	ImprovedBy "Army_Mech_Mk4"
+	{
+    Movie "Units/Images/Ground/Topdown/Army_Division_Entrenched_4.midx" Icon "Units/Images/Icons/Ground/Army_Division_4.png"  
+  	Movie Model "Units/Images/Ground/Army Division 4 Entrenched.fbx" 
+	}	
+
+	////KF-51
+	ImprovedBy "Army_Mech_Mk5"
+	{
+    Movie "Units/Images/Ground/Topdown/Army_Division_Entrenched_5.midx" Icon "Units/Images/Icons/Ground/Army_Division_5.png"  
+  	Movie Model "Units/Images/Ground/Army Division 5 Entrenched.fbx" 
+	} 
+  
+  ModelDrawSize 42
+
+  HighState "Army_Division"
+  LowState NULL
+  TimeToLowState 5 
+  StateStringIDX 2945
+  
+  HighStateStringIDX 2947
+  ToLowStateProcessStringIDX -1
+  ToHighStateIcon "Units/images/go_up.png"
+
+  AttackShift High
+  FastMoveShift High
+  DefenceShift None
+  AutoOnMoveShift High
+  AutoOnRest None
+  
+  Modifier "Static_Defender_Bonus"
+  Modifier "Portable_Electronic_Optics_EntMod"
+  Modifier "Tactical_Optics_EntMod"
+  Modifier "Advanced_Tactical_Optics_EntMod"
+  Modifier "Light_Unmanned_Vehicles_EntMod"
+  Modifier "Robotic_Infantry_EntMod"
+  
+  DestructionMessage GroundMobile
+  Speed 0
+  Power 175
+  AutoRepair 0.70
+
+/////////////////////////////////END ARMY DIV/////////////////////////////////
+
+
+////Resupplies friendlies and hosts spec-ops helis//////////////
+[UNIT] "Forward_Operating_Base"
+   Tech "U_FOB"
+  Movie "Units/Images/Ground/Mid-Level/FOB.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/FOB.midx"
+  Model "Units/Images/Ground/Forward Operating Base.fbx"
+  Icon "Units/Images/Icons/Ground/FOB.png"  
+  DrawSize 20
+  AbstractDrawSize 30
+  DrawOrder 1
+  FixedRotationAngle true
+  Size 0.5
+  Sound 137 Volume 0.5
+  Type Ground
+  Class "UC_Building"
+  Power 30
+  SelfDestructTime 15
+  Airway Launch 1 Time 300 // in seconds in 1x time
+ // CanHostAircrafts "Air_Transport" 1
+  CanHostAircrafts "Spec_Ops_Helicopter" 1 Patrol 1
+  CanHostAircrafts "Attack_Helicopter" 2 Patrol 1 AIAutoPatrol
+  
+	//Weapon "Nuclear Artillery" 20000 Launch 1 Time 150
+	Weapon "Small Arms" 20000 Launch 1 Time 10 AutoEngage DefaultOff
+	Weapon "Body Armor" 1
+	Weapon "Optics" 1
+	Weapon "MANPAD" 20000 Launch 1 Time 75 AutoEngage  DefaultOff //Mostly for show
+	Weapon "C-RAM" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+
+  ResupplyRange 150
+  RepairRange 150
+  Radar "Resupply Range FOB"
+  Radar "STD Vision"
+  Radar "Reconnaissance"
+  Modifier "Static_Defender_Bonus"
+  Modifier "Portable_Electronic_Optics_EntMod"
+  Modifier "Tactical_Optics_EntMod"
+  Modifier "Advanced_Tactical_Optics_EntMod"
+  Modifier "Light_Unmanned_Vehicles_EntMod"
+  Modifier "Robotic_Infantry_EntMod"
+  
+  ProductionCost 6
+ 
+  ImprovedBy "Improved_Basic_Protection" Power 1.15
+  ImprovedBy "Basic_Body_Armor" Power 1.15
+  ImprovedBy "Improved_Body_Armor" Power 1.15
+  ImprovedBy "Advanced_Body_Armor" Power 1.15
+  ImprovedBy "Experimental_Body_Armor" Power 1.15  
+ 
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+	
+	Modifier "Unit_BioChem_Modifier"
+    Modifier "CBRN_Defence_0"	
+	Modifier "CBRN_Defence_1"
+	Modifier "CBRN_Defence_2"
+	Modifier "CBRN_Defence_3"
+	Modifier "CBRN_Defence_4"	
+ 
+[UNIT] "Combat_Engineers"
+  Tech "U_Combat_Engineers"
+  Movie "Units/Images/Ground/Mid-Level/Combat_Engineers.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Combat_Engineer.midx"
+  Model "Units/Images/Ground/Combat Engineers.fbx"
+  Icon "Units/Images/Icons/Ground/Combat_Engineers.png"    
+  IconIDX 54
+  IconIDX 10
+  DrawSize 22
+  AbstractDrawSize 30
+  FollowRadius 39//34
+  Size 0.8
+  Sound 138 Volume 0.2
+  Type Ground
+  Class "UC_Ground_Mobile"
+  AutoRepair 0.60
+  Speed 30
+  TurnSpeed 4 // in angles per second
+  Power 40
+  SelfDestructTime 40
+  HangarMaxLoad 3
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+  
+  AlwaysVisibleOnEnemyTerritory Yes
+  CanCrossBorderDuringPeaceTime No
+  
+  ////Same bonuses as army divisions
+  //Modifier "ECM_Bonus_1"
+  //Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  //ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  //ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99
+  
+    ProducedByAnotherUnit true
+    TargetInPlanner Yes
+  
+  CanCarryUnit "Fixed_LW_radar"
+  CanCarryUnit "SAM_site"
+  CanCarryUnit "Forward_Operating_Base"
+  CanCarryUnit "Security_Checkpoint"
+  CanCarryUnit "Improvised_Airbase"
+  CanCarryUnit "SRBM_Site"
+  
+  ImprovedBy "Army_Mech_Mk2" Speed 1.3333
+  ImprovedBy "Army_Mech_Mk3" Speed 1.125
+  ImprovedBy "Army_Mech_Mk4" Speed 1.222
+  ImprovedBy "Army_Mech_Mk5" Speed 1.09
+  ImprovedBy "Army_Mech_Mk2" Power 1.05
+  ImprovedBy "Army_Mech_Mk3" Power 1.05
+  ImprovedBy "Army_Mech_Mk4" Power 1.05
+  ImprovedBy "Army_Mech_Mk5" Power 1.05
+ 
+  ImprovedBy "Improved_Basic_Protection" Power 1.15
+  ImprovedBy "Basic_Body_Armor" Power 1.15
+  ImprovedBy "Improved_Body_Armor" Power 1.15
+  ImprovedBy "Advanced_Body_Armor" Power 1.15
+  ImprovedBy "Experimental_Body_Armor" Power 1.15 
+
+  Weapon "Small Arms" 20000 Launch 1 Time 10 AutoEngage DefaultOff
+  	Weapon "Body Armor" 1
+  	Weapon "Optics" 1
+	Weapon "MANPAD" 20000 Launch 1 Time 75 AutoEngage  DefaultOff //Mostly for show
+	Weapon "C-RAM" 25000 Launch 1 Time 5 AutoEngage LaunchPoint -1 DefaultOff
+  //Weapon "AA Gun Old" 20000 Launch 1 Time 12 AutoEngage DefaultOff
+  //Weapon "Light SAM" 20000 Launch 1 Time 90 AutoEngage DefaultOff
+  //Weapon "Point Defence SAM" 20000 Launch 1 Time 40 AutoEngage
+
+/////CBRN stuff/////
+
+ Modifier "CBRN_Defence_0"
+ Modifier "CBRN_Defence_1"
+ Modifier "CBRN_Defence_2"
+ Modifier "CBRN_Defence_3"
+ Modifier "CBRN_Defence_4"
+
+ Modifier "Unit_BioChem_Modifier"
+	AffectedBy Explosion "Chemical_1" Speed 0.75
+	AffectedBy Explosion "Chemical_2" Speed 0.75
+	AffectedBy Explosion "Chemical_3" Speed 0.75
+	AffectedBy Explosion "Chemical_4" Speed 0.75
+	AffectedBy Explosion "Biological" Speed 0.75
+	AffectedBy Explosion "Biological2" Speed 0.75
+	AffectedBy Explosion "Biological3" Speed 0.75
+	AffectedBy Explosion "BiologicalX" Speed 0.75
+
+  //Weapon "SSM" 20000 AutoEngage
+  Radar "STD Vision"
+  ProductionCost 12
+  CanAccessGlobalStorage No  
+
+
+[UNIT] "Bomb_Truck"
+  Tech "U_Bomb_Truck"
+  Movie "Units/Images/Ground/Mid-Level/Bomb_Truck.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Bomb_Truck.midx"
+  Icon "Units/Images/Icons/Ground/Bomb_Truck.png"
+  Model "Units/Images/Ground/Bomb Truck.fbx"    
+  DrawSize 16
+  AbstractDrawSize 30
+  Size 0.05
+  Sound 140 Volume 0.6
+  Type Ground
+  Class "UC_Ground_Mobile"
+  AttackerInPlanner
+  //OccupationRadius 0.01
+  CanCrossBorderDuringPeaceTime No
+  Speed 55
+  TurnSpeed 10
+  Power 0.5
+  SelfDestructTime 0
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+
+  Modifier "Bomb_Truck"
+  Modifier "Covert_Unit"
+  HiddenFromAllies
+  DoesNotTriggerWarWhenAttacked Yes
+
+  Config "C4" Default
+    Weapon "Car Bomb" 1
+	
+  Config "Light 100kt Bomb"
+    Weapon "100kt_nuke_light" 1
+  Config "Light 250kt Bomb"
+    Weapon "250kt_nuke_light" 1
+  Config "Light 500kt Bomb"
+    Weapon "500kt nuke_light" 1	
+  Config "Light Megaton Bomb"
+    Weapon "1M nuke_light" 1	
+  Config "Light 5 Megaton Bomb"
+    Weapon "5M nuke_light" 1	
+  Config "Light 500kt Cobalt Bomb"
+    Weapon "500kt Light Cobalt Bomb" 1
+  Config "Light 500kt Enhanced Salted Bomb"
+    Weapon "500kt Light Salt Bomb" 1	
+	
+  Config "Tularemia Bomb" OnlyFull
+    Weapon "Bioweapon_bomb" 1 Principal
+	Weapon "Car Bomb" 1
+  Config "Smallpox Bomb" OnlyFull
+    Weapon "Improved_Bioweapon_bomb" 1 Principal
+	Weapon "Car Bomb" 1
+  Config "Ebola Bomb" OnlyFull
+    Weapon "Advanced_Bioweapon_bomb" 1 Principal
+	Weapon "Car Bomb" 1
+  Config "Medusa Fever Bomb" OnlyFull
+    Weapon "Engineered_Bioweapon_bomb" 1 Principal
+	Weapon "Car Bomb" 1
+  
+  Radar "STD Vision"
+    CanAccessGlobalStorage No
+  ProductionCost 2.5
+  MoveToTarget "VirtualCity"
+
+[UNIT] "Heavy_Bomb_Truck"
+  Tech "U_Bomb_Truck_Heavy"
+  Movie "Units/Images/Ground/Mid-Level/Bomb_Truck_Heavy.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Heavy_Bomb_Truck.midx"
+  Icon "Units/Images/Icons/Ground/Bomb_Truck_Heavy.png"
+  Model "Units/Images/Ground/Bomb Truck Heavy.fbx"    
+  DrawSize 25
+  AbstractDrawSize 35
+  Size 0.075
+  Sound 140 Volume 0.6
+  Type Ground
+  Class "UC_Ground_Mobile"
+  AttackerInPlanner
+  //OccupationRadius 0.01
+  CanCrossBorderDuringPeaceTime No
+  Speed 45
+  TurnSpeed 10
+  Power 0.75
+  SelfDestructTime 0
+  HangarSpaceRequired 1
+  ReportAsHosted Yes
+
+  Modifier "Bomb_Truck"
+  Modifier "Covert_Unit"
+  HiddenFromAllies
+  DoesNotTriggerWarWhenAttacked Yes
+
+  Config "C4" Default
+    Weapon "Car Bomb" 1
+	
+  Config "Light 100kt Bomb"
+    Weapon "100kt_nuke_light" 1
+  Config "Light 250kt Bomb"
+    Weapon "250kt_nuke_light" 1
+  Config "Light 500kt Bomb"
+    Weapon "500kt nuke_light" 1	
+  Config "Light Megaton Bomb"
+    Weapon "1M nuke_light" 1	
+  Config "Light 5 Megaton Bomb"
+    Weapon "5M nuke_light" 1	
+  Config "Light 500kt Cobalt Bomb"
+    Weapon "500kt Light Cobalt Bomb" 1
+  Config "Light 500kt Enhanced Salted Bomb"
+    Weapon "500kt Light Salt Bomb" 1	
+	
+  Config "Heavy 500 Kiloton"
+    Weapon "500kt nuke_heavy" 1
+  Config "Heavy 10 Megaton"
+    Weapon "10M nuke_heavy" 1
+  Config "Heavy 25 Megaton"
+    Weapon "25M nuke_heavy" 1		
+  Config "Heavy 50 Megaton"
+    Weapon "50M nuke_heavy" 1
+  Config "Heavy 100 Megaton"
+    Weapon "100M nuke_heavy" 1
+  Config "Heavy Cobalt Bomb"
+    Weapon "Cobalt_Bomb" 1
+  Config "Heavy Enhanced Salted Bomb"
+    Weapon "Salted_Bomb" 1
+
+  Config "Tularemia Bomb" OnlyFull
+    Weapon "Bioweapon_bomb" 1 Principal
+	Weapon "Car Bomb" 1
+  Config "Smallpox Bomb" OnlyFull
+    Weapon "Improved_Bioweapon_bomb" 1 Principal
+	Weapon "Car Bomb" 1
+  Config "Ebola Bomb" OnlyFull
+    Weapon "Advanced_Bioweapon_bomb" 1 Principal
+	Weapon "Car Bomb" 1
+  Config "Medusa Fever Bomb" OnlyFull
+    Weapon "Engineered_Bioweapon_bomb" 1 Principal
+	Weapon "Car Bomb" 1
+  
+  Radar "STD Vision"
+  CanAccessGlobalStorage No  
+  ProductionCost 6.5
+  MoveToTarget "VirtualCity"
+
+
+[UNIT] "Air_Transport"
+  Tech "U_Air_Transport"
+  MaxElevation 20
+  Movie "Units/Images/Airborne/Topdown/Airlift_1.midx"
+  AbstractMovie "Units/Images/Airborne/Abstract/Transport_Plane.midx"
+  Model "Units/Images/AIRBORNE/Airlift 1.midx"
+  Icon "Units/Images/Icons/Airborne/Airlift_1.png"  
+  IconIDX 52
+  DrawSize 26
+  AbstractDrawSize 25
+  LaunchMeSound 84
+  Size 0.2
+  Sound 135 Volume 0.4
+  Type Airborne
+  NoAutoDeploy
+  Slave
+  CanCarryUnit "Army_Division"
+  CanCarryUnit "Combat_Engineers"
+  CanCarryUnit "AA_Site_Old"
+  CanCarryUnit "Coastal"
+  CanCarryUnit "MOBILE_SAM"
+  CanCarryUnit "Mobile_SW_Radar"
+  CanCarryUnit "EW_MOBILE"
+  CanCarryUnit "Mobile_SRBM"
+  //Disabled CanCarryUnit "Mobile_MRBM"
+  //Disabled CanCarryUnit "Mobile_ICBM"
+  //Disabled CanCarryUnit "Terminal_ABM"
+  //CanCarryUnit "Mobile_ABM_Laser"  
+  HangarMaxLoad 1
+  AutoReturn Yes
+  Speed 400
+  TurnSpeed 4
+  Range 5000
+  Power 3.0
+  ProductionCost 5
+  //DoesNotTriggerWarWhenAttacked Yes
+
+  Crash "big_bomb"
+  Radar "Air Vision"
+  
+    Modifier "EMP_Killable"
+	  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+  
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+  
+
+  ////C-141 Starlifter
+  ImprovedBy "Heavy_Airframe_1" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Airlift_2.midx"  Icon "Units/Images/Icons/Airborne/Airlift_2.png"  
+	Movie Model "Units/Images/AIRBORNE/Airlift 2.fbx"
+    Set Speed 600
+	//Set Size 0.15
+    Set TurnSpeed 6
+    Set Range 9000
+	Set Power 3.6
+  }
+  ///C-17 Globemaster III
+    ImprovedBy "Heavy_Airframe_2" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Airlift_3.midx" Icon "Units/Images/Icons/Airborne/Airlift_3.png"  
+	Movie Model "Units/Images/AIRBORNE/Airlift 3.fbx"
+    Set Speed 750
+	//Set Size 0.15
+    Set TurnSpeed 7.5
+    Set Range 12000
+	Set Power 4.2
+  }
+  
+  ///Hybrid Wing Body
+    ImprovedBy "Heavy_Airframe_3" 
+  {
+    Movie "Units/Images/Airborne/Topdown/Airlift_4.midx"  Icon "Units/Images/Icons/Airborne/Airlift_4.png"  
+	Movie Model "Units/Images/AIRBORNE/Airlift 4.fbx"
+    Set Speed 900
+	Set Size 0.15
+    Set TurnSpeed 9
+    Set Range 18000
+	Set Power 5.0
+  }
+  
+    CheckTargeting BY "AAM" OR "SAM" Message Lock 2841 NoLock 2842
+
+
+[UNIT] "Army_Base"
+Tech "U_Army_Base"
+  Movie "Units/Images/Ground/Mid-Level/Army_Base.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Army_Base.midx"
+  Model "Units/Images/Ground/Army Base.fbx"
+  Icon "Units/Images/Icons/Ground/Army_Base.png"    
+  DrawSize 30
+  AbstractDrawSize 40
+  DrawOrder 1
+  FixedRotationAngle true
+  TurnSpeed 720
+
+  Size 0.5
+  Sound 137 Volume 0.5
+  Type Ground
+  Class "UC_Building"
+
+  OccupationRadius 125
+  AlwaysVisibleOnEnemyTerritory Yes
+  Power 125
+  SelfDestructTime 60
+  Airway Launch 1 Time 90 // in seconds in 1x time
+  Airway Launch 1 Time 120 // in seconds in 1x time
+  CanHostAircrafts "Air_Transport" 3
+  CanHostAircrafts airway 1 "Spec_Ops_Helicopter" 2 Patrol 1
+  CanHostAircrafts airway 1 "Attack_Helicopter" 5 Patrol 2 AIAutoPatrol
+  Produces "Army_Division"
+  Produces "Combat_Engineers"
+  ProductionPlacementRadius 100
+  
+  ResupplyRange 150
+  RepairRange 150
+  Radar "Resupply Range FOB"  
+  
+    Weapon "Land Forces" 20000 Launch 1 Time 10 AutoEngage Principal
+	Weapon "Nuclear Artillery" 20000 Launch 1 Time 150 AutoEngage WhenAttacked ByNuke
+	Weapon "Fusion Artillery" 20000 Launch 1 Time 150 AutoEngage WhenAttacked ByNuke
+	Weapon "Chemical Artillery" 20000 Launch 1 Time 100 AutoEngage
+	Weapon "Improved Chemical Artillery" 20000 Launch 1 Time 100 AutoEngage
+	Weapon "Advanced Chemical Artillery" 20000 Launch 1 Time 100 AutoEngage
+	Weapon "Experimental Chemical Artillery" 20000 Launch 1 Time 100 AutoEngage
+	Weapon "Small Arms" 20000 Launch 1 Time 10 AutoEngage DefaultOff
+	Weapon "AA Gun Old" 20000 Launch 1 Time 12 AutoEngage DefaultOff DefaultOff
+	Weapon "AA Laser" 20000 Launch 1 Time 12 AutoEngage DefaultOff
+	Weapon "Light SAM" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+	Weapon "Light SAM MD" 20000 Launch 1 Time 120 AutoEngage DefaultOff
+	Weapon "C-RAM" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+		Weapon "Body Armor" 1
+		Weapon "Optics" 1
+    Weapon "MANPAD" 20000 Launch 1 Time 75 AutoEngage  DefaultOff //Mostly for show
+  //CanCarryUnit "Army_Division"
+  //HangarMaxLoad 3
+  Radar "STD Vision"
+  Radar "STD Short Wave"
+  
+  Modifier "BM_Accuracy_Damage_Penalty" 
+	
+  Modifier "Static_Defender_Bonus"
+  Modifier "Portable_Electronic_Optics_EntMod"
+  Modifier "Tactical_Optics_EntMod"
+  Modifier "Advanced_Tactical_Optics_EntMod"
+  Modifier "Light_Unmanned_Vehicles_EntMod"
+  Modifier "Robotic_Infantry_EntMod"
+  
+  //Auto Repair is faster for bases - Ostensibly 'dug in'
+  AutoRepair 0.70
+  ProductionCost 10.0
+
+  ImprovedBy "Improved_Basic_Protection" Power 1.15
+  ImprovedBy "Basic_Body_Armor" Power 1.15
+  ImprovedBy "Improved_Body_Armor" Power 1.15
+  ImprovedBy "Advanced_Body_Armor" Power 1.15
+  ImprovedBy "Experimental_Body_Armor" Power 1.15 
+
+	 Modifier "Unit_BioChem_Modifier"
+	 Modifier "CBRN_Defence_0"	 
+	 Modifier "CBRN_Defence_1"
+	 Modifier "CBRN_Defence_2"
+	 Modifier "CBRN_Defence_3"
+	 Modifier "CBRN_Defence_4"
+
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+[UNIT] "Landing_Ship"
+  Tech "U_Landing_Ship"
+  Movie "Units/Images/Naval/Topdown/Landing_Ship.midx"
+  AbstractMovie "Units/Images/Naval/Abstract/Landing_Ship.midx"
+  Icon "Units/Images/Icons/Naval/Landing_Ship.png"
+  Model "Units/Images/Naval/Landing Ship.fbx"    
+  RoundIcon "Units/Images/Icons/Naval/Landing_Ship_Round.png"
+  IconIDX 9
+  DrawSize 25
+  AbstractDrawSize 30
+  FollowRadius 28//24
+  Size 0.4
+  Sound 131 Volume 0.75
+  Type Naval
+  Speed 40
+  TurnSpeed 5 // in angles per second
+  Power 30
+  SelfDestructTime 20
+  CanCarryUnit "Army_Division"
+  CanCarryUnit "Combat_Engineers"  
+  CanCarryUnit "AA_Site_Old"
+  CanCarryUnit "Coastal"
+  CanCarryUnit "MOBILE_SAM"
+  CanCarryUnit "Mobile_SW_Radar"
+  CanCarryUnit "EW_MOBILE"
+  CanCarryUnit "Mobile_SRBM"
+  CanCarryUnit "Mobile_MRBM"
+  CanCarryUnit "Mobile_ICBM"
+  CanCarryUnit "Terminal_ABM"
+  CanCarryUnit "Mobile_ABM_Laser"
+  HangarMaxLoad 4
+  Radar "STD Vision"
+  
+  Weapon "CIWS" 25000 Launch 1 Time 5 AutoEngage DefaultOff
+  Weapon "Laser CIWS" 25000 Launch 1 Time 20 AutoEngage DefaultOff
+  
+  AutoRepair 0.25
+  
+	Modifier "BM_Accuracy_Damage_Penalty"   
+  
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+  
+  ProductionCost 4.5
+ /* ImprovedBy "Powerful_Engine" Set Speed 55
+  ImprovedBy "Powerful_Engine_Mk2" Set Speed 65
+  ImprovedBy "Powerful_Engine_Mk3" Set Speed 75 */
+  
+  ImprovedBy "Missile_Warships"
+  {
+  Set Size 0.38
+  Set Speed 45
+  Set TurnSpeed 5.5
+  //Set Power
+  }
+  
+  ImprovedBy "Improved_Warships"
+  {
+  Set Size 0.36
+  Set Speed 50
+  Set TurnSpeed 6.0
+  Set Power 35
+  }
+  
+ ImprovedBy "Enhanced_Warships"
+  {
+    Set Size 0.34
+  Set Speed 55
+  Set TurnSpeed 6.5
+  //Set Power
+  } 
+  
+ ImprovedBy "Advanced_Warships"
+  {
+    Set Size 0.32
+  Set Speed 65
+  Set TurnSpeed 7.0
+  Set Power 40
+  }  
+ ImprovedBy "Experimental_Warships"
+  {
+    Set Size 0.30
+  Set Speed 70
+  Set TurnSpeed 7.5
+  Set Power 45
+  }
+  
+
+[UNIT] "Resupply_Ship"
+  Tech "U_Resupply_Ship"
+  Movie "Units/Images/Naval/Topdown/Resupply_Ship.midx"
+  AbstractMovie "Units/Images/Naval/Abstract/Resupply_Ship.midx"
+  Icon "Units/Images/Icons/Naval/Resupply_Ship.png"
+  Model "Units/Images/Naval/Resupply Ship.fbx"      
+  RoundIcon "Units/Images/Icons/Naval/Resupply_Ship_Round.png"
+  IconIDX 9
+  DrawSize 25
+  AbstractDrawSize 30
+  FollowRadius 28//24
+  Size 0.25
+  Sound 130 Volume 0.75
+  Type Naval
+  Speed 35
+  TurnSpeed 5 // in angles per second
+  Power 6
+  SelfDestructTime 15
+  ResupplyRange 225
+  RepairRange 225
+  //CanCarryUnit "Bomb_Truck"
+  //CanCarryUnit "Heavy_Bomb_Truck"
+  //HangarMaxLoad 2
+  Radar "STD Vision"
+  Radar "Resupply Range"
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+  
+  Modifier "ECM_Bonus_1"
+  Modifier "ECM_Bonus_2"
+  Modifier "ECM_Bonus_3"
+  Modifier "ECM_Bonus_4"
+  ImprovedBy "Electronic_Counters_Mk1" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk2" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk3" Size 0.99
+  ImprovedBy "Electronic_Counters_Mk4" Size 0.99  
+  
+  ProductionCost 15.0
+  /* ImprovedBy "Powerful_Engine" Set Speed 45
+  ImprovedBy "Powerful_Engine_Mk2" Set Speed 55
+  ImprovedBy "Powerful_Engine_Mk3" Set Speed 65 */
+
+  ImprovedBy "Missile_Warships"
+  {
+  Set Size 0.24
+  Set Speed 40
+  Set TurnSpeed 5.5
+  Set Power 6.5
+  }
+  
+  ImprovedBy "Improved_Warships"
+  {
+  Set Size 0.23
+  Set Speed 45
+  Set TurnSpeed 6.0
+  Set Power 7
+  }
+  
+ ImprovedBy "Enhanced_Warships"
+  {
+  Set Size 0.22
+  Set Speed 50 
+  Set TurnSpeed 6.5
+  Set Power 8
+  } 
+  
+ ImprovedBy "Advanced_Warships"
+  {
+  Set Size 0.21
+  Set Speed 60
+  Set TurnSpeed 7.0
+  Set Power 9
+  }  
+ ImprovedBy "Experimental_Warships"
+  {
+  Set Size 0.2
+  Set Speed 65
+  Set TurnSpeed 7.5
+  Set Power 10
+  }
+
+
+///////////////////////////////////SPACE STUFF///////////////////////////////////////
+////Space Center
+[UNIT] "Space_Operations_Center"
+Tech "U_Space_Base"
+  Movie "Units/Images/Ground/Mid-Level/Space_Center.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Space_Center.midx"
+  Model "Units/Images/Ground/Space Center.fbx"  
+  Icon "Units/Images/Icons/Ground/Space_Center.png"
+  DrawSize 28
+  AbstractDrawSize 30
+  DrawOrder 1
+  FixedRotationAngle true
+  Size 0.5
+  Sound 137 Volume 0.5
+  Type Ground
+  Class "UC_Space"
+
+  Power 10
+  SelfDestructTime 20
+  AlwaysVisibleOnEnemyTerritory Yes
+  Produces "Satellite"
+  Produces "Early_Warning_Satellite"
+  Produces "Kinetic_Strike_Satellite"
+  Produces "Laser_Defence_Satellite"
+  Produces "Hunter-Killer_Satellite"  
+  Produces "Countervalue_Laser_Satellite"  
+  //ProductionPlacementRadius 23000
+
+	Modifier "BM_Accuracy_Damage_Penalty" 
+  
+	Weapon "Small Arms" 20000 Launch 1 Time 10 AutoEngage DefaultOff
+  Radar "STD Vision"
+  Radar "Counter-spy"
+  ProductionCost 24.0
+
+[UNIT] "Satellite_Relay_Station"
+  Tech "U_Satellite_Relay"
+  Movie "Units/Images/Ground/Mid-Level/Satellite_Relay.midx"
+  AbstractMovie "Units/Images/Ground/Abstract/Satellite_Relay.midx"
+  Model "Units/Images/Satellite/Satellite Relay Station.fbx"  
+  Icon "Units/Images/Icons/Ground/Satellite_Relay.png"
+  DrawSize 17
+  AbstractDrawSize 30
+  DrawOrder 1
+  FixedRotationAngle true
+  Size 0.1
+  Sound 137 Volume 0.5
+  Type Ground
+  Class "UC_Space"
+  
+  	Modifier "BM_Accuracy_Damage_Penalty" 
+
+  AlwaysVisibleOnEnemyTerritory Yes
+  Power 2
+  SelfDestructTime 10
+  Weapon "Satellite Relay" 20000 DefaultOff
+  Radar "STD Vision"
+  Radar "Satellite Relay Range"  
+  ProductionCost 12.0
+  
+  ImprovedBy "Improved_Optics"
+  {
+    Movie "Units/Images/Ground/Mid-Level/Upgraded_Satellite_Relay.midx"  Icon "Units/Images/Icons/Ground/Upgraded_Satellite_Relay.png"
+	Movie Model "Units/Images/Satellite/Upgraded Satellite Relay Station.fbx"
+  }	
+
+
+///////////Basic spy satellite/////////////
+[UNIT] "Satellite"
+  Tech "U_Satellite"
+  Movie "Units/Images/Satellite/Mid-Level/Early_Spy_Sat.midx"
+  AbstractMovie "Units/Images/Satellite/Abstract/Spy_Satellite.midx"
+  Model "Units/Images/Satellite/Early Spy Satellite.fbx"
+  Icon "Units/Images/Icons/Satellite/Early_Spy_Sat.png"
+  DrawSize 32
+  Size 0.175
+  Sound 142 Volume 0.75
+  Type Satellite
+  Power 1
+  SelfDestructTime 10
+  //Weapon "Satellite Laser" 20000 Launch 1 Time 60 AutoEngage
+  MinElevation 4000
+  MaxElevation 10000
+  Radar "Satellite Optics Display"  
+  Radar "Satellite Film Camera"
+  ProductionCost 15
+  
+    Modifier "EMP_Killable"
+	  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+  
+///////For showing "Relay missing" messages, not implemented yet. Icons don't work on sats  
+  //CheckCoverage "Satellite Laser" BY "Satellite Relay Range" Message 2958
+  
+  
+  //Modifier "Satellite_Defence"
+  
+  ImprovedBy "Improved_Optics" 
+  {
+  Radar "Datalink Satellite Camera"
+  Radar "Satellite Optics Display" 
+
+    Movie "Units/Images/Satellite/Mid-Level/Spy_Satellite.midx"  Icon "Units/Images/Icons/Satellite/Spy_Satellite.png"
+	Movie Model "Units/Images/Satellite/Spy Satellite.fbx"
+  }
+  
+  ImprovedBy "Advanced_Sat_Optics"
+  {
+  Radar "High-Resolution Satellite Camera"
+  Radar "Satellite Optics Display"  
+  }
+  
+  ImprovedBy "Experimental_Sat_Optics" 
+  {
+  Radar "Ultra-Resolution Satellite Camera"
+  Radar "Satellite Optics Display"  
+  }
+  
+  Modifier "Satellite_Stealth_Bonus_Modifier_1"
+  Modifier "Satellite_Stealth_Bonus_Modifier_2"  
+
+  ImprovedBy "Novel_Stealth_Applications"
+  {
+    Movie "Units/Images/Satellite/Mid-Level/Stealth_Satellite.midx"  Icon "Units/Images/Icons/Satellite/Stealth_Satellite.png"
+	Movie Model "Units/Images/Satellite/Stealth Satellite.fbx"
+    Size 0.99	
+   }
+  
+  ImprovedBy "Advanced_Stealth" Size 0.99
+	  
+	 ProducedByAnotherUnit true
+	 	TargetInPlanner Yes
+
+[UNIT] "Early_Warning_Satellite"
+  Tech "U_Satellite_EWS"
+  Movie "Units/Images/Satellite/Mid-Level/EWS_Satellite_1.midx"
+  AbstractMovie "Units/Images/Satellite/Abstract/Early_Warning Satellite.midx"
+  Model "Units/Images/Satellite/Launch Warning Satellite.fbx"
+  Icon "Units/Images/Icons/Satellite/EWS_Satellite_1.png"
+  DrawSize 32
+  Size 0.175
+  Sound 142 Volume 0.75
+  Type Satellite
+  Power 1
+  SelfDestructTime 10
+  //Weapon "Satellite Laser" 20000 Launch 1 Time 60 AutoEngage
+  MinElevation 4000
+  MaxElevation 10000
+  Radar "Satellite EWS"
+  Radar "Satellite EWS Display"
+  //AttackIfDestroyed
+  ProductionCost 13.5
+  
+    Modifier "EMP_Killable"
+	  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Invulnerable"	
+  
+    ImprovedBy "Improved_Launch_Warning_Satellite" 
+  {    	
+	Movie "Units/Images/Satellite/Mid-Level/EWS_Satellite_2.midx" Icon "Units/Images/Icons/Satellite/EWS_Satellite_2.png"
+	Movie   Model "Units/Images/Satellite/Adv LW Satellite.fbx"
+  }
+
+   // Modifier "Satellite_Defence"
+	
+  Modifier "Satellite_Stealth_Bonus_Modifier_1"
+  Modifier "Satellite_Stealth_Bonus_Modifier_2"  
+  ImprovedBy "Novel_Stealth_Applications" Size 0.99	  
+  ImprovedBy "Advanced_Stealth" Size 0.99
+	  
+	    ProducedByAnotherUnit true  
+			TargetInPlanner Yes
+  
+[UNIT] "Kinetic_Strike_Satellite"
+  Tech "U_Satellite_Attack"
+  Movie "Units/Images/Satellite/Mid-Level/Kinetic_Satellite.midx"
+  AbstractMovie "Units/Images/Satellite/Abstract/Kinetic_Attack_Satellite.midx"
+  Model "Units/Images/Satellite/Kinetic Attack Satellite.fbx"
+  Icon "Units/Images/Icons/Satellite/Kinetic_Satellite.png"
+  DrawSize 32
+  Size 0.175
+  Sound 142 Volume 0.75
+  Type Satellite
+  Power 2
+  SelfDestructTime 10
+  /////NO LASERS - TOO HEAVY AND ON OTHER SATS. MAY REVERT LATER///////
+  //Weapon "Satellite Laser" 20000 Launch 1 Time 60 AutoEngage
+  //Weapon "ASAT Laser" 20000 Launch 1 Time 60 AutoEngage
+  //Weapon "ASAT" 5 DefaultOff
+  Weapon "Orbital Kinetic Bomb" 8
+  MinElevation 4000
+  MaxElevation 10000
+  AttackerInPlanner
+  //AttackIfDestroyed
+    HiddenFromAllies
+  ProductionCost 32.0
+  Radar "Kinetic Strike Range"
+
+  Modifier "EMP_Killable"
+    ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+
+  CheckCoverage "Orbital Kinetic Bomb" BY "Satellite Relay Range" Message 2958
+
+  Modifier "Satellite_Defence"
+
+  Modifier "Satellite_Stealth_Bonus_Modifier_1"
+  Modifier "Satellite_Stealth_Bonus_Modifier_2"  
+  ImprovedBy "Novel_Stealth_Applications" Size 0.99	  
+  ImprovedBy "Advanced_Stealth" Size 0.99
+	  
+	    ProducedByAnotherUnit true  
+			TargetInPlanner Yes
+		
+		
+///////////SDI Satellite - Star Wars!/////////////
+[UNIT] "Laser_Defence_Satellite"
+  Tech "U_Laser_Defence_Satellite"
+  Movie "Units/Images/Satellite/Mid-Level/Laser_Defence_Satellite.midx"
+  AbstractMovie "Units/Images/Satellite/Abstract/Laser_Defence_Satellite.midx"
+  Model "Units/Images/Satellite/Laser Defence Satellite.fbx"
+  Icon "Units/Images/Icons/Satellite/Laser_Defence_Satellite.png"  
+  
+  DrawSize 32
+  Size 0.175
+  Sound 142 Volume 0.75
+  Type Satellite
+  Power 2
+  SelfDestructTime 10
+  Weapon "Satellite Laser" 20000 Launch 1 Time 60 AutoEngage
+  Weapon "ASAT Laser" 20000 Launch 1 Time 60 AutoEngage  
+  MinElevation 4000
+  MaxElevation 10000
+  Radar "Satellite_Mini_Space_Radar"
+  //AttackIfDestroyed
+  ProductionCost 21.0
+  
+   Modifier "EMP_Killable" 
+     ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+  
+///////For showing "Relay missing" messages, not implemented yet. Icons don't work on sats  
+  ///Autonomous, does not need instructions
+  ///CheckCoverage "Satellite Laser" BY "Satellite Relay Range" Message 2958
+    
+  Modifier "Satellite_Defence"
+  
+    
+  Modifier "Satellite_Stealth_Bonus_Modifier_1"
+  Modifier "Satellite_Stealth_Bonus_Modifier_2"  
+  ImprovedBy "Novel_Stealth_Applications" Size 0.99	  
+  ImprovedBy "Advanced_Stealth" Size 0.99
+	  
+	 ProducedByAnotherUnit true
+	 	TargetInPlanner Yes
+
+[UNIT] "Hunter-Killer_Satellite"
+  Tech "U_Hunter-Killer_Satellite"
+  Movie "Units/Images/Satellite/Mid-Level/Hunter_Killer_Satellite.midx"
+  AbstractMovie "Units/Images/Satellite/Abstract/Hunter_Killer_Satellite.midx"
+  Model "Units/Images/Satellite/Hunter-Killer Satellite.fbx"
+  Icon "Units/Images/Icons/Satellite/Hunter_Killer_Satellite.png"
+  
+  DrawSize 32
+  Size 0.175
+  Sound 142 Volume 0.75
+  Type Satellite
+  Power 5
+  SelfDestructTime 10
+  Weapon "Satellite Laser" 20000 Launch 1 Time 40 AutoEngage
+  Weapon "ASAT Laser" 20000 Launch 1 Time 40 AutoEngage
+  Weapon "Satellite ASAT" 6 Launch 1 Time 300 AutoEngage
+  MinElevation 4000
+  MaxElevation 10000
+  Radar "Satellite_Mini_Space_Radar"
+  
+  ProductionCost 32
+  
+    Modifier "EMP_Killable"
+	  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+  
+///////For showing "Relay missing" messages, not implemented yet. Icons don't work on sats  
+  
+  ///Autonomous, does not need instructions? Experiment.
+  //CheckCoverage "ASAT Laser" BY "Satellite Relay Range" Message 2958
+    
+  Modifier "Satellite_Defence"
+     
+  Modifier "Satellite_Stealth_Bonus_Modifier_1"
+  Modifier "Satellite_Stealth_Bonus_Modifier_2"  
+  ImprovedBy "Novel_Stealth_Applications" Size 0.99	  
+  ImprovedBy "Advanced_Stealth" Size 0.99
+	  
+	 ProducedByAnotherUnit true
+	 	TargetInPlanner Yes
+	  
+	  
+[UNIT] "Countervalue_Laser_Satellite"
+  Tech "U_Satellite_Death_Laser"
+  Movie "Units/Images/Satellite/Mid-Level/DEW_Sat.midx"
+  AbstractMovie "Units/Images/Satellite/Abstract/DEW_Attack_Satellite.midx"
+  Model "Units/Images/Satellite/DEWS Satellite.fbx"
+  Icon "Units/Images/Icons/Satellite/DEW_Sat.png"    
+  DrawSize 32
+  Size 0.25
+  Sound 142 Volume 0.75
+  Type Satellite
+  Power 3
+  SelfDestructTime 10
+  Weapon "Fusion Laser" 20000 Launch 1 Time 15 AutoEngage
+  //Weapon "ASAT Laser" 20000 Launch 1 Time 15 AutoEngage //Laser is too big to aim at enemy sats
+  MinElevation 4000
+  MaxElevation 10000
+  Radar "DEW Range"
+
+  AttackerInPlanner
+  //AttackIfDestroyed
+    HiddenFromAllies
+  ProductionCost 72
+  
+    Modifier "EMP_Killable"
+	  ImprovedBy "EMP_Defence" delete Modifier "EMP_Killable"
+    Modifier "EMP_Defence_Mod_1"
+    Modifier "EMP_Defence_Mod_2"	
+  
+    Modifier "Satellite_Defence"
+
+  Modifier "Satellite_Stealth_Bonus_Modifier_1"
+  Modifier "Satellite_Stealth_Bonus_Modifier_2"  
+  ImprovedBy "Novel_Stealth_Applications" Size 0.99	  
+  ImprovedBy "Advanced_Stealth" Size 0.99
+  CheckCoverage "Fusion Laser" BY "Satellite Relay Range" Message 2958
+	    ProducedByAnotherUnit true  
+			TargetInPlanner Yes
+  
+///////////////Old death laser, AKA the fun one/////////////
+*/[UNIT] "Countervalue Laser Satellite"
+  Tech "U_Satellite_Death_Laser"
+  Movie "Units/Images/Satellite/Attack_Sat.midx"
+  DrawSize 32
+  Size 0.25
+  Sound 142 Volume 0.75
+  Type Satellite
+  Power 1
+  Weapon "Fusion Laser" 20000 Launch 1 Time 15 AutoEngage
+  //Weapon "ASAT Laser" 20000 Launch 1 Time 15 AutoEngage //Laser is too big to aim at enemy sats
+  MinElevation 4000
+  MaxElevation 10000
+  Radar "DEW Range"
+
+  AttackerInPlanner
+  AttackIfDestroyed
+  ProductionCost 90
+    Modifier "Satellite_Defence"
+
+  Modifier "Satellite_Stealth_Bonus_Modifier_1"
+  Modifier "Satellite_Stealth_Bonus_Modifier_2"  
+  ImprovedBy "Novel_Stealth_Applications" Size 0.99	  
+  ImprovedBy "Advanced_Stealth" Size 0.99
+  CheckCoverage "Fusion Laser" BY "Satellite Relay Range" Message 2958
+	    ProducedByAnotherUnit true  */
+
+[END]

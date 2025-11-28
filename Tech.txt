@@ -1,0 +1,5277 @@
+DRAWING DISTANCE 0.75
+
+//////////////// TYPES /////////////////////
+
+[TYPE] "Weapons of Mass Destruction"
+  Name "T_WMD_NAME"
+  Description "T_WMD_DESC"
+
+[TYPE] "Ballistic Missiles"
+  Name "T_BMISSILE_NAME"
+  Description "T_BMISSILE_DESC"
+
+[TYPE] "Ground Forces"
+  Name "T_GROUND_NAME"
+  Description "T_GROUND_DESC"
+  
+[TYPE] "Aircraft Technology"
+  Name "T_AIR_NAME"
+  Description "T_AIR_DESC"
+
+[TYPE] "Naval Technology"
+  Name "T_NAVAL_NAME"
+  Description "T_NAVAL_DESC"
+
+[TYPE] "Smart Weapons"
+  Name "T_SMART_WEAPONS_NAME"
+  Description "T_SMART_WEAPONS_DESC"
+  
+[TYPE] "Air and Missile Defence"
+  Name "T_AIR_DEFENCE_NAME"
+  Description "T_AIR_DEFENCE_DESC"
+
+[TYPE] "Radar Systems"
+  Name "T_RADAR_NAME"
+  Description "T_RADAR_DESC"
+
+[TYPE] "Electronic Warfare"
+  Name "T_ELECTRONIC_WARFARE_NAME"
+  Description "T_ELECTRONIC_WARFARE_DESC"
+
+[TYPE] "Satellites and Space Weapons"
+  Name "T_SAT_NAME"
+  Description "T_SAT_DESC"
+
+[TYPE] "Domestic Technologies"
+  Name "T_DOM_NAME"
+  Description "T_DOM_DESC"
+  
+ 
+ //////////////// LEVELS /////////////////////
+[LEVEL] "L_1"
+  Name "L_1_NAME"
+  Description "L_1_DESC"
+  Image "Images/Science/Levels/L1.png"
+
+[LEVEL] "L_2"
+  Name "L_2_NAME"
+  Description "L_2_DESC"
+  Image "Images/Science/Levels/L2.png"
+
+[LEVEL] "L_3"
+  Name "L_3_NAME"
+  Description "L_3_DESC"
+  Image "Images/Science/Levels/L3.png"
+
+[LEVEL] "L_4"
+  Name "L_4_NAME"
+  Description "L_4_DESC"
+  Image "Images/Science/Levels/L4.png"
+
+[LEVEL] "L_5"
+  Name "L_5_NAME"
+  Description "L_5_DESC"
+  Image "Images/Science/Levels/L5.png"
+
+[LEVEL] "L_6"
+  Name "L_6_NAME"
+  Description "L_6_DESC"
+  Image "Images/Science/Levels/L6.png"  
+
+[LEVEL] "L_7"
+  Name "L_7_NAME"
+  Description "L_7_DESC"
+  Image "Images/Science/Levels/L7.png"
+
+[LEVEL] "L_8"
+  Name "L_8_NAME"
+  Description "L_8_DESC"
+  Image "Images/Science/Levels/L8.png"
+
+[LEVEL] "L_9"
+  Name "L_9_NAME"
+  Description "L_9_DESC"
+  Image "Images/Science/Levels/L9.png"
+
+[LEVEL] "L_10"
+  Name "L_10_NAME"
+  Description "L_10_DESC"
+  Image "Images/Science/Levels/L10.png"
+  
+//////////////// UNIT CLASSES /////////////////////
+[UNIT_CLASS] "UC_Building"
+  Name "UC_BUILDING_NAME"
+  Description "UC_BUILDING_DESC"
+
+[UNIT_CLASS] "UC_Ground"
+  Name "UC_GROUND_NAME"
+  Description "UC_GROUND_DESC"
+  AutoAssignTo Ground
+
+[UNIT_CLASS] "UC_Ground_Mobile"
+  Name "UC_GROUND_MOBILE_NAME"
+  Description "UC_GROUND_MOBILE_DESC"
+  AutoAssignTo Ground
+
+[UNIT_CLASS] "UC_Naval"
+  Name "UC_NAVAL_NAME"
+  Description "UC_NAVAL_DESC"
+  AutoAssignTo Naval
+
+[UNIT_CLASS] "UC_Airborne"
+  Name "UC_AIRBORNE_NAME"
+  Description "UC_AIRBORNE_DESC"
+  AutoAssignTo Airborne
+
+[UNIT_CLASS] "UC_Space"
+  Name "UC_SPACE_NAME"
+  Description "UC_SPACE_DESC"
+  AutoAssignTo Satellite
+  
+[UNIT_CLASS] "UC_Nuke_Weapon"
+  Name "UC_NUKE_WEAPON_NAME"
+  Description "UC_NUKE_WEAPON_DESC"
+  
+[UNIT_CLASS] "UC_Nuke_Tac_Weapon"
+  Name "UC_NUKE_TAC_WEAPON_NAME"
+  Description "UC_NUKE_TAC_WEAPON_DESC"
+  
+[UNIT_CLASS] "UC_Spec_Weapon"
+  Name "UC_SPEC_WEAPON_NAME"
+  Description "UC_SPEC_WEAPON_DESC"
+  
+[UNIT_CLASS] "UC_Non_Nuclear_Weapons"
+  Name "UC_NON_NUCLEAR_WEAPONS_NAME"
+  Description "UC_NON_NUCLEAR_WEAPONS_DESC"
+  AutoAssignTo Missile
+
+
+//////////////// DEFCON /////////////////////
+// In reverse order
+/////
+  
+[DEFCON] "DEFCON_5"
+  Name "M_DEFCON_5_NAME"
+  Description "M_DEFCON_5_DESC"
+  Image "Units/Images/Missiles/DEFCON5.png"
+  
+[DEFCON] "DEFCON_4"
+  Name "M_DEFCON_4_NAME"
+  Description "M_DEFCON_4_DESC"
+  Image "Units/Images/Missiles/DEFCON4.png"
+
+[DEFCON] "DEFCON_3"
+  Name "M_DEFCON_3_NAME"
+  Description "M_DEFCON_3_DESC"
+  Image "Units/Images/Missiles/DEFCON3.png"
+  
+[DEFCON] "DEFCON_2"
+  Name "M_DEFCON_2_NAME"
+  Description "M_DEFCON_2_DESC"
+  Image "Units/Images/Missiles/DEFCON2.png"
+  
+[DEFCON] "DEFCON_1"
+  Name "M_DEFCON_1_NAME"
+  Description "M_DEFCON_1_DESC"
+  Image "Units/Images/Missiles/DEFCON1.png"
+
+
+//////////////////////////////////////////////////
+
+[TECHNOLOGY] "U_City"
+  Name "U_CITY_NAME"
+  Description "U_CITY_DESC"
+
+[TECHNOLOGY] "U_Carrier"
+  Name "U_CARRIER_NAME"
+  Description "U_CARRIER_DESC"
+
+[TECHNOLOGY] "U_Submarine"
+  Name "U_Submarine_NAME"
+  Description "U_Submarine_DESC"
+
+[TECHNOLOGY] "U_Destroyer"
+  Name "U_DESTROYER_NAME"
+  Description "U_DESTROYER_DESC"
+
+[TECHNOLOGY] "U_Cruiser"
+  Name "U_CRUISER_NAME"
+  Description "U_CRUISER_DESC"
+
+[TECHNOLOGY] "U_Fighter"
+  Name "U_FIGHTER_NAME"
+  Description "U_FIGHTER_DESC"
+
+[TECHNOLOGY] "U_Attack"
+  Name "U_ATTACK_NAME"
+  Description "U_ATTACK_DESC"
+
+[TECHNOLOGY] "U_Bomber"
+  Name "U_BOMBER_NAME"
+  Description "U_BOMBER_DESC"
+
+[TECHNOLOGY] "U_High_Speed_Bomber"
+  Name "U_High_Speed_Bomber_NAME"
+  Description "U_High_Speed_Bomber_DESC"
+
+[TECHNOLOGY] "U_Airport"
+  Name "U_AIRPORT_NAME"
+  Description "U_AIRPORT_DESC"
+
+[TECHNOLOGY] "U_Tactical_Airbase"
+  Name "U_Tactical_Airbase_NAME"
+  Description "U_Tactical_Airbase_DESC"
+  
+[TECHNOLOGY] "U_Specialized_Airport"
+  Name "U_Specialized_Airport_NAME"
+  Description "U_Specialized_Airport_DESC"  
+
+[TECHNOLOGY] "M_Free_fall_bomb"
+  Name "M_FREE_FALL_BOMB_NAME"
+  Description "M_FREE_FALL_BOMB_DESC"
+  LeadsTo "M_Guided_bomb"
+
+[TECHNOLOGY] "M_Ship_Gun"
+  Name "M_Ship_Gun_NAME"
+  Description "M_Ship_Gun_DESC"
+
+
+[TECHNOLOGY] "M_Air_to_air_missile"
+  Name "M_Air_to_air_missile_NAME"
+  Description "M_Air_to_air_missile_DESC"
+  LeadsTo "Generation_3_Aircraft"
+  LeadsTo "Interceptor_aircraft"
+
+[TECHNOLOGY] "M_Surface_to_surface_missile"
+  Name "M_Surface_to_surface_missile_NAME"
+  Description "M_Surface_to_surface_missile_DESC"
+
+[TECHNOLOGY] "M_Torpedo"
+  Name "M_TORPEDO_NAME"
+  Description "M_TORPEDO_DESC"
+
+[TECHNOLOGY] "M_DepthCharge"
+  Name "M_DEPTH_CHARGE_NAME"
+  Description "M_DEPTH_CHARGE_DESC"
+
+
+[TECHNOLOGY] "R_Visor"
+  Name "R_VISOR_NAME"
+  Description "R_VISOR_DESC"
+
+[TECHNOLOGY] "R_Visor_Air"
+  Name "R_VISOR_NAME"
+  Description "R_VISOR_DESC"
+  
+[TECHNOLOGY] "R_Air_Default"
+  Name "R_VISOR_NAME"
+  Description "R_VISOR_DESC"  
+
+[TECHNOLOGY] "R_Dummy_Sat_Camera"
+  Name "R_Dummy_Sat_Camera_NAME"
+  Description "R_Dummy_Sat_Camera_DESC"
+  
+[TECHNOLOGY] "R_Dummy_EWS_Camera"
+  Name "R_Dummy_Sat_Camera_NAME"
+  Description "R_Dummy_Sat_Camera_DESC"  
+
+[TECHNOLOGY] "R_Basic_Sat_Camera"
+  Name "R_Basic_Sat_Camera_NAME"
+  Description "R_Basic_Sat_Camera_DESC"
+  
+[TECHNOLOGY] "R_Data_Sat_Camera"
+  Name "R_Data_Sat_Camera_NAME"
+  Description "R_Data_Sat_Camera_DESC"  
+
+[TECHNOLOGY] "R_HD_Sat_Camera"
+  Name "R_HD_Sat_Camera_NAME"
+  Description "R_HD_Sat_Camera_DESC"  
+
+[TECHNOLOGY] "R_Ultra_Sat_Camera"
+  Name "R_Ultra_Sat_Camera_NAME"
+  Description "R_Ultra_Sat_Camera_DESC"  
+
+[TECHNOLOGY] "R_Kinetic_Range"
+  Name "R_Kinetic_Range_NAME"
+  Description "R_Kinetic_Range_DESC"  
+
+[TECHNOLOGY] "R_DEW_Range"
+  Name "R_DEW_Range_NAME"
+  Description "R_DEW_Range_DESC"  
+
+[TECHNOLOGY] "R_Short_wave_radar"
+  Name "R_SHORT_WAVE_RADAR_NAME"
+  Description "R_SHORT_WAVE_RADAR_DESC"
+  LeadsTo "U_Short_wave_radar"
+  LeadsTo "SW_Mk2"
+
+[TECHNOLOGY] "U_Short_wave_radar"
+  Name "U_SHORT_WAVE_RADAR_NAME"
+  Description "U_SHORT_WAVE_RADAR_DESC"
+
+[TECHNOLOGY] "R_Long_wave_radar"
+  Name "R_LONG_WAVE_RADAR_NAME"
+  Description "R_LONG_WAVE_RADAR_DESC"
+  LeadsTo "U_Long_wave_radar"
+
+[TECHNOLOGY] "U_Long_wave_radar"
+  Name "U_LONG_WAVE_RADAR_NAME"
+  Description "U_LONG_WAVE_RADAR_DESC"
+
+[TECHNOLOGY] "R_Sonar"
+  Name "R_SONAR_NAME"
+  Description "R_SONAR_DESC"
+
+[TECHNOLOGY] "Antitorpedo"
+  Name "ANTITORPEDO_NAME"
+  Description "ANTITORPEDO_DESC"
+
+[TECHNOLOGY] "Underground"
+  Name "Underground_NAME"
+  Description "Underground_DESC"
+
+[TECHNOLOGY] "Advanced_Sonar"
+  Name "Advanced_Sonar_NAME"
+  Description "Advanced_Sonar_DESC"
+
+[TECHNOLOGY] "Advanced_MRBM_MIRV"
+  Name "Advanced_MRBM_NAME"
+  Description "Advanced_MRBM_DESC"
+  
+[TECHNOLOGY] "No_Weapon"
+  Name "No_Weapon_NAME"
+  Description "No_Weapon_DESC" 
+  
+[TECHNOLOGY] "No_Weapon_Buffer"
+  Name "No_Weapon_Buffer_NAME"
+  Description "No_Weapon_Buffer_DESC" 
+
+[TECHNOLOGY] "BM_Accuracy_Damage_Penalty"
+  Name "BM_Accuracy_Damage_Penalty_NAME"
+  Description "BM_Accuracy_Damage_Penalty_DESC" 
+
+///////////////////////RESEARCHABLE//////////////////////////////  
+  
+    // chain Nuclear Fission	TNB	              BFW          Pure Fusion
+//                          Tac Nukes         Cobalt                                               
+  
+  
+ ///////////////////EARLY NUKES////////////////// 
+  [TECHNOLOGY] "Nuclear_Fission"
+  Name "Nuclear_Fission_NAME"
+  Description "Nuclear_Fission_DESC"
+  Image "Images/Science/Fission.png"
+  Points 45
+  LeadsTo "M_100kt_nuke_light"
+  LeadsTo "M_500kt_nuke_heavy"
+  LeadsTo "M_ICBM_250kt_Light"
+  LeadsTo "M_ICBM_500kt_Heavy"
+  LeadsTo "M_100kt_MRBM"
+  LeadsTo "M_100kt_SLBM"
+  LeadsTo "M_100kt_ALBM"
+  
+  //Techs
+  LeadsTo "Thermonuclear_bomb"
+  LeadsTo "Tactical_nukes"
+  LeadsTo "Nuclear_Fission_Buffer_Tech"
+  TechLevel 1
+  Type "Weapons of Mass Destruction"  
+  NoAutoUnlockTillLevel 1
+  
+  [TECHNOLOGY] "M_100kt_nuke_light"
+  Name "M_100kt_nuke_light_NAME"
+  Description "M_100kt_nuke_light_DESC"
+
+  [TECHNOLOGY] "M_500kt_nuke_heavy"
+  Name "M_500kt_nuke_heavy_NAME"
+  Description "M_500kt_nuke_heavy_DESC"
+
+  
+ 
+ ////////////////////LEVEL 2 NUKES//////////////////////
+  [TECHNOLOGY] "Thermonuclear_bomb"
+  Name "THERMONUCLEAR_BOMB_NAME"
+  Description "THERMONUCLEAR_BOMB_DESC"
+  Image "Images/Science/Thermonuclear_bomb.png"
+  Points 65
+  LeadsTo "M_250kt_nuke_light"  
+  LeadsTo "M_10M_nuke_heavy"
+  LeadsTo "M_ICBM_500kt_Light"
+  LeadsTo "M_ICBM_5M_Heavy"  
+  LeadsTo "M_250kt_MRBM"
+  LeadsTo "M_250kt_SLBM"
+  LeadsTo "M_250kt_ALBM" 
+  //Techs
+  LeadsTo "Mega-warheads"
+  LeadsTo "Advanced_Tactical_nukes"
+  LeadsTo "Thermonuclear_bomb_Buffer_Tech"
+  TechLevel 2
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 2
+  
+  [TECHNOLOGY] "M_10M_nuke_heavy"
+  Name "M_10M_nuke_heavy_NAME"
+  Description "M_10M_nuke_heavy_DESC"  
+
+  [TECHNOLOGY] "M_250kt_nuke_light"
+  Name "M_250kt_nuke_light_NAME"
+  Description "M_250kt_nuke_light_DESC"
+  
+  
+
+[TECHNOLOGY] "Thermonuclear_bomb_Buffer_Tech"
+  Name "THERMONUCLEAR_BOMB_NAME"
+  Description "THERMONUCLEAR_BOMB_DESC"
+    LeadsTo "M_3x100kt_MRBM" 
+    LeadsTo "M_3x250kt_ICBM"	
+	LeadsTo "M_3x100kt_SLBM"
+
+
+//////////////////////TAC NUKES/////////////////////
+[TECHNOLOGY] "Tactical_nukes"
+  Name "Tactical_nukes_NAME"
+  Description "Tactical_nukes_DESC"
+  Image "Images/Science/Tactical_nukes.png"
+  Points 30
+  LeadsTo "M_Nuclear_Artillery"
+  LeadsTo "M_Nuke_ABM_Light"
+  LeadsTo "Advanced_Tactical_nukes"
+  LeadsTo "M_Nuclear_Cruise_Missile"
+  LeadsTo "M_SRBM-N"
+  LeadsTo "M_SAM_Nuke"
+  LeadsTo "M_Nuclear_Torpedo_Tac"
+  TechLevel 2
+//  NoAutoUnlockTillLevel 6
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+
+[TECHNOLOGY] "M_Nuclear_Cruise_Missile"
+  Name "M_Nuclear_Cruise_Missile_NAME"
+  Description "M_Nuclear_Cruise_Missile_DESC"
+	LeadsTo "M_Fusion_Cruise_Missile" ///Clean pure fusion equivalent
+
+[TECHNOLOGY] "M_Fusion_Cruise_Missile"
+  Name "M_Fusion_Cruise_Missile_NAME"
+  Description "M_Fusion_Cruise_Missile_DESC"
+
+[TECHNOLOGY] "M_SAM_Nuke"
+  Name "M_SAM_Nuke_NAME"
+  Description "M_SAM_Nuke_DESC"
+	LeadsTo "M_SAM_Fusion"
+  
+[TECHNOLOGY] "M_SAM_Fusion"
+  Name "M_SAM_Fusion_NAME"
+  Description "M_SAM_Fusion_DESC"  
+		  
+[TECHNOLOGY] "M_SRBM"
+  Name "M_SRBM_NAME"
+  Description "M_SRBM_DESC"
+  
+[TECHNOLOGY] "M_SRBM-N"
+  Name "M_SRBM-N_NAME"
+  Description "M_SRBM-N_DESC"
+	LeadsTo "M_SRBM_Fusion"
+	
+[TECHNOLOGY] "M_SRBM_Fusion"
+  Name "M_SRBM_Fusion_NAME"
+  Description "M_SRBM_Fusion_DESC"	
+  
+[TECHNOLOGY] "M_Nuclear_Artillery"
+  Name "M_Nuclear_Artillery_NAME"
+  Description "M_Nuclear_Artillery_DESC"
+	LeadsTo "M_Fusion_Artillery"
+
+[TECHNOLOGY] "M_Fusion_Artillery"
+  Name "M_Fusion_Artillery_NAME"
+  Description "M_Fusion_Artillery_DESC"    
+  
+  
+[TECHNOLOGY] "Advanced_Tactical_nukes"
+  Name "Advanced_Tactical_nukes_NAME"
+  Description "Advanced_Tactical_nukes_DESC"
+  Image "Images/Science/TacNuke2.png"
+  Points 20
+  LeadsTo "M_Air_to_air_missile_Nuke"
+  LeadsTo "M_Nuke_ABM"
+  LeadsTo "M_ASAT_Nuke"
+  LeadsTo "M_ALCM-N"
+  TechLevel 3
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+  
+[TECHNOLOGY] "M_Air_to_air_missile_Nuke"
+  Name "M_Air_to_air_missile_Nuke_NAME"
+  Description "M_Air_to_air_missile_Nuke_DESC"
+	LeadsTo "M_Air_to_air_missile_Fusion"
+
+[TECHNOLOGY] "M_Air_to_air_missile_Fusion"
+  Name "M_Air_to_air_missile_Fusion_NAME"
+  Description "M_Air_to_air_missile_Fusion_DESC"
+  
+    
+/////////////////////////LEVEL 3 NUKES///////////////////////// 
+  //[TECHNOLOGY] Boosted Fission Weapon
+[TECHNOLOGY] "Mega-warheads"
+  Name "Mega-warheads_NAME"
+  Description "Mega-warheads_DESC"
+  Image "Images/Science/StagedWeapon.png"
+  Points 75
+  LeadsTo "M_500kt_nuke_light"
+  LeadsTo "M_ICBM_10M_Heavy"  
+  LeadsTo "M_ICBM_1M_Light"
+   LeadsTo "M_25M_nuke_heavy"
+   LeadsTo "M_500kt_SLBM"
+   LeadsTo "M_500kt_MRBM"
+   LeadsTo "M_500kt_ALBM"  
+   
+  //Techs
+  LeadsTo "Advanced_Multi-Stage_Weapons"
+  LeadsTo "Cobalt_Bomb"
+    LeadsTo "Mega-warheads_Buffer_Tech"
+	LeadsTo "Specialized_EMP"
+  TechLevel 4
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 5
+	
+[TECHNOLOGY] "Mega-warheads_Buffer_Tech"
+  Name "Mega-warheads_NAME"
+  Description "Mega-warheads_DESC"
+  LeadsTo "M_3x250kt_MRBM"
+  LeadsTo "M_6x250kt_MRBM"
+  LeadsTo "M_3x250kt_SLBM"
+  LeadsTo "M_6x250kt_SLBM"
+  LeadsTo "M_3x500kt_ICBM"
+  LeadsTo "M_6x500kt_ICBM"  
+  LeadsTo "M_3x250kt_ICBM_Light"
+  
+[TECHNOLOGY] "M_500kt_nuke_light"
+  Name "M_500kt_nuke_light_NAME"
+  Description "M_500kt_nuke_light_DESC"
+  
+
+[TECHNOLOGY] "M_25M_nuke_heavy"
+  Name "M_25M_nuke_heavy_NAME"
+  Description "M_25M_nuke_heavy_DESC"  
+
+
+//////////////////////////LEVEL 4 NUKES////////////////////////////  
+[TECHNOLOGY] "Advanced_Multi-Stage_Weapons"
+  Name "Advanced_Multi-Stage_Weapons_NAME"
+  Description "Advanced_Multi-Stage_Weapons_DESC"
+  Image "Images/Science/Mega-warheads.png"
+  Points 100
+  LeadsTo "M_1M_nuke_light"
+  LeadsTo "M_50M_nuke_heavy"
+  LeadsTo "M_ICBM_5M_Light"
+  LeadsTo "M_ICBM_25M_Heavy"
+  LeadsTo "M_1M_MRBM"
+  LeadsTo "M_1M_SLBM"
+  LeadsTo "M_1M_ALBM"
+    //Techs
+  LeadsTo "Pure_Fusion_Weapon"
+  //LeadsTo "Super_EMP"
+  //LeadsTo "Enhanced_Salted_Weapons"
+  LeadsTo "Advanced_Multi-Stage_Weapons Buffer Tech"
+    TechLevel 7
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 8
+  
+[TECHNOLOGY] "Advanced_Multi-Stage_Weapons Buffer Tech"
+  Name "Advanced_Multi-Stage_Weapons_NAME"
+  Description "Advanced_Multi-Stage_Weapons_DESC"  
+  LeadsTo "M_6x1M_ICBM"
+  LeadsTo "M_12x500kt_ICBM"
+  LeadsTo "M_3x500kt_ICBM_Light"  
+  LeadsTo "M_8x500kt_ICBM_Light"
+  LeadsTo "M_6x500kt_MRBM"
+  LeadsTo "M_8x500kt_MRBM"
+  LeadsTo "M_6x500kt_SLBM"  
+  LeadsTo "M_8x500kt_SLBM"  
+  LeadsTo "M_Nuclear_Torpedo_Heavy"
+
+  [TECHNOLOGY] "M_50M_nuke_heavy"
+  Name "M_50M_nuke_heavy_NAME"
+  Description "M_50M_nuke_heavy_DESC"
+
+  [TECHNOLOGY] "M_1M_nuke_light"
+  Name "M_1M_nuke_light_NAME"
+  Description "M_1M_nuke_light_DESC"
+  
+  [TECHNOLOGY] "M_12x500kt_ICBM"
+  Name "M_12x500kt_ICBM_NAME"
+  Description "M_12x500kt_ICBM_DESC"
+  
+
+/////////////////////////////COBALT BOMBS///////////////////////////// 
+  [TECHNOLOGY] "Cobalt_Bomb"
+  Name "Cobalt_Bomb_NAME"
+  Description "Cobalt_Bomb_DESC"
+  Image "Images/Science/Cobalt.png"
+  Points 30
+  LeadsTo "Cobalt_Bomb_Buffer"
+  LeadsTo "M_500kt_cobalt_light"
+  LeadsTo "M_10M_Cobalt_bomb"
+  LeadsTo "M_ICBM_1M_Cobalt"
+  LeadsTo "M_ICBM_10M_Cobalt"
+  LeadsTo "M_500kt_Cobalt_MRBM"
+  LeadsTo "M_500kt_Cobalt_SLBM"
+  LeadsTo "M_500kt_Cobalt_ALBM"
+  LeadsTo "Enhanced_Salted_Weapons"
+    TechLevel 5
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+ 
+  
+  [TECHNOLOGY] "M_10M_Cobalt_bomb"
+  Name "M_10M_Cobalt_bomb_NAME"
+  Description "M_10M_Cobalt_bomb_DESC"
+  
+  [TECHNOLOGY] "M_500kt_cobalt_light"
+  Name "M_500kt_cobalt_light_NAME"
+  Description "M_500kt_cobalt_light_DESC"
+  
+  [TECHNOLOGY] "M_500kt_Cobalt_MRBM"
+  Name "M_500kt_Cobalt_MRBM_NAME"
+  Description "M_500kt_Cobalt_MRBM_DESC"
+  
+  [TECHNOLOGY] "M_500kt_Cobalt_SLBM"
+  Name "M_500kt_Cobalt_SLBM_NAME"
+  Description "M_500kt_Cobalt_SLBM_DESC"  
+
+/////////////////////////////SALTED BOMBS, NOW WITH EXTRA SALT////////////////////////////////
+
+  [TECHNOLOGY] "Enhanced_Salted_Weapons"
+  Name "Enhanced_Salted_Weapons_NAME"
+  Description "Enhanced_Salted_Weapons_DESC" 
+  Image "Images/Science/Cobalt_2.png"
+  Points 45
+  LeadsTo "Enhanced_Salted_Weapons_Buffer"
+  LeadsTo "M_500kt_Salt_light"
+  LeadsTo "M_10M_Salt_bomb"
+  LeadsTo "M_ICBM_1M_Salt"
+  LeadsTo "M_ICBM_10M_Salt"
+  LeadsTo "M_500kt_Salt_MRBM"
+  LeadsTo "M_500kt_Salt_SLBM"
+  LeadsTo "M_500kt_Salt_ALBM"  
+    TechLevel 8
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+
+
+  [TECHNOLOGY] "M_10M_Salt_bomb"
+  Name "M_10M_Salt_bomb_NAME"
+  Description "M_10M_Salt_bomb_DESC"
+  
+  [TECHNOLOGY] "M_ICBM_10M_Salt"
+  Name "M_ICBM_10M_Salt_NAME"
+  Description "M_ICBM_10M_Salt_DESC"
+  
+  [TECHNOLOGY] "M_500kt_Salt_light"
+  Name "M_500kt_Salt_light_NAME"
+  Description "M_500kt_Salt_light_DESC"
+  
+  [TECHNOLOGY] "M_500kt_Salt_MRBM"
+  Name "M_500kt_Salt_MRBM_NAME"
+  Description "M_500kt_Salt_MRBM_DESC" 
+
+  [TECHNOLOGY] "M_500kt_Salt_SLBM"
+  Name "M_500kt_Salt_SLBM_NAME"
+  Description "M_500kt_Salt_SLBM_DESC"  
+  
+ 
+////////////////////////////////EMP WEAPONS////////////////////////////
+  [TECHNOLOGY] "EMP_Long_Stun_Modifier"
+  Name "Specialized_EMP_NAME"
+  Description "Specialized_EMP_DESC" 
+  
+  [TECHNOLOGY] "Specialized_EMP"
+  Name "Specialized_EMP_NAME"
+  Description "Specialized_EMP_DESC" 
+  Image "Images/Science/EMP_SPECIAL.png"
+  Points 20
+  LeadsTo "M_ICBM_1M_EMP"
+  LeadsTo "M_500kt_SLBM_EMP"
+  LeadsTo "M_500kt_MRBM_EMP"
+  LeadsTo "Specialized_EMP_Buffer"
+  LeadsTo "Super_EMP"
+    TechLevel 4
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+  
+  [TECHNOLOGY] "Specialized_EMP_Buffer"
+  Name "Specialized_EMP_NAME"
+  Description "Specialized_EMP_DESC" 
+  
+  [TECHNOLOGY] "Super_EMP"
+  Name "Super_EMP_NAME"
+  Description "Super_EMP_DESC" 
+  Image "Images/Science/EMP_SUPER.png"
+  Points 25
+  LeadsTo "M_ICBM_1M_EMP_Super"
+  LeadsTo "M_ICBM_10M_EMP_Super"
+  LeadsTo "M_500kt_SLBM_EMP_Super"
+  LeadsTo "M_500kt_MRBM_EMP_Super"
+  LeadsTo "M_Satellite_EMP"
+    TechLevel 7
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+
+/////////EMP Weapons
+ [TECHNOLOGY] "M_ICBM_1M_EMP"
+  Name "M_ICBM_1M_EMP_NAME"
+  Description "M_ICBM_1M_EMP_DESC"
+
+ [TECHNOLOGY] "M_500kt_SLBM_EMP"
+  Name "M_500kt_SLBM_EMP_NAME"
+  Description "M_500kt_SLBM_EMP_DESC"
+
+ [TECHNOLOGY] "M_500kt_MRBM_EMP"
+  Name "M_500kt_MRBM_EMP_NAME"
+  Description "M_500kt_MRBM_EMP_DESC"     
+
+/////////Super EMPs////////////////////
+ [TECHNOLOGY] "M_ICBM_1M_EMP_SUPER"
+  Name "M_ICBM_1M_EMP_SUPER_NAME"
+  Description "M_ICBM_1M_EMP_SUPER_DESC" 
+
+ [TECHNOLOGY] "M_ICBM_10M_EMP_SUPER"
+  Name "M_ICBM_10M_EMP_SUPER_NAME"
+  Description "M_ICBM_10M_EMP_SUPER_DESC" 
+  
+ [TECHNOLOGY] "M_500kt_SLBM_EMP_SUPER"
+  Name "M_500kt_SLBM_EMP_SUPER_NAME"
+  Description "M_500kt_SLBM_EMP_SUPER_DESC"
+
+ [TECHNOLOGY] "M_500kt_MRBM_EMP_SUPER"
+  Name "M_500kt_MRBM_EMP_SUPER_NAME"
+  Description "M_500kt_MRBM_EMP_SUPER_DESC"      
+
+ [TECHNOLOGY] "M_Satellite_EMP"
+  Name "M_Satellite_EMP_NAME"
+  Description "M_Satellite_EMP_DESC"   
+
+///////////////////////////LEVEL 5 NUKES///////////////////////// 
+ [TECHNOLOGY] "Pure_Fusion_Weapon"
+  Name "Pure_Fusion_Weapon_NAME"
+  Description "Pure_Fusion_Weapon_DESC"
+  Image "Images/Science/PureFusion.png"
+  Points 175
+  LeadsTo "M_5M_nuke_light"
+  LeadsTo "M_100M_nuke_heavy"
+  LeadsTo "M_ICBM_10M_Fusion"
+  LeadsTo "M_ICBM_50M_Fusion"
+  LeadsTo "M_5M_MRBM"
+  LeadsTo "M_5M_Fusion_SLBM"
+  LeadsTo "M_5M_ALBM"  
+  LeadsTo "Pure_Fusion_Weapon_Buffer_Tech"
+    TechLevel 10
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+  
+  [TECHNOLOGY] "Pure_Fusion_Weapon_Buffer_Tech"
+  Name "Pure_Fusion_Weapon_NAME"
+  Description "Pure_Fusion_Weapon_DESC"
+  LeadsTo "M_8x1M_Fusion_SLBM"
+  LeadsTo "M_8x1MT_MRBM"
+  LeadsTo "M_12x1M_ICBM"
+  LeadsTo "M_8x1M_ICBM_Light"
+  LeadsTo "M_Nuclear_Torpedo_Fusion"
+  LeadsTo "M_Fusion_Cruise_Missile"
+  LeadsTo "M_Air_to_air_missile_Fusion"
+  LeadsTo "M_SAM_Fusion"
+  LeadsTo "M_Fusion_Artillery"
+  LeadsTo "M_ALCM_Fusion"
+  LeadsTo "M_Fusion_ABM"
+  LeadsTo "M_Fusion_Torpedo_Tac"
+  LeadsTo "M_SRBM_Fusion"
+  
+  [TECHNOLOGY] "M_100M_nuke_heavy"
+  Name "M_100M_Fusion_bomb_NAME"
+  Description "M_100M_Fusion_bomb_DESC"
+  
+  [TECHNOLOGY] "M_100M_Fusion_ICBM"
+  Name "M_100M_Fusion_ICBM_NAME"
+  Description "M_100M_Fusion_ICBM_DESC"
+  
+ 
+   [TECHNOLOGY] "M_5M_nuke_light"
+  Name "M_5M_nuke_light_NAME"
+  Description "M_5M_nuke_light_DESC"
+  
+ [TECHNOLOGY] "M_12x1M_ICBM"
+  Name "M_12x1M_ICBM_NAME"
+  Description "M_12x1M_ICBM_DESC"
+  
+ [TECHNOLOGY] "M_8x1M_ICBM_Light"
+  Name "M_8x1M_ICBM_Light_NAME"
+  Description "M_8x1M_ICBM_Light_DESC"  
+
+
+///////////////////NUCLEAR MATERIAL SCIENCES//////////////////
+
+[TECHNOLOGY] "Nuclear_Fuel_1"
+  Name "Nuclear_Fuel_1_NAME"
+  Description "Nuclear_Fuel_1_DESC"
+  Image "Images/Science/NUCLEAR_FUEL_1.png"
+  Points 20
+  LeadsTo "Nuclear_Fuel_2"
+  TechLevel 1
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 1
+
+
+[TECHNOLOGY] "Nuclear_Fuel_2"
+  Name "Nuclear_Fuel_2_NAME"
+  Description "Nuclear_Fuel_2_DESC"
+  Image "Images/Science/NUCLEAR_FUEL_2.png"
+  Points 30
+  LeadsTo "Nuclear_Fuel_3"
+  TechLevel 3
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 4  
+  
+  
+[TECHNOLOGY] "Nuclear_Fuel_3"
+  Name "Nuclear_Fuel_3_NAME"
+  Description "Nuclear_Fuel_3_DESC"
+  Image "Images/Science/NUCLEAR_FUEL_3.png"
+  Points 45  
+  LeadsTo "Nuclear_Fuel_4"
+  TechLevel 5
+  Type "Weapons of Mass Destruction"  
+  NoAutoUnlockTillLevel 6
+  
+  
+[TECHNOLOGY] "Nuclear_Fuel_4"
+  Name "Nuclear_Fuel_4_NAME"
+  Description "Nuclear_Fuel_4_DESC"
+  Image "Images/Science/NUCLEAR_FUEL_4.png"
+  Points 60
+  LeadsTo "Nuclear_Fuel_5"
+  TechLevel 7
+  Type "Weapons of Mass Destruction"  
+  NoAutoUnlockTillLevel 8
+  
+[TECHNOLOGY] "Nuclear_Fuel_5"
+  Name "Nuclear_Fuel_5_NAME"
+  Description "Nuclear_Fuel_5_DESC"
+  Image "Images/Science/NUCLEAR_FUEL_5.png"
+  Points 75
+  TechLevel 9
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 10
+
+ 
+ //////////////////Bio Chem Weapons Start HERE///////////////////////////////////////////
+
+[TECHNOLOGY] "Unit_BioChem_Modifier"
+    Name "Unit_BioChem_Modifier_NAME"
+	Description "Unit_BioChem_Modifier_DESC"
+  
+[TECHNOLOGY] "Chemical_Weapons"
+	Name "Chemical_Weapons_NAME"
+	Description "Chemical_Weapons_DESC"
+	Image "Images/Science/Chem1.png"
+	Points 15
+	LeadsTo "M_Chem_Artillery_1"
+	LeadsTo "M_Chemical_MRBM_1"
+	LeadsTo "M_Chem_SRBM_1"
+	LeadsTo "Chemical_Bomb"
+	LeadsTo "Chemical_Weapons_Mk2"
+    TechLevel 1
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+
+[TECHNOLOGY] "M_Chem_Artillery_1"
+  Name "M_Chem_Artillery_1_NAME"
+  Description "M_Chem_Artillery_1_DESC"
+	
+[TECHNOLOGY] "Chemical_Bomb"
+  Name "Chemical_Bomb_NAME"
+  Description "Chemical_Bomb_DESC"
+
+[TECHNOLOGY] "M_Chem_SRBM_1"
+  Name "M_Chem_SRBM_1_NAME"
+  Description "M_Chem_SRBM_1_DESC"
+  
+[TECHNOLOGY] "M_Chemical_MRBM_1"
+  Name "M_Chemical_MRBM_1_NAME"
+  Description "M_Chemical_MRBM_1_DESC"	
+		
+[TECHNOLOGY] "Chemical_Weapons_Mk2"
+	Name "Chemical_Weapons_Mk2_NAME"
+	Description "Chemical_Weapons_Mk2_DESC"
+	Image "Images/Science/Chem2.png"	
+	Points 15
+	LeadsTo "M_Chem_Artillery_2"
+	LeadsTo "Improved_Chemical_Bomb"
+	LeadsTo "M_Chemical_MRBM_2"
+	LeadsTo "M_Chem_SRBM_2"
+	LeadsTo "Chemical_ICBM"	
+	LeadsTo "Chemical_Weapons_Mk3"
+	  TechLevel 3
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+
+[TECHNOLOGY] "M_Chem_Artillery_2"
+  Name "M_Chem_Artillery_2_NAME"
+  Description "M_Chem_Artillery_2_DESC"
+
+[TECHNOLOGY] "M_Chem_SRBM_2"
+  Name "M_Chem_SRBM_2_NAME"
+  Description "M_Chem_SRBM_2_DESC"
+  
+[TECHNOLOGY] "M_Chemical_MRBM_2"
+  Name "M_Chemical_MRBM_2_NAME"
+  Description "M_Chemical_MRBM_2_DESC"	  
+	
+[TECHNOLOGY] "Improved_Chemical_Bomb"
+  Name "Imp_Chemical_Bomb_NAME"
+  Description "Imp_Chemical_Bomb_DESC"
+	  
+	
+[TECHNOLOGY] "Chemical_Weapons_Mk3"
+	Name "Chemical_Weapons_Mk3_NAME"
+	Description "Chemical_Weapons_Mk3_DESC"
+	Image "Images/Science/Chem3.png"
+	Points 30
+	LeadsTo "M_Chem_Artillery_3"
+	LeadsTo "Advanced_Chemical_Bomb"
+	LeadsTo "M_Chemical_MRBM_3"
+	LeadsTo "M_Chem_SRBM_3"
+	LeadsTo "Experimental_Biochem"
+	  TechLevel 6
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+
+[TECHNOLOGY] "M_Chem_Artillery_3"
+  Name "M_Chem_Artillery_3_NAME"
+  Description "M_Chem_Artillery_3_DESC"
+
+[TECHNOLOGY] "M_Chem_SRBM_3"
+  Name "M_Chem_SRBM_3_NAME"
+  Description "M_Chem_SRBM_3_DESC"
+	
+[TECHNOLOGY] "Advanced_Chemical_Bomb"
+  Name "Adv_Chemical_Bomb_NAME"
+  Description "Adv_Chemical_Bomb_DESC"
+	
+[TECHNOLOGY] "M_Chemical_MRBM_3"
+  Name "M_Chemical_MRBM_3_NAME"
+  Description "M_Chemical_MRBM_3_DESC"	
+  
+  
+
+[TECHNOLOGY] "Biological_Weapons"
+	Name "Biological_Weapons_NAME"
+	Description "Biological_Weapons_DESC"
+	Image "Images/Science/Bio1.png"
+	Points 15
+	LeadsTo "Bioweapon_Bomb"
+	LeadsTo "Bioweapon_MRBM"
+	LeadsTo "Bioweapon_ICBM"	
+	LeadsTo "Biological_Weapons_Mk2"
+  
+  TechLevel 1
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+  
+	
+[TECHNOLOGY] "Bioweapon_Bomb"
+  Name "Bioweapon_Bomb_NAME"
+  Description "Bioweapon_Bomb_DESC"
+
+[TECHNOLOGY] "Bioweapon_MRBM"
+  Name "Bioweapon_MRBM_NAME"
+  Description "Bioweapon_MRBM_DESC"
+  
+[TECHNOLOGY] "Bioweapon_ICBM"
+  Name "Bioweapon_ICBM_NAME"
+  Description "Bioweapon_ICBM_DESC"
+	
+	
+[TECHNOLOGY] "Biological_Weapons_Mk2"
+	Name "Biological_Weapons_Mk2_NAME"
+	Description "Biological_Weapons_Mk2_DESC"
+	Image "Images/Science/Bio2.png"	
+	Points 15
+	LeadsTo "Improved_Bioweapon_Bomb"
+	LeadsTo "Improved_Bioweapon_MRBM"
+	LeadsTo "Improved_Bioweapon_ICBM"	
+	LeadsTo "Biological_Weapons_Mk3"
+	  TechLevel 3
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+	
+[TECHNOLOGY] "Improved_Bioweapon_Bomb"
+  Name "Imp_Bioweapon_Bomb_NAME"
+  Description "Imp_Bioweapon_Bomb_DESC"
+	
+[TECHNOLOGY] "Improved_Bioweapon_MRBM"
+  Name "Imp_Bioweapon_MRBM_NAME"
+  Description "Imp_Bioweapon_MRBM_DESC"
+  
+[TECHNOLOGY] "Improved_Bioweapon_ICBM"
+  Name "Imp_Bioweapon_ICBM_NAME"
+  Description "Imp_Bioweapon_ICBM_DESC"
+	
+
+[TECHNOLOGY] "Biological_Weapons_Mk3"
+	Name "Biological_Weapons_Mk3_NAME"
+	Description "Biological_Weapons_Mk3_DESC"
+	Image "Images/Science/Bio3.png"
+	Points 30
+	LeadsTo "Advanced_Bioweapon_Bomb"
+	LeadsTo "Advanced_Bioweapon_MRBM"
+	LeadsTo "Advanced_Bioweapon_ICBM"
+	LeadsTo "Experimental_Biochem"
+	  TechLevel 6
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+	
+[TECHNOLOGY] "Advanced_Bioweapon_Bomb"
+  Name "Adv_Bioweapon_Bomb_NAME"
+  Description "Adv_Bioweapon_Bomb_DESC"
+	
+[TECHNOLOGY] "Advanced_Bioweapon_MRBM"
+  Name "Adv_Bioweapon_MRBM_NAME"
+  Description "Adv_Bioweapon_MRBM_DESC"
+  
+[TECHNOLOGY] "Advanced_Bioweapon_ICBM"
+  Name "Adv_Bioweapon_ICBM_NAME"
+  Description "Adv_Bioweapon_ICBM_DESC"
+
+[TECHNOLOGY] "Experimental_Biochem"
+	Name "Experimental_Biochemical_Weapons_NAME"
+	Description "Experimental_Biochemical_Weapons_DESC"
+	Image "Images/Science/MaxBioChem.png"	
+	Points 60
+	LeadsTo "M_Chem_Artillery_4"
+	LeadsTo "Engineered_Bioweapon_Bomb"
+	LeadsTo "Engineered_Bioweapon_MRBM"
+	LeadsTo "Engineered_Bioweapon_ICBM"
+	LeadsTo "Experimental_Chemical_Bomb"
+    LeadsTo "M_Chemical_MRBM_4"
+	LeadsTo "M_Chem_SRBM_4"
+    LeadsTo "Experimental_Biochem_Buffer_Tech"
+	  TechLevel 8
+  Type "Weapons of Mass Destruction"
+  NoAutoUnlockTillLevel 99
+
+[TECHNOLOGY] "Experimental_Biochem_Buffer_Tech"
+	Name "Experimental_Biochemical_Weapons_NAME"
+	Description "Experimental_Biochemical_Weapons_DESC"
+	LeadsTo "M_3x_Bioweapon_MIRV"
+	LeadsTo "M_8x_Bioweapon_MIRV"
+
+[TECHNOLOGY] "M_Chem_Artillery_4"
+  Name "M_Chem_Artillery_4_NAME"
+  Description "M_Chem_Artillery_4_DESC"
+
+[TECHNOLOGY] "M_Chem_SRBM_4"
+  Name "M_Chem_SRBM_4_NAME"
+  Description "M_Chem_SRBM_4_DESC"
+
+[TECHNOLOGY] "M_Chemical_MRBM_4"
+  Name "M_Chemical_MRBM_4_NAME"
+  Description "M_Chemical_MRBM_4_DESC"	
+	
+	
+[TECHNOLOGY] "Engineered_Bioweapon_Bomb"
+  Name "Exp_Bioweapon_Bomb_NAME"
+  Description "Exp_Bioweapon_Bomb_DESC"
+
+[TECHNOLOGY] "Engineered_Bioweapon_MRBM"
+  Name "Exp_Bioweapon_MRBM_NAME"
+  Description "Exp_Bioweapon_MRBM_DESC"
+  
+[TECHNOLOGY] "Engineered_Bioweapon_ICBM"
+  Name "Exp_Bioweapon_ICBM_NAME"
+  Description "Exp_Bioweapon_ICBM_DESC"
+  
+[TECHNOLOGY] "Experimental_Chemical_Bomb"
+  Name "Exp_Chemical_Bomb_NAME"
+  Description "Exp_Chemical_Bomb_DESC"
+  
+ 
+[TECHNOLOGY] "M_3x_Bioweapon_MIRV"
+  Name "M_3x_Bioweapon_MIRV_NAME"
+  Description "M_3x_Bioweapon_MIRV_DESC"
+  
+[TECHNOLOGY] "M_8x_Bioweapon_MIRV"
+  Name "M_8x_Bioweapon_MIRV_NAME"
+  Description "M_8x_Bioweapon_MIRV_DESC"
+   
+  
+[TECHNOLOGY] "Chem_WARHEAD_1"
+  Name "Chem_WARHEAD_1_NAME"
+  Description "Chem_WARHEAD_1_DESC"
+
+[TECHNOLOGY] "Chem_WARHEAD_2"
+  Name "Chem_WARHEAD_2_NAME"
+  Description "Chem_WARHEAD_2_DESC"
+
+[TECHNOLOGY] "Chem_WARHEAD_3"
+  Name "Chem_WARHEAD_3_NAME"
+  Description "Chem_WARHEAD_3_DESC"
+
+[TECHNOLOGY] "Chem_WARHEAD_4"
+  Name "Chem_WARHEAD_4_NAME"
+  Description "Chem_WARHEAD_4_DESC"
+
+[TECHNOLOGY] "Bio_WARHEAD"
+  Name "Bio_WARHEAD_NAME"
+  Description "Bio_WARHEAD_DESC" 
+  
+
+////////////////////TRIGGER YOUR CALLSIGN IS MAGE 2///////////////////////////////////////////////
+// chain  Advanced aircrafts	Stealth aircrafts      New Stealth
+//	                            AWACS
+//	                            Air refuel
+
+
+//F-100 Equivalents. NO BUFFER REQUIRED
+[TECHNOLOGY] "Generation_2_Aircraft"
+  Name "Generation_2_Aircraft_NAME"
+  Description "Generation_2_Aircraft_DESC"
+  Image "Images/Science/Generation_2_Aircraft.png"
+  Points 20
+  LeadsTo "Generation_3_Aircraft"
+ // LeadsTo "Air_refuel"
+  LeadsTo "Interceptor_aircraft"
+  TechLevel 1
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 1
+
+//F-4 Equivalents
+[TECHNOLOGY] "Generation_3_Aircraft"
+  Name "Generation_3_Aircraft_NAME"
+  Description "Generation_3_Aircraft_DESC"
+  Image "Images/Science/Generation_3_Aircraft.png"
+  Points 30
+  LeadsTo "Generation_4_Aircraft"
+  LeadsTo "Improvised_Airbase"
+  LeadsTo "Generation_3_Aircraft_Buffer"
+  TechLevel 2
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "Generation_3_Aircraft_Buffer"
+  Name "Generation_3_Aircraft_NAME"
+  Description "Generation_3_Aircraft_DESC"
+  Image "Images/Science/Advanced_aircrafts.png"
+  LeadsTo "Generation_3_Bomber"
+  
+[TECHNOLOGY] "Improvised_Airbase"
+  Name "Improvised_Airbase_NAME"
+  Description "Improvised_Airbase_DESC"
+  Image "Images/Science/VTOLAirbase.png"
+  Points 30  
+  LeadsTo "U_Improvised_Airbase"
+  TechLevel 2
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 99
+  
+[TECHNOLOGY] "Interceptor_aircraft"
+  Name "Interceptor_aircraft_NAME"
+  Description "Interceptor_aircraft_DESC"
+  Image "Images/Science/Interceptor.png"
+  Points 30
+  LeadsTo "U_Interceptor"
+  LeadsTo "M_LAAM"
+  LeadsTo "M_ASAT_Plane"
+  LeadsTo "M_Air_to_air_missile_Nuke"
+  TechLevel 2
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 99
+
+//B-52 Equivalent. Basic bomber is B-47
+[TECHNOLOGY] "Generation_2_Bomber"
+  Name "Generation_2_Bomber_NAME"
+  Description "Generation_2_Bomber_DESC"
+  Image "Images/Science/Generation_2_Bomber.png"
+  Points 20
+  LeadsTo "Generation_2_Bomber_Buffer"
+  LeadsTo "Generation_3_Bomber"
+  LeadsTo "CanFireAL-ICBM"
+  TechLevel 1
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 1
+  
+[TECHNOLOGY] "Generation_2_Bomber_Buffer"
+  Name "Generation_2_Bomber_NAME"
+  Description "Generation_2_Bomber_DESC"
+  LeadsTo "Aircraft-launched_MRBM"  
+  LeadsTo "Aircraft-launched_ICBM"
+
+
+[TECHNOLOGY] "U_Interceptor"
+  Name "U_Interceptor_NAME"
+  Description "U_Interceptor_DESC"
+  
+[TECHNOLOGY] "R_Interceptor_Short_Wave"
+  NAME "R_Interceptor_Short_Wave_NAME"
+  Description "R_Interceptor_Short_Wave_DESC"  
+  
+[TECHNOLOGY] "M_LAAM"
+  Name "M_LAAM_NAME"
+  Description "M_LAAM_DESC"
+
+//B-58 Hustler Equivalents
+[TECHNOLOGY] "Generation_3_Bomber"
+  Name "Generation_3_Bomber_NAME"
+  Description "Generation_3_Bomber_DESC"
+  Image "Images/Science/Generation_3_Bomber.png"
+  Points 15
+  LeadsTo "U_High_Speed_Bomber"
+  LeadsTo "Generation_4_Bomber"
+  TechLevel 3
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 5
+
+
+
+///F-15A Equivalents
+[TECHNOLOGY] "Generation_4_Aircraft"
+  Name "Generation_4_Aircraft_NAME"
+  Description "Generation_4_Aircraft_DESC"
+  Image "Images/Science/Generation_4_Aircraft.png"
+  Points 45
+  LeadsTo "Generation_4.5_Aircraft"
+  LeadsTo "Generation_4_Bomber"
+  LeadsTo "Generation_4_Aircraft_Buffer"
+  TechLevel 3
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 4
+
+[TECHNOLOGY] "Generation_4_Aircraft_Buffer"
+  Name "Generation_4_Aircraft_NAME"
+  Description "Generation_4_Aircraft_DESC"
+  Image "Images/Science/Advanced_aircrafts.png"
+  LeadsTo "M_ASAT_Plane"  
+  
+///////B-1 Lancer Equivalent 
+[TECHNOLOGY] "Generation_4_Bomber"
+  Name "Generation_4_Bomber_NAME"
+  Description "Generation_4_Bomber_DESC"
+  Image "Images/Science/Generation_4_Bomber.png"
+  Points 30
+  LeadsTo "Generation_5_Bomber"
+  TechLevel 4
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 5
+  
+  
+  ///F-15C Equivalents
+[TECHNOLOGY] "Generation_4.5_Aircraft"
+  Name "Generation_4.5_Aircraft_NAME"
+  Description "Generation_4.5_Aircraft_DESC"
+  Image "Images/Science/Generation_4.5_Aircraft.png"
+  Points 45
+  LeadsTo "Generation_5_Aircraft"
+  LeadsTo "Generation_4.5_Aircraft_Buffer"
+  LeadsTo "Generation_5_Bomber" 
+  TechLevel 5
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 6
+ 
+  
+///////B-2 Spirit Equivalent 
+[TECHNOLOGY] "Generation_5_Bomber"
+  Name "Generation_5_Bomber_NAME"
+  Description "Generation_5_Bomber_DESC"
+  Image "Images/Science/Generation_5_Bomber.png"
+  Points 30
+  LeadsTo "Generation_6_Bomber"    
+  LeadsTo "Bomber_Stealth_Bonus_Modifier_1"
+  TechLevel 6
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 8
+  
+
+ 
+  ///F-22 Equivalents
+[TECHNOLOGY] "Generation_5_Aircraft"
+  Name "Generation_5_Aircraft_NAME"
+  Description "Generation_5_Aircraft_DESC"
+  Image "Images/Science/Generation_5_Aircraft.png"
+  Points 60
+  LeadsTo "Aircraft_Stealth_Bonus_Modifier_1"  
+  LeadsTo "Generation_6_Aircraft"
+  LeadsTo "Generation_5_Aircraft_Buffer"
+    LeadsTo "Generation_6_Bomber"  
+  TechLevel 7
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 8
+  
+  
+ //B-21 Raider Equivalents
+[TECHNOLOGY] "Generation_6_Bomber"
+  Name "Generation_6_Bomber_NAME"
+  Description "Generation_6_Bomber_DESC"
+  Image "Images/Science/Generation_6_Bomber.png"
+  Points 30  
+  LeadsTo "Bomber_Stealth_Bonus_Modifier_2"
+  LeadsTo "Generation_7_Bomber"
+    TechLevel 8
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 9
+ 
+  
+  ///NGAD Insanity Equivalents
+[TECHNOLOGY] "Generation_6_Aircraft"
+  Name "Generation_6_Aircraft_NAME"
+  Description "Generation_6_Aircraft_DESC"
+  Image "Images/Science/Generation_6_Aircraft.png"
+  Points 60
+  LeadsTo "Aircraft_Stealth_Bonus_Modifier_2"
+  LeadsTo "Plane_Laser_Upgrade"
+  LeadsTo "Generation_7_Bomber"
+  TechLevel 9
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 99
+
+///Future space-plane sub-orbital hypersonic bomber insanity, ala X-30
+[TECHNOLOGY] "Generation_7_Bomber"
+  Name "Generation_7_Bomber_NAME"
+  Description "Generation_7_Bomber_DESC"
+  Image "Images/Science/Generation_7_Bomber.png"
+  Points 20
+  TechLevel 9
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 99
+
+[TECHNOLOGY] "Plane_Laser_Upgrade"
+  Name "M_Plane_Laser_NAME"
+  Description "M_Plane_Laser_DESC"
+
+
+[TECHNOLOGY] "Spy_Plane"
+  Name "Spy_Plane_NAME"
+  Description "Spy_Plane_DESC"
+  Image "Images/Science/SPY_PLANE.png"
+  LeadsTo "U_Spy_Plane"
+  Points 25  
+  TechLevel 1
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 99
+  
+[TECHNOLOGY] "U_Spy_Plane"
+  Name "U_Spy_Plane_NAME"
+  Description "U_Spy_Plane_DESC"
+
+[TECHNOLOGY] "R_Spy_Plane_Camera"
+  Name "R_Spy_Plane_Camera_NAME"
+  Description "R_Spy_Plane_Camera_DESC"    
+
+[TECHNOLOGY] "Spy_Plane_Modifier"
+  Name "U_Spy_Plane_NAME"
+  Description "U_Spy_Plane_DESC"
+
+ //AWACS now super basic, upgrades with heavy airframes
+[TECHNOLOGY] "AWACS"
+  Name "AWACS_NAME"
+  Description "AWACS_DESC"
+  Image "Images/Science/AWACS.png"
+  Points 25
+  //LeadsTo "Spy_Plane"
+  LeadsTo "U_AWACS"
+  LeadsTo "U_Naval_AWACS"
+  LeadsTo "R_AWACS_Air_Detection"
+  LeadsTo "R_AWACS_Air_Targeting"
+  LeadsTo "R_AWACS_Ground_Detection"
+  LeadsTo "R_AWACS_Ground_Targeting"
+  //LeadsTo "R_Navy_AWACS_LW"
+  //LeadsTo "R_Navy_AWACS_SW"
+  TechLevel 1
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 3
+
+[TECHNOLOGY] "U_AWACS"
+  Name "U_AWACS_NAME"
+  Description "U_AWACS_DESC"
+  
+[TECHNOLOGY] "U_Naval_AWACS" 
+  Name "U_Naval_AWACS_NAME"
+  Description "U_Naval_AWACS_DESC" 
+
+[TECHNOLOGY] "Naval_AWACS_Mod" 
+  Name "U_Naval_AWACS_NAME"
+  Description "U_Naval_AWACS_DESC" 
+
+[TECHNOLOGY] "R_AWACS_Air_Detection"
+  Name "R_AWACS_Air_Detection_NAME"
+  Description "R_AWACS_Air_Detection_DESC"
+  
+[TECHNOLOGY] "R_AWACS_Air_Targeting"
+  Name "R_AWACS_Air_Targeting_NAME"
+  Description "R_AWACS_Air_Targeting_DESC"  
+  
+[TECHNOLOGY] "R_AWACS_Ground_Detection"
+  Name "R_AWACS_Ground_Detection_NAME"
+  Description "R_AWACS_Ground_Detection_DESC"  
+
+[TECHNOLOGY] "R_AWACS_Ground_Targeting"
+  Name "R_AWACS_Ground_Targeting_NAME"
+  Description "R_AWACS_Ground_Targeting_DESC"  
+
+[TECHNOLOGY] "U_Navy_Helicopter"
+  Name "U_Navy_Helicopter_NAME"
+  Description "U_Navy_Helicopter_DESC"
+
+//Adds SW/LW radar to naval helicopters with AWACS upgrade
+[TECHNOLOGY] "R_Navy_AWACS_LW"
+  Name "R_LONG_WAVE_RADAR_NAME"
+  Description "R_LONG_WAVE_RADAR_DESC"
+  
+[TECHNOLOGY] "R_Navy_AWACS_SW"
+  Name "R_SHORT_WAVE_RADAR_NAME"
+  Description "R_SHORT_WAVE_RADAR_DESC"
+
+
+[TECHNOLOGY] "Heavy_Airframe_1"
+  Name "Heavy_Airframe_1_NAME"
+  Description "Heavy_Airframe_1_DESC"
+  Image "Images/Science/Heavy_Airframes_1.png"
+  Points 15
+  LeadsTo "Heavy_Airframe_2"
+  TechLevel 2
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 3
+  
+[TECHNOLOGY] "Heavy_Airframe_2"
+  Name "Heavy_Airframe_2_NAME"
+  Description "Heavy_Airframe_2_DESC"
+  Image "Images/Science/Heavy_Airframes_2.png"
+  Points 20
+  LeadsTo "Heavy_Airframe_3"
+  TechLevel 6
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 7  
+
+[TECHNOLOGY] "Heavy_Airframe_3"
+  Name "Heavy_Airframe_3_NAME"
+  Description "Heavy_Airframe_3_DESC"
+  Image "Images/Science/Heavy_Airframes_3.png"
+  Points 25
+  TechLevel 9
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 10
+  
+[TECHNOLOGY] "Helicopter_1"
+  Name "Helicopter_1_NAME"
+  Description "Helicopter_1_DESC"
+  Image "Images/Science/Helicopter_1.png"
+  Points 15
+  LeadsTo "U_Spec-Ops_Helicopter"
+  LeadsTo "U_Navy_Helicopter"
+  LeadsTo "Helicopter_2"
+  TechLevel 1
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 1
+
+[TECHNOLOGY] "Helicopter_2"
+  Name "Helicopter_2_NAME"
+  Description "Helicopter_2_DESC"
+  Image "Images/Science/Helicopter_2.png"
+  Points 15
+  LeadsTo "U_Attack_Helicopter"
+  LeadsTo "Helicopter_3"
+  TechLevel 2
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 3
+
+[TECHNOLOGY] "Helicopter_3"
+  Name "Helicopter_3_NAME"
+  Description "Helicopter_3_DESC"
+  Image "Images/Science/Helicopter_3.png"
+  Points 20
+  LeadsTo "Helicopter_4"
+  TechLevel 4
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 5
+  
+[TECHNOLOGY] "Helicopter_4"
+  Name "Helicopter_4_NAME"
+  Description "Helicopter_4_DESC"
+  Image "Images/Science/Helicopter_4.png"
+  Points 30
+  LeadsTo "Helicopter_5"
+  TechLevel 6
+  Type "Aircraft Technology"  
+  NoAutoUnlockTillLevel 7
+  
+[TECHNOLOGY] "Helicopter_5"
+  Name "Helicopter_5_NAME"
+  Description "Helicopter_5_DESC"
+  Image "Images/Science/Helicopter_5.png"
+  Points 35
+  TechLevel 9
+  Type "Aircraft Technology"
+  NoAutoUnlockTillLevel 99
+
+[TECHNOLOGY] "Helicopter_Modifier"
+  Name "Helicopter_1_NAME"
+  Description "Helicopter_1_DESC"
+
+[TECHNOLOGY] "U_Attack_Helicopter"
+  Name "U_Attack_Helicopter_NAME"
+  Description "U_Attack_Helicopter_DESC"
+
+[TECHNOLOGY] "M_Chaingun"
+  Name "M_Chaingun_NAME"
+  Description "M_Chaingun_DESC"
+
+[TECHNOLOGY] "M_Heli_ATGM"
+  Name "M_Heli_ATGM_NAME"
+  Description "M_Heli_ATGM_DESC"  
+  
+[TECHNOLOGY] "M_Plane_Gun"
+  Name "M_Plane_Gun_NAME"
+  Description "M_Plane_Gun_DESC"
+  
+[TECHNOLOGY] "M_Plane_Laser"
+  Name "M_Plane_Laser_NAME"
+  Description "M_Plane_Laser_DESC"
+  LeadsTo "Plane_Laser_Upgrade"
+  
+[TECHNOLOGY] "M_Rocket_Pod"
+  Name "M_Rocket_Pod_NAME"
+  Description "M_Rocket_Pod_DESC"  
+    
+[TECHNOLOGY] "U_Improvised_Airbase"
+  Name "U_Improvised_Airbase_NAME"
+  Description "U_Improvised_Airbase_DESC"  
+
+
+/////////////////////////ARMY STUFF/////////////////////
+[TECHNOLOGY] "U_Army_Base"
+ Name "U_Army_Base_NAME"
+ Description "U_Army_Base_DESC"
+ 
+[TECHNOLOGY] "U_FOB"
+ Name "U_FOB_NAME"
+ Description "U_FOB_DESC" 
+ 
+[TECHNOLOGY] "Static_Defender_Bonus"
+ Name "Static_Defender_Bonus_NAME"
+ Description "Static_Defender_Bonus_DESC"
+ 
+
+[TECHNOLOGY] "U_Air_Transport"
+ Name "U_Air_Transport_NAME"
+ Description "U_Air_Transport_DESC"
+ 
+[TECHNOLOGY] "U_Landing_Ship" 
+ Name "U_Landing_Ship_NAME"
+ Description "U_Landing_Ship_DESC"
+ 
+[TECHNOLOGY] "U_Resupply_Ship" 
+ Name "U_Resupply_Ship_NAME"
+ Description "U_Resupply_Ship_DESC" 
+ 
+[TECHNOLOGY] "R_Resupply"
+ Name "R_Resupply_NAME"
+ Description "R_Resupply_DESC" 
+ 
+ [TECHNOLOGY] "R_Resupply_FOB"
+ Name "R_Resupply_FOB_NAME"
+ Description "R_Resupply_FOB_DESC" 
+ 
+[TECHNOLOGY] "U_Army"
+ Name "U_Army_NAME"
+ Description "U_Army_DESC"
+ 
+ [TECHNOLOGY] "U_Combat_Engineers"
+ Name "U_Combat_Engineers_NAME"
+ Description "U_Combat_Engineers_DESC"
+ 
+[TECHNOLOGY] "M_Land_Force_ARMY"
+ Name "M_Land_Force_ARMY_NAME"
+ Description "M_Land_Force_ARMY_DESC"
+ 
+[TECHNOLOGY] "M_Massacre" 
+ Name "M_Massacre_NAME"
+ Description "M_Massacre_DESC"
+ 
+//////////Army Researchables//////////
+
+
+////////WEPON WEPON WEPON WEPON WEPON WEPON/////////////////
+[TECHNOLOGY] "Weapon_Modernization"
+  Name "Weapon_Modernization_NAME"
+  Description "Weapon_Modernization_DESC"
+  Image "Images/Science/Army_Weapons_1.png"
+  Points 15
+  LeadsTo "Improved_Army_Weapons"
+  TechLevel 1
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 1
+
+[TECHNOLOGY] "Improved_Army_Weapons"
+  Name "Improved_Army_Weapons_NAME"
+  Description "Improved_Army_Weapons_DESC"
+  Image "Images/Science/Army_Weapons_2.png"
+  Points 15
+  LeadsTo "Enhanced_Army_Weapons"
+  LeadsTo "M_MANPAD"
+ // LeadsTo "Army_Mech_Mk3"
+  TechLevel 3
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 3
+
+[TECHNOLOGY] "Enhanced_Army_Weapons"
+  Name "Enhanced_Army_Weapons_NAME"
+  Description "Enhanced_Army_Weapons_DESC"
+  Image "Images/Science/Army_Weapons_3.png"
+  Points 30
+  LeadsTo "Advanced_Army_Weapons"
+ // LeadsTo "Army_Mech_Mk4"
+  TechLevel 5
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 5
+
+[TECHNOLOGY] "Advanced_Army_Weapons"
+  Name "Advanced_Army_Weapons_NAME"
+  Description "Advanced_Army_Weapons_DESC"
+  Image "Images/Science/Army_Weapons_4.png"
+  Points 30
+  LeadsTo "Experimental_Army_Weapons"
+  //LeadsTo "Army_Mech_Mk5"
+  TechLevel 7
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 7
+
+
+[TECHNOLOGY] "Experimental_Army_Weapons"
+  Name "Experimental_Army_Weapons_NAME"
+  Description "Experimental_Army_Weapons_DESC"
+  Image "Images/Science/Army_Weapons_5.png"
+  Points 45 
+  TechLevel 9
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 9
+ 
+
+//////Body armour//////////////
+[TECHNOLOGY] "Improved_Basic_Protection"
+ Name "Improved_Basic_Protection_NAME"
+ Description "Improved_Basic_Protection_DESC"
+ Image "Images/Science/Body_Armor_1.png"
+ Points 15
+ LeadsTo "Basic_Body_Armor"
+ LeadsTo "CBRN_Defence_1" 
+  TechLevel 2
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 2
+ 
+[TECHNOLOGY] "Basic_Body_Armor"
+ Name "Basic_Body_Armor_NAME"
+ Description "Basic_Body_Armor_DESC"
+ Image "Images/Science/Body_Armor_2.png"
+ Points 30
+ LeadsTo "Improved_Body_Armor"
+  TechLevel 4
+  Type "Ground Forces" 
+  NoAutoUnlockTillLevel 4
+
+[TECHNOLOGY] "Improved_Body_Armor"
+ Name "Improved_Body_Armor_NAME"
+ Description "Improved_Body_Armor_DESC"
+ Image "Images/Science/Body_Armor_3.png"
+ Points 30
+ LeadsTo "Advanced_Body_Armor" 
+  TechLevel 6
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 6
+
+[TECHNOLOGY] "Advanced_Body_Armor"
+ Name "Advanced_Body_Armor_NAME"
+ Description "Advanced_Body_Armor_DESC"
+ Image "Images/Science/Body_Armor_4.png"
+ Points 45
+ LeadsTo "Experimental_Body_Armor" 
+  TechLevel 8
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 9
+
+[TECHNOLOGY] "Experimental_Body_Armor"
+ Name "Experimental_Body_Armor_NAME"
+ Description "Experimental_Body_Armor_DESC"
+ Image "Images/Science/Body_Armor_5.png"
+ Points 45
+  TechLevel 9
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 10
+
+//////CBRN Defence//////
+///////CBRN Defence 0 is on by default - passive buff for armies/engineers/bases against nukes
+[TECHNOLOGY] "CBRN_Defence_0"
+ Name "CBRN_Defence_1_NAME"
+ Description "CBRN_Defence_1_DESC"
+
+[TECHNOLOGY] "CBRN_Defence_1"
+ Name "CBRN_Defence_1_NAME"
+ Description "CBRN_Defence_1_DESC"
+ Image "Images/Science/CBRN_1.png"
+ Points 10
+ LeadsTo "CBRN_Defence_2"
+  TechLevel 2
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 4
+  
+[TECHNOLOGY] "CBRN_Defence_2"
+ Name "CBRN_Defence_2_NAME"
+ Description "CBRN_Defence_2_DESC"
+ Image "Images/Science/CBRN_2.png"
+ Points 15
+ LeadsTo "CBRN_Defence_3"
+  TechLevel 3
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 5
+
+
+[TECHNOLOGY] "CBRN_Defence_3"
+ Name "CBRN_Defence_3_NAME"
+ Description "CBRN_Defence_3_DESC"
+ Image "Images/Science/CBRN_3.png"
+ Points 20
+ LeadsTo "CBRN_Defence_4"
+  TechLevel 4
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 6
+
+[TECHNOLOGY] "CBRN_Defence_4"
+ Name "CBRN_Defence_4_NAME"
+ Description "CBRN_Defence_4_DESC"
+ Image "Images/Science/CBRN_4.png"
+ Points 30
+  TechLevel 7
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 9
+ 
+//////////Armoured Vehicle Tech/////////// 
+//M113 - AIFV - M2 Brad - M2A4 - XM30
+//M48 -  Leo1 -  Leo2 - Leo2A7 - KF51
+//None   IFV     IFV2    Adv    Exp
+
+ 
+///M113 ACAV/AIFV or BMP-1 Equivalents, Leopard 1s
+  [TECHNOLOGY] "Army_Mech_Mk2" 
+  Name "Army_Mech_Mk2_NAME"
+  Description "Army_Mech_Mk2_DESC"
+  Image "Images/Science/AFV_1.png"
+  Points 30
+  LeadsTo "Army_Mech_Mk2_Buffer"
+  LeadsTo "Army_Mech_Mk3"  
+  TechLevel 2
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 2
+ 
+  [TECHNOLOGY] "Army_Mech_Mk2_Buffer" 
+  Name "Army_Mech_Mk2_NAME"
+  Description "Army_Mech_Mk2_DESC" 
+ 
+///Basic Bradley Equivalents
+[TECHNOLOGY] "Army_Mech_Mk3"
+  Name "Army_Mech_Mk3_NAME"
+  Description "Army_Mech_Mk3_DESC"
+  Image "Images/Science/AFV_2.png"
+  Points 35
+  LeadsTo "Army_Mech_Mk3_Buffer"
+  LeadsTo "Army_Mech_Mk4"
+  TechLevel 4
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 4
+
+  [TECHNOLOGY] "Army_Mech_Mk3_Buffer" 
+  Name "Army_Mech_Mk3_NAME"
+  Description "Army_Mech_Mk3_DESC" 
+
+///Modern Bradley Equivalents (M2A4)
+[TECHNOLOGY] "Army_Mech_Mk4"
+  Name "Army_Mech_Mk4_NAME"
+  Description "Army_Mech_Mk4_DESC"
+  Image "Images/Science/AFV_3.png"
+  Points 45
+  LeadsTo "Army_Mech_Mk4_Buffer"  
+  LeadsTo "Army_Mech_Mk5"
+  TechLevel 6
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 6
+
+[TECHNOLOGY] "Army_Mech_Mk4_Buffer"
+  Name "Army_Mech_Mk4_NAME"
+  Description "Army_Mech_Mk4_DESC" 
+ 
+ //AbramsX Equivalent
+[TECHNOLOGY] "Army_Mech_Mk5"
+  Name "Army_Mech_Mk5_NAME"
+  Description "Army_Mech_Mk5_DESC"
+  Image "Images/Science/AFV_4.png"
+  LeadsTo "Army_Mech_Mk5_Buffer"  
+  Points 60
+  TechLevel 8
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 9
+
+[TECHNOLOGY] "Army_Mech_Mk5_Buffer"
+  Name "Army_Mech_Mk5_NAME"
+  Description "Army_Mech_Mk5_DESC" 
+ 
+ /////////////////I SEE YOU///////////////
+
+////This is the spec-ops radar///
+[TECHNOLOGY] "R_Reconnaissance"
+ Name "R_Reconnaissance_NAME"
+ Description "R_Reconnaissance_DESC"
+
+///EntMods are modifiers for army divs/bases. Increases attack range while dug in 
+ 
+[TECHNOLOGY] "Portable_Electronic_Optics"
+ Name "Portable_Electronic_Optics_NAME"
+ Description "Portable Electronic Optics_DESC"
+ Image "Images/Science/OPTICS_1.png"
+ Points 15
+ LeadsTo "Tactical_Optics"
+ LeadsTo "Portable_Electronic_Optics_EntMod"
+  TechLevel 2
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 3
+
+[TECHNOLOGY] "Portable_Electronic_Optics_EntMod"
+ Name "Portable_Electronic_Optics_NAME"
+ Description "Portable Electronic Optics_DESC"
+
+[TECHNOLOGY] "Tactical_Optics"
+ Name "Early_Tactical_Optics_NAME"
+ Description "Early_Tactical_Optics_DESC"
+ Image "Images/Science/OPTICS_2.png"
+ Points 30
+ LeadsTo "Advanced_Tactical_Optics" 
+ LeadsTo "Tactical_Optics_EntMod"
+ //LeadsTo "Army_Mech_Mk3"
+  TechLevel 4
+  Type "Ground Forces"
+    NoAutoUnlockTillLevel 5
+ 
+[TECHNOLOGY] "Tactical_Optics_EntMod"
+ Name "Early_Tactical_Optics_NAME"
+ Description "Early_Tactical_Optics_DESC"
+ 
+ [TECHNOLOGY] "Advanced_Tactical_Optics"
+ Name "Advanced_Tactical_Optics_NAME"
+ Description "Advanced_Tactical_Optics_DESC"
+ Image "Images/Science/OPTICS_3.png"
+ Points 30
+ LeadsTo "Light_Unmanned_Vehicles" 
+ LeadsTo "Advanced_Tactical_Optics_EntMod"
+ //LeadsTo "Army_Mech_Mk4"
+  TechLevel 6
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 7
+
+ [TECHNOLOGY] "Advanced_Tactical_Optics_EntMod"
+ Name "Advanced_Tactical_Optics_NAME"
+ Description "Advanced_Tactical_Optics_DESC" 
+ 
+[TECHNOLOGY] "Light_Unmanned_Vehicles"
+ Name "Light_Unmanned_Vehicles_NAME"
+ Description "Light_Unmanned_Vehicles_DESC"
+ Image "Images/Science/OPTICS_4.png"
+ Points 45
+ LeadsTo "Robotic_Infantry"
+ LeadsTo "Light_Unmanned_Vehicles_EntMod"
+ //LeadsTo "Army_Mech_Mk5"
+  TechLevel 8
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 9
+
+[TECHNOLOGY] "Light_Unmanned_Vehicles_EntMod"
+ Name "Light_Unmanned_Vehicles_NAME"
+ Description "Light_Unmanned_Vehicles_DESC"
+ 
+[TECHNOLOGY] "Robotic_Infantry"
+ Name "Robotic_Infantry_NAME"
+ Description "Robotic_Infantry_DESC"
+ Image "Images/Science/OPTICS_5.png"
+ Points 45
+ LeadsTo "Robotic_Infantry_EntMod"
+  TechLevel 9
+  Type "Ground Forces"
+  NoAutoUnlockTillLevel 10
+
+[TECHNOLOGY] "Robotic_Infantry_EntMod"
+ Name "Robotic_Infantry_NAME"
+ Description "Robotic_Infantry_DESC"
+
+////////////Other Army Tech//////////////////  
+[TECHNOLOGY] "Bomb_Truck"  
+  Name "Bomb_Truck_NAME"
+  Description "Bomb_Truck_DESC"
+	
+[TECHNOLOGY] "U_Bomb_Truck"
+    Name "U_Bomb_Truck_NAME"
+    Description "U_Bomb_Truck_DESC"
+
+[TECHNOLOGY] "U_Bomb_Truck_Heavy"
+    Name "U_Bomb_Truck_Heavy_NAME"
+    Description "U_Bomb_Truck_Heavy_DESC"		
+	
+[TECHNOLOGY] "Covert_Unit"
+	Name "Covert_Unit_NAME"
+    Description "Covert_Unit_DESC"	
+	
+[TECHNOLOGY] "U_Spec_Ops"
+  Name "U_Spec_Ops_NAME"
+  Description "U_Spec_Ops_DESC"
+
+[TECHNOLOGY] "U_Spec-Ops_Helicopter"
+  Name "U_Spec-Ops_Helicopter_NAME"
+  Description "U_Spec-Ops_Helicopter_DESC"  
+  
+[TECHNOLOGY] "U_Security_Checkpoint" 
+  Name "U_Security_Checkpoint_NAME"
+  Description "U_Security_Checkpoint_DESC" 
+
+[TECHNOLOGY] "M_Small_Arms"
+  Name "M_Small_Arms_NAME"
+  Description "M_Small_Arms_DESC"
+  
+[TECHNOLOGY] "M_Body_Armor"
+  Name "M_Body_Armor_NAME"
+  Description "M_Body_Armor_DESC"
+  
+[TECHNOLOGY] "M_Optics"
+  Name "M_Optics_NAME"
+  Description "M_Optics_DESC"  
+
+[TECHNOLOGY] "M_Demolition_Charge"
+  Name "M_Demolition_Charge_NAME"
+  Description "M_Demolition_Charge_DESC"
+	
+[TECHNOLOGY] "R_Counterspy"
+  Name "R_Counterspy_NAME"
+  Description "R_Counterspy_DESC"
+	
+[TECHNOLOGY] "M_Car_Bomb"	
+	Name "M_Car_Bomb_NAME"
+	Description "M_Car_Bomb_DESC"
+
+
+
+
+//////////////FIRE ZE MISSILES/////////////////////
+[TECHNOLOGY] "Early_BM"
+	Name "Early_BM_NAME"
+	Description "Early_BM_DESC"
+	Image "Images/Science/EARLY_BM.png"
+	Points 15`
+	LeadsTo "M_SRBM"
+	LeadsTo "M_SRBM-N"
+	LeadsTo "M_Chem_SRBM_1"
+	LeadsTo "U_SRBM_Site"
+	LeadsTo "Mobile_MRBM"
+	LeadsTo "MRBM"
+	LeadsTo "Launchpad_ICBM"
+	LeadsTo "Improved_Inertial_Guidance"
+	LeadsTo "Early_BM_Buffer"
+  
+  TechLevel 1
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 1
+	
+	
+[TECHNOLOGY] "Early_BM_Buffer"
+	Name "Early_BM_NAME"
+	Description "Early_BM_DESC"	
+	LeadsTo "M_Chem_SRBM_2"
+	LeadsTo "M_Chem_SRBM_3"
+	LeadsTo "M_Chem_SRBM_4"
+	
+[TECHNOLOGY] "U_SRBM_Site"
+  Name "U_SRBM_Site_NAME"
+  Description "U_SRBM_Site_DESC"
+	
+////MRBM Tech
+[TECHNOLOGY] "MRBM"
+  Name "MRBM_NAME"
+  Description "MRBM_DESC"
+  Image "Images/Science/MRBM.png"
+  Points 30
+  LeadsTo "M_MRBM"
+  LeadsTo "M_100kt_MRBM"
+  LeadsTo "U_Mobile_MRBM"
+  LeadsTo "M_Chemical_MRBM_1"
+  LeadsTo "Bioweapon_MRBM"
+  LeadsTo "Aircraft-launched_MRBM"
+  LeadsTo "SLBM"
+  LeadsTo "MRBM_Buffer_Tech"
+  TechLevel 2
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "MRBM_Buffer_Tech"
+  Name "MRBM_NAME"
+  Description "MRBM_DESC"
+  LeadsTo "Novel_BM_Light"
+  LeadsTo "M_Chemical_MRBM_2"
+  LeadsTo "M_Chemical_MRBM_3"
+  LeadsTo "M_Chemical_MRBM_4"
+  LeadsTo "Improved_Bioweapon_MRBM"
+  LeadsTo "Advanced_Bioweapon_MRBM"
+  LeadsTo "Engineered_Bioweapon_MRBM"
+  LeadsTo "M_250kt_MRBM"
+  LeadsTo "M_500kt_MRBM"
+  LeadsTo "M_1M_MRBM"
+  LeadsTo "M_5M_MRBM"
+  
+  LeadsTo "M_3x100kt_MRBM"
+  LeadsTo "M_3x250kt_MRBM"
+  LeadsTo "M_6x250kt_MRBM"
+  LeadsTo "M_6x500kt_MRBM"
+  LeadsTo "M_8x500kt_MRBM"  
+  LeadsTo "M_8x1MT_MRBM"
+  
+  LeadsTo "M_500kt_Cobalt_MRBM"
+  LeadsTo "M_500kt_Salt_MRBM"
+  LeadsTo "M_500kt_MRBM_EMP"
+  LeadsTo "M_500kt_MRBM_EMP_Super"
+
+///SLBM Tech
+[TECHNOLOGY] "SLBM"
+  Name "SLBM_NAME"
+  Description "SLBM_DESC"
+  Image "Images/Science/SLBM.png"
+  Points 15
+  LeadsTo "M_100kt_SLBM"
+  LeadsTo "SLBM_Buffer_Tech"
+  TechLevel 2
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "SLBM_Buffer_Tech"
+  Name "SLBM_NAME"
+  Description "SLBM_DESC"
+  LeadsTo "SSBN"
+  
+  LeadsTo "M_250kt_SLBM"
+  LeadsTo "M_500kt_SLBM"
+  LeadsTo "M_1M_SLBM"
+  LeadsTo "M_5M_Fusion_SLBM"
+
+  LeadsTo "M_3x100kt_SLBM"
+  LeadsTo "M_3x250kt_SLBM"
+  LeadsTo "M_6x250kt_SLBM"
+  LeadsTo "M_6x500kt_SLBM"
+  LeadsTo "M_8x500kt_SLBM"  
+  LeadsTo "M_8x1M_Fusion_SLBM"
+  
+  LeadsTo "M_500kt_Cobalt_SLBM"
+  LeadsTo "M_500kt_Salt_SLBM"
+  LeadsTo "M_500kt_SLBM_EMP"
+  LeadsTo "M_500kt_SLBM_EMP_Super"
+  
+  LeadsTo "Novel_BM_Light"
+
+
+////////////////Mobile Launcher Branch//////////////
+[TECHNOLOGY] "Mobile_MRBM"
+  Name "Mobile_MRBM_NAME"
+  Description "Mobile_MRBM_DESC"
+  Image "Images/Science/TEL_1.png"
+  Points 20
+  LeadsTo "U_Mobile_SRBM"
+  LeadsTo "U_Mobile_MRBM"
+  LeadsTo "Mobile_ICBM"
+  LeadsTo "Aircraft-launched_MRBM"
+  TechLevel 2
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 99
+
+[TECHNOLOGY] "U_Mobile_MRBM"
+  Name "U_Mobile_MRBM_NAME"
+  Description "U_Mobile_MRBM_DESC"
+  
+[TECHNOLOGY] "U_Mobile_SRBM"
+  Name "U_Mobile_SRBM_NAME"
+  Description "U_Mobile_SRBM_DESC"  
+
+[TECHNOLOGY] "Mobile_ICBM"
+  Name "Mobile_ICBM_NAME"
+  Description "Mobile_ICBM_DESC"
+  Image "Images/Science/TEL_2.png"
+  Points 45
+  LeadsTo "U_Mobile_ICBM"
+  LeadsTo "Improved_TEL"
+  LeadsTo "Aircraft-launched_ICBM"
+  TechLevel 3
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 99
+  
+[TECHNOLOGY] "Improved_TEL"
+  Name "Improved_TEL_NAME"
+  Description "Improved_TEL_DESC"
+  Image "Images/Science/TEL_3.png"
+  Points 30  
+  LeadsTo "Advanced_TEL"
+  TechLevel 4
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 99
+  
+[TECHNOLOGY] "Advanced_TEL"
+  Name "Advanced_TEL_NAME"
+  Description "Advanced_TEL_DESC"
+  Image "Images/Science/TEL_4.png"
+  Points 30
+  TechLevel 7
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 99
+
+[TECHNOLOGY] "U_Mobile_ICBM"
+  Name "U_Mobile_ICBM_NAME"
+  Description "U_Mobile_ICBM_DESC"
+
+
+
+////////////////////MRBM TECH/////////////////////////
+[TECHNOLOGY] "M_MRBM"
+  Name "M_MRBM_NAME"
+  Description "M_MRBM_DESC"
+  
+[TECHNOLOGY] "M_100kt_MRBM"
+  Name "M_100kt_MRBM_NAME"
+  Description "M_100kt_MRBM_DESC"  
+
+[TECHNOLOGY] "M_250kt_MRBM"
+  Name "M_250kt_MRBM_NAME"
+  Description "M_250kt_MRBM_DESC"
+
+[TECHNOLOGY] "M_3x100kt_MRBM"
+  Name "M_3x100kt_MRBM_NAME"
+  Description "M_3x100kt_MRBM_DESC"  
+  
+[TECHNOLOGY] "M_3x250kt_MRBM"
+  Name "M_3x250kt_MRBM_NAME"
+  Description "M_3x250kt_MRBM_DESC"    
+  
+[TECHNOLOGY] "M_500kt_MRBM"
+  Name "M_500kt_MRBM_NAME"
+  Description "M_500kt_MRBM_DESC"
+  
+[TECHNOLOGY] "M_1M_MRBM"
+  Name "M_1M_MRBM_NAME"
+  Description "M_1M_MRBM_DESC"
+
+[TECHNOLOGY] "M_6x250kt_MRBM"
+  Name "M_6x250kt_MRBM_NAME"
+  Description "M_6x250kt_MRBM_DESC"  
+
+[TECHNOLOGY] "M_6x500kt_MRBM"
+  Name "M_6x500kt_MRBM_NAME"
+  Description "M_6x500kt_MRBM_DESC"
+
+[TECHNOLOGY] "M_8x500kt_MRBM"
+  Name "M_8x500kt_MRBM_NAME"
+  Description "M_8x500kt_MRBM_DESC"    
+  
+[TECHNOLOGY] "M_5M_MRBM"
+  Name "M_5M_MRBM_NAME"
+  Description "M_5M_MRBM_DESC" 
+
+[TECHNOLOGY] "M_8x1MT_MRBM"
+  Name "M_8x1MT_MRBM_NAME"
+  Description "M_8x1MT_MRBM_DESC"
+  
+  
+  
+////////////////////////////////////////////ICBMS////////////////////////////////////////
+[TECHNOLOGY] "Launchpad_ICBM"
+  Name "Launchpad_ICBM_NAME"
+  Description "Launchpad_ICBM_DESC"
+  Image "Images/Science/Launchpad_ICBM.png"
+  Points 45
+  LeadsTo "Launchpad_ICBM_Buffer"
+  LeadsTo "M_ICBM_500kt_Heavy"
+  LeadsTo "U_Launchpad_ICBM"
+  LeadsTo "ICBM"
+  TechLevel 2
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "Launchpad_ICBM_Buffer"
+  Name "Launchpad_ICBM_NAME"
+  Description "Launchpad_ICBM_DESC"
+  LeadsTo "M_ICBM_5M_Heavy"
+  LeadsTo "M_ICBM_10M_Heavy"
+  LeadsTo "M_ICBM_25M_Heavy"
+  LeadsTo "M_ICBM_50M_Fusion"
+  LeadsTo "M_ICBM_10M_Cobalt"
+  LeadsTo "M_ICBM_10M_Salt"
+  LeadsTo "M_ICBM_10M_EMP_Super"
+  LeadsTo "M_3x250kt_ICBM"
+  LeadsTo "M_3x500kt_ICBM"
+  
+
+[TECHNOLOGY] "U_Launchpad_ICBM"
+  Name "U_Launchpad_ICBM_NAME"
+  Description "U_Launchpad_ICBM_DESC"
+
+//////////Compact ICBMs aka Silo ICBMs/////////////
+[TECHNOLOGY] "ICBM"
+  Name "ICBM_NAME"
+  Description "ICBM_DESC"
+  Image "Images/Science/ICBM.png"
+  Points 45
+  LeadsTo "Heavy_Missiles"
+  LeadsTo "U_Missile_Silo"
+  LeadsTo "M_ICBM_250kt_Light"
+  LeadsTo "Bioweapon_ICBM"
+  LeadsTo "ICBM_Buffer_Tech"
+  TechLevel 3
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 3
+
+//////////////Branched off of ICBM to stop cluttering///////////////  
+[TECHNOLOGY] "ICBM_Buffer_Tech"
+  Name "ICBM_NAME"
+  Description "ICBM_DESC"
+  LeadsTo "Improved_Bioweapon_ICBM"
+  LeadsTo "Advanced_Bioweapon_ICBM"
+  LeadsTo "Engineered_Bioweapon_ICBM"
+  LeadsTo "U_Mobile_ICBM"
+  LeadsTo "M_ICBM_500kt_Light"
+  LeadsTo "M_ICBM_1M_Light"
+  LeadsTo "M_ICBM_5M_Light"  
+  LeadsTo "M_ICBM_10M_Fusion"
+  LeadsTo "M_ICBM_1M_Cobalt"
+  LeadsTo "M_ICBM_1M_Salt"
+  LeadsTo "M_ICBM_1M_EMP"
+  LeadsTo "M_ICBM_1M_EMP_Super"
+
+
+[TECHNOLOGY] "M_ICBM_250kt_Light"
+  Name "M_ICBM_250kt_Light_NAME"
+  Description "M_ICBM_250kt_Light_DESC"
+  
+[TECHNOLOGY] "M_ICBM_500kt_Heavy"
+  Name "M_ICBM_500kt_Heavy_NAME"
+  Description "M_ICBM_500kt_Heavy_DESC"  
+  
+[TECHNOLOGY] "M_ICBM_500kt_Light"
+  Name "M_ICBM_500kt_Light_NAME"
+  Description "M_ICBM_500kt_Light_DESC"
+  
+[TECHNOLOGY] "M_ICBM_5M_Heavy"
+  Name "M_ICBM_5M_Heavy_NAME"
+  Description "M_ICBM_5M_Heavy_DESC"  
+
+[TECHNOLOGY] "M_ICBM_1M_Light"
+  Name "M_ICBM_1M_Light_NAME"
+  Description "M_ICBM_1M_Light_DESC"
+  
+[TECHNOLOGY] "M_ICBM_10M_Heavy"
+  Name "M_ICBM_10M_Heavy_NAME"
+  Description "M_ICBM_10M_Heavy_DESC"  
+
+[TECHNOLOGY] "M_ICBM_5M_Light"
+  Name "M_ICBM_5M_Light_NAME"
+  Description "M_ICBM_5M_Light_DESC"
+  
+[TECHNOLOGY] "M_ICBM_25M_Heavy"
+  Name "M_ICBM_25M_Heavy_NAME"
+  Description "M_ICBM_25M_Heavy_DESC"  
+
+
+[TECHNOLOGY] "M_ICBM_10M_Fusion"
+  Name "M_ICBM_10M_Fusion_NAME"
+  Description "M_ICBM_10M_Fusion_DESC"
+
+[TECHNOLOGY] "M_ICBM_50M_Fusion"
+  Name "M_ICBM_50M_Fusion_NAME"
+  Description "M_ICBM_50M_Fusion_DESC"
+
+
+[TECHNOLOGY] "M_ICBM_1M_Cobalt"
+  Name "M_ICBM_1M_Cobalt_NAME"
+  Description "M_ICBM_1M_Cobalt_DESC"
+
+[TECHNOLOGY] "M_ICBM_10M_Cobalt"
+  Name "M_ICBM_10M_Cobalt_NAME"
+  Description "M_ICBM_10M_Cobalt_DESC"
+  
+  
+[TECHNOLOGY] "M_ICBM_1M_Salt"
+  Name "M_ICBM_1M_Salt_NAME"
+  Description "M_ICBM_1M_Salt_DESC"
+
+[TECHNOLOGY] "M_ICBM_10M_Salt"
+  Name "M_ICBM_10M_Salt_NAME"
+  Description "M_ICBM_10M_Salt_DESC"  
+
+
+[TECHNOLOGY] "M_1M_ICBM_WARHEAD"
+  Name "M_1M_ICBM_WARHEAD_NAME"
+  Description "M_1M_ICBM_WARHEAD_DESC"
+
+[TECHNOLOGY] "M_100K_WARHEAD_MRBM"
+  Name "M_100K_WARHEAD_MRBM_NAME"
+  Description "M_100K_WARHEAD_MRBM_DESC"
+
+[TECHNOLOGY] "M_250K_WARHEAD_MRBM"
+  Name "M_250K_WARHEAD_MRBM_NAME"
+  Description "M_250K_WARHEAD_MRBM_DESC"
+
+[TECHNOLOGY] "M_500K_WARHEAD_MRBM"
+  Name "M_500K_WARHEAD_MRBM_NAME"
+  Description "M_500K_WARHEAD_MRBM_DESC"
+
+
+[TECHNOLOGY] "M_250K_WARHEAD_ICBM"  
+  Name "M_250K_WARHEAD_NAME"
+  Description "M_250K_WARHEAD_DESC"
+
+[TECHNOLOGY] "M_500K_WARHEAD_ICBM"  
+  Name "M_500K_WARHEAD_NAME"
+  Description "M_500K_WARHEAD_DESC"
+  
+[TECHNOLOGY] "M_1M_WARHEAD_FUSION"
+ Name "M_1M_WARHEAD_FUSION_NAME"
+ Description "M_1M_WARHEAD_FUSION_DESC"
+
+
+[TECHNOLOGY] "M_WARHEAD_FALSE"
+  Name "M_WARHEAD_FALSE_NAME"
+  Description "M_WARHEAD_FALSE_DESC"
+
+[TECHNOLOGY] "U_Missile_Silo"
+  Name "U_Missile_Silo_NAME"
+  Description "U_Missile_Silo_DESC"
+
+
+////////////////////////////////////HEAVY HITTING ICBMS////////////////////////////////
+[TECHNOLOGY] "Heavy_Missiles"
+  Name "Heavy_Missiles_NAME"
+  Description "Heavy_Missiles_DESC"
+  Image "Images/Science/Heavy_Missiles.png"
+  Points 45
+  LeadsTo "Improved_MIRV"
+//  LeadsTo "M_ICBM_10M"
+ // LeadsTo "M_3x250kt_ICBM"
+  LeadsTo "Heavy_Missiles_Buffer"
+  TechLevel 4
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 4
+  
+[TECHNOLOGY] "Heavy_Missiles_Buffer"
+  Name "Heavy_Missiles_NAME"
+  Description "Heavy_Missiles_DESC"
+ // LeadsTo "M_3x500kt_ICBM"
+ // LeadsTo "M_ICBM_25M"
+ // LeadsTo "M_ICBM_50M_Fusion"
+  //LeadsTo "M_ICBM_10M_Cobalt"
+  //LeadsTo "M_ICBM_10M_Salt"
+
+
+[TECHNOLOGY] "M_ICBM_10M"
+  Name "M_ICBM_10M_NAME"
+  Description "M_ICBM_10M_DESC"
+
+
+[TECHNOLOGY] "M_ICBM_25M"
+  Name "M_ICBM_25M_NAME"
+  Description "M_ICBM_25M_DESC"
+
+[TECHNOLOGY] "M_ICBM_50M_Fusion"
+  Name "M_ICBM_50M_Fusion_NAME"
+  Description "M_ICBM_50M_Fusion_DESC"
+  
+  
+///////////////////HGV Warheads/////////////
+[TECHNOLOGY] "M_500kt_HGV"
+  Name "M_500kt_HGV_NAME"
+  Description "M_500kt_HGV_DESC"
+
+[TECHNOLOGY] "M_5M_HGV"
+  Name "M_5M_HGV_NAME"
+  Description "M_5M_HGV_DESC"
+
+[TECHNOLOGY] "M_10M_HGV"
+  Name "M_10M_HGV_NAME"
+  Description "M_10M_HGV_DESC"
+  
+[TECHNOLOGY] "M_25M_HGV"
+  Name "M_25M_HGV_NAME"
+  Description "M_25M_HGV_DESC" 
+  
+[TECHNOLOGY] "M_50M_HGV"
+  Name "M_50M_HGV_NAME"
+  Description "M_50M_HGV_DESC"
+  
+[TECHNOLOGY] "M_10M_Cobalt_HGV"
+  Name "M_10M_Cobalt_HGV_NAME"
+  Description "M_10M_Cobalt_HGV_DESC"
+
+[TECHNOLOGY] "M_10M_Salt_HGV"
+  Name "M_10M_Salt_HGV_NAME"
+  Description "M_10M_Salt_HGV_DESC"    
+  
+
+[TECHNOLOGY] "Improved_Inertial_Guidance"
+  Name "Improved_Inertial_Guidance_NAME"
+  Description "Improved_Inertial_Guidance_DESC"
+  Image "Images/Science/INERTIAL_1.png"
+  Points 25
+  LeadsTo "Solid_Fuel_Rockets"
+  LeadsTo "Improved_Inertial_Guidance_Buffer"  
+  LeadsTo "MARV"
+  TechLevel 2
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 3
+
+[TECHNOLOGY] "Improved_Inertial_Guidance_Buffer"
+  Name "Improved_Inertial_Guidance_NAME"
+  Description "Improved_Inertial_Guidance_DESC"
+
+[TECHNOLOGY] "Solid_Fuel_Rockets"
+  Name "Solid_Fuel_Rockets_NAME"
+  Description "Solid_Fuel_Rockets_DESC"
+  Image "Images/Science/SOLID_FUEL.png"
+  Points 45
+  LeadsTo "Solid_Fuel_Rockets_Buffer"
+  LeadsTo "MIRV"
+  TechLevel 3
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 4
+
+/////For price adjustments
+[TECHNOLOGY] "Solid_Fuel_Rockets_Buffer"
+  Name "Solid_Fuel_Rockets_NAME"
+  Description "Solid_Fuel_Rockets_DESC"
+
+[TECHNOLOGY] "MARV"
+  Name "MARV_NAME"
+  Description "MARV_DESC"
+  Image "Images/Science/MARV.png"
+  Points 45
+  LeadsTo "MARV_Buffer"
+  LeadsTo "MIRV"
+  LeadsTo "Advanced_Inertial_Guidance"
+  TechLevel 4
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 4
+
+[TECHNOLOGY] "MARV_Buffer"
+  Name "MARV_NAME"
+  Description "MARV_DESC"
+
+[TECHNOLOGY] "Advanced_Inertial_Guidance"
+  Name "Advanced_Inertial_Guidance_NAME"
+  Description "Advanced_Inertial_Guidance_DESC"
+  Image "Images/Science/INERTIAL_2.png"
+  Points 40
+  LeadsTo "Improved_MIRV"
+  LeadsTo "Hypersonic_Maneuvering"
+  LeadsTo "Advanced_Inertial_Guidance_Buffer"    
+  TechLevel 5
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 6
+
+[TECHNOLOGY] "Advanced_Inertial_Guidance_Buffer"
+  Name "Advanced_Inertial_Guidance_NAME"
+  Description "Advanced_Inertial_Guidance_DESC"
+    
+[TECHNOLOGY] "Hypersonic_Maneuvering"
+  Name "Hypersonic_Maneuvering_NAME"
+  Description "Hypersonic_Maneuvering_DESC"
+  Image "Images/Science/HYPERSONIC_BASIC.png"
+  Points 75
+  LeadsTo "Hypersonic_Maneuvering_Buffer"  
+  LeadsTo "Hypersonic_Glide_Vehicles"
+ // LeadsTo "Hypersonic_Kinetic_Missiles"
+  TechLevel 7
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 9
+
+[TECHNOLOGY] "Hypersonic_Maneuvering_Buffer"
+  Name "Hypersonic_Maneuvering_NAME"
+  Description "Hypersonic_Maneuvering_DESC"
+  LeadsTo "Experimental_cruise_missiles"
+  LeadsTo "SAM_Mk4"  
+  
+[TECHNOLOGY] "Hypersonic_Glide_Vehicles"
+  Name "Hypersonic_Glide_Vehicles_NAME"
+  Description "Hypersonic_Glide_Vehicles_DESC"
+  Image "Images/Science/HGV.png"
+  Points 75  
+  TechLevel 8
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 10
+
+
+/////////////BASIC MIRV//////////////
+[TECHNOLOGY] "MIRV"
+  Name "MIRV_NAME"
+  Description "MIRV_DESC"
+  Image "Images/Science/MIRV.png"
+  Points 75
+  LeadsTo "False_warheads"
+  LeadsTo "M_3x250kt_ICBM"
+  LeadsTo "M_3x100kt_SLBM"
+  LeadsTo "M_3x100kt_MRBM"  
+  LeadsTo "Advanced_MRBM_MIRV"
+  LeadsTo  "MIRV_Buffer_Tech"
+  TechLevel 4
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 5
+  
+[TECHNOLOGY] "MIRV_Buffer_Tech"
+	Name "MIRV_NAME"
+	Description "MIRV_DESC"
+  LeadsTo "M_3x500kt_ICBM"		
+  LeadsTo "M_3x250kt_MRBM"
+  LeadsTo "M_3x250kt_SLBM"
+
+[TECHNOLOGY] "M_3x250kt_ICBM"
+  Name "M_3x250kt_ICBM_NAME"
+  Description "M_3x250kt_ICBM_DESC"
+
+[TECHNOLOGY] "M_3x500kt_ICBM"
+  Name "M_3x500kt_ICBM_NAME"
+  Description "M_3x500kt_ICBM_DESC"
+
+[TECHNOLOGY] "M_6x500kt_ICBM"
+  Name "M_6x500kt_ICBM_NAME"
+  Description "M_6x500kt_ICBM_DESC"
+  
+[TECHNOLOGY] "M_6x1M_ICBM"
+  Name "M_6x1M_ICBM_NAME"
+  Description "M_6x1M_ICBM_DESC"  
+    
+  
+ ////////////////////LIGHT ICBM MIRVS///////////////////////// 
+ [TECHNOLOGY] "M_3x250kt_ICBM_Light"
+  Name "M_3x250kt_ICBM_Light_NAME"
+  Description "M_3x250kt_ICBM_Light_DESC"   
+
+ [TECHNOLOGY] "M_3x500kt_ICBM_Light"
+  Name "M_3x500kt_ICBM_Light_NAME"
+  Description "M_3x500kt_ICBM_Light_DESC"   
+ 
+ [TECHNOLOGY] "M_8x500kt_ICBM_Light"
+  Name "M_8x500kt_ICBM_Light_NAME"
+  Description "M_8x500kt_ICBM_Light_DESC"   
+
+ [TECHNOLOGY] "M_8x1M_ICBM_Light"
+  Name "M_8x1M_ICBM_Light_NAME"
+  Description "M_8x1M_ICBM_Light_DESC"     
+  
+  
+/////////////Penetration Aids////////
+[TECHNOLOGY] "False_warheads"
+  Name "False_warheads_NAME"
+  Description "False_warheads_DESC"
+  Image "Images/Science/False_warheads.png"
+  Points 45
+  LeadsTo "Improved_MIRV"
+  LeadsTo "M_WARHEAD_FALSE"
+  LeadsTo "False_warheads_Buffer"
+  TechLevel 5
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 6
+  
+[TECHNOLOGY] "False_warheads_Buffer"
+  Name "False_warheads_NAME"
+  Description "False_warheads_DESC"  
+
+[TECHNOLOGY] "Improved_MIRV"
+  Name "Improved_MIRV_NAME"
+  Description "Improved_MIRV_DESC"
+  Image "Images/Science/ENHANCED_MIRV.png"
+  Points 90
+  LeadsTo "M_3x250kt_ICBM_Light"
+  LeadsTo "M_6x250kt_SLBM"    
+  LeadsTo "M_6x500kt_ICBM"
+  LeadsTo "Improved_MIRV_Buffer"
+  LeadsTo "Novel_BM_Light"
+  LeadsTo "Novel_BM_Heavy"
+  TechLevel 6
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 7
+
+[TECHNOLOGY] "Improved_MIRV_Buffer"
+  Name "Improved_MIRV_NAME"
+  Description "Improved_MIRV_DESC"
+  LeadsTo "M_3x_Bioweapon_MIRV"
+  LeadsTo "M_3x500kt_ICBM_Light"    
+  LeadsTo "M_6x250kt_MRBM"
+  LeadsTo "M_6x500kt_MRBM"
+  LeadsTo "M_6x500kt_SLBM"
+  LeadsTo "M_6x1M_ICBM"  
+	  
+[TECHNOLOGY] "Novel_BM_Light"
+  Name "Novel_BM_Light_NAME"
+  Description "Novel_BM_Light_DESC"
+  Image "Images/Science/Novel_BM_Light.png"
+  Points 100
+  LeadsTo "M_8x1MT_MRBM"
+  LeadsTo "M_8x500kt_MRBM"
+  LeadsTo "M_8x500kt_SLBM"
+  LeadsTo "M_8x1M_Fusion_SLBM"
+  TechLevel 9
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 10
+
+[TECHNOLOGY] "Novel_BM_Heavy"
+  Name "Novel_BM_Heavy_NAME"
+  Description "Novel_BM_Heavy_DESC"
+  Image "Images/Science/Novel_BM_Heavy.png"
+  Points 120
+    LeadsTo "Novel_BM_Heavy_Buffer"
+    LeadsTo "M_12x500kt_ICBM"
+	LeadsTo "M_12x1M_ICBM"
+	LeadsTo "M_8x500kt_ICBM_Light"
+    LeadsTo "M_8x1M_ICBM_Light"
+	LeadsTo "M_8x_Bioweapon_MIRV"
+	TechLevel 9
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 10
+	
+
+///////////////////////////NAVAL TECH///////////////////////
+//////////////////////////SURFACE SHIPS/////////////////////////
+
+[TECHNOLOGY] "Missile_Warships"
+  Name "Missile_Warships_NAME"
+  Description "Missile_Warships_DESC"
+  Image "Images/Science/WARSHIP_1.png"
+  Points 15
+  LeadsTo "Improved_Warships"
+  LeadsTo "M_CIWS"
+  LeadsTo "M_ASROC"    
+  TechLevel 2
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "Improved_Warships"
+  Name "Improved_Warships_NAME"
+  Description "Improved_Warships_DESC"
+  Image "Images/Science/WARSHIP_2.png"
+  Points 30
+  LeadsTo "Enhanced_Warships"
+    TechLevel 3
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 3
+
+[TECHNOLOGY] "Enhanced_Warships"
+  Name "Enhanced_Warships_NAME"
+  Description "Enhanced_Warships_DESC"
+  Image "Images/Science/WARSHIP_3.png"
+  Points 45
+  LeadsTo "Advanced_Warships"
+    TechLevel 4
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 4
+
+[TECHNOLOGY] "Advanced_Warships"
+  Name "Advanced_Warships_NAME"
+  Description "Advanced_Warships_DESC"
+  Image "Images/Science/WARSHIP_4.png"
+  Points 60
+  LeadsTo "Experimental_Warships"
+  LeadsTo "M_Railgun"  
+  LeadsTo "M_Laser_CIWS"
+    TechLevel 6
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 7
+  
+[TECHNOLOGY] "Experimental_Warships"
+  Name "Experimental_Warships_NAME"
+  Description "Experimental_Warships_DESC"
+  Image "Images/Science/WARSHIP_5.png"
+  Points 75
+  ///WSBM 1 comes standard, 2 requires adv. stealth too
+  LeadsTo "Warship_Stealth_Bonus_Modifier_1"
+  LeadsTo "Warship_Stealth_Bonus_Modifier_2"
+    TechLevel 8
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 9
+
+
+/////////////////SONAR AND SUBS//////////////////////
+
+[TECHNOLOGY] "Debuffed_Sonar"
+  Name "Debuffed_Sonar_NAME"
+  Description "Debuffed_Sonar_DESC"
+
+[TECHNOLOGY] "Mega_Sonar"
+  Name "Advanced_Sonar_NAME"
+  Description "Advanced_Sonar_DESC"
+
+[TECHNOLOGY] "Submarine_Stealth"
+  Name "Submarine_Stealth_NAME"
+  Description "Submarine_Stealth_DESC"
+  
+[TECHNOLOGY] "Submarine_Stealth_Weak"
+  Name "Submarine_Stealth_NAME"
+  Description "Submarine_Stealth_DESC"
+
+ ///Skipjack, Charlie
+[TECHNOLOGY] "Nuclear_Submarine"
+  Name "Nuclear_Submarine_NAME"
+  Description "Nuclear_Submarine_DESC"
+  Image "Images/Science/SUBMARINE_1.png"
+  Points 15
+  LeadsTo "Improved_Submarines"
+  LeadsTo "Sonar_Quieting_SSN_1"
+  LeadsTo "Sonar_Quieting_SSGN_1"  
+  LeadsTo "SSBN"
+  LeadsTo "Attack_Sub_Nuke_2"
+  TechLevel 1
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 1
+
+[TECHNOLOGY] "Sonar_Quieting_SSN_1"
+  Name "Sonar_Quieting_SSN_1_NAME"
+  Description "Sonar_Quieting_SSN_1_DESC"
+
+[TECHNOLOGY] "Sonar_Quieting_SSGN_1"
+  Name "Sonar_Quieting_SSGN_1_NAME"
+  Description "Sonar_Quieting_SSGN_1_DESC"
+
+//THIS ONE IS THE SSGN (SHIP/LAND ATTACK)
+[TECHNOLOGY] "Cruise_Missile_Submarine"
+  Name "Cruise_Missile_Submarine_NAME"
+  Description "Cruise_Missile_Submarine_DESC"
+  Image "Images/Science/SSGN.png"
+  Points 30
+  LeadsTo "SSBN"
+  LeadsTo "U_SSGN_Submarine"
+  TechLevel 1
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "U_SSGN_Submarine"
+  Name "U_SSGN_Submarine_NAME"
+  Description "U_SSGN_Submarine_DESC"
+
+
+///Los Angeles, Ohio, Oscar
+[TECHNOLOGY] "Improved_Submarines"
+  Name "Improved_Submarines_NAME"
+  Description "Improved_Submarines_DESC"
+  Image "Images/Science/SUBMARINE_2.png"
+  Points 45
+  LeadsTo "Enhanced_Submarines"
+  LeadsTo "Improved_SSBN"
+  LeadsTo "Sonar_Quieting_SSN_2"
+  LeadsTo "Sonar_Quieting_SSGN_2"
+  LeadsTo "Attack_Sub_Nuke_3"  
+    TechLevel 3
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 4
+
+  
+[TECHNOLOGY] "Sonar_Quieting_SSN_2"
+  Name "Sonar_Quieting_SSN_2_NAME"
+  Description "Sonar_Quieting_SSN_2_DESC"  
+  
+[TECHNOLOGY] "Sonar_Quieting_SSGN_2"
+  Name "Sonar_Quieting_SSGN_2_NAME"
+  Description "Sonar_Quieting_SSGN_2_DESC"
+
+///Midlife Upgrade
+[TECHNOLOGY] "Enhanced_Submarines"
+  Name "Enhanced_Submarines_NAME"
+  Description "Enhanced_Submarines_DESC"
+  Image "Images/Science/SUBMARINE_3.png"
+  Points 45
+  LeadsTo "Advanced_Submarines"
+  LeadsTo "Sonar_Quieting_SSN_3"
+  LeadsTo "Sonar_Quieting_SSGN_3"
+  LeadsTo "Attack_Sub_Nuke_4"
+  TechLevel 5
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 6
+ 
+[TECHNOLOGY] "Sonar_Quieting_SSN_3"
+  Name "Sonar_Quieting_SSN_3_NAME"
+  Description "Sonar_Quieting_SSN_3_DESC"
+
+[TECHNOLOGY] "Sonar_Quieting_SSGN_3"
+  Name "Sonar_Quieting_SSGN_3_NAME"
+  Description "Sonar_Quieting_SSGN_3_DESC"
+ 
+///Virginia, Columbia, Yasen
+[TECHNOLOGY] "Advanced_Submarines"
+  Name "Advanced_Submarines_NAME"
+  Description "Advanced_Submarines_DESC"
+  Image "Images/Science/SUBMARINE_4.png"
+  Points 60
+  LeadsTo "Experimental_Submarines"
+  LeadsTo "Advanced_SSBN"
+  LeadsTo "Sonar_Quieting_SSN_4"  
+  LeadsTo "Sonar_Quieting_SSGN_4" 
+  LeadsTo "Attack_Sub_Nuke_5"  
+  TechLevel 6
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 7
+
+[TECHNOLOGY] "Sonar_Quieting_SSN_4"
+  Name "Sonar_Quieting_SSN_4_NAME"
+  Description "Sonar_Quieting_SSN_4_DESC"
+
+[TECHNOLOGY] "Sonar_Quieting_SSGN_4"
+  Name "Sonar_Quieting_SSGN_4_NAME"
+  Description "Sonar_Quieting_SSGN_4_DESC"
+
+///JIMMY CARTER'S REVENGE,Dauntless, Laika
+[TECHNOLOGY] "Experimental_Submarines"
+  Name "Experimental_Submarines_NAME"
+  Description "Experimental_Submarines_DESC"
+  Image "Images/Science/SUBMARINE_5.png"
+  Points 75
+  LeadsTo "Experimental_SSBN"
+  LeadsTo "Sonar_Quieting_SSN_5"  
+  LeadsTo "Sonar_Quieting_SSGN_5"
+  LeadsTo "Attack_Sub_Nuke_6"
+    TechLevel 9
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 10
+
+[TECHNOLOGY] "Sonar_Quieting_SSN_5"
+  Name "Sonar_Quieting_SSN_5_NAME"
+  Description "Sonar_Quieting_SSN_5_DESC"
+
+[TECHNOLOGY] "Sonar_Quieting_SSGN_5"
+  Name "Sonar_Quieting_SSGN_5_NAME"
+  Description "Sonar_Quieting_SSGN_5_DESC"
+
+//THIS ONE IS THE SSBN (BOOMER)
+////////////////////////TECH DESCRIPTION IS GONE NOW, NAME CHANGED///////
+[TECHNOLOGY] "SSBN"
+  Name "SSBN_NAME"
+  Description "SSBN_DESC"
+  Image "Images/Science/SSBN_1.png"
+  Points 25
+  LeadsTo "U_SSBN"
+  LeadsTo "M_100kt_SLBM"
+  LeadsTo "SSBN_Buffer_Tech"
+  LeadsTo "Improved_SSBN"
+  TechLevel 2
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 2
+  
+[TECHNOLOGY] "SSBN_Buffer_Tech"
+  Name "SSBN_NAME"
+  Description "SSBN_DESC"
+  LeadsTo "M_250kt_SLBM"
+  LeadsTo "M_500kt_SLBM"
+  LeadsTo "M_1M_SLBM"
+  LeadsTo "M_5M_Fusion_SLBM"
+  LeadsTo "M_3x100kt_SLBM"
+  LeadsTo "M_3x250kt_SLBM"
+  LeadsTo "M_6x250kt_SLBM"
+  LeadsTo "M_6x500kt_SLBM"
+  LeadsTo "M_8x500kt_SLBM"    
+  LeadsTo "M_8x1M_Fusion_SLBM"
+  
+ [TECHNOLOGY] "Improved_SSBN"
+  Name "Improved_SSBN_NAME"
+  Description "Improved_SSBN_DESC"
+  Image "Images/Science/Nuclear_Submarine.png"
+  LeadsTo "Sonar_Quieting_SSBN_2"
+  LeadsTo "Advanced_SSBN"
+  Points 30
+    TechLevel 4
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 6
+  
+////Unlocked by default since SSBNs have nuclear power as a prereq  
+[TECHNOLOGY] "Sonar_Quieting_SSBN_1"
+  Name "Sonar_Quieting_SSBN_1_NAME"
+  Description "Sonar_Quieting_SSBN_1_DESC"  
+
+[TECHNOLOGY] "Sonar_Quieting_SSBN_2"
+  Name "Sonar_Quieting_SSBN_2_NAME"
+  Description "Sonar_Quieting_SSBN_2_DESC"
+  
+ [TECHNOLOGY] "Advanced_SSBN"
+  Name "Advanced_SSBN_NAME"
+  Description "Advanced_SSBN_DESC"
+  Image "Images/Science/SSBN_3.png"
+  Points 45
+  LeadsTo "Sonar_Quieting_SSBN_3"  
+  LeadsTo "Experimental_SSBN"
+    TechLevel 7
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 9
+
+[TECHNOLOGY] "Sonar_Quieting_SSBN_3"
+  Name "Sonar_Quieting_SSBN_3_NAME"
+  Description "Sonar_Quieting_SSBN_3_DESC"
+
+ [TECHNOLOGY] "Experimental_SSBN"
+  Name "Experimental_SSBN_NAME"
+  Description "Experimental_SSBN_DESC"
+  Image "Images/Science/SSBN_4.png"
+  Points 60 
+  LeadsTo "Sonar_Quieting_SSBN_4"  
+    TechLevel 9
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 10
+
+[TECHNOLOGY] "Sonar_Quieting_SSBN_4"
+  Name "Sonar_Quieting_SSBN_4_NAME"
+  Description "Sonar_Quieting_SSBN_4_DESC"
+  
+[TECHNOLOGY] "U_SSBN"
+  Name "U_SSBN_NAME"
+  Description "U_SSBN_DESC"
+  
+[TECHNOLOGY] "M_100kt_SLBM"
+  Name "M_100kt_SLBM_NAME"
+  Description "M_100kt_SLBM_DESC"  
+
+[TECHNOLOGY] "M_250kt_SLBM"
+  Name "M_250kt_SLBM_NAME"
+  Description "M_250kt_SLBM_DESC"
+
+[TECHNOLOGY] "M_500kt_SLBM"
+  Name "M_500kt_SLBM_NAME"
+  Description "M_500kt_SLBM_DESC"
+
+[TECHNOLOGY] "M_1M_SLBM"
+  Name "M_1M_SLBM_NAME"
+  Description "M_1M_SLBM_DESC"
+  
+[TECHNOLOGY] "M_5M_Fusion_SLBM"
+  Name "M_5M_Fusion_SLBM_NAME"
+  Description "M_5M_Fusion_SLBM_DESC"
+
+[TECHNOLOGY] "M_3x100kt_SLBM"
+  Name "M_3x100kt_SLBM_NAME"
+  Description "M_3x100kt_SLBM_DESC"   
+
+[TECHNOLOGY] "M_3x250kt_SLBM"
+  Name "M_3x250kt_SLBM_NAME"
+  Description "M_3x250kt_SLBM_DESC"   
+ 
+[TECHNOLOGY] "M_6x250kt_SLBM"
+  Name "M_6x250kt_SLBM_NAME"
+  Description "M_6x250kt_SLBM_DESC"   
+
+[TECHNOLOGY] "M_6x500kt_SLBM"
+  Name "M_6x500kt_SLBM_NAME"
+  Description "M_6x500kt_SLBM_DESC"
+
+[TECHNOLOGY] "M_8x500kt_SLBM"
+  Name "M_8x500kt_SLBM_NAME"
+  Description "M_8x500kt_SLBM_DESC"    
+
+ 
+[TECHNOLOGY] "M_8x1M_Fusion_SLBM"
+  Name "M_8x1M_Fusion_SLBM_NAME"
+  Description "M_8x1M_Fusion_SLBM_DESC"  
+
+
+//////////////////////////WEAPON AND SONAR UPGRADES/////////////////
+
+//chain Sonar     More Sonar      Even More Sonar
+
+[TECHNOLOGY] "U_Naval_Radar_Station"
+ Name "U_Naval_Radar_Station_NAME"
+ Description "U_Naval_Radar_Station_DESC"
+
+[TECHNOLOGY] "Torpedo_Net_Mod"
+ Name "Torpedo_Net_Mod_NAME"
+ Description "Torpedo_Net_Mod_DESC"
+
+[TECHNOLOGY] "Sonar_Mk2"
+  Name "Sonar_Mk2_NAME"
+  Description "Sonar_Mk2_DESC"
+  Image "Images/Science/Sonar1.png"
+  Points 15
+  LeadsTo "Sonar_Mk3"
+  LeadsTo "Improved_Underwater_Weapons"  
+  TechLevel 2
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "Sonar_Mk3"
+  Name "Sonar_Mk3_NAME"
+  Description "Sonar_Mk3_DESC"
+  Image "Images/Science/Sonar2.png"
+  Points 20
+  LeadsTo "Sonar_Mk4"
+  LeadsTo "Enhanced_Underwater_Weapons"
+    TechLevel 4
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 5
+  
+[TECHNOLOGY] "Sonar_Mk4"
+  Name "Sonar_Mk4_NAME"
+  Description "Sonar_Mk4_DESC"
+  Image "Images/Science/Sonar3.png"
+  Points 30
+  LeadsTo "Sonar_Mk5"
+  LeadsTo "Advanced_Underwater_Weapons"
+    TechLevel 6
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 7
+  
+[TECHNOLOGY] "Sonar_Mk5"
+  Name "Sonar_Mk5_NAME"
+  Description "Sonar_Mk5_DESC"
+  Image "Images/Science/Sonar4.png"
+  Points 45    
+  LeadsTo "Experimental_Underwater_Weapons"
+    TechLevel 8
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 10
+
+[TECHNOLOGY] "R_Periscope"
+  Name "R_Periscope_NAME"
+  Description "R_Periscope_DESC"
+
+[TECHNOLOGY] "R_Submarine_Radar_Mast"
+  Name "R_Submarine_Radar_Mast_NAME"
+  Description "R_Submarine_Radar_Mast_DESC"
+
+
+[TECHNOLOGY] "Guided_Torpedoes"
+  Name "Guided_Torpedoes_NAME"
+  Description "Guided_Torpedoes_DESC"
+  Image "Images/Science/Underwater1.png"
+  Points 10
+  LeadsTo "Improved_Underwater_Weapons"
+ // LeadsTo "Countervalue_Torpedoes"
+  LeadsTo "M_Airdropped_Torpedo"
+  TechLevel 1
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 1
+  
+[TECHNOLOGY] "M_Airdropped_Torpedo"
+  Name "M_Airdropped_Torpedo_NAME"
+  Description "M_Airdropped_Torpedo_DESC"
+  
+
+/*[TECHNOLOGY] "Countervalue_Torpedoes"
+  Name "Countervalue_Torpedoes_NAME"
+  Description "Countervalue_Torpedoes_DESC"
+  Image "Images/Science/Underwater1.png"
+  Points 25
+  LeadsTo "Countervalue_UUV"
+  LeadsTo "M_Nuclear_Torpedo_Heavy"
+  LeadsTo "M_Nuclear_Torpedo_Fusion"  
+  
+  
+[TECHNOLOGY] "Countervalue_UUV"
+  Name "Countervalue_UUV_NAME"
+  Description "Countervalue_UUV_DESC"
+  Image "Images/Science/Underwater1.png"
+  Points 45
+  */
+
+[TECHNOLOGY] "Improved_Underwater_Weapons"
+  Name "Improved_Underwater_Weapons_NAME"
+  Description "Improved_Underwater_Weapons_DESC"
+  Image "Images/Science/Underwater2.png"
+  Points 25
+  LeadsTo "M_ASROC"
+  LeadsTo "M_Nuclear_Torpedo_Tac"
+  LeadsTo "Enhanced_Underwater_Weapons"
+    TechLevel 3
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 4
+ 
+
+
+[TECHNOLOGY] "Enhanced_Underwater_Weapons"
+  Name "Enhanced_Underwater_Weapons_NAME"
+  Description "Enhanced_Underwater_Weapons_DESC"
+  Image "Images/Science/Underwater3.png"
+  Points 30
+  LeadsTo "Advanced_Underwater_Weapons"
+  LeadsTo "Adv_Anti_Submarine_Rockets" 
+  TechLevel 5
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 6
+  
+  
+[TECHNOLOGY] "Advanced_Underwater_Weapons"
+  Name "Advanced_Underwater_Weapons_NAME"
+  Description "Advanced_Underwater_Weapons_DESC"
+  Image "Images/Science/Underwater4.png"
+  Points 40
+  LeadsTo "Experimental_Underwater_Weapons"
+  LeadsTo "Countervalue_UUV"
+    TechLevel 7
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 8
+
+[TECHNOLOGY] "Experimental_Underwater_Weapons"
+  Name "Experimental_Underwater_Weapons_NAME"
+  Description "Experimental_Underwater_Weapons_DESC"
+  Image "Images/Science/Underwater5.png"
+  Points 55
+    TechLevel 9
+  Type "Naval Technology"
+  NoAutoUnlockTillLevel 10
+
+
+
+[TECHNOLOGY] "M_ASROC"
+  Name "M_ASROC_NAME"
+  Description "M_ASROC_DESC"   
+
+[TECHNOLOGY] "M_Nuclear_Torpedo_Tac"
+  Name "M_Nuclear_Torpedo_Tac_NAME"
+  Description "M_Nuclear_Torpedo_Tac_DESC"
+////Buffer to block nuclear loadouts for subs without nuke torps unlocked
+  LeadsTo "Attack_Sub_Nuke_2"
+  LeadsTo "Attack_Sub_Nuke_3"
+  LeadsTo "Attack_Sub_Nuke_4"
+  LeadsTo "Attack_Sub_Nuke_5"
+  LeadsTo "Attack_Sub_Nuke_6"
+  LeadsTo "M_Fusion_Torpedo_Tac"
+  
+[TECHNOLOGY] "Attack_Sub_Nuke_2"
+  Name "M_Nuclear_Torpedo_Tac_NAME"
+  Description "M_Nuclear_Torpedo_Tac_DESC"  
+
+[TECHNOLOGY] "Attack_Sub_Nuke_3"
+  Name "M_Nuclear_Torpedo_Tac_NAME"
+  Description "M_Nuclear_Torpedo_Tac_DESC"  
+
+[TECHNOLOGY] "Attack_Sub_Nuke_4"
+  Name "M_Nuclear_Torpedo_Tac_NAME"
+  Description "M_Nuclear_Torpedo_Tac_DESC"  
+
+[TECHNOLOGY] "Attack_Sub_Nuke_5"
+  Name "M_Nuclear_Torpedo_Tac_NAME"
+  Description "M_Nuclear_Torpedo_Tac_DESC"  
+
+[TECHNOLOGY] "Attack_Sub_Nuke_6"
+  Name "M_Nuclear_Torpedo_Tac_NAME"
+  Description "M_Nuclear_Torpedo_Tac_DESC"    
+
+[TECHNOLOGY] "M_Fusion_Torpedo_Tac"
+  Name "M_Fusion_Torpedo_Tac_NAME"
+  Description "M_Fusion_Torpedo_Tac_DESC"
+////Buffer to block nuclear loadouts for subs without nuke torps unlocked
+  LeadsTo "Attack_Sub_Fusion_2"
+  LeadsTo "Attack_Sub_Fusion_3"
+  LeadsTo "Attack_Sub_Fusion_4"
+  LeadsTo "Attack_Sub_Fusion_5"
+  LeadsTo "Attack_Sub_Fusion_6"
+
+
+[TECHNOLOGY] "Attack_Sub_Fusion_2"
+  Name "M_Nuclear_Torpedo_Tac_NAME"
+  Description "M_Nuclear_Torpedo_Tac_DESC"  
+
+[TECHNOLOGY] "Attack_Sub_Fusion_3"
+  Name "M_Nuclear_Torpedo_Tac_NAME"
+  Description "M_Nuclear_Torpedo_Tac_DESC"  
+
+[TECHNOLOGY] "Attack_Sub_Fusion_4"
+  Name "M_Nuclear_Torpedo_Tac_NAME"
+  Description "M_Nuclear_Torpedo_Tac_DESC"  
+
+[TECHNOLOGY] "Attack_Sub_Fusion_5"
+  Name "M_Nuclear_Torpedo_Tac_NAME"
+  Description "M_Nuclear_Torpedo_Tac_DESC"  
+
+[TECHNOLOGY] "Attack_Sub_Fusion_6"
+  Name "M_Nuclear_Torpedo_Tac_NAME"
+  Description "M_Nuclear_Torpedo_Tac_DESC"   
+  
+  
+[TECHNOLOGY] "M_Nuclear_Torpedo_Heavy"
+  Name "M_Nuclear_Torpedo_Heavy_NAME"
+  Description "M_Nuclear_Torpedo_Heavy_DESC" 
+
+
+[TECHNOLOGY] "M_Nuclear_Torpedo_Fusion"
+  Name "M_Nuclear_Torpedo_Fusion_NAME"
+  Description "M_Nuclear_Torpedo_Fusion_DESC"
+
+///////////////////MISSILE GUIDANCE/////////////////////////////
+
+[TECHNOLOGY] "Basic_Missile_Guidance"
+  Name "Basic_Missile_Guidance_NAME"
+  Description "Basic_Missile_Guidance_DESC"
+  Image "Images/Science/MISSILE_GUIDANCE_1.png"
+  Points 15
+  LeadsTo "Basic_Missile_Guidance_Buffer"
+  LeadsTo "Improved_Missile_Guidance"
+  LeadsTo "Cruise_missiles"
+  LeadsTo "Air_to_Ground_missile"
+  LeadsTo "Air_to_Air_Missile"
+  TechLevel 1
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 1
+  
+[TECHNOLOGY] "Basic_Missile_Guidance_Buffer"
+  Name "Basic_Missile_Guidance_Buffer_NAME"
+  Description "Basic_Missile_Guidance_Buffer_DESC"
+  LeadsTo "Surface_to_air_missile"
+  LeadsTo "Nuke_ABM"
+  
+  
+[TECHNOLOGY] "Improved_Missile_Guidance"
+  Name "Improved_Missile_Guidance_NAME"
+  Description "Improved_Missile_Guidance_DESC"
+  Image "Images/Science/MISSILE_GUIDANCE_2.png"
+  Points 30
+  LeadsTo "Improved_Missile_Guidance_Buffer"
+  LeadsTo "Enhanced_Missile_Guidance"
+  TechLevel 2
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 2
+  
+[TECHNOLOGY] "Improved_Missile_Guidance_Buffer"
+  Name "Improved_Missile_Guidance_NAME"
+  Description "Improved_Missile_Guidance_DESC"
+  Image "Images/Science/MISSILE_GUIDANCE_2.png"
+  LeadsTo "Improved_cruise_missiles"
+  LeadsTo "Improved_AGM"
+  LeadsTo "AAM_IMPROVED"
+  
+  LeadsTo "Nuke_ASAT"
+  LeadsTo "Mobile_SAM"
+  LeadsTo "Terminal_BM_Defence"
+  LeadsTo "anti_ballistic_missile"
+
+
+[TECHNOLOGY] "Enhanced_Missile_Guidance"
+  Name "Enhanced_Missile_Guidance_NAME"
+  Description "Enhanced_Missile_Guidance_DESC"
+  Image "Images/Science/MISSILE_GUIDANCE_3.png"
+  Points 45
+  LeadsTo "Advanced_Missile_Guidance"
+  LeadsTo "Enhanced_Missile_Guidance_Buffer"
+    TechLevel 4
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 4
+      
+[TECHNOLOGY] "Enhanced_Missile_Guidance_Buffer"
+  Name "Enhanced_Missile_Guidance_NAME"
+  Description "Enhanced_Missile_Guidance_DESC"
+  Image "Images/Science/MISSILE_GUIDANCE_3.png"
+  LeadsTo "Enhanced_cruise_missiles"
+  LeadsTo "Enhanced_AGM"
+  LeadsTo "AAM_Enhanced"
+  
+  LeadsTo "ASAT"
+  LeadsTo "SAM_Mk2"
+  LeadsTo "ABM_Mk2"
+  LeadsTo "Terminal_BM_Defence_Mk2"
+  LeadsTo "Tac_Missile_Defence"
+  
+  
+[TECHNOLOGY] "Advanced_Missile_Guidance"
+  Name "Advanced_Missile_Guidance_NAME"
+  Description "Advanced_Missile_Guidance_DESC"
+  Image "Images/Science/MISSILE_GUIDANCE_4.png"
+  Points 60
+  LeadsTo "Advanced_Missile_Guidance_Buffer"
+  LeadsTo "Experimental_Missile_Guidance"
+    TechLevel 6
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 6
+
+
+[TECHNOLOGY] "Advanced_Missile_Guidance_Buffer"
+  Name "Advanced_Missile_Guidance_NAME"
+  Description "Advanced_Missile_Guidance_DESC"
+  Image "Images/Science/MISSILE_GUIDANCE_4.png"
+  LeadsTo "Advanced_cruise_missiles"
+  LeadsTo "Advanced_AGM"
+  LeadsTo "AAM_Advanced"  
+
+  LeadsTo "Advanced_ASAT"
+    LeadsTo "ABM_Mk3"
+  LeadsTo "SAM_Mk3"
+  LeadsTo "Terminal_BM_Defence_Mk3"
+
+[TECHNOLOGY] "Experimental_Missile_Guidance"
+  Name "Experimental_Missile_Guidance_NAME"
+  Description "Experimental_Missile_Guidance_DESC"
+  Image "Images/Science/MISSILE_GUIDANCE_5.png"
+  Points 75
+  LeadsTo "Experimental_Missile_Guidance_Buffer"
+    TechLevel 8
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 8
+
+  
+[TECHNOLOGY] "Experimental_Missile_Guidance_Buffer"
+  Name "Experimental_Missile_Guidance_NAME"
+  Description "Experimental_Missile_Guidance_DESC"
+  Image "Images/Science/MISSILE_GUIDANCE_5.png"
+  LeadsTo "Experimental_cruise_missiles"
+  LeadsTo "Experimental_AGM"
+  LeadsTo "AAM_Experimental"    
+
+  LeadsTo "SAM_Mk4"
+  LeadsTo "ABM_Mk4"
+
+[TECHNOLOGY] "Cruise_missiles"
+  Name "Cruise_missiles_NAME"
+  Description "Cruise_missiles_DESC"
+  Image "Images/Science/CRUISE_MISSILE_1.png"
+  Points 20
+  LeadsTo "M_Nuclear_Cruise_Missile"
+  LeadsTo "Improved_cruise_missiles"
+  LeadsTo "Coastal_Defence"
+  LeadsTo "U_SSGN_Submarine"
+  LeadsTo "M_Surface_to_surface_missile"
+    TechLevel 1
+  Type "Smart Weapons"   
+  NoAutoUnlockTillLevel 1
+  
+
+[TECHNOLOGY] "Improved_cruise_missiles"
+  Name "Improved_cruise_missiles_NAME"
+  Description "Improved_cruise_missiles_DESC"
+  Image "Images/Science/CRUISE_MISSILE_2.png"
+  Points 20
+    LeadsTo "Enhanced_cruise_missiles"
+	LeadsTo "M_ALCM"
+	LeadsTo "M_ALCM-N"
+	  TechLevel 3
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 3
+	
+[TECHNOLOGY] "Enhanced_cruise_missiles"
+  Name "Enhanced_cruise_missiles_NAME"
+  Description "Enhanced_cruise_missiles_DESC"
+  Image "Images/Science/Cruise_missile.png"
+  Points 20
+    LeadsTo "Advanced_cruise_missiles"
+	  TechLevel 5
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 5
+
+
+[TECHNOLOGY] "Advanced_cruise_missiles"
+  Name "Advanced_cruise_missiles_NAME"
+  Description "Advanced_cruise_missiles_DESC"
+  Image "Images/Science/Maneuring_missiles.png"
+  Points 20
+    LeadsTo "Experimental_cruise_missiles"	
+  TechLevel 7
+  Type "Smart Weapons"	
+  NoAutoUnlockTillLevel 7
+	
+///Hypersonic cruise missiles	
+[TECHNOLOGY] "Experimental_cruise_missiles"
+  Name "Experimental_cruise_missiles_NAME"
+  Description "Experimental_cruise_missiles_DESC"
+  Image "Images/Science/Hypersonic_missiles.png"
+  Points 20	
+    TechLevel 9
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 9
+
+
+[TECHNOLOGY] "Coastal_Defence"
+  Name "COASTAL_DEFENCE_NAME"
+  Description "COASTAL_DEFENCE_DESC"
+  Points 20
+  Image "Images/Science/COASTAL.png"
+  LeadsTo "M_Light_AShM"
+    TechLevel 2
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 99
+
+
+[TECHNOLOGY] "Air_to_Ground_missile"
+  Name "Air_to_Ground_missile_NAME"
+  Description "Air_to_Ground_missile_DESC"
+  Image "Images/Science/AGM_1.png"
+  Points 20
+  LeadsTo "M_Air_to_Ground_missile"
+  LeadsTo "M_Guided_bomb"
+  LeadsTo "M_Heli_ATGM"  
+  LeadsTo "M_Light_AShM"
+  LeadsTo "Improved_AGM"
+  //LeadsTo "Aircraft-launched_MRBM"
+    TechLevel 1
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 1
+
+[TECHNOLOGY] "Improved_AGM"
+  Name "Improved_AGM_NAME"
+  Description "Improved_AGM_DESC"
+  Image "Images/Science/AGM_2.png"
+  Points 20
+  LeadsTo "Enhanced_AGM"
+  LeadsTo "M_ALCM"
+  LeadsTo "M_ALCM-N"
+  LeadsTo "M_Anti-Radiation_Missile"    
+    TechLevel 3
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 3
+
+[TECHNOLOGY] "Enhanced_AGM"
+  Name "Enhanced_AGM_NAME"
+  Description "Enhanced_AGM_DESC"
+  Image "Images/Science/AGM_3.png"
+  Points 20
+  LeadsTo "Advanced_AGM"
+    TechLevel 5
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 5
+
+[TECHNOLOGY] "Advanced_AGM"
+  Name "Advanced_AGM_NAME"
+  Description "Advanced_AGM_DESC"
+  Image "Images/Science/AGM_4.png"
+  Points 20
+  LeadsTo "Experimental_AGM"
+    TechLevel 7
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 7
+
+[TECHNOLOGY] "Experimental_AGM"
+  Name "Experimental_AGM_NAME"
+  Description "Experimental_AGM_DESC"
+  Image "Images/Science/AGM_5.png"
+  Points 20
+    TechLevel 9
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 9
+
+[TECHNOLOGY] "M_Heavy_Iron_Bomb"
+  Name "M_Heavy_Iron_Bomb_NAME"
+  Description "M_Heavy_Iron_Bomb_DESC"
+
+[TECHNOLOGY] "M_Guided_Bomb"
+  Name "M_Guided_Bomb_NAME"
+  Description "M_Guided_Bomb_DESC"
+
+[TECHNOLOGY] "M_Air_to_Ground_missile"
+  Name "M_Air_to_Ground_missile_NAME"
+  Description "M_Air_to_Ground_missile_DESC"
+
+
+[TECHNOLOGY] "Aircraft-launched_MRBM"
+  Name "Aircraft-launched_MRBM_NAME"
+  Description "Aircraft-launched_MRBM_DESC"
+  Image "Images/Science/Aircraft-launched_MRBM.png"
+  Points 30
+  LeadsTo "M_ALBM"
+  LeadsTo "M_100kt_ALBM"
+  LeadsTo "Aircraft-launched_MRBM_Buffer"
+  LeadsTo "Aircraft-launched_ICBM"
+    TechLevel 3
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 99
+  
+[TECHNOLOGY] "Aircraft-launched_MRBM_Buffer"
+  Name "Aircraft-launched_MRBM_NAME"
+  Description "Aircraft-launched_MRBM_DESC"
+  Image "Images/Science/Aircraft-launched_MRBM.png"
+  LeadsTo "M_250kt_ALBM"
+  LeadsTo "M_500kt_ALBM"
+  LeadsTo "M_1M_ALBM"
+  LeadsTo "M_5M_ALBM"
+  LeadsTo "M_500kt_Cobalt_ALBM"
+  LeadsTo "M_500kt_Salt_ALBM"
+  
+
+[TECHNOLOGY] "M_ALBM"
+  Name "M_ALBM_NAME"
+  Description "M_ALBM_DESC"
+  
+[TECHNOLOGY] "M_100kt_ALBM"
+  Name "M_100kt_ALBM_NAME"
+  Description "M_100kt_ALBM_DESC"
+  
+[TECHNOLOGY] "M_250kt_ALBM"
+  Name "M_250kt_ALBM_NAME"
+  Description "M_250kt_ALBM_DESC"  
+  
+[TECHNOLOGY] "M_500kt_ALBM"
+  Name "M_500kt_ALBM_NAME"
+  Description "M_500kt_ALBM_DESC"
+  
+[TECHNOLOGY] "M_1M_ALBM"
+  Name "M_1M_ALBM_NAME"
+  Description "M_1M_ALBM_DESC"
+
+[TECHNOLOGY] "M_5M_ALBM"
+  Name "M_5M_ALBM_NAME"
+  Description "M_5M_ALBM_DESC"    
+
+[TECHNOLOGY] "M_500kt_Cobalt_ALBM"
+  Name "M_500kt_Cobalt_ALBM_NAME"
+  Description "M_500kt_Cobalt_ALBM_DESC"
+
+[TECHNOLOGY] "M_500kt_Salt_ALBM"
+  Name "M_500kt_Salt_ALBM_NAME"
+  Description "M_500kt_Salt_ALBM_DESC"  
+
+
+[TECHNOLOGY] "M_ALCM"
+  Name "M_ALCM_NAME"
+  Description "M_ALCM_DESC"
+  
+[TECHNOLOGY] "M_ALCM-N"
+  Name "M_ALCM-N_NAME"
+  Description "M_ALCM-N_DESC"
+	LeadsTo "M_ALCM_Fusion"
+	
+[TECHNOLOGY] "M_ALCM_Fusion"
+  Name "M_ALCM_Fusion_NAME"
+  Description "M_ALCM_Fusion_DESC"	
+ 
+
+[TECHNOLOGY] "Air_to_Air_Missile"
+  Name "Air_to_Air_Missile_NAME"
+  Description "Air_to_Air_Missile_DESC"
+  Image "Images/Science/AAM_1.png"
+  Points 20
+  LeadsTo "M_Air_to_air_missile"
+  LeadsTo "AAM_Improved"
+  LeadsTo "M_Air_to_air_missile_Nuke"
+    TechLevel 1
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 1
+
+[TECHNOLOGY] "AAM_Improved"
+  Name "AAM_Improved_NAME"
+  Description "AAM_Improved_DESC"
+  Image "Images/Science/AAM_IMPROVED.png"
+  Points 20
+  LeadsTo "AAM_Enhanced"
+    TechLevel 3
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 3
+  
+[TECHNOLOGY] "AAM_Enhanced"
+  Name "AAM_Enhanced_NAME"
+  Description "AAM_Enhanced_DESC"
+  Image "Images/Science/AAM_Mk2.png"
+  Points 20
+    LeadsTo "AAM_Advanced"
+	  TechLevel 5
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 5
+  
+[TECHNOLOGY] "AAM_Advanced"
+  Name "AAM_Advanced_NAME"
+  Description "AAM_Advanced_DESC"
+  Image "Images/Science/AAM_4.png"
+  Points 20
+    LeadsTo "AAM_Experimental"
+	  TechLevel 7
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 7
+
+[TECHNOLOGY] "AAM_Experimental"
+  Name "AAM_Experimental_NAME"
+  Description "AAM_Experimental_DESC"
+  Image "Images/Science/AAM_5.png"
+  Points 20  
+    TechLevel 9
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 9
+ 
+[TECHNOLOGY] "M_Light_AShM"
+  Name "M_Light_AShM_NAME"
+  Description "M_Light_AShM_DESC"
+ 
+[TECHNOLOGY] "U_COASTAL"
+  Name "U_COASTAL_NAME"
+  Description "U_COASTAL_DESC"
+  Parent "Coastal_Defence"
+
+[TECHNOLOGY] "U_Coastal_Gun_Old"
+  Name "U_Coastal_Gun_Old_NAME"
+  Description "U_Coastal_Gun_Old_DESC"
+[TECHNOLOGY] "M_Coastal_Gun_Old"
+  Name "M_Coastal_Gun_Old_NAME"
+  Description "M_Coastal_Gun_Old_DESC"  
+  
+
+[TECHNOLOGY] "M_Anti_Ship_Missile"
+  Name "M_Anti_Ship_Missile_NAME"
+  Description "M_Anti_Ship_Missile_DESC"
+  Parent "Cruise_missiles"
+
+ //////////ICBM TECH FOR AIRCRAFT - IMPLEMENT VIA UNITS/////// 
+[TECHNOLOGY] "Aircraft-launched_ICBM"
+  Name "Aircraft-launched_ICBM_NAME"
+  Description "Aircraft-launched_ICBM_DESC"
+  Image "Images/Science/AL-ICBM.png"
+  Points 75
+  LeadsTo "CanFireAL-ICBM"
+    TechLevel 6
+  Type "Ballistic Missiles"
+  NoAutoUnlockTillLevel 99
+  
+[TECHNOLOGY] "AL-ICBM_Range_Adjust"  
+  Name "AL-ICBM_Range_Adjust_NAME" 
+  Description "AL-ICBM_Range_Adjust_DESC" 
+  
+  
+[TECHNOLOGY] "CanFireAL-ICBM"
+  Name "CanFireAL-ICBM_NAME"
+  Description "CanFireAL-ICBM_DESC"  
+  
+
+//////////////////////////IMMA FIRIN MAH LAZERRR//////////////
+[TECHNOLOGY] "Basic_Laser_Guidance"
+  Name "Basic_Laser_Guidance_NAME"
+  Description "Basic_Laser_Guidance_DESC"
+  Image "Images/Science/LASER_1.png"
+  Points 15
+  LeadsTo "Basic_Laser_Guidance_Buffer"
+  LeadsTo "Advanced_Laser_Guidance"
+    TechLevel 2
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 2
+  
+  
+[TECHNOLOGY] "Basic_Laser_Guidance_Buffer"
+  Name "Basic_Laser_Guidance_NAME"
+  Description "Basic_Laser_Guidance_DESC"
+  LeadsTo "Improved_Missile_Guidance"
+  
+  
+[TECHNOLOGY] "Advanced_Laser_Guidance"
+  Name "Advanced_Laser_Guidance_NAME"
+  Description "Advanced_Laser_Guidance_DESC"
+  Image "Images/Science/LASER_2.png"
+  Points 15
+  LeadsTo "High_Energy_Weapons"
+  LeadsTo "Advanced_Laser_Guidance_Buffer"
+    TechLevel 4
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 4
+  
+[TECHNOLOGY] "Advanced_Laser_Guidance_Buffer"
+  Name "Advanced_Laser_Guidance_NAME"
+  Description "Advanced_Laser_Guidance_DESC"
+  LeadsTo "Enhanced_Missile_Guidance"
+  LeadsTo "Electronic_Counters_Mk4"
+  LeadsTo "Nuclear_fuel_4"
+
+[TECHNOLOGY] "High_Energy_Weapons"
+  Name "High_Energy_Weapons_NAME"
+  Description "High_Energy_Weapons_DESC"
+  Image "Images/Science/HIGH_POWER_PLATFORM.png"
+  Points 15
+  LeadsTo "High_Powered_Lasers"
+  LeadsTo "Railguns"
+    TechLevel 6
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 6
+
+[TECHNOLOGY] "High_Powered_Lasers"
+  Name "High_Powered_Lasers_NAME"
+  Description "High_Powered_Lasers_DESC"
+  Image "Images/Science/LASER_3.png"
+  Points 50
+  LeadsTo "M_Laser_CIWS"
+  LeadsTo "M_Laser_weapon"      
+  LeadsTo "M_Laser_weapon_ASAT"    
+  LeadsTo "High_Powered_Lasers_Buffer"
+  LeadsTo "Offensive_Laser_Weapons"
+    TechLevel 7
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 7
+  
+  
+[TECHNOLOGY] "High_Powered_Lasers_Buffer"
+  Name "High_Powered_Lasers_NAME"
+  Description "High_Powered_Lasers_DESC"
+  LeadsTo "Laser_CIWS"
+  LeadsTo "Satellite_Defence_Lasers"    
+  
+  ////Deadly Laser///
+[TECHNOLOGY] "Offensive_Laser_Weapons"
+  Name "Offensive_Laser_Weapons_NAME"
+  Description "Offensive_Laser_Weapons_DESC"
+  Image "Images/Science/LASER_4.png"
+  Points 65
+  LeadsTo "M_Plane_Laser"
+  LeadsTo "M_AA_Laser"
+  LeadsTo "M_Terminal_ABM_Laser"
+  LeadsTo "U_Satellite_Death_Laser"
+  LeadsTo "Offensive_Laser_Weapons_Buffer"
+    TechLevel 9
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 9
+
+[TECHNOLOGY] "Offensive_Laser_Weapons_Buffer"
+  Name "Offensive_Laser_Weapons_NAME"
+  Description "Offensive_Laser_Weapons_DESC"  
+  LeadsTo "Direct_Energy_Satellite"
+  LeadsTo "AA_Laser"
+  LeadsTo "M_Laser_weapon_ASAT_Ground"
+
+[TECHNOLOGY] "M_Laser_weapon_ASAT_Ground"
+  Name "M_Laser_weapon_ASAT_Ground_NAME"
+  Description "M_Laser_weapon_ASAT_Ground_DESC"  
+
+
+[TECHNOLOGY] "Railguns"
+  Name "Railguns_NAME"
+  Description "Railguns_DESC"
+  Image "Images/Science/RAILGUN.png"
+  Points 45  
+  LeadsTo "M_Railgun"
+    TechLevel 7
+  Type "Smart Weapons"
+  NoAutoUnlockTillLevel 8
+  
+[TECHNOLOGY] "M_Railgun"
+  Name "M_Railgun_NAME"
+  Description "M_Railgun_DESC"
+
+
+//////////////////////////////AIR DEFENCE + MISSILE DEFENCE/////////////////////////////
+//Defences
+// chain SAM	SAM Mk2	  SAM Mk3
+//	            ABM	      ABM Mk2
+//		                  ASAT
+
+
+
+[TECHNOLOGY] "M_AA_Gun_Old"
+  Name "M_AA_Gun_Old_NAME"
+  Description "M_AA_Gun_Old_DESC"
+  
+  [TECHNOLOGY] "U_AA_Site_Old"
+  Name "U_AA_Site_Old_NAME"
+  Description "U_AA_Site_Old_DESC"
+  
+  
+///////////////////SURFACE TO AIR MISSILES, BASIC AIR DEFENCE//////////////
+
+[TECHNOLOGY] "Surface_to_air_missile"
+  Name "Surface_to_air_missile_NAME"
+  Description "Surface_to_air_missile_DESC"
+  Image "Images/Science/Surface_to_air_missile.png"
+  Points 20
+  LeadsTo "U_SAM_site"
+  LeadsTo "M_Surface_to_air_missile"
+  LeadsTo "M_MANPAD"
+  LeadsTo "Mobile_SAM"
+  LeadsTo "Close_In_Weapon_Systems"
+  LeadsTo "Terminal_BM_Defence"
+  LeadsTo "Nuke_ABM"
+  LeadsTo "M_SAM_Nuke"
+  
+  TechLevel 1
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 1
+
+[TECHNOLOGY] "M_Surface_to_air_missile"
+  Name "M_Surface_to_air_missile_NAME"
+  Description "M_Surface_to_air_missile_DESC"
+  
+[TECHNOLOGY] "M_Surface_to_air_missile_MD"
+  Name "M_Surface_to_air_missile_MD_NAME"
+  Description "M_Surface_to_air_missile_MD_DESC"  
+
+[TECHNOLOGY] "U_SAM_site"
+  Name "U_SAM_SITE_NAME"
+  Description "U_SAM_SITE_DESC"
+
+[TECHNOLOGY] "Mobile_SAM"
+  Name "Mobile_SAM_NAME"
+  Description "Mobile_SAM_DESC"
+  Image "Images/Science/Mobile_SAM.png"
+  Points 30
+  LeadsTo "U_Mobile_SAM"
+  LeadsTo "SAM_Mk2"
+  LeadsTo "M_Light_SAM"
+    TechLevel 2
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 3
+
+[TECHNOLOGY] "M_MANPAD"
+  Name "M_MANPAD_NAME"
+  Description "M_MANPAD_DESC"
+  
+[TECHNOLOGY] "M_Light_SAM"
+  Name "M_Light_SAM_NAME"
+  Description "M_Light_SAM_DESC"
+
+[TECHNOLOGY] "M_Light_SAM_MD"
+  Name "M_Light_SAM_MD_NAME"
+  Description "M_Light_SAM_MD_DESC"      
+  
+[TECHNOLOGY] "M_Point_Defence_SAM"
+  Name "M_Point_Defence_SAM_NAME"
+  Description "M_Point_Defence_SAM_DESC"  
+
+[TECHNOLOGY] "U_Mobile_SAM"
+  Name "U_Mobile_SAM_NAME"
+  Description "U_Mobile_SAM_DESC"
+
+/////Improved SAM
+[TECHNOLOGY] "SAM_Mk2"
+  Name "SAM_Mk2_NAME"
+  Description "SAM_Mk2_DESC"
+  Image "Images/Science/SAM_Mk2.png"
+  Points 20
+  LeadsTo "Tac_Missile_Defence"
+  LeadsTo "SAM_Mk2_and_ABM_Mk2"
+    TechLevel 4
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 5
+  
+[TECHNOLOGY] "Tac_Missile_Defence"
+  Name "Tac_Missile_Defence_NAME"
+  Description "Tac_Missile_Defence_DESC"
+  Image "Images/Science/SAM_MD.png"
+  Points 45
+  LeadsTo "M_Point_Defence_SAM"
+  LeadsTo "M_Surface_to_air_missile_MD"
+  LeadsTo "M_Light_SAM_MD"
+  LeadsTo "SAM_Mk3"
+    TechLevel 5
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 6
+ 
+
+///Advanced SAM 
+[TECHNOLOGY] "SAM_Mk3"
+  Name "SAM_Mk3_NAME"
+  Description "SAM_Mk3_DESC"
+  Image "Images/Science/SAM_3.png"
+  Points 20
+  LeadsTo "SAM_Mk4"
+  TechLevel 7
+  Type "Air and Missile Defence"  
+  NoAutoUnlockTillLevel 8
+ 
+///Experimental SAM 
+[TECHNOLOGY] "SAM_Mk4"
+  Name "SAM_Mk4_NAME"
+  Description "SAM_Mk4_DESC"
+  Image "Images/Science/SAM_4.png"
+  Points 20
+    TechLevel 9
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 10
+
+
+/////////////////////////////////////CIWS/////////////////////////////
+[TECHNOLOGY] "Close_In_Weapon_Systems"
+  Name "Close_In_Weapon_Systems_NAME"
+  Description "Close_In_Weapon_Systems_DESC"
+  Image "Images/Science/CIWS.png"
+  Points 20
+  LeadsTo "M_CIWS"
+  LeadsTo "Counter_Rocket_Artillery_Mortar"
+    TechLevel 2
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "M_CIWS"
+  Name "M_CIWS_NAME"
+  Description "M_CIWS_DESC"
+
+[TECHNOLOGY] "Counter_Rocket_Artillery_Mortar"
+  Name "Counter_Rocket_Artillery_Mortar_NAME"
+  Description "Counter_Rocket_Artillery_Mortar_DESC"
+  Image "Images/Science/CRAM.png"
+  Points 20
+  LeadsTo "M_CRAM"
+  LeadsTo "Laser_CIWS"
+    TechLevel 6
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 7
+  
+[TECHNOLOGY] "M_CRAM"
+  Name "M_CRAM_NAME"
+  Description "M_CRAM_DESC"  
+  
+[TECHNOLOGY] "Laser_CIWS"
+  Name "Laser_CIWS_NAME"
+  Description "Laser_CIWS_DESC"
+  Image "Images/Science/LASER_CIWS.png"
+  Points 40
+  LeadsTo "M_Laser_CIWS"
+  LeadsTo "AA_Laser"
+    TechLevel 8
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 9
+  
+[TECHNOLOGY] "M_Laser_CIWS"
+  Name "M_Laser_CIWS_NAME"
+  Description "M_Laser_CIWS_DESC"    
+  
+[TECHNOLOGY] "AA_Laser"
+  Name "AA_Laser_NAME"
+  Description "AA_Laser_DESC"
+  Image "Images/Science/LASER_AA.png"
+  Points 45
+  LeadsTo "M_Plane_Laser"
+  LeadsTo "M_AA_Laser"
+  LeadsTo "Terminal_Defence_Laser"
+    TechLevel 9
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 10
+  
+  [TECHNOLOGY] "M_AA_Laser"
+  Name "M_AA_Laser_NAME"
+  Description "M_AA_Laser_DESC"    
+  
+  
+////////////////////////TERMINAL BALLISTIC MISSILE DEFENCE///////////////////
+[TECHNOLOGY] "M_Terminal_ABM"
+  Name "M_Terminal_ABM_NAME"
+  Description "M_Terminal_ABM_DESC"
+
+[TECHNOLOGY] "U_Terminal_ABM"
+  Name "U_Terminal_ABM_NAME"
+  Description "U_Terminal_ABM_DESC"
+  
+[TECHNOLOGY] "Terminal_ABM_No_Target_Decoy_Modifier"
+  Name "Terminal_BM_Defence_NAME"
+  Description "Terminal_BM_Defence_DESC"  
+
+[TECHNOLOGY] "Terminal_BM_Defence"
+  Name "Terminal_BM_Defence_NAME"
+  Description "Terminal_BM_Defence_DESC"
+  Image "Images/Science/TERMINAL_ABM_1.png"
+  Points 40
+  LeadsTo "M_Terminal_ABM"
+  LeadsTo "U_Terminal_ABM"
+  LeadsTo "Terminal_BM_Defence_Mk2"
+    TechLevel 3
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 5
+
+[TECHNOLOGY] "Terminal_BM_Defence_Mk2"
+  Name "Terminal_BM_Defence_Mk2_NAME"
+  Description "Terminal_BM_Defence_Mk2_DESC"
+  Image "Images/Science/TERMINAL_ABM_2.png"
+  Points 45
+  LeadsTo "Terminal_BM_Defence_Mk2_Modifier"
+  LeadsTo "Terminal_BM_Defence_Mk3"
+    TechLevel 5
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 7
+
+[TECHNOLOGY] "Terminal_BM_Defence_Mk3"
+  Name "Terminal_BM_Defence_Mk3_NAME"
+  Description "Terminal_BM_Defence_Mk3_DESC"
+  Image "Images/Science/TERMINAL_ABM_3.png"
+  Points 60
+  LeadsTo "Terminal_BM_Defence_Mk3_Modifier"
+  LeadsTo "Terminal_Defence_Laser"
+    TechLevel 7
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 9
+ 
+[TECHNOLOGY] "Terminal_BM_Defence_Mk2_Modifier"
+  Name "Terminal_BM_Defence_Mk2_NAME"
+  Description "Terminal_BM_Defence_Mk2_DESC"
+
+[TECHNOLOGY] "Terminal_BM_Defence_Mk3_Modifier"
+  Name "Terminal_BM_Defence_Mk3_NAME"
+  Description "Terminal_BM_Defence_Mk3_DESC"
+
+
+ 
+[TECHNOLOGY] "Terminal_Defence_Laser"
+  Name "Terminal_Defence_Laser_NAME"
+  Description "Terminal_Defence_Laser_DESC"
+  Image "Images/Science/LASER_ABM.png"
+  Points 45
+  LeadsTo "M_Terminal_ABM_Laser"
+  LeadsTo "M_Laser_weapon_ASAT_Ground"  
+  LeadsTo "U_Laser_Site"   
+  LeadsTo "U_Laser_Truck"
+  TechLevel 9
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 99  
+
+[TECHNOLOGY] "M_Terminal_ABM_Laser"
+  Name "M_Terminal_ABM_Laser_NAME"
+  Description "M_Terminal_ABM_Laser_DESC"
+
+[TECHNOLOGY] "U_Laser_Site"
+  Name "U_Laser_Site_NAME"
+  Description "U_Laser_Site_DESC"
+
+[TECHNOLOGY] "U_Laser_Truck"
+  Name "U_Laser_Truck_NAME"
+  Description "U_Laser_Truck_DESC"
+
+////////////////////////NUCLEAR MIDCOURSE ABM///////////////////
+
+[TECHNOLOGY] "Nuke_ABM"
+  Name "Nuke_ABM_NAME"
+  Description "Nuke_ABM_DESC"
+  Image "Images/Science/ABM_NUKE.png"
+  Points 45
+  LeadsTo "anti_ballistic_missile"
+  LeadsTo "M_Nuke_ABM"
+  LeadsTo "M_Nuke_ABM_Light"
+  LeadsTo "U_ABM_Site"
+    TechLevel 2
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 4
+
+[TECHNOLOGY] "U_ABM_Site"
+  Name "U_ABM_Site_NAME"
+  Description "U_ABM_Site_DESC"
+
+[TECHNOLOGY] "M_Nuke_ABM"
+  Name "M_Nuke_ABM_NAME"
+  Description "M_Nuke_ABM_DESC"
+	LeadsTo "M_Fusion_ABM"
+
+[TECHNOLOGY] "M_Fusion_ABM"
+  Name "M_Fusion_ABM_NAME"
+  Description "M_Fusion_ABM_DESC"
+
+[TECHNOLOGY] "M_Nuke_ABM_Light"
+  Name "M_Nuke_ABM_Light_NAME"
+  Description "M_Nuke_ABM_Light_DESC"  
+  
+[TECHNOLOGY] "Resist_Nuke_ABM"
+  Name "Resist_Nuke_ABM_NAME"
+  Description "Resist_Nuke_ABM_DESC"
+
+[TECHNOLOGY] "Collateral_Damage_Modifier"
+  Name "Collateral_Damage_Modifier_NAME"
+  Description "Collateral_Damage_Modifier_DESC"    
+
+[TECHNOLOGY] "anti_ballistic_missile"
+  Name "anti_ballistic_missile_NAME"
+  Description "anti_ballistic_missile_DESC"
+  Image "Images/Science/MIDCOURSE_ABM_2.png"
+  Points 60
+  LeadsTo "M_anti_ballistic_missile"
+  LeadsTo "ABM_Mk2"
+    TechLevel 3
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 4
+
+[TECHNOLOGY] "M_anti_ballistic_missile"
+  Name "M_anti_ballistic_missile_NAME"
+  Description "M_anti_ballistic_missile_DESC"
+  
+[TECHNOLOGY] "M_anti_ballistic_missile_sub"
+  Name "M_anti_ballistic_missile_NAME"
+  Description "M_anti_ballistic_missile_DESC"  
+ 
+
+[TECHNOLOGY] "ABM_Mk2"
+  Name "ABM_Mk2_NAME"
+  Description "ABM_Mk2_DESC"
+  Image "Images/Science/anti_ballistic_missile.png"
+  Points 60  LeadsTo "SAM_Mk2_and_ABM_Mk2"
+  LeadsTo "ABM_Mk3"
+  LeadsTo "ABM_Mk2_Modifier"
+    TechLevel 5
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 7
+
+
+[TECHNOLOGY] "ABM_Mk3"
+  Name "ABM_Mk3_NAME"
+  Description "ABM_Mk3_DESC"
+  Image "Images/Science/MIDCOURSE_ABM_4.png"
+  Points 60
+  LeadsTo "ABM_Mk4"
+  LeadsTo "ABM_Mk3_Modifier"
+    TechLevel 7
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 9
+
+
+[TECHNOLOGY] "ABM_Mk4"
+  Name "ABM_Mk4_NAME"
+  Description "ABM_Mk4_DESC"
+  Image "Images/Science/ABM_Mk2.png"
+  Points 65
+  LeadsTo "ABM_Mk4_Modifier"
+    TechLevel 9
+  Type "Air and Missile Defence"
+  NoAutoUnlockTillLevel 10
+
+[TECHNOLOGY] "ABM_Mk2_Modifier"
+  Name "ABM_Mk2_NAME"
+  Description "ABM_Mk2_DESC"
+
+[TECHNOLOGY] "ABM_Mk3_Modifier"
+  Name "ABM_Mk3_NAME"
+  Description "ABM_Mk3_DESC"
+
+[TECHNOLOGY] "ABM_Mk4_Modifier"
+  Name "ABM_Mk4_NAME"
+  Description "ABM_Mk4_DESC"
+
+
+///////////////////////Strategic Level Radar///////////
+[TECHNOLOGY] "Over_horizon_radar"
+  Name "OVER_HORIZON_RADAR_NAME"
+  Description "OVER_HORIZON_RADAR_DESC"
+  Image "Images/Science/Over_horizon_radar.png"
+  Points 20
+  LeadsTo "U_Over_horizon_radar"
+  LeadsTo "R_Over_horizon_radar"
+  LeadsTo "Over_horizon_radar_Mk2"
+  
+  TechLevel 1
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "U_Over_horizon_radar"
+  Name "U_Over_horizon_radar_NAME"
+  Description "U_Over_horizon_radar_DESC"
+
+[TECHNOLOGY] "R_Over_horizon_radar"
+  Name "R_Over_horizon_radar_NAME"
+  Description "R_Over_horizon_radar_DESC"
+
+[TECHNOLOGY] "R_AWACS_Over_horizon_radar"
+  Name "R_AWACS_Over_horizon_radar_NAME"
+  Description "R_AWACS_Over_horizon_radar_DESC"
+
+[TECHNOLOGY] "Over_horizon_radar_Mk2"
+  Name "Over_horizon_radar_Mk2_NAME"
+  Description "Over_horizon_radar_Mk2_DESC"
+  Image "Images/Science/Over_horizon_radar_Mk2.png"
+  Points 30
+  LeadsTo "R_AWACS_Over_Horizon_Radar"
+    TechLevel 3
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 5
+
+
+////////////JAMMERS, RADAR, ELECTRONIC WARFARE ETC////////////
+
+/////////////////RADAR LOVE////////////////
+
+[TECHNOLOGY] "U_Mobile_SW_Radar"
+  Name "U_Mobile_SW_Radar_NAME"
+  Description "U_Mobile_SW_Radar_DESC"  
+  
+  
+[TECHNOLOGY] "Radar_Mk2"
+  Name "Radar_Mk2_NAME"
+  Description "Radar_Mk2_DESC"
+  Image "Images/Science/RADAR_2.png"
+  Points 20
+  LeadsTo "Radar_Mk2_Buffer"  
+  LeadsTo "Radar_Mk3"
+  LeadsTo "SW_Mk2"
+  LeadsTo "LW_Mk2"
+  LeadsTo "Over_horizon_radar"
+  LeadsTo "Space_radar"  
+  LeadsTo "U_Mobile_SW_Radar"
+  TechLevel 1
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 1
+
+[TECHNOLOGY] "Radar_Mk2_Buffer"
+  Name "Radar_Mk2_NAME"
+  Description "Radar_Mk2_DESC"
+
+[TECHNOLOGY] "Radar_Mk3"
+  Name "Radar_Mk3_NAME"
+  Description "Radar_Mk3_DESC"
+  Image "Images/Science/RADAR_3.png"
+  Points 35
+  LeadsTo "Radar_Mk3_Buffer"  
+  LeadsTo "Radar_Mk4"
+    TechLevel 2
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "Radar_Mk3_Buffer"
+  Name "Radar_Mk3_NAME"
+  Description "Radar_Mk3_DESC"
+  LeadsTo "SW_Mk3"
+  LeadsTo "LW_Mk3"  
+  
+[TECHNOLOGY] "Radar_Mk4"
+  Name "Radar_Mk4_NAME"
+  Description "Radar_Mk4_DESC"
+  Image "Images/Science/RADAR_4.png"
+  Points 50  
+  LeadsTo "Radar_Mk5"
+  LeadsTo "Radar_Mk4_Buffer"  
+  //LeadsTo "Jammers_Mk4" 
+  TechLevel 5
+  Type "Radar Systems"
+NoAutoUnlockTillLevel 5  
+  
+[TECHNOLOGY] "Radar_Mk4_Buffer"
+  Name "Radar_Mk4_NAME"
+  Description "Radar_Mk4_DESC"
+  LeadsTo "SW_Mk4"
+  LeadsTo "LW_Mk4"
+  LeadsTo "Jammers_Mk4"  
+  
+[TECHNOLOGY] "Radar_Mk5"
+  Name "Radar_Mk5_NAME"
+  Description "Radar_Mk5_DESC"
+  Image "Images/Science/RADAR_5.png"
+  Points 75
+  LeadsTo "Radar_Mk5_Buffer"
+  TechLevel 8
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 8  
+  
+[TECHNOLOGY] "Radar_Mk5_Buffer"
+  Name "Radar_Mk5_NAME"
+  Description "Radar_Mk5_DESC"
+  LeadsTo "SW_Mk5"
+  LeadsTo "LW_Mk5"
+
+// chain SW Mk2  SW Mk3
+
+[TECHNOLOGY] "SW_Mk2"
+  Name "SW_Mk2_NAME"
+  Description "SW_Mk2_DESC"
+  Image "Images/Science/SW_Mk2.png"
+  Points 5
+  LeadsTo "SW_Mk3"
+  TechLevel 1
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "SW_Mk3"
+  Name "SW_Mk3_NAME"
+  Description "SW_Mk3_DESC"
+  Image "Images/Science/SW_Mk3.png"
+  Points 10
+  LeadsTo "SW_Mk4"
+    TechLevel 2
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 3
+  
+[TECHNOLOGY] "SW_Mk4"
+  Name "SW_Mk4_NAME"
+  Description "SW_Mk4_DESC"
+  Image "Images/Science/SW_Mk4.png"
+  Points 15  
+  LeadsTo "SW_Mk5"
+    TechLevel 5
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 6
+  
+[TECHNOLOGY] "SW_Mk5"
+  Name "SW_Mk5_NAME"
+  Description "SW_Mk5_DESC"
+  Image "Images/Science/SW_Mk5.png"
+  Points 20
+  TechLevel 8
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 9
+
+// chain LW Mk2  LW Mk3
+
+[TECHNOLOGY] "LW_Mk2"
+  Name "LW_Mk2_NAME"
+  Description "LW_Mk2_DESC"
+  Image "Images/Science/LW_Mk2.png"
+  Points 5
+  LeadsTo "LW_Mk3"  
+  TechLevel 1
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "LW_Mk3"
+  Name "LW_Mk3_NAME"
+  Description "LW_Mk3_DESC"
+  Image "Images/Science/LW_Mk3.png"
+  Points 10
+  LeadsTo "LW_Mk4" 
+  TechLevel 2
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 3
+  
+[TECHNOLOGY] "LW_Mk4"
+  Name "LW_Mk4_NAME"
+  Description "LW_Mk4_DESC"
+  Image "Images/Science/LW_Mk4.png"
+  Points 15
+  LeadsTo "LW_Mk5"
+    TechLevel 5
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 6
+  
+[TECHNOLOGY] "LW_Mk5"
+  Name "LW_Mk5_NAME"
+  Description "LW_Mk5_DESC"
+  Image "Images/Science/LW_Mk5.png"
+  Points 20
+  TechLevel 8
+  Type "Radar Systems"  
+  NoAutoUnlockTillLevel 9
+
+[TECHNOLOGY] "Space_radar"
+  Name "Space_radar_NAME"
+  Description "Space_radar_DESC"
+  Image "Images/Science/SPACE_RADAR_1.png"
+  Points 15
+  LeadsTo "Space_radar_Buffer"
+  LeadsTo "Space_radar_Mk2"
+  LeadsTo "R_Space_radar"
+  LeadsTo "R_Space_radar_sat"  
+  LeadsTo "R_Space_radar_OTH"
+  LeadsTo "U_Space_radar"
+  TechLevel 1
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 2
+  
+ [TECHNOLOGY] "Space_radar_Buffer"
+  Name "Space_radar_NAME"
+  Description "Space_radar_DESC"
+  LeadsTo "Nuke_ASAT"
+  LeadsTo "Satellite_Defence_Lasers"
+
+
+ [TECHNOLOGY] "Space_radar_Mk2"
+  Name "Space_radar_Mk2_NAME"
+  Description "Space_radar_Mk2_DESC"
+  Image "Images/Science/SPACE_RADAR_2.png"
+  Points 30
+  LeadsTo "Space_radar_Mk3"
+    TechLevel 2
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 3
+
+ [TECHNOLOGY] "Space_radar_Mk3"
+  Name "Space_radar_Mk3_NAME"
+  Description "Space_radar_Mk3_DESC"
+  Image "Images/Science/SPACE_RADAR_3.png"
+  Points 30
+  LeadsTo "Space_radar_Mk4"
+    TechLevel 5
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 6
+  
+  
+ [TECHNOLOGY] "Space_radar_Mk4"
+  Name "Space_radar_Mk4_NAME"
+  Description "Space_radar_Mk4_DESC"
+  Image "Images/Science/SPACE_RADAR_4.png"
+  Points 45
+    TechLevel 9
+  Type "Radar Systems"
+  NoAutoUnlockTillLevel 10
+
+
+[TECHNOLOGY] "R_Space_radar"
+  Name "R_Space_radar_NAME"
+  Description "R_Space_radar_DESC"
+  
+[TECHNOLOGY] "R_Space_radar_sat"
+  Name "R_Space_radar_NAME"
+  Description "R_Space_radar_DESC"  
+
+[TECHNOLOGY] "R_Space_radar_OTH"
+  Name "R_Space_radar_OTH_NAME"
+  Description "R_Space_radar_OTH_DESC"
+
+[TECHNOLOGY] "U_Space_radar"
+  Name "U_Space_radar_NAME"
+  Description "U_Space_radar_DESC" 
+  
+
+
+[TECHNOLOGY] "Jammers"
+  Name "Jammers_NAME"
+  Description "Jammers_DESC"
+  Image "Images/Science/EWF1_3.png"
+  Points 15
+  LeadsTo "Jammers_Mk2"
+  LeadsTo "U_EW_MOBILE"
+  
+  TechLevel 1
+  Type "Electronic Warfare"
+  NoAutoUnlockTillLevel 1
+
+[TECHNOLOGY] "Jammers_Mk2"
+  Name "Jammers_Mk2_NAME"
+  Description "Jammers_Mk2_DESC"
+  Image "Images/Science/EWF2.png"
+  Points 30
+  LeadsTo "Jammers_Mk3"
+  LeadsTo "Stealth_Technology"
+  LeadsTo "U_EW_Aircraft"
+  LeadsTo "M_EW_Air"
+  LeadsTo "M_Anti-Radiation_Missile"
+    TechLevel 2
+  Type "Electronic Warfare"
+  NoAutoUnlockTillLevel 3
+
+[TECHNOLOGY] "Jammers_Mk3"
+  Name "Jammers_Mk3_NAME"
+  Description "Jammers_Mk3_DESC"
+  Image "Images/Science/EWF1_2.png"
+  Points 30
+  LeadsTo "Jammers_Mk4"
+    TechLevel 5
+  Type "Electronic Warfare"
+  NoAutoUnlockTillLevel 6
+  
+[TECHNOLOGY] "Jammers_Mk4"
+  Name "Jammers_Mk4_NAME"
+  Description "Jammers_Mk4_DESC"
+  Image "Images/Science/EWF1.png"
+  Points 30
+    TechLevel 8
+  Type "Electronic Warfare"
+  NoAutoUnlockTillLevel 10
+  
+[TECHNOLOGY] "M_EW_GROUND"
+  Name "M_EW_NAME"
+  Description "M_EW_DESC"
+
+[TECHNOLOGY] "M_Anti-Radiation_Missile"
+  Name "M_Anti-Radiation_Missile_NAME"
+  Description "M_Anti-Radiation_Missile_DESC"
+
+[TECHNOLOGY] "M_EW_AIR"
+  Name "M_EW_AIR_NAME"
+  Description "M_EW_AIR_DESC"     
+  
+[TECHNOLOGY] "U_EW_MOBILE"
+  Name "U_EW_MOBILE_NAME"
+  Description "U_EW_MOBILE_DESC"
+  
+[TECHNOLOGY] "U_EW_Aircraft"
+  Name "U_EW_Aircraft_NAME"
+  Description "U_EW_Aircraft_DESC"  
+
+[TECHNOLOGY] "Mod_EW_Aircraft"
+  Name "U_EW_Aircraft_NAME"
+  Description "U_EW_Aircraft_DESC"  
+
+[TECHNOLOGY] "Stealth_Technology"
+  Name "Stealth_Technology_NAME"
+  Description "Stealth_Technology_DESC"
+  Image "Images/Science/STEALTH.png"
+  Points 40  
+  LeadsTo "Novel_Stealth_Applications"
+  LeadsTo "Stealth_Technology_Buffer"
+    TechLevel 5
+  Type "Electronic Warfare"
+  NoAutoUnlockTillLevel 6
+ 
+///Tied to Gen 5 fighters
+[TECHNOLOGY] "Aircraft_Stealth_Bonus_Modifier_1"
+  Name "Stealth_Technology_NAME"
+  Description "Stealth_Technology_DESC"  
+
+///Tied to B-2 Spirit
+[TECHNOLOGY] "Bomber_Stealth_Bonus_Modifier_1"
+  Name "Stealth_Technology_NAME"
+  Description "Stealth_Technology_DESC"   
+ 
+  
+[TECHNOLOGY] "Stealth_Technology_Buffer"
+  Name "Stealth_Technology_NAME"
+  Description "Stealth_Technology_DESC"
+  LeadsTo "Generation_5_Aircraft"
+  LeadsTo "Generation_5_Bomber"
+
+  
+[TECHNOLOGY] "Novel_Stealth_Applications"
+  Name "Novel_Stealth_Applications_NAME"
+  Description "Novel_Stealth_Applications_DESC"
+  Image "Images/Science/NOVEL_STEALTH.png"
+  Points 60
+  LeadsTo "Novel_Stealth_Applications_Buffer"
+  LeadsTo "Advanced_Stealth"
+  LeadsTo "Stealth_Weapons"
+  LeadsTo "Satellite_Stealth_Bonus_Modifier_1"
+    TechLevel 7
+  Type "Electronic Warfare"
+  
+///Tied to Experimental Warships
+[TECHNOLOGY] "Warship_Stealth_Bonus_Modifier_1"
+  Name "Novel_Stealth_Applications_NAME"
+  Description "Novel_Stealth_Applications_DESC"
+
+///For all stealth satellites, tied only to novel stealth
+[TECHNOLOGY] "Satellite_Stealth_Bonus_Modifier_1"
+  Name "Novel_Stealth_Applications_NAME"
+  Description "Novel_Stealth_Applications_DESC"
+
+ 
+[TECHNOLOGY] "Novel_Stealth_Applications_Buffer"
+  Name "Novel_Stealth_Applications_NAME"
+  Description "Novel_Stealth_Applications_DESC"
+  LeadsTo "Experimental_Warships"
+ 
+[TECHNOLOGY] "Stealth_Weapons"
+  Name "Stealth_Weapons_NAME"
+  Description "Stealth_Weapons_DESC"
+  Image "Images/Science/STEALTH_WEAPONS.png"
+  Points 60
+    TechLevel 7
+  Type "Electronic Warfare"
+
+[TECHNOLOGY] "Advanced_Stealth"
+  Name "Advanced_Stealth_NAME"
+  Description "Advanced_Stealth_DESC"
+  Image "Images/Science/STEALTH_ADVANCED.png"
+  Points 60
+  LeadsTo "Advanced_Stealth_Buffer"
+  LeadsTo "Warship_Stealth_Bonus_Modifier_2"  
+  LeadsTo "Satellite_Stealth_Bonus_Modifier_2"  
+    TechLevel 8
+  Type "Electronic Warfare"
+  
+ ////Tied to Gen 6 fighters
+[TECHNOLOGY] "Aircraft_Stealth_Bonus_Modifier_2"
+  Name "Advanced_Stealth_NAME"
+  Description "Advanced_Stealth_DESC"    
+
+ ////Tied to B-21 Raider
+[TECHNOLOGY] "Bomber_Stealth_Bonus_Modifier_2"
+  Name "Advanced_Stealth_NAME"
+  Description "Advanced_Stealth_DESC"   
+  
+ ////Tied to experimental warships + Adv. Stealth itself
+[TECHNOLOGY] "Warship_Stealth_Bonus_Modifier_2"
+  Name "Advanced_Stealth_NAME"
+  Description "Advanced_Stealth_DESC"   
+ 
+ ////For stealth satellites. Tied to just adv stealth.
+[TECHNOLOGY] "Satellite_Stealth_Bonus_Modifier_2"
+  Name "Advanced_Stealth_NAME"
+  Description "Advanced_Stealth_DESC"   
+ 
+[TECHNOLOGY] "Advanced_Stealth_Buffer"
+  Name "Advanced_Stealth_Buffer_NAME"
+  Description "Advanced_Stealth_Buffer_DESC"
+  LeadsTo "Generation_6_Aircraft"
+  LeadsTo "Generation_6_Bomber"    
+
+
+
+
+[TECHNOLOGY] "Electronic_Counters_Mk1"
+  Name "Electronic_Counters_Mk1_NAME"
+  Description "Electronic_Counters_Mk1_DESC"
+  Image "Images/Science/ECM_1.png"
+  Points 15
+  LeadsTo "ECM_Bonus_1"
+  LeadsTo "Electronic_Counters_Mk2"
+  
+  TechLevel 2
+  Type "Electronic Warfare"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "Electronic_Counters_Mk2"
+  Name "Electronic_Counters_Mk2_NAME"
+  Description "Electronic_Counters_Mk2_DESC"
+  Image "Images/Science/ECM_2.png"
+  Points 20
+  LeadsTo "ECM_Bonus_2"
+  LeadsTo "Electronic_Counters_Mk3"
+  LeadsTo "Stealth_Technology"
+    TechLevel 3
+  Type "Electronic Warfare"
+  NoAutoUnlockTillLevel 4
+
+[TECHNOLOGY] "Electronic_Counters_Mk3"
+  Name "Electronic_Counters_Mk3_NAME"
+  Description "Electronic_Counters_Mk3_DESC"
+  Image "Images/Science/ECM_3.png"
+  Points 25
+  LeadsTo "ECM_Bonus_3"
+  LeadsTo "Electronic_Counters_Mk4"
+    TechLevel 5
+  Type "Electronic Warfare"
+  NoAutoUnlockTillLevel 6
+  
+[TECHNOLOGY] "Electronic_Counters_Mk4"
+  Name "Electronic_Counters_Mk4_NAME"
+  Description "Electronic_Counters_Mk4_DESC"
+  Image "Images/Science/ECM_4.png"
+  Points 35  
+  LeadsTo "ECM_Bonus_4"
+    TechLevel 8
+  Type "Electronic Warfare"
+  NoAutoUnlockTillLevel 10
+
+[TECHNOLOGY] "ECM_Bonus_1"
+  Name "Electronic_Counters_Mk1_NAME"
+  Description "Electronic_Counters_Mk1_DESC"
+
+[TECHNOLOGY] "ECM_Bonus_2"
+  Name "Electronic_Counters_Mk2_NAME"
+  Description "Electronic_Counters_Mk2_DESC"
+
+[TECHNOLOGY] "ECM_Bonus_3"
+  Name "Electronic_Counters_Mk3_NAME"
+  Description "Electronic_Counters_Mk3_DESC"
+ 
+[TECHNOLOGY] "ECM_Bonus_4"
+  Name "Electronic_Counters_Mk4_NAME"
+  Description "Electronic_Counters_Mk4_DESC" 
+
+  
+
+
+////////////////////////////////////SPACE WARFARE/////////////////////////////
+
+[TECHNOLOGY] "Satellite"
+  Name "SATELLITE_NAME"
+  Description "SATELLITE_DESC"
+  Image "Images/Science/SPY_SATELLITE_1.png"
+  Points 50
+  LeadsTo "U_Space_Base"
+  LeadsTo "U_Satellite"
+    LeadsTo "U_Satellite_Relay"
+//  LeadsTo "GPS"
+  LeadsTo "Improved_optics"
+  LeadsTo "Nuke_ASAT"
+  //LeadsTo "Geostationary_satellites"
+  LeadsTo "Launch_Warning_Satellite"
+  //LeadsTo "FOBS_Sat"
+  LeadsTo "Orbital_Attack_Satellite"
+  
+  TechLevel 2
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 2
+  
+[TECHNOLOGY] "Improved_optics"
+  Name "Improved_optics_NAME"
+  Description "Improved_optics_DESC"
+  Image "Images/Science/Satellite.png"
+  Points 45
+  LeadsTo "Advanced_Sat_Optics"
+  LeadsTo "Satellite_Defence_Lasers"
+  LeadsTo "Improved_optics_Buffer"
+  TechLevel 3
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 4
+
+[TECHNOLOGY] "Improved_optics_Buffer"
+  Name "Improved_optics_NAME"
+  Description "Improved_optics_DESC"  
+  LeadsTo "Orbital_Attack_Satellite"
+  LeadsTo "Direct_Energy_Satellite"    
+  
+[TECHNOLOGY] "Advanced_Sat_Optics"
+  Name "Advanced_Sat_Optics_NAME"
+  Description "Advanced_Sat_Optics_DESC"
+  Image "Images/Science/Improved_optics.png"
+  Points 60
+  LeadsTo "Experimental_Sat_Optics"
+  TechLevel 6
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 8
+
+[TECHNOLOGY] "Experimental_Sat_Optics"
+  Name "Experimental_Sat_Optics_NAME"
+  Description "Experimental_Sat_Optics_DESC"
+  Image "Images/Science/SPY_SATELLITE_4.png"
+  Points 75
+  TechLevel 8
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 10
+
+[TECHNOLOGY] "U_Space_Base"
+  Name "U_Space_Base_NAME"
+  Description "U_Space_Base_DESC"
+
+[TECHNOLOGY] "U_Satellite_Relay"
+  Name "U_Satellite_Relay_NAME"
+  Description "U_Satellite_Relay_DESC"
+  
+[TECHNOLOGY] "M_Satellite_Relay"
+  Name "M_Satellite_Relay_NAME"
+  Description "M_Satellite_Relay_DESC" 
+
+///////For showing "Relay missing" messages, not implemented yet. Icons don't work on sats
+[TECHNOLOGY] "R_Satellite_Relay"
+  Name "M_Satellite_Relay_NAME"
+  Description "M_Satellite_Relay_DESC"    
+
+[TECHNOLOGY] "U_Satellite"
+  Name "U_Satellite_NAME"
+  Description "U_Satellite_DESC"
+
+
+[TECHNOLOGY] "Satellite_Defence_Lasers"
+  Name "Satellite_Defence_Lasers_NAME"
+  Description "Satellite_Defence_Lasers_DESC"
+  Image "Images/Science/LASER_SAT_DEF.png"
+  Points 90
+  LeadsTo "Space_to_Space_Weapons"
+  LeadsTo "M_Laser_weapon"
+  LeadsTo "U_Laser_Defence_Satellite"
+/////Sat defences gives sats the ability to shoot at incoming ASATS
+  LeadsTo "Satellite Defence"
+  TechLevel 7
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 99
+
+
+[TECHNOLOGY] "Space_to_Space_Weapons"
+  Name "Space_to_Space_Weapons_NAME"
+  Description "Space_to_Space_Weapons_DESC"
+  Image "Images/Science/SAT_TO_SAT.png"
+  Points 60
+  LeadsTo "M_Laser_weapon_ASAT"
+  LeadsTo "M_Satellite_ASAT"  
+  LeadsTo "U_Hunter-Killer_Satellite"
+  TechLevel 7
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 99
+
+///////////Adds modifier so sats can intercept ASATS/////////
+[TECHNOLOGY] "Satellite_Defence"
+  Name "Satellite_Defence_NAME"
+  Description "Satellite_Defence_DESC"  
+
+
+[TECHNOLOGY] "Nuke_ASAT"
+  Name "Nuke_ASAT_NAME"
+  Description "Nuke_ASAT_DESC"
+  Image "Images/Science/NUKE_ASAT.png"
+  Points 30
+  LeadsTo "ASAT"
+  LeadsTo "M_ASAT_Nuke"
+  TechLevel 3
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 4
+  
+[TECHNOLOGY] "M_ASAT_Nuke"
+  Name "M_ASAT_Nuke_NAME"
+  Description "M_ASAT_Nuke_DESC"
+
+[TECHNOLOGY] "ASAT"
+  Name "ASAT_NAME"
+  Description "ASAT_DESC"
+  Image "Images/Science/ASAT.png"
+  Points 60
+  LeadsTo "Space_to_Space_Weapons"
+  LeadsTo "Advanced_ASAT"
+  LeadsTo "M_ASAT"
+  LeadsTo "M_ASAT_Plane"
+  LeadsTo "M_ASAT_ICBM"
+  TechLevel 5
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 6
+  
+[TECHNOLOGY] "Advanced_ASAT"
+  Name "Advanced_ASAT_NAME"
+  Description "Advanced_ASAT_DESC"
+  Image "Images/Science/ASAT_2.png"
+  Points 60
+  LeadsTo "M_Satellite_ASAT"
+  TechLevel 8
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 10
+
+[TECHNOLOGY] "M_ASAT"
+  Name "M_ASAT_NAME"
+  Description "M_ASAT_DESC"
+
+[TECHNOLOGY] "M_ASAT_Plane"
+  Name "M_ASAT_Plane_NAME"
+  Description "M_ASAT_Plane_DESC"
+  
+[TECHNOLOGY] "M_ASAT_ICBM"
+  Name "M_ASAT_ICBM_NAME"
+  Description "M_ASAT_ICBM_DESC"
+ 
+[TECHNOLOGY] "M_Satellite_ASAT"
+  Name "M_Satellite_ASAT_NAME"
+  Description "M_Satellite_ASAT_DESC"
+ 
+
+[TECHNOLOGY] "SAM_Mk2_and_ABM_Mk2"
+  Name "SAM_Mk2_and_ABM_Mk2_NAME"
+  Description "SAM_Mk2_and_ABM_Mk2_DESC"
+
+
+[TECHNOLOGY] "M_Laser_weapon"
+  Name "M_Laser_weapon_NAME"
+  Description "M_Laser_weapon_DESC"
+  
+[TECHNOLOGY] "M_Laser_weapon_ASAT"
+  Name "M_Laser_weapon_ASAT_NAME"
+  Description "M_Laser_weapon_ASAT_DESC"
+
+/*[TECHNOLOGY] "FOBS_Sat"
+  Name "FOBS_Sat_NAME"
+  Description "FOBS_Sat_DESC"
+  Image "Images/Science/ASAT.png"
+  Points 45
+  LeadsTo "Orbital_Attack_Satellite"
+*/
+
+[TECHNOLOGY] "Launch_Warning_Satellite"
+  Name "Launch_Warning_Satellite_NAME"
+  Description "Launch_Warning_Satellite_DESC"
+  Image "Images/Science/SATELLITE_EWS.png"
+  Points 30
+  LeadsTo "Improved_Launch_Warning_Satellite"
+  LeadsTo "U_Satellite_EWS"
+  TechLevel 2
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 3
+  
+[TECHNOLOGY] "Improved_Launch_Warning_Satellite"
+  Name "Improved_Launch_Warning_Satellite_NAME"
+  Description "Improved_Launch_Warning_Satellite_DESC"
+  Image "Images/Science/SATELLITE_EWS_2.png"
+  Points 30
+  LeadsTo "Advanced_Launch_Warning_Satellite"
+  TechLevel 4
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 5
+
+[TECHNOLOGY] "Advanced_Launch_Warning_Satellite"
+  Name "Advanced_Launch_Warning_Satellite_NAME"
+  Description "Advanced_Launch_Warning_Satellite_DESC"
+  Image "Images/Science/SATELLITE_EWS_3.png"
+  Points 45
+  TechLevel 7
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 8
+
+[TECHNOLOGY] "U_Satellite_EWS"
+  Name "U_Satellite_EWS_NAME"
+  Description "U_Satellite_EWS_DESC"
+  
+[TECHNOLOGY] "R_Satellite_EWS"
+  Name "R_Satellite_EWS_NAME"
+  Description "R_Satellite_EWS_DESC"
+  
+
+  
+[TECHNOLOGY] "Orbital_Attack_Satellite"
+  Name "Orbital_Attack_Satellite_NAME"
+  Description "Orbital_Attack_Satellite_DESC"
+  Image "Images/Science/Attack_Satellite.png"
+  Points 135
+  LeadsTo "Direct_Energy_Satellite"
+ // LeadsTo "Targeted_Asteroid_Redirection"
+  LeadsTo "U_Satellite_Attack"
+  TechLevel 8
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 99
+	
+[TECHNOLOGY] "U_Satellite_Attack"
+  Name "U_Satellite_Attack_NAME"
+  Description "U_Satellite_Attack_DESC"
+  
+[TECHNOLOGY] "U_Hunter-Killer_Satellite"
+  Name "U_Hunter-Killer_Satellite_NAME"
+  Description "U_Hunter-Killer_Satellite_DESC"  
+
+[TECHNOLOGY] "U_Laser_Defence_Satellite"
+  Name "U_Laser_Defence_Satellite_NAME"
+  Description "U_Laser_Defence_Satellite_DESC"  
+  
+[TECHNOLOGY] "M_Orbital_Strike" 
+  Name "M_Orbital_Strike_NAME"
+  Description "M_Orbital_Strike_DESC"
+  
+[TECHNOLOGY] "R_Camera_Small"
+  Name "R_Camera_Small_NAME"
+  Description "R_Camera_Small_DESC"  
+  
+[TECHNOLOGY] "Direct_Energy_Satellite"
+  Name "Direct_Energy_Satellite_NAME"
+  Description "Direct_Energy_Satellite_DESC"
+  Image "Images/Science/DEW_Laser_Sat.png"
+  Points 140
+  LeadsTo "U_Satellite_Death_Laser"
+  TechLevel 10
+  Type "Satellites and Space Weapons"
+  NoAutoUnlockTillLevel 99
+  
+[TECHNOLOGY] "U_Satellite_Death_Laser"
+  Name "U_Satellite_Death_Laser_NAME"
+  Description "U_Satellite_Death_Laser_DESC"
+  
+[TECHNOLOGY] "M_Satellite_Laser_Fusion"
+  Name "M_Satellite_Laser_Fusion_NAME"
+  Description "M_Satellite_Laser_Fusion_DESC"    
+
+////////////////CIVIL UPGRADES, GDP BOOSTS, NATIONAL DEFENCE, EMP PROTECTION
+
+[TECHNOLOGY] "Survival_Boost_1"
+  Name "Survival_Boost_1_NAME"
+  Description "Survival_Boost_1_DESC"
+  Image "Images/Science/Survival1.png"
+  Points 15
+  LeadsTo "Survival_Boost_2"
+  LeadsTo "U_DEFCON_Bunker"
+  TechLevel 1
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 1
+
+[TECHNOLOGY] "Survival_Boost_2"
+  Name "Survival_Boost_2_NAME"
+  Description "Survival_Boost_2_DESC"
+  Image "Images/Science/Survival2.png"
+  Points 30
+  LeadsTo "Survival_Boost_3"
+    TechLevel 2
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 99  
+  
+[TECHNOLOGY] "Survival_Boost_3"
+  Name "Survival_Boost_3_NAME"
+  Description "Survival_Boost_3_DESC"
+  Image "Images/Science/Survival3.png"
+  Points 45  
+  LeadsTo "Survival_Boost_4"
+    TechLevel 3
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 99
+  
+  
+[TECHNOLOGY] "Survival_Boost_4"
+  Name "Survival_Boost_4_NAME"
+  Description "Survival_Boost_4_DESC"
+  Image "Images/Science/Survival4.png"
+  Points 60
+  LeadsTo "Survival_Boost_5" 
+  TechLevel 5
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 99
+  
+  
+[TECHNOLOGY] "Survival_Boost_5"
+  Name "Survival_Boost_5_NAME"
+  Description "Survival_Boost_5_DESC"
+  Image "Images/Science/Survival5.png"
+  Points 75
+  LeadsTo "Survival_Boost_6" 
+  TechLevel 7
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 99
+  
+  
+[TECHNOLOGY] "Survival_Boost_6"
+  Name "Survival_Boost_6_NAME"
+  Description "Survival_Boost_6_DESC"
+  Image "Images/Science/Survival6.png"
+  Points 90   
+    TechLevel 9
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 99
+
+///Modifier, makes planes/helis/satellites die from EMPs without protection
+[TECHNOLOGY] "EMP_Killable"
+  Name "EMP_Killable_NAME"
+  Description "EMP_Killable_DESC"
+
+[TECHNOLOGY] "EMP_Defence"
+  Name "EMP_Defence_NAME"
+  Description "EMP_Defence_DESC"
+  Image "Images/Science/EMP_DEFENCE_1.png"
+  Points 10
+  LeadsTo "EMP_Defence_Mod_1"
+  LeadsTo "EMP_Defence_Mk2"
+    TechLevel 1
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 3
+
+[TECHNOLOGY] "EMP_Defence_Mod_1"
+  Name "EMP_Defence_NAME"
+  Description "EMP_Defence_DESC"
+
+[TECHNOLOGY] "EMP_Defence_Mk2"
+  Name "EMP_Defence_Mk2_NAME"
+  Description "EMP_Defence_Mk2_DESC"
+  Image "Images/Science/EMP_DEFENCE_2.png"
+  Points 20
+  LeadsTo "EMP_Defence_Mod_2"
+  LeadsTo "EMP_Defence_Invulnerable"
+  LeadsTo "EMP_Defence_Mk3"
+    TechLevel 3
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 5
+
+[TECHNOLOGY] "EMP_Defence_Mod_2"
+  Name "EMP_Defence_Mk2_NAME"
+  Description "EMP_Defence_Mk2_DESC"
+  
+  [TECHNOLOGY] "EMP_Defence_Invulnerable"
+  Name "EMP_Defence_Mk2_NAME"
+  Description "EMP_Defence_Mk2_DESC"
+
+[TECHNOLOGY] "EMP_Defence_Mk3"
+  Name "EMP_Defence_Mk3_NAME"
+  Description "EMP_Defence_Mk3_DESC"
+  Image "Images/Science/EMP_DEFENCE_3.png"
+  Points 60
+  LeadsTo "EMP_Defence_Mod_3"  
+  LeadsTo "EMP_Defence_Mk4"
+    TechLevel 5
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 99
+
+[TECHNOLOGY] "EMP_Defence_Mod_3"
+  Name "EMP_Defence_Mk3_NAME"
+  Description "EMP_Defence_Mk3_DESC"
+
+[TECHNOLOGY] "EMP_Defence_Mk4"
+  Name "EMP_Defence_Mk4_NAME"
+  Description "EMP_Defence_Mk4_DESC"
+  Image "Images/Science/EMP_DEFENCE_4.png"
+  Points 75
+  LeadsTo "EMP_Defence_Mod_4"  
+    TechLevel 7
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 99
+
+[TECHNOLOGY] "EMP_Defence_Mod_4"
+  Name "EMP_Defence_Mk4_NAME"
+  Description "EMP_Defence_Mk4_DESC"  
+
+////////////Upgrade Buildings///////////
+
+[TECHNOLOGY] "Defence_Planning"
+  Name "Defence_Planning_NAME"
+  Description "Defence_Planning_DESC"
+  Image "Images/Science/Pentagon.png"
+  Points 30
+  LeadsTo "Science_Booster_1"
+  LeadsTo "Production_Booster_1"
+  LeadsTo "U_DEFCON_Bunker"
+  
+  TechLevel 1
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 1
+
+[TECHNOLOGY] "U_DEFCON_Bunker"
+  Name "U_DEFCON_Bunker_NAME"
+  Description "U_DEFCON_Bunker_DESC"
+  
+/*  
+[TECHNOLOGY] "M_DEFCON_5"
+  Name "M_DEFCON_5_NAME"
+  Description "M_DEFCON_5_DESC"  
+
+[TECHNOLOGY] "M_DEFCON_4"
+  Name "M_DEFCON_4_NAME"
+  Description "M_DEFCON_4_DESC"
+  
+  
+[TECHNOLOGY] "M_DEFCON_3"
+  Name "M_DEFCON_3_NAME"
+  Description "M_DEFCON_3_DESC"
+  
+  
+[TECHNOLOGY] "M_DEFCON_2"
+  Name "M_DEFCON_2_NAME"
+  Description "M_DEFCON_2_DESC"
+  
+  
+[TECHNOLOGY] "M_DEFCON_1"
+  Name "M_DEFCON_1_NAME"
+  Description "M_DEFCON_1_DESC"
+*/  
+
+///////////R&D Stuff/////////////
+
+[TECHNOLOGY] "Science_Booster_1"
+  Name "Science_Booster_1_NAME"
+  Description "Science_Booster_1_DESC"
+  Image "Images/Science/ScienceBoost1.png"
+  Points 30  
+    LeadsTo "Science_Booster_2"
+	LeadsTo "U_Research_Center"
+  
+  TechLevel 1
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 2
+	
+  [TECHNOLOGY] "Science_Booster_2"
+  Name "Science_Booster_2_NAME"
+  Description "Science_Booster_2_DESC"
+  Image "Images/Science/ScienceBoost2.png"
+  Points 45  
+    LeadsTo "Science_Booster_3"
+	  TechLevel 3
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 5
+  
+  [TECHNOLOGY] "Science_Booster_3"
+  Name "Science_Booster_3_NAME"
+  Description "Science_Booster_3_DESC"
+  Image "Images/Science/ScienceBoost3.png"
+  Points 75  
+      LeadsTo "Science_Booster_4"
+	    TechLevel 6
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 8
+  
+   [TECHNOLOGY] "Science_Booster_4"
+  Name "Science_Booster_4_NAME"
+  Description "Science_Booster_4_DESC"
+  Image "Images/Science/ScienceBoost4.png"
+  Points 105  
+    TechLevel 8
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 10
+  
+    [TECHNOLOGY] "U_Research_Center"
+  Name "U_Research_Center_NAME"
+  Description "U_Research_Center_DESC"
+  
+  [TECHNOLOGY] "Research_Buff"
+  Name "Research_Buff_NAME"
+  Description "Research_Buff_DESC"
+  
+/////////////Production Stuff//////////////
+
+[TECHNOLOGY] "Production_Booster_1"
+  Name "Production_Booster_1_NAME"
+  Description "Production_Booster_1_DESC"
+  Image "Images/Science/ProductionBoost1.png"
+  Points 30  
+  LeadsTo "Production_Booster_2"
+  
+  TechLevel 1
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 2
+  
+  [TECHNOLOGY] "Production_Booster_2"
+  Name "Production_Booster_2_NAME"
+  Description "Production_Booster_2_DESC"
+  Image "Images/Science/ProductionBoost2.png"
+  Points 45
+    LeadsTo "Production_Booster_3"
+	  TechLevel 3
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 5
+  
+  [TECHNOLOGY] "Production_Booster_3"
+  Name "Production_Booster_3_NAME"
+  Description "Production_Booster_3_DESC"
+  Image "Images/Science/ProductionBoost3.png"
+  Points 75  
+      LeadsTo "Production_Booster_4"
+	    TechLevel 5
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 7
+  
+  [TECHNOLOGY] "Production_Booster_4"
+  Name "Production_Booster_4_NAME"
+  Description "Production_Booster_4_DESC"
+  Image "Images/Science/ProductionBoost4.png"
+  Points 105
+    TechLevel 8
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 10
+ 
+///////////////Spy Stuff////////////////////
+
+
+[TECHNOLOGY] "Espionage_1"
+  Name "Espionage_1_NAME"
+  Description "Espionage_1_DESC"
+  Image "Images/Science/Espionage_1.png"
+  Points 20  
+  LeadsTo "Espionage_2"
+  LeadsTo "Nuclear_Terrorism"
+ // LeadsTo "Espionage_Counter"
+  LeadsTo "U_Intel_Center"
+  
+  TechLevel 1
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 2
+
+[TECHNOLOGY] "U_Intel_Center"
+  Name "U_Intel_Center_NAME"
+  Description "U_Intel_Center_DESC"
+  
+[TECHNOLOGY] "Espionage_Buff"
+  Name "Espionage_Buff_NAME"
+  Description "Espionage_Buff_DESC"  
+
+[TECHNOLOGY] "Nuclear_Terrorism"
+///////Enables bomb trucks////////
+  Name "Nuclear_Terrorism_NAME"
+  Description "Nuclear_Terrorism_DESC"
+  Image "Images/Science/BOMB_TRUCK_1.png"
+  Points 30
+  LeadsTo "U_Bomb_Truck"
+  LeadsTo "Heavy_SVBIED"
+  
+  TechLevel 2
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 99
+  
+  [TECHNOLOGY] "Heavy_SVBIED"
+///////Enables BIG bomb trucks////////
+  Name "Heavy_SVBIED_NAME"
+  Description "Heavy_SVBIED_DESC"
+  Image "Images/Science/BOMB_TRUCK_2.png"
+  Points 30
+  LeadsTo "U_Bomb_Truck_Heavy"
+    TechLevel 4
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 99
+
+
+[TECHNOLOGY] "Espionage_2"
+///////Espionage_Booster_name"////////
+  Name "Espionage_2_NAME"
+  Description "Espionage_2_DESC"
+  Image "Images/Science/Espionage_Boost.png"
+  Points 35    
+  LeadsTo "Espionage_3"
+    TechLevel 3
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 4
+  
+[TECHNOLOGY] "Espionage_3"
+  Name "Espionage_3_NAME"
+  Description "Espionage_3_DESC"
+  Image "Images/Science/ESPIONAGE_3.png"
+  Points 45    
+  LeadsTo "Espionage_4"  
+    TechLevel 4
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 5  
+
+  [TECHNOLOGY] "Espionage_4"
+  //////////Espionage HACK//////
+  Name "Espionage_Hack_NAME"
+  Description "Espionage_Hack_DESC"
+  Image "Images/Science/Cyber_Warfare.png"
+  Points 60 
+  LeadsTo "Espionage_5"
+  LeadsTo "M_Cyber_Warfare_Debuff"
+    TechLevel 6
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 8
+  
+  [TECHNOLOGY] "M_Cyber_Warfare_Debuff"
+  Name "M_Cyber_Warfare_Debuff_NAME"
+  Description "M_Cyber_Warfare_Debuff_DESC"
+  
+[TECHNOLOGY] "Espionage_5"
+  Name "Espionage_5_NAME"
+  Description "Espionage_5_DESC"
+  Image "Images/Science/ESPIONAGE_5.png"
+  Points 75    
+    TechLevel 8
+  Type "Domestic Technologies"
+  NoAutoUnlockTillLevel 10
+
+
+[END]

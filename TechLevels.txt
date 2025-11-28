@@ -1,0 +1,300 @@
+MinLevel 1.0
+MaxLevel 10.0
+NumLevels 10
+
+NextLevelMultiplier 1.5 // how much more difficult is to research techs with higher level
+
+Level "L_1" 1
+Level "L_2" 2
+Level "L_3" 3
+Level "L_4" 4
+Level "L_5" 5
+Level "L_6" 6
+Level "L_7" 7
+Level "L_8" 8
+Level "L_9" 9
+Level "L_10" 10
+
+/*Total points per tech level:
+TechLevel 1 - 635
+TechLevel 2 - 855
+TechLevel 3 - 965
+TechLevel 4 - 690
+TechLevel 5 - 1090
+TechLevel 6 - 830
+TechLevel 7 - 1180
+TechLevel 8 - 1445
+TechLevel 9 - 1385
+TechLevel 10 - 320
+*/
+/////AIM FOR 500 POINTS TO UPGRADE TO NEXT TECH LEVEL/////
+/////Add 0.01 for each 5 points worth of tech value
+
+tech "Nuclear_Fission" Add 0.135 //TechLevel 1, Added 50%
+tech "Thermonuclear_bomb" Add 0.13
+tech "Mega-warheads" Add 0.15
+tech "Advanced_Multi-Stage_Weapons" Add 0.20
+tech "Pure_Fusion_Weapon" Add 0.36
+tech "Tactical_nukes" Add 0.06
+tech "Advanced_Tactical_nukes" Add 0.04
+tech "Cobalt_Bomb" Add 0.06
+tech "Enhanced_Salted_Weapons" Add 0.09
+tech "Specialized_EMP" Add 0.04
+tech "Super_EMP" Add 0.05
+
+tech "Nuclear_Fuel_1" Add 0.06 //TechLevel 1, Added 50%
+tech "Nuclear_Fuel_2" Add 0.06
+tech "Nuclear_Fuel_3" Add 0.09
+tech "Nuclear_Fuel_4" Add 0.12
+tech "Nuclear_Fuel_5" Add 0.15
+
+tech "Chemical_Weapons" Add 0.045 //TechLevel 1, Added 50%
+tech "Chemical_Weapons_Mk2" Add 0.03
+tech "Chemical_Weapons_Mk3" Add 0.06
+tech "Biological_Weapons" Add 0.045 //TechLevel 1, Added 50%
+tech "Biological_Weapons_Mk2" Add 0.03
+tech "Biological_Weapons_Mk3" Add 0.06
+tech "Experimental_Biochem" Add 0.12
+
+tech "Generation_2_Aircraft" Add 0.06 //TechLevel 1, Added 50%
+tech "Generation_3_Aircraft" Add 0.06
+tech "Improvised_Airbase" Add 0.06
+tech "Generation_4_Aircraft" Add 0.09
+tech "Generation_4.5_Aircraft" Add 0.09
+tech "Generation_5_Aircraft" Add 0.12
+tech "Generation_6_Aircraft" Add 0.12
+tech "Generation_2_Bomber" Add 0.06 //TechLevel 1, Added 50%
+tech "Generation_3_Bomber" Add 0.03
+tech "Generation_4_Bomber" Add 0.06
+tech "Generation_5_Bomber" Add 0.06
+tech "Generation_6_Bomber" Add 0.06
+tech "Generation_7_Bomber" Add 0.06
+tech "Interceptor_aircraft" Add 0.03
+tech "Spy_Plane" Add 0.075 //TechLevel 1, Added 50%
+tech "AWACS" Add 0.075 //TechLevel 1, Added 50%
+tech "Heavy_Airframe_1" Add 0.03
+tech "Heavy_Airframe_2" Add 0.04
+tech "Heavy_Airframe_3" Add 0.05
+tech "Helicopter_1" Add 0.045 //TechLevel 1, Added 50%
+tech "Helicopter_2" Add 0.03
+tech "Helicopter_3" Add 0.04
+tech "Helicopter_4" Add 0.06
+tech "Helicopter_5" Add 0.07
+
+tech "Weapon_Modernization" Add 0.045 //TechLevel 1, Added 50%
+tech "Improved_Army_Weapons" Add 0.03
+tech "Enhanced_Army_Weapons" Add 0.06
+tech "Advanced_Army_Weapons" Add 0.06
+tech "Experimental_Army_Weapons" Add 0.09
+tech "Army_Mech_Mk2" Add 0.06
+tech "Army_Mech_Mk3" Add 0.07
+tech "Army_Mech_Mk4" Add 0.09
+tech "Army_Mech_Mk5" Add 0.12
+tech "Portable_Electronic_Optics" Add 0.03
+tech "Tactical_Optics" Add 0.06
+tech "Advanced_Tactical_Optics" Add 0.06
+tech "Light_Unmanned_Vehicles" Add 0.09
+tech "Robotic_Infantry" Add 0.09
+tech "Improved_Basic_Protection" Add 0.03
+tech "Basic_Body_Armor" Add 0.06
+tech "Improved_Body_Armor" Add 0.06
+tech "Advanced_Body_Armor" Add 0.09
+tech "Experimental_Body_Armor" Add 0.09
+tech "CBRN_Defence_1" Add 0.02
+tech "CBRN_Defence_2" Add 0.03
+tech "CBRN_Defence_3" Add 0.04
+tech "CBRN_Defence_4" Add 0.06
+
+
+tech "Early_BM" Add 0.045 //TechLevel 1, Added 50%
+tech "Mobile_MRBM" Add 0.04
+tech "Mobile_ICBM" Add 0.09
+tech "Improved_TEL" Add 0.06
+tech "Advanced_TEL" Add 0.06
+tech "MRBM" Add 0.06
+tech "SLBM" Add 0.03
+tech "Aircraft-launched_MRBM" Add 0.06
+tech "Aircraft-launched_ICBM" Add 0.15
+tech "Launchpad_ICBM" Add 0.09
+tech "ICBM" Add 0.09
+tech "Heavy_Missiles" Add 0.09
+tech "Improved_Inertial_Guidance" Add 0.05
+tech "Solid_Fuel_Rockets" Add 0.09
+tech "MARV" Add 0.09
+tech "MIRV" Add 0.15
+tech "False_warheads" Add 0.09
+tech "Advanced_Inertial_Guidance" Add 0.08
+tech "Improved_MIRV" Add 0.18
+tech "Hypersonic_Maneuvering" Add 0.15
+tech "Hypersonic_Glide_Vehicles" Add 0.15
+tech "Novel_BM_Light" Add 0.20
+tech "Novel_BM_Heavy" Add 0.29
+
+tech "Nuclear_Submarine" Add 0.045 //TechLevel 1, Added 50%
+tech "Improved_Submarines" Add 0.09
+tech "Enhanced_Submarines" Add 0.09
+tech "Advanced_Submarines" Add 0.12
+tech "Experimental_Submarines" Add 0.15
+tech "Cruise_Missile_Submarine" Add 0.045 //TechLevel 1, Added 50%
+tech "SSBN" Add 0.05
+tech "Improved_SSBN" Add 0.06
+tech "Advanced_SSBN" Add 0.09
+tech "Experimental_SSBN" Add 0.12
+tech "Sonar_Mk2" Add 0.03
+tech "Sonar_Mk3" Add 0.04
+tech "Sonar_Mk4" Add 0.06
+tech "Sonar_Mk5" Add 0.09
+tech "Guided_Torpedoes" Add 0.03 //TechLevel 1, Added 50%
+tech "Improved_Underwater_Weapons" Add 0.05
+tech "Enhanced_Underwater_Weapons" Add 0.06
+tech "Advanced_Underwater_Weapons" Add 0.08
+tech "Experimental_Underwater_Weapons" Add 0.11
+tech "Missile_Warships" Add 0.03
+tech "Improved_Warships" Add 0.06
+tech "Enhanced_Warships" Add 0.09
+tech "Advanced_Warships" Add 0.12
+tech "Experimental_Warships" Add 0.15
+
+tech "Basic_Missile_Guidance" Add 0.045 //TechLevel 1, Added 50%
+tech "Improved_Missile_Guidance" Add 0.06
+tech "Enhanced_Missile_Guidance" Add 0.09
+tech "Advanced_Missile_Guidance" Add 0.12
+tech "Experimental_Missile_Guidance" Add 0.15
+tech "Air_to_Air_Missile" Add 0.06 //TechLevel 1, Added 50%
+tech "AAM_Improved" Add 0.04
+tech "AAM_Enhanced" Add 0.04
+tech "AAM_Advanced" Add 0.04
+tech "AAM_Experimental" Add 0.04
+tech "Air_to_Ground_missile" Add 0.06 //TechLevel 1, Added 50%
+tech "Improved_AGM" Add 0.04
+tech "Enhanced_AGM" Add 0.04
+tech "Advanced_AGM" Add 0.04
+tech "Experimental_AGM" Add 0.04
+tech "Coastal_Defence" Add 0.06
+tech "Cruise_missiles" Add 0.06 //TechLevel 1, Added 50%
+tech "Improved_cruise_missiles" Add 0.04
+tech "Enhanced_cruise_missiles" Add 0.04
+tech "Advanced_cruise_missiles" Add 0.04
+tech "Experimental_cruise_missiles" Add 0.04
+
+tech "Basic_Laser_Guidance" Add 0.03
+tech "Advanced_Laser_Guidance" Add 0.03
+tech "High_Energy_Weapons" Add 0.05
+tech "High_Powered_Lasers" Add 0.12
+tech "Offensive_Laser_Weapons" Add 0.15
+tech "Railguns" Add 0.09
+
+tech "Surface_to_air_missile" Add 0.06 //TechLevel 1, Added 50%
+tech "Mobile_SAM" Add 0.06
+tech "SAM_Mk2" Add 0.04
+tech "Tac_Missile_Defence" Add 0.09
+tech "SAM_Mk3" Add 0.04
+tech "SAM_Mk4" Add 0.04
+tech "Close_In_Weapon_Systems" Add 0.08
+tech "Counter_Rocket_Artillery_Mortar" Add 0.04
+tech "Laser_CIWS" Add 0.08
+tech "AA_Laser" Add 0.09
+tech "Terminal_BM_Defence" Add 0.08
+tech "Terminal_BM_Defence_Mk2" Add 0.09
+tech "Terminal_BM_Defence_Mk3" Add 0.12
+tech "Terminal_Defence_Laser" Add 0.09
+tech "Nuke_ABM" Add 0.09
+tech "anti_ballistic_missile" Add 0.12
+tech "ABM_Mk2" Add 0.12
+tech "ABM_Mk3" Add 0.12
+tech "ABM_Mk4" Add 0.13
+
+tech "Radar_Mk2" Add 0.06 //TechLevel 1, Added 50%
+tech "Radar_Mk3" Add 0.07
+tech "Radar_Mk4" Add 0.10
+tech "Radar_Mk5" Add 0.15
+tech "SW_Mk2" Add 0.03 //TechLevel 1, Added 50%
+tech "SW_Mk3" Add 0.03
+tech "SW_Mk4" Add 0.04
+tech "SW_Mk5" Add 0.05
+tech "LW_Mk2" Add 0.03 //TechLevel 1, Added 50%
+tech "LW_Mk3" Add 0.03
+tech "LW_Mk4" Add 0.04
+tech "LW_Mk5" Add 0.05
+tech "Over_horizon_radar" Add 0.09 //TechLevel 1, Added 50%
+tech "Over_horizon_radar_Mk2" Add 0.06
+tech "Space_radar" Add 0.045 //TechLevel 1, Added 50%
+tech "Space_radar_Mk2" Add 0.06
+tech "Space_radar_Mk3" Add 0.06
+tech "Space_radar_Mk4" Add 0.09
+
+tech "Jammers" Add 0.045 //TechLevel 1, Added 50%
+tech "Jammers_Mk2" Add 0.06
+tech "Jammers_Mk3" Add 0.06
+tech "Jammers_Mk4" Add 0.06
+tech "Stealth_Technology" Add 0.12
+tech "Novel_Stealth_Applications" Add 0.15
+tech "Advanced_Stealth" Add 0.15
+tech "Stealth_Weapons" Add 0.15
+tech "Electronic_Counters_Mk1" Add 0.03
+tech "Electronic_Counters_Mk2" Add 0.04
+tech "Electronic_Counters_Mk3" Add 0.05
+tech "Electronic_Counters_Mk4" Add 0.07
+
+tech "Satellite" Add 0.09
+tech "Improved_optics" Add 0.09
+tech "Advanced_Sat_Optics" Add 0.12
+tech "Experimental_Sat_Optics" Add 0.15
+tech "Satellite_Defence_Lasers" Add 0.18
+tech "Nuke_ASAT" Add 0.06
+tech "ASAT" Add 0.12
+tech "Advanced_ASAT" Add 0.12
+tech "Launch_Warning_Satellite" Add 0.06
+tech "Improved_Launch_Warning_Satellite" Add 0.06
+tech "Advanced_Launch_Warning_Satellite" Add 0.09
+tech "Space_to_Space_Weapons" Add 0.12
+tech "Orbital_Attack_Satellite" Add 0.27
+tech "Direct_Energy_Satellite" Add 0.28
+
+tech "Survival_Boost_1" Add 0.045 //TechLevel 1, Added 50%
+tech "Survival_Boost_2" Add 0.06
+tech "Survival_Boost_3" Add 0.09
+tech "Survival_Boost_4" Add 0.12
+tech "Survival_Boost_5" Add 0.15
+tech "Survival_Boost_6" Add 0.18
+tech "EMP_Defence" Add 0.045 //TechLevel 1, Added 50%
+tech "EMP_Defence_Mk2" Add 0.09
+tech "EMP_Defence_Mk3" Add 0.15
+tech "EMP_Defence_Mk4" Add 0.21
+tech "Defence_Planning" Add 0.09 //TechLevel 1, Added 50%
+tech "Science_Booster_1" Add 0.09 //TechLevel 1, Added 50%
+tech "Science_Booster_2" Add 0.09
+tech "Science_Booster_3" Add 0.15
+tech "Science_Booster_4" Add 0.21
+tech "Production_Booster_1" Add 0.09 //TechLevel 1, Added 50%
+tech "Production_Booster_2" Add 0.09
+tech "Production_Booster_3" Add 0.15
+tech "Production_Booster_4" Add 0.21
+tech "Espionage_1" Add 0.06 //TechLevel 1, Added 50%
+tech "Espionage_2" Add 0.07
+tech "Espionage_3" Add 0.09
+tech "Espionage_4" Add 0.12
+tech "Espionage_5" Add 0.15
+tech "Nuclear_Terrorism" Add 0.06
+tech "Heavy_SVBIED" Add 0.06
+
+
+//tech "Nuclear_Fuel_1" Cap 0.2
+//tech "Nuclear_Fuel_2" Cap 0.4
+//tech "Nuclear_Fuel_3" Cap 0.6
+//tech "Nuclear_Fuel_4" Cap 0.8
+//tech "Nuclear_Fuel_5" Cap 1.0
+
+//tech "Production_Booster_1" Add 0.05
+//tech "Production_Booster_2" Add 0.05
+//tech "Production_Booster_3" Add 0.05
+//tech "Production_Booster_4" Add 0.05
+
+//tech "Nuclear_Fuel_1" GrowthMult 1.05
+//tech "Nuclear_Fuel_2" GrowthMult 1.10
+//tech "Nuclear_Fuel_3" GrowthMult 1.10
+//tech "Nuclear_Fuel_4" GrowthMult 1.10
+//tech "Nuclear_Fuel_5" GrowthMult 1.10
+
+AutoGrowth 0.003333333
+//Default AutoGrowth 0.003333333 // 0.000277778 // per game second = 1/3600, meaning 1 game hour to reach 100%
