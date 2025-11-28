@@ -1,0 +1,5 @@
+SOULCALIBUR VI
+Method: fuzzy
+Proposed: 544750
+Chosen: 544750
+Score: 100.0
