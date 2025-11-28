@@ -1,0 +1,5 @@
+Tekken 7
+Method: fuzzy
+Proposed: 389730
+Chosen: 389730
+Score: 100.0
