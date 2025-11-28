@@ -1,0 +1,5 @@
+GTA SA DE - Tested OK
+Method: fuzzy
+Proposed: 1547000
+Chosen: 1547000
+Score: 45.5
