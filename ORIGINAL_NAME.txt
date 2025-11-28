@@ -1,0 +1,5 @@
+Red Dead Redemption 2 - Tested OK
+Method: fuzzy
+Proposed: 1174180
+Chosen: 1174180
+Score: 100.0
