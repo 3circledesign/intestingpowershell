@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Derail Valley">
+  <Folder>Derail Valley</Folder>
+  <ModsDirectory>Mods</ModsDirectory>
+  <ModInfo>Info.json</ModInfo>
+  <GameExe>DerailValley.exe</GameExe>
+  <EntryPoint>[UnityEngine.CoreModule.dll]UnityEngine.Display.cctor:After</EntryPoint>
+  <StartingPoint>[Assembly-CSharp.dll]DV.Globals.AssignSelfToHelpers:After</StartingPoint>
+  <UIStartingPoint>[Assembly-CSharp.dll]DV.UI.MainMenu.Start:After</UIStartingPoint>
+  <SessionStartPoint>[Assembly-CSharp.dll]DV.UI.Inventory.InventoryProvider.Awake:After</SessionStartPoint>
+  <MinimalManagerVersion>0.27.0</MinimalManagerVersion>
+</Config>
