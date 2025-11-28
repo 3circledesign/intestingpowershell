@@ -1,0 +1,5 @@
+Ground Branch - Tested OK
+Method: fuzzy
+Proposed: 16900
+Chosen: 16900
+Score: 100.0
