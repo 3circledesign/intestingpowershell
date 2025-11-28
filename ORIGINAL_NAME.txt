@@ -1,0 +1,5 @@
+Wizard of Legend 2
+Method: fuzzy
+Proposed: 2193540
+Chosen: 2193540
+Score: 100.0
