@@ -1,0 +1,5 @@
+PES2021 Bypass Denuvo
+Method: fuzzy
+Proposed: 1259970
+Chosen: 1259970
+Score: 28.95
