@@ -1,0 +1,5 @@
+Demonologist- Tested OK
+Method: fuzzy
+Proposed: 1929610
+Chosen: 1929610
+Score: 36.67
