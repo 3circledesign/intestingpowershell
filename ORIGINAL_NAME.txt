@@ -1,0 +1,5 @@
+FANTASY LIFE i The Girl Who Steals Time Online
+Method: fuzzy
+Proposed: 2993780
+Chosen: 2993780
+Score: 100.0
