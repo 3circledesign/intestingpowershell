@@ -1,0 +1,5 @@
+F1 2017
+Method: hint
+Proposed: 515220
+Chosen: 515220
+Score: 100.0
