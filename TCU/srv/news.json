@@ -1,0 +1,23 @@
+{
+	"news": [{
+		"body": "",
+		"contentType":  "plaintext",
+		"displayTime":  4,
+		"expirationDate":       null,
+		"links":        [],
+		"locale":       "en-US",
+		"mediaType":    "None",
+		"mediaURL":     "https://thecrewunlimited.com",
+		"newsId":       "news1",
+		"obj":  {},
+		"placement":    "Live",
+		"priority":     0,
+		"profileId":    "",
+		"publicationDate":      "2024-12-30T00:01:00",
+		"spaceId":      "",
+		"summary":      "",
+		"tags": [],
+		"title":        "Welcome to TCU! Our discord: https://discord.gg/tcu",
+		"type": "AdvertWithText"
+	}]
+}

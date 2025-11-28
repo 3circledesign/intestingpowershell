@@ -1,0 +1,16 @@
+<cheats>
+	<cheat name="SetBucks" type="int" default="-1">Sets your current Bucks. Restart, or complete any mission/skill/event to refresh your bucks.</cheat>
+	<cheat name="SetXP" type="int" default="-1">Sets your current Experience. Restart, or complete any mission/skill/event to refresh your XP.</cheat>
+	<cheat name="SetLevel" type="int" default="-1">Sets your current Player Level. Restart, or complete any mission/skill/event to refresh your Player Level.</cheat>
+	<cheat name="SetCC" type="int" default="-1">Sets your current Crew Credits. Restart, or complete any Mission to refresh your Crew Credits.</cheat>
+	<cheat name="AddCar" type="string" default="">[Restart Required] Add a car or multiple cars to your save. Enter the Entity ID (Big Endian Hex string) of the Car Model, or a specific Vehicle Config. For example: "0x079392d1, 0x07926525" will grant you a Ferrari F40, and a Mini Countryman.</cheat>
+	<cheat name="RemoveCar" type="string" default="">[Restart Required] Removes a car or multiple cars and all their specs from your save. Enter the Entity ID (Big Endian Hex string) of the Car Model. For example: "0x079392d1, 0x07926525" will remove your Ferrari F40, and Mini Countryman, if you have either. Be careful!</cheat>
+	<cheat name="RewardBucksMultiplier" type="float" default="1.0">Multiplier for Bucks rewards.</cheat>
+	<cheat name="RewardXPMultiplier" type="float" default="1.0">Multiplier for XP rewards.</cheat>
+	<cheat name="RewardRepMultiplier" type="float" default="1.0">Multiplier for Faction Reputation rewards.</cheat>
+	<cheat name="CCPerMission" type="int" default="0">Missions: How much CC to give per mission complete.</cheat>
+	<cheat name="UnlockFogOfWar" type="bool" default="0">[Restart Required] Unfogs the entire map, allowing you to fast travel anywhere.</cheat>
+	<cheat name="UnlockLockedGameContent" type="bool" default="0">[Restart Required] Unlocks locked Game Content: Locked Vehicles, Faction Missions, PVP missions, items, etc. Also allows you to buy DLC/Crew Credit-only cars with bucks!</cheat>
+	<cheat name="CAU_AlwaysFragment" type="bool" default="0">CAU Crates: 100% of winning a fragment instead of bucks.</cheat>
+	<cheat name="CAU_AlwaysFragmentReward" type="bool" default="0">CAU Crates: Always win a fragment car for each CAU Crate run.</cheat>
+</cheats>

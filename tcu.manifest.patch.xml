@@ -1,0 +1,6 @@
+<tcupatch>
+  <info installedDate="10/12/2025 10:40:36 PM" gameVersion="1.2.0.0" patchVersion="1.2.1.1" />
+  <file>tcu.manifest.cheats.xml</file>
+  <file>dinput8.dll</file>
+  <file>tcu.manifest.patch.xml</file>
+</tcupatch>
