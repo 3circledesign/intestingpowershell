@@ -1,0 +1,5 @@
+Dark Souls REMASTERED Seamless CO-OP
+Method: fuzzy
+Proposed: 570940
+Chosen: 570940
+Score: 52.77
