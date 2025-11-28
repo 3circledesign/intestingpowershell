@@ -1,0 +1,5 @@
+Lost Skies
+Method: fuzzy
+Proposed: 1931180
+Chosen: 1931180
+Score: 65.28
