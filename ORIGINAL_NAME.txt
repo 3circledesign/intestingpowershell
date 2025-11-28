@@ -1,0 +1,5 @@
+Neighbors Suburban Warfare
+Method: fuzzy
+Proposed: 1732430
+Chosen: 1732430
+Score: 50.2
