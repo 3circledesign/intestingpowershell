@@ -1,0 +1,5 @@
+Sonic & All-Stars Racing Transformed Collection - Tested OK
+Method: fuzzy
+Proposed: 212480
+Chosen: 212480
+Score: 100.0
