@@ -1,0 +1,130 @@
+<!--
+    This files defines the configuration data for DLC_Maps.
+-->
+
+<maps>
+  <!-- *********** -->
+  <!-- *** T05 *** -->
+  <!-- *********** -->
+  <map name="T05_Docks" bbid="0" description="T05_Docks" thumbnail="" file="_COOP\_DLC\T05_Docks.unr" linfile="T05_Docks" SIR="1" locked="0" dlcmpid="8">
+
+    <!-- Game mode list -->
+    <mode name="Hunter" enabled="1"/>
+    <mode name="FaceOff" enabled="1"/>
+    <mode name="PureStealth" enabled="1"/>
+
+    <!-- Black box list -->
+    <blackbox name="T05_01" bbid="1" description="T05_01Docks" thumbnail="" file="_COOP\_DLC\T05_Docks.unr" linfile="T05_Docks" locked="0" dlcmpid="8">
+    </blackbox>
+
+    <blackbox name="T05_02" bbid="2" description="T05_02Docks" thumbnail="" file="_COOP\_DLC\T05_Docks.unr" linfile="T05_Docks" locked="0" dlcmpid="8">
+    </blackbox>
+  </map>
+
+  <!-- T05 LAST STAND -->
+  <map name="DOCKS 1" bbid="0" description="T05_Docks" thumbnail="" file="_COOP\_DLC\T05_Docks.unr" linfile="T05_Docks" SIR="1" locked="0" dlcmpid="8">
+    <!-- Game mode list -->
+    <mode name="LastStand" enabled="1"/>
+
+    <!-- Black box list -->
+    <blackbox name="DOCKS 2" bbid="1" description="T05_Docks" thumbnail="" file="_COOP\_DLC\T05_Docks.unr" linfile="T05_Docks" SIR="1" locked="0" dlcmpid="8">
+    </blackbox>
+
+    <blackbox name="DOCKS 3" bbid="2" description="T05_Docks" thumbnail="" file="_COOP\_DLC\T05_Docks.unr" linfile="T05_Docks" SIR="1" locked="0" dlcmpid="8">
+    </blackbox>
+  </map>
+
+  <!-- *********** -->
+  <!-- *** T06 *** -->
+  <!-- *********** -->
+  <map name="T06_Cemetery" bbid="0" description="T06_Cemetery" thumbnail="" file="_COOP\_DLC\T06_Cemetery.unr" linfile="T06_Cemetery" SIR="1" locked="0" dlcmpid="9">
+    <!-- Game mode list -->
+    <mode name="Hunter" enabled="1"/>
+    <mode name="FaceOff" enabled="1"/>
+    <mode name="PureStealth" enabled="1"/>
+
+    <!-- Black box list -->
+    <blackbox name="T06_01" bbid="1" description="T06_01Cemetery" thumbnail="" file="_COOP\_DLC\T06_Cemetery.unr" linfile="T06_Cemetery" locked="0" dlcmpid="9">
+    </blackbox>
+
+    <blackbox name="T06_02" bbid="2" description="T06_02Cemetery" thumbnail="" file="_COOP\_DLC\T06_Cemetery.unr" linfile="T06_Cemetery" locked="0" dlcmpid="9">
+    </blackbox>
+  </map>
+  
+  <!-- T06 LAST STAND -->
+  <map name="CEMETERY 1" bbid="0" description="T06_Cemetery" thumbnail="" file="_COOP\_DLC\T06_Cemetery.unr" linfile="T06_Cemetery" SIR="1" locked="0" dlcmpid="9">
+    <!-- Game mode list -->
+    <mode name="LastStand" enabled="1"/>
+
+    <!-- Black box list -->
+    <blackbox name="CEMETERY 2" bbid="1" description="T06_Cemetery" thumbnail="" file="_COOP\_DLC\T06_Cemetery.unr" linfile="T06_Cemetery" SIR="1" locked="0" dlcmpid="9">
+    </blackbox>
+
+    <blackbox name="CEMETERY 3" bbid="2" description="T06_Cemetery" thumbnail="" file="_COOP\_DLC\T06_Cemetery.unr" linfile="T06_Cemetery" SIR="1" locked="0" dlcmpid="9">
+    </blackbox>
+  </map>
+  
+  <!-- *********** -->
+  <!-- *** T07 *** -->
+  <!-- *********** -->
+  <map name="T07_Jail" bbid="0" description="T07_Jail" thumbnail="" file="_COOP\_DLC\T07_Jail.unr" linfile="T07_Jail" SIR="1" locked="0" dlcmpid="10">
+    <!-- Game mode list -->
+    <mode name="Hunter" enabled="1"/>
+    <mode name="FaceOff" enabled="1"/>
+    <mode name="PureStealth" enabled="1"/>
+
+    <!-- Black box list -->
+    <blackbox name="T07_01" bbid="1" description="T07_01Jail" thumbnail="" file="_COOP\_DLC\T07_Jail.unr" linfile="T07_Jail" locked="0" dlcmpid="10">
+    </blackbox>
+
+    <blackbox name="T07_02" bbid="2" description="T07_02Jail" thumbnail="" file="_COOP\_DLC\T07_Jail.unr" linfile="T07_Jail" locked="0" dlcmpid="10">
+    </blackbox>
+  </map>
+
+  <!-- T07 LAST STAND -->
+  <map name="JAIL 1" bbid="0" description="T07_Jail" thumbnail="" file="_COOP\_DLC\T07_Jail.unr" linfile="T07_Jail" SIR="1" locked="0" dlcmpid="10">
+    <!-- Game mode list -->
+    <mode name="LastStand" enabled="1"/>
+
+    <!-- Black box list -->
+    <blackbox name="JAIL 2" bbid="1" description="T07_Jail" thumbnail="" file="_COOP\_DLC\T07_Jail.unr" linfile="T07_Jail" SIR="1" locked="0" dlcmpid="10">
+    </blackbox>
+
+    <blackbox name="JAIL 3" bbid="2" description="T07_Jail" thumbnail="" file="_COOP\_DLC\T07_Jail.unr" linfile="T07_Jail" SIR="1" locked="0" dlcmpid="10">
+    </blackbox>
+  </map>
+
+  <!-- *********** -->
+  <!-- *** T08 *** -->
+  <!-- *********** -->
+  <map name="T08_SecretLabs" bbid="0" description="T08_SecretLabs" thumbnail="" file="_COOP\_DLC\T08_SecretLabs.unr" linfile="T08_SecretLabs" SIR="1" locked="0" dlcmpid="11">
+    <!-- Game mode list -->
+    <mode name="Hunter" enabled="1"/>
+    <mode name="FaceOff" enabled="1"/>
+    <mode name="PureStealth" enabled="1"/>
+
+    <!-- Black box list -->
+    <blackbox name="T08_01" bbid="1" description="T08_01SecretLabs" thumbnail="" file="_COOP\_DLC\T08_SecretLabs.unr" linfile="T08_SecretLabs" locked="0" dlcmpid="11">
+    </blackbox>
+
+    <blackbox name="T08_02" bbid="2" description="T08_02SecretLabs" thumbnail="" file="_COOP\_DLC\T08_SecretLabs.unr" linfile="T08_SecretLabs" locked="0" dlcmpid="11">
+    <mode name="FaceOff" enabled="0"/>
+    </blackbox>
+
+    <blackbox name="T08_03" bbid="3" description="T08_03SecretLabs" thumbnail="" file="_COOP\_DLC\T08_SecretLabs.unr" linfile="T08_SecretLabs" locked="0" dlcmpid="11">
+    </blackbox>
+  </map>
+  
+  <!-- T08 LAST STAND -->
+  <map name="SECRET LABS 1" bbid="0" description="T08_SecretLabs" thumbnail="" file="_COOP\_DLC\T08_SecretLabs.unr" linfile="T08_SecretLabs" SIR="1" locked="0" dlcmpid="11">
+    <!-- Game mode list -->
+    <mode name="LastStand" enabled="1"/>
+
+    <!-- Black box list -->
+    <blackbox name="SECRET LABS 2" bbid="1" description="T08_SecretLabs" thumbnail="" file="_COOP\_DLC\T08_SecretLabs.unr" linfile="T08_SecretLabs" SIR="1" locked="0" dlcmpid="11">
+    </blackbox>
+
+    <blackbox name="SECRET LABS 3" bbid="3" description="T08_SecretLabs" thumbnail="" file="_COOP\_DLC\T08_SecretLabs.unr" linfile="T08_SecretLabs" SIR="1" locked="0" dlcmpid="11">
+    </blackbox>
+  </map>
+</maps>
