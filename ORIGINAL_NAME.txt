@@ -1,0 +1,5 @@
+MAD MAX Bypass - Tested OK
+Method: fuzzy
+Proposed: 234140
+Chosen: 234140
+Score: 72.67
