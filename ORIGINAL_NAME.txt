@@ -1,0 +1,5 @@
+Liar's Bar - Tested OK
+Method: fuzzy
+Proposed: 3097560
+Chosen: 3097560
+Score: 100.0
