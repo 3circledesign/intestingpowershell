@@ -1,0 +1,5 @@
+Galaxy Burger - Tested OK
+Method: fuzzy
+Proposed: 2749770
+Chosen: 2749770
+Score: 100.0
