@@ -1,0 +1,5 @@
+PowerWash Simulator - Tested OK
+Method: fuzzy
+Proposed: 1290000
+Chosen: 1290000
+Score: 100.0
