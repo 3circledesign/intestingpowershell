@@ -1,0 +1,5 @@
+Grounded - Tested OK
+Method: fuzzy
+Proposed: 962130
+Chosen: 962130
+Score: 100.0
