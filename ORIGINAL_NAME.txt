@@ -1,0 +1,5 @@
+Everdell
+Method: fuzzy
+Proposed: 1722840
+Chosen: 1722840
+Score: 55.09
