@@ -1,0 +1,5 @@
+The Dark Pictures Anthology House of Ashes
+Method: fuzzy
+Proposed: 1281590
+Chosen: 1281590
+Score: 100.0
