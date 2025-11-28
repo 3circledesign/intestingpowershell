@@ -1,0 +1,5 @@
+Medieval Dynasty - Tested OK
+Method: fuzzy
+Proposed: 1129580
+Chosen: 1129580
+Score: 100.0
