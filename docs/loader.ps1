@@ -36,7 +36,7 @@ function Normalize-Dir([string]$p) {
   $p = $p.Trim().Trim('"')
 
   # handle "f" or "f:" -> "f:\"
-  if ($p -match '^[A-Za-z]$') { $p = "$p:\" }
+  if ($p -match '^[A-Za-z]$') { $p = "${p}:\\" }
   elseif ($p -match '^[A-Za-z]:$') { $p = "$p\" }
 
   try { return [IO.Path]::GetFullPath($p) } catch { return $p }
