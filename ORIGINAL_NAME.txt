@@ -1,0 +1,5 @@
+EARTH DEFENSE FORCE IRON RAIN - Tested OK
+Method: fuzzy
+Proposed: 1039890
+Chosen: 1039890
+Score: 100.0
