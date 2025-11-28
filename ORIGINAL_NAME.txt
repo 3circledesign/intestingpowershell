@@ -1,0 +1,5 @@
+Folklore Hunter
+Method: fuzzy
+Proposed: 696220
+Chosen: 696220
+Score: 100.0
