@@ -1,0 +1,5 @@
+We Were Here Together
+Method: fuzzy
+Proposed: 865360
+Chosen: 865360
+Score: 100.0
