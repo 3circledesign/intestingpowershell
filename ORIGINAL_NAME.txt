@@ -1,0 +1,5 @@
+Dinkum - Tested OK
+Method: fuzzy
+Proposed: 1062520
+Chosen: 1062520
+Score: 100.0
