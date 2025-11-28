@@ -1,0 +1,5 @@
+Heroes of Hammerwatch 2 - Tested OK
+Method: fuzzy
+Proposed: 677120
+Chosen: 677120
+Score: 91.07
