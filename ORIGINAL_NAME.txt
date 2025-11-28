@@ -1,0 +1,5 @@
+KitHack Model Club
+Method: fuzzy
+Proposed: 2107090
+Chosen: 2107090
+Score: 100.0
