@@ -1,0 +1,5 @@
+Trine 2 Complete Story
+Method: fuzzy
+Proposed: 35720
+Chosen: 35720
+Score: 74.5
