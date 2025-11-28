@@ -1,0 +1,5 @@
+iDigging
+Method: fuzzy
+Proposed: 3447690
+Chosen: 3447690
+Score: 36.67
