@@ -1,0 +1,5 @@
+Red Dead Redemption 1 Bypass - Tested OK
+Method: fuzzy
+Proposed: 2668510
+Chosen: 2668510
+Score: 78.22
