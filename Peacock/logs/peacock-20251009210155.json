@@ -1,0 +1,11 @@
+{"timestamp":"21:01:56:475","category":"none","level":"Debug","message":"Loaded all default flags."}
+{"timestamp":"21:01:56:553","category":"none","level":"Info","message":"This is a modified version of Peacock that is intended to unlock all content in the game for free, made by @thecatinyourceiling."}
+{"timestamp":"21:01:56:555","category":"none","level":"Info","message":"PEACOCK IS NOT A PIRACY TOOL."}
+{"timestamp":"21:01:56:555","category":"none","level":"Info","message":"(Peacock v8.3.0, Node v22.18.0)"}
+{"timestamp":"21:01:56:556","category":"none","level":"Debug","message":"This person is using a cracked version of Peacock, twist their balls"}
+{"timestamp":"21:01:56:567","category":"boot","level":"Info","message":"Booting Peacock internal services - this may take a moment."}
+{"timestamp":"21:01:57:025","category":"scanGroups","level":"Debug","message":"Discovered 169 escalation groups."}
+{"timestamp":"21:01:57:034","category":"contracts","level":"Info","message":"Loading user contracts..."}
+{"timestamp":"21:01:57:043","category":"contracts","level":"Info","message":"Completed loading contracts."}
+{"timestamp":"21:01:57:219","category":"none","level":"Info","message":"Listening on localhost:65386..."}
+{"timestamp":"21:01:57:220","category":"none","level":"Info","message":"Server started."}

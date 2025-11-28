@@ -1,0 +1,337 @@
+{
+    "default_bindings": [
+        {
+            "controller_type": "knuckles",
+            "binding_url": "steamvr_actions_knuckles.json"
+        },
+        {
+            "controller_type": "knuckles_ev1",
+            "binding_url": "steamvr_actions_knuckles_ev1.json"
+        },
+        {
+            "controller_type": "oculus_touch",
+            "binding_url": "steamvr_actions_oculus_touch.json"
+        },
+        {
+            "controller_type": "vive_controller",
+            "binding_url": "steamvr_actions_vive_controller.json"
+        },
+        {
+            "controller_type": "vive_cosmos_controller",
+            "binding_url": "steamvr_actions_vive_cosmos.json"
+        }
+    ],
+    "actions": [
+        {
+            "name": "/actions/main/in/LeftStick",
+            "requirement": "mandatory",
+            "type": "vector2"
+        },
+        {
+            "name": "/actions/main/in/RightStick",
+            "requirement": "mandatory",
+            "type": "vector2"
+        },
+        {
+            "name": "/actions/main/in/LeftTrigger",
+            "requirement": "mandatory",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/main/in/RightTrigger",
+            "requirement": "mandatory",
+            "type": "vector1"
+        },
+        {
+            "name": "/actions/main/in/LeftClick",
+            "requirement": "mandatory",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/RightClick",
+            "requirement": "mandatory",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/LeftGrip",
+            "requirement": "mandatory",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/RightGrip",
+            "requirement": "mandatory",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/ButtonA",
+            "requirement": "mandatory",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/ButtonB",
+            "requirement": "mandatory",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/ButtonX",
+            "requirement": "mandatory",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/ButtonY",
+            "requirement": "mandatory",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/in/ButtonStart",
+            "requirement": "mandatory",
+            "type": "boolean"
+        },
+        {
+            "name": "/actions/main/out/HapticsLeft",
+            "requirement": "mandatory",
+            "type": "vibration"
+        },
+        {
+            "name": "/actions/main/out/HapticsRight",
+            "requirement": "mandatory",
+            "type": "vibration"
+        }
+    ],
+    "localization" : [
+        {
+            "language_tag": "en_us",
+            "/actions/main/in/LeftStick":     "Walk",
+            "/actions/main/in/RightStick":    "Turn",
+            "/actions/main/in/LeftTrigger":   "Aim Items",
+            "/actions/main/in/RightTrigger":  "Shoot / Aim Assist",
+            "/actions/main/in/LeftClick":     "Re-center",
+            "/actions/main/in/RightClick":    "Crouch",
+            "/actions/main/in/LeftGrip":      "Run",
+            "/actions/main/in/RightGrip":     "Grab / Drop",
+            "/actions/main/in/ButtonA":       "Agility Actions / Take Disguise",
+            "/actions/main/in/ButtonB":       "Interact / Reload",
+            "/actions/main/in/ButtonX":       "Instinct",
+            "/actions/main/in/ButtonY":       "Inventory",
+            "/actions/main/in/ButtonStart":   "Menu / Notebook",
+            "/actions/main/out/HapticsLeft":  "Vibration (Left Hand)",
+            "/actions/main/out/HapticsRight": "Vibration (Right Hand)",
+            "/actions/main": "In-game actions"
+        },
+        {
+            "language_tag": "fr",
+            "/actions/main/in/LeftStick":     "Marcher",
+            "/actions/main/in/RightStick":    "Tourner",
+            "/actions/main/in/LeftTrigger":   "Viser avec des objets",
+            "/actions/main/in/RightTrigger":  "Tirer / Aide à la visée",
+            "/actions/main/in/LeftClick":     "Recentrer",
+            "/actions/main/in/RightClick":    "S'accroupir",
+            "/actions/main/in/LeftGrip":      "Courir",
+            "/actions/main/in/RightGrip":     "Attraper / Lâcher",
+            "/actions/main/in/ButtonA":       "Actions d'agilité / Se déguiser",
+            "/actions/main/in/ButtonB":       "Interagir / Recharger",
+            "/actions/main/in/ButtonX":       "Instinct",
+            "/actions/main/in/ButtonY":       "Inventaire",
+            "/actions/main/in/ButtonStart":   "Menu / Carnet",
+            "/actions/main/out/HapticsLeft":  "Vibration (main gauche)",
+            "/actions/main/out/HapticsRight": "Vibration (main droite)",
+            "/actions/main": "Actions dans le jeu"
+        },
+        {
+            "language_tag": "es",
+            "/actions/main/in/LeftStick":     "Caminar",
+            "/actions/main/in/RightStick":    "Girar",
+            "/actions/main/in/LeftTrigger":   "Apuntar con objetos",
+            "/actions/main/in/RightTrigger":  "Disparar / Puntería asistida",
+            "/actions/main/in/LeftClick":     "Volver al centro",
+            "/actions/main/in/RightClick":    "Agacharse",
+            "/actions/main/in/LeftGrip":      "Correr",
+            "/actions/main/in/RightGrip":     "Agarrar / Soltar",
+            "/actions/main/in/ButtonA":       "Acciones de agilidad / Recoger disfraz",
+            "/actions/main/in/ButtonB":       "Interactuar / Recargar",
+            "/actions/main/in/ButtonX":       "Instinto",
+            "/actions/main/in/ButtonY":       "Inventario",
+            "/actions/main/in/ButtonStart":   "Menú / Cuaderno",
+            "/actions/main/out/HapticsLeft":  "Vibración (mano izquierda)",
+            "/actions/main/out/HapticsRight": "Vibración (mano derecha)",
+            "/actions/main": "Acciones en el juego"
+        },
+        {
+            "language_tag": "it",
+            "/actions/main/in/LeftStick":     "Cammina",
+            "/actions/main/in/RightStick":    "Gira",
+            "/actions/main/in/LeftTrigger":   "Mira con gli oggetti",
+            "/actions/main/in/RightTrigger":  "Spara / Mira assistita",
+            "/actions/main/in/LeftClick":     "Ricentra",
+            "/actions/main/in/RightClick":    "Abbassati",
+            "/actions/main/in/LeftGrip":      "Corri",
+            "/actions/main/in/RightGrip":     "Afferra / Lascia",
+            "/actions/main/in/ButtonA":       "Azioni d'agilità / Indossa travestimento",
+            "/actions/main/in/ButtonB":       "Interagisci / Ricarica",
+            "/actions/main/in/ButtonX":       "Istinto",
+            "/actions/main/in/ButtonY":       "Inventario",
+            "/actions/main/in/ButtonStart":   "Menu / Taccuino",
+            "/actions/main/out/HapticsLeft":  "Vibrazione (mano sinistra)",
+            "/actions/main/out/HapticsRight": "Vibrazione (mano destra)",
+            "/actions/main": "Azioni di gioco"
+        },
+        {
+            "language_tag": "de",
+            "/actions/main/in/LeftStick":     "Gehen",
+            "/actions/main/in/RightStick":    "Drehen",
+            "/actions/main/in/LeftTrigger":   "Mit Gegenständen zielen",
+            "/actions/main/in/RightTrigger":  "Schießen / Zielunterstützung",
+            "/actions/main/in/LeftClick":     "Neu zentrieren",
+            "/actions/main/in/RightClick":    "Ducken",
+            "/actions/main/in/LeftGrip":      "Laufen",
+            "/actions/main/in/RightGrip":     "Packen / Fallen lassen",
+            "/actions/main/in/ButtonA":       "Geschicklichkeitsaktionen / Verkleidung nehmen",
+            "/actions/main/in/ButtonB":       "Interagieren / Nachladen",
+            "/actions/main/in/ButtonX":       "Instinkt",
+            "/actions/main/in/ButtonY":       "Inventar",
+            "/actions/main/in/ButtonStart":   "Menü / Log",
+            "/actions/main/out/HapticsLeft":  "Vibration (linke Hand)",
+            "/actions/main/out/HapticsRight": "Vibration (rechte Hand)",
+            "/actions/main": "Aktionen im Spiel"
+        },
+        {
+            "language_tag": "ru",
+            "/actions/main/in/LeftStick":     "Идти",
+            "/actions/main/in/RightStick":    "Вращаться",
+            "/actions/main/in/LeftTrigger":   "Прицеливание",
+            "/actions/main/in/RightTrigger":  "Выстрелить / Помощь в прицеливании",
+            "/actions/main/in/LeftClick":     "Повторно центрировать",
+            "/actions/main/in/RightClick":    "Присесть",
+            "/actions/main/in/LeftGrip":      "Бежать",
+            "/actions/main/in/RightGrip":     "Схватить / Бросить",
+            "/actions/main/in/ButtonA":       "Ловкие действия / Маскировка",
+            "/actions/main/in/ButtonB":       "Взаимодействовать / Перезарядить",
+            "/actions/main/in/ButtonX":       "Инстинкт",
+            "/actions/main/in/ButtonY":       "Снаряжение",
+            "/actions/main/in/ButtonStart":   "Меню / Журнал",
+            "/actions/main/out/HapticsLeft":  "Вибрация (левая рука)",
+            "/actions/main/out/HapticsRight": "Вибрация (правая рука)",
+            "/actions/main": "Действия в игре"
+        },
+        {
+            "language_tag": "es_419",
+            "/actions/main/in/LeftStick":     "Caminar",
+            "/actions/main/in/RightStick":    "Girar",
+            "/actions/main/in/LeftTrigger":   "Apuntar con objetos",
+            "/actions/main/in/RightTrigger":  "Disparar / Puntería asistida",
+            "/actions/main/in/LeftClick":     "Volver al centro",
+            "/actions/main/in/RightClick":    "Agacharse",
+            "/actions/main/in/LeftGrip":      "Correr",
+            "/actions/main/in/RightGrip":     "Agarrar / Soltar",
+            "/actions/main/in/ButtonA":       "Acciones de agilidad / Recoger disfraz",
+            "/actions/main/in/ButtonB":       "Interactuar / Recargar",
+            "/actions/main/in/ButtonX":       "Instinto",
+            "/actions/main/in/ButtonY":       "Inventario",
+            "/actions/main/in/ButtonStart":   "Menú / Registro",
+            "/actions/main/out/HapticsLeft":  "Vibración (mano izquierda)",
+            "/actions/main/out/HapticsRight": "Vibración (mano derecha)",
+            "/actions/main": "Acciones en el juego"
+        },
+        {
+            "language_tag": "pt_br",
+            "/actions/main/in/LeftStick":     "Caminhar",
+            "/actions/main/in/RightStick":    "Girar",
+            "/actions/main/in/LeftTrigger":   "Mirar com objetos",
+            "/actions/main/in/RightTrigger":  "Atirar / Mira auxiliada",
+            "/actions/main/in/LeftClick":     "Realinhar ao centro",
+            "/actions/main/in/RightClick":    "Agachar",
+            "/actions/main/in/LeftGrip":      "Correr",
+            "/actions/main/in/RightGrip":     "Agarrar / Soltar",
+            "/actions/main/in/ButtonA":       "Ações de agilidade / Pegar disfarce",
+            "/actions/main/in/ButtonB":       "Interagir / Recarregar arma",
+            "/actions/main/in/ButtonX":       "Instinto",
+            "/actions/main/in/ButtonY":       "Inventário",
+            "/actions/main/in/ButtonStart":   "Menu / Notebook",
+            "/actions/main/out/HapticsLeft":  "Vibração (mão esquerda)",
+            "/actions/main/out/HapticsRight": "Vibração (mão direita)",
+            "/actions/main": "Ações no jogo"
+        },
+        {
+            "language_tag": "pl",
+            "/actions/main/in/LeftStick":     "Iść",
+            "/actions/main/in/RightStick":    "Obracać",
+            "/actions/main/in/LeftTrigger":   "Ponownie wycentrować",
+            "/actions/main/in/RightTrigger":  "Strzelaj / Asysta przy celowaniu",
+            "/actions/main/in/LeftClick":     "Celowanie przedmiotów",
+            "/actions/main/in/RightClick":    "Kucanie",
+            "/actions/main/in/LeftGrip":      "Biegnij",
+            "/actions/main/in/RightGrip":     "Chwycić / Upuszczać",
+            "/actions/main/in/ButtonA":       "Akcje zręcznościowe / Weź przebranie",
+            "/actions/main/in/ButtonB":       "Interakcja / Przeładuj",
+            "/actions/main/in/ButtonX":       "Instynkt",
+            "/actions/main/in/ButtonY":       "Ekwipunek",
+            "/actions/main/in/ButtonStart":   "Menu / Notatnik",
+            "/actions/main/out/HapticsLeft":  "Wibracje (lewa ręka)",
+            "/actions/main/out/HapticsRight": "Wibracje (prawa ręka)",
+            "/actions/main": "Działania w grze"
+        },
+        {
+            "language_tag": "ja",
+            "/actions/main/in/LeftStick":     "歩む",
+            "/actions/main/in/RightStick":    "回す",
+            "/actions/main/in/LeftTrigger":   "アイテムを狙う",
+            "/actions/main/in/RightTrigger":  "発射 / 照準アシスト",
+            "/actions/main/in/LeftClick":     "再センタリング",
+            "/actions/main/in/RightClick":    "しゃがむ",
+            "/actions/main/in/LeftGrip":      "走る",
+            "/actions/main/in/RightGrip":     "つかむ / 降ろす",
+            "/actions/main/in/ButtonA":       "アクション / 変装する",
+            "/actions/main/in/ButtonB":       "使う / リロード",
+            "/actions/main/in/ButtonX":       "インスティンクト",
+            "/actions/main/in/ButtonY":       "インベントリ",
+            "/actions/main/in/ButtonStart":   "メニュー / ノート",
+            "/actions/main/out/HapticsLeft":  "バイブレーション（振動）機能 (左手)",
+            "/actions/main/out/HapticsRight": "バイブレーション（振動）機能 (右手)",
+            "/actions/main": "ゲーム内アクション"
+        },
+        {
+            "language_tag": "zh_cn",
+            "/actions/main/in/LeftStick":     "跞",
+            "/actions/main/in/RightStick":    "转动",
+            "/actions/main/in/LeftTrigger":   "瞄准物品",
+            "/actions/main/in/RightTrigger":  "射击 / 瞄准辅助",
+            "/actions/main/in/LeftClick":     "重新居中",
+            "/actions/main/in/RightClick":    "蹲伏",
+            "/actions/main/in/LeftGrip":      "奔跑",
+            "/actions/main/in/RightGrip":     "抓取 / 丢弃",
+            "/actions/main/in/ButtonA":       "灵敏行动 / 伪装",
+            "/actions/main/in/ButtonB":       "互动 / 上弹",
+            "/actions/main/in/ButtonX":       "直觉",
+            "/actions/main/in/ButtonY":       "物品栏",
+            "/actions/main/in/ButtonStart":   "菜单 / 笔记本",
+            "/actions/main/out/HapticsLeft":  "震动 (左手)",
+            "/actions/main/out/HapticsRight": "震动 (右手)",
+            "/actions/main": "游戏内动作"
+        },
+        {
+            "language_tag": "zh_tw",
+            "/actions/main/in/LeftStick":     "躒",
+            "/actions/main/in/RightStick":    "轉動",
+            "/actions/main/in/LeftTrigger":   "瞄準道具",
+            "/actions/main/in/RightTrigger":  "射擊 / 瞄準協助",
+            "/actions/main/in/LeftClick":     "重新居中",
+            "/actions/main/in/RightClick":    "蹲下",
+            "/actions/main/in/LeftGrip":      "奔跑",
+            "/actions/main/in/RightGrip":     "抓取 / 丟棄",
+            "/actions/main/in/ButtonA":       "靈敏動作 / 取得偽裝",
+            "/actions/main/in/ButtonB":       "互動 / 填裝彈藥",
+            "/actions/main/in/ButtonX":       "直覺",
+            "/actions/main/in/ButtonY":       "道具欄",
+            "/actions/main/in/ButtonStart":   "選單 / 筆記本",
+            "/actions/main/out/HapticsLeft":  "震動 (左手)",
+            "/actions/main/out/HapticsRight": "震動 (右手)",
+            "/actions/main": "遊戲內動作"
+        }
+    ],
+    "action_sets": [
+        {
+            "name": "/actions/main",
+            "usage": "leftright"
+        }
+    ]
+}

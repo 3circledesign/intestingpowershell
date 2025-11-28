@@ -1,0 +1,149 @@
+{
+  "action_manifest_version" : 0,
+  "alias_info" : {},
+  "bindings" : {
+     "/actions/main" : {
+        "haptics" : [
+           {
+              "output" : "/actions/main/out/hapticsleft",
+              "path" : "/user/hand/left/output/haptic"
+           },
+           {
+              "output" : "/actions/main/out/hapticsright",
+              "path" : "/user/hand/right/output/haptic"
+           }
+        ],
+        "sources" : [
+           {
+              "inputs" : {
+                 "position" : {
+                    "output" : "/actions/main/in/LeftStick"
+                 }
+              },
+              "mode" : "joystick",
+              "path" : "/user/hand/left/input/thumbstick"
+           },
+           {
+              "inputs" : {
+                 "position" : {
+                    "output" : "/actions/main/in/RightStick"
+                 }
+              },
+              "mode" : "joystick",
+              "path" : "/user/hand/right/input/thumbstick"
+           },
+           {
+              "inputs" : {
+                 "click" : {
+                    "output" : "/actions/main/in/leftclick"
+                 },
+                 "position" : {
+                    "output" : "/actions/main/in/leftstick"
+                 }
+              },
+              "mode" : "joystick",
+              "path" : "/user/hand/left/input/joystick"
+           },
+           {
+              "inputs" : {
+                 "click" : {
+                    "output" : "/actions/main/in/buttonstart"
+                 }
+              },
+              "mode" : "button",
+              "path" : "/user/hand/left/input/bumper"
+           },
+           {
+              "inputs" : {
+                 "click" : {
+                    "output" : "/actions/main/in/buttona"
+                 }
+              },
+              "mode" : "button",
+              "path" : "/user/hand/right/input/a"
+           },
+           {
+              "inputs" : {
+                 "click" : {
+                    "output" : "/actions/main/in/buttonb"
+                 }
+              },
+              "mode" : "button",
+              "path" : "/user/hand/right/input/b"
+           },
+           {
+              "inputs" : {
+                 "click" : {
+                    "output" : "/actions/main/in/buttonx"
+                 }
+              },
+              "mode" : "button",
+              "path" : "/user/hand/left/input/x"
+           },
+           {
+              "inputs" : {
+                 "click" : {
+                    "output" : "/actions/main/in/buttony"
+                 }
+              },
+              "mode" : "button",
+              "path" : "/user/hand/left/input/y"
+           },
+           {
+              "inputs" : {
+                 "click" : {
+                    "output" : "/actions/main/in/rightclick"
+                 },
+                 "position" : {
+                    "output" : "/actions/main/in/rightstick"
+                 }
+              },
+              "mode" : "joystick",
+              "path" : "/user/hand/right/input/joystick"
+           },
+           {
+              "inputs" : {
+                 "pull" : {
+                    "output" : "/actions/main/in/lefttrigger"
+                 }
+              },
+              "mode" : "trigger",
+              "path" : "/user/hand/left/input/trigger"
+           },
+           {
+              "inputs" : {
+                 "click" : {
+                    "output" : "/actions/main/in/leftgrip"
+                 }
+              },
+              "mode" : "button",
+              "path" : "/user/hand/left/input/grip"
+           },
+           {
+              "inputs" : {
+                 "pull" : {
+                    "output" : "/actions/main/in/righttrigger"
+                 }
+              },
+              "mode" : "trigger",
+              "path" : "/user/hand/right/input/trigger"
+           },
+           {
+              "inputs" : {
+                 "click" : {
+                    "output" : "/actions/main/in/rightgrip"
+                 }
+              },
+              "mode" : "button",
+              "path" : "/user/hand/right/input/grip"
+           }
+        ]
+     }
+  },
+  "category" : "steamvr_input",
+  "controller_type" : "vive_cosmos_controller",
+  "description" : "",
+  "name" : "Defaults for Vive Cosmos Controller",
+  "options" : {},
+  "simulated_actions" : []
+}

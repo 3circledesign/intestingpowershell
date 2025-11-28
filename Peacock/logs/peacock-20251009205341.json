@@ -1,0 +1,240 @@
+{"timestamp":"20:53:42:204","category":"none","level":"Debug","message":"Loaded all default flags."}
+{"timestamp":"20:53:42:260","category":"none","level":"Info","message":"This is a modified version of Peacock that is intended to unlock all content in the game for free, made by @thecatinyourceiling."}
+{"timestamp":"20:53:42:262","category":"none","level":"Info","message":"PEACOCK IS NOT A PIRACY TOOL."}
+{"timestamp":"20:53:42:262","category":"none","level":"Info","message":"(Peacock v8.1.0, Node v22.16.0)"}
+{"timestamp":"20:53:42:262","category":"none","level":"Debug","message":"This person is using a cracked version of Peacock, twist their balls"}
+{"timestamp":"20:53:42:265","category":"none","level":"Debug","message":"Creating missing directory contractSessions"}
+{"timestamp":"20:53:42:266","category":"none","level":"Debug","message":"Creating missing directory plugins"}
+{"timestamp":"20:53:42:267","category":"none","level":"Debug","message":"Creating missing directory userdata"}
+{"timestamp":"20:53:42:267","category":"none","level":"Debug","message":"Creating missing directory contracts"}
+{"timestamp":"20:53:42:268","category":"none","level":"Debug","message":"Creating missing directory userdata\\epicids"}
+{"timestamp":"20:53:42:268","category":"none","level":"Debug","message":"Creating missing directory userdata\\steamids"}
+{"timestamp":"20:53:42:269","category":"none","level":"Debug","message":"Creating missing directory userdata\\users"}
+{"timestamp":"20:53:42:269","category":"none","level":"Debug","message":"Creating missing directory userdata\\h1\\steamids"}
+{"timestamp":"20:53:42:270","category":"none","level":"Debug","message":"Creating missing directory userdata\\h1\\epicids"}
+{"timestamp":"20:53:42:270","category":"none","level":"Debug","message":"Creating missing directory userdata\\h1\\users"}
+{"timestamp":"20:53:42:271","category":"none","level":"Debug","message":"Creating missing directory userdata\\h2\\steamids"}
+{"timestamp":"20:53:42:271","category":"none","level":"Debug","message":"Creating missing directory userdata\\h2\\users"}
+{"timestamp":"20:53:42:272","category":"none","level":"Debug","message":"Creating missing directory userdata\\scpc\\users"}
+{"timestamp":"20:53:42:272","category":"none","level":"Debug","message":"Creating missing directory userdata\\scpc\\steamids"}
+{"timestamp":"20:53:42:273","category":"none","level":"Debug","message":"Creating missing directory images\\actors"}
+{"timestamp":"20:53:42:273","category":"none","level":"Debug","message":"Creating missing directory images\\contracts"}
+{"timestamp":"20:53:42:274","category":"none","level":"Debug","message":"Creating missing directory images\\contracts\\elusive"}
+{"timestamp":"20:53:42:274","category":"none","level":"Debug","message":"Creating missing directory images\\contracts\\escalation"}
+{"timestamp":"20:53:42:275","category":"none","level":"Debug","message":"Creating missing directory images\\contracts\\featured"}
+{"timestamp":"20:53:42:275","category":"none","level":"Debug","message":"Creating missing directory images\\unlockables_override"}
+{"timestamp":"20:53:42:284","category":"boot","level":"Info","message":"Booting Peacock internal services - this may take a moment."}
+{"timestamp":"20:53:42:621","category":"scanGroups","level":"Debug","message":"Discovered 168 escalation groups."}
+{"timestamp":"20:53:42:630","category":"contracts","level":"Info","message":"Loading user contracts..."}
+{"timestamp":"20:53:42:643","category":"contracts","level":"Info","message":"Completed loading contracts."}
+{"timestamp":"20:53:42:866","category":"none","level":"Info","message":"Listening on localhost:51242..."}
+{"timestamp":"20:53:42:867","category":"none","level":"Info","message":"Server started."}
+{"timestamp":"20:54:59:545","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/config/pc-prod/8_21_0?issuer=1659040\u001b[24m"}
+{"timestamp":"20:54:59:558","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/files/onlineconfig.json\u001b[24m"}
+{"timestamp":"20:54:59:569","category":"http","level":"Info","message":"\u001b[32mHEAD\u001b[39m \u001b[4m/files/privacypolicy/hm3/privacypolicy_en.json\u001b[24m"}
+{"timestamp":"20:54:59:583","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/files/privacypolicy/hm3/privacypolicy_en.json\u001b[24m"}
+{"timestamp":"20:55:02:926","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"20:55:02:958","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/oauth/token\u001b[24m"}
+{"timestamp":"20:55:02:969","category":"none","level":"Debug","message":"Unable to load profile information."}
+{"timestamp":"20:55:02:969","category":"none","level":"Debug","message":"{\n    \"errno\": -4058,\n    \"code\": \"ENOENT\",\n    \"syscall\": \"open\",\n    \"path\": \"c:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\HITMAN 3\\\\Peacock\\\\userdata\\\\users\\\\2463887c-7f1b-48e5-8912-6e1c27c29275.json\"\n}"}
+{"timestamp":"20:55:02:969","category":"none","level":"Debug","message":"Setting up container with ID 2463887c-7f1b-48e5-8912-6e1c27c29275."}
+{"timestamp":"20:55:02:970","category":"none","level":"Info","message":"Skipped authentication with official servers"}
+{"timestamp":"20:55:02:970","category":"none","level":"Debug","message":"Create new profile 2463887c-7f1b-48e5-8912-6e1c27c29275"}
+{"timestamp":"20:55:02:970","category":"none","level":"Info","message":"All content and DLC has been granted, enjoy!"}
+{"timestamp":"20:55:02:982","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:55:02:984","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:55:02:999","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/authentication/api/configuration/Init?configName=pc-prod&lockedContentDisabled=false&isFreePrologueUser=false&isIntroPackUser=false&isFullExperienceUser=true\u001b[24m"}
+{"timestamp":"20:55:03:013","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/AuthenticationService/GetBlobOfflineCacheDatabaseDiff\u001b[24m"}
+{"timestamp":"20:55:03:024","category":"http","level":"Info","message":"\u001b[32mHEAD\u001b[39m \u001b[4m/resources-8-20/dynamic_resources_pc_release_rpkg?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:03:025","category":"dynRes","level":"Debug","message":"Serving dynamic resources from file dynamic_resources_h3.rpkg."}
+{"timestamp":"20:55:03:040","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/dynamic_resources_pc_release_rpkg?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:03:041","category":"dynRes","level":"Debug","message":"Serving dynamic resources from file dynamic_resources_h3.rpkg."}
+{"timestamp":"20:55:03:478","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateProfileStats\u001b[24m"}
+{"timestamp":"20:55:03:486","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetUserConfig\u001b[24m"}
+{"timestamp":"20:55:03:497","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetProfile\u001b[24m"}
+{"timestamp":"20:55:03:500","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"20:55:03:510","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchroniseGameStats\u001b[24m"}
+{"timestamp":"20:55:03:532","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"20:55:03:545","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:55:03:557","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:55:03:569","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:55:03:586","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateExtensions\u001b[24m"}
+{"timestamp":"20:55:03:588","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/GamePersistentDataService/GetData\u001b[24m"}
+{"timestamp":"20:55:03:589","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"20:55:03:598","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetFriendsCount\u001b[24m"}
+{"timestamp":"20:55:03:609","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"20:55:03:614","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:55:03:735","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:55:03:829","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Hub\u001b[24m"}
+{"timestamp":"20:55:03:835","category":"none","level":"Debug","message":"Lazy-loaded 1590 unlockables for h3"}
+{"timestamp":"20:55:05:976","category":"none","level":"Debug","message":"Get EscalationUCProps - group: ae04c7a0-4028-4524-b27f-6a62f020fdca prog: 1"}
+{"timestamp":"20:55:05:976","category":"none","level":"Debug","message":"Get EscalationUCProps - group: 494d97a6-9e31-45e0-9dae-f3793c731336 prog: 1"}
+{"timestamp":"20:55:05:977","category":"none","level":"Debug","message":"Get EscalationUCProps - group: a838c4b0-7db5-4ac7-8d52-e8c5b82aa376 prog: 1"}
+{"timestamp":"20:55:05:977","category":"none","level":"Debug","message":"Get EscalationUCProps - group: e3b65e65-636b-4dfd-bb42-65a18c5dce4a prog: 1"}
+{"timestamp":"20:55:05:977","category":"none","level":"Debug","message":"Get EscalationUCProps - group: 5121acde-313d-4517-ae70-6a54ca5d775a prog: 1"}
+{"timestamp":"20:55:05:977","category":"none","level":"Debug","message":"Get EscalationUCProps - group: 8c8ed496-948f-4672-879b-4d9575406577 prog: 1"}
+{"timestamp":"20:55:05:978","category":"none","level":"Debug","message":"Get EscalationUCProps - group: 8e95dcd0-704f-4121-8be6-088a3812f838 prog: 1"}
+{"timestamp":"20:55:06:076","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/menusystem/pages/hub/hub_page.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:109","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/menusystem/pages/hub/data/isfullmenuavailable.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:110","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/menusystem/pages/hub/dashboard/dashboard.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:130","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/menusystem/elements/settings/ioiaccount/ioiaccount_maintab.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:153","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/menusystem/pages/hub/modals/roadmap/modal.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:154","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/menusystem/pages/peacock-menu/options.json@0?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:166","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/menusystem/elements/contract/contractshitcategoryloading.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:181","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/menusystem/elements/settings/data/isnonvroptionvisible.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:183","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/menusystem/pages/peacock-menu/flags/index.json@0?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:216","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/menusystem/data/ispeacockdev.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:273","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/menusystem/elements/challenges/challengelocationviewtile.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:422","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/ResolveProfiles\u001b[24m"}
+{"timestamp":"20:55:06:425","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/_title.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:426","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/_image.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:426","category":"none","level":"Warn","message":"Unhandled URL: /resources-8-20/_title.json?sv=2018-03-28&ver=h3"}
+{"timestamp":"20:55:06:427","category":"none","level":"Warn","message":"Unhandled URL: /resources-8-20/_image.json?sv=2018-03-28&ver=h3"}
+{"timestamp":"20:55:06:429","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/_storeurl.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:429","category":"none","level":"Warn","message":"Unhandled URL: /resources-8-20/_storeurl.json?sv=2018-03-28&ver=h3"}
+{"timestamp":"20:55:06:431","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-20/_packageid.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"20:55:06:431","category":"none","level":"Warn","message":"Unhandled URL: /resources-8-20/_packageid.json?sv=2018-03-28&ver=h3"}
+{"timestamp":"20:55:06:460","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/ResolveGamerTags\u001b[24m"}
+{"timestamp":"20:55:08:045","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:55:08:046","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:55:08:047","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:55:08:099","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:55:12:050","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:55:12:051","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:55:12:052","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:55:12:105","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:55:14:993","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:55:17:396","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:55:17:397","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:55:17:398","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:55:17:426","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:55:21:398","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:55:21:399","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:55:21:400","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:55:21:430","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:55:24:995","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:55:25:402","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:55:25:403","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:55:25:404","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:55:25:431","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:55:30:588","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:55:30:589","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:55:30:589","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:55:30:652","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:55:34:595","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:55:34:596","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:55:34:597","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:55:34:662","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:55:34:998","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:55:38:598","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:55:38:599","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:55:38:601","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:55:38:663","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:55:42:604","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:55:42:605","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:55:42:606","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:55:42:668","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:55:45:004","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:55:46:613","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:55:46:614","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:55:46:615","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:55:46:670","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:55:50:622","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:55:50:623","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:55:50:624","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:55:50:687","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:55:55:008","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:55:57:069","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:55:57:071","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:55:57:072","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:55:57:135","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:01:073","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:01:074","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:01:074","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:01:128","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:05:011","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:56:05:080","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:05:081","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:05:081","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:05:145","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:09:083","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:09:084","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:09:085","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:09:138","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:13:091","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:13:092","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:13:093","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:13:155","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:15:023","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:56:17:099","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:17:099","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:17:100","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:17:155","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:21:105","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:21:106","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:21:107","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:21:171","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:25:032","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:56:25:108","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:25:109","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:25:110","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:25:164","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:31:612","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:31:614","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:31:615","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:31:678","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:35:484","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:56:38:154","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:38:155","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:38:156","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:38:220","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:42:157","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:42:158","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:42:158","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:42:214","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:45:489","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:56:46:160","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:46:161","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:46:162","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:46:215","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:50:167","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:50:167","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:50:168","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:50:232","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:54:177","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:54:177","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:54:178","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:54:231","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:56:55:494","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:56:58:186","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:56:58:187","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:56:58:187","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:56:58:239","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:57:02:191","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:57:02:192","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:57:02:192","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:57:02:257","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:57:05:504","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:57:06:198","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:57:06:199","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:57:06:199","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:57:06:251","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:57:10:201","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:57:10:202","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:57:10:203","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:57:10:256","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:57:14:203","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:57:14:204","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:57:14:205","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:57:14:258","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:57:15:512","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"20:57:18:214","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:57:18:215","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:57:18:216","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:57:18:270","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:57:20:942","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:57:23:514","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"20:57:23:515","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"20:57:23:515","category":"none","level":"Debug","message":"Platform issuer: 1659040"}
+{"timestamp":"20:57:23:542","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"20:57:25:512","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}

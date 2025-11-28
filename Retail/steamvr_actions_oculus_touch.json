@@ -1,0 +1,132 @@
+{
+  "action_manifest_version": 0,
+  "alias_info": {},
+  "bindings": {
+    "/actions/main": {
+      "chords": [],
+      "haptics": [
+        {
+          "output": "/actions/main/out/HapticsLeft",
+          "path": "/user/hand/left/output/haptic"
+        },
+        {
+          "output": "/actions/main/out/HapticsRight",
+          "path": "/user/hand/right/output/haptic"
+        }
+      ],
+      "sources": [
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/main/in/LeftClick"
+            },
+            "position": {
+              "output": "/actions/main/in/LeftStick"
+            }
+          },
+          "mode": "joystick",
+          "path": "/user/hand/left/input/joystick"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/main/in/RightClick"
+            },
+            "position": {
+              "output": "/actions/main/in/RightStick"
+            }
+          },
+          "mode": "joystick",
+          "path": "/user/hand/right/input/joystick"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/main/in/ButtonB"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/b"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/main/in/ButtonA"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/a"
+        },
+        {
+          "inputs": {
+            "pull": {
+              "output": "/actions/main/in/LeftTrigger"
+            }
+          },
+          "mode": "trigger",
+          "path": "/user/hand/left/input/trigger"
+        },
+        {
+          "inputs": {
+            "grab": {
+              "output": "/actions/main/in/LeftGrip"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/grip"
+        },
+        {
+          "inputs": {
+            "pull": {
+              "output": "/actions/main/in/RightTrigger"
+            }
+          },
+          "mode": "trigger",
+          "path": "/user/hand/right/input/trigger"
+        },
+        {
+          "inputs": {
+            "grab": {
+              "output": "/actions/main/in/RightGrip"
+            }
+          },
+          "mode" : "button",
+          "path" : "/user/hand/right/input/grip"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/main/in/ButtonY"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/y"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/main/in/ButtonX"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/x"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/main/in/ButtonStart"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/system"
+        }
+      ]
+    }
+  },
+  "category": "steamvr_input",
+  "controller_type": "oculus_touch",
+  "description": "",
+  "name": "Defaults for Oculus Touch",
+  "options": {},
+  "simulated_actions": []
+}
