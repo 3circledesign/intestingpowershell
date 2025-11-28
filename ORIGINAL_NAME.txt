@@ -1,0 +1,5 @@
+House Flipper 2 Online Patch - Tested OK
+Method: fuzzy
+Proposed: 1190970
+Chosen: 1190970
+Score: 100.0
