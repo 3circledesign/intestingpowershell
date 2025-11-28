@@ -1,0 +1,637 @@
+{ generated file - do not edit }
+
+[ERR_SYS_TIMER_RDTSC]
+El procesador no es compatible con la instrucción rdtsc.
+
+[ERR_SYS_THREAD]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_SYS_STREAMERREAD]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_SYS_SETTINGS]
+El sistema no reúne los requisitos mínimos.
+
+[ERR_SYS_PURE]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_SYS_PARAM_PREFIX]
+Parámetro de línea de comandos no válido. Para obtener más información, visita https://support.rockstargames.com/hc/articles/202518358.
+
+[ERR_SYS_PARAM_FORMAT]
+Formato de parámetro de línea de comandos no válido. Para obtener más información, visita https://support.rockstargames.com/hc/articles/202518358.
+
+[ERR_SYS_PAR_3]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_SYS_PAR_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_SYS_PAR_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_SYS_NOSTREAMINGHANDLES]
+No quedan identificadores de archivos. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_SYS_NOFILEHANDLES_3]
+No quedan identificadores de archivos. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_SYS_NOFILEHANDLES_2]
+No quedan identificadores de archivos. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_SYS_NOFILEHANDLES_1]
+No quedan identificadores de archivos. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_SYS_MINREQ_VID_MEM]
+Tu sistema no reúne los requisitos mínimos recomendados de memoria de vídeo. Si continúas, el juego puede tener problemas de ejecución. Para obtener más información, visita: http://rsg.ms/pcspecs.
+
+[ERR_SYS_MINREQ_URL]
+http://rsg.ms/pcspecs
+
+[ERR_SYS_MINREQ_TITLE]
+Error de comprobación de hardware mínimo recomendado
+
+[ERR_SYS_MINREQ_MEM]
+Tu sistema no reúne los requisitos mínimos recomendados de memoria (RAM). Si continúas, el juego puede tener problemas de ejecución. Para obtener más información, visita: http://rsg.ms/pcspecs.
+
+[ERR_SYS_MINREQ_CPU_FREQ]
+Tu sistema no reúne los requisitos mínimos recomendados de frecuencia de procesador. Si continúas, el juego puede tener problemas de ejecución. Para obtener más información, visita: http://rsg.ms/pcspecs
+
+[ERR_SYS_MINREQ_CPU_CORE]
+Tu sistema no reúne los requisitos mínimos recomendados de núcleo de procesador. Si continúas, el juego puede tener problemas de ejecución. Para obtener más información, visita: http://rsg.ms/pcspecs.
+
+[ERR_SYS_MINREQ_CPU]
+Tu sistema no reúne los requisitos mínimos recomendados de procesador. Si continúas, el juego puede tener problemas de ejecución. Para obtener más información, visita: http://rsg.ms/pcspecs
+
+[ERR_SYS_INVALIDRESOURCE_5]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_SYS_INVALIDRESOURCE_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_SYS_INVALIDRESOURCE_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_SYS_INVALIDFILE]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_SYS_INSTALLER]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_SYS_FILELOAD]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_STR_PACK_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_STR_PACK_1]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_STR_MOD_INFO]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_STR_MOD]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_STR_MISSING]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_STR_INVALID_DATA_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_STR_INVALID_DATA_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_STR_INFO_3]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_STR_INFO_2]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_STR_INFO_1]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_STR_FAILURE_4]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_STR_FAILURE_3]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_STR_FAILURE_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_STR_FAILURE_1]
+Error de red. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_STR_CACHE_3]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_STR_CACHE_2]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_STR_CACHE_1]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_SCR_TEXT_MEM_4]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_SCR_TEXT_MEM_3]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_SCR_TEXT_MEM_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_SCR_TEXT_MEM_1]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_SCR_LAUNCH_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_SCR_LAUNCH_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PHY_POOL_2]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_PHY_POOL_1]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_PHY_GEOM]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PHY_BOUND]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PHY_ARCH]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PAR_INVALID_9]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PAR_INVALID_8]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PAR_INVALID_7]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PAR_INVALID_6]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PAR_INVALID_5]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PAR_INVALID_4]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PAR_INVALID_3]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PAR_INVALID_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PAR_INVALID_12]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PAR_INVALID_11]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PAR_INVALID_10]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PAR_INVALID_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_PAR_COLL]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_NO_STEAM]
+No se ha podido detectar Steam. Reinicia Steam y Grand Theft Auto V.
+
+[ERR_NO_LAUNCHER]
+Inicia Grand Theft Auto V usando Rockstar Games Launcher.
+
+[ERR_NET_WINSOCK_4]
+Error de recepción de WinSock. Reinicia el sistema y vuelve a cargar el juego. Código de retorno:
+
+[ERR_NET_WINSOCK_3]
+Error de envío de WinSock. Reinicia el sistema y vuelve a cargar el juego. Código de retorno:
+
+[ERR_NET_WINSOCK_2]
+Versión no válida de WinSock DLL. Prueba a volver a instalar Windows.
+
+[ERR_NET_WINSOCK_1]
+Error de WinSock. Reinicia el sistema y vuelve a cargar el juego. Código de retorno:
+
+[ERR_NET_MEM]
+Error de red. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_NET_EVENT]
+Error de red. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_NET_ARRAY]
+Error de red. Versiones incompatibles de GTA V.
+
+[ERR_MEM_VIRTUAL_3]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_VIRTUAL_2]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_VIRTUAL_1]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_TINY_RESIZE_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_TINY_RESIZE_1]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_TINY_FREE_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_TINY_FREE_1]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_TINY_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_TINY_1]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_SYSTEM]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_SPARSEALLOC_FREE_3]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_SPARSEALLOC_FREE_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_SPARSEALLOC_FREE_1]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_SPARSEALLOC_ALLOC]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_POOLALLOC_FREE_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_POOLALLOC_FREE_1]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_POOLALLOC_ALLOC_5]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_POOLALLOC_ALLOC_4]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_POOLALLOC_ALLOC_3]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_POOLALLOC_ALLOC_2]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_POOLALLOC_ALLOC_1]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_MULTIALLOC_RESIZE]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_MULTIALLOC_FREE]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_MIN_ALLOC]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EXTALLOC_ALLOC]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_3]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_1]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EMBEDDEDALLOC_INIT_1]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_5]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_4]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_3]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_1]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_3]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_1]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_EMBEDDEDALLOC_ALLOC]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_CONT_3]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_CONT_2]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_CONT_1]
+No queda memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_BESTALLOC_FREE_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_MEM_BESTALLOC_FREE_1]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GUI_SF_MEM_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GUI_SF_MEM_1]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GUI_MENU_VER]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GUI_CHILD]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GUI_ACTIVE_PANEL]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_WIN]
+Error al crear ventana. Reinicia el sistema y comprueba que el dispositivo gráfico funciona correctamente. Error del sistema:
+
+[ERR_GFX_STATE]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GFX_SHADER_VAR]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_SHADER_TYP]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_RENDERTHREAD_TXD]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_RENDERTHREAD]
+Error al inicializar hilo. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GFX_RENDERTARGET]
+Error al crear objetivo de renderizado. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GFX_PFX_2]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GFX_PFX_1]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GFX_MORPH_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_MORPH_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_INVALID_SHADER]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_INIT]
+Error al inicializar el dispositivo de gráficos. Reinicia el sistema o reinstala el tiempo de ejecución más reciente de DirectX.
+
+[ERR_GFX_IM]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GFX_EFFECT_INVALID_STATE_5]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_EFFECT_INVALID_STATE_4]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_EFFECT_INVALID_STATE_3]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_EFFECT_INVALID_STATE_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_EFFECT_INVALID_STATE_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_EFFECT_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_EFFECT_1]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GFX_DRAW_ROPE_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_DRAW_ROPE_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_DRAW_GLASS_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_DRAW_GLASS_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_DRAW_DATA]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_D3D_VER_1]
+No se ha encontrado ningún adaptador o tiempo de ejecución de DirectX 10 o DirectX 11. Instala el tiempo de ejecución de DirectX más reciente o una tarjeta de vídeo compatible con DirectX10 o DirectX 11.
+
+[ERR_GFX_D3D_SWAPCHAIN_ALLOC_2]
+No se ha encontrado ningún adaptador o tiempo de ejecución de DirectX 10 o DirectX 11. Instala el tiempo de ejecución de DirectX más reciente o una tarjeta de vídeo compatible con DirectX10 o DirectX 11.
+
+[ERR_GFX_D3D_SHADER_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_D3D_SHADER_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_D3D_NOFEATURELEVEL_2]
+No se ha encontrado ningún adaptador o tiempo de ejecución de DirectX 10 o DirectX 11. Instala el tiempo de ejecución de DirectX más reciente o una tarjeta de vídeo compatible con DirectX10 o DirectX 11.
+
+[ERR_GFX_D3D_NOFEATURELEVEL_1]
+No se ha encontrado ningún adaptador o tiempo de ejecución de DirectX 10 o DirectX 11. Instala el tiempo de ejecución de DirectX más reciente o una tarjeta de vídeo compatible con DirectX10 o DirectX 11.
+
+[ERR_GFX_D3D_NOD3D1X_4]
+No se ha encontrado ningún adaptador o tiempo de ejecución de DirectX 10 o DirectX 11. Instala el tiempo de ejecución de DirectX más reciente o una tarjeta de vídeo compatible con DirectX10 o DirectX 11.
+
+[ERR_GFX_D3D_NOD3D1X_2]
+No se ha encontrado ningún adaptador o tiempo de ejecución de DirectX 10 o DirectX 11. Instala el tiempo de ejecución de DirectX más reciente o una tarjeta de vídeo compatible con DirectX10 o DirectX 11.
+
+[ERR_GFX_D3D_INIT]
+Error al inicializar. Reinicia el sistema y vuelve a cargar el juego. Si el problema continúa, prueba a reinstalar el juego.
+
+[ERR_GFX_D3D_DEFERRED_MEM]
+Error de DirectX. No queda memoria. Reinicia el sistema, cierra otras aplicaciones y comprueba que tu ordenador cumple con los requisitos mínimos. Para obtener más información, visita: http://rsg.ms/pcspecs.
+
+[ERR_GFX_D3D_DEFERRED]
+Error de DirectX. Comprueba que la tarjeta de vídeo está instalada correctamente con los controladores más recientes. Comprueba la instalación de DirectX y reinicia el sistema. Código de retorno:
+
+[ERR_GFX_CHECK_PROC_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GFX_CHECK_PROC_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GEN_ZLIB_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GEN_ZLIB_1]
+Error al inicializar zlib. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_SCENARIO]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_POOL_3]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_POOL_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_POOL_1]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_PED_VAR]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_PAGE_1]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_NAV]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GEN_MAPSTORE_2]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_MAPSTORE_1]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_MAP]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_INVALID]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GEN_INTERIOR_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GEN_INPUT_2]
+Error de DirectInput. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_INPUT_1]
+Demasiados dispositivos de entrada. Extrae algunos dispositivos, reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_INFLATE_2]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_INFLATE_1]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_ENT_TRANS]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_ENT_CONT_3]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_ENT_CONT_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_ENT_CONT_1]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GEN_CUT_2]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GEN_CUT_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_GEN_CODEC_1]
+Error de códec del chat de voz. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_GAMECONFIG_1]
+Datos de configuración del juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_FIL_ZIP_3]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_FIL_ZIP_2]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_FIL_ZIP_1]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_FIL_PACK_3]
+Datos de juego dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_FIL_PACK_2]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_FIL_PACK_1]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_FIL_DISK]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_FIL_COMMON]
+Error del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_DEFAULT]
+Error fatal. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_AUD_SOUND_2]
+Error de sonido. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_AUD_SOUND_1]
+Error de sonido. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_AUD_MUSIC_INIT]
+Error al inicializar el sonido. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_AUD_MIXER_INIT]
+Error al inicializar el sonido. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_AUD_INVALIDRESOURCE]
+Datos de sonido dañados. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_AUD_INIT_2]
+Error al inicializar el sonido. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_AUD_INIT_1]
+Error al inicializar el sonido. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_AUD_HARDWARE_DS_INIT]
+Error al inicializar el hardware de sonido. Puede que tengas que volver a instalar tus controladores de sonido o DirectX. Comprueba también que tu dispositivo de sonido funciona correctamente. Código de retorno:
+
+[ERR_AUD_HARDWARE_DS_BUFFER]
+Error al crear buffer de sonido. Puede que tengas que volver a instalar tus controladores de sonido o DirectX. Comprueba también que tu dispositivo de sonido funciona correctamente. Código de retorno:
+
+[ERR_AUD_HARDWARE]
+Error al inicializar el hardware de sonido. Comprueba que tu dispositivo de sonido funciona correctamente.
+
+[ERR_AUD_GTA_ONLINE_LOAD]
+Error al cargar datos de sonido. Reinicia el sistema, comprueba los datos de juego o reinstala el juego. Para obtener más información, visita: http://rsg.ms/verify
+
+[ERR_ANI_POOL_2]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.
+
+[ERR_ANI_POOL_1]
+Error de memoria del juego. Reinicia el sistema y vuelve a cargar el juego.

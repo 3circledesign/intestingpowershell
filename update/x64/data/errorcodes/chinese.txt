@@ -1,0 +1,895 @@
+{Please don't hand-edit these files.}
+{This file was generated with RageErrorCodeManager.}
+
+
+[ERR_ANI_POOL_1]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_ANI_POOL_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_AUD_GTA_ONLINE_LOAD]
+{Failed to load audio data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+載入音訊資料失敗。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_AUD_HARDWARE]
+{Failed to initialize audio hardware. Please ensure that your audio device is functioning correctly.}
+啟動音訊硬體失敗。請確認您的音訊裝置正常運作。
+
+[ERR_AUD_HARDWARE_DS_BUFFER]
+{Failed to create audio buffer. You may need to reinstall your audio drivers or DirectX. Also ensure your audio device is functioning correctly. Return Code:}
+建立音訊緩衝區失敗。您可能需要重新安裝音訊驅動程式或 DirectX。另外也請確認您的音訊裝置運作正常。傳回碼：
+
+[ERR_AUD_HARDWARE_DS_INIT]
+{Failed to initialize audio hardware. You may need to reinstall your audio drivers or DirectX. Also ensure your audio device is functioning correctly. Return Code:}
+初始化音訊硬體失敗。您可能需要重新安裝音訊驅動程式或 DirectX。另外也請確認您的音訊裝置運作正常。傳回碼：
+
+[ERR_AUD_INIT_1]
+{Failed to initialize audio. Please reboot and restart the game.}
+初始化音訊失敗。請重新開機然後重新啟動遊戲。
+
+[ERR_AUD_INIT_2]
+{Failed to initialize audio. Please reboot and restart the game.}
+初始化音訊失敗。請重新開機然後重新啟動遊戲。
+
+[ERR_AUD_INVALIDRESOURCE]
+{Corrupt audio data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+音訊資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_AUD_MIXER_INIT]
+{Failed to initialize audio. Please reboot and restart the game.}
+初始化音訊失敗。請重新開機然後重新啟動遊戲。
+
+[ERR_AUD_MUSIC_INIT]
+{Failed to initialize audio. Please reboot and restart the game.}
+初始化音訊失敗。請重新開機然後重新啟動遊戲。
+
+[ERR_AUD_SOUND_1]
+{Audio error. Please reboot and restart the game.}
+音訊錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_AUD_SOUND_2]
+{Audio error. Please reboot and restart the game.}
+音訊錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_CACHE_ALLOC]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_DEFAULT]
+{Fatal error. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+發生嚴重錯誤。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_FIL_COMMON]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_FIL_DISK]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_FIL_PACK_1]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_FIL_PACK_2]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_FIL_PACK_3]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_FIL_ZIP_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_FIL_ZIP_2]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_FIL_ZIP_3]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GAMECONFIG_1]
+{Corrupt game config data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲設定資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GEN_CODEC_1]
+{Voice chat codec error. Please reboot and restart the game.}
+音訊聊天轉碼器錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_CUT_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GEN_CUT_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GEN_ENT_CONT_1]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_ENT_CONT_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_ENT_CONT_3]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_ENT_TRANS]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_INFLATE_1]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_INFLATE_2]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_INPUT_1]
+{Too many input devices. Please remove some devices and reboot and restart the game.}
+輸入裝置過多。請移除部分裝置，然後重新開機然後重新啟動遊戲。
+
+[ERR_GEN_INPUT_2]
+{DirectInput failure. Please reboot and restart the game.}
+DirectInput 失敗。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_INTERIOR_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GEN_INVALID]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GEN_MAP]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_MAPSTORE_1]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_MAPSTORE_2]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_NAV]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GEN_PAGE_1]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_PED_VAR]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_POOL_1]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_POOL_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_POOL_3]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_SCENARIO]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_ZLIB_1]
+{Failed zlib initialization. Please reboot and restart the game.}
+Zlib 初始化失敗。請重新開機然後重新啟動遊戲。
+
+[ERR_GEN_ZLIB_2]
+{Failed zlib call. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+zlib 呼叫失敗。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_CHECK_PROC_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_CHECK_PROC_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_D3D_DEFERRED]
+{DirectX error. Please ensure your video card is installed properly with the latest drivers. Check your DirectX installation and reboot your system. Return Code:}
+DirectX 錯誤。請確認您的視訊卡已使用最新版本驅動程式正確安裝。請檢查您的 DirectX 安裝，然後將系統重新開機。傳回碼：
+
+[ERR_GFX_D3D_DEFERRED_MEM]
+{DirectX error. Out of memory. Please reboot, close other applications, and ensure your computer meets the minimum requirements. For more information, please visit: http://rsg.ms/pcspecs}
+DirectX 錯誤。記憶體不足。請重新開機、關閉其他應用程式，並確認您的電腦符合最低需求。如需更多資訊，請造訪：http://rsg.ms/pcspecs
+
+[ERR_GFX_D3D_INIT]
+{Failed Initialization. Please reboot and restart the game. Try reinstalling the game if this persists.}
+初始化失敗。請重新開機然後重新啟動遊戲。如果問題仍然持續發生，請嘗試重新安裝遊戲。
+
+[ERR_GFX_D3D_NOD3D12]
+{No DirectX 12 adapter or runtime found. Please install latest DirectX runtime or install a compatible DirectX 12 video card.}
+找不到 DirectX 12 介面卡或執行階段。請安裝最新版本 DirectX 執行階段，或安裝相容的 DirectX 12 視訊卡。
+
+[ERR_GFX_D3D_NOD3D1X_2]
+{No DirectX 10 or 11 adapter or runtime found. Please install latest DirectX runtime or install a compatible DirectX 10 or 11 video card.}
+找不到 DirectX 10 或 11 介面卡或執行階段。請安裝最新版本 DirectX 執行階段，或安裝相容的 DirectX 10 或 11 視訊卡。
+
+[ERR_GFX_D3D_NOD3D1X_4]
+{No DirectX 10 or 11 adapter or runtime found. Please install latest DirectX runtime or install a compatible DirectX 10 or 11 video card.}
+找不到 DirectX 10 或 11 介面卡或執行階段。請安裝最新版本 DirectX 執行階段，或安裝相容的 DirectX 10 或 11 視訊卡。
+
+[ERR_GFX_D3D_NOFEATURELEVEL_1]
+{No DirectX 10 or 11 adapter or runtime found. Please install latest DirectX runtime or install a compatible DirectX 10 or 11 video card.}
+找不到 DirectX 10 或 11 介面卡或執行階段。請安裝最新版本 DirectX 執行階段，或安裝相容的 DirectX 10 或 11 視訊卡。
+
+[ERR_GFX_D3D_NOFEATURELEVEL_2]
+{No DirectX 10 or 11 adapter or runtime found. Please install latest DirectX runtime or install a compatible DirectX 10 or 11 video card.}
+找不到 DirectX 10 或 11 介面卡或執行階段。請安裝最新版本 DirectX 執行階段，或安裝相容的 DirectX 10 或 11 視訊卡。
+
+[ERR_GFX_D3D_SHADER_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_D3D_SHADER_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_D3D_SWAPCHAIN_ALLOC_2]
+{No DirectX 10 or 11 adapter or runtime found. Please install latest DirectX runtime or install a compatible DirectX 10 or 11 video card.}
+找不到 DirectX 10 或 11 介面卡或執行階段。請安裝最新版本 DirectX 執行階段，或安裝相容的 DirectX 10 或 11 視訊卡。
+
+[ERR_GFX_D3D_VER_1]
+{No DirectX 10 or 11 adapter or runtime found. Please install latest DirectX runtime or install a compatible DirectX 10 or 11 video card.}
+找不到 DirectX 10 或 11 介面卡或執行階段。請安裝最新版本 DirectX 執行階段，或安裝相容的 DirectX 10 或 11 視訊卡。
+
+[ERR_GFX_DRAW_DATA]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_DRAW_GLASS_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_DRAW_GLASS_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_DRAW_ROPE_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_DRAW_ROPE_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_EFFECT_1]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GFX_EFFECT_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_EFFECT_INVALID_STATE_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_EFFECT_INVALID_STATE_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_EFFECT_INVALID_STATE_3]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_EFFECT_INVALID_STATE_4]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_EFFECT_INVALID_STATE_5]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_IM]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GFX_INIT]
+{Failed to initialize graphics device. Please reboot or reinstall latest DirectX runtime.}
+啟動圖形裝置失敗。請重新開機或重新安裝最新版本 DirectX 執行階段。
+
+[ERR_GFX_INVALID_SHADER]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_MORPH_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_MORPH_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_PFX_1]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GFX_PFX_2]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GFX_RENDERTARGET]
+{Failed to create render target. Please reboot and restart the game.}
+建立轉譯目標失敗。請重新開機然後重新啟動遊戲。
+
+[ERR_GFX_RENDERTHREAD]
+{Failed to initialize thread. Please reboot and restart the game.}
+初始化執行緒集區失敗。請重新開機然後重新啟動遊戲。
+
+[ERR_GFX_RENDERTHREAD_TXD]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_SHADER_TYP]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_SHADER_VAR]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GFX_STATE]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GFX_WIN]
+{Failed to create window. Please reboot and make sure the graphics device is functioning correctly. System Error:}
+建立視窗失敗。請重新開機，並確認圖形裝置已正常運作。系統錯誤：
+
+[ERR_GUI_ACTIVE_PANEL]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GUI_CHILD]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GUI_MENU_VER]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_GUI_SF_MEM_1]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_GUI_SF_MEM_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_BESTALLOC_FREE_1]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_BESTALLOC_FREE_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_CONT_1]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_CONT_2]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_CONT_3]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EMBEDDEDALLOC_ALLOC]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_1]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EMBEDDEDALLOC_FREE_3]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_1]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_3]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_4]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EMBEDDEDALLOC_GUARD_5]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EMBEDDEDALLOC_INIT_1]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_1]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EMBEDDEDALLOC_RESIZE_3]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_EXTALLOC_ALLOC]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_MIN_ALLOC]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_MULTIALLOC_FREE]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_MULTIALLOC_RESIZE]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_POOLALLOC_ALLOC_1]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_POOLALLOC_ALLOC_2]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_POOLALLOC_ALLOC_3]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_POOLALLOC_ALLOC_4]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_POOLALLOC_ALLOC_5]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_POOLALLOC_FREE_1]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_POOLALLOC_FREE_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_SPARSEALLOC_ALLOC]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_SPARSEALLOC_FREE_1]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_SPARSEALLOC_FREE_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_SPARSEALLOC_FREE_3]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_SYSTEM]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_TINY_1]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_TINY_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_TINY_FREE_1]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_TINY_FREE_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_TINY_FREE_3]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_TINY_RESIZE_1]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_TINY_RESIZE_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_VIRTUAL_1]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_VIRTUAL_2]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_VIRTUAL_3]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_MEM_VIRTUAL_OUT_OF_MEMORY]
+{Out of game memory. Please reboot and restart the game.}
+遊戲記憶體不足。請重新開機然後重新啟動遊戲。
+
+[ERR_NET_ARRAY]
+{Network error. Incompatible versions of GTA V.}
+網路錯誤。GTA 5 版本不相容。
+
+[ERR_NET_EVENT]
+{Network error. Please reboot and restart the game.}
+網路錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_NET_MEM]
+{Network error. Please reboot and restart the game.}
+網路錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_NET_WINSOCK_1]
+{WinSock error. Please reboot and restart the game. Return Code:}
+WinSock 錯誤。請重新開機然後重新啟動遊戲。傳回碼：
+
+[ERR_NET_WINSOCK_2]
+{Invalid WinSock DLL version. Try reinstalling Windows.}
+WinSock DLL 版本不正確。請重新安裝 Windows。
+
+[ERR_NET_WINSOCK_3]
+{WinSock send error. Please reboot and restart the game. Return Code:}
+WinSock 傳送錯誤。請重新開機然後重新啟動遊戲。傳回碼：
+
+[ERR_NET_WINSOCK_4]
+{WinSock receive error. Please reboot and restart the game. Return Code:}
+WinSock 接收錯誤。請重新開機然後重新啟動遊戲。傳回碼：
+
+[ERR_NO_LAUNCHER]
+{Please run Grand Theft Auto V using Rockstar Games Launcher.}
+請使用 Rockstar Games Launcher 執行 Grand Theft Auto V
+
+[ERR_NO_STEAM]
+{Could not detect the Steam client. Please reboot Steam and Grand Theft Auto V.}
+無法偵測到 Steam 客戶端。請重新啟動 Steam 和 Grand Theft Auto V。
+
+[ERR_PAR_COLL]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PAR_INVALID_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PAR_INVALID_10]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PAR_INVALID_11]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PAR_INVALID_12]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PAR_INVALID_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PAR_INVALID_3]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PAR_INVALID_4]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PAR_INVALID_5]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PAR_INVALID_6]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PAR_INVALID_7]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PAR_INVALID_8]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PAR_INVALID_9]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PHY_ARCH]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PHY_BOUND]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PHY_GEOM]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_PHY_POOL_1]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_PHY_POOL_2]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_SCR_LAUNCH_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_SCR_LAUNCH_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_SCR_TEXT_MEM_1]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_SCR_TEXT_MEM_2]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_SCR_TEXT_MEM_3]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_SCR_TEXT_MEM_4]
+{Game memory error. Please reboot and restart the game.}
+遊戲記憶體錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_CACHE_1]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_CACHE_2]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_CACHE_3]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_FAILURE_1]
+{Network error. Please reboot and restart the game.}
+網路錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_FAILURE_16]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_FAILURE_17]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_FAILURE_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_STR_FAILURE_3]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_FAILURE_4]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_FAILURE_8]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_FAILURE_9]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_INFO_1]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_INFO_2]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_INFO_3]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_INVALID_DATA_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_STR_INVALID_DATA_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_STR_MISSING]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_STR_MOD]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_STR_MOD_INFO]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_PACK_1]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_STR_PACK_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_SYS_FILELOAD]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_SYS_INSTALLER]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_SYS_INVALIDFILE]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_SYS_INVALIDRESOURCE_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_SYS_INVALIDRESOURCE_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_SYS_INVALIDRESOURCE_5]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_SYS_MINREQ_AMD_DRIVER]
+{Please update your graphics driver. Game requires version @VER or newer. Please visit AMD: http://support.amd.com/en-us/download for the latest graphics driver}
+請更新您的顯示卡驅動程式。遊戲需要 @VER 或以上版本。請造訪 AMD：https://www.amd.com/zh-tw/support/download/drivers.html 下載最新的顯示卡驅動程式。
+
+[ERR_SYS_MINREQ_CPU]
+{Your computer does not meet the minimum recommended CPU specification. The game may have trouble running if you proceed. For more information, please visit: http://rsg.ms/pcspecs}
+您電腦的 CPU 並未達到最低系統需求的規格。如果繼續，遊戲可能會無法執行。如需更多資訊，請前往 http://rsg.ms/pcspecs
+
+[ERR_SYS_MINREQ_CPU_CORE]
+{Your computer does not meet the minimum recommended CPU Core specification. The game may have trouble running if you proceed. For more information, please visit: http://rsg.ms/pcspecs}
+您的電腦不符合最低 CPU 核心建議規格。如果繼續，遊戲可能無法執行。如需更多資訊，請造訪：http://rsg.ms/pcspecs
+
+[ERR_SYS_MINREQ_CPU_FREQ]
+{Your computer does not meet the minimum recommended CPU Frequency specification. The game may have trouble running if you proceed. For more information, please visit: http://rsg.ms/pcspecs}
+您電腦的 CPU 的頻率並未達到最低系統需求的規格。如果繼續，遊戲可能會無法執行。如需更多資訊，請前往 http://rsg.ms/pcspecs
+
+[ERR_SYS_MINREQ_INTEL_DRIVER]
+{Please update your graphics driver. Game requires version @VER or newer. Please visit INTEL: http://downloadcenter.intel.com/ for the latest graphics driver}
+請更新您的顯示卡驅動程式。遊戲需要 @VER 或以上版本。請造訪 INTEL：https://www.intel.com.tw/content/www/tw/zh/download-center/home.html 下載最新的顯示卡驅動程式。
+
+[ERR_SYS_MINREQ_MEM]
+{Your computer does not meet the minimum recommended Memory (RAM) specification. The game may have trouble running if you proceed. For more information, please visit: http://rsg.ms/pcspecs}
+您的電腦不符合最低記憶體（RAM）建議規格。如果繼續，遊戲可能無法執行。如需更多資訊，請造訪：http://rsg.ms/pcspecs
+
+[ERR_SYS_MINREQ_NVIDIA_DRIVER]
+{Please update your graphics driver. Game requires version @VER or newer. Please visit NVIDIA: http://www.nvidia.com/Download/index.aspx for the latest graphics driver}
+請更新您的顯示卡驅動程式。遊戲需要 @VER 或以上版本。請造訪 NVIDIA：https://www.nvidia.com/zh-tw/drivers/ 下載最新的顯示卡驅動程式。
+
+[ERR_SYS_MINREQ_TITLE]
+{Minimum Recommended Hardware Check Failure}
+最低建議硬體檢查失敗
+
+[ERR_SYS_MINREQ_URL]
+{http://rsg.ms/pcspecs}
+http://rsg.ms/pcspecs
+
+[ERR_SYS_MINREQ_VID_MEM]
+{Your computer does not meet the minimum recommended Video Memory specification. The game may have trouble running if you proceed. For more information, please visit: http://rsg.ms/pcspecs}
+您的電腦不符合最低視訊記憶體建議規格。如果繼續，遊戲可能無法執行。如需更多資訊，請造訪：http://rsg.ms/pcspecs
+
+[ERR_SYS_NOFILEHANDLES_1]
+{Out of file handles. Please reboot and restart the game.}
+檔案控制代碼不足。請重新開機然後重新啟動遊戲。
+
+[ERR_SYS_NOFILEHANDLES_2]
+{Out of file handles. Please reboot and restart the game.}
+檔案控制代碼不足。請重新開機然後重新啟動遊戲。
+
+[ERR_SYS_NOFILEHANDLES_3]
+{Out of file handles. Please reboot and restart the game.}
+檔案控制代碼不足。請重新開機然後重新啟動遊戲。
+
+[ERR_SYS_NOSTREAMINGHANDLES]
+{Out of file handles. Please reboot and restart the game.}
+檔案控制代碼不足。請重新開機然後重新啟動遊戲。
+
+[ERR_SYS_PAR_1]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_SYS_PAR_2]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_SYS_PAR_3]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_SYS_PARAM_FORMAT]
+{Invalid command line parameter format. For more information, please visit: https://support.rockstargames.com/hc/articles/202518358}
+命令列參數格式不正確。如需更多資訊，請造訪：https://support.rockstargames.com/hc/articles/202518358
+
+[ERR_SYS_PARAM_PREFIX]
+{Invalid command line parameter. For more information, please visit: https://support.rockstargames.com/hc/articles/202518358}
+命令列參數不正確。如需更多資訊，請造訪：https://support.rockstargames.com/hc/articles/202518358
+
+[ERR_SYS_PURE]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_SYS_SETTINGS]
+{Computer does not meet minimum requirements.}
+電腦不符合最低需求。
+
+[ERR_SYS_STREAMERREAD]
+{Corrupt game data. Please reboot, verify the game data, or reinstall the game. For more information, please visit: http://rsg.ms/verify}
+遊戲資料毀損。請重新開機、驗證遊戲資料或重新安裝遊戲。如需更多資訊，請前往 http://rsg.ms/verify
+
+[ERR_SYS_THREAD]
+{Game error. Please reboot and restart the game.}
+遊戲錯誤。請重新開機然後重新啟動遊戲。
+
+[ERR_SYS_TIMER_RDTSC]
+{CPU does not support rdtsc instruction.}
+CPU 不支援 rdtsc 指令。

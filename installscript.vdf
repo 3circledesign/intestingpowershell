@@ -1,0 +1,25 @@
+"InstallScript"
+{
+	"Registry"
+	{
+		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Rockstar Games\\GTA V Enhanced\\"
+		{
+			"string"
+			{
+				"InstallFolderSteam"		"%INSTALLDIR%\\"
+			}
+		}
+	}
+	"Run Process On Uninstall"
+	{
+		"BattlEye_Uninstall"
+		{
+			"Process 1"		"GTA5_Enhanced_BE.exe"
+			"Command 1"		"4 0"
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"446f9d979317ac0650a6eec93e26188125ba29d3e5dd76f53bf16a1e319c539d78cbc37a893dd91457b041f8e2d0ad18a93484d40e78c55b37488a6457b6ccc7ec4420147f0d85ed479e419f71b5cb91340603abfd28d565f6226a2f52c857533e53dbf482d67fbe33d9f1421795e6ffe3cf3c0a784cbf3fcc2c3dec472a3ac4"
+}
