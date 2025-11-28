@@ -1,0 +1,5 @@
+Soul Mask - Tested OK
+Method: fuzzy
+Proposed: 2646460
+Chosen: 2646460
+Score: 59.17
