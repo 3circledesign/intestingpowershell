@@ -1,0 +1,5 @@
+The Jump Guys Online
+Method: fuzzy
+Proposed: 2757810
+Chosen: 2757810
+Score: 60.09
