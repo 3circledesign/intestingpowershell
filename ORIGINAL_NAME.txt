@@ -1,0 +1,5 @@
+Fast Food Simulator
+Method: fuzzy
+Proposed: 2916430
+Chosen: 2916430
+Score: 100.0
