@@ -1,0 +1,5 @@
+ZOMBIE RAID No One Survives
+Method: fuzzy
+Proposed: 688540
+Chosen: 688540
+Score: 100.0
