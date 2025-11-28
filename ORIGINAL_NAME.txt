@@ -1,0 +1,5 @@
+Neon Abyss 2
+Method: fuzzy
+Proposed: 2235200
+Chosen: 2235200
+Score: 100.0
