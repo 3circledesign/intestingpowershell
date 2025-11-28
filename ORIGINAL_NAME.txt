@@ -1,0 +1,5 @@
+Project Zomboid
+Method: fuzzy
+Proposed: 108600
+Chosen: 108600
+Score: 100.0
