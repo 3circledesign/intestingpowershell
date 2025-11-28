@@ -1,0 +1,5 @@
+Cryptid Farm
+Method: fuzzy
+Proposed: 1892140
+Chosen: 1892140
+Score: 70.53
