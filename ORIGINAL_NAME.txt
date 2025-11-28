@@ -1,0 +1,5 @@
+Crime Boss Rockay City
+Method: fuzzy
+Proposed: 2933080
+Chosen: 2933080
+Score: 100.0
