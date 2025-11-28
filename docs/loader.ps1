@@ -26,16 +26,18 @@ if (-not $steamPath) {
 $appManifest = Get-ChildItem "$steamPath\steamapps" -Filter "appmanifest_$AppID.acf" -Recurse | Select-Object -First 1
 if (-not $appManifest) {
     Write-Host "❌ AppID $AppID not found in Steam library!" -ForegroundColor Red
-    Write-Host "   Make sure the game is installed via Steam." -ForegroundColor Yellow
     exit 1
 }
 
-# --- Step 3: Parse installdir from ACF ---
+# --- Step 3: Parse installdir safely ---
 $acfContent = Get-Content $appManifest.FullName -Raw
 if ($acfContent -match '"installdir"\s+"([^"]+)"') {
     $installDir = $matches[1]
+    Write-Host "📦 Install directory from ACF: $installDir" -ForegroundColor Green
 } else {
-    Write-Host "❌ Could not parse installdir from appmanifest." -ForegroundColor Red
+    Write-Host "❌ Could not find 'installdir' in $($appManifest.Name)" -ForegroundColor Red
+    Write-Host "File content preview:" -ForegroundColor Yellow
+    Get-Content $appManifest.FullName | Select-Object -First 10 | ForEach-Object { Write-Host "  $_" }
     exit 1
 }
 
