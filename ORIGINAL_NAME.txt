@@ -1,0 +1,5 @@
+My Summer Car
+Method: fuzzy
+Proposed: 516750
+Chosen: 516750
+Score: 100.0
