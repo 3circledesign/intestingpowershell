@@ -1,0 +1,5 @@
+Escape from Kyoto House
+Method: fuzzy
+Proposed: 1316700
+Chosen: 1316700
+Score: 65.71
