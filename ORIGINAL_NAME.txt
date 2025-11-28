@@ -1,0 +1,5 @@
+Naruto Shippuden Ultimate Ninja STORM 4
+Method: fuzzy
+Proposed: 349040
+Chosen: 349040
+Score: 100.0
