@@ -1,0 +1,5 @@
+Resident Evil 4 Bypass
+Method: fuzzy
+Proposed: 2050650
+Chosen: 2050650
+Score: 83.17
