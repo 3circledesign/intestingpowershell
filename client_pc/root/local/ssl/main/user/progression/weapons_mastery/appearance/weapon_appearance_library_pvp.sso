@@ -1,0 +1,5270 @@
+weapons   =   {
+   arifle_bolt_rifle   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "01_preorder",
+                     "02",
+                     "03",
+                     "03_b",
+                     "03_c",
+                     "04",
+                     "04_b",
+                     "04_c"
+                  ]
+                  requiredVictoriesCount   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "01_preorder",
+                     "02",
+                     "03",
+                     "03_b",
+                     "03_c",
+                     "04",
+                     "04_b",
+                     "04_c"
+                  ]
+                  requiredVictoriesCount   =   1
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "01_preorder",
+                     "02",
+                     "03",
+                     "03_b",
+                     "03_c",
+                     "04",
+                     "04_b",
+                     "04_c"
+                  ]
+                  requiredVictoriesCount   =   4
+               },
+               {
+                  packUid   =   "03_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "01_preorder",
+                     "02",
+                     "03",
+                     "03_b",
+                     "03_c",
+                     "04",
+                     "04_b",
+                     "04_c"
+                  ]
+                  requiredVictoriesCount   =   7
+               },
+               {
+                  packUid   =   "03_c"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_c"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "01_preorder",
+                     "02",
+                     "03",
+                     "03_b",
+                     "03_c",
+                     "04",
+                     "04_b",
+                     "04_c"
+                  ]
+                  requiredVictoriesCount   =   10
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "01_preorder",
+                     "02",
+                     "03",
+                     "03_b",
+                     "03_c",
+                     "04",
+                     "04_b",
+                     "04_c"
+                  ]
+                  requiredVictoriesCount   =   13
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "01_preorder",
+                     "02",
+                     "03",
+                     "03_b",
+                     "03_c",
+                     "04",
+                     "04_b",
+                     "04_c"
+                  ]
+                  requiredVictoriesCount   =   16
+               },
+               {
+                  packUid   =   "04_c"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_c"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "01_preorder",
+                     "02",
+                     "03",
+                     "03_b",
+                     "03_c",
+                     "04",
+                     "04_b",
+                     "04_c"
+                  ]
+                  requiredVictoriesCount   =   19
+               },
+               {
+                  packUid   =   "01_preorder"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01_preorder"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "PREORDER"
+                     __type   =   "DlcLockReason"
+                  }
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "01_preorder",
+                     "02",
+                     "03",
+                     "03_b",
+                     "03_c",
+                     "04",
+                     "04_b",
+                     "04_c"
+                  ]
+               },
+               {
+                  packUid   =   "01_twitch"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01_twitch"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "PREORDER"
+                     __type   =   "DlcLockReason"
+                  }
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "01_preorder",
+                     "02",
+                     "03",
+                     "03_b",
+                     "03_c",
+                     "04",
+                     "04_b",
+                     "04_c"
+                  ]
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "010_White_Bolt_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "010_Blue_Bolt_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "01_preorder",
+                     "02",
+                     "03",
+                     "03_b",
+                     "03_c",
+                     "04",
+                     "04_b",
+                     "04_c"
+                  ]
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "010_Red_Bolt_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "01_preorder",
+                     "02",
+                     "03",
+                     "03_b",
+                     "03_c",
+                     "04",
+                     "04_b",
+                     "04_c"
+                  ]
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   melee_chainsword   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "02"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   3
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "03"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   6
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "03_a"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   9
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "03_b"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   12
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "04"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   15
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "04_a"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   18
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "04_b"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   21
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_preorder"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "preorder"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "PREORDER"
+                     __type   =   "DlcLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_twitch"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_twitch"
+                     }
+                  }
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_twitch"
+                     }
+                  }
+                  type   =   "COMMON"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "PREORDER"
+                     __type   =   "DlcLockReason"
+                  }
+                  honorShopLock   =   {
+                     requiredItemUid   =   "ChainswordSkinIntro"
+                     __type   =   "HonorShopLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_deathwatch"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "deathwatch_sword"
+                     }
+                     NPC_LOYALIST   =   {
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "PREORDER"
+                     __type   =   "DlcLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_sw"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_sw"
+                     }
+                     NPC_LOYALIST   =   {
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "SEASON_5_SPACE_WOLVES"
+                     __type   =   "DlcLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_white"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "001_White_Chainsword"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_blue"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "001_Blue_Chainsword"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_red"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "001_Red_Chainsword"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   melee_power_fist   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "02"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   2
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "03"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "04"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   6
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_twitch"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "twitch"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "PREORDER"
+                     __type   =   "DlcLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   melee_combat_knife   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "02"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   3
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "03"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   5
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "03_a"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   8
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "04"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   11
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "04_a"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   14
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "6_difficulty_reward"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "6_difficulty_reward"
+                     }
+                  }
+                  pveMissionLock   =   {
+                     difficulty   =   "EXTREME"
+                     isAnyMission   =   True
+                     missionCount   =   1
+                     __type   =   "PveMissionLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_white_scars"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white_scars"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "SEASON_8_WHITE_SCARS"
+                     __type   =   "DlcLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_white"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "004_White_Combat_Knife"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_blue"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "004_Blue_Combat_Knife"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_red"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "004_Red_Combat_Knife"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   melee_power_sword   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "02"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   2
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "03"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "03_a"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   6
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "03_b"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   8
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "04"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "04_a"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   12
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "04_b"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   14
+               },
+               {
+                  lib   =   "FIREARM"
+                  packUid   =   "01_darkangels"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "dark_angels"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "SEASON_2_DARK_ANGELS"
+                     __type   =   "DlcLockReason"
+                  }
+               },
+               {
+                  packUid   =   "5_difficulty_reward"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "5_difficulty_reward"
+                     }
+                  }
+                  type   =   "COMMON"
+                  pveMissionLock   =   {
+                     difficulty   =   "INSANE"
+                     isAnyMission   =   True
+                     missionCount   =   1
+                     __type   =   "PveMissionLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_white"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "003_White_Power_Sword"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_blue"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "003_Blue_Power_Sword"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_red"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "003_Red_Power_Sword"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_bt"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_bt"
+                     }
+                     NPC_LOYALIST   =   {
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "PATCH_10_BLACK_TEMPLAR_CHAMPION"
+                     __type   =   "DlcLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   melee_thunder_hammer   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "02"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   2
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "03"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "04"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   6
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_librarium"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04_librarium"
+                     }
+                  }
+                  researchCenterRewardLock   =   {
+                     category   =   "THOUSAND_SONS"
+                     rewardUid   =   "item_sons"
+                     __type   =   "ResearchCenterRewardLockReason"
+                  }
+                  cost   =   0
+                  currency   =   "COMMON_CREDITS"
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_sw"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_sw"
+                     }
+                     NPC_LOYALIST   =   {
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "SEASON_5_SPACE_WOLVES"
+                     __type   =   "DlcLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_white"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "002_White_Thunder_Hammer"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_blue"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "002_Blue_Thunder_Hammer"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01_red"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "002_Red_Thunder_Hammer"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   hwpn_support_heavy_bolter   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   2
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               },
+               {
+                  packUid   =   "02_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   6
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   8
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               },
+               {
+                  packUid   =   "03_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   12
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   14
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   16
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   18
+               },
+               {
+                  packUid   =   "04_c"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_c"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   20
+               },
+               {
+                  packUid   =   "01_preorder"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01_preorder"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "CHAMPION_PACK"
+                     __type   =   "DlcLockReason"
+                  }
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "01_preorder",
+                     "01_ch",
+                     "02",
+                     "02_a",
+                     "02_b",
+                     "03",
+                     "03_a",
+                     "03_b",
+                     "04",
+                     "04_a",
+                     "04_b",
+                     "04_c"
+                  ]
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "017_White_Heavy_Bolter"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "017_Blue_Heavy_Bolter"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "017_Red_Heavy_Bolter"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   brifle_stalker_bolt_rifle   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   13
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   16
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   19
+               },
+               {
+                  packUid   =   "01_white_scars"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white_scars"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "SEASON_8_WHITE_SCARS"
+                     __type   =   "DlcLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "015_White_Stalker_Bolt_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "015_Blue_Stalker_Bolt_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "015_Red_Stalker_Bolt_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   arifle_auto_bolt_rifle   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   13
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   16
+               },
+               {
+                  packUid   =   "01_darkangels"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01_darkangels"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "SEASON_2_DARK_ANGELS"
+                     __type   =   "DlcLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_librarium"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01_librarium"
+                     }
+                  }
+                  researchCenterRewardLock   =   {
+                     category   =   "ADEPTUS_ASTARTES"
+                     rewardUid   =   "item_astartes"
+                     __type   =   "ResearchCenterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "012_White_Auto_Bolt_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "012_Blue_Auto_Bolt_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "012_Red_Auto_Bolt_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   arifle_heavy_bolt_rifle   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               },
+               {
+                  packUid   =   "03_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   13
+               },
+               {
+                  packUid   =   "03_c"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_c"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   16
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   19
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   22
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   25
+               },
+               {
+                  packUid   =   "04_c"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_c"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   28
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "011_White_Heavy_Bolt_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+                  tiers   =   {
+                     COMMON   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "01"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_01"
+                                 }
+                                 PLR_CHAOS   =   {
+                                    __value   =   "skin_01_ch"
+                                 }
+                              }
+                              cost   =   0
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     MASTERCRAFTED   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "02"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_02"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   1
+                           },
+                           {
+                              packUid   =   "02_a"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_02_a"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   4
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     ARTIFICER   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "03"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_03"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   7
+                           },
+                           {
+                              packUid   =   "03_a"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_03_a"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   10
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     RELIC   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "04"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_04"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   13
+                           },
+                           {
+                              packUid   =   "04_a"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_04_a"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   16
+                           },
+                           {
+                              packUid   =   "01_darkangels"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_01_darkangels"
+                                 }
+                              }
+                              type   =   "DLC"
+                              requiredDlcLock   =   {
+                                 dlcUid   =   "SEASON_2_DARK_ANGELS"
+                                 __type   =   "DlcLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_librarium"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_01_librarium"
+                                 }
+                              }
+                              researchCenterRewardLock   =   {
+                                 category   =   "ADEPTUS_ASTARTES"
+                                 rewardUid   =   "item_astartes"
+                                 __type   =   "ResearchCenterRewardLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_white"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_white"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "012_White_Auto_Bolt_Rifle"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_white"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_white"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "012_White_Auto_Bolt_Rifle"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_red"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_red"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "012_Red_Auto_Bolt_Rifle"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "011_Blue_Heavy_Bolt_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "011_Red_Heavy_Bolt_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   brifle_instigator_bolt_carbine   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               },
+               {
+                  packUid   =   "03_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   13
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   19
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   22
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   25
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "022_White_Instigator_Bolt_Carbine"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "022_Blue_Instigator_Bolt_Carbine"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "022_Red_Instigator_Bolt_Carbine"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   brifle_bolt_sniper_rifle   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               },
+               {
+                  packUid   =   "03_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   13
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   16
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   19
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   22
+               },
+               {
+                  packUid   =   "01_salamander"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01_salamander"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "SEASON_4_SALAMANDER"
+                     __type   =   "DlcLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "014_White_Bolt_Sniper_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "014_Blue_Bolt_Sniper_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "014_Red_Bolt_Sniper_Rifle"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   smg_bolt_carbine   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "02",
+                     "03",
+                     "03_b",
+                     "04",
+                     "04_b"
+                  ]
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               },
+               {
+                  packUid   =   "03_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   13
+               },
+               {
+                  packUid   =   "01_sw"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01_sw"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "SEASON_5_SPACE_WOLVES"
+                     __type   =   "DlcLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_white_smg"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white_smg"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "023_White_Bolt_Carbine"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "02",
+                     "03",
+                     "03_b",
+                     "04",
+                     "04_b"
+                  ]
+               },
+               {
+                  packUid   =   "01_blue_smg"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue_smg"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "023_Blue_Bolt_Carbine"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "02",
+                     "03",
+                     "03_b",
+                     "04",
+                     "04_b"
+                  ]
+               },
+               {
+                  packUid   =   "01_red_smg"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red_smg"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "023_Red_Bolt_Carbine"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "02",
+                     "03",
+                     "03_b",
+                     "04",
+                     "04_b"
+                  ]
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   smg_occulus_bolt_carbine   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               },
+               {
+                  packUid   =   "03_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   13
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   16
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   19
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   22
+               },
+               {
+                  packUid   =   "04_c"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_c"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   25
+               },
+               {
+                  packUid   =   "01_white_scars"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white_scars"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "SEASON_8_WHITE_SCARS"
+                     __type   =   "DlcLockReason"
+                  }
+                  tiers   =   {
+                     COMMON   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "01"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_01"
+                                 }
+                                 PLR_CHAOS   =   {
+                                    __value   =   "skin_01_ch"
+                                 }
+                              }
+                              cost   =   0
+                              firearmVersionsExclusive   =   [
+                                 "01",
+                                 "02",
+                                 "03",
+                                 "03_b",
+                                 "04",
+                                 "04_b"
+                              ]
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     MASTERCRAFTED   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "02"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_02"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   1
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     ARTIFICER   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "03"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_03"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   4
+                           },
+                           {
+                              packUid   =   "03_b"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_03_b"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   7
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     RELIC   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "04"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_04"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   10
+                           },
+                           {
+                              packUid   =   "04_b"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_04_b"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   13
+                           },
+                           {
+                              packUid   =   "01_sw"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_01_sw"
+                                 }
+                              }
+                              type   =   "DLC"
+                              requiredDlcLock   =   {
+                                 dlcUid   =   "SEASON_5_SPACE_WOLVES"
+                                 __type   =   "DlcLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_white"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_white"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "023_White_Bolt_Carbine"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_blue"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_blue"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "023_Blue_Bolt_Carbine"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_red"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_red"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "023_Red_Bolt_Carbine"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                  }
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "021_White_Occulus_Bolt_Carbine"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+                  tiers   =   {
+                     COMMON   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "01"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_01"
+                                 }
+                                 PLR_CHAOS   =   {
+                                    __value   =   "skin_01_ch"
+                                 }
+                              }
+                              cost   =   0
+                              firearmVersionsExclusive   =   [
+                                 "01",
+                                 "02",
+                                 "03",
+                                 "03_b",
+                                 "04",
+                                 "04_b"
+                              ]
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     MASTERCRAFTED   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "02"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_02"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   1
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     ARTIFICER   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "03"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_03"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   4
+                           },
+                           {
+                              packUid   =   "03_b"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_03_b"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   7
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     RELIC   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "04"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_04"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   10
+                           },
+                           {
+                              packUid   =   "04_b"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_04_b"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   13
+                           },
+                           {
+                              packUid   =   "01_sw"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_01_sw"
+                                 }
+                              }
+                              type   =   "DLC"
+                              requiredDlcLock   =   {
+                                 dlcUid   =   "SEASON_5_SPACE_WOLVES"
+                                 __type   =   "DlcLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_white"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_white"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "023_White_Bolt_Carbine"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_blue"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_blue"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "023_Blue_Bolt_Carbine"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_red"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_red"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "023_Red_Bolt_Carbine"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "021_Blue_Occulus_Bolt_Carbine"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "021_Red_Occulus_Bolt_Carbine"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   pwpn_plasma_exterminator   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               },
+               {
+                  packUid   =   "03_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   13
+               },
+               {
+                  packUid   =   "03_c"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_c"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   16
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   19
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   22
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   25
+               },
+               {
+                  packUid   =   "04_c"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_c"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   28
+               },
+               {
+                  packUid   =   "01_if"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01_if"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "SEASON_7_IMPERIAL_FIST"
+                     __type   =   "DlcLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "013_White_Plasma_Exterminator"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "013_Blue_Plasma_Exterminator"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "013_Red_Plasma_Exterminator"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   shotgun_meltagun   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   16
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   19
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "020_White_Meltagun"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "020_Blue_Meltagun"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "020_Red_Meltagun"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   hgun_bolt_pistol   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   2
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  requiredVictoriesCount   =   5
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   8
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   11
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   14
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   17
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   20
+               },
+               {
+                  packUid   =   "01_twitch"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01_twitch"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "PREORDER"
+                     __type   =   "DlcLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "005_White_Bolt_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "005_Blue_Bolt_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "005_Red_Bolt_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   hgun_heavy_bolt_pistol   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   3
+               },
+               {
+                  packUid   =   "02_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   5
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   9
+               },
+               {
+                  packUid   =   "03_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   11
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   13
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   15
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   17
+               },
+               {
+                  lib   =   "FIREARM"
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "006_White_Heavy_Bolt_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "006_Blue_Heavy_Bolt_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "006_Red_Heavy_Bolt_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   hgun_plasma_pistol   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   3
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   5
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   9
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   11
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  requiredVictoriesCount   =   13
+               },
+               {
+                  packUid   =   "01_darkangels"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01_darkangels"
+                     }
+                  }
+                  type   =   "DLC"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "SEASON_2_DARK_ANGELS"
+                     __type   =   "DlcLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "007_White_Plasma_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "007_Blue_Plasma_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "007_Red_Plasma_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   hwpn_las_fusil   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               },
+               {
+                  packUid   =   "03_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   13
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   16
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   19
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   22
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "016_White_Las_Fusil"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "016_Blue_Las_Fusil"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "016_Red_Las_Fusil"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   hwpn_support_plasma_incinerator   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   2
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               },
+               {
+                  packUid   =   "02_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   6
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   8
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               },
+               {
+                  packUid   =   "03_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   12
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   14
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   16
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   18
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "018_White_Plasma_Incinerator"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "018_Blue_Plasma_Incinerator"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "018_Red_Plasma_Incinerator"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   hwpn_support_heavy_meltagun   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   2
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               },
+               {
+                  packUid   =   "02_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   6
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   8
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               },
+               {
+                  packUid   =   "03_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   12
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   14
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   16
+               },
+               {
+                  packUid   =   "04_b"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_b"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   18
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "019_White_Heavy_Meltagun"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "019_Blue_Heavy_Meltagun"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "019_Red_Heavy_Meltagun"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   brifle_marksman_bolt_carbine   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+                  firearmVersionsExclusive   =   [
+                     "01",
+                     "02_a",
+                     "03_a",
+                     "03_c",
+                     "04_a",
+                     "04_c"
+                  ]
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   4
+               },
+               {
+                  packUid   =   "03_c"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_c"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   10
+               },
+               {
+                  packUid   =   "04_c"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_c"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   13
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "023_White_Bolt_Carbine"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+                  tiers   =   {
+                     COMMON   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "01"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_01"
+                                 }
+                                 PLR_CHAOS   =   {
+                                    __value   =   "skin_01_ch"
+                                 }
+                              }
+                              cost   =   0
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     MASTERCRAFTED   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "02"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_02"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   1
+                           },
+                           {
+                              packUid   =   "02_a"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_02_a"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   4
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     ARTIFICER   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "03"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_03"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   7
+                           },
+                           {
+                              packUid   =   "03_a"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_03_a"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   10
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     RELIC   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "04"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_04"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   13
+                           },
+                           {
+                              packUid   =   "04_a"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_04_a"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   16
+                           },
+                           {
+                              packUid   =   "01_darkangels"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_01_darkangels"
+                                 }
+                              }
+                              type   =   "DLC"
+                              requiredDlcLock   =   {
+                                 dlcUid   =   "SEASON_2_DARK_ANGELS"
+                                 __type   =   "DlcLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_librarium"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_01_librarium"
+                                 }
+                              }
+                              researchCenterRewardLock   =   {
+                                 category   =   "ADEPTUS_ASTARTES"
+                                 rewardUid   =   "item_astartes"
+                                 __type   =   "ResearchCenterRewardLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_white"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_white"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "012_White_Auto_Bolt_Rifle"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_blue"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_blue"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "012_Blue_Auto_Bolt_Rifle"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_red"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_red"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "012_Red_Auto_Bolt_Rifle"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "023_Blue_Bolt_Carbine"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "023_Red_Bolt_Carbine"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   hgun_volkite_pistol   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   3
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   5
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   9
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   11
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "008_White_Volkite_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "008_Blue_Volkite_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "008_Red_Volkite_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   hgun_inferno_pistol   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  packUid   =   "01"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "skin_01_ch"
+                     }
+                  }
+                  cost   =   0
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  packUid   =   "02"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   1
+               },
+               {
+                  packUid   =   "02_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_02_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   3
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  packUid   =   "03"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   5
+               },
+               {
+                  packUid   =   "03_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_03_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   7
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  packUid   =   "04"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   9
+               },
+               {
+                  packUid   =   "04_a"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "skin_04_a"
+                     }
+                  }
+                  cost   =   40
+                  currency   =   "COMMON_CREDITS"
+                  requiredVictoriesCount   =   11
+               },
+               {
+                  packUid   =   "01_white"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_white"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "009_White_Inferno_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+                  tiers   =   {
+                     COMMON   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "01"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_01"
+                                 }
+                                 PLR_CHAOS   =   {
+                                    __value   =   "skin_01_ch"
+                                 }
+                              }
+                              cost   =   0
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     MASTERCRAFTED   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "02"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_02"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   1
+                           },
+                           {
+                              packUid   =   "02_a"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_02_a"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   3
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     ARTIFICER   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "03"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_03"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   5
+                           },
+                           {
+                              packUid   =   "03_a"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_03_a"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   7
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                     RELIC   =   {
+                        skins   =   [
+                           {
+                              packUid   =   "04"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_04"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   9
+                           },
+                           {
+                              packUid   =   "04_a"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "skin_04_a"
+                                 }
+                              }
+                              cost   =   40
+                              currency   =   "COMMON_CREDITS"
+                              requiredVictoriesCount   =   11
+                           },
+                           {
+                              packUid   =   "01_white"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_white"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "008_White_Volkite_Pistol"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_blue"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_blue"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "008_Blue_Volkite_Pistol"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           },
+                           {
+                              packUid   =   "01_red"
+                              firearmSkinUids   =   {
+                                 PLR_LOYALIST   =   {
+                                    __value   =   "01_red"
+                                 }
+                              }
+                              type   =   "HORDEMODE"
+                              hordemodeRewardLock   =   {
+                                 rewardUid   =   "008_Red_Volkite_Pistol"
+                                 __type   =   "HordemodeCharacterRewardLockReason"
+                              }
+                           }
+                        ]
+                        __type   =   "WeaponAppearanceTier"
+                     }
+                  }
+               },
+               {
+                  packUid   =   "01_blue"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_blue"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "009_Blue_Inferno_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               },
+               {
+                  packUid   =   "01_red"
+                  firearmSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01_red"
+                     }
+                  }
+                  type   =   "HORDEMODE"
+                  hordemodeRewardLock   =   {
+                     rewardUid   =   "009_Red_Inferno_Pistol"
+                     __type   =   "HordemodeCharacterRewardLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+   melee_power_axe   =   {
+      tiers   =   {
+         COMMON   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "01"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "01"
+                     }
+                     PLR_CHAOS   =   {
+                        __value   =   "01_ch"
+                     }
+                     NPC_LOYALIST   =   {
+                     }
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         MASTERCRAFTED   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "02"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "02"
+                     }
+                     NPC_LOYALIST   =   {
+                     }
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         ARTIFICER   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "03"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "03"
+                     }
+                     NPC_LOYALIST   =   {
+                     }
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "03_a"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "03_a"
+                     }
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+         RELIC   =   {
+            skins   =   [
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "04"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04"
+                     }
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "04_a"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04_a"
+                     }
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "04_b"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "04_b"
+                     }
+                  }
+               },
+               {
+                  lib   =   "MELEE"
+                  packUid   =   "twitch"
+                  meleeSkinUids   =   {
+                     PLR_LOYALIST   =   {
+                        __value   =   "twitch"
+                     }
+                  }
+                  type   =   "COMMON"
+                  requiredDlcLock   =   {
+                     dlcUid   =   "PREORDER"
+                     __type   =   "DlcLockReason"
+                  }
+               }
+            ]
+            __type   =   "WeaponAppearanceTier"
+         }
+      }
+      __type   =   "WeaponAppearanceInfo"
+   }
+}
+__type   =   "WeaponAppearanceLibrary"

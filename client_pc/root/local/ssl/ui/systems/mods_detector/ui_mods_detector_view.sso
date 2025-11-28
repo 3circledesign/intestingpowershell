@@ -1,0 +1,20 @@
+componentsList   =   {
+   UiDataDrivenComponent   =   {
+   }
+   UiStaticLocalizationComponent   =   {
+      textfields   =   [
+         {
+         }
+      ]
+   }
+}
+childs   =   {
+  
+}
+animation   =   {
+   type   =   {
+      __type   =   "fus_sequence"
+   }
+   __type   =   "FusionSequenceDesc"
+}
+__type   =   "UiFusionContainer"

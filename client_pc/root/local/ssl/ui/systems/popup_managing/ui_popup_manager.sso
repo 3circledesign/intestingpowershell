@@ -1,0 +1,69 @@
+popupInvokers   =   {
+   Endgame   =   {
+      __type   =   "UiEndgamePopupInvoker"
+   }
+   Permissions   =   {
+      __type   =   "UiPermissionsPopupInvoker"
+   }
+   GamepadDisconnect   =   {
+      __type   =   "UiGamepadDisconnectPopupInvoker"
+   }
+   debug   =   {
+      __type   =   "DbgPopupInvoker"
+   }
+   BackendBans   =   {
+      __type   =   "UiBackendBansPopupInvoker"
+   }
+   TrainingHall   =   {
+      __type   =   "UiTrainingHallPopupInvoker"
+   }
+   Crossplay   =   {
+      __type   =   "UiCrossplayPopupsInvoker"
+   }
+   AlwaysOnlinePopup   =   {
+      __type   =   "UiAlwaysOnlinePopupInvoker"
+   }
+   Party   =   {
+      __type   =   "UiPartyPopupInvoker"
+   }
+   Ps5Activity   =   {
+      __type   =   "UiPs5ActivityPopupInvoker"
+   }
+   StrictNatType   =   {
+      __type   =   "UiStrictNatPopupInvoker"
+   }
+   Pros   =   {
+      __type   =   "UiProsPopupInvoker"
+   }
+   RestartRequired   =   {
+      __type   =   "UiRestartRequiredPopupInvoker"
+   }
+   Dlc   =   {
+      __type   =   "UiDlcPopupInvoker"
+   }
+   DlssResetToDefault   =   {
+      __type   =   "UiDlssResetToDefaultPopupInvoker"
+   }
+   LeadershipFail   =   {
+      __type   =   "UiLeadershipFailPopupInvoker"
+   }
+   FutureMaintenance   =   {
+      __type   =   "UiFutureMaintenancePopupInvoker"
+   }
+   RecentPlayersBlocklistAction   =   {
+      __type   =   "UiRecentPlayersBlocklistActionPopupInvoker"
+   }
+   PublicTestServer   =   {
+      __type   =   "UiPublicTestServerPopupInvoker"
+   }
+   PrivateLobby   =   {
+      __type   =   "UiPvpPrivateLobbyPopupInvoker"
+   }
+   TrialMode   =   {
+      __type   =   "UiTrialModePopupInvoker"
+   }
+   EsrbRatingUpdate   =   {
+      __type   =   "UiEsrbRatingUpdatePopupInvoker"
+   }
+}
+__type   =   "object"
