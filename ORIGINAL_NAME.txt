@@ -1,0 +1,5 @@
+Upin & Ipin Universe
+Method: fuzzy
+Proposed: 3401920
+Chosen: 3401920
+Score: 100.0
