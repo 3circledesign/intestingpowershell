@@ -1,0 +1,5 @@
+Split Fiction - Tested OK
+Method: fuzzy
+Proposed: 2001120
+Chosen: 2001120
+Score: 100.0
