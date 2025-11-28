@@ -1,0 +1,5 @@
+Euro Truck Simulator 2
+Method: fuzzy
+Proposed: 227300
+Chosen: 227300
+Score: 100.0
