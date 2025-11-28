@@ -1,0 +1,5 @@
+GTA V Legacy
+Method: fuzzy
+Proposed: 271590
+Chosen: 271590
+Score: 68.82
