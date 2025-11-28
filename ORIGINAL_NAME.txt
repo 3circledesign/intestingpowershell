@@ -1,0 +1,5 @@
+Tabletop Simulator - Tested OK
+Method: fuzzy
+Proposed: 286160
+Chosen: 286160
+Score: 100.0
