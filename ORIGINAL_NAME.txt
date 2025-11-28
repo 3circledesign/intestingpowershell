@@ -1,0 +1,5 @@
+Sengoku Dynasty - Tested OK
+Method: fuzzy
+Proposed: 1702010
+Chosen: 1702010
+Score: 100.0
