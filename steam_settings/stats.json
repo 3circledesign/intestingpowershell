@@ -1,0 +1,236 @@
+[
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_1",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_2",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_3",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_4",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_5",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_6",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_7",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_8",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_9",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_10",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_11",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_12",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_13",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_14",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_15",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_16",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_17",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_18",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_19",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_20",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_21",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_22",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_23",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_24",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_25",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_26",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_27",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_28",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_29",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_30",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_31",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_32",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_33",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_34",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_35",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_36",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_37",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_38",
+    "type": "int"
+  },
+  {
+    "default": "0",
+    "global": "0",
+    "name": "stat_39",
+    "type": "int"
+  }
+]
