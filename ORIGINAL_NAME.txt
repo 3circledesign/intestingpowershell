@@ -1,0 +1,5 @@
+Together in Between
+Method: fuzzy
+Proposed: 2455340
+Chosen: 2455340
+Score: 100.0
