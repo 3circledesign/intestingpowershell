@@ -1,0 +1,5 @@
+Power Rangers Battle for the Grid Bypass
+Method: fuzzy
+Proposed: 1110100
+Chosen: 1110100
+Score: 91.26
