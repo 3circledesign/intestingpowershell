@@ -1,0 +1,5 @@
+Samurai Warriors 4 DX Online Patch
+Method: fuzzy
+Proposed: 2719200
+Chosen: 2719200
+Score: 100.0
