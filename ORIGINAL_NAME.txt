@@ -1,0 +1,5 @@
+FREEDOM WARS Remastered
+Method: fuzzy
+Proposed: 3004100
+Chosen: 3004100
+Score: 100.0
