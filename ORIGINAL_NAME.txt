@@ -1,0 +1,5 @@
+Nine-Ball Roulette - Tested OK
+Method: fuzzy
+Proposed: 3376250
+Chosen: 3376250
+Score: 100.0
