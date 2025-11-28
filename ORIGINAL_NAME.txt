@@ -1,0 +1,5 @@
+Way of the Hunter
+Method: fuzzy
+Proposed: 1288320
+Chosen: 1288320
+Score: 100.0
