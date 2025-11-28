@@ -1,0 +1,5 @@
+School 666 Online
+Method: fuzzy
+Proposed: 2802820
+Chosen: 2802820
+Score: 100.0
