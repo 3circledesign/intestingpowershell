@@ -1,0 +1,5 @@
+The King of Fighters XV
+Method: fuzzy
+Proposed: 1498570
+Chosen: 1498570
+Score: 100.0
