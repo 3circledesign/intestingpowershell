@@ -1,0 +1,5 @@
+Farming Simulator 25
+Method: fuzzy
+Proposed: 2300320
+Chosen: 2300320
+Score: 100.0
