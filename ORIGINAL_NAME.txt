@@ -1,0 +1,5 @@
+Satisfactory
+Method: fuzzy
+Proposed: 526870
+Chosen: 526870
+Score: 100.0
