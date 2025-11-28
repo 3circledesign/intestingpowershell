@@ -1,0 +1,5 @@
+Six Days in Fallujah - Tested OK
+Method: fuzzy
+Proposed: 1548850
+Chosen: 1548850
+Score: 100.0
