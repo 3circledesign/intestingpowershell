@@ -1,0 +1,5 @@
+Multiplayer Platform Golf
+Method: fuzzy
+Proposed: 2263920
+Chosen: 2263920
+Score: 71.9
