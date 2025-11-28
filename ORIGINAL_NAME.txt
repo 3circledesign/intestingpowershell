@@ -1,0 +1,5 @@
+Pushing it Togethe Sisyphus Coop
+Method: fuzzy
+Proposed: 2899090
+Chosen: 2899090
+Score: 73.21
