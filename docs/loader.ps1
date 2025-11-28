@@ -1,22 +1,10 @@
-<#
-loader.ps1 (v3) - Mod/patch file downloader (no DRM bypass logic)
-
-- Gets AppID from -AppID or env:PATCHID
-- Detects Steam path robustly (sanitizes null chars, validates steamapps)
-- Reads ALL Steam libraries from libraryfolders.vdf
-- Locates appmanifest_{AppID}.acf
-- Parses installdir
-- Downloads files from GitHub branch (default branch = AppID), recursively
-- Optional: extracts .rar if -ExtractRar
-#>
-
 [CmdletBinding()]
 param(
   [string] $AppID,
   [string] $RepoOwner = "3circledesign",
   [string] $RepoName  = "intestingpowershell",
-  [string] $RepoPath  = "",          # "" = repo root
-  [string] $Branch,                  # default = AppID
+  [string] $RepoPath  = "",
+  [string] $Branch,
   [switch] $ExtractRar,
   [string] $UnrarUrl = "https://raw.githubusercontent.com/3circledesign/intestingpowershell/main/UnRAR.exe"
 )
@@ -31,13 +19,12 @@ function Bad($m){ Write-Host $m -ForegroundColor Red }
 function Normalize-Dir([string]$p) {
   if ([string]::IsNullOrWhiteSpace($p)) { return $null }
 
-  # remove hidden null chars that can truncate console output (your "Steam path: f" symptom)
   $p = $p -replace "`0", ""
   $p = $p.Trim().Trim('"')
 
-  # handle "f" or "f:" -> "f:\"
-  if ($p -match '^[A-Za-z]$') { $p = "${p}:\\" }
-  elseif ($p -match '^[A-Za-z]:$') { $p = "$p\" }
+  # IMPORTANT FIX: avoid "$p:\" parsing error
+  if ($p -match '^[A-Za-z]$') { $p = $p + ":\\" }
+  elseif ($p -match '^[A-Za-z]:$') { $p = $p + "\" }
 
   try { return [IO.Path]::GetFullPath($p) } catch { return $p }
 }
@@ -47,10 +34,7 @@ function Is-ValidSteamPath([string]$p) {
   $p = Normalize-Dir $p
   if (-not (Test-Path $p)) { return $false }
 
-  # Steam folder should have steamapps directory
   if (Test-Path (Join-Path $p "steamapps")) { return $true }
-
-  # common case: registry points to Program Files (x86) but Steam is in subfolder
   if (Test-Path (Join-Path $p "Steam\steamapps")) { return $true }
 
   return $false
@@ -75,7 +59,6 @@ function Get-SteamInstallPath {
 
   foreach ($p in $candidates) {
     if (Is-ValidSteamPath $p) {
-      # if steamapps is in a "Steam" subfolder, correct it
       if (-not (Test-Path (Join-Path $p "steamapps")) -and (Test-Path (Join-Path $p "Steam\steamapps"))) {
         return (Normalize-Dir (Join-Path $p "Steam"))
       }
@@ -88,7 +71,6 @@ function Get-SteamInstallPath {
 
 function Get-SteamLibraries([string]$steamPath) {
   $libs = @()
-
   $steamPath = Normalize-Dir $steamPath
   if ($steamPath) { $libs += $steamPath }
 
@@ -99,13 +81,11 @@ function Get-SteamLibraries([string]$steamPath) {
 
   $txt = Get-Content $vdf -Raw
 
-  # new format: "1" { "path" "D:\\SteamLibrary" ... }
   foreach ($m in ([regex]'"(?:\d+)"\s*\{\s*[^}]*?"path"\s*"([^"]+)"').Matches($txt)) {
     $p = Normalize-Dir $m.Groups[1].Value
     if ($p) { $libs += $p }
   }
 
-  # old format: "1" "D:\\SteamLibrary"
   foreach ($m in ([regex]'"(?:\d+)"\s*"([^"]+)"').Matches($txt)) {
     $p = Normalize-Dir $m.Groups[1].Value
     if ($p -and $p -notmatch '^\d+$') { $libs += $p }
@@ -131,7 +111,7 @@ function Get-InstallDirFromAcf([string]$acfPath) {
 
 function Invoke-GitHubJson([string]$url) {
   Invoke-RestMethod -Uri $url -Headers @{
-    "User-Agent"="Steam-Mod-Downloader/3.0"
+    "User-Agent"="Steam-Mod-Downloader/4.0"
     "Accept"="application/vnd.github+json"
   } -Method Get
 }
@@ -141,7 +121,7 @@ function Download-File([string]$url,[string]$outFile) {
   $dir = Split-Path -LiteralPath $outFile -Parent
   if ([string]::IsNullOrWhiteSpace($dir)) { throw "Output directory is empty for outFile='$outFile'" }
   if (-not (Test-Path $dir)) { New-Item -ItemType Directory -Path $dir | Out-Null }
-  Invoke-WebRequest -Uri $url -Headers @{ "User-Agent"="Steam-Mod-Downloader/3.0" } -OutFile $outFile
+  Invoke-WebRequest -Uri $url -Headers @{ "User-Agent"="Steam-Mod-Downloader/4.0" } -OutFile $outFile
 }
 
 function Download-GitHubContentsRecursive {
@@ -161,7 +141,6 @@ function Download-GitHubContentsRecursive {
 
   $items = Invoke-GitHubJson $apiUrl
 
-  # File response = object, directory response = array
   if ($items -and $items.type -eq "file") {
     $rel = if ([string]::IsNullOrWhiteSpace($PathInRepo)) { $items.name } else { $PathInRepo }
     $dest = Join-Path $DestRoot $rel
@@ -184,7 +163,6 @@ function Download-GitHubContentsRecursive {
   }
 }
 
-# -------- main --------
 if (-not $AppID) { if ($env:PATCHID) { $AppID = $env:PATCHID } }
 if (-not $AppID) { Bad "❌ Error: No AppID provided. Use -AppID or set env:PATCHID."; exit 1 }
 if (-not $Branch) { $Branch = $AppID }
