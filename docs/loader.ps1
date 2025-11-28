@@ -186,12 +186,26 @@ $installDir = Get-InstallDirFromAcf $manifestPath
 if (-not $installDir) { Bad "❌ Could not parse 'installdir' from manifest."; exit 1 }
 Ok "📦 installdir: $installDir"
 
-$steamappsDir = Split-Path -LiteralPath $manifestPath -Parent
-$libRoot = (Get-Item -LiteralPath $steamappsDir).Parent.FullName
-$libRoot = Normalize-Dir $libRoot
+try {
+  $mp = Normalize-Dir $manifestPath
 
-$gamePath = Join-Path $libRoot ("steamapps\common\" + $installDir)
-Ok "📁 Game folder: $gamePath"
+  $steamappsDir = [System.IO.Path]::GetDirectoryName($mp)  # ...\steamapps
+  if ([string]::IsNullOrWhiteSpace($steamappsDir)) { throw "steamappsDir empty (manifestPath='$mp')" }
+
+  $libRootObj = [System.IO.Directory]::GetParent($steamappsDir)  # library root
+  if ($null -eq $libRootObj) { throw "libRoot is null (steamappsDir='$steamappsDir')" }
+
+  $libRoot = Normalize-Dir $libRootObj.FullName
+  if ([string]::IsNullOrWhiteSpace($libRoot)) { throw "libRoot empty" }
+
+  $gamePath = [System.IO.Path]::Combine($libRoot, "steamapps", "common", $installDir)
+  Ok "📁 Game folder: $gamePath"
+}
+catch {
+  Bad "❌ Failed building game path: $($_.Exception.Message)"
+  Bad $_.InvocationInfo.PositionMessage
+  exit 1
+}
 if (-not (Test-Path $gamePath)) { Bad "❌ Game folder does not exist: $gamePath"; exit 1 }
 
 try {
