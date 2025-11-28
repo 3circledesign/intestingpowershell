@@ -1,0 +1,5 @@
+CUSTOM MECH WARS
+Method: fuzzy
+Proposed: 2328310
+Chosen: 2328310
+Score: 56.08
