@@ -1,0 +1,5 @@
+Luma Island - Tested OK
+Method: fuzzy
+Proposed: 2408820
+Chosen: 2408820
+Score: 100.0
