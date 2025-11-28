@@ -1,0 +1,5 @@
+Go Fight Fantastic - Tested OK
+Method: fuzzy
+Proposed: 1183530
+Chosen: 1183530
+Score: 57.03
