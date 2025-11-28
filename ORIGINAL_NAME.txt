@@ -1,0 +1,5 @@
+Grocery Store Simulator - Tested OK
+Method: fuzzy
+Proposed: 2961880
+Chosen: 2961880
+Score: 100.0
