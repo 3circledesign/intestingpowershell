@@ -1,0 +1,5 @@
+Thrive Heavy Lies The Crown
+Method: fuzzy
+Proposed: 1245250
+Chosen: 1245250
+Score: 100.0
