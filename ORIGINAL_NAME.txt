@@ -1,0 +1,5 @@
+Darkest Dungeon - Tested OK
+Method: fuzzy
+Proposed: 262060
+Chosen: 262060
+Score: 100.0
