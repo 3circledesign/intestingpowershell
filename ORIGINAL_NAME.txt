@@ -1,0 +1,5 @@
+Elden Ring Nightreign Co-op v1.0.3
+Method: fuzzy
+Proposed: 2622380
+Chosen: 2622380
+Score: 89.9
