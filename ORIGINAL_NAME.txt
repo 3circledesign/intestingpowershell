@@ -1,0 +1,5 @@
+GTFO - Tested OK
+Method: fuzzy
+Proposed: 493520
+Chosen: 493520
+Score: 100.0
