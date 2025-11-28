@@ -1,0 +1,5 @@
+Puppet Team
+Method: fuzzy
+Proposed: 3030360
+Chosen: 3030360
+Score: 53.93
