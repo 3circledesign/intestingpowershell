@@ -1,0 +1,5 @@
+Hired2Die Online Patch
+Method: fuzzy
+Proposed: 1729140
+Chosen: 1729140
+Score: 36.67
