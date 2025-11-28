@@ -1,0 +1,93 @@
+"InstallScript"
+{
+	"Registry"
+	{
+		"HKEY_CURRENT_USER\\SOFTWARE\\Ubisoft\\Assassins Creed Odyssey"
+		{
+			"string"
+			{
+				"english"
+				{
+					"language"		"en-US"
+				}
+				"french"
+				{
+					"language"		"fr-FR"
+				}
+				"italian"
+				{
+					"language"		"it-IT"
+				}
+				"dutch"
+				{
+					"language"		"nl-NL"
+				}
+				"german"
+				{
+					"language"		"de-DE"
+				}
+				"russian"
+				{
+					"language"		"ru-RU"
+				}
+				"spanish"
+				{
+					"language"		"es-ES"
+				}
+				"Portuguese-Brazilian"
+				{
+					"language"		"pt-BR"
+				}
+				"japanese"
+				{
+					"language"		"ja-JP"
+				}
+				"Chinese-Simplified"
+				{
+					"language"		"zh-CN"
+				}
+				"Chinese-Traditional"
+				{
+					"language"		"zh-TW"
+				}
+				"polish"
+				{
+					"language"		"pl-PL"
+				}
+				"czech"
+				{
+					"language"		"cs-CZ"
+				}
+				"korean"
+				{
+					"language"		"ko-KO"
+				}
+				"arabic"
+				{
+					"language"		"ar-AA"
+				}
+			}
+		}
+	}
+	"Run Process"
+	{
+		"UplayLauncher"
+		{
+			"Process 1"		"%INSTALLDIR%\\Installer_Resources\\UPlayInstaller.exe"
+			"Command 1"		"/S"
+		}
+		"Visual C++ Redistributable"
+		{
+			"Process 1"		"%INSTALLDIR%\\Support\\Software\\VCRedist\\vc_redist.x64.exe"
+			"Command 1"		"/q"
+		}
+	}
+	"Firewall"
+	{
+		"Assassins Creed Odyssey"		"%INSTALLDIR%\\ACOdyssey.exe"
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"9ccff7ba9ba7c0e2cf635594d11346c68802829c9a04db9279132eed0228dede461c201b42bf87d371d69ef5520009f9e97e557081c6347f82ab9394558c453f70ce21574d556ac33e81176d60f2c54797f439e67d0c75d333e1c2bbf5a6239b8b1585323f0c4f81e41f9e26f2d180181503f2e3df6ce4906a82c175ad8b1346"
+}
