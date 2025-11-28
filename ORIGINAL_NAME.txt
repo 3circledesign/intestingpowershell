@@ -1,0 +1,5 @@
+FUEL Bypass
+Method: fuzzy
+Proposed: 12800
+Chosen: 12800
+Score: 59.33
