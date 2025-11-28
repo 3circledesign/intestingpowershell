@@ -1,0 +1,5 @@
+Tobacco Shop Simulator
+Method: fuzzy
+Proposed: 3211680
+Chosen: 3211680
+Score: 100.0
