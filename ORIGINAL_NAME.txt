@@ -1,0 +1,5 @@
+Entropy Survivors
+Method: fuzzy
+Proposed: 2602030
+Chosen: 2602030
+Score: 100.0
