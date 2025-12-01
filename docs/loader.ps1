@@ -1,247 +1,228 @@
-[CmdletBinding()]
-param(
-  [string] $AppID,
-  [string] $RepoOwner = "3circledesign",
-  [string] $RepoName  = "intestingpowershell",
-  [string] $RepoPath  = "",
-  [string] $Branch,
-  [switch] $ExtractRar,
-  [string] $UnrarUrl = "https://raw.githubusercontent.com/3circledesign/intestingpowershell/main/UnRAR.exe"
-)
+cls
+[Console]::InputEncoding = [System.Text.Encoding]::UTF8
 
-$ErrorActionPreference = "Stop"
+# ================== ASCII Banner ==================
+Write-Host -NoNewline "          _____                _____                    _____                    _____                    _____          `r" -ForegroundColor Blue
+Write-Host -NoNewline "         /\    \              /\    \                  /\    \                  /\    \                  /\    \         `r" -ForegroundColor Blue
+Write-Host -NoNewline "        /::\    \            /::\    \                /::\    \                /::\    \                /::\____\        `r" -ForegroundColor Blue
+Write-Host -NoNewline "       /::::\    \           \:::\    \              /::::\    \              /::::\    \              /::::|   |        `r" -ForegroundColor Blue
+Write-Host -NoNewline "      /::::::\    \           \:::\    \            /::::::\    \            /::::::\    \            /:::::|   |        `r" -ForegroundColor Blue
+Write-Host -NoNewline "     /:::/\:::\    \           \:::\    \          /:::/\:::\    \          /:::/\:::\    \          /::::::|   |        `r" -ForegroundColor Blue
+Write-Host -NoNewline "    /:::/__\:::\    \           \:::\    \        /:::/__\:::\    \        /:::/__\:::\    \        /:::/|::|   |        `r" -ForegroundColor Blue
+Write-Host -NoNewline "    \:::\   \:::\    \          /::::\    \      /::::\   \:::\    \      /::::\   \:::\    \      /:::/ |::|   |        `r" -ForegroundColor Blue
+Write-Host -NoNewline "  ___\:::\   \:::\    \        /::::::\    \    /::::::\   \:::\    \    /::::::\   \:::\    \    /:::/  |::|___|______  `r" -ForegroundColor Blue
+Write-Host -NoNewline " /\   \:::\   \:::\    \      /:::/\:::\    \  /:::/\:::\   \:::\    \  /:::/\:::\   \:::\    \  /:::/   |::::::::\    \ `r" -ForegroundColor Blue
+Write-Host -NoNewline "/::\   \:::\   \:::\____\    /:::/  \:::\____\/:::/__\:::\   \:::\____\/:::/  \:::\   \:::\____\/:::/    |:::::::::\____\`r" -ForegroundColor Blue
+Write-Host -NoNewline "\:::\   \:::\   \::/    /   /:::/    \::/    /\:::\   \:::\   \::/    /\::/    \:::\  /:::/    /\::/    / ~~~~~/:::/    /`r" -ForegroundColor Blue
+Write-Host -NoNewline " \:::\   \:::\   \/____/   /:::/    / \/____/  \:::\   \:::\   \/____/  \/____/ \:::\/:::/    /  \/____/      /:::/    / `r" -ForegroundColor Blue
+Write-Host -NoNewline "  \:::\   \:::\    \      /:::/    /            \:::\   \:::\    \               \::::::/    /               /:::/    /  `r" -ForegroundColor Blue
+Write-Host -NoNewline "   \:::\   \:::\____\    /:::/    /              \:::\   \:::\____\               \::::/    /               /:::/    /   `r" -ForegroundColor Blue
+Write-Host -NoNewline "    \:::\  /:::/    /    \::/    /                \:::\   \::/    /               /:::/    /               /:::/    /    `r" -ForegroundColor Blue
+Write-Host -NoNewline "     \:::\/:::/    /      \/____/                  \:::\   \/____/               /:::/    /               /:::/    /     `r" -ForegroundColor Blue
+Write-Host -NoNewline "      \::::::/    /                                 \:::\    \                  /:::/    /               /:::/    /      `r" -ForegroundColor Blue
+Write-Host -NoNewline "       \::::/    /                                   \:::\____\                /:::/    /               /:::/    /       `r" -ForegroundColor Blue
+Write-Host -NoNewline "        \::/    /                                     \::/    /                \::/    /                \::/    /        `r" -ForegroundColor Blue
+Write-Host -NoNewline "         \/____/                                       \/____/                  \/____/                  \/____/         `r" -ForegroundColor Blue
 
-function Info($m){ Write-Host $m -ForegroundColor Cyan }
-function Ok($m){ Write-Host $m -ForegroundColor Green }
-function Warn($m){ Write-Host $m -ForegroundColor Yellow }
-function Bad($m){ Write-Host $m -ForegroundColor Red }
-
-function Normalize-Dir([string]$p) {
-  if ([string]::IsNullOrWhiteSpace($p)) { return $null }
-
-  $p = $p -replace "`0", ""
-  $p = $p.Trim().Trim('"')
-
-  # IMPORTANT FIX: avoid "$p:\" parsing error
-  if ($p -match '^[A-Za-z]$')   { $p = $p + ':\' }
-  elseif ($p -match '^[A-Za-z]:$') { $p = $p + '\' }
-
-  try { return [IO.Path]::GetFullPath($p) } catch { return $p }
+# ================== Helper Functions ==================
+function Show-Header($title) {
+    $line = "═" * ($title.Length + 4)
+    Write-Host "╔$line╗" -ForegroundColor Cyan
+    Write-Host "║  $title  ║" -ForegroundColor Cyan
+    Write-Host "╚$line╝" -ForegroundColor Cyan
 }
 
-function Is-ValidSteamPath([string]$p) {
-  if ([string]::IsNullOrWhiteSpace($p)) { return $false }
-  $p = Normalize-Dir $p
-  if (-not (Test-Path $p)) { return $false }
+function Show-Info($msg) { Write-Host "[INFO] $msg" -ForegroundColor Yellow }
+function Show-Success($msg) { Write-Host "[OK] $msg" -ForegroundColor Green }
+function Show-Error($msg) { Write-Host "[ERROR] $msg" -ForegroundColor Red }
 
-  if (Test-Path (Join-Path $p "steamapps")) { return $true }
-  if (Test-Path (Join-Path $p "Steam\steamapps")) { return $true }
-
-  return $false
+function Show-Progress($current, $total, $msg) {
+    $percent = [int](($current / $total) * 100)
+    $barLength = 40
+    $filled = [int](($percent / 100) * $barLength)
+    $bar = ("█" * $filled) + ("-" * ($barLength - $filled))
+    Write-Host -NoNewline "`r[$bar] $percent% - $msg"
+    if ($current -eq $total) { Write-Host "" }
 }
 
-function Get-SteamInstallPath {
-  $raw = @()
+# ================== Step 0: AppID ==================
+if (-not $AppID) {
+    Show-Error "AppID not provided."
+    exit
+}
+Show-Header "Onennabe Patcher"
+Show-Info "Using AppID: $AppID"
 
-  foreach ($key in @(
-    "HKLM:\SOFTWARE\WOW6432Node\Valve\Steam",
-    "HKLM:\SOFTWARE\Valve\Steam",
-    "HKCU:\Software\Valve\Steam"
-  )) {
-    try {
-      $v = Get-ItemProperty $key -ErrorAction SilentlyContinue
-      if ($v.InstallPath) { $raw += $v.InstallPath }
-      if ($v.SteamPath)   { $raw += $v.SteamPath }
-    } catch {}
-  }
+# ================== Step 1: Detect Steam Path ==================
+Show-Header "Detecting Steam Installation"
+$steamPath = (Get-ItemProperty "HKLM:\SOFTWARE\WOW6432Node\Valve\Steam" -ErrorAction SilentlyContinue).InstallPath
+if (-not $steamPath) {
+    $steamPath = (Get-ItemProperty "HKCU:\Software\Valve\Steam" -ErrorAction SilentlyContinue).InstallPath
+}
+if (-not $steamPath) {
+    Show-Error "Steam installation not found!"
+    exit
+}
+Show-Success "Steam path detected: $steamPath"
 
-  $candidates = $raw | ForEach-Object { Normalize-Dir $_ } | Where-Object { $_ } | Select-Object -Unique
-
-  foreach ($p in $candidates) {
-    if (Is-ValidSteamPath $p) {
-      if (-not (Test-Path (Join-Path $p "steamapps")) -and (Test-Path (Join-Path $p "Steam\steamapps"))) {
-        return (Normalize-Dir (Join-Path $p "Steam"))
-      }
-      return $p
+# ================== Step 2: Find appmanifest ==================
+Show-Header "Locating App Manifest"
+Show-Info "Checking targetted folder..."
+$appManifest = $null
+$mainSteamApps = Join-Path $steamPath "steamapps"
+if (Test-Path $mainSteamApps) {
+    $acf = Get-ChildItem -Path $mainSteamApps -Filter "appmanifest_$AppID.acf" -ErrorAction SilentlyContinue | Select-Object -First 1
+    if ($acf) { $appManifest = $acf }
+}
+if (-not $appManifest) {
+    Show-Info "Not in main Steam folder. Scanning mounted drives..."
+    $drives = Get-PSDrive -PSProvider FileSystem | Select-Object -ExpandProperty Root
+    foreach ($drive in $drives) {
+        if (-not (Test-Path $drive)) { continue }
+        $libs = @((Join-Path $drive "SteamLibrary"), (Join-Path $drive "Steam"))
+        foreach ($lib in $libs) {
+            if (-not (Test-Path $lib)) { continue }
+            $steamApps = Join-Path $lib "steamapps"
+            if (-not (Test-Path $steamApps)) { continue }
+            $acf = Get-ChildItem -Path $steamApps -Filter "appmanifest_$AppID.acf" -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1
+            if ($acf) { $appManifest = $acf; break }
+        }
+        if ($appManifest) { break }
     }
-  }
+}
+if (-not $appManifest) {
+    Show-Error "AppID $AppID not found in any Steam library folder!"
+    exit
+}
+Show-Success "Found manifest: $($appManifest.FullName)"
 
-  return $null
+# ================== Step 3 & 4: Game Path ==================
+$acfContent = Get-Content $appManifest.FullName
+$installDirLine = $acfContent | Where-Object { $_ -match '"installdir"' }
+$installDir = ($installDirLine -split '"')[3]
+$libraryRoot = Split-Path (Split-Path $appManifest.FullName -Parent) -Parent
+$gamePath = Join-Path (Join-Path $libraryRoot "steamapps\common") $installDir
+Show-Success "Detected game folder: $gamePath"
+
+# ================== Step 5: Fetch GitHub Source ==================
+Show-Header "Fetching Patch Source"
+$branch     = $AppID
+$repo1Owner = "3circledesign"
+$repo1Name  = "intestingpowershell"
+$repo2Owner = "CrabBerjoget"
+$repo2Name  = "intestingpowershell"
+
+function Get-GitHubFiles($owner, $name, $branch) {
+    $url = "https://api.github.com/repos/$owner/$name/contents/?ref=$branch"
+    try { return Invoke-RestMethod -Uri $url -UseBasicParsing -Headers @{ "User-Agent" = "PowerShell" } }
+    catch { return $null }
 }
 
-function Get-SteamLibraries([string]$steamPath) {
-  $libs = @()
-  $steamPath = Normalize-Dir $steamPath
-  if ($steamPath) { $libs += $steamPath }
-
-  $vdf = Join-Path $steamPath "steamapps\libraryfolders.vdf"
-  if (-not (Test-Path $vdf)) {
-    return ($libs | Where-Object { $_ -and (Test-Path $_) } | Sort-Object -Unique)
-  }
-
-  $txt = Get-Content $vdf -Raw
-
-  foreach ($m in ([regex]'"(?:\d+)"\s*\{\s*[^}]*?"path"\s*"([^"]+)"').Matches($txt)) {
-    $p = Normalize-Dir $m.Groups[1].Value
-    if ($p) { $libs += $p }
-  }
-
-  foreach ($m in ([regex]'"(?:\d+)"\s*"([^"]+)"').Matches($txt)) {
-    $p = Normalize-Dir $m.Groups[1].Value
-    if ($p -and $p -notmatch '^\d+$') { $libs += $p }
-  }
-
-  return ($libs | Where-Object { $_ -and (Test-Path $_) } | Sort-Object -Unique)
+Show-Info "Fetching Source..."
+$filesList = Get-GitHubFiles $repo1Owner $repo1Name $branch
+if (-not $filesList) {
+    Show-Info "Refetching Source..."
+    $filesList = Get-GitHubFiles $repo2Owner $repo2Name $branch
+    if (-not $filesList) { Show-Error "No Patch for $branch yet!"; exit }
 }
+Show-Success "Patch Found."
 
-function Find-AppManifest([string[]]$libraries,[string]$appId) {
-  foreach ($lib in $libraries) {
-    if ([string]::IsNullOrWhiteSpace($lib)) { continue }
-    $candidate = Join-Path $lib "steamapps\appmanifest_$appId.acf"
-    if (Test-Path $candidate) { return $candidate }
-  }
-  return $null
-}
+# ================== Step 6: Download Files ==================
+Show-Header "Downloading Patch Files"
+$runspacePool = [runspacefactory]::CreateRunspacePool(1, 10)
+$runspacePool.Open()
+$runspaces = @()
+$totalFiles = $filesList.Count
 
-function Get-InstallDirFromAcf([string]$acfPath) {
-  $acf = Get-Content $acfPath -Raw
-  if ($acf -match '"installdir"\s+"([^"]+)"') { return $matches[1] }
-  return $null
-}
+for ($i = 0; $i -lt $totalFiles; $i++) {
+    $file = $filesList[$i]
+    if ($file.type -ne "file") { continue }
 
-function Invoke-GitHubJson([string]$url) {
-  Invoke-RestMethod -Uri $url -Headers @{
-    "User-Agent"="Steam-Mod-Downloader/4.0"
-    "Accept"="application/vnd.github+json"
-  } -Method Get
-}
+    $fileUrl = $file.download_url
+    $fileName = $file.name
+    $destination = Join-Path $gamePath $fileName
 
-function Download-File([string]$url,[string]$outFile) {
-  $outFile = Normalize-Dir $outFile
-  $dir = Split-Path -LiteralPath $outFile -Parent
-  if ([string]::IsNullOrWhiteSpace($dir)) { throw "Output directory is empty for outFile='$outFile'" }
-  if (-not (Test-Path $dir)) { New-Item -ItemType Directory -Path $dir | Out-Null }
-  Invoke-WebRequest -Uri $url -Headers @{ "User-Agent"="Steam-Mod-Downloader/4.0" } -OutFile $outFile
-}
+    Show-Progress ($i+1) $totalFiles "Downloading $fileName"
 
-function Download-GitHubContentsRecursive {
-  param(
-    [string]$Owner,[string]$Repo,[string]$BranchRef,[string]$PathInRepo,[string]$DestRoot
-  )
+    $ps = [powershell]::Create()
+    $ps.RunspacePool = $runspacePool
 
-  if ([string]::IsNullOrWhiteSpace($DestRoot)) { throw "DestRoot is empty" }
-
-  $apiUrl =
-    if ([string]::IsNullOrWhiteSpace($PathInRepo)) {
-      "https://api.github.com/repos/$Owner/$Repo/contents?ref=$BranchRef"
-    } else {
-      $p = $PathInRepo.TrimStart("/")
-      "https://api.github.com/repos/$Owner/$Repo/contents/$p?ref=$BranchRef"
-    }
-
-  $items = Invoke-GitHubJson $apiUrl
-
-  if ($items -and $items.type -eq "file") {
-    $rel = if ([string]::IsNullOrWhiteSpace($PathInRepo)) { $items.name } else { $PathInRepo }
-    $dest = Join-Path $DestRoot $rel
-    Info "⬇️  Downloading file: $rel"
-    Download-File -url $items.download_url -outFile $dest
-    return
-  }
-
-  foreach ($item in $items) {
-    if ($item.type -eq "file") {
-      $rel = if ([string]::IsNullOrWhiteSpace($PathInRepo)) { $item.name } else { Join-Path $PathInRepo $item.name }
-      $dest = Join-Path $DestRoot $rel
-      Info "⬇️  Downloading: $rel"
-      Download-File -url $item.download_url -outFile $dest
-    }
-    elseif ($item.type -eq "dir") {
-      $next = if ([string]::IsNullOrWhiteSpace($PathInRepo)) { $item.name } else { Join-Path $PathInRepo $item.name }
-      Download-GitHubContentsRecursive -Owner $Owner -Repo $Repo -BranchRef $BranchRef -PathInRepo $next -DestRoot $DestRoot
-    }
-  }
-}
-
-if (-not $AppID) { if ($env:PATCHID) { $AppID = $env:PATCHID } }
-if (-not $AppID) { Bad "❌ Error: No AppID provided. Use -AppID or set env:PATCHID."; exit 1 }
-if (-not $Branch) { $Branch = $AppID }
-
-Info "🚀 Running patch downloader for AppID: $AppID"
-Info "🔧 Repo: $RepoOwner/$RepoName | Branch: $Branch | Path: '$RepoPath'"
-
-$steamPath = Get-SteamInstallPath
-if (-not $steamPath) { Bad "❌ Steam installation not found / invalid (no steamapps)."; exit 1 }
-Ok "✅ Steam path: $steamPath"
-
-$libraries = Get-SteamLibraries $steamPath
-Info "📚 Libraries found:"
-$libraries | ForEach-Object { Write-Host "  - $_" -ForegroundColor Gray }
-
-$manifestPath = Find-AppManifest -libraries $libraries -appId $AppID
-if (-not $manifestPath) { Bad "❌ AppID $AppID not found (no appmanifest_$AppID.acf)."; exit 1 }
-Ok "✅ Found manifest: $manifestPath"
-
-$installDir = Get-InstallDirFromAcf $manifestPath
-if (-not $installDir) { Bad "❌ Could not parse 'installdir' from manifest."; exit 1 }
-Ok "📦 installdir: $installDir"
-
-try {
-  $mp = Normalize-Dir $manifestPath
-
-  $steamappsDir = [System.IO.Path]::GetDirectoryName($mp)  # ...\steamapps
-  if ([string]::IsNullOrWhiteSpace($steamappsDir)) { throw "steamappsDir empty (manifestPath='$mp')" }
-
-  $libRootObj = [System.IO.Directory]::GetParent($steamappsDir)  # library root
-  if ($null -eq $libRootObj) { throw "libRoot is null (steamappsDir='$steamappsDir')" }
-
-  $libRoot = Normalize-Dir $libRootObj.FullName
-  if ([string]::IsNullOrWhiteSpace($libRoot)) { throw "libRoot empty" }
-
-  $gamePath = [System.IO.Path]::Combine($libRoot, "steamapps", "common", $installDir)
-  Ok "📁 Game folder: $gamePath"
-}
-catch {
-  Bad "❌ Failed building game path: $($_.Exception.Message)"
-  Bad $_.InvocationInfo.PositionMessage
-  exit 1
-}
-if (-not (Test-Path $gamePath)) { Bad "❌ Game folder does not exist: $gamePath"; exit 1 }
-
-try {
-  Download-GitHubContentsRecursive -Owner $RepoOwner -Repo $RepoName -BranchRef $Branch -PathInRepo $RepoPath -DestRoot $gamePath
-  Ok "✅ Patch files downloaded!"
-} catch {
-  Bad "❌ GitHub download failed: $($_.Exception.Message)"
-  exit 1
-}
-
-if ($ExtractRar) {
-  $unrarPath = Join-Path $gamePath "UnRAR.exe"
-  if (-not (Test-Path $unrarPath)) {
-    Info "📦 Downloading UnRAR.exe..."
-    try { Download-File -url $UnrarUrl -outFile $unrarPath; Ok "✅ UnRAR.exe downloaded." }
-    catch { Warn "⚠️ Failed to download UnRAR.exe. Skipping extraction."; $unrarPath = $null }
-  }
-
-  if ($unrarPath -and (Test-Path $unrarPath)) {
-    $rarFiles = Get-ChildItem -Path $gamePath -Recurse -Filter "*.rar" -ErrorAction SilentlyContinue
-    if ($rarFiles) {
-      foreach ($rar in $rarFiles) {
-        $dest = $rar.DirectoryName
-        Info "🔍 Extracting: $($rar.FullName) -> $dest"
+    $ps.AddScript({
+        param($url, $out)
         try {
-          $p = Start-Process -FilePath $unrarPath -ArgumentList @("x","`"$($rar.FullName)`"","`"$dest`"","-y","-inul") -Wait -PassThru -WindowStyle Hidden
-          if ($p.ExitCode -eq 0) { Remove-Item $rar.FullName -Force; Ok "🗑️ Deleted: $($rar.Name)" }
-          else { Warn "⚠️ Extraction failed (exit code $($p.ExitCode)): $($rar.Name)" }
-        } catch { Warn "⚠️ Error extracting $($rar.Name): $($_.Exception.Message)" }
-      }
-      Ok "✅ RAR extraction complete!"
-    } else {
-      Warn "ℹ️ No .rar files found to extract."
-    }
-  }
+            # Suppress all runspace output streams
+            Invoke-WebRequest -Uri $url -OutFile $out -UseBasicParsing *> $null
+            Write-Host "[OK] Downloaded $out" -ForegroundColor Green
+        } catch {
+            Write-Host "[ERROR] Failed: $out" -ForegroundColor Red
+        }
+    }).AddArgument($fileUrl).AddArgument($destination)
+
+    # Save handle before any piping
+    $handle = $ps.BeginInvoke()
+    $runspaces += @{ PowerShell = $ps; Handle = $handle }
 }
 
-Ok "🎉 Done for AppID: $AppID"
-exit 0
+# Wait for all downloads and suppress EndInvoke output completely
+foreach ($r in $runspaces) {
+    if ($r.Handle) { $null = $r.PowerShell.EndInvoke($r.Handle) }
+    $r.PowerShell.Dispose()
+}
+$runspacePool.Close()
+$runspacePool.Dispose()
+Show-Success "All downloads completed!"
+
+# ================== Step 7: Ensure UnRAR.exe ==================
+Show-Header "Preparing for Extraction"
+$unrarPath = Join-Path $gamePath "UnRAR.exe"
+if (-not (Test-Path $unrarPath)) {
+    Show-Info "Downloading UnRAR.exe..."
+    try { Invoke-WebRequest -Uri "https://github.com/CrabBerjoget/intestingpowershell/raw/main/UnRAR.exe" -OutFile $unrarPath *> $null }
+    catch { Show-Error "Failed to download UnRAR.exe. Extraction will be skipped."; $unrarPath = $null }
+}
+
+# ================== Step 8: Extract RAR Files ==================
+Show-Header "Extracting RAR Files"
+$rarFiles = Get-ChildItem -Path $gamePath -Recurse -Filter *.rar
+$rarGroups = @{}
+foreach ($rar in $rarFiles) {
+    $baseName = ($rar.Name -replace '\.part\d+\.rar$', '') -replace '\.rar$', ''
+    if (-not $rarGroups.ContainsKey($baseName)) { $rarGroups[$baseName] = @() }
+    $rarGroups[$baseName] += $rar
+}
+
+$runspacePool = [runspacefactory]::CreateRunspacePool(1, 5)
+$runspacePool.Open()
+$runspaces = @()
+
+foreach ($group in $rarGroups.GetEnumerator()) {
+    $firstRar = $group.Value | Sort-Object FullName | Select-Object -First 1
+    if ($unrarPath -and (Test-Path $unrarPath)) {
+        Show-Info "Queueing extraction: $($firstRar.FullName)"
+
+        $ps = [powershell]::Create()
+        $ps.RunspacePool = $runspacePool
+
+        $ps.AddScript({
+            param($firstRarPath, $rarSet, $unrarExe)
+            $dest = Split-Path $firstRarPath -Parent
+            # Suppress all output streams from extraction
+            Start-Process -FilePath $unrarExe -ArgumentList "x `"$firstRarPath`" `"$dest`" -y -inul" -WindowStyle Hidden -Wait *> $null
+            foreach ($rarFile in $rarSet) {
+                if (Test-Path $rarFile.FullName) { Remove-Item $rarFile.FullName -Force }
+            }
+        }).AddArgument($firstRar.FullName).AddArgument($group.Value).AddArgument($unrarPath)
+
+        $handle = $ps.BeginInvoke()
+        $runspaces += @{ PowerShell = $ps; Handle = $handle }
+    }
+}
+
+foreach ($r in $runspaces) {
+    if ($r.Handle) { $null = $r.PowerShell.EndInvoke($r.Handle) }
+    $r.PowerShell.Dispose()
+}
+$runspacePool.Close()
+$runspacePool.Dispose()
+Show-Success "File extraction complete and cache cleaned up!"
+Show-Success "Happy Gaming!"
